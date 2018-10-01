@@ -1,0 +1,22 @@
+.hljs, code {
+  display: inline;
+  overflow-x: auto;
+  padding: 0.3rem;
+  color: rgb(51, 51, 51);
+  background: white;
+  max-width: 100%;
+  font-family: "SF Mono", "Monaco", "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+
+  background-color: $background-color;
+  box-shadow: none;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.hljs-block {
+  display: inline-block;
+  line-height: 170%;
+  padding: 1rem 1.5rem;
+}
+.hljs-tag { color: navy; font-weight: 400; }
+.hljs-attr { color: teal; }
+.hljs-string { color: rgb(221, 17, 68); }

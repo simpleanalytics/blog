@@ -1,0 +1,81 @@
+table.top-list tr td:first-child {
+  color: $secondary-color;
+  white-space: nowrap;
+  padding-right: .5rem;
+}
+table.top-list tr td:last-child a {
+  color: $text-color;
+  text-decoration: none;
+
+  @media (hover: hover) {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+table.top-list tr td[colspan]:first-child {
+  text-align: left;
+}
+.tabels {
+  display: flex;
+  @media (max-width: $breakpoint-medium) {
+    flex-wrap: wrap;
+  }
+}
+.tabels > div {
+  flex: 1 1 auto;
+}
+.tabels > div:last-of-type {
+  flex: 0 1 auto;
+  margin-left: auto;
+}
+@media (max-width: $breakpoint-medium) {
+  .tabels > div:first-of-type,
+  .tabels > div:last-of-type {
+    flex: 1 0 100%;
+  }
+}
+
+table.dimensions {
+  width: 100%;
+  .small {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 1px;
+  }
+  .bar {
+    position: relative;
+    width: 100%;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .bar > div {
+    position: absolute;
+    background-color: $graph-color;
+    top: 2px;
+    left: 0;
+    bottom: 2px;
+    overflow: hidden;
+    border-radius: 3px;
+    z-index: -1;
+  }
+  .bar span.percentage {
+    display: inline-block;
+    margin-left: .5rem;
+    color: $text-color;
+  }
+  .bar span.warning {
+    display: inline-block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    background-color: $secondary-color;
+    color: white;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: 2px;
+    border-radius: 3px;
+    padding: 1px 4px;
+  }
+}

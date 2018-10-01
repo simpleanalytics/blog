@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <title>
+    {% if page.title == blank %}
+      {{ page.title }} &middot; Simple Analytics
+    {% else %}
+      Blog of Simple Analytics
+    {% endif %}
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF4F64">
+  <meta name="msapplication-TileColor" content="#FF4F64">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Social -->
+  <meta name="description" content="Simple, easy and friendly analytics.">
+  <meta name="og:image" content="https://simpleanalytics.io/images/screenshot.png">
+  <meta name="twitter:image" content="https://simpleanalytics.io/images/screenshot.png">
+
+  <!-- Style -->
+  <link rel="stylesheet" type="text/css" href="/app.css">
+</head>
+<body class="">
+  <nav>
+    <ul>
+      <li>
+        <a href="/" class="brand">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+            <rect x="20" y="53" width="10" height="30"></rect>
+            <rect x="44" y="35" width="10" height="48"></rect>
+            <rect x="68" y="18" width="10" height="65"></rect>
+          </svg>
+          <span>Simple Analytics <span class="text-light">Blog</span></span>
+        </a>
+      </li>
+      <li class="menu-toggle">
+        <div class="hamburger hamburger--collapse" aria-label="Menu" aria-controls="navigation">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <script>
+    NodeList.prototype.forEach = Array.prototype.forEach;
+    HTMLCollection.prototype.forEach = Array.prototype.forEach;
+  </script>
+
+  <main>
+    {{content}}
+  </main>
+
+  <footer class="general">
+    <ul>
+      <li><a href="https://simpleanalytics.io/privacy">Privacy Policy</a></li>
+      <li><a href="https://simpleanalytics.io/terms-of-service">Terms of Service</a></li>
+      <li><a href="https://simpleanalytics.io/what-we-collect">What we collect</a></li>
+      <li class="m-l-a"><a href="https://twitter.com/harianus">Follow on Twitter</a></li>
+      <li><a href="https://adriaan.io/?ref=simpleanalytics">Built by Adriaan van Rossum</a></li>
+    </ul>
+  </footer>
+
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', function(event) {
+      event.target.closest('nav').classList.toggle('is-active');
+    }, false);
+  </script>
+
+  <script async src="https://cdn.simpleanalytics.io/hello.js"></script>
+  <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+</body>
+</html>

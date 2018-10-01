@@ -1,0 +1,130 @@
+.website-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1.5rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  padding: 0;
+  list-style: none;
+}
+.website-blocks li {
+  position: relative;
+  border: 1px solid $border-color;
+  flex: 0 0 calc(33% - 3rem);
+  margin: 1.5rem;
+  min-width: 0;
+  transition: background 150ms ease;
+  background-color: white;
+}
+@media (hover: hover) {
+  .website-blocks li:hover a.go-to-settings img {
+    opacity: 0.6;
+  }
+  .website-blocks li a.go-to-settings:hover img {
+    opacity: 1;
+  }
+}
+.website-blocks li a.go-to-settings {
+  @media (hover: hover) {
+    img {
+      opacity: 0.2;
+    }
+  }
+  display: flex;
+  transition: opacity 150ms ease;
+  position: absolute;
+  box-shadow: -3px 3px 8px 0px white;
+  top: 5px;
+  right: 5px;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.website-blocks li.no-data a.go-to-settings {
+  @media (max-width: $breakpoint-small) {
+    top: 10px;
+  }
+}
+
+.website-blocks li a.go-to-settings svg {
+  fill: $primary-color;
+  width: 15px;
+  height: 15px;
+}
+.website-blocks li a.go-to-stats {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (max-width: $breakpoint-small) {
+    h2 {
+      text-decoration: underline;
+    }
+  }
+}
+@media (hover: hover) {
+  .website-blocks li:hover {
+    border-color: $secondary-color;
+  }
+}
+.website-blocks .empty-chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 80px;
+  flex: 1 0 150px;
+}
+.website-blocks .empty-chart p {
+  margin: 2rem 1rem 0;
+  text-align: center;
+}
+.website-blocks .empty-chart p + p {
+  margin: 1rem 1rem 0;
+}
+@media (max-width: $breakpoint-medium) {
+  .website-blocks li {
+    margin: 1.5rem;
+    flex: 0 1 calc(50% - 3rem);
+  }
+}
+@media (max-width: $breakpoint-small) {
+  .website-blocks {
+    margin-top: 0;
+  }
+  .website-blocks li {
+    flex: 0 1 100%;
+    margin-bottom: 0;
+    margin: .5rem 1rem;
+  }
+  .website-blocks .empty-chart {
+    display: none;
+  }
+}
+.website-blocks h2, .website-blocks h3 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+.website-blocks h2 {
+  margin-right: .5rem;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.website-blocks h3 {
+  white-space: nowrap;
+  color: $primary-color;
+}
+.website-blocks footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .5rem 1rem 0.7rem;
+}

@@ -1,0 +1,31 @@
+---
+---
+
+$background-color: #EEF9FF;
+$border-color: #CCDCE6;
+$breakpoint-medium: 768px;
+$breakpoint-small: 425px;
+$button-active-color: #E6475A;
+$button-color: #FF4F64;
+$graph-color: rgba(191, 237, 245, 0.5);
+$icon-color: #9AA7B4;
+$link-active-color: #00B1CE;
+$link-color: #00C5E5;
+$primary-color: #FF4F64;
+$secondary-color: #00C5E5;
+$text-color: #415659;
+
+@import "code.scss";
+@import "dashboard.scss";
+@import "form.scss";
+@import "helpers.scss";
+@import "homepage.scss";
+@import "layouts.scss";
+@import "navigation.scss";
+@import "signup.scss";
+@import "stats.scss";
+@import "typography.scss";
+
+.text-light {
+  font-weight: 100;
+}
