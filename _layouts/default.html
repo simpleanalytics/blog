@@ -78,6 +78,38 @@
     document.querySelector('.hamburger').addEventListener('click', function(event) {
       event.target.closest('nav').classList.toggle('is-active');
     }, false);
+
+    var subscribeForm = document.querySelector('form.subscribe');
+    if (subscribeForm) {
+      subscribeForm.addEventListener('submit', function(event) {
+        // Don't do anything, browser!
+        event.preventDefault();
+
+        // Get email
+        var email = subscribeForm.querySelector('input[name="email"]')
+        var responseField = subscribeForm.querySelector('.response');
+        responseField.style.color = 'unset';
+
+        if (!/[^@\s]+@[^@\s]+\.[^@\s]+/.test(email.value)) {
+          responseField.textContent = 'Email address is invalid :(';
+          responseField.style.color = 'red';
+          responseField.style.display = 'block';
+          return;
+        }
+
+        var request = new XMLHttpRequest();
+        request.open('POST', 'https://simpleanalytics.io/subscribe', true);
+        request.setRequestHeader("Content-Type", "text/plain; charset=UTF-8");
+        request.send(JSON.stringify({ "email": email.value.trim(), "type": "blog" }));
+
+        // Show response
+        responseField.textContent = 'Thank you, keep you posted ;)';
+        responseField.style.display = 'block';
+
+        // Reset email field
+        email.value = '';
+      })
+    }
   </script>
 
   <script async src="https://cdn.simpleanalytics.io/hello.js"></script>

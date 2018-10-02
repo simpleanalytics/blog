@@ -6,7 +6,7 @@ layout: default
 
 <div class="related">
   <ul class="related-posts">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:100 %}
       <li>
         <h2>
           <a href="{{ post.url }}">{{ post.title }}</a>
@@ -19,3 +19,12 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+<form class="subscribe m-t-3">
+  <h3>Email me your next post</h3>
+  <p class="response" style="display: none;">Thank you, keep you posted ;)</p>
+  <p class="m-b-0">
+    <input name="email" placeholder="Enter email..." type="email">
+    <input class="button" value="Send" type="submit">
+  </p>
+</form>
