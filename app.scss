@@ -29,3 +29,29 @@ $text-color: #415659;
 .text-light {
   font-weight: 100;
 }
+
+ul.related-posts {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    margin: 0;
+  }
+}
+
+.tweet img {
+  max-width: 100%;
+  width: 400px;
+}
+
+.mini-avatar {
+  width: 30px;
+  height: 30px;
+  vertical-align: bottom;
+  border-radius: 50%;
+}
+
+.page img {
+  max-width: 100%;
+}

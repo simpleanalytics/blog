@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {% if page.title == blank %}
+    {% if page.title %}
       {{ page.title }} &middot; Simple Analytics
     {% else %}
       Blog of Simple Analytics
@@ -49,15 +49,19 @@
           </div>
         </div>
       </li>
+      <li class="menu-item m-l-a"><a href="https://simpleanalytics.io/?source=blog">Go to Simple Analytics &rarr;</a></li>
     </ul>
   </nav>
+
   <script>
     NodeList.prototype.forEach = Array.prototype.forEach;
     HTMLCollection.prototype.forEach = Array.prototype.forEach;
   </script>
 
   <main>
-    {{content}}
+    <section class="page">
+      {{content}}
+    </section>
   </main>
 
   <footer class="general">

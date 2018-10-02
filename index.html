@@ -1,3 +1,21 @@
 ---
 layout: default
 ---
+
+<h1>The blog of the privcay-first analytics tool</h1>
+
+<div class="related">
+  <ul class="related-posts">
+    {% for post in site.posts limit:3 %}
+      <li>
+        <h2>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <p>
+            <span class="text-muted">{{ post.date | date_to_string }}</span> - {{ post.excerpt | replace: '</p>', '' | replace: '<p>', '' }}
+            <a href="{{ post.url }}">Read more</a>
+          </p>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
