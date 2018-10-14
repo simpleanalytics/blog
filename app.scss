@@ -52,6 +52,19 @@ ul.related-posts {
   border-radius: 50%;
 }
 
-.page img {
-  max-width: 100%;
+.page {
+  img {
+    max-width: 100%;
+    margin: 2rem auto;
+    display: block;
+
+    &.limit-height {
+      max-height: 300px;
+    }
+
+    &.mini-avatar {
+      display: unset;
+      margin: unset;
+    }
+  }
 }
