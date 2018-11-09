@@ -1,5 +1,7 @@
 ---
 title: What is wrong with developers and why Simple Analytics is my first successful project
+author_slug: adriaan
+author: Adriaan van Rossum
 ---
 
 The first few weeks of Simple Analytics were super exciting/scary/hectic! I launched less than a month ago so I will write about the revenue (~$300 MRR) in the next post (when I have one month worth of data) but I would love to explain why this is my first successful project. It's the first project that I ever properly launched. I've built many websites, but for Simple Analytics I tried a different approach. Usually I built the website, show my friends and try to get some organic growth through search engines. This kind of works, but does not give a great start. So this time I did it different.

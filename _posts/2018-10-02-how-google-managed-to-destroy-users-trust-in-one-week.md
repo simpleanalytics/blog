@@ -1,5 +1,6 @@
 ---
 title: How Google managed to destroy users' trust in one week
+author_slug: mike
 author: Mike Timofiiv
 ---
 

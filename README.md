@@ -1,8 +1,12 @@
+### Install dependecies
+
+Run `gem install bundler jekyll && bundle update`
+
 ### Develop and build
 
-Run `jekyll serve` or `jekyll build`
+Run `bundle exec jekyll serve` or `bundle exec jekyll build`
 
-### Update
+### Update GitHub Pages
 
 ```
 bundle update github-pages
