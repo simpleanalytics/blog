@@ -22,5 +22,6 @@ Luckily I have NGINX log to syslog, from where I can get most of the lost reques
 
 - Set default_server to listen directive for port 80 and 443 in main app ([nginx docs](https://nginx.org/en/docs/http/server_names.html#miscellaneous_names))
 - Increased the syslog history to 90 days so I can recover visits from future issues
+- Save full post body to logs of Queue in case of HTTP code is `5xx` or `4xx`
 - Added a test script for a _Custom domain_ which checks every 60 seconds if the API and script are accessable and warns me via a phone call and Telegram notification when it fails
 - Tag new features as beta, so customers know it could error
