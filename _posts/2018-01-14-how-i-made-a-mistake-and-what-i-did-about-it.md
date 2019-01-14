@@ -1,5 +1,7 @@
 ---
 title: How I made a mistake and what I did about it
+author_slug: adriaan
+author: Adriaan van Rossum
 ---
 
 When your building new features you probably want to deploy them as fast as possible because you're too excited to show them to your customers. Or sometimes you're adding a new service to your server and you didn't know what kind of implication it could have. The last happened to me.
