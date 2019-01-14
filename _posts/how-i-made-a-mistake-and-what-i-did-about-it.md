@@ -6,7 +6,7 @@ When your building new features you probably want to deploy them as fast as poss
 
 Last few weeks back I deployed a new feature called _Custom domain_. This feature allows users of Simple Analytics to bypass ad blockers and tracking blockers. I believe people should be allowed to block tracking so Simple Analytics respects the Do Not Track setting of the browser. Unfortunately Simple Analytics is added to some privacy blocking lists, which I think is not fair because we take privacy very seriously (moved the servers to a very privacy friendly country: Iceland; encrypted our database server; actually delete data from the database when a user deletes something; allow people to download their data). After this feature was deployed a few users started using it.
 
-<img class="limit-height" src="/images/server.svg" alt="">
+<img class="limit-height" src="/images/bug.svg" alt="">
 
 Today I found a bug (thankfully by myself) when using the _Custom domain_-feature where the JavaScript was loading, but the API call did ask for a password. I looked up one of my customers' websites ([excuseme.wtf](https://excuseme.wtf/?ref=blog.simpleanalytics.io)) from who I know is using the _Custom domain_-feature. I checked [his stats](https://simpleanalytics.io/excuseme.wtf) and was terrified when I saw no visits for the last week. Immediately I started diggin' in my servers and trying to look for clues.
 
@@ -21,6 +21,8 @@ Next, to these servers, I have a Testing server and External server. The Testing
 I added a new monitoring app to the Queue server, this way I could remotely look if there where any problems in the server. It also gave me insights into CPU and memory use. I added an NGINX configuration file for this app so I could access it from outside. When added a new app I always test the NGINX configuration and reload it when succeeded `sudo nginx -t && sudo nginx -s reload`. NGINX didn't give any error and I could access my new installed monitoring app; I'm happy.
 
 Luckily I have NGINX logs, from where I can get most of the lost request back. These logs contained less information at the time and only showed the time, URL, and user agent.
+
+<img class="limit-height" src="/images/server.svg" alt="">
 
 ### What did I do to prevent this from happening?
 
