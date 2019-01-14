@@ -38,4 +38,4 @@ I added acceptance tests for the _Custom domain_-feature which checks if both th
 
 Lastly, I'm going to tag new features as beta, so customers know it might error and has not been tested to be called stable. Then it's up to the customer to take the risk and use the feature.
 
-I contacted the customers that where affected by this bug and offered them their money back for the month. They didn't find that necessary and said I shouldn't worry about it. I did my best to recover most of their data and with all the above actions I pretty sure this will not happen again.
+I contacted the customers that where affected by this bug and offered them their money back for the month. They didn't find that necessary and said I shouldn't worry about it. I did my best to recover most of their data and with all the above actions I'm pretty sure this will not happen again.
