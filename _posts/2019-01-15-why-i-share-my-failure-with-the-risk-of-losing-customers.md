@@ -4,6 +4,8 @@ author_slug: adriaan
 author: Adriaan van Rossum
 ---
 
+As the owner of Simple Analytics I think it’s super important to build user trust. It’s impossible to not make any mistakes so if a company never shares theirs, it’s probably not telling you any mistake. So here is mine.
+
 When you're building new features, you probably want to deploy them as fast as possible because you're too excited to show them to your customers. Or sometimes you're adding a new service to your server and you didn't know what kind of implication it could have. The latter happened to me.
 
 In the past couple of weeks I deployed a new feature called _Custom domain_. This feature allows users of Simple Analytics to bypass ad blockers and tracking blockers. I believe people should be allowed to block tracking, so Simple Analytics respects the Do Not Track setting of the browser. Unfortunately, Simple Analytics is added to some privacy blocking lists - which I think is not fair since we take privacy very seriously (moved the servers to a very privacy friendly country: Iceland; encrypted our database server; actually delete data from the database when a user deletes something; allow people to download their data). So the new feature was very welcome. After it was deployed a few users started using it.
@@ -39,3 +41,5 @@ I added acceptance tests for the _Custom domain_-feature which checks if both th
 Lastly, I'm going to tag new features as beta, so customers know it might error and has not been tested to be called stable. Then it's up to the customer to take the risk and use the feature.
 
 I contacted the customers that where affected by this bug and offered them their money back for the month. They didn't find that necessary and said I shouldn't worry about it. I did my best to recover most of their data and with all the above actions I'm pretty sure this will not happen again.
+
+Let’s change the transparency about our mistakes and I believe people will take your business more seriously. You show what you did about it and how capable you are. Some people would argue if it's smart, but I see this as a moment to show transparency.
