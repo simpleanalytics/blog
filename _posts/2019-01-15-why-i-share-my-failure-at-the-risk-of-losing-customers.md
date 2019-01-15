@@ -1,5 +1,5 @@
 ---
-title: Why I share my failure with the risk of losing customers
+title: Why I share my failure at the risk of losing customers
 author_slug: adriaan
 author: Adriaan van Rossum
 ---
