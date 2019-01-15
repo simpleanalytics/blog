@@ -1,5 +1,5 @@
 ---
-title: How I made a mistake and what I did about it
+title: Why I share my failure with the risk of losing customers
 author_slug: adriaan
 author: Adriaan van Rossum
 ---
