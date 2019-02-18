@@ -16,7 +16,7 @@ Today I found a bug (thankfully by myself) when using the _Custom domain_-featur
 
 ### Current setup
 
-Simple Analytics uses 4 servers to keep everything running as smooth as possible. We have the Queue-server, which is the server for collecting the visits from our JavaScripts. This is a different server from the Main-server because the Main-server is encrypted. If a server is encrypted it should only boot after entering a password (otherwise the encryption is useless). During an unlikely event, a reboot is required, I want to guarantee zero data loss. All data will be sent to the Queue-server that will send it to the Main-server. If the Main=server will not accept the request the Queue-server will "queue" (save) the request when the Main-server is backing up.
+Simple Analytics uses 4 servers to keep everything running as smooth as possible. We have the Queue-server, which is the server for collecting the visits from our JavaScripts. This is a different server from the Main-server because the Main-server is encrypted. If a server is encrypted it should only boot after entering a password (otherwise the encryption is useless). During an unlikely event, a reboot is required, I want to guarantee zero data loss. All data will be sent to the Queue-server that will send it to the Main-server. If the Main-server will not accept the request the Queue-server will "queue" (save) the request when the Main-server is backing up.
 
 Next, to these servers, I have a Testing-server and External-server. The Testing-server runs acceptance tests to monitor important flows and endpoints. The External-server is needed for the _Custom domain_-feature. Due to [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) I don't want to have customer SSL certificates on the same server as the Main-server for security reasons.
 
@@ -36,7 +36,7 @@ Firstly, I added the default server to the listen directive for port 80 and 443 
 
 Secondly, I increased the log history to 90 days so I can recover visits for future issues. The Queue-server and the Main-server now logs every failed request by anyone. This means every request that returns a TTP code `5xx` or `4xx` will be saved in the logs and can be recovered from it. It will require quite some work to get it done if needed, but it means no data loss.
 
-I added acceptance tests for the _Custom domain_ -a feature that checks if both the endpoints are still working as expected. If they don't comply, I would get a phone call and a Telegram message.
+I added acceptance tests for the _Custom domain_-feature that checks if both the endpoints are still working as expected. If they don't comply, I would get a phone call and a Telegram message.
 
 Lastly, I'm going to tag new features as "Beta version", so customers are aware or expected it to have errors as it would not have been completed for final relsease. Hence, it's up to the customers to take the chance and use the feature at their own risk.
 
