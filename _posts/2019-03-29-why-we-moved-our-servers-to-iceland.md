@@ -50,9 +50,11 @@ The law applies to telecommunication providers and mandates the retention of rec
 
 Although, Iceland is somewhat following the laws of the European Economic Area, it has its own approach to privacy. For example, the [Icelandic Data Protection Act](https://www.personuvernd.is/information-in-english/greinar/nr/438) encourages anonymity of user data. ISPs and content hosts are not held legally liable for the content that they host or transmit. According to Icelandic law, its not the domain name provider, but the registrant of an .is domain name that is responsible for ensuring the use of the domain is within the limits of the law ([ISNIC](https://www.isnic.is/en/domain/rules)). The government does not place any restrictions on anonymous communication and no registration is required when purchasing a SIM card.
 
+<img class="limit-height" src="/images/world-line-sf-ams.png" alt="">
+
 Another advantage from moving to Iceland is the climate and location of the country. Servers produce a lot of heat and while Reykjavík (Icelands capital where most data centers are located) is on average 40.41°F (4.67°C) it's a great location to cool down the servers. Meaning that for each watt used to run servers, storage and network equipment, proportionally very little is used for cooling, lighting and other overhead. On top of that Iceland is the world's largest green energy producer per capita and largest electricity producer per capita, with approximately 55,000 kWh per person per year. In comparison, the EU average is less than 6,000 kWh. Most hosting providers in Iceland get 100% of their electricity from renewable energy sources.
 
-The privacy-friendly laws and the environmental friendly approach of Iceland made it easy for us to choose them as the new location for our servers.
+If you draw a straight line from San Francisco to Amsterdam you will cross Iceland. Simple Analytics has most customers from the US and Europe, so it makes sense to pick this geographical location. The privacy-friendly laws and the environmental friendly approach of Iceland made it even more easy for us to choose them as the new location for our servers.
 
 ## Moving our servers
 
