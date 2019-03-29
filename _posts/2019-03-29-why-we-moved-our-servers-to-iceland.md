@@ -22,6 +22,8 @@ I got [a reply](https://github.com/easylist/easylist/pull/1855#issuecomment-4402
 
 I didn't like this reply at first, but after sharing it with my community, people pointed it out to me that he indeed was correct about the fact the US government is able to access the data of our users. At that time, our servers were indeed running on Digital Ocean and they could pull out our drive and read our data.
 
+<img class="limit-height" src="/images/safe.svg" alt="">
+
 The solution is somewhat technical so bear with me. You can make a stolen drive (or detached for whatever reason) unusable for others. This can be solved by encrypting the data on the drive which makes it very difficult to read the data for people without the encryption key _(Note: only Simple Analytics has this key)._ It would still be possible to get little parts of the data by physically reading out the memory of the server. Memory is easy explained as a type of a drive, which is small but super fast which allows the processor of the server to run efficiently. A server does not function without memory so we kind of need to trust the hosting provider.
 
 This challenged me to think where to move our servers.
@@ -31,6 +33,8 @@ This challenged me to think where to move our servers.
 I started with some basic searches and I found a Wikipedia page on [Internet censorship and surveillance by country](https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country#Reporters_Without_Borders). It contains a list of "Enemies of the Internet" by the Reporters without Borders, a Paris-based international non-governmental organization that advocates freedom of the press, which classifies a country as an enemy of the internet when "all of these countries mark themselves out not just for their capacity to censor news and information online but also for their almost systematic repression of Internet users."
 
 Apart from this list, there is an alliance called [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) a.k.a. FVEY. It's an alliance of Australia, Canada, New Zealand, the United Kingdom, and the United States. In recent years, documents have shown that they are intentionally spying on one another's citizens and sharing the collected information with each other in order to circumvent restrictive domestic regulations on spying ([sources](https://en.wikipedia.org/wiki/List_of_people_under_Five_Eyes_surveillance#cite_ref-8)). The former NSA contractor Edward Snowden, described the FVEY as a "supra-national intelligence organization that doesn't answer to the laws of its own countries." There are other countries working together with the FVEY in other international cooperatives including Denmark, France, the Netherlands, Norway, Belgium, Germany, Italy, Spain, and Sweden (so-called 14 Eyes). I couldn't find evidence of the 14 Eyes alliance abusing their combined intelligence.
+
+<img class="limit-height" src="/images/server-down.svg" alt="">
 
 At this point, we were pretty sure not to use any of the listed countries from the "Enemies of the Internet" list and just to be sure to skip the countries on the 14 Eyes alliance list. For Simple Analytics, this gave enough reason to avoid those countries for storing the data of our customers.
 
@@ -59,6 +63,8 @@ If you draw a straight line from San Francisco to Amsterdam you will cross Icela
 ## Moving our servers
 
 First, we needed to find a hosting provider in Iceland. There are quite a few and it's really hard to know if you have the best. We didn't have the resources to try them all, so instead, we set up some automatic scripts ([Ansible](https://en.wikipedia.org/wiki/Ansible_(software))) while setting up the server so we could easily move to another provider if we needed to. We choose [1984](https://1984hosting.com/), a company with the slogan "Safeguarding privacy and civil rights since 2006". We liked that slogan and asked them a few questions about how they would handle our data. They reassured us and we proceeded installing our main server and they only use electricity from renewable energy sources.
+
+<img class="limit-height" src="/images/server-status.svg" alt="">
 
 However, we hit a few roadblocks during this process. This section of the article is quite technical. Feel free to skip to the next. When you have an encrypted server you'll need to unlock it with a private key. This key can't be stored on the server as it defeats the purpose of encrypting. So if the key isn't on the server you need to enter it remotely. That's right, we need to enter the key when the server boots. Wait, but what happens with a power failure? Are all requests with page views to your server failing after a reboot?
 
