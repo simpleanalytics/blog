@@ -6,6 +6,8 @@ author: Adriaan van Rossum
 
 As the founder of Simple Analytics, I have always been mindful for the need of trust and transparency for our customers. We would like to be held accountable for our customers needs, so they can sleep in peace. The choices we make has to be optimal, in terms of privacy, for the visitors and our customers. One of the crucial choices to consider was, choosing the location of our servers.
 
+<img class="limit-height" src="/images/flag-map-of-iceland.svg" alt="">
+
 In the last few months, we moved our servers gradually to Iceland. In this blog post, I'd like to explain how we've achieved that, and most importantly, why. It wasn't an easy process and I would like to share our learnings. There are some technical parts in this article which I've tried to write in an understandable way, but forgive me if it's too technical.
 
 ## Why moving our servers?
