@@ -68,7 +68,7 @@ First, we needed to find a hosting provider in Iceland. There are quite a few an
 
 However, we hit a few roadblocks during this process. This section of the article is quite technical. Feel free to skip to the next. When you have an encrypted server you'll need to unlock it with a private key. This key can't be stored on the server as it defeats the purpose of encrypting. So if the key isn't on the server you need to enter it remotely. That's right, we need to enter the key when the server boots. Wait, but what happens with a power failure? Are all requests with page views to your server failing after a reboot?
 
-That's why we added an extra server in front of the mail (main?) server. This server is kind of stupid. It just receives the requests with page views and sends it directly to our main server. When the main server is failing it will store the requests in its own database and re-attemps those requests to the main server until it succeeds. So after a power failure, there is no data loss anymore.
+That's why we added an extra server in front of the main server. This server is kind of stupid. It just receives the requests with page views and sends it directly to our main server. When the main server is failing it will store the requests in its own database and re-attemps those requests to the main server until it succeeds. So after a power failure, there is no data loss anymore.
 
 Back to booting up the server. When the encrypted main server boots we need to enter a password. But we don't want to travel to Iceland or ask somebody there to enter it, for obvious reasons. To access a server remotely you usually use SSH. SSH - is a secure communication protocol, that most people use to communicate with their servers. SSH is a program which is accessible when a server or computer is running. But we needed it to connect before the server was completely started/rebooted/turned on.
 
@@ -85,6 +85,8 @@ It's common practice to [soft delete](http://abstraction.blog/2015/06/28/soft-vs
 > We don't have delete_at fields ;-)
 
 For customers, it's important to know what data is kept and what is deleted. When somebody deletes their data we show them [a page with exactly that](https://simpleanalytics.io/deleted). We delete the user and their analytics from our database. We also delete the credit card and email from Stripe (our payment provider). We keep the payment history, which is needed for taxes and keep our log files and database backups for 90 days.
+
+<img class="limit-height" src="/images/personal-data.svg" alt="">
 
 Question: If you only store little sensitive data, what's the need for all this protection and extra security?
 
