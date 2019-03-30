@@ -14,7 +14,7 @@ In the last few months, we moved our servers gradually to Iceland. In this blog 
 
 ## Why moving our servers?
 
-It all started with our website being added to [EasyList](https://easylist.to/). It's a list with domain names which are used by popular ad-blockers. I asked why Simple Analytics was added because we don't track visitors of our customers' websites. We even [respect](https://github.com/simpleanalytics/cdn.simpleanalytics.io/blob/fae87364ae6dc2e26827fb9438745a8ac0c8024d/hello.js#L41-L42) the "Do Not Track" settings in the browser.
+It all started with our website being added to [EasyList](https://easylist.to/). It's a list with domain names which are used by popular ad-blockers. I asked why Simple Analytics was added, because we don't track visitors of our customers' websites. We even [respect](https://github.com/simpleanalytics/cdn.simpleanalytics.io/blob/fae87364ae6dc2e26827fb9438745a8ac0c8024d/hello.js#L41-L42) the "Do Not Track" settings in the browser.
 
 So I [replied the following](https://github.com/easylist/easylist/pull/1855#issuecomment-440241758) to the [Pull Request on GitHub](https://github.com/easylist/easylist/pull/1855):
 
@@ -24,7 +24,7 @@ I got [a reply](https://github.com/easylist/easylist/pull/1855#issuecomment-4402
 
 > Everyone says what you are saying, but I don't want to see my requests sent to a US company (in your case, Digital Ocean [...]
 
-I didn't like this reply at first, but after sharing it with my community, people pointed it out to me that he indeed was correct about the fact the US government is able to access the data of our users. At that time, our servers were indeed running on Digital Ocean and they could pull out our drive and read our data.
+I didn't like this reply at first, but after sharing it with my community people pointed it out to me that he indeed was correct about the fact the US government is able to access the data of our users. At that time, our servers were indeed running on Digital Ocean and they could pull out our drive and read our data.
 
 <img class="limit-height" src="/images/safe.svg" alt="">
 
@@ -34,7 +34,7 @@ This challenged me to think where to move our servers.
 
 ## Our next location
 
-I started with some basic searches and I found a Wikipedia page on [Internet censorship and surveillance by country](https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country#Reporters_Without_Borders). It contains a list of "Enemies of the Internet" by the Reporters without Borders, a Paris-based international non-governmental organization that advocates freedom of the press, which classifies a country as an enemy of the internet when "all of these countries mark themselves out not just for their capacity to censor news and information online but also for their almost systematic repression of Internet users."
+I started with some basic searches and found a Wikipedia page on [Internet censorship and surveillance by country](https://en.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country#Reporters_Without_Borders). It contains a list of "Enemies of the Internet" by the Reporters without Borders, a Paris-based international non-governmental organization that advocates freedom of the press, which classifies a country as an enemy of the internet when "all of these countries mark themselves out not just for their capacity to censor news and information online but also for their almost systematic repression of Internet users."
 
 Apart from this list, there is an alliance called [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) a.k.a. FVEY. It's an alliance of Australia, Canada, New Zealand, the United Kingdom, and the United States. In recent years, documents have shown that they are intentionally spying on one another's citizens and sharing the collected information with each other in order to circumvent restrictive domestic regulations on spying ([sources](https://en.wikipedia.org/wiki/List_of_people_under_Five_Eyes_surveillance#cite_ref-8)). The former NSA contractor Edward Snowden, described the FVEY as a "supra-national intelligence organization that doesn't answer to the laws of its own countries." There are other countries working together with the FVEY in other international cooperatives including Denmark, France, the Netherlands, Norway, Belgium, Germany, Italy, Spain, and Sweden (so-called 14 Eyes). I couldn't find evidence of the 14 Eyes alliance abusing their combined intelligence.
 
@@ -42,7 +42,7 @@ Apart from this list, there is an alliance called [Five Eyes](https://en.wikiped
 
 At this point, we were pretty sure not to use any of the listed countries from the "Enemies of the Internet" list and just to be sure to skip the countries on the 14 Eyes alliance list. For Simple Analytics, this gave enough reason to avoid those countries for storing the data of our customers.
 
-The Wikipedia page earlier mentioned reads the following for Iceland:
+The Wikipedia page mentioned earlier reads the following for Iceland:
 
 > Censorship is prohibited by the Icelandic Constitution and there is a strong tradition of protecting freedom of expression that extends to the use of the Internet. [...]
 
@@ -60,13 +60,13 @@ Although, Iceland is somewhat following the laws of the European Economic Area, 
 
 <img class="limit-height" src="/images/world-line-sf-ams.png" alt="">
 
-Another advantage from moving to Iceland is the climate and location of the country. Servers produce a lot of heat and while Reykjavík (Icelands capital where most data centers are located) is on average 40.41°F (4.67°C) it's a great location to cool down the servers. Meaning that for each watt used to run servers, storage and network equipment, proportionally very little is used for cooling, lighting and other overhead. On top of that Iceland is the world's largest green energy producer per capita and largest electricity producer per capita, with approximately 55,000 kWh per person per year. In comparison, the EU average is less than 6,000 kWh. Most hosting providers in Iceland get 100% of their electricity from renewable energy sources.
+Another advantage from moving to Iceland is the climate and location of the country. Servers produce a lot of heat and Reykjavík (Iceland's capital, where most data centers are located) is on average 40.41°F (4.67°C), meaning it's a great location to cool down the servers. For each watt used to run servers, storage and network equipment, proportionally very little is used for cooling, lighting and other overhead. On top of that, Iceland is the world's largest green energy producer per capita and largest electricity producer per capita, with approximately 55,000 kWh per person per year. In comparison, the EU average is less than 6,000 kWh. Most hosting providers in Iceland get 100% of their electricity from renewable energy sources.
 
 If you draw a straight line from San Francisco to Amsterdam you will cross Iceland. Simple Analytics has most customers from the US and Europe, so it makes sense to pick this geographical location. The privacy-friendly laws and the environmental friendly approach of Iceland made it even more easy for us to choose them as the new location for our servers.
 
 ## Moving our servers
 
-First, we needed to find a hosting provider in Iceland. There are quite a few and it's really hard to know if you have the best. We didn't have the resources to try them all, so instead, we set up some automatic scripts ([Ansible](https://en.wikipedia.org/wiki/Ansible_(software))) while setting up the server so we could easily move to another provider if we needed to. We choose [1984](https://1984hosting.com/), a company with the slogan "Safeguarding privacy and civil rights since 2006". We liked that slogan and asked them a few questions about how they would handle our data. They reassured us and we proceeded installing our main server and they only use electricity from renewable energy sources.
+First, we needed to find a hosting provider in Iceland. There are quite a few, and it's really hard to know if you have the best. We didn't have the resources to try them all, so instead, we set up some automatic scripts ([Ansible](https://en.wikipedia.org/wiki/Ansible_(software))) while setting up the server so we could easily move to another provider if we needed to. We choose [1984](https://1984hosting.com/), a company with the slogan "Safeguarding privacy and civil rights since 2006". We liked that slogan and asked them a few questions about how they would handle our data. They reassured us, and we proceeded installing our main server and they only use electricity from renewable energy sources.
 
 <img class="limit-height" src="/images/server-status.svg" alt="">
 
@@ -84,7 +84,7 @@ After moving our data from our old server to our new server in Iceland we were f
 
 At Simple Analytics we live by the saying: "Only store data you need." We only [collect](http://simpleanalytics.io/what-we-collect) the minimal.
 
-It's common practice to [soft delete](http://abstraction.blog/2015/06/28/soft-vs-hard-delete) data in applications. This means that the data is not really deleted but it's made inaccessible by the end user. We don't do this, if you delete your data, it's gone from our database. We use hard delete. _Note: it will be in our encrypted backups for a maximum of 90 days. In case of a bug we can retrieve this data._
+It's common practice to [soft delete](http://abstraction.blog/2015/06/28/soft-vs-hard-delete) data in applications. This means that the data is not really deleted but it's made inaccessible by the end user. We don't do this - if you delete your data, it's gone from our database. We use hard delete. _Note: it will be in our encrypted backups for a maximum of 90 days. In case of a bug we can retrieve this data._
 
 > We don't have delete_at fields ;-)
 
