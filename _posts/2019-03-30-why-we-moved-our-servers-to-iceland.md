@@ -50,7 +50,7 @@ The Wikipedia page mentioned earlier reads the following for Iceland:
 
 While researching the best country, privacy-wise, Iceland kept popping up. So I did some thorough research on Iceland. Please keep in mind that I don't speak Icelandic which may have resulted in missing important information. [Let us know](https://simpleanalytics.io/feedback) if you have any feedback.
 
-According to the [Freedom on the Net 2018 report](https://freedomhouse.org/report/countries-net-freedom-2018) (from the Freedom House), Iceland together with Estonia scored a 6/100 (lower is better) on the Internet Freedom Score. This makes them the best privacy-friendly countries. Be aware that not every country has been rated.
+According to the [Freedom on the Net 2018 report](https://freedomhouse.org/report/countries-net-freedom-2018) (from the Freedom House), Iceland together with Estonia scored a 6/100 (lower is better) on the Internet Freedom Score. This makes them one of the best privacy-friendly countries. Be aware that not every country has been rated.
 
 Iceland is not a member of the European Union, although the country is part of the European Economic Area and has agreed to follow legislation regarding consumer protection and business law similar to other member states. This includes the Electronic Communications Act 81/2003 which implemented data retention requirements.
 
