@@ -2,3 +2,4 @@ permalink: /:title
 post_dirs: true
 plugins:
   - jekyll-feed
+hostname: blog.simpleanalytics.io

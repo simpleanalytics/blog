@@ -4,7 +4,7 @@ Run `gem install bundler jekyll && bundle update`
 
 ### Develop and build
 
-Run `bundle exec jekyll serve` or `bundle exec jekyll build`
+Run `bundle exec jekyll serve --port 4001` or `bundle exec jekyll build`
 
 ### Update GitHub Pages
 
