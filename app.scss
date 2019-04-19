@@ -32,6 +32,29 @@ $text-muted: #777;
 @import "signup.scss";
 @import "stats.scss";
 @import "typography.scss";
+@import "highlighting.scss";
+
+.text-light {
+  font-weight: 100;
+}
+
+blockquote {
+  border-left: 5px solid #00C5E5;
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  background-color: #EEF9FF;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+
+  > p:first-of-type {
+    margin-top: 0;
+  }
+  > p:last-of-type {
+    margin-bottom: 0;
+  }
+}
 
 .text-light {
   font-weight: 100;

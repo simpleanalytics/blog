@@ -6,7 +6,7 @@ author: Adriaan van Rossum
 
 As the founder of Simple Analytics, I have always been mindful for the need of trust and transparency for our customers. We would like to be held accountable for our customers needs, so they can sleep in peace. The choices we make has to be optimal, in terms of privacy, for the visitors and our customers. One of the crucial choices to consider was, choosing the location of our servers.
 
-> <a href="https://news.ycombinator.com/item?id=19526521">Join the discussion on Hacker News</a>
+> Read the discussion <a href="https://news.ycombinator.com/item?id=19526521">on Hacker News</a>
 
 <img class="limit-height" src="/images/flag-map-of-iceland.svg?v1" alt="">
 
