@@ -12,7 +12,7 @@ In the past couple of weeks I deployed a new feature called _Custom domain_. Thi
 
 <img class="limit-height" src="/images/bug.svg" alt="">
 
-Today I found a bug (thankfully by myself) when using the _Custom domain_-feature where the JavaScript was loading, but the API-call asked for a password. I looked up one of my customers' websites ([excuseme.wtf](https://excuseme.wtf/?ref=blog.simpleanalytics.io)) who I know was using the _Custom domain_-feature. I checked [his stats](https://simpleanalytics.io/excuseme.wtf) and was horrified to find out there weren't any visits for the last week. Immediately I started digging into my servers, looking for clues.
+Today I found a bug (thankfully by myself) when using the _Custom domain_-feature where the JavaScript was loading, but the API-call asked for a password. I looked up one of my customers' websites ([excuseme.wtf](https://excuseme.wtf/?ref={{ site.hostname }})) who I know was using the _Custom domain_-feature. I checked [his stats](https://simpleanalytics.com/excuseme.wtf) and was horrified to find out there weren't any visits for the last week. Immediately I started digging into my servers, looking for clues.
 
 ### Current setup
 
@@ -32,7 +32,7 @@ Luckily, I have a directory/records of NGINX logs, from where I can retrieve mos
 
 While this bug didn't affect a lot of customers and didn't have a significant amount of data loss, I want to do everything I can to prevent this from happening in the future. The bug was created by adding another app to the same server which didn't have any server directive being defined as the default server. NGINX then tries it's best to select a server as the default server and sends the requests to the app defined in that server.
 
-Firstly, I added the default server to the listen directive for port 80 and 443 in the main app ([nginx docs](https://nginx.org/en/docs/http/server_names.html#miscellaneous_names)). The main app on that server was the external app that manages the certificates for the _Custom domain_-feature and replies with a script and API endpoint does not use Simple Analytics URLs which makes it hard to block. 
+Firstly, I added the default server to the listen directive for port 80 and 443 in the main app ([nginx docs](https://nginx.org/en/docs/http/server_names.html#miscellaneous_names)). The main app on that server was the external app that manages the certificates for the _Custom domain_-feature and replies with a script and API endpoint does not use Simple Analytics URLs which makes it hard to block.
 
 Secondly, I increased the log history to 90 days so I can recover visits for future issues. The Queue-server and the Main-server now logs every failed request by anyone. This means every request that returns a TTP code `5xx` or `4xx` will be saved in the logs and can be recovered from it. It will require quite some work to get it done if needed, but it means no data loss.
 

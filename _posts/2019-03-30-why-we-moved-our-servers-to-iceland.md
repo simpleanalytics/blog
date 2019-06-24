@@ -6,8 +6,6 @@ author: Adriaan van Rossum
 
 As the founder of Simple Analytics, I have always been mindful for the need of trust and transparency for our customers. We would like to be held accountable for our customers needs, so they can sleep in peace. The choices we make has to be optimal, in terms of privacy, for the visitors and our customers. One of the crucial choices to consider was, choosing the location of our servers.
 
-> Read the discussion <a href="https://news.ycombinator.com/item?id=19526521">on Hacker News</a>
-
 <img class="limit-height" src="/images/flag-map-of-iceland.svg?v1" alt="">
 
 In the last few months, we moved our servers gradually to Iceland. In this blog post, I'd like to explain how we've achieved that, and most importantly, why. It wasn't an easy process and I would like to share our learnings. There are some technical parts in this article which I've tried to write in an understandable way, but forgive me if it's too technical.
@@ -48,7 +46,7 @@ The Wikipedia page mentioned earlier reads the following for Iceland:
 
 ## Iceland
 
-While researching the best country, privacy-wise, Iceland kept popping up. So I did some thorough research on Iceland. Please keep in mind that I don't speak Icelandic which may have resulted in missing important information. [Let us know](https://simpleanalytics.io/feedback) if you have any feedback.
+While researching the best country, privacy-wise, Iceland kept popping up. So I did some thorough research on Iceland. Please keep in mind that I don't speak Icelandic which may have resulted in missing important information. [Let us know](https://simpleanalytics.com/feedback) if you have any feedback.
 
 According to the [Freedom on the Net 2018 report](https://freedomhouse.org/report/countries-net-freedom-2018) (from the Freedom House), Iceland together with Estonia scored a 6/100 (lower is better) on the Internet Freedom Score. This makes them one of the best privacy-friendly countries. Be aware that not every country has been rated.
 
@@ -82,13 +80,13 @@ After moving our data from our old server to our new server in Iceland we were f
 
 ## Only storing the data you need
 
-At Simple Analytics we live by the saying: "Only store data you need." We only [collect](http://simpleanalytics.io/what-we-collect) the minimal.
+At Simple Analytics we live by the saying: "Only store data you need." We only [collect](http://simpleanalytics.com/what-we-collect) the minimal.
 
 It's common practice to [soft delete](http://abstraction.blog/2015/06/28/soft-vs-hard-delete) data in applications. This means that the data is not really deleted but it's made inaccessible by the end user. We don't do this - if you delete your data, it's gone from our database. We use hard delete. _Note: it will be in our encrypted backups for a maximum of 90 days. In case of a bug we can retrieve this data._
 
 > We don't have delete_at fields ;-)
 
-For customers, it's important to know what data is kept and what is deleted. When somebody deletes their data we show them [a page with exactly that](https://simpleanalytics.io/deleted). We delete the user and their analytics from our database. We also delete the credit card and email from Stripe (our payment provider). We keep the payment history, which is needed for taxes and keep our log files and database backups for 90 days.
+For customers, it's important to know what data is kept and what is deleted. When somebody deletes their data we show them [a page with exactly that](https://simpleanalytics.com/deleted). We delete the user and their analytics from our database. We also delete the credit card and email from Stripe (our payment provider). We keep the payment history, which is needed for taxes and keep our log files and database backups for 90 days.
 
 <img class="limit-height" src="/images/personal-data.svg" alt="">
 
@@ -98,6 +96,8 @@ Well, we want to be the best privacy focused analytics company in the world. We 
 
 ## What is next?
 
+> Read the discussion <a href="https://news.ycombinator.com/item?id=19526521">on Hacker News</a>
+
 While we improved the privacy of our platform we noticed a slight increase in loading time for our embed scripts. This makes perfect sense, because they were hosted via the CDN of CloudFlare. A CDN is a set of servers around the world to decrease loading times for everybody. We are thinking of setting up a very simple CDN with encrypted servers, which only serve our JavaScript and store the page views temporarily before sending it to our main server in Iceland.
 
-Are you willing to move your business analytics to a privacy-friendly company? [Learn what we can do for you](https://simpleanalytics.io/?ref=iceland-blog).
+Are you willing to move your business analytics to a privacy-friendly company? [Learn what we can do for you](https://simpleanalytics.com/?ref={{ site.hostname }}).

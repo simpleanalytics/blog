@@ -23,8 +23,8 @@
 
   <!-- Social -->
   <meta name="description" content="Simple, easy and friendly analytics.">
-  <meta name="og:image" content="https://simpleanalytics.io/images/screenshot.png">
-  <meta name="twitter:image" content="https://simpleanalytics.io/images/screenshot.png">
+  <meta name="og:image" content="https://simpleanalytics.com/images/screenshot.png">
+  <meta name="twitter:image" content="https://simpleanalytics.com/images/screenshot.png">
 
   <!-- Style -->
   <link rel="stylesheet" type="text/css" href="/app.css">
@@ -52,7 +52,7 @@
           </div>
         </div>
       </li>
-      <li class="menu-item m-l-a"><a href="https://simpleanalytics.io/?ref=blog.simpleanalytics.io">Go to Simple Analytics &rarr;</a></li>
+      <li class="menu-item m-l-a"><a href="https://simpleanalytics.com/?ref={{ site.hostname }}">Go to Simple Analytics &rarr;</a></li>
     </ul>
   </nav>
 
@@ -70,7 +70,7 @@
 
   <footer class="general">
     <div class="intro">
-      <h1><a href="https://simpleanalytics.io/?ref={{ site.hostname }}" class="brand">
+      <h1><a href="https://simpleanalytics.com/?ref={{ site.hostname }}" class="brand">
         <svg style="width: 30px; height: 30px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><rect fill="#FF4F64" x="20" y="53" width="10" height="30"></rect><rect fill="#FF4F64" x="44" y="35" width="10" height="48"></rect><rect fill="#FF4F64" x="68" y="18" width="10" height="65"></rect></svg>
         Simple Analytics
       </a></h1>
@@ -82,17 +82,17 @@
       <div>
         <h3>Privacy</h3>
         <ul>
-          <li><a href="https://docs.simpleanalytics.io/what-we-collect?ref={{ site.hostname }}">What we collect</a></li>
-          <li><a href="https://simpleanalytics.io/privacy?ref={{ site.hostname }}">Privacy Policy</a></li>
-          <li><a href="https://simpleanalytics.io/terms-of-service?ref={{ site.hostname }}">Terms of Service</a></li>
+          <li><a href="https://docs.simpleanalytics.com/what-we-collect?ref={{ site.hostname }}">What we collect</a></li>
+          <li><a href="https://simpleanalytics.com/privacy?ref={{ site.hostname }}">Privacy Policy</a></li>
+          <li><a href="https://simpleanalytics.com/terms-of-service?ref={{ site.hostname }}">Terms of Service</a></li>
         </ul>
       </div>
 
       <div>
         <h3>Product</h3>
         <ul>
-          <li><a href="https://simpleanalytics.io/?ref={{ site.hostname }}#signup">Pricing</a></li>
-          <li><a href="https://simpleanalytics.io/roadmap?ref={{ site.hostname }}">Roadmap</a></li>
+          <li><a href="https://simpleanalytics.com/?ref={{ site.hostname }}#signup">Pricing</a></li>
+          <li><a href="https://simpleanalytics.com/roadmap?ref={{ site.hostname }}">Roadmap</a></li>
         </ul>
       </div>
 
@@ -101,17 +101,17 @@
       <div>
         <h3>Learn</h3>
         <ul>
-          <li><a href="https://docs.simpleanalytics.io/?ref={{ site.hostname }}">Documentation</a></li>
+          <li><a href="https://docs.simpleanalytics.com/?ref={{ site.hostname }}">Documentation</a></li>
           <li><a href="/">Blog</a></li>
-          <li><a href="https://simpleanalytics.io/team?ref={{ site.hostname }}">Team</a></li>
+          <li><a href="https://simpleanalytics.com/team?ref={{ site.hostname }}">Team</a></li>
         </ul>
       </div>
 
       <div>
         <h3>Contact</h3>
         <ul>
-          <li><a href="https://simpleanalytics.io/contact?ref={{ site.hostname }}">Email address</a></li>
-          <li><a href="https://simpleanalytics.io/contact?ref={{ site.hostname }}">Contact form</a></li>
+          <li><a href="https://simpleanalytics.com/contact?ref={{ site.hostname }}">Email address</a></li>
+          <li><a href="https://simpleanalytics.com/contact?ref={{ site.hostname }}">Contact form</a></li>
           <li><a href="https://twitter.com/intent/user?screen_name=SimpleAnalytic">Twitter</a></li>
         </ul>
       </div>
@@ -142,7 +142,7 @@
         }
 
         var request = new XMLHttpRequest();
-        request.open('POST', 'https://simpleanalytics.io/subscribe', true);
+        request.open('POST', 'https://simpleanalytics.com/subscribe', true);
         request.setRequestHeader("Content-Type", "text/plain; charset=UTF-8");
         request.send(JSON.stringify({ "email": email.value.trim(), "type": "blog" }));
 
