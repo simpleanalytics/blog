@@ -45,7 +45,7 @@ Public dashboards also turned out to be a great marketing feature. Customers can
 
 ## Get the basics right
 
-I'm glad I also made some marketing effort at the beginning, even though I didn't even realize I was doing it at the time. Before launching, I worked on the project for 2 months. This was from first idea to MVP (scroll down to see the first screenshots: https://wip.chat/products/1667/done). The MVP was quite simple: Show a graph of page views and a list of top pages, referrals, and screen sizes. I got most of my pre-launch feedback from people in [WIP](https://wip.chat).
+I'm glad I also made some marketing effort at the beginning, even though I didn't even realize I was doing it at the time. Before launching, I worked on the project for 2 months. This was from first idea to MVP ([see this page](https://wip.chat/products/1667/done) and scroll down to see the first screenshots). The MVP was quite simple: Show a graph of page views and a list of top pages, referrals, and screen sizes. I got most of my pre-launch feedback from people in [WIP](https://wip.chat).
 
 By sharing my process I realized there was some traction: the first samples of Simple Analytics were introduced to the world. I'm not the best with design, so at that moment I also hired a designer to create some pages for the app. That's not very MVP like, but I didn't depend on the money I would lose. The same goes for the promotional video on the homepage (although that was through friends) which was a lot of work – but also a lot of fun. These small steps – sharing the process, having a simple MVP, good video, gather feedback early – very likely played a part in the success of Simple Analytics' initial launch.
 
@@ -66,7 +66,7 @@ Some people asked about the churn rate. Here are some numbers to give a little m
 
 To put this success story in perspective: it wasn't all butterflies and rainbows in the last year. Points of improvement and feedback pop up everywhere. I set up lots of ways to gather feedback:
 
-Added a link in top navigation, manually tweet a welcome tweet, redirect to feedback page on many pages, a live chat – all thanks to @samilkarahisar, being active on Twitter, a Telegram group with power users, a slack for big features, ...
+Added a link in top navigation, manually tweet a welcome tweet, redirect to feedback page on many pages, a live chat – all thanks to [Şamil Karahisar](https://twitter.com/samilkarahisar), being active on Twitter, a Telegram group with power users, a slack for big features, ...
 
 <img class="border" src="/images/30k/admin-subscriptions.jpg" alt="">
 
