@@ -19,7 +19,7 @@ Even more interesting, however, was the day after. When launching on [Hacker New
 
 The traction was huge. Although initially, not in the ideal way. I offered a paid version from the start, but [Pieter Levels](https://twitter.com/levelsio) suggested via [WIP](https://wip.chat) to make it free for a while to get more users. I tried it, but chickened out because I got lots of signups for the free version and none for the paid version.
 
-The Hacker News launch got me my first 30 paying customers and around 800 Twitter followers (before the launch I had around 60). I knew I would be able to get more customers if I knew how to market.
+The Hacker News launch got me my first 30 paying customers and around 800 Twitter followers (before the launch I had around 60). I knew I would be able to get more customers if I knew how to do marketing.
 
 ## Marketing... what's that?
 
@@ -49,12 +49,12 @@ I'm glad I also made some marketing effort at the beginning, even though I didn'
 
 By sharing my process I realized there was some traction: the first samples of Simple Analytics were introduced to the world. I'm not the best with design, so at that moment I also hired a designer to create some pages for the app. That's not very MVP like, but I didn't depend on the money I would lose. The same goes for the promotional video on the homepage (although that was through friends) which was a lot of work – but also a lot of fun. These small steps – sharing the process, having a simple MVP, good video, gather feedback early – very likely played a part in the success of Simple Analytics' initial launch.
 
-## The angles: privacy and simplicity
+## The perspectives: privacy and simplicity
 
 But hold up. A funny video won't earn you a place on the market, right? The analytics space is dominated by huge players. So the fact that Simple Analytics became a hit was unexpected.
-I stepped into a niche by picking two different perspective/standpoint that meant a lot to me: privacy and simplicity. The first has intrigued me since I started programming at the age of 15, and the latter is something that I got from my dad. They are rooted deeply in me and I think that's one of the reasons I will always be passionate about my startup.
+I stepped into a niche by picking two different perspective that meant a lot to me: privacy and simplicity. The first has intrigued me since I started programming at the age of 15, and the latter is something that I got from my dad. They are rooted deeply in me and I think that's one of the reasons I will always be passionate about my startup.
 
-The fact that those perspective/standpoint would help me tremendously in comparison with my competitors, was something I  unexpected. For example, Google who started getting a name for being to greedy for data they don't need was a blessing in disguise. Analytic companies have an urge to collect as much data they can, which usually comes with a horrible interface.
+The fact that those perspective would help me tremendously in comparison with my competitors, was something I  unexpected. For example, Google who started getting a name for being to greedy for data they don't need was a blessing in disguise. Analytic companies have an urge to collect as much data they can, which usually comes with a horrible interface.
 
 Simple Analytics doesn't have that problem because it's only collecting the needed information so we are still able to display it in a nice clean interface.
 
