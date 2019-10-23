@@ -34,7 +34,7 @@ While this bug didn't affect a lot of customers and didn't have a significant am
 
 Firstly, I added the default server to the listen directive for port 80 and 443 in the main app ([nginx docs](https://nginx.org/en/docs/http/server_names.html#miscellaneous_names)). The main app on that server was the external app that manages the certificates for the _Custom domain_-feature and replies with a script and API endpoint does not use Simple Analytics URLs which makes it hard to block.
 
-Secondly, I increased the log history to 90 days so I can recover visits for future issues. The Queue-server and the Main-server now logs every failed request by anyone. This means every request that returns a TTP code `5xx` or `4xx` will be saved in the logs and can be recovered from it. It will require quite some work to get it done if needed, but it means no data loss.
+Secondly, I increased the log history to 90 days so I can recover visits for future issues. The Queue-server and the Main-server now logs every failed request by anyone. This means every request that returns a HTTP code `5xx` or `4xx` will be saved in the logs and can be recovered from it. It will require quite some work to get it done if needed, but it means no data loss.
 
 I added acceptance tests for the _Custom domain_-feature that checks if both the endpoints are still working as expected. If they don't comply, I would get a phone call and a Telegram message.
 
