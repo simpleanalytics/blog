@@ -4,7 +4,7 @@ author_slug: adriaan
 author: Adriaan van Rossum
 ---
 
-Simple Analytics recently passed the $30k in ARR (annual recurring revenue). It has been only a little over than an year and I would like to walk you through the important points of our journey together, and where I would like to take it next.
+Simple Analytics recently passed the $30k in ARR (annual recurring revenue). It has been only a little over a year and I would like to walk you through the important points of our journey together, and where I would like to take it next.
 
 <img class="border" src="/images/30k/stripe-mrr.jpg" alt="">
 <p class="caption">See our <a href="https://simpleanalytics.com/open">/open page</a> for an up to date MRR.</p>
@@ -27,7 +27,7 @@ Personally, it's easy for me to program and focus on that. But I also knew that 
 
 This time, I set my goal of programming vs marketing to 50/50. In reality it turned out to be more like 75/25, but it's already way better than 100/0.
 
-Another good thing to realize is that you can build tools to help you with your marketing. Thats why I built a dashboard with all Twitter mentions and SEO keywords like "privacy analytics" "google analytics alternative", ....
+Another good thing to realize is that you can build tools to help you with your marketing. That's why I built a dashboard with all Twitter mentions and SEO keywords like "privacy analytics" "google analytics alternative", ....
 
 The strategy was to respond to the tweets, manually, that appears on Twitter which would also help me in getting my name out there.
 
@@ -39,7 +39,7 @@ An example to gain more customers was through our docs. I put a lot of time and 
 
 <img class="border" src="/images/30k/docs.jpg" alt="">
 
-Public dashboards also turned out to be a great marketing feature. Customers can decide to put their stats public and share them publicly. Thats a first, in analytics realm and great exposure of my brand. There are plenty tweets out there sharing their dashboard and at the same time they are sharing Simple Analytics.
+Public dashboards also turned out to be a great marketing feature. Customers can decide to put their stats public and share them publicly. That's a first in the analytics realm and great exposure of my brand. There are plenty tweets out there sharing their dashboard and at the same time they are sharing Simple Analytics.
 
 > Read about my Hacker News strategy on [marketingexamples.com](https://marketingexamples.com/content/drive-traffic-from-hacker-news)
 
@@ -52,9 +52,9 @@ By sharing my process I realized there was some traction: the first samples of S
 ## The perspectives: privacy and simplicity
 
 But hold up. A funny video won't earn you a place on the market, right? The analytics space is dominated by huge players. So the fact that Simple Analytics became a hit was unexpected.
-I stepped into a niche by picking two different perspective that meant a lot to me: privacy and simplicity. The first has intrigued me since I started programming at the age of 15, and the latter is something that I got from my dad. They are rooted deeply in me and I think that's one of the reasons I will always be passionate about my startup.
+I stepped into a niche by picking two different perspectives that meant a lot to me: privacy and simplicity. The first has intrigued me since I started programming at the age of 15, and the latter is something that I got from my dad. They are rooted deeply in me and I think that's one of the reasons I will always be passionate about my startup.
 
-The fact that those perspective would help me tremendously in comparison with my competitors, was something I  unexpected. For example, Google who started getting a name for being to greedy for data they don't need was a blessing in disguise. Analytic companies have an urge to collect as much data they can, which usually comes with a horrible interface.
+The fact that those perspectives would help me tremendously in comparison with my competitors, was something I did not expect. For example, Google who started getting a name for being too greedy for data they don't need was a blessing in disguise. Analytics companies have an urge to collect as much data as they can, which usually comes with a horrible interface.
 
 Simple Analytics doesn't have that problem because it's only collecting the needed information so we are still able to display it in a nice clean interface.
 
@@ -78,4 +78,4 @@ This all wasn't possible without the feedback and motivation I got from [WIP](ht
 
 For the next year I want to focus on enterprise clients. It's a market that really needs a cookie/IP-less solution when GDPR and PECR are enforced. Simple Analytics is the only platform that is compliant for that future.
 
-I want to build more tools for bigger users like downloading Excel sheets, dig deeper into the data without making the dashboard more complex, unique visits, [and way more...](https://simpleanalytics.com/roadmap)!
+I want to build more tools for bigger users like downloading Excel sheets, digging deeper into the data without making the dashboard more complex, unique visits, [and way more...](https://simpleanalytics.com/roadmap)!
