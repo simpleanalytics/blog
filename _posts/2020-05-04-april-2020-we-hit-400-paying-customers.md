@@ -40,7 +40,7 @@ We also [launched our badges](https://simpleanalytics.com/badges). We took some 
   The badge in action on <a href="https://saasforcovid.com" target="_blank">saasforcovid.com</a>
 </p>
 
-A lot of customers asked us about password login. It's something we wanted to offer for a long time but never go to it. So we challenged ourselves. We promised 5 starter plans to give away when we would not finish this feature in 2 months. It was done just within that deadline, thanks for pushing us @nathfrederand and [@JustinNoelDev](https://twitter.com/JustinNoelDev)!
+A lot of customers asked us about password login. It's something we wanted to offer for a long time but never got to it. So we challenged ourselves. We promised 5 starter plans to give away when we would not finish this feature in 2 months. It was done just within that deadline, thanks for pushing us @nathfrederand and [@JustinNoelDev](https://twitter.com/JustinNoelDev)!
 
 <a href="https://twitter.com/troyhunt/status/1226244918894448640" target="_blank">
   <img loading="lazy" class="border" style="width: 450px" src="/images/2020-04/tweet-troy-hunt.jpg" alt="Passwordless login is an absolute pain in the arse; enter an email address only but you're not logged in, you need to wait for the email to arrive. So you wait. And wait. It might be very quick, it might be delayed, it might go to junk, it might bounce... by Troy Hunt" />
