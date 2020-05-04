@@ -1,162 +1,278 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
-<head>
-  <meta charset="utf-8">
-  <title>
-    {% if page.title %}
-      {{ page.title }} &middot; Simple Analytics
-    {% else %}
-      Blog of Simple Analytics
-    {% endif %}
-  </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      {% if page.title %} {{ page.title }} &middot; Simple Analytics {% else %}
+      Blog of Simple Analytics {% endif %}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF4F64">
-  <meta name="msapplication-TileColor" content="#FF4F64">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#FFFFFF">
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF4F64" />
+    <meta name="msapplication-TileColor" content="#FF4F64" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="theme-color" content="#FFFFFF" />
 
-  <!-- Social -->
-  <meta name="description" content="Simple, easy and friendly analytics.">
-  <meta name="og:image" content="https://simpleanalytics.com/images/screenshot.png">
-  <meta name="twitter:image" content="https://simpleanalytics.com/images/screenshot.png">
+    <!-- Social -->
+    <meta name="description" content="Simple, easy and friendly analytics." />
+    <meta
+      name="og:image"
+      content="https://simpleanalytics.com/images/screenshot.png"
+    />
+    <meta
+      name="twitter:image"
+      content="https://simpleanalytics.com/images/screenshot.png"
+    />
 
-  <!-- Style -->
-  <link rel="stylesheet" type="text/css" href="/app.css">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="/app.css" />
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="Blog of Simple Analytics" href="/feed.xml">
-</head>
-<body class="">
-  <nav>
-    <ul>
-      <li>
-        <a href="/" class="brand">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-            <rect x="20" y="53" width="10" height="30"></rect>
-            <rect x="44" y="35" width="10" height="48"></rect>
-            <rect x="68" y="18" width="10" height="65"></rect>
-          </svg>
-          <span>Simple Analytics <span class="text-light">Blog</span></span>
-        </a>
-      </li>
-      <li class="menu-toggle">
-        <div class="hamburger hamburger--collapse" aria-label="Menu" aria-controls="navigation">
-          <div class="hamburger-box">
-            <div class="hamburger-inner"></div>
+    <!-- Privacy friendly website statistics -->
+    <script
+      async
+      src="https://scripts.simpleanalyticscdn.com/latest.js"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- RSS -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Blog of Simple Analytics"
+      href="/feed.xml"
+    />
+  </head>
+  <body class="">
+    <nav>
+      <ul>
+        <li>
+          <a href="/" class="brand">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.0"
+              x="0px"
+              y="0px"
+              viewBox="0 0 100 100"
+              enable-background="new 0 0 100 100"
+              xml:space="preserve"
+            >
+              <rect x="20" y="53" width="10" height="30"></rect>
+              <rect x="44" y="35" width="10" height="48"></rect>
+              <rect x="68" y="18" width="10" height="65"></rect>
+            </svg>
+            <span>Simple Analytics <span class="text-light">Blog</span></span>
+          </a>
+        </li>
+        <li class="menu-toggle">
+          <div
+            class="hamburger hamburger--collapse"
+            aria-label="Menu"
+            aria-controls="navigation"
+          >
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
           </div>
+        </li>
+        <li class="menu-item m-l-a">
+          <a href="https://simpleanalytics.com/?ref={{ site.hostname }}"
+            >Go to Simple Analytics &rarr;</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Privacy friendly website statistics -->
+    <noscript
+      ><img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        referrerpolicy="unsafe-url"
+        alt=""
+    /></noscript>
+
+    <script>
+      NodeList.prototype.forEach = Array.prototype.forEach;
+      HTMLCollection.prototype.forEach = Array.prototype.forEach;
+    </script>
+
+    <main>
+      <section class="page">
+        {{content}}
+      </section>
+    </main>
+
+    <footer class="general">
+      <div class="intro">
+        <h1>
+          <a
+            href="https://simpleanalytics.com/?ref={{ site.hostname }}"
+            class="brand"
+          >
+            <svg
+              style="width: 30px; height: 30px;"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.0"
+              x="0px"
+              y="0px"
+              viewBox="0 0 100 100"
+              enable-background="new 0 0 100 100"
+              xml:space="preserve"
+            >
+              <rect fill="#FF4F64" x="20" y="53" width="10" height="30"></rect>
+              <rect fill="#FF4F64" x="44" y="35" width="10" height="48"></rect>
+              <rect fill="#FF4F64" x="68" y="18" width="10" height="65"></rect>
+            </svg>
+            Simple Analytics
+          </a>
+        </h1>
+        <h2>Simple, clean, privacy-friendly analytics</h2>
+        <p>
+          We care about your data. We will never sell it, our servers are
+          located in The Netherlands, and your data is always encrypted –
+          <a href="https://twitter.com/intent/user?screen_name=SimpleAnalytic"
+            >follow us on Twitter</a
+          >
+        </p>
+      </div>
+
+      <div class="link-container">
+        <div>
+          <h3>Privacy</h3>
+          <ul>
+            <li>
+              <a
+                href="https://docs.simpleanalytics.com/what-we-collect?ref={{ site.hostname }}"
+                >What we collect</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://simpleanalytics.com/privacy?ref={{ site.hostname }}"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://simpleanalytics.com/terms-of-service?ref={{ site.hostname }}"
+                >Terms of Service</a
+              >
+            </li>
+          </ul>
         </div>
-      </li>
-      <li class="menu-item m-l-a"><a href="https://simpleanalytics.com/?ref={{ site.hostname }}">Go to Simple Analytics &rarr;</a></li>
-    </ul>
-  </nav>
 
-  <script>
-    NodeList.prototype.forEach = Array.prototype.forEach;
-    HTMLCollection.prototype.forEach = Array.prototype.forEach;
-  </script>
+        <div>
+          <h3>Product</h3>
+          <ul>
+            <li>
+              <a
+                href="https://simpleanalytics.com/?ref={{ site.hostname }}#signup"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://simpleanalytics.com/roadmap?ref={{ site.hostname }}"
+                >Roadmap</a
+              >
+            </li>
+          </ul>
+        </div>
 
-  <main>
-    <section class="page">
-      {{content}}
-    </section>
-  </main>
+        <div class="flex-tablet-devider"></div>
 
+        <div>
+          <h3>Learn</h3>
+          <ul>
+            <li>
+              <a
+                href="https://docs.simpleanalytics.com/?ref={{ site.hostname }}"
+                >Documentation</a
+              >
+            </li>
+            <li><a href="/">Blog</a></li>
+            <li>
+              <a href="https://simpleanalytics.com/team?ref={{ site.hostname }}"
+                >Team</a
+              >
+            </li>
+          </ul>
+        </div>
 
-  <footer class="general">
-    <div class="intro">
-      <h1><a href="https://simpleanalytics.com/?ref={{ site.hostname }}" class="brand">
-        <svg style="width: 30px; height: 30px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><rect fill="#FF4F64" x="20" y="53" width="10" height="30"></rect><rect fill="#FF4F64" x="44" y="35" width="10" height="48"></rect><rect fill="#FF4F64" x="68" y="18" width="10" height="65"></rect></svg>
-        Simple Analytics
-      </a></h1>
-      <h2>Simple, clean, privacy-friendly analytics</h2>
-      <p>We are very passionate about privacy and believe we can create valuable products without invading it. Our main servers are located in Iceland and your data is always encrypted – Adriaan CEO (<a href="https://twitter.com/intent/user?screen_name=AdriaanvRossum">follow on Twitter</a>)</p>
-    </div>
-
-    <div class="link-container">
-      <div>
-        <h3>Privacy</h3>
-        <ul>
-          <li><a href="https://docs.simpleanalytics.com/what-we-collect?ref={{ site.hostname }}">What we collect</a></li>
-          <li><a href="https://simpleanalytics.com/privacy?ref={{ site.hostname }}">Privacy Policy</a></li>
-          <li><a href="https://simpleanalytics.com/terms-of-service?ref={{ site.hostname }}">Terms of Service</a></li>
-        </ul>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a
+                href="https://simpleanalytics.com/contact?ref={{ site.hostname }}"
+                >Email address</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://simpleanalytics.com/contact?ref={{ site.hostname }}"
+                >Contact form</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/intent/user?screen_name=SimpleAnalytic"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
+    </footer>
 
-      <div>
-        <h3>Product</h3>
-        <ul>
-          <li><a href="https://simpleanalytics.com/?ref={{ site.hostname }}#signup">Pricing</a></li>
-          <li><a href="https://simpleanalytics.com/roadmap?ref={{ site.hostname }}">Roadmap</a></li>
-        </ul>
-      </div>
+    <script>
+      document.querySelector(".hamburger").addEventListener(
+        "click",
+        function (event) {
+          event.target.closest("nav").classList.toggle("is-active");
+        },
+        false
+      );
 
-      <div class="flex-tablet-devider"></div>
+      var subscribeForm = document.querySelector("form.subscribe");
+      if (subscribeForm) {
+        subscribeForm.addEventListener("submit", function (event) {
+          // Don't do anything, browser!
+          event.preventDefault();
 
-      <div>
-        <h3>Learn</h3>
-        <ul>
-          <li><a href="https://docs.simpleanalytics.com/?ref={{ site.hostname }}">Documentation</a></li>
-          <li><a href="/">Blog</a></li>
-          <li><a href="https://simpleanalytics.com/team?ref={{ site.hostname }}">Team</a></li>
-        </ul>
-      </div>
+          // Get email
+          var email = subscribeForm.querySelector('input[name="email"]');
+          var responseField = subscribeForm.querySelector(".response");
+          responseField.style.color = "unset";
 
-      <div>
-        <h3>Contact</h3>
-        <ul>
-          <li><a href="https://simpleanalytics.com/contact?ref={{ site.hostname }}">Email address</a></li>
-          <li><a href="https://simpleanalytics.com/contact?ref={{ site.hostname }}">Contact form</a></li>
-          <li><a href="https://twitter.com/intent/user?screen_name=SimpleAnalytic">Twitter</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+          if (!/[^@\s]+@[^@\s]+\.[^@\s]+/.test(email.value)) {
+            responseField.textContent = "Email address is invalid :(";
+            responseField.style.color = "red";
+            responseField.style.display = "block";
+            return;
+          }
 
-  <script>
-    document.querySelector('.hamburger').addEventListener('click', function(event) {
-      event.target.closest('nav').classList.toggle('is-active');
-    }, false);
+          var request = new XMLHttpRequest();
+          request.open("POST", "https://simpleanalytics.com/subscribe", true);
+          request.setRequestHeader("Content-Type", "text/plain; charset=UTF-8");
+          request.send(
+            JSON.stringify({ email: email.value.trim(), type: "blog" })
+          );
 
-    var subscribeForm = document.querySelector('form.subscribe');
-    if (subscribeForm) {
-      subscribeForm.addEventListener('submit', function(event) {
-        // Don't do anything, browser!
-        event.preventDefault();
+          // Show response
+          responseField.textContent = "Thank you, keep you posted ;)";
+          responseField.style.display = "block";
 
-        // Get email
-        var email = subscribeForm.querySelector('input[name="email"]')
-        var responseField = subscribeForm.querySelector('.response');
-        responseField.style.color = 'unset';
-
-        if (!/[^@\s]+@[^@\s]+\.[^@\s]+/.test(email.value)) {
-          responseField.textContent = 'Email address is invalid :(';
-          responseField.style.color = 'red';
-          responseField.style.display = 'block';
-          return;
-        }
-
-        var request = new XMLHttpRequest();
-        request.open('POST', 'https://simpleanalytics.com/subscribe', true);
-        request.setRequestHeader("Content-Type", "text/plain; charset=UTF-8");
-        request.send(JSON.stringify({ "email": email.value.trim(), "type": "blog" }));
-
-        // Show response
-        responseField.textContent = 'Thank you, keep you posted ;)';
-        responseField.style.display = 'block';
-
-        // Reset email field
-        email.value = '';
-      })
-    }
-  </script>
-
-  <script async src="https://cdn.simpleanalytics.io/hello.js"></script>
-  <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
-</body>
+          // Reset email field
+          email.value = "";
+        });
+      }
+    </script>
+  </body>
 </html>

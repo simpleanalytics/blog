@@ -6,7 +6,7 @@ author: Mike Timofiiv
 
 This past September marks the 10-year anniversary of Google Chrome. Ever since it was released, it has changed the internet forever – its clean design, fast rendering engine and fantastic developer tools helped it acquire 62% of desktop users within 2 years. It's even more remarkable to note that the engine Chrome uses under the hood (known as V8), is used in a multitude of other ways as well, powering backend web servers through Node.js, "headless" browsing (such as by a web scraper or an automated website screenshot tool), and much more.
 
-<img src="/images/chrome-69.jpg" alt="">
+<img loading="lazy" src="/images/chrome-69.jpg" alt="">
 
 There's no question it's a fantastic product. However lately, Google has seemingly broken the fourth wall in the illusion of Chrome as a benign entity. One thing Donald Trump's campaign has contributed to the world (however unintentionally) is bring up the topic of online privacy, and the climate within which the FAANG (Facebook, Amazon, Apple, Netflix, Google) giants have operated for years is beginning to change.
 
@@ -21,14 +21,14 @@ You might be thinking, "who cares, this just seems like no big deal to me." Well
 3. A website is a sandbox, a browser is less so. Browsers cannot spy on your usage of other websites (unless through an exploit). So if you're watching porn and your Facebook is open in another tab, Facebook cannot access your porn tab. But a browser could. And for all you know, the intention is to send that usage data back to Google.
 
 <p class="t-a-c">
-<a href="https://twitter.com/ctavan/status/1044282084020441088" target="_blank" class="tweet"><img src="/images/chrome-cookies-tweet.png" alt=""></a>
+<a href="https://twitter.com/ctavan/status/1044282084020441088" target="_blank" class="tweet"><img loading="lazy" src="/images/chrome-cookies-tweet.png" alt=""></a>
 </p>
 
 The worst part, however, is that scores of users will continue to use Chrome, completely unaware of the implications of this feature. Other companies, jealously eyeing Google's breach of the browser/webpage wall, will consider building similar anti-features into their browsers. That's the most insidious element of it: it pushes users' expectations and companies' freedom to breach into your privacy just one step further. The war against constant active data harvesting is not lost in one big Waterloo battle, but by many small compromises and "improvements".
 
 A government's privilege to spy on you should begin only with a warrant issued by a court of law. This can be done if a given user is suspected of being a danger to society as a whole, such as with people that prey on children. But a private company has very limited restraints imposed on it. We say "well, Google needs to make money too" and bury our heads in the sand as if the business of systematically collecting a massive amount of data points and using them to build profiles on every individual with access to the internet for the purpose of showing them a more relevant advertisement is somehow justified by profit.
 
-Privacy laws have made a lot of headway, like the European Union's recent [GDPR](https://eugdpr.org/) (*General Data Protection Regulation*) and Canada's [*Fighting Internet and Wireless Spam Act*](https://en.wikipedia.org/wiki/Fighting_Internet_and_Wireless_Spam_Act) (also known as CASL – *Canada's Anti-Spam Legislation*: technically an anti-spam legislation, but it contains a set of rules about consent), but unfortunately legislation and innovation are the nuclear arms in the war between legislators and big tech. As consumers and citizens we should all take time to let our governments know how best to govern these big entities.
+Privacy laws have made a lot of headway, like the European Union's recent [GDPR](https://eugdpr.org/) (_General Data Protection Regulation_) and Canada's [_Fighting Internet and Wireless Spam Act_](https://en.wikipedia.org/wiki/Fighting_Internet_and_Wireless_Spam_Act) (also known as CASL – _Canada's Anti-Spam Legislation_: technically an anti-spam legislation, but it contains a set of rules about consent), but unfortunately legislation and innovation are the nuclear arms in the war between legislators and big tech. As consumers and citizens we should all take time to let our governments know how best to govern these big entities.
 
 But there is one thing we can all do as individuals as well, something that doesn't require voting or calling your senator or member of parliament. You can simply choose to **not** feed the beast, as much as you can. Install a different browser to replace Chrome such as [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Ungoogled (Eloston) Chromium](https://github.com/Eloston/ungoogled-chromium), [Vivaldi](https://vivaldi.com/) or [Brave](https://brave.com/). Switch email providers from Gmail or Outlook to Protonmail. Install a VPN such as ExpressVPN. Replace your bloatware Android OS on your phone with something like [Lineage OS](https://lineageos.org/).
 

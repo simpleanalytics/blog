@@ -10,23 +10,23 @@ _Note: this guest post is a re-post of 2015, but it is still very relevant today
 
 > "In order to safe-guard your personal freedom, it is required that you have control over your personal information." Walter Leibbrandt, CSIR
 
-I believe privacy is a right which is disappearing to leave room to convenience as they say it. Within the last years it became obvious that [consumer data is increasingly collected, stored and processed]( http://www.thinkdigital.travel/opinion/data-collection-on-the-rise/) for online as well as offline purposes.
+I believe privacy is a right which is disappearing to leave room to convenience as they say it. Within the last years it became obvious that [consumer data is increasingly collected, stored and processed](http://www.thinkdigital.travel/opinion/data-collection-on-the-rise/) for online as well as offline purposes.
 
 You probably witnessed it yourself.
 
 Walking into the branch of your mobile operator to change plans, and receiving an offer for a new phone. This is not unusual. But is that phone not the exact one you looked at several times on the operator's website while being logged in?
 
-<img class="limit-height" src="/images/airport.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/airport.svg" alt="">
 
 Another simple test on privacy is looking at prices for flight tickets. Do you own an Apple device? Congratulations, you will receive [higher prices for flights and hotels](http://www.bbc.com/news/technology-18595347). Sometimes even if you look at a flight too many times, as your interest is qualified as higher. In the world of flight ticketing, everyone is used to price changes frequently so usually we do not consider this a privacy issue rather than an offer/demand issue.
 
-I believe privacy should be protected, not for the sake of cheaper flight tickets, but from a "safe-guarding" personal freedom and choice. I don't know what I don't know, and online systems can get to the point where news delivery is profiled. I don't mind not finding a hotel that is far better and 20$ cheaper, but in its core this is access to information I am being denied.
+I believe privacy should be protected, not for the sake of cheaper flight tickets, but from a "safe-guarding" personal freedom and choice. I don't know what I don't know, and online systems can get to the point where news delivery is profiled. I don't mind not finding a hotel that is far better and 20\$ cheaper, but in its core this is access to information I am being denied.
 
 I believe there are businesses that need or should have personal identifiable information about an internet users. Banks or Government need the basic of these information to operate for example. Do they collect too much sometimes? Yes, but from the two I know banks at least have good security and privacy systems to protect my identity. I doubt Google, [Facebook](http://www.lifehacker.com.au/2014/08/how-messenger-highlighted-facebooks-privacy-problem/) or [Target](http://www.wsj.com/articles/SB10001424052702303754404579312232546392464) should have this information in the first place.
 
 There are more sides to privacy: security of data, as well as use of personal information. I consider privacy the security of my information, in cases of identity theft for example, as well as what data is collected about me, where and how long is it stored, who is it shared with, how it is used.
 
-<img class="limit-height" src="/images/security.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/security.svg" alt="">
 
 For the first part, I make sure I am selective to whom I trust my valuable personal identifiable information (PII), and select companies that have a track record in securing access to information. The second the topic becomes more sensitive.
 
@@ -36,7 +36,7 @@ And how about the golden "eye-balls" era of web and mobile products? The busines
 
 As consumers, do we really need the convenience of a retailer forecasting and predicting before we do that [our wife will be pregnant for example](http://www.slate.com/blogs/how_not_to_be_wrong/2014/06/09/big_data_what_s_even_creepier_than_target_guessing_that_you_re_pregnant.html)?
 
-<img class="limit-height" src="/images/gdpr.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/gdpr.svg" alt="">
 
 Privacy awareness is rising among internet users. In 2013 more than [86% of the internet users](http://www.pewinternet.org/2013/09/05/anonymity-privacy-and-security-online/) made steps towards removing some of the personal information available online due to privacy concerns.
 
@@ -78,7 +78,7 @@ To take it one step further, using digital currencies like Bitcoin would ensure 
 
 Abine is monetizing two products in terms of privacy: [Blur](https://dnt.abine.com/) and [DeleteMe](https://www.abine.com/deleteme/landing.php). Both have a direct subscription model, and Blur even has a freemium touch. WhisperSystem is a non-commercial organization, based on the open source movement. For basic users they offer the community apps, free to use. But in the future this system can be monetized just like other open source solutions at enterprise level.
 
-<img class="limit-height" src="/images/business-plan.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/business-plan.svg" alt="">
 
 The basic need of a PFP business model is centering the product on the needs of, and ensuring it delivers value to, the user not third parties.
 

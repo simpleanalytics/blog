@@ -6,7 +6,7 @@ author: Adriaan van Rossum
 
 As the founder of Simple Analytics, I have always been mindful for the need of trust and transparency for our customers. We would like to be held accountable for our customers needs, so they can sleep in peace. The choices we make has to be optimal, in terms of privacy, for the visitors and our customers. One of the crucial choices to consider was, choosing the location of our servers.
 
-<img class="limit-height" src="/images/flag-map-of-iceland.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/flag-map-of-iceland.svg" alt="">
 
 In the last few months, we moved our servers gradually to Iceland. In this blog post, I'd like to explain how we've achieved that, and most importantly, why. It wasn't an easy process and I would like to share our learnings. There are some technical parts in this article which I've tried to write in an understandable way, but forgive me if it's too technical.
 
@@ -24,7 +24,7 @@ I got [a reply](https://github.com/easylist/easylist/pull/1855#issuecomment-4402
 
 I didn't like this reply at first, but after sharing it with my community people pointed it out to me that he indeed was correct about the fact the US government is able to access the data of our users. At that time, our servers were indeed running on Digital Ocean and they could pull out our drive and read our data.
 
-<img class="limit-height" src="/images/safe.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/safe.svg" alt="">
 
 The solution is somewhat technical so bear with me. You can make a stolen drive (or detached for whatever reason) unusable for others. This can be solved by encrypting the data on the drive which makes it very difficult to read the data for people without the encryption key _(Note: only Simple Analytics has this key)._ It would still be possible to get little parts of the data by physically reading out the memory of the server. Memory is easy explained as a type of a drive, which is small but super fast which allows the processor of the server to run efficiently. A server does not function without memory so we kind of need to trust the hosting provider.
 
@@ -36,7 +36,7 @@ I started with some basic searches and found a Wikipedia page on [Internet censo
 
 Apart from this list, there is an alliance called [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) a.k.a. FVEY. It's an alliance of Australia, Canada, New Zealand, the United Kingdom, and the United States. In recent years, documents have shown that they are intentionally spying on one another's citizens and sharing the collected information with each other in order to circumvent restrictive domestic regulations on spying ([sources](https://en.wikipedia.org/wiki/List_of_people_under_Five_Eyes_surveillance#cite_ref-8)). The former NSA contractor Edward Snowden, described the FVEY as a "supra-national intelligence organization that doesn't answer to the laws of its own countries." There are other countries working together with the FVEY in other international cooperatives including Denmark, France, the Netherlands, Norway, Belgium, Germany, Italy, Spain, and Sweden (so-called 14 Eyes). I couldn't find evidence of the 14 Eyes alliance abusing their combined intelligence.
 
-<img class="limit-height" src="/images/server-down.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/server-down.svg" alt="">
 
 At this point, we were pretty sure not to use any of the listed countries from the "Enemies of the Internet" list and just to be sure to skip the countries on the 14 Eyes alliance list. For Simple Analytics, this gave enough reason to avoid those countries for storing the data of our customers.
 
@@ -56,7 +56,7 @@ The law applies to telecommunication providers and mandates the retention of rec
 
 Although, Iceland is somewhat following the laws of the European Economic Area, it has its own approach to privacy. For example, the [Icelandic Data Protection Act](https://www.personuvernd.is/information-in-english/greinar/nr/438) encourages anonymity of user data. ISPs and content hosts are not held legally liable for the content that they host or transmit. According to Icelandic law, its not the domain name provider, but the registrant of an .is domain name that is responsible for ensuring the use of the domain is within the limits of the law ([ISNIC](https://www.isnic.is/en/domain/rules)). The government does not place any restrictions on anonymous communication and no registration is required when purchasing a SIM card.
 
-<img class="limit-height" src="/images/world-line-sf-ams.png" alt="">
+<img loading="lazy" class="limit-height" src="/images/world-line-sf-ams.png" alt="">
 
 Another advantage from moving to Iceland is the climate and location of the country. Servers produce a lot of heat and Reykjavík (Iceland's capital, where most data centers are located) is on average 40.41°F (4.67°C), meaning it's a great location to cool down the servers. For each watt used to run servers, storage and network equipment, proportionally very little is used for cooling, lighting and other overhead. On top of that, Iceland is the world's largest green energy producer per capita and largest electricity producer per capita, with approximately 55,000 kWh per person per year. In comparison, the EU average is less than 6,000 kWh. Most hosting providers in Iceland get 100% of their electricity from renewable energy sources.
 
@@ -64,9 +64,9 @@ If you draw a straight line from San Francisco to Amsterdam you will cross Icela
 
 ## Moving our servers
 
-First, we needed to find a hosting provider in Iceland. There are quite a few, and it's really hard to know if you have the best. We didn't have the resources to try them all, so instead, we set up some automatic scripts ([Ansible](https://en.wikipedia.org/wiki/Ansible_(software))) while setting up the server so we could easily move to another provider if we needed to. We choose [1984](https://1984hosting.com/), a company with the slogan "Safeguarding privacy and civil rights since 2006". We liked that slogan and asked them a few questions about how they would handle our data. They reassured us, and we proceeded installing our main server and they only use electricity from renewable energy sources.
+First, we needed to find a hosting provider in Iceland. There are quite a few, and it's really hard to know if you have the best. We didn't have the resources to try them all, so instead, we set up some automatic scripts ([Ansible](<https://en.wikipedia.org/wiki/Ansible_(software)>)) while setting up the server so we could easily move to another provider if we needed to. We choose [1984](https://1984hosting.com/), a company with the slogan "Safeguarding privacy and civil rights since 2006". We liked that slogan and asked them a few questions about how they would handle our data. They reassured us, and we proceeded installing our main server and they only use electricity from renewable energy sources.
 
-<img class="limit-height" src="/images/server-status.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/server-status.svg" alt="">
 
 However, we hit a few roadblocks during this process. This section of the article is quite technical. Feel free to skip to the next. When you have an encrypted server you'll need to unlock it with a private key. This key can't be stored on the server as it defeats the purpose of encrypting. So if the key isn't on the server you need to enter it remotely. That's right, we need to enter the key when the server boots. Wait, but what happens with a power failure? Are all requests with page views to your server failing after a reboot?
 
@@ -88,7 +88,7 @@ It's common practice to [soft delete](http://abstraction.blog/2015/06/28/soft-vs
 
 For customers, it's important to know what data is kept and what is deleted. When somebody deletes their data we show them [a page with exactly that](https://simpleanalytics.com/deleted). We delete the user and their analytics from our database. We also delete the credit card and email from Stripe (our payment provider). We keep the payment history, which is needed for taxes and keep our log files and database backups for 90 days.
 
-<img class="limit-height" src="/images/personal-data.svg" alt="">
+<img loading="lazy" class="limit-height" src="/images/personal-data.svg" alt="">
 
 Question: If you only store little sensitive data, what's the need for all this protection and extra security?
 
