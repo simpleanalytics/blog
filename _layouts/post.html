@@ -72,3 +72,27 @@ layout: default
   >
   to my GitHub-repo.
 </p>
+
+<script>
+  (function addLinksToHeadings() {
+    var anchorForId = function (id) {
+      var anchor = document.createElement("a");
+      anchor.className = "anchor-link";
+      anchor.href = "#" + id;
+      anchor.innerHTML = " #";
+      return anchor;
+    };
+
+    var linkifyAnchors = function () {
+      document
+        .querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
+        .forEach(function (header) {
+          if (header.getAttribute("id") !== "") {
+            header.appendChild(anchorForId(header.id));
+          }
+        });
+    };
+
+    linkifyAnchors();
+  })();
+</script>
