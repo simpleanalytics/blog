@@ -201,9 +201,11 @@ section#privacy-button-links-example div {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 section#privacy-button-links-example h1 {
   font-size: 30px;
+  text-align: center;
 }
 section#privacy-button-links-example a {
   background-color: grey;
@@ -343,9 +345,11 @@ section#privacy-button-links-example div {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 section#privacy-button-links-example h1 {
   font-size: 30px;
+  text-align: center;
 }
 section#privacy-button-links-example a {
   border: 0 solid #e2e8f0;
