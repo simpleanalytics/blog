@@ -63,11 +63,15 @@ There are many external scripts loaded from all kinds of different domains. I'm 
 
 If you use a CDN you are giving them data about your visitors and the power to load a different script then your visitors' request.
 
+### Subresource Integrity
+
 To prevent your CDN provider tempering with the source of your scripts you can use [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI; the `integrity` attribute on your scripts). You need to create a hash of the source of the script and include this in the script tag via the `integrity` attribute. To generate the integrity hash you can use [srihash.org](https://www.srihash.org/).
 
 ```html
 <script src="https://cdn.example.com/script.js" integrity="sha384-..."></script>
 ```
+
+### Cross origin attribute
 
 The `crossorigin` content attribute on media elements is a CORS settings attribute. This is needed to load scripts from other domains (a CDN domain for example). The `anonymous` keyword means that there will be no exchange of user credentials via cookies and some other data between your website and other domains.
 
@@ -83,6 +87,8 @@ The `crossorigin` content attribute on media elements is a CORS settings attribu
 ```
 
 </details>
+
+### Referrer policy attribute
 
 To prevent giving the page your visitors are viewing, you can add the `referrerpolicy` attribute with a `no-referrer` value to your script tags.
 
@@ -129,6 +135,16 @@ script.referrerPolicy = "no-referrer";
 ```
 
 </details>
+
+### Content Security Policy
+
+To add another layer of security for the script you load you can use a Content Security Policy (CSP). CSP is an added layer of security that helps to detect and mitigate certain types of attacks (including Cross Site Scripting (XSS) and data injection attacks).
+
+There are a few ways you can create your policy: use a server where browsers automatically report to _(or use a service like [report-uri.com](https://report-uri.com/products/content_security_policy) or [Csper](https://csper.io/) that do that for you)_ or generate a report yourself. There are some tools to help you with creating a report yourself: [Report URI](https://report-uri.com/home/generate) and [cspisawesome.com](https://www.cspisawesome.com/) have a wizard, [4ARMED](https://www.4armed.com/blog/how-to-create-content-security-policy/) and [Csper](https://csper.io/docs/generating-content-security-policy) have a browser extension, and [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) has great documentation.
+
+When you created your policy you can either specify it via a `<meta>`-tag or a header.
+
+> Afraid of blocking important assets? Test your CSP by using [Content-Security-Policy-Report-Only](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only) to only report without blocking.
 
 ## Remove social widgets
 
