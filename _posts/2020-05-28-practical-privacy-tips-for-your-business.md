@@ -202,7 +202,7 @@ If you have a business, there is a great value by using the email address of you
 
 ### Email tracking
 
-It's harder to disable email tracking then enabling it. That's why most marketing emails contain trackers. Open rate is considered inaccurate because of client disabling images:
+It's harder to disable email tracking than enabling it. That's why most marketing emails contain trackers. Open rate is considered inaccurate because of client disabling images:
 
 > [...] an email is only counted as 'opened' if the recipient also receives the images embedded in that message, and a large percentage of your email users likely have image-blocking enabled on their email client. [...] – [blog.hubspot.com](https://blog.hubspot.com/blog/tabid/6307/bid/29510/Your-Complete-Guide-to-Measuring-Email-Marketing-Success.aspx)
 
