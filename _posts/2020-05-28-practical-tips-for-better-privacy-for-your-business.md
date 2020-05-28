@@ -154,19 +154,19 @@ Here is an example with custom buttons and a simple share link. I highly recomme
 <details markdown="1">
 <summary>Link implementation explained</summary>
 
-The link implementation is a simple link that opens [the Facebook share page](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsimpleanalytics.com%2F%3Futm_source%3Dfacebook&src=sdkpreparse) for your visitors. You can put the link behind a button or text link on your website.
+The link implementation is a simple link that opens [the Facebook share page](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsimpleanalytics.com%2F%3Futm_source%3Dfacebook&src=sdkpreparse) for your visitors. You can put the link behind a button or text link on your website. For example:
 
 ```
 https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fexample.com%2F%3Futm_source%3Dfacebook&src=sdkpreparse
 ```
 
-You see a lot of weird characters in that URL (link). The link is URL encoded. Use [urlencoder.io](https://www.urlencoder.io/) to easily encode your website for URL.
+You see a lot of weird characters in that URL (link). That's because the link is URL encoded. Use [urlencoder.io](https://www.urlencoder.io/) to easily URL encode your website:
 
 <a href="https://www.urlencoder.io/">
   <img loading="lazy" class="border" style="margin: 1rem auto; width: 500px;" src="/images/2020-privacy-tips/url-encode-online.gif" alt="URL encode online" />
 </a>
 
-Prefix the output of [urlencoder.io](https://www.urlencoder.io/) with `https://www.facebook.com/sharer/sharer.php?u=` and append `&src=sdkpreparse` behind it and you have your Facebook share link. Without all the tracking and privacy-invasive data collection.
+Prefix the output of [urlencoder.io](https://www.urlencoder.io/) with `https://www.facebook.com/sharer/sharer.php?u=` and append `&src=sdkpreparse` behind it and you have your Facebook share link. Without the tracking and privacy-invasive data collection.
 
 </details>
 
