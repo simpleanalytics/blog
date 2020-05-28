@@ -301,6 +301,6 @@ If you want to secure the data of your users and prevent others from accessing t
 
 ### Conclusion
 
-While working on Simple Analytics, I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor information. There is way too little guidelines on how to actually prevent tracking in your own business.
+While working on Simple Analytics, I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor data. There is way too little guidelines on how to actually prevent tracking in your own business.
 
 I hope this article makes the web a bit more privacy-friendly. [Please let me know](https://github.com/simpleanalytics/blog/issues/new) which tips I should add.
