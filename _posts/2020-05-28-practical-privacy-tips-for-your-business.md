@@ -18,7 +18,7 @@ Most businesses use plenty of other third-party services. They help you with pro
 
 Sometimes you need to use external scripts. For example, you could be using a chat service or a payment provider. Solution: Only load those scripts on pages where you use them.
 
-For a chat, it may be load every page but for a payment provider it certainly wouldn't be the same. Don't include those script on every page.
+For a chat, it may be load every page but for a payment provider, it certainly wouldn't be the same. Don't include those script on every page.
 
 When using a chat that you use on every page you could get a bit creative. For example, you could have a little button that only loads the external script when you click it.
 
@@ -49,7 +49,7 @@ Compare that to another SaaS like Intercom:
 
 <img loading="lazy" class="border" style="padding: 1rem; margin: 1rem 0;" src="/images/2020-privacy-tips/requestmap-intercom.jpg" alt="Third-party scripts of Intercom" />
 
-There are many external scripts loaded from all kinds of different domains. I'm not saying this is good or bad, but it's a good practice to double check if all those external parties are needed. Run the [Request Map Generator](https://requestmap.webperf.tools/) and see what services you don't need.
+There are many external scripts loaded from all kinds of different domains. I'm not saying this is good or bad, but it's a good practice to double-check if all those external parties are needed. Run the [Request Map Generator](https://requestmap.webperf.tools/) and see what services you don't need.
 
 <blockquote role="alert">
   Remember that all external parties can access the data being displayed on the page. If your visitors are logged in and see critical data, these external parties can see that as well.
@@ -128,7 +128,7 @@ script.referrerPolicy = "no-referrer";
 
 ## Remove social widgets
 
-Social media companies do not have a very good reputation for collecting data of your visitors. There are many plugins and ways to track users. Your visitors don't choose to be tracked by those companies, you do.
+Social media companies do not have a very good reputation for collecting data from your visitors. There are many plugins and ways to track users. Your visitors don't choose to be tracked by those companies, you do.
 
 > If you are a visitor it's recommended to use an ad blocker like [uBlock Origin](getublock.com). It's a well develop browser extension that removes all trackers and ads from your visits. There is a giant on/off button to disable it for the site you are on. It makes your browsing experience safer.
 
@@ -141,7 +141,7 @@ Your visitors can do something about it themselves, but there will always be peo
 
 > On 29 July 2019, the Court of Justice of the European Union (the "CJEU") ruled that a company embedding on its website a social plugin, such as a Facebook “Like” button, can be considered a data controller [...] – [fieldfisher.com](https://privacylawblog.fieldfisher.com/2019/cjeu-rules-that-companies-using-social-plugins-are-liable-for-the-collection-and-transmission-of-data)
 
-Although you are not in control of what those platforms behind your widgets do with the data of your customers, you are still responsible for what happens with this data.
+Although you are not in control of what those platforms behind your widgets do with the data from your customers, you are still responsible for what happens with this data.
 
 ### Replace Facebooks share button
 
@@ -172,7 +172,7 @@ Prefix the output of [urlencoder.io](https://www.urlencoder.io/) with `https://w
 
 ### Twitter embedded tweets
 
-On the internet you see the Twitter widget being used a lot. But is it needed to send the data of your visitors to Twitter when they just want to see a tweet? A screenshot works just fine:
+On the internet you see the Twitter widget being used a lot. But is it needed to send the data from your visitors to Twitter when they just want to see a tweet? A screenshot works just fine:
 
 <a href="https://twitter.com/SimpleAnalytic/status/1262318675283128322">
   <img loading="lazy" class="border" style="margin: 1rem auto; width: 450px;" src="/images/2020-privacy-tips/twitter-embed.jpg" alt="Embedded tweet" />
@@ -208,7 +208,7 @@ It's harder to disable email tracking then enabling it. That's why most marketin
 
 ### Email images
 
-When an image heavy email doesn't fully download and is viewed by the user, it could end up rendering like this for the subscriber:
+When an image-heavy email doesn't fully download and is viewed by the user, it could end up rendering like this for the subscriber:
 
 <a href="https://twitter.com/flcarneiro/status/568116082835361792">
   <img loading="lazy" class="border" style="margin-top: 1rem; width: 500px;" src="/images/2020-privacy-tips/tweet-embedded-images.jpg" alt="Embedded tweet" />
@@ -217,7 +217,7 @@ When an image heavy email doesn't fully download and is viewed by the user, it c
   [Tweet](https://twitter.com/flcarneiro/status/568116082835361792) found on a blog by [Litmus](https://www.litmus.com/blog/the-ultimate-guide-to-email-image-blocking/)
 </p>
 
-When adding images to your emails and not embedding those images in the emails they can look very ugly. More and more email services will stop displaying email trackers and thus images as well. The new [HEY.com](https://hey.com) service [blocks](https://www.businessinsider.com/basecamp-new-email-service-hey-gmail-2020-2?international=true&r=US&IR=T) the so-called tracking pixels. My guess is that more will follow.
+When adding images to your emails and not embedding those images in the emails they can look very ugly. More and more email services will stop displaying email trackers and thus images as well. The new [HEY.com](https://hey.com) service [blocks](https://www.businessinsider.com/basecamp-new-email-service-hey-gmail-2020-2?international=true&r=US&IR=T) the so-called tracking pixels. I guess that more will follow.
 
 With [Simple Analytics](https://simpleanalytics.com) we love to share weekly and monthly [email reports](https://docs.simpleanalytics.com/email-reports). When customers have enabled it we send them an email with all images embedded. No trackers or any remote images. No need to connect with anything outside their email client. Give them their privacy back that they deserve.
 
@@ -264,7 +264,7 @@ We later realized Iceland was not the best option provider-wise.
 
 We asked our customers if they would be okay with the move from Iceland to The Netherlands and everybody who voted agreed with our decision.
 
-Be aware of where you put the data of your visitors. Do some research into the hosting provider you are using and the country where it's hosted. Don't pick the cheapest option without knowing why it's cheap.
+Be aware of where you put the data from your visitors. Do some research into the hosting provider you are using and the country where it's hosted. Don't pick the cheapest option without knowing why it's cheap.
 
 ## Do not log or ask PII data when not needed
 
@@ -325,7 +325,7 @@ then {
 
 </details>
 
-You can do way more, [in our config](https://gist.github.com/adriaanvanrossum/e692b0399f0ca8ab15005315ab0dd694) we hide IPs, credit cards and user agents.
+You can do way more, [in our config](https://gist.github.com/adriaanvanrossum/e692b0399f0ca8ab15005315ab0dd694) we hide IPs, credit cards, and user agents.
 
 ### Use two-factor authentication
 
@@ -335,6 +335,6 @@ If you want to secure the data of your users and prevent others from accessing t
 
 ### Conclusion
 
-While working on [Simple Analytics](https://simpleanalytics.com), I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor data. There is way too little guidelines on how to actually prevent tracking in your own business.
+While working on [Simple Analytics](https://simpleanalytics.com), I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor data. There are way too few guidelines on how to actually prevent tracking in your own business.
 
 I hope this article makes the web a bit more privacy-friendly. [Please let me know](https://github.com/simpleanalytics/blog/issues/new) which tips I should add.
