@@ -238,7 +238,7 @@ It still happens you need to enter personal details for a website or app that do
 
 ### Don't ask full names
 
-Unless you really need it. Let people consent to adding their full name. Just ask for a first name if you want to address people in your marketing emails, but don't ask for a full name.
+Unless you really need it. Let people decide for themselves to add their full name. Just ask for a first name if you want to address people in your marketing emails, but don't ask for a full name.
 
 > For people reading that are tired of coming up with fake names: there are [plenty of services out there](https://duckduckgo.com/?q=fake+name+generator) to help create a fake name.
 
