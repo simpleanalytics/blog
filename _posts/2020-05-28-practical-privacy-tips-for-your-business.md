@@ -6,6 +6,10 @@ author: Adriaan van Rossum
 
 As the founder of [Simple Analytics](https://simpleanalytics.com), I'm running into privacy issues while building our product. Based on those learnings I would like to show you some practical tips to improve the privacy of your visitors. Some of the tips seem very logical but can be hard to implement. That's why I have provided examples with every tip so you or your team can apply them without doing all the research.
 
+<blockquote role="alert" class="hn" markdown="1">
+[Join the discussion](https://news.ycombinator.com/item?id=23337822) on Hacker News and make sure to vote if you love it
+</blockquote>
+
 In this post I talk about [third-party services](#third-party-services), [CDN providers](#do-not-give-too-much-power-to-your-cdn-provider), [social widgets](#remove-social-widgets), [being ethical towards your visitors](#dont-trick-your-visitors), [marketing emails](#emails), [storing data](#where-do-you-store-your-data), [PII data](#do-not-log-or-ask-pii-data-when-not-needed), [IP anonymization](#ip-anonymization), [syslog](#filters-in-syslog), and [two-factor authentication](#use-two-factor-authentication).
 
 > Some tips might become a bit technical and if you don't have any technical background, feel free to skip those and forward them to your technical team.

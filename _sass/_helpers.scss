@@ -120,6 +120,15 @@ blockquote[role="alert"] {
   border-left-color: #e51800;
   background-color: #fff0ee;
 }
+blockquote[role="alert"].hn {
+  border-left-color: #ff6600;
+  background-color: #ffeadb;
+  &,
+  a,
+  strong {
+    color: #ff6600;
+  }
+}
 
 .visible-on-show {
   opacity: 0;
