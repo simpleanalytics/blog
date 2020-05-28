@@ -4,7 +4,7 @@ author_slug: adriaan
 author: Adriaan van Rossum
 ---
 
-As the founder of Simple Analytics, I'm running into privacy issues while building our product. Based on those learnings I would like to show you some practical tips to improve the privacy of your visitors. Some of the tips seem very logical but can be hard to implement. That's why I have provided examples with every tip so you or your team can apply them without doing all the research.
+As the founder of [Simple Analytics](https://simpleanalytics.com), I'm running into privacy issues while building our product. Based on those learnings I would like to show you some practical tips to improve the privacy of your visitors. Some of the tips seem very logical but can be hard to implement. That's why I have provided examples with every tip so you or your team can apply them without doing all the research.
 
 In this post I talk about [third-party services](), [CDN providers](), [social widgets](), [being ethical towards your visitors](), [marketing emails](), [storing data](), [PII data](), [IP anonymization](), [syslog](), and [two-factor authentication]().
 
@@ -43,7 +43,7 @@ To check if your site uses third-party scripts you can use the [Request Map Gene
 
 <img loading="lazy" class="border" style="padding: 1rem; margin: 1rem 0;" src="/images/2020-privacy-tips/requestmap-simpleanalytics.jpg" alt="Third-party scripts of Simple Analytics" />
 
-In the diagram above you only see requests going to servers of Simple Analytics: `simpleanalytics.com`, `simpleanalyticscdn.com`, and `simpleanalytics.io`. The fat pink circle is [our home page video](https://simpleanalytics.com/) which consumes the most bytes. We also use an external payment provider, but we only load the script when the client clicks on the signup, hence in this image you don't see any external scripts.
+In the diagram above you only see requests going to servers of [Simple Analytics](https://simpleanalytics.com): `simpleanalytics.com`, `simpleanalyticscdn.com`, and `simpleanalytics.io`. The fat pink circle is [our home page video](https://simpleanalytics.com/) which consumes the most bytes. We also use an external payment provider, but we only load the script when the client clicks on the signup, hence in this image you don't see any external scripts.
 
 Compare that to another SaaS like Intercom:
 
@@ -192,11 +192,43 @@ For example the home page of the New York Times. When you see a cross (X) you no
 
 Please don't do this.
 
+## Emails
+
+It's related to don't trick your visitors, but I want to spend a separate section about emails alone.
+
 ### Marketing emails
 
 If you have a business, there is a great value by using the email address of your customers. Use it wisely to inform them about new features, help them get around your tool, etc. It's a perk for your business. But if you're sending marketing emails to your customers, be sure they want to be subscribed. You can ask during signup if it's okay for you to send them emails about your tool/service, or you ask if they are okay with you sending some setup guides or tips. Be aware that if you specify how you are going to use their email, and make sure you only use their email for that purpose.
 
-#### How to keep a good reputation
+### Email tracking
+
+It's harder to disable email tracking then enabling it. That's why most marketing emails contain trackers. Open rate is considered inaccurate because of client disabling images:
+
+> [...] an email is only counted as 'opened' if the recipient also receives the images embedded in that message, and a large percentage of your email users likely have image-blocking enabled on their email client. [...] – [blog.hubspot.com](https://blog.hubspot.com/blog/tabid/6307/bid/29510/Your-Complete-Guide-to-Measuring-Email-Marketing-Success.aspx)
+
+### Email images
+
+When an image heavy email doesn't fully download and is viewed by the user, it could end up rendering like this for the subscriber:
+
+<a href="https://twitter.com/flcarneiro/status/568116082835361792">
+  <img loading="lazy" class="border" style="margin-top: 1rem; width: 500px;" src="/images/2020-privacy-tips/tweet-embedded-images.jpg" alt="Embedded tweet" />
+</a>
+<p class="caption" style="text-align: center;" markdown="1">
+  [Tweet](https://twitter.com/flcarneiro/status/568116082835361792) found on a blog by [Litmus](https://www.litmus.com/blog/the-ultimate-guide-to-email-image-blocking/)
+</p>
+
+When adding images to your emails and not embedding those images in the emails they can look very ugly. More and more email services will stop displaying email trackers and thus images as well. The new [HEY.com](https://hey.com) service [blocks](https://www.businessinsider.com/basecamp-new-email-service-hey-gmail-2020-2?international=true&r=US&IR=T) the so-called tracking pixels. My guess is that more will follow.
+
+With [Simple Analytics](https://simpleanalytics.com) we love to share weekly and monthly [email reports](https://docs.simpleanalytics.com/email-reports). When customers have enabled it we send them an email with all images embedded. No trackers or any remote images. No need to connect with anything outside their email client. Give them their privacy back that they deserve.
+
+<a href="https://docs.simpleanalytics.com/email-reports">
+  <img loading="lazy" class="border" style="margin-top: 1rem; width: 500px;" src="/images/2020-privacy-tips/email-report.png" alt="Embedded tweet" />
+</a>
+<p class="caption" style="text-align: center;" markdown="1">
+  [Email reports feature](https://docs.simpleanalytics.com/email-reports) of [Simple Analytics](https://simpleanalytics.com)
+</p>
+
+### How to keep a good reputation
 
 Another thing with marketing emails is the unsubscribe header. Make sure you have the header setup as it improves your email reputation. The headers could look like this:
 
@@ -208,13 +240,15 @@ In a lot of email clients, the unsubscribe link is placed close to the spam butt
 
 ## Where do you store your data
 
-It's important to store your data in a country that protects the privacy of its people and the people outside of the country. With Simple Analytics we moved our servers to Iceland when we figured that was the best country privacy-wise. According to Freedom House Internet Freedom Scores [Iceland](https://freedomhouse.org/country/iceland/freedom-net/2019) is still the best option:
+It's important to store your data in a country that protects the privacy of its people and the people outside of the country. With [Simple Analytics](https://simpleanalytics.com) we moved our servers to Iceland when we figured that was the best country privacy-wise. According to Freedom House Internet Freedom Scores [Iceland](https://freedomhouse.org/country/iceland/freedom-net/2019) is still the best option:
 
 <a href="https://freedomhouse.org/countries/freedom-net/scores?sort=desc&order=Total%20Score%20and%20Status">
 <img loading="lazy" class="border" style="margin: 0; padding: 1rem 1rem 0;" src="/images/2020-privacy-tips/freedomhouse-score.jpg" alt="Freedom House Internet Freedom Scores" /></a>
 
+We later realized Iceland was not the best option provider-wise.
+
 <details markdown="1">
-<summary>We later realized Iceland was not the best option provider-wise. Here is why</summary>
+<summary>Here is why</summary>
 
 1. The [Icelandic Modern Media Initiative](https://en.wikipedia.org/wiki/International_Modern_Media_Institute#History) was adopted by parliament but didn’t make it into law (so it’s not the internet freedom haven we thought it was).
 1. Our provider claimed to be the largest in Iceland but it was not as mature as bigger providers in Europe, which risked the security of our servers and infrastructure.
@@ -250,7 +284,7 @@ This part is rather technical so bear with me. If you are a manager please forwa
 
 ### Filters in syslog
 
-Simple Analytics uses _NGINX_ which in our case logs to _rsyslog_, often referred to as _syslog_. _rsyslog_ is ofter included in Linux distributions ([official website](https://www.rsyslog.com/)). Luckily _rsyslog_ comes with a great module that's called _mmanon_. This module can be used to filter IP addresses for both v4 and v6 from _rsyslog_ [version 7.3.7](https://www.rsyslog.com/doc/v8-stable/configuration/modules/mmanon.html).
+[Simple Analytics](https://simpleanalytics.com) uses _NGINX_ which in our case logs to _rsyslog_, often referred to as _syslog_. _rsyslog_ is ofter included in Linux distributions ([official website](https://www.rsyslog.com/)). Luckily _rsyslog_ comes with a great module that's called _mmanon_. This module can be used to filter IP addresses for both v4 and v6 from _rsyslog_ [version 7.3.7](https://www.rsyslog.com/doc/v8-stable/configuration/modules/mmanon.html).
 
 <details markdown="1">
 <summary>How to implement anonymization with rsyslog</summary>
@@ -301,6 +335,6 @@ If you want to secure the data of your users and prevent others from accessing t
 
 ### Conclusion
 
-While working on Simple Analytics, I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor data. There is way too little guidelines on how to actually prevent tracking in your own business.
+While working on [Simple Analytics](https://simpleanalytics.com), I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor data. There is way too little guidelines on how to actually prevent tracking in your own business.
 
 I hope this article makes the web a bit more privacy-friendly. [Please let me know](https://github.com/simpleanalytics/blog/issues/new) which tips I should add.

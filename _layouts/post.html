@@ -83,16 +83,21 @@ layout: default
       return anchor;
     };
 
-    var linkifyAnchors = function () {
-      document
-        .querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
-        .forEach(function (header) {
-          if (header.getAttribute("id") !== "") {
-            header.appendChild(anchorForId(header.id));
-          }
-        });
-    };
+    document
+      .querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
+      .forEach(function (header) {
+        if (header.getAttribute("id") !== "") {
+          header.appendChild(anchorForId(header.id));
+        }
+      });
+  })();
 
-    linkifyAnchors();
+  (function addTargetBlank() {
+    var anchors = document.getElementsByTagName("a");
+    for (var i = 0; i < anchors.length; i++) {
+      if (anchors[i].hostname !== window.location.hostname) {
+        anchors[i].setAttribute("target", "_blank");
+      }
+    }
   })();
 </script>
