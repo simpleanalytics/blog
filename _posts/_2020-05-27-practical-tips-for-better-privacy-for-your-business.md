@@ -141,7 +141,7 @@ Your visitors can do something about it themselves, but there will always be peo
 
 > On 29 July 2019, the Court of Justice of the European Union (the "CJEU") ruled that a company embedding on its website a social plugin, such as a Facebook “Like” button, can be considered a data controller [...] – [fieldfisher.com](https://privacylawblog.fieldfisher.com/2019/cjeu-rules-that-companies-using-social-plugins-are-liable-for-the-collection-and-transmission-of-data)
 
-Although you are not in control of what those platforms behind your widgets do with the data of your customers, you are still responsible for what happens with this information/data.
+Although you are not in control of what those platforms behind your widgets do with the data of your customers, you are still responsible for what happens with this data.
 
 ### Replace Facebooks share button
 
