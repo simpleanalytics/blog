@@ -4,21 +4,21 @@ author_slug: adriaan
 author: Adriaan van Rossum
 ---
 
-As the founder of Simple Analytics, I'm running into privacy issues while building our product. Based on those learnings I would like to show you some practical tips to improve the privacy of your visitors. Some of the tips seem very logical but they can be hard to implement. That's why I have provided examples with every tip so you or your team can apply them without doing all the research.
+As the founder of Simple Analytics, I'm running into privacy issues while building our product. Based on those learnings I would like to show you some practical tips to improve the privacy of your visitors. Some of the tips seem very logical but can be hard to implement. That's why I have provided examples with every tip so you or your team can apply them without doing all the research.
 
 In this post I talk about [third-party services](), [CDN providers](), [social widgets](), [being ethical towards your visitors](), [marketing emails](), [storing data](), [PII data](), [IP anonymization](), [syslog](), and [two-factor authentication]().
 
-> Some tips might become a bit technical and if you don't have a technical background, feel free to skip those and forward them to your technical team.
+> Some tips might become a bit technical and if you don't have any technical background, feel free to skip those and forward them to your technical team.
 
 ## Third-party services
 
-Most businesses use plenty of third-party services. They help you with providing a better service to your customers, which is great. But it's hard to know how privacy-friendly these services are. While you might know them all (it's required by the GDPR), you don't know if you can trust them. It's healthy to think of third-party services as untrustable and use them in your product like that. There are a few ways you can limit their effect on your visitors.
+Most businesses use plenty of other third-party services. They help you with providing a better service to your customers, which is great. But it's hard to know how privacy-friendly these services are. While you might know them all (it's required by the GDPR), you don't know if you can trust them. It's healthy to always think of third-party services as untrustable and use them in your product like that. There are a few ways you can limit their effect on your visitors.
 
 ### Load third-party scripts only when needed
 
-Sometimes you need to use external scripts. You could be using a chat service or a payment provider. One of the things you should do is to only load those scripts on pages where you use them.
+Sometimes you need to use external scripts. For example, you could be using a chat service or a payment provider. Solution: Only load those scripts on pages where you use them.
 
-For a chat, it may be for every page but for a payment provider it certainly wouldn't be the case. Don't include those script on every page.
+For a chat, it may be load every page but for a payment provider it certainly wouldn't be the same. Don't include those script on every page.
 
 When using a chat that you use on every page you could get a bit creative. For example, you could have a little button that only loads the external script when you click it.
 
@@ -43,13 +43,13 @@ To check if your site uses third-party scripts you can use the [Request Map Gene
 
 <img loading="lazy" class="border" style="padding: 1rem; margin: 1rem 0;" src="/images/2020-privacy-tips/requestmap-simpleanalytics.jpg" alt="Third-party scripts of Simple Analytics" />
 
-In the diagram above you only see requests going to servers of Simple Analytics: `simpleanalytics.com`, `simpleanalyticscdn.com`, and `simpleanalytics.io`. The fat pink circle is [our home page video](https://simpleanalytics.com/) which consumes the most bytes. We do use an external payment provider, but only load the script when you click on signup, hence in this image you don't see any external scripts.
+In the diagram above you only see requests going to servers of Simple Analytics: `simpleanalytics.com`, `simpleanalyticscdn.com`, and `simpleanalytics.io`. The fat pink circle is [our home page video](https://simpleanalytics.com/) which consumes the most bytes. We also use an external payment provider, but we only load the script when the client clicks on the signup, hence in this image you don't see any external scripts.
 
 Compare that to another SaaS like Intercom:
 
 <img loading="lazy" class="border" style="padding: 1rem; margin: 1rem 0;" src="/images/2020-privacy-tips/requestmap-intercom.jpg" alt="Third-party scripts of Intercom" />
 
-There are many external scripts loaded from all kinds of different domains. I'm not saying this is good or bad, just check for yourself if all those external parties are needed. Run the [Request Map Generator](https://requestmap.webperf.tools/) and see what services you don't need.
+There are many external scripts loaded from all kinds of different domains. I'm not saying this is good or bad, but its a good practice to double check if all those external parties are needed. Run the [Request Map Generator](https://requestmap.webperf.tools/) and see what services you don't need.
 
 <blockquote role="alert">
   Remember that all external parties can access the data being displayed on the page. If your visitors are logged in and see critical data, these external parties can see that as well.
@@ -80,7 +80,7 @@ The `crossorigin` content attribute on media elements is a CORS settings attribu
 
 </details>
 
-To prevent giving the page your visitors are on you can add the `referrerpolicy` attribute with a `no-referrer` value to your script tags.
+To prevent giving the page your visitors are viewing, you can add the `referrerpolicy` attribute with a `no-referrer` value to your script tags.
 
 <details markdown="1">
 <summary>Show code example</summary>
@@ -98,7 +98,7 @@ To prevent giving the page your visitors are on you can add the `referrerpolicy`
 Although you are not sending the referrer here, the browser does send the origin header with CORS requests. This means that your CDN provider still gets the domain where your visitors land on. If they record IPs they can track the browsing behavior of your visitors. This can only be solved by choosing a CDN provider that anonymizes the IP addresses. The only CDN provider that currently offers IP anonymization is [BunnyCDN](https://bunnycdn.com/) _(we are not affiliated with BunnyCDN)_.
 
 <details markdown="1">
-<summary>If you combine all the above features the HTML will look similar to this</summary>
+<summary>If you combine all the above features, the HTML will look similar to this</summary>
 
 ```html
 <script
@@ -130,7 +130,7 @@ script.referrerPolicy = "no-referrer";
 
 Social media companies do not have a very good reputation for collecting data of your visitors. There are many plugins and ways to track users. Your visitors don't choose to be tracked by those companies, you do.
 
-> If you are a visitor it's recommended to use an ad blocker like [uBlock Origin](getublock.com). It's a well develop browser extension that removes all trackers and ads from your visits. It has a giant on/off button to disable it for the site you are on. It makes your browsing experience safer.
+> If you are a visitor it's recommended to use an ad blocker like [uBlock Origin](getublock.com). It's a well develop browser extension that removes all trackers and ads from your visits. There is a giant on/off button to disable it for the site you are on. It makes your browsing experience safer.
 
 Your visitors can do something about it themselves, but there will always be people that don't know about this tracking or don't know how to prevent it from happening. That's why the EU came with the [GDPR](https://gdpr.eu/), California with the [CCPA](https://www.oag.ca.gov/privacy/ccpa), Brazil with [LGDP](http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm), and the UK with [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/).
 
@@ -141,11 +141,11 @@ Your visitors can do something about it themselves, but there will always be peo
 
 > On 29 July 2019, the Court of Justice of the European Union (the "CJEU") ruled that a company embedding on its website a social plugin, such as a Facebook “Like” button, can be considered a data controller [...] – [fieldfisher.com](https://privacylawblog.fieldfisher.com/2019/cjeu-rules-that-companies-using-social-plugins-are-liable-for-the-collection-and-transmission-of-data)
 
-Although you are not in control of what those platforms behind your widgets do with the data of your customers, you are still responsible for what happens with it.
+Although you are not in control of what those platforms behind your widgets do with the data of your customers, you are still responsible for what happens with this information/data.
 
 ### Replace Facebooks share button
 
-When you add a Facebook widget like a share button Facebook does recommend you use their third-party scripts. This is great for them because they can collect more data about your visitors. Luckily they provide another way without the use of any scripts.
+When you add a Facebook widget like a share button, Facebook recommends you use their third-party scripts. This is great for them because they can collect more data about your visitors. Luckily they provide another way without the use of any scripts.
 
 Here is an example with custom buttons and a simple share link. I highly recommend using link implementation instead of any script implementation.
 
@@ -180,7 +180,7 @@ On the internet you see the Twitter widget being used a lot. But is it needed to
 
 ## Don't trick your visitors
 
-Tricking your visitors into doing something they don't want to do. Sometimes it's great to open your website and follow your flow like a new customer. Be aware of things that are not clear and all popups you get.
+Tricking your visitors into doing something they don't want to do. Sometimes it's great to open your website and follow your flow like a new customer. Be aware of things that are not clear and all the popups you see.
 
 ### Cookie banners
 
@@ -194,7 +194,7 @@ Please don't do this.
 
 ### Marketing emails
 
-If you have a business, there is a great value by using the email address of your customers. Use it wisely to inform them about new features, help them get around your tool, etc. It's a perk for your business. But if you're sending marketing emails to your customers, be sure they want it. You can ask during signup if it's okay for you to send them emails about your tool/service, or you ask if they are okay with you sending some setup guides or tips. Be aware that if you specify how you are going to use their email, and make sure you only use their email for that purpose.
+If you have a business, there is a great value by using the email address of your customers. Use it wisely to inform them about new features, help them get around your tool, etc. It's a perk for your business. But if you're sending marketing emails to your customers, be sure they want to be subscribed. You can ask during signup if it's okay for you to send them emails about your tool/service, or you ask if they are okay with you sending some setup guides or tips. Be aware that if you specify how you are going to use their email, and make sure you only use their email for that purpose.
 
 #### How to keep a good reputation
 
@@ -222,7 +222,7 @@ It's important to store your data in a country that protects the privacy of its 
 1. The internet cables to Iceland are rather slow. Although it’s geographically ideal — located between North America and Europe — in practice, The Netherlands is a faster location for both.
 1. We don't want to move to Switzerland because it would be a marketing move only. The EU provides better privacy laws than Switzerland.
 1. We need to move anyway because our current provider does not offer the powerful servers we need.
-1. The second-biggest provider in Iceland is legally headquartered in Honk Kong, which is not a location we want to store our data at.
+1. The second-biggest provider in Iceland is legally headquartered in Hong Kong, which is not a preferred location we want to store our data.
 
 > Copied from [our docs page on locations](https://docs.simpleanalytics.com/locations).
 
@@ -238,7 +238,7 @@ It still happens you need to enter personal details for a website or app that do
 
 ### Don't ask full names
 
-Unless you really need it. Let people decide if they want to add their full name. Just ask for a first name if you want to address people in your marketing emails, but don't ask for a full name.
+Unless you really need it. Let people consent to adding their full name. Just ask for a first name if you want to address people in your marketing emails, but don't ask for a full name.
 
 > For people reading that are tired of coming up with fake names: there are [plenty of services out there](https://duckduckgo.com/?q=fake+name+generator) to help create a fake name.
 
@@ -257,7 +257,7 @@ Simple Analytics uses _NGINX_ which in our case logs to _rsyslog_, often referre
 
 On your sever you can check which version of _rsyslog_ you have by running `rsyslogd -v`.
 
-You can enable IP anonymization with adding the following lines to your _rsyslog_ config file. The config file usually lives in `/etc/rsyslog.conf` or `/etc/rsyslog.d/50-default.conf`.
+You can enable IP anonymization by adding the following lines to your _rsyslog_ config file. The config file usually lives in `/etc/rsyslog.conf` or `/etc/rsyslog.d/50-default.conf`.
 
 ```bash
 module(load="mmanon")
@@ -268,7 +268,7 @@ After you have changed this file make sure to restart _rsyslog_ with `service rs
 
 #### Next level syslog
 
-If you want to go deeper you can set up some advanced filters to remove sensitive data within your log files or log services.
+If you want to go indepth you can set up some advanced filters to remove sensitive data within your log files or log services.
 
 You could create a syslog config file in `/etc/syslog/...`. I created a file called `/etc/rsyslog.d/30-anonymize.conf` containing:
 
@@ -301,6 +301,6 @@ If you want to secure the data of your users and prevent others from accessing t
 
 ### Conclusion
 
-While working on Simple Analytics, I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor data. There is way too little information on how to actually prevent tracking in your own business.
+While working on Simple Analytics, I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor information. There is way too little guidelines on how to actually prevent tracking in your own business.
 
 I hope this article makes the web a bit more privacy-friendly. [Please let me know](https://github.com/simpleanalytics/blog/issues/new) which tips I should add.
