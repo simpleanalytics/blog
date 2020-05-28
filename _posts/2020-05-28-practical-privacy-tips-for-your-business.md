@@ -188,7 +188,7 @@ When browsing the internet you will find many examples of websites trying to tri
 
 For example the home page of the New York Times. When you see a cross (X) you normally would close a dialog box without agreeing to what's being asked. The New York Times just sees it the same as "I agree":
 
-<img loading="lazy" src="/images/2020-privacy-tips/new-york-times-cookie-banner.jpg" alt="New York Times cookie banner" />
+<img loading="lazy" style="margin: 0 auto;" class="border" src="/images/2020-privacy-tips/new-york-times-cookie-banner.jpg" alt="New York Times cookie banner" />
 
 Please don't do this.
 
