@@ -500,7 +500,7 @@ Be aware of where you put the data from your visitors. Do some research into the
 
 ## Do not log or ask PII data when not needed
 
-It still happens you need to enter personal details for a website or app that does not need it.
+Personally identifiable information (PII) is information that, when used alone or with other relevant data, can identify an individual. It still happens you need to enter personal details for a website or app that does not absolutely need it.
 
 ### Don't ask full names
 
