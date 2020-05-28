@@ -49,7 +49,7 @@ Compare that to another SaaS like Intercom:
 
 <img loading="lazy" class="border" style="padding: 1rem; margin: 1rem 0;" src="/images/2020-privacy-tips/requestmap-intercom.jpg" alt="Third-party scripts of Intercom" />
 
-There are many external scripts loaded from all kinds of different domains. I'm not saying this is good or bad, but its a good practice to double check if all those external parties are needed. Run the [Request Map Generator](https://requestmap.webperf.tools/) and see what services you don't need.
+There are many external scripts loaded from all kinds of different domains. I'm not saying this is good or bad, but it's a good practice to double check if all those external parties are needed. Run the [Request Map Generator](https://requestmap.webperf.tools/) and see what services you don't need.
 
 <blockquote role="alert">
   Remember that all external parties can access the data being displayed on the page. If your visitors are logged in and see critical data, these external parties can see that as well.
