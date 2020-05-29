@@ -4,6 +4,10 @@ author_slug: adriaan
 author: Adriaan van Rossum
 ---
 
+<blockquote role="alert" markdown="1">
+  This blog post is outdated. In the meantime we moved our servers from Iceland to The Netherlands. [Here is why](https://docs.simpleanalytics.com/locations).
+</blockquote>
+
 As the founder of Simple Analytics, I have always been mindful for the need of trust and transparency for our customers. We would like to be held accountable for our customers needs, so they can sleep in peace. The choices we make has to be optimal, in terms of privacy, for the visitors and our customers. One of the crucial choices to consider was, choosing the location of our servers.
 
 <img loading="lazy" class="limit-height" src="/images/flag-map-of-iceland.svg" alt="">
