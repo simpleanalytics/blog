@@ -61,7 +61,7 @@ If you use a CDN you are giving them data about your visitors and the power to l
 
 ### Subresource Integrity
 
-To prevent your CDN provider tempering with the source of your scripts you can use [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI; the `integrity` attribute on your scripts). You need to create a hash of the source of the script and include this in the script tag via the `integrity` attribute. To generate the integrity hash you can use [srihash.org](https://www.srihash.org/).
+To prevent your CDN provider tampering with the source of your scripts you can use [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI; the `integrity` attribute on your scripts). You need to create a hash of the source of the script and include this in the script tag via the `integrity` attribute. To generate the integrity hash you can use [srihash.org](https://www.srihash.org/).
 
 ```html
 <script src="https://cdn.example.com/script.js" integrity="sha384-..."></script>
@@ -86,7 +86,7 @@ The `crossorigin` content attribute on media elements is a CORS settings attribu
 
 ### Referrer policy attribute
 
-To prevent giving the page your visitors are viewing, you can add the `referrerpolicy` attribute with a `no-referrer` value to your script tags.
+To prevent them knowing the page your visitors are viewing, you can add the `referrerpolicy` attribute with a `no-referrer` value to your script tags.
 
 <details markdown="1">
 <summary>Show code example</summary>
@@ -144,9 +144,9 @@ When you created your policy you can either specify it via a `<meta>`-tag or a h
 
 ## Remove social widgets
 
-Social media companies do not have a very good reputation for collecting data from your visitors. There are many plugins and ways to track users. Your visitors don't choose to be tracked by those companies, you do.
+Social media companies have a bad reputation for collecting data from your visitors. There are many plugins and ways to track users. Your visitors don't choose to be tracked by those companies, you do.
 
-> If you are a visitor it's recommended to use an ad blocker like [uBlock Origin](getublock.com). It's a well develop browser extension that removes all trackers and ads from your visits. There is a giant on/off button to disable it for the site you are on. It makes your browsing experience safer.
+> If you are a visitor it's recommended to use an ad blocker like [uBlock Origin](getublock.com). It's a well developed browser extension that removes all trackers and ads from your visits. There is a giant on/off button to disable it for the site you are on. It makes your browsing experience safer.
 
 Your visitors can do something about it themselves, but there will always be people that don't know about this tracking or don't know how to prevent it from happening. That's why the EU came with the [GDPR](https://gdpr.eu/), California with the [CCPA](https://www.oag.ca.gov/privacy/ccpa), Brazil with [LGDP](http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm), and the UK with [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/).
 
@@ -161,7 +161,7 @@ Although you are not in control of what those platforms behind your widgets do w
 
 ### Replace Facebooks share button
 
-When you add a Facebook widget like a share button, Facebook recommends you use their third-party scripts. This is great for them because they can collect more data about your visitors. Luckily they provide another way without the use of any scripts.
+When you add a Facebook widget like a share button, Facebook recommends you use their scripts. This is great for them because they can collect more data about your visitors. Luckily they provide another way without the use of any of their scripts.
 
 Here is an example with custom buttons and a simple share link. I highly recommend using link implementation instead of any script implementation.
 
@@ -400,7 +400,7 @@ Prefix the output of [urlencoder.io](https://www.urlencoder.io/) with `https://w
 
 ### Twitter embedded tweets
 
-On the internet you see the Twitter widget being used a lot. But is it needed to send the data from your visitors to Twitter when they just want to see a tweet? A screenshot works just fine:
+On the internet you see the Twitter widget being used a lot. But is it nessessary to send the data from your visitors to Twitter when they just want to see a tweet? A screenshot works just fine:
 
 <a href="https://twitter.com/SimpleAnalytic/status/1262318675283128322">
   <img loading="lazy" class="border" style="margin: 1rem auto; width: 450px;" src="/images/2020-privacy-tips/twitter-embed.jpg" alt="Embedded tweet" />
@@ -408,7 +408,7 @@ On the internet you see the Twitter widget being used a lot. But is it needed to
 
 ## Don't trick your visitors
 
-Tricking your visitors into doing something they don't want to do. Sometimes it's great to open your website and follow your flow like a new customer. Be aware of things that are not clear and all the popups you see.
+Tricking your visitors into doing something they don't want to do is bad, and you shouldn't do it. Sometimes it's great to open your website and follow your flow like a new customer. Be aware of things that are not clear and all the popups you see.
 
 ### Cookie banners
 
@@ -447,7 +447,7 @@ When an image-heavy email doesn't fully download and is viewed by the user, it c
 
 When adding images to your emails and not embedding those images in the emails they can look very ugly. More and more email services will stop displaying email trackers and thus images as well. The new [HEY.com](https://hey.com) service [blocks](https://www.businessinsider.com/basecamp-new-email-service-hey-gmail-2020-2?international=true&r=US&IR=T) the so-called tracking pixels. I guess that more will follow.
 
-With [Simple Analytics](https://simpleanalytics.com) we love to share weekly and monthly [email reports](https://docs.simpleanalytics.com/email-reports). When customers have enabled it we send them an email with all images embedded. No trackers or any remote images. No need to connect with anything outside their email client. Give them their privacy back that they deserve.
+With [Simple Analytics](https://simpleanalytics.com) we love to share weekly and monthly [email reports](https://docs.simpleanalytics.com/email-reports). When customers have enabled it we send them an email with all images embedded. No trackers or any remote images. No need to connect with anything outside their email client. Give back their privacy: they deserve it!
 
 <a href="https://docs.simpleanalytics.com/email-reports">
   <img loading="lazy" class="border" style="margin-top: 1rem; width: 500px;" src="/images/2020-privacy-tips/email-report.png" alt="Embedded tweet" />
@@ -458,7 +458,7 @@ With [Simple Analytics](https://simpleanalytics.com) we love to share weekly and
 
 ### How to keep a good reputation
 
-Another thing with marketing emails is the unsubscribe header. Make sure you have the header setup as it improves your email reputation. The headers could look like this:
+Another thing with marketing emails is the unsubscribe header. Make sure you have the header set up as it improves your email reputation. The headers could look like this:
 
 ```
 List-Unsubscribe: <https://example.com/unsub/?uuid=14b2-b2a1>, <mailto:unsubscribe@example.com>
@@ -494,21 +494,21 @@ We asked our customers if they would be okay with the move from Iceland to The N
 
 Be aware of where you put the data from your visitors. Do some research into the hosting provider you are using and the country where it's hosted. Don't pick the cheapest option without knowing why it's cheap.
 
-## Do not log or ask PII data when not needed
+## Do not log or ask PII data when it's not needed
 
-Personally identifiable information (PII) is information that, when used alone or with other relevant data, can identify an individual. It still happens you need to enter personal details for a website or app that does not absolutely need it.
+Personally identifiable information (PII) is information that, when used alone or with other relevant data, can identify an individual. It still happens quite frequently where websites or apps ask you to provide personal details which they don't even need.
 
-### Don't ask full names
+### Don't ask full names...
 
-Unless you really need it. Let people decide for themselves to add their full name. Just ask for a first name if you want to address people in your marketing emails, but don't ask for a full name.
+...Unless you really need it. Let people decide for themselves to add their full name. Just ask for a first name if you want to address people in your marketing emails, but don't ask for a full name.
 
 > For people reading that are tired of coming up with fake names: there are [plenty of services out there](https://duckduckgo.com/?q=fake+name+generator) to help create a fake name.
 
 ### IP anonymization
 
-This part is rather technical so bear with me. If you are a manager please forward this to your developers. IP anonymization is the most logical thing to do on your servers when talking about privacy. Yet, there are not that many examples of how to do it. A lot of processes on your servers log data. For example, _NGINX_ logs data about every request (it's customizable) that comes in. This is great for debugging but it's less good for the privacy of your users. With _NGNIX_ you can't format the error logs so it will always error in the same format. This is very privacy-unfriendly because it contains the full IP address of the user and usually the User-Agent (which can contain unclear identifiers when using the Facebook app).
+This part is rather technical so bear with me. If you are a manager please forward this to your developers. IP anonymization is the most logical thing to do on your servers when talking about privacy. Yet, there are not that many examples of how to do it. A lot of the processes (applications) on your servers log data. For example, _NGINX_ logs data about every request that comes in by default (it's customizable, however). This is great for debugging but it's less good for the privacy of your users. With _NGNIX_ you can't format the error logs so it will always error in the same format. This is very privacy-unfriendly because it contains the full IP address of the user and usually the User-Agent (which can contain unclear identifiers when using the Facebook app).
 
-> You can probably guess a few of the elements of this Facebook User-Agent suffix but it's not all clear to me: `[FBAN/FBIOS;FBAV/221.0.0.0.0;FBBV/154514034;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/12.3.0;FBSS/3;FBCR/Siminn;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/155138002]` It does not look like they are tracking their users via the User-Agent suffix, but they temper with the User-Agent at least.
+> You can probably guess a few of the elements of this Facebook User-Agent suffix but it's not all clear to me: `[FBAN/FBIOS;FBAV/221.0.0.0.0;FBBV/154514034;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/12.3.0;FBSS/3;FBCR/Siminn;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/155138002]` It does not look like they are tracking their users via the User-Agent suffix, but they tamper with the User-Agent, at least.
 
 ### Filters in syslog
 
