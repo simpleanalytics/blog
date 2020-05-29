@@ -236,6 +236,8 @@ section#privacy-button-links-example span {
 <details markdown="1">
 <summary>HTML for above buttons</summary>
 
+Make sure to add `rel="noopener"` or `rel="noreferrer"` [to prevent other pages](https://web.dev/external-anchors-use-rel-noopener/) accessing your window object with the window.opener property. This may allow the other page to redirect your page to a malicious URL. It's called [reverse tabnabbing](https://duckduckgo.com/?q=reverse+tabnabbing).
+
 ```html
 <section id="privacy-button-links-example">
   <h1>Share this website via</h1>
