@@ -202,8 +202,8 @@ section#privacy-button-links-example {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #d7e4f4;
-  border: 1px solid #CCDCE6;
+  background-color: #eef9ff;
+  border-radius: 3px;
   align-items: center;
   justify-content: center;
   padding: 3rem 1rem;
@@ -249,10 +249,10 @@ section#privacy-button-links-example span {
 }
 </style>
 
+> Make sure to add `rel="noopener"` or `rel="noreferrer"` [to prevent other pages](https://web.dev/external-anchors-use-rel-noopener/) accessing your window object with the [`window.opener`](https://developer.mozilla.org/en-US/docs/Web/API/Window/opener) property. This may allow the other page to redirect your page to a malicious URL. It's called [reverse tabnabbing](https://duckduckgo.com/?q=reverse+tabnabbing).
+
 <details markdown="1">
 <summary>HTML for above buttons</summary>
-
-Make sure to add `rel="noopener"` or `rel="noreferrer"` [to prevent other pages](https://web.dev/external-anchors-use-rel-noopener/) accessing your window object with the window.opener property. This may allow the other page to redirect your page to a malicious URL. It's called [reverse tabnabbing](https://duckduckgo.com/?q=reverse+tabnabbing).
 
 ```html
 <section id="privacy-button-links-example">
@@ -348,8 +348,8 @@ section#privacy-button-links-example {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #d7e4f4;
-  border: 1px solid #ccdce6;
+  background-color: #eef9ff;
+  border-radius: 3px;
   align-items: center;
   justify-content: center;
   padding: 3rem 1rem;
