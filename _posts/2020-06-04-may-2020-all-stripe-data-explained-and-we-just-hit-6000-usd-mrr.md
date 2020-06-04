@@ -28,14 +28,14 @@ Gross volume is the total sales value. This number does include costs like fees,
 
 I don't look at this number much because it doesn't say that much about the current state of our startup. It is a great number to look back on though. When building your startup it's easy to only focus on the MRR but it can be a nice push when looking at the gross volume. You might think: "My customers paid me this amount of money for my service." That's a nice feeling.
 
-## New volume from sales
+## Net volume from sales
 
 <span class="stripe-badge"><img src="/images/2020-05/stripe-logo.svg" alt="Stripe:"></span> Estimated revenue from payments after fees, refunds, disputes, and Connect transfers have been deducted.
 
 > The above description is directly copied from Stripe. It's the text of the tooltip behind the little information icon you see below. When I use their text I prefix it with the Stripe logo.
 
 <img class="border" src="/images/2020-05/02-new-volume-from-sales@2x.png" alt="New volume from sales of Simple Analytics from June 2019 to May 2020" loading="lazy" style="margin-top: 0; width: 400px;" />
-<p class="caption t-a-c" markdown="1">New volume from sales</p>
+<p class="caption t-a-c" markdown="1">Net volume from sales</p>
 
 This is very much the same as the gross volume. To me, it's equally important and I also don't use this number much. Logically, it's less than the gross volume as fees, refunds, and disputes are deducted.
 
