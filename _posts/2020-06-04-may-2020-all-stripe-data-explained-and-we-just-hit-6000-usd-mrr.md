@@ -1,6 +1,7 @@
 ---
-title: May 2020 – All Stripe data explained with $6000 MRR
+title: Stripe data explained and hit $6000 MRR
 author_slug: adriaan
+badge: "Monthly: May"
 author: Adriaan van Rossum
 ---
 

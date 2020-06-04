@@ -7,15 +7,26 @@ layout: default
 <div class="related">
   <ul class="related-posts">
     {% for post in site.posts limit:100 %}
-      <li>
-        <h2>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <p>
-            <span class="text-muted">{{ post.date | date_to_string }} by {{ post.author }}</span> - {{ post.excerpt | strip_html | replace: '</p>', '' | replace: '<p>', '' }}
-            <a href="{{ post.url }}">Read more</a>
-          </p>
-        </h2>
-      </li>
+    <li>
+      <h2>
+        <a href="{{ post.url }}">
+          {{ post.title }}{% if post.badge %}<span class="title-badge"
+            >{{ post.badge }}</span
+          >{% endif %}
+        </a>
+        <p>
+          <span class="text-muted"
+            >{{ post.date | date: '%B %-d, %Y' }}, by {{ post.author }}</span
+          >
+          - {{ post.excerpt | strip_html | replace: '
+        </p>
+        ', '' | replace: '
+        <p>
+          ', '' }}
+          <a href="{{ post.url }}">Read more</a>
+        </p>
+      </h2>
+    </li>
     {% endfor %}
   </ul>
 </div>
@@ -24,7 +35,7 @@ layout: default
   <h3>Email me your next post</h3>
   <p class="response" style="display: none;">Thank you, keep you posted ;)</p>
   <p class="m-b-0">
-    <input name="email" placeholder="Enter email..." type="email">
-    <input class="button" value="Send" type="submit">
+    <input name="email" placeholder="Enter email..." type="email" />
+    <input class="button" value="Send" type="submit" />
   </p>
 </form>

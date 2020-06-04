@@ -1,6 +1,7 @@
 ---
-title: April 2020 – We hit 400 paying customers
+title: We hit 400 paying customers
 author_slug: adriaan
+badge: "Monthly: April"
 author: Adriaan van Rossum
 ---
 
