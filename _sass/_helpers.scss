@@ -214,3 +214,28 @@ h6 {
     display: inline;
   }
 }
+
+.stripe-badge {
+  display: inline-block;
+  background-color: #e1e3ee;
+  border-radius: 3px;
+}
+.page .stripe-badge img {
+  height: 18px;
+  margin: 0px 8px 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.split > div {
+  flex: 0 1 calc(50% - 2rem);
+}
+.split img {
+  margin-top: 0 !important;
+}
