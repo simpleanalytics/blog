@@ -2,10 +2,12 @@
 <html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
-    <title>
-      {% if page.title %} {{ page.title }} &middot; Simple Analytics {% else %}
-      Blog of Simple Analytics {% endif %}
-    </title>
+
+    {% capture title %}{% if page.title %}{{ page.title }} &middot; Simple Analytics{% else %}Blog of Simple Analytics{% endif %}{% endcapture %}
+    {% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | replace: '</p>', '' | replace: '<p>', ''  | strip }}{% else %}Simple, easy and friendly analytics.{% endif %}{% endcapture %}
+
+    <title>{{ title }}</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Icons -->
@@ -19,30 +21,20 @@
     <meta name="theme-color" content="#FFFFFF" />
 
     <!-- Social -->
-    {% if page.excerpt %}
-    <meta
-      name="description"
-      content="{{ page.excerpt | strip_html | replace: '
-  </p>
-  ', '' | replace: '
-  <p>
-    ', ''  | strip }}"
-    />
-    {% else %}
-    <meta name="description" content="Simple, easy and friendly analytics." />
-    {% endif %}
+    <meta name="twitter:site" content="@SimpleAnalytic" />
+    <meta name="twitter:creator" content="@AdriaanvRossum" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta name="description" content="{{ description }}" />
+    <meta name="og:description" content="{{ description }}" />
 
     <!-- Add social image -->
     {% if page.image %}
-    <meta
-      name="og:image"
-      content="https://blog.simpleanalytics.com{{ page.image }}"
-    />
-    <meta
-      name="twitter:image"
-      content="https://blog.simpleanalytics.com{{ page.image }}"
-    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="og:image" content="{{ site.url }}{{ page.image }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
     {% else %}
+    <meta name="twitter:card" content="summary" />
     <meta
       name="og:image"
       content="https://simpleanalytics.com/images/screenshot.png"

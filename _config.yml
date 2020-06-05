@@ -3,3 +3,4 @@ post_dirs: true
 plugins:
   - jekyll-feed
 hostname: blog.simpleanalytics.com
+url: https://blog.simpleanalytics.com
