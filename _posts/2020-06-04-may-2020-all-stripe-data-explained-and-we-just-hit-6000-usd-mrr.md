@@ -3,6 +3,7 @@ title: Stripe data explained and hit $6000 MRR
 author_slug: adriaan
 badge: "Monthly: May"
 author: Adriaan van Rossum
+image: /images/2020-05/woman-using-pc-and-android-phone-at-home-office.png
 ---
 
 The monthly update of Simple Analytics will look a bit different than normal. This time I took screenshots of all data within the dashboard of Stripe and will comment on every single aspect of it. If you like graphs and numbers, this is your month!

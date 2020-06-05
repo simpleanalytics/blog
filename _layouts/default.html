@@ -19,7 +19,30 @@
     <meta name="theme-color" content="#FFFFFF" />
 
     <!-- Social -->
+    {% if page.excerpt %}
+    <meta
+      name="description"
+      content="{{ page.excerpt | strip_html | replace: '
+  </p>
+  ', '' | replace: '
+  <p>
+    ', ''  | strip }}"
+    />
+    {% else %}
     <meta name="description" content="Simple, easy and friendly analytics." />
+    {% endif %}
+
+    <!-- Add social image -->
+    {% if page.image %}
+    <meta
+      name="og:image"
+      content="https://blog.simpleanalytics.com{{ page.image }}"
+    />
+    <meta
+      name="twitter:image"
+      content="https://blog.simpleanalytics.com{{ page.image }}"
+    />
+    {% else %}
     <meta
       name="og:image"
       content="https://simpleanalytics.com/images/screenshot.png"
@@ -28,6 +51,7 @@
       name="twitter:image"
       content="https://simpleanalytics.com/images/screenshot.png"
     />
+    {% endif %}
 
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="/app.css" />

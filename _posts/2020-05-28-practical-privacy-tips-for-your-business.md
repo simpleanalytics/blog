@@ -2,6 +2,7 @@
 title: Practical privacy tips for your business
 author_slug: adriaan
 author: Adriaan van Rossum
+image: /images/2020-privacy-tips/daria-nepriakhina-all-we-need-is-likes.jpg
 ---
 
 As the founder of [Simple Analytics](https://simpleanalytics.com), I'm running into privacy issues while building our product. Based on those learnings I would like to show you some practical tips to improve the privacy of your visitors. Some of the tips seem very logical but can be hard to implement. That's why I have provided examples with every tip so you or your team can apply them without doing all the research.
