@@ -163,7 +163,7 @@ When you created your policy you can either specify it via a `<meta>`-tag or a h
 
 Social media companies have a bad reputation for collecting data from your visitors. There are many plugins and ways to track users. Your visitors don't choose to be tracked by those companies, you do.
 
-> If you are a visitor it's recommended to use an ad blocker like [uBlock Origin](getublock.com). It's a well developed browser extension that removes all trackers and ads from your visits. There is a giant on/off button to disable it for the site you are on. It makes your browsing experience safer.
+> If you are a visitor it's recommended to use an ad blocker like [uBlock Origin](https://getublock.com). It's a well developed browser extension that removes all trackers and ads from your visits. There is a giant on/off button to disable it for the site you are on. It makes your browsing experience safer.
 
 Your visitors can do something about it themselves, but there will always be people that don't know about this tracking or don't know how to prevent it from happening. That's why the EU came with the [GDPR](https://gdpr.eu/), California with the [CCPA](https://www.oag.ca.gov/privacy/ccpa), Brazil with [LGDP](http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm), and the UK with [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/).
 
