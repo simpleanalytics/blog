@@ -18,7 +18,7 @@ You might be thinking, "who cares, this just seems like no big deal to me." Well
 
 1. Google's cookies are separate from normal cookies. Meaning that once you sign in with Google in either a Google service or through your Chrome browser, their stored credentials and identifiers are exempt from you clearing your cookies.
 2. It could not be turned off (this actually is going to be changed). But the original intent was that outside of a flaky developer setting in the browser (known as a flag), you would not be able to turn it off.
-3. A website is a sandbox, a browser is less so. Browsers cannot spy on your usage of other websites (unless through an exploit). So if you're watching porn and your Facebook is open in another tab, Facebook cannot access your porn tab. But a browser could. And for all you know, the intention is to send that usage data back to Google.
+3. A website is a sandbox, a browser is less so. Websites cannot spy on your usage of other websites (unless through an exploit). So if you're watching porn and your Facebook is open in another tab, Facebook cannot access your porn tab. But a browser could. And for all you know, the intention is to send that usage data back to Google.
 
 <p class="t-a-c">
 <a href="https://twitter.com/ctavan/status/1044282084020441088" target="_blank" class="tweet"><img loading="lazy" src="/images/chrome-cookies-tweet.png" alt=""></a>
