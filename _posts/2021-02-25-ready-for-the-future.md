@@ -1,7 +1,7 @@
 ---
-title: An overview of the last 3 months
+title: Ready for the future
 author_slug: adriaan
-badge: "Monthly: June, July, August"
+badge: "Company update"
 author: Adriaan van Rossum
 image: /images/2020-05/woman-using-pc-and-android-phone-at-home-office.png
 ---
