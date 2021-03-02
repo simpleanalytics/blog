@@ -310,6 +310,8 @@
 
     <script>
       (function initModal() {
+        if ("{{ page.subscribe }}" === "false") return;
+
         var start = Date.now();
         var modal = document.querySelector(".modal");
 
@@ -328,7 +330,8 @@
 
         var onmouseleave = function (event) {
           var duration = Date.now() - start;
-          if (event.clientY < 10 && duration > 7000) show();
+          if (event.clientY < 10 && event.clientX > 150 && duration > 7000)
+            show();
         };
 
         var onkeydown = function (event) {
