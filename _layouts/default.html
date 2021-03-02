@@ -310,6 +310,7 @@
 
     <script>
       (function initModal() {
+        var start = Date.now();
         var modal = document.querySelector(".modal");
 
         if (!modal) return;
@@ -326,7 +327,8 @@
         };
 
         var onmouseleave = function (event) {
-          if (event.clientY < 10) show();
+          var duration = Date.now() - start;
+          if (event.clientY < 10 && duration > 7000) show();
         };
 
         var onkeydown = function (event) {
