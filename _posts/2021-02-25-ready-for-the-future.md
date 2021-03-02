@@ -6,6 +6,20 @@ author: Adriaan van Rossum
 image: /images/2020-05/woman-using-pc-and-android-phone-at-home-office.png
 ---
 
+In the last months we have been working hard to get ready for the future. We are also very happy with the features that are only possible all the ground work we did. We developed our database structure up from the ground and build on top of the fantastic work of Elastic. We are very grateful that we can use their open source software to grow our business to the next level. In this update I will walk you through all the updates we added to Simple Analytics and some background information on the choices we made.
+
+### Elastic
+
+At the time we launched the first version of Simple Analytics back in 2018 we wanted to build the prototype as fast as possible. That required us to use the tools we were familiar with and that included the database. Because of that we picked PostgreSQL and stored all page views in it. It worked super nice and as we grew we added caching tables with aggregated data. This required us to update the database schema and caching tables as we build new features. Not ideal if you want to rapidly iterate on your product.
+
+### Filtered data
+
+One of the most requested features was being able to filter on certain data points. If you would like to know which pages are popular in Germany you would expect to click on Germany and see all the other data update with Germany filtered. To make this possible within our previous database solution it would request much more work and way more error prone.
+
+### APIs
+
+Because we use our new database system for our APIs as well, it has been large expanded. As a customer you can get all the data you see in our dashboard.
+
 This monthly update contains 3 months in one. We will look back on the previous months and take a look in the future. For the first time we experience slower growth than normal and here we explain what we are going to do about it.
 
 <img loading="lazy" class="border" src="/images/2020-08/01-mmr-growth@2x.png" alt="MMR growth of Simple Analytics">
