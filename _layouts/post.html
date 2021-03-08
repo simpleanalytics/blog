@@ -4,7 +4,7 @@ layout: default
 
 <h1 class="post-title">{{ page.title }}</h1>
 <p class="post-date">
-  {{ page.date | date_to_string }} - {{ page.author }} -
+  {{ page.date | date_to_string: "ordinal", "US" }} - {{ page.author }} -
   <a href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
     >Help improve this post</a
   >
@@ -56,7 +56,7 @@ layout: default
 </p>
 {% endif %}
 
-<form class="subscribe mt-3">
+<form data-js="subscribe" class="subscribe mt-3">
   <h3>Subscribe to our privacy newsletter</h3>
   <p>It's short, sweet, and insightful.</p>
   <p class="response" style="display: none">Thank you, keep you posted ;)</p>

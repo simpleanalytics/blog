@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<h1>The blog of the privacy-first analytics tool</h1>
+<h1>How we run Simple Analytics</h1>
+
+<form data-js="subscribe" class="subscribe">
+  <h3>Subscribe to our privacy newsletter</h3>
+  <p>It's short, sweet, and insightful.</p>
+  <p class="response" style="display: none">Thank you, keep you posted ;)</p>
+  <p class="mb-0">
+    <input name="email" placeholder="Your email..." type="email" />
+    <input class="button" value="Try it" type="submit" />
+  </p>
+</form>
 
 <div class="related">
   <ul class="related-posts">
@@ -16,7 +26,7 @@ layout: default
         </a>
         <p>
           <span class="text-muted"
-            >{{ post.date | date: '%B %-d, %Y' }}, by {{ post.author }}</span
+            >{{ post.date | date_to_string: "ordinal", "US" }} by {{ post.author }}</span
           >
           - {{ post.excerpt | strip_html | replace: '
         </p>
@@ -31,7 +41,7 @@ layout: default
   </ul>
 </div>
 
-<form class="subscribe mt-3">
+<form data-js="subscribe" class="subscribe mt-3">
   <h3>Subscribe to our privacy newsletter</h3>
   <p>It's short, sweet, and insightful.</p>
   <p class="response" style="display: none">Thank you, keep you posted ;)</p>

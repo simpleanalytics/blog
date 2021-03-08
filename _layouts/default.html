@@ -281,7 +281,7 @@
           newsletter.
         </p>
 
-        <form class="subscribe mt-1 ta-c">
+        <form data-js="subscribe" class="mt-1 ta-c">
           <h3 class="mb-1" style="color: #ff4f64; font-weight: lighter">
             "It's short, sweet, and insightful."
           </h3>
@@ -310,7 +310,9 @@
 
     <script>
       (function initModal() {
-        if ("{{ page.subscribe }}" === "false") return;
+        var showAfterSeconds = 20;
+        var disabled = window.localStorage.getItem("show_modal");
+        if (disabled || "{{ page.subscribe }}" === "false") return;
 
         var start = Date.now();
         var modal = document.querySelector(".modal");
@@ -326,11 +328,16 @@
         var hide = function () {
           modal.style.display = "none";
           document.body.removeEventListener("keydown", onkeydown);
+          window.localStorage.setItem("show_modal", "false");
         };
 
         var onmouseleave = function (event) {
           var duration = Date.now() - start;
-          if (event.clientY < 10 && event.clientX > 150 && duration > 7000)
+          if (
+            event.clientY < 10 &&
+            event.clientX > 150 &&
+            duration > showAfterSeconds * 1000
+          )
             show();
         };
 
@@ -373,7 +380,7 @@
       );
 
       document
-        .querySelectorAll("form.subscribe")
+        .querySelectorAll('form[data-js="subscribe"]')
         .forEach(function (subscribeForm) {
           subscribeForm.addEventListener("submit", function (event) {
             // Don't do anything, browser!
@@ -409,12 +416,10 @@
                       json.message || "Oops, something goes wrong (1).";
                     responseField.style.color = "#ff4f64";
                   } else {
-                    responseField.textContent =
-                      "Thanks! Click the link in your email to verify.";
+                    responseField.textContent = "One moment...";
                     responseField.style.color = "green";
-
-                    // Reset email field
-                    email.value = "";
+                    window.location.href = "/thank-you";
+                    return;
                   }
                 } catch (error) {
                   console.error(error);

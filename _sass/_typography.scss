@@ -4,6 +4,7 @@ h1, h2, h3, h4 {
   margin: 2rem 0 1rem 0;
   line-height: 1.5;
   font-weight: 500;
+  font-display: swap;
 }
 
 h1 {
@@ -21,6 +22,7 @@ h4 {
 
 p, button, .button, label, input[type="email"], input[type="text"], li, td, th, select, blockquote, summary {
   font-family: "Space Grotesk", Arial, sans-serif;
+  font-display: swap;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -63,34 +65,34 @@ a {
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 300;
-  src: url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Light.woff2") format("woff2"),
-       url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Light.woff") format("woff");
+  src: url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Light.woff2") format("woff2"),
+       url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 400;
-  src: url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Regular.woff2") format("woff2"),
-       url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Regular.woff") format("woff");
+  src: url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Regular.woff2") format("woff2"),
+       url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 500;
-  src: url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Medium.woff2") format("woff2"),
-       url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Medium.woff") format("woff");
+  src: url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Medium.woff2") format("woff2"),
+       url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 600;
-  src: url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-SemiBold.woff2") format("woff2"),
-       url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-SemiBold.woff") format("woff");
+  src: url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-SemiBold.woff2") format("woff2"),
+       url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-SemiBold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 700;
-  src: url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Bold.woff2") format("woff2"),
-       url("https://cdn.simpleanalytics.io/fonts/SpaceGrotesk-Bold.woff") format("woff");
+  src: url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Bold.woff2") format("woff2"),
+       url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Bold.woff") format("woff");
 }

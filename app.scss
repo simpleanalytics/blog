@@ -1,23 +1,23 @@
 ---
 ---
 
-$background-color: #EEF9FF;
-$border-color: #CCDCE6;
+$background-color: #eef9ff;
+$border-color: #ccdce6;
 $breakpoint-medium: 768px;
 $breakpoint-small: 425px;
 $breakpoint-footer: 920px;
-$button-active-color: #E6475A;
-$button-color: #FF4F64;
+$button-active-color: #e6475a;
+$button-color: #ff4f64;
 $graph-color: rgba(191, 237, 245, 0.5);
 $loading-color-light: rgba(191, 237, 245, 0.5);
 $loading-color-dark: rgb(191, 237, 245);
 $alert-color: rgb(221, 17, 68);
 $success-color: rgb(15, 142, 15);
-$icon-color: #9AA7B4;
-$link-active-color: #00B1CE;
-$link-color: #00C5E5;
-$primary-color: #FF4F64;
-$secondary-color: #00C5E5;
+$icon-color: #9aa7b4;
+$link-active-color: #00b1ce;
+$link-color: #00c5e5;
+$primary-color: #ff4f64;
+$secondary-color: #00c5e5;
 $text-color: #415659;
 $text-muted: #777;
 
@@ -33,18 +33,19 @@ $text-muted: #777;
 @import "stats.scss";
 @import "typography.scss";
 @import "highlighting.scss";
+@import "posts.scss";
 
 .text-light {
   font-weight: 100;
 }
 
 blockquote {
-  border-left: 5px solid #00C5E5;
+  border-left: 5px solid #00c5e5;
   padding-left: 1rem;
   margin-left: 0;
   margin-right: 0;
   font-style: italic;
-  background-color: #EEF9FF;
+  background-color: #eef9ff;
   border-radius: 3px;
   padding: 0.5rem 1rem;
 
@@ -101,11 +102,34 @@ ul.related-posts {
 
   img.border {
     border: 1px solid $border-color;
+    border-radius: 10px;
+  }
+  .border-radius {
+    border-radius: 10px;
   }
 
   .caption {
     margin-top: -1.5rem;
     font-size: 13px;
     color: $text-muted;
+  }
+
+  .highlighter-rouge + .caption {
+    margin-top: -0.5rem;
+  }
+}
+
+ol.thank-you-steps {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+
+  li {
+    margin-top: 1rem;
+  }
+
+  li::first-line {
+    font-weight: bold;
+    color: #415659;
   }
 }

@@ -2,7 +2,7 @@
   width: 700px;
   max-width: calc(100% + 3rem);
   margin: 100px auto;
-  background-color: #D8F1FE;
+  background-color: #d8f1fe;
   text-align: left;
   border: 1px solid $border-color;
 
@@ -26,9 +26,9 @@
       align-items: unset;
     }
 
-     > div {
-       margin: 1rem 1rem 0 1rem;
-     }
+    > div {
+      margin: 1rem 1rem 0 1rem;
+    }
   }
 
   &__pay {
@@ -85,7 +85,7 @@ p.stripe {
     width: 18px;
     height: 18px;
     vertical-align: sub;
-    fill: #76E27F;
+    fill: #76e27f;
   }
 }
 
@@ -96,7 +96,7 @@ p.stripe {
   opacity: 0.5;
 }
 .box--loading::before {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -109,6 +109,29 @@ p.stripe {
 }
 
 @keyframes rotation {
-  from { transform: translate(-50%, -50%) rotate(0deg); }
-  to   { transform: translate(-50%, -50%) rotate(359deg); }
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(359deg);
+  }
+}
+
+.subscribe {
+  background-color: #eef9ff;
+  border-radius: 5px;
+  padding: 1.5rem;
+
+  > *:first-child {
+    margin-top: 0;
+    > * {
+      margin-top: 0;
+    }
+  }
+  > *:last-child {
+    margin-bottom: 0;
+    > * {
+      margin-bottom: 0;
+    }
+  }
 }
