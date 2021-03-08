@@ -4,3 +4,5 @@ plugins:
   - jekyll-feed
 hostname: blog.simpleanalytics.com
 url: https://blog.simpleanalytics.com
+api: https://simpleanalytics.com
+favicons: https://simpleanalytics.com

@@ -3,21 +3,41 @@
   <head>
     <meta charset="utf-8" />
 
-    {% capture title %}{% if page.title %}{{ page.title }} &middot; Simple Analytics{% else %}Blog of Simple Analytics{% endif %}{% endcapture %}
-    {% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | replace: '</p>', '' | replace: '<p>', ''  | strip }}{% else %}Simple, easy and friendly analytics.{% endif %}{% endcapture %}
+    {% include og-vars.html %}
 
     <title>{{ title }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF4F64" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{ site.favicons }}/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ site.favicons }}/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{ site.favicons }}/favicon-16x16.png"
+    />
+    <link rel="manifest" href="{{ site.favicons }}/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="{{ site.favicons }}/safari-pinned-tab.svg"
+      color="#FF4F64"
+    />
     <meta name="msapplication-TileColor" content="#FF4F64" />
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta
+      name="msapplication-TileImage"
+      content="{{ site.favicons }}/mstile-144x144.png"
+    />
     <meta name="theme-color" content="#FFFFFF" />
 
     <!-- Social -->
@@ -96,7 +116,7 @@
             </div>
           </div>
         </li>
-        <li class="menu-item m-l-a">
+        <li class="menu-item ml-a">
           <a href="https://simpleanalytics.com/?ref={{ site.hostname }}"
             >Go to Simple Analytics &rarr;</a
           >
@@ -118,7 +138,7 @@
     </script>
 
     <main>
-      <section class="page">
+      <section class="page {% if page.center %}page-center{% endif %}">
         {{content}}
       </section>
     </main>
@@ -131,7 +151,7 @@
             class="brand"
           >
             <svg
-              style="width: 30px; height: 30px;"
+              style="width: 30px; height: 30px"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               version="1.0"
@@ -247,6 +267,102 @@
       </div>
     </footer>
 
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <p style="max-width: 500px; margin: 0 auto">
+          <img
+            src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
+            class="modal-avatar"
+          />
+          Hey, my name is Adriaan, I'm the founder of Simple Analytics. About
+          once a month I share insights and privacy updates in our privacy
+          newsletter.
+        </p>
+
+        <form class="subscribe mt-1 ta-c">
+          <h3 class="mb-1" style="color: #ff4f64; font-weight: lighter">
+            "It's short, sweet, and insightful."
+          </h3>
+          <p
+            class="response"
+            style="display: none; font-weight: normal; color: green"
+          >
+            Thank you, click the link in our email please.
+          </p>
+          <p class="mb-0">
+            <input
+              name="email"
+              class="mb-0 mt-1"
+              placeholder="Your email..."
+              type="email"
+            />
+            <input class="button mt-1 mb-0" value="Try it" type="submit" />
+          </p>
+          <p class="text-small text-muted mt-1">
+            You'll need to confirm your email and you can unsubscribe in one
+            click.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      (function initModal() {
+        if ("{{ page.subscribe }}" === "false") return;
+
+        var start = Date.now();
+        var modal = document.querySelector(".modal");
+
+        if (!modal) return;
+
+        var show = function () {
+          modal.style.display = "block";
+          document.body.addEventListener("keydown", onkeydown);
+          document.body.removeEventListener("mouseleave", onmouseleave);
+        };
+
+        var hide = function () {
+          modal.style.display = "none";
+          document.body.removeEventListener("keydown", onkeydown);
+        };
+
+        var onmouseleave = function (event) {
+          var duration = Date.now() - start;
+          if (event.clientY < 10 && event.clientX > 150 && duration > 7000)
+            show();
+        };
+
+        var onkeydown = function (event) {
+          var isEscape = false;
+          if ("key" in event) {
+            isEscape = event.key === "Escape" || event.key === "Esc";
+          } else {
+            isEscape = event.keyCode === 27;
+          }
+          if (isEscape) hide();
+        };
+
+        if (window.innerWidth >= 1024) {
+          document.body.addEventListener("mouseleave", onmouseleave);
+        } else {
+          setTimeout(show, 60000);
+        }
+
+        // Get the <span> element that closes the modal
+        var span = modal.querySelector(".close");
+
+        // When the user clicks on <span> (x), close the modal
+        if (span) span.onclick = hide;
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) hide();
+        };
+      })();
+    </script>
+
     <script>
       document.querySelector(".hamburger").addEventListener(
         "click",
@@ -256,39 +372,61 @@
         false
       );
 
-      var subscribeForm = document.querySelector("form.subscribe");
-      if (subscribeForm) {
-        subscribeForm.addEventListener("submit", function (event) {
-          // Don't do anything, browser!
-          event.preventDefault();
+      document
+        .querySelectorAll("form.subscribe")
+        .forEach(function (subscribeForm) {
+          subscribeForm.addEventListener("submit", function (event) {
+            // Don't do anything, browser!
+            event.preventDefault();
 
-          // Get email
-          var email = subscribeForm.querySelector('input[name="email"]');
-          var responseField = subscribeForm.querySelector(".response");
-          responseField.style.color = "unset";
+            // Get email
+            var email = subscribeForm.querySelector('input[name="email"]');
+            var responseField = subscribeForm.querySelector(".response");
+            responseField.style.color = "unset";
 
-          if (!/[^@\s]+@[^@\s]+\.[^@\s]+/.test(email.value)) {
-            responseField.textContent = "Email address is invalid :(";
-            responseField.style.color = "red";
-            responseField.style.display = "block";
-            return;
-          }
+            if (!/[^@\s]+@[^@\s]+\.[^@\s]+/.test(email.value)) {
+              responseField.textContent = "Oops! Email address is invalid :(";
+              responseField.style.color = "#ff4f64";
+              responseField.style.display = "block";
+              return;
+            }
 
-          var request = new XMLHttpRequest();
-          request.open("POST", "https://simpleanalytics.com/subscribe", true);
-          request.setRequestHeader("Content-Type", "text/plain; charset=UTF-8");
-          request.send(
-            JSON.stringify({ email: email.value.trim(), type: "blog" })
-          );
+            var request = new XMLHttpRequest();
+            request.open("POST", "{{ site.api }}/subscribe", true);
+            request.setRequestHeader(
+              "Content-Type",
+              "text/plain; charset=UTF-8"
+            );
+            request.send(
+              JSON.stringify({ email: email.value.trim(), type: "newsletter" })
+            );
+            request.onreadystatechange = function () {
+              if (request.readyState === 4) {
+                try {
+                  var json = JSON.parse(request.responseText);
+                  if (!json.ok) {
+                    responseField.textContent =
+                      json.message || "Oops, something goes wrong (1).";
+                    responseField.style.color = "#ff4f64";
+                  } else {
+                    responseField.textContent =
+                      "Thanks! Click the link in your email to verify.";
+                    responseField.style.color = "green";
 
-          // Show response
-          responseField.textContent = "Thank you, keep you posted ;)";
-          responseField.style.display = "block";
-
-          // Reset email field
-          email.value = "";
+                    // Reset email field
+                    email.value = "";
+                  }
+                } catch (error) {
+                  console.error(error);
+                  responseField.textContent = "Oops, something goes wrong (2).";
+                  responseField.style.color = "#ff4f64";
+                } finally {
+                  responseField.style.display = "block";
+                }
+              }
+            };
+          });
         });
-      }
     </script>
   </body>
 </html>
