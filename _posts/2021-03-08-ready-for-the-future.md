@@ -85,7 +85,7 @@ It has its advantages to build new features without looking too much to the comp
 
 ### Social images
 
-Because getting data out of our API it's easier for us to develop new features. One of the features that we wanted to build for a long time where the social media images. Because we offer the option to make a dashboard public you are encouraged to share your statistics. To make that experience more awesome we decided to integrate the chart into it. Here is an example for [oneweektomake.com](https://oneweektomake.com/?utm_source=blog.simpleanalytics.com).
+Because getting data out of our API it's easier for us to develop new features. One of the features that we wanted to build for a long time were the social media images. Because we offer the option to make a dashboard public you are encouraged to share your statistics. To make that experience more awesome we decided to integrate the chart into it. Here is an example for [oneweektomake.com](https://oneweektomake.com/?utm_source=blog.simpleanalytics.com).
 
 <p class="mb-0"><a class="mb-0" href="https://twitter.com/pooria_r/status/1361071130736422912"><img class="border mb-0 mt-0" style="width: 544px" src="/images/2021-03/social-images.png" alt="Tweet with social image of Simple Analytics feature" /></a></p>
 
@@ -93,6 +93,6 @@ Because getting data out of our API it's easier for us to develop new features. 
 
 ### Transparency
 
-As an transparent startup we care about sharing our insights with you. We updated our [open page again](https://simpleanalytics.com/open) with new data for last month.
+As a transparent startup we care about sharing our insights with you. We updated our [open page again](https://simpleanalytics.com/open) with new data for last month.
 
 Thanks for reading and please ask any questions if you have some. We love to make this interesting for everybody. Have a good one!
