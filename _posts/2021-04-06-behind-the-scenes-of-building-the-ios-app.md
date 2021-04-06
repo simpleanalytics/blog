@@ -16,7 +16,7 @@ Let me just make a quick introduction to me and my company [epist.io](https://ep
 
 I am a mobile developer for a long time. I started with Android then moved to iOS. I spent more than 7 years developing mobile apps. I haven’t touched web technologies for 7 years because it was too ugly for me. That changes and these days I enjoy being a SaaS developer and heavy user of web technologies like [Next.js](https://nextjs.org/), [Express](https://expressjs.com/), [Node.js](https://nodejs.org/), [NuxtJS](https://nuxtjs.org/), etc.
 
-When I started this blog and started to think about analytics. It is an obsession. You just want to check it all the time. “How many people are looking at my website? Where did they come from?” And it begins to evolve into an addiction.
+When I started this blog I started thinking about analytics as well. It is an obsession. You just want to check it all the time. “How many people are looking at my website? Where did they come from?” And it begins to evolve into an addiction.
 
 At some point I realized I was just invading my visitors' privacy. I am a privacy activist at heart. That made me write [Being a Privacy Activist as a Developer](https://devgenes.com/posts/Being-a-Privacy-Activist-as-a-Developer/).
 
@@ -30,7 +30,7 @@ I started following him. I wasn’t a heavy user at that time but checked upon h
 
 ## Why being so enthusiastic about Simple Analytics?
 
-When starting the that new blog I remembered Adriaan and his product. It was a good opportunity to use it. But back in that day, I was a student and it was hard to pay for a service. It is great but you know, you are just trying to survive as a student.
+When starting that new blog I remembered Adriaan and his product. It was a good opportunity to use it. But back in that day, I was a student and it was hard to pay for a service. It is great but you know, you are just trying to survive as a student.
 
 One day, I pulled the trigger. At that moment I realized I missed out on so many good things.
 
