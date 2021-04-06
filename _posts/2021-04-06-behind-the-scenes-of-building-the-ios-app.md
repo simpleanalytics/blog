@@ -4,6 +4,7 @@ author_slug: onur
 badge: "Guest post"
 author: Onur Genes
 image: /images/2021/ios-app-widgets.png
+canonical: https://devgenes.com/posts/how-i-built-simple-analytics-official-ios-app/
 ---
 
 _We asked Onur Genes, who developed our iOS app, to write down the process. He is an experienced iOS developer who knows very well what is doable and what is not. We highly recommend him._

@@ -7,6 +7,11 @@
 
     <title>{{ title }}</title>
 
+    {% if page.canonical %}
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ page.canonical }}" />
+    {% endif %}
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Icons -->
