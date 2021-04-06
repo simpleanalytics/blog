@@ -254,9 +254,17 @@ h6 {
   padding: 3px 7px;
   font-size: 14px;
   display: inline-block;
-  background-color: #ff96a3;
+  background-color: #b9b9b9;
   border-radius: 3px;
   text-decoration: none;
   vertical-align: text-bottom;
   color: white;
+
+  &[data-badge*="guest"] {
+    background-color: #f296ff;
+  }
+  &[data-badge*="monthly"],
+  &[data-badge*="company"] {
+    background-color: #ff96a3;
+  }
 }

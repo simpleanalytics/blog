@@ -20,13 +20,16 @@ layout: default
     <li>
       <h2>
         <a href="{{ post.url }}">
-          {{ post.title }}{% if post.badge %}<span class="title-badge"
+          {{ post.title }}{% if post.badge %}<span
+            class="title-badge"
+            data-badge="{{ post.badge | downcase }}"
             >{{ post.badge }}</span
           >{% endif %}
         </a>
         <p>
           <span class="text-muted"
-            >{{ post.date | date_to_string: "ordinal", "US" }} by {{ post.author }}</span
+            >{{ post.date | date_to_string: "ordinal", "US" }} by {{ post.author
+            }}</span
           >
           - {{ post.excerpt | strip_html | replace: '
         </p>

@@ -2,6 +2,7 @@
 title: How Google managed to destroy users' trust in one week
 author_slug: mike
 author: Mike Timofiiv
+badge: "Guest post"
 ---
 
 This past September marks the 10-year anniversary of Google Chrome. Ever since it was released, it has changed the internet forever – its clean design, fast rendering engine and fantastic developer tools helped it acquire 62% of desktop users within 2 years. It's even more remarkable to note that the engine Chrome uses under the hood (known as V8), is used in a multitude of other ways as well, powering backend web servers through Node.js, "headless" browsing (such as by a web scraper or an automated website screenshot tool), and much more.
