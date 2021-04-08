@@ -17,7 +17,8 @@ layout: default
     loading="lazy"
     class="mini-avatar"
     src="/images/avatars/mike.jpg"
-    alt=""
+    referrerpolicy="no-referrer"
+    alt="Mike Timofiiv"
   />
   {{ page.author }} (<a href="http://80days.in/?ref={{ site.hostname }}"
     >80days.in</a
@@ -30,14 +31,32 @@ layout: default
     loading="lazy"
     class="mini-avatar"
     src="/images/avatars/jules-van-den-berg.jpg"
-    alt=""
+    referrerpolicy="no-referrer"
+    alt="Jules van den Berg"
   />
   {{ page.author }} (<a href="https://www.maxcode.net/?ref={{ site.hostname }}"
     >maxcode.net</a
   >,
   <a
+    rel="noreferrer"
     href="https://www.linkedin.com/in/jules-van-den-berg-6a533a/?ref={{ site.hostname }}"
     >LinkedIn</a
+  >)
+</p>
+{% elsif page.author_slug == "onur" %}
+<p>
+  Written by
+  <img
+    loading="lazy"
+    class="mini-avatar"
+    src="https://assets.simpleanalytics.com/images/people/onur-genes.jpg"
+    referrerpolicy="no-referrer"
+    alt="Onur Genes"
+  />
+  Onur Genes (<a
+    rel="noreferrer"
+    href="https://twitter.com/intent/user?screen_name=onurgenes"
+    >follow Onur on Twitter</a
   >)
 </p>
 {% elsif page.author_slug == "tim" %}
@@ -47,10 +66,11 @@ layout: default
     loading="lazy"
     class="mini-avatar"
     src="https://assets.simpleanalytics.com/images/people/tim-de-nood.jpg"
-    alt=""
+    referrerpolicy="no-referrer"
+    alt="Tim de Nood"
   />
-  Tim de Nood (<a href="https://twitter.com/intent/user?screen_name=Timdenood"
-    >follow Tim on Twitter</a
+  Tim de Nood (<a rel="noreferrer" href="https://www.linkedin.com/in/timdenood/"
+    >follow Tim on LinkedIn</a
   >)
 </p>
 {% else %}
@@ -60,11 +80,18 @@ layout: default
     loading="lazy"
     class="mini-avatar"
     src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-    alt=""
+    referrerpolicy="no-referrer"
+    alt="Adriaan van Rossum"
   />
-  Adriaan van Rossum (<a
+  Adriaan van Rossum (follow on
+  <a
+    rel="noreferrer"
     href="https://twitter.com/intent/user?screen_name=adriaanvrossum"
-    >follow Adriaan on Twitter</a
+    >Twitter</a
+  >
+  or
+  <a rel="noreferrer" href="https://www.linkedin.com/in/adriaanvanrossum/"
+    >LinkedIn</a
   >)
 </p>
 {% endif %}
@@ -81,7 +108,9 @@ layout: default
 
 <p class="text-small text-muted">
   Found a mistake or a typo? Please
-  <a href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
+  <a
+    rel="noreferrer"
+    href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
     >submit a PR</a
   >
   to my GitHub-repo.
