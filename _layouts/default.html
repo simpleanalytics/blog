@@ -444,5 +444,16 @@
           });
         });
     </script>
+    <script>
+      (function () {
+        document.getElementsByTagName("table").forEach(function (table) {
+          var newTable = table.cloneNode(true);
+          var div = document.createElement("div");
+          div.className = "table-wrapper";
+          div.appendChild(newTable);
+          table.parentElement.replaceChild(div, table);
+        });
+      })();
+    </script>
   </body>
 </html>
