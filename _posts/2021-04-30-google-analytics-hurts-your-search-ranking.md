@@ -85,7 +85,7 @@ If you care about a fast website and are still using Google Analytics, this coul
 <img loading="lazy" class="border" src="https://simpleops.io/screens/dashboard.jpg" alt="">
 <p class="caption">Dashboard of <a href="https://simpleops.io">SimpleOps</a> to monitor website performance.</p>
 
-If you want to check your website performance regularly, you can check out [Moz Performance Metrics](https://moz.com/blog/performance-metrics-beta) or [simpleops.io](https://simpleops.io/) (not related to Simple Analytics). They both seem to be the right tool for the job. Moz also [has a view](https://moz.com/blog/core-web-vitals) on the impact of search results by the Core Web Vitals performance:
+If you want to check your website performance regularly, you can check out [Moz Performance Metrics](https://moz.com/blog/performance-metrics-beta) or [SimpleOps](https://simpleops.io/) (not related to Simple Analytics). They both seem to be the right tool for the job. Moz also [has a view](https://moz.com/blog/core-web-vitals) on the impact of search results by the Core Web Vitals performance:
 
 > ... It's going to affect all regular search results, mobile and desktop, based on certain criteria. But also, and this is an important point, Core Web Vitals are going to become a criteria to appear in Google Top Stories. These are the news results that usually appear at the top of search results.
 
