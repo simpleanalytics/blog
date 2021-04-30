@@ -1,5 +1,5 @@
 ---
-title: Stop using Google Analytics to maintain your page ranks
+title: Stop using Google Analytics if you care about your page rank
 author_slug: adriaan
 author: Adriaan van Rossum
 image: https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png
