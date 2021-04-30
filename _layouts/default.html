@@ -73,12 +73,14 @@
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="/app.css" />
 
+    {% if page.disable_script != true %}
     <!-- Privacy friendly website statistics -->
     <script
       async
       src="https://scripts.simpleanalyticscdn.com/latest.js"
       referrerpolicy="no-referrer"
     ></script>
+    {% endif %}
 
     <!-- RSS -->
     <link
@@ -126,6 +128,7 @@
       </ul>
     </nav>
 
+    {% if page.disable_script != true %}
     <!-- Privacy friendly website statistics -->
     <noscript
       ><img
@@ -133,6 +136,7 @@
         referrerpolicy="unsafe-url"
         alt=""
     /></noscript>
+    {% endif %}
 
     <script>
       NodeList.prototype.forEach = Array.prototype.forEach;
