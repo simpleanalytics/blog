@@ -1,5 +1,5 @@
 ---
-title: Google Analytics has a performance hit on your search results
+title: Stop using Google Analytics to maintain your page ranks
 author_slug: adriaan
 author: Adriaan van Rossum
 image: https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png
@@ -24,7 +24,7 @@ We don't go too deep into these metrics, but the general message is that they ar
 
 > To learn more about Core Web Vitals, you should check out [Ahrefs blog post](https://ahrefs.com/blog/core-web-vitals/). It goes in-depth about those three metrics.
 
-Google will begin using page experience as part of their ranking systems beginning in mid-June 2021. However, page experience won't play its full role as part of those systems until the end of August.
+Google will begin using page experience as part of their ranking systems starting in mid-June 2021. However, page experience won't play its full role as part of those systems until the end of August.
 
 ## Performance impact of analytics tools
 
@@ -38,9 +38,9 @@ Luckily [Dan Sloan](https://twitter.com/Lucid_Dan/status/1387998872400666627) su
 
 ## Test with basic page
 
-We followed Dan's advise and created [a little Node.js script](https://github.com/simpleanalytics/lighthouse-test) around [Lighthouse](https://github.com/GoogleChrome/lighthouse). We did run this test 500 times to get a trustworthy average.
+We followed Dan's advice and created [a little Node.js script](https://github.com/simpleanalytics/lighthouse-test) around [Lighthouse](https://github.com/GoogleChrome/lighthouse). We did run this test 500 times to get a trustworthy average.
 
-We created three pages on our blog; one with no analytics script, one with Simple Analytics, and one with Google Analytics. All using the latest versions with default configurations. The test pages are hidden for our blog visitors so we don't accidentely send data to Google.
+We created three pages on our blog; one with no analytics script, one with Simple Analytics, and one with Google Analytics. All are using the latest versions with default configurations. The test pages are hidden for our blog visitors, so we don't accidentally send data to Google.
 
 The test tool ran around 2 hours to complete because every test did run synchronously. We didn't want to run them in parallel as this could interfere with the test results.
 
