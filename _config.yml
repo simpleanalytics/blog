@@ -2,6 +2,7 @@ permalink: /:title
 post_dirs: true
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 hostname: blog.simpleanalytics.com
 url: https://blog.simpleanalytics.com
 api: https://simpleanalytics.com
