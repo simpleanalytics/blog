@@ -14,6 +14,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    {% if page.no_index == true %}
+    <!-- Make sure this page does not show up in search results -->
+    <meta name="robots" content="noindex,nofollow" />
+    {% endif %}
+
     <!-- Icons -->
     <link
       rel="apple-touch-icon"
