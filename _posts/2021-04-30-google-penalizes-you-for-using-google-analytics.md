@@ -75,6 +75,10 @@ He did run the tests both on Lighthouse and [Google Page Speed](https://develope
 
 The public test data is [available on his GitHub repo](https://github.com/olavp/impact-of-analytics-on-core-web-vitals#readme).
 
+## Asynchronous code
+
+There is a [common misconception](https://twitter.com/ismael_fi/status/1388417954350514178) around asynchronous code. People believe there is no impact on the performance score. This belief is **not** valid. We did run our test with scripts running with the `async` attribute. Simple Analytics did support this from the start; Google Analytics followed by making it part of their latest embed script. It affects the performance score, therefore, on the page ranking in Google as well.
+
 ## Conclusion
 
 As you can see in the above numbers, Simple Analytics is performing better than Google Analytics. Google hurts the performance score by roughly 4%, and we almost have zero impact (0.1%).
