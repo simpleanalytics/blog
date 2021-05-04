@@ -11,7 +11,7 @@ layout: default
 </p>
 
 {{ content }} {% if page.author_slug == "mike" %}
-<p>
+<p class="mt-2">
   Guest post by
   <img
     loading="lazy"
@@ -25,7 +25,7 @@ layout: default
   >)
 </p>
 {% elsif page.author_slug == "jules" %}
-<p>
+<p class="mt-2">
   Guest post by
   <img
     loading="lazy"
@@ -44,7 +44,7 @@ layout: default
   >)
 </p>
 {% elsif page.author_slug == "onur" %}
-<p>
+<p class="mt-2">
   Written by
   <img
     loading="lazy"
@@ -60,7 +60,7 @@ layout: default
   >)
 </p>
 {% elsif page.author_slug == "tim" %}
-<p>
+<p class="mt-2">
   Written by
   <img
     loading="lazy"
@@ -74,8 +74,8 @@ layout: default
   >)
 </p>
 {% else %}
-<p>
-  Written by
+<p class="mt-2">
+  Written by founder
   <img
     loading="lazy"
     class="mini-avatar"
@@ -96,6 +96,16 @@ layout: default
 </p>
 {% endif %}
 
+<p class="mt-2">
+  Want to give Simple Analytics a try?
+  <a
+    href="https://simpleanalytics.com/"
+    class="button"
+    style="vertical-align: initial; margin-left: 1rem"
+    >Start a trial of 14 days for free</a
+  >
+</p>
+
 <form data-js="subscribe" class="subscribe mt-3">
   <h3>Subscribe to our privacy newsletter</h3>
   <p>It's short, sweet, and insightful.</p>
@@ -114,6 +124,20 @@ layout: default
     >submit a PR</a
   >
   to my GitHub-repo.
+</p>
+
+<p>
+  <a
+    href="https://simpleanalytics.com/blog.simpleanalytics.com?utm_source=blog.simpleanalytics.com&utm_content=badge"
+    referrerpolicy="origin"
+    target="_blank"
+    ><img
+      style="margin: 2rem 0"
+      src="https://simpleanalyticsbadge.com/blog.simpleanalytics.com?background=eef9ff&text=415659"
+      loading="lazy"
+      referrerpolicy="no-referrer"
+      crossorigin="anonymous"
+  /></a>
 </p>
 
 <script>
