@@ -20,6 +20,7 @@ $primary-color: #ff4f64;
 $secondary-color: #00c5e5;
 $text-color: #415659;
 $text-muted: #777;
+$icon-fill-color: "#9AA7B4";
 
 @import "code.scss";
 @import "dashboard.scss";
@@ -33,6 +34,7 @@ $text-muted: #777;
 @import "stats.scss";
 @import "typography.scss";
 @import "highlighting.scss";
+@import "checkbox.scss";
 @import "posts.scss";
 
 .text-light {

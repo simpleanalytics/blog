@@ -405,8 +405,15 @@
 
             // Get email
             var email = subscribeForm.querySelector('input[name="email"]');
+            var newsletterElement = subscribeForm.querySelector(
+              'input[name="newsletter"]'
+            );
+            var notifyElement = subscribeForm.querySelector(
+              'input[name="notify"]'
+            );
             var responseField = subscribeForm.querySelector(".response");
             responseField.style.color = "unset";
+            responseField.textContent = "";
 
             if (!/[^@\s]+@[^@\s]+\.[^@\s]+/.test(email.value)) {
               responseField.textContent = "Oops! Email address is invalid :(";
@@ -415,6 +422,26 @@
               return;
             }
 
+            var newsletter = newsletterElement && newsletterElement.checked;
+            var notify = notifyElement && notifyElement.checked;
+
+            if (!newsletter && !notify) {
+              responseField.textContent =
+                "Select at least one of the two checkboxes";
+              responseField.style.color = "#ff4f64";
+              responseField.style.display = "block";
+              return;
+            }
+
+            var type =
+              newsletter && notify
+                ? "newsletter,notify"
+                : newsletter
+                ? "newsletter"
+                : notify
+                ? "notify"
+                : null;
+
             var request = new XMLHttpRequest();
             request.open("POST", "{{ site.api }}/subscribe", true);
             request.setRequestHeader(
@@ -422,7 +449,7 @@
               "text/plain; charset=UTF-8"
             );
             request.send(
-              JSON.stringify({ email: email.value.trim(), type: "newsletter" })
+              JSON.stringify({ email: email.value.trim(), type: type })
             );
             request.onreadystatechange = function () {
               if (request.readyState === 4) {

@@ -1,0 +1,135 @@
+/* Customize the label (the container) */
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+  word-wrap: anywhere;
+  line-height: 1;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkbox .checkmark {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 3px;
+  border: 1px solid $primary-color;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+  border-color: $primary-color;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 6px;
+  top: 1px;
+  width: 3px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+[type="radio"] {
+  &:checked,
+  &:not(:checked) {
+    position: absolute;
+    left: -9999px;
+    & + label {
+      position: relative;
+      padding-left: 28px;
+      cursor: pointer;
+      line-height: 20px;
+      display: inline-block;
+      color: $text-color;
+    }
+    & + label:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 18px;
+      height: 18px;
+      border: 1px solid $icon-fill-color;
+      border-radius: 100%;
+      background: white;
+    }
+    & + label:hover:before {
+      border: 1px solid $primary-color;
+    }
+    & + label:after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: $primary-color;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      border-radius: 100%;
+      transition: all 0.2s ease;
+    }
+  }
+  &:not(:checked) {
+    & + label:after {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+  &:checked {
+    & + label:before {
+      border: 1px solid $primary-color;
+    }
+    & + label:after {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+.split > div {
+  flex: 0 1 48%;
+}
+@media (max-width: $breakpoint-medium) {
+  .split {
+    flex-wrap: wrap;
+  }
+  .split > div {
+    flex: 0 0 100%;
+  }
+}
