@@ -259,6 +259,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-github-metadata
   webrick (~> 1.7)
 
 BUNDLED WITH

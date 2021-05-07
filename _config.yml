@@ -3,7 +3,9 @@ post_dirs: true
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-github-metadata
 hostname: blog.simpleanalytics.com
 url: https://blog.simpleanalytics.com
 api: https://simpleanalytics.com
 favicons: https://simpleanalytics.com
+repository: username/repo-name
