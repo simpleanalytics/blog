@@ -124,6 +124,12 @@ p.stripe {
 
   .checkboxes {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: -1rem;
+
+    label {
+      margin-top: 1rem;
+    }
 
     .ta-c & {
       justify-content: center;

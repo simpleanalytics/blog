@@ -82,7 +82,11 @@
     {% endif %}
 
     <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="/app.css?v=3" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/app.css?v={{site.github.build_revision}}"
+    />
 
     {% if page.disable_script != true %}
     <!-- Privacy friendly website statistics -->
