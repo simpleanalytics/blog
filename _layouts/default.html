@@ -82,7 +82,7 @@
     {% endif %}
 
     <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="/app.css?v=2" />
+    <link rel="stylesheet" type="text/css" href="/app.css?v=3" />
 
     {% if page.disable_script != true %}
     <!-- Privacy friendly website statistics -->
@@ -298,30 +298,7 @@
           newsletter.
         </p>
 
-        <form data-js="subscribe" class="mt-1 ta-c">
-          <h3 class="mb-1" style="color: #ff4f64; font-weight: lighter">
-            "It's short, sweet, and insightful."
-          </h3>
-          <p
-            class="response"
-            style="display: none; font-weight: normal; color: green"
-          >
-            Thank you, click the link in our email please.
-          </p>
-          <p class="mb-0">
-            <input
-              name="email"
-              class="mb-0 mt-1"
-              placeholder="Your email..."
-              type="email"
-            />
-            <input class="button mt-1 mb-0" value="Try it" type="submit" />
-          </p>
-          <p class="text-small text-muted mt-1">
-            You'll need to confirm your email and you can unsubscribe in one
-            click.
-          </p>
-        </form>
+        <div class="mt-1 ta-c">{% include subscribe.html %}</div>
       </div>
     </div>
 

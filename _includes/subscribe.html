@@ -1,3 +1,5 @@
+{% assign random = "now" | date: "%s%N" %}
+
 <form data-js="subscribe" class="subscribe">
   <h3>Subscribe to our privacy newsletter</h3>
   <p>It's short, sweet, and insightful.</p>
@@ -6,15 +8,25 @@
     <input name="email" placeholder="Your email..." type="email" />
     <input class="button" value="Try it" type="submit" />
   </p>
-  <div style="display: flex">
-    <label class="checkbox" for="newsletter">
-      <input name="newsletter" type="checkbox" id="newsletter" checked />
+  <div class="checkboxes">
+    <label class="checkbox" for="newsletter-{{random}}">
+      <input
+        name="newsletter"
+        type="checkbox"
+        id="newsletter-{{random}}"
+        checked
+      />
       <span>Newsletter</span>
       <span class="checkmark"></span>
     </label>
 
-    <label class="ml-1 checkbox" for="notify-new-blog-posts">
-      <input name="notify" type="checkbox" id="notify-new-blog-posts" checked />
+    <label class="ml-1 checkbox" for="notify-new-blog-posts-{{random}}">
+      <input
+        name="notify"
+        type="checkbox"
+        id="notify-new-blog-posts-{{random}}"
+        checked
+      />
       <span>Notify me of new blog posts</span>
       <span class="checkmark"></span>
     </label>

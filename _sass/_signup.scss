@@ -122,6 +122,14 @@ p.stripe {
   border-radius: 5px;
   padding: 1.5rem;
 
+  .checkboxes {
+    display: flex;
+
+    .ta-c & {
+      justify-content: center;
+    }
+  }
+
   > *:first-child {
     margin-top: 0;
     > * {
