@@ -7,4 +7,4 @@ hostname: blog.simpleanalytics.com
 url: https://blog.simpleanalytics.com
 api: https://simpleanalytics.com
 favicons: https://simpleanalytics.com
-repository: username/repo-name
+repository: simpleanalytics/blog
