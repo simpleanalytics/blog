@@ -2,7 +2,7 @@
 title: Why FLoC is a forceful privacy FLoP
 author_slug: tim
 author: Tim de Nood
-image: https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png
+image: /images/2021-05/am-i-floced.png
 ---
 
 Here's how to stop Google from selling your data to advertisers (again).
