@@ -87,7 +87,7 @@ If you care about a fast website and are still using Google Analytics, this coul
 
 > ..., while this update is designed to highlight pages that offer great user experiences, page experience remains one of many factors our systems take into account. Given this, sites generally should not expect drastic changes. In addition, because we're doing this as a gradual rollout, we will be able to monitor for any unexpected or unintended issues.
 
-<img loading="lazy" class="border" src="https://simpleops.io/screens/dashboard.jpg" alt="">
+<img loading="lazy" class="border" src="/images/2021-04/simpleops.jpg" alt="">
 <p class="caption">Dashboard of <a href="https://simpleops.io">SimpleOps</a> to monitor website performance.</p>
 
 If you want to check your website performance regularly, you can check out [Moz Performance Metrics](https://moz.com/blog/performance-metrics-beta) or [SimpleOps](https://simpleops.io/) (not related to Simple Analytics). They both seem to be the right tool for the job. Moz also [has a view](https://moz.com/blog/core-web-vitals) on the impact of search results by the Core Web Vitals performance:

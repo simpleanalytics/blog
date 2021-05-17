@@ -10,7 +10,13 @@ layout: default
   >
 </p>
 
-{{ content }} {% if page.author_slug == "mike" %}
+{{ content | replace: '
+<p><img ', '<img ' | replace: '" /></p>
+', '" />' | replace: '<img ', '<img loading="lazy" ' }}
+
+<span></span>
+
+{% if page.author_slug == "mike" %}
 <p class="mt-2">
   Guest post by
   <img
