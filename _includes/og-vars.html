@@ -1,2 +1,2 @@
 {% capture title %}{% if page.title %}{{ page.title }} &middot; Simple Analytics{% else %}Blog of Simple Analytics{% endif %}{% endcapture %}
-{% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | replace: '</p>', '' | replace: '<p>', ''  | strip }}{% else %}Simple, easy and friendly analytics.{% endif %}{% endcapture %}
+{% capture description %}{% if page.excerpt %}{{ page.excerpt | strip_html | replace: '"', '\"' | replace: '</p>', '' | replace: '<p>', ''  | strip }}{% else %}Simple, easy and friendly analytics.{% endif %}{% endcapture %}
