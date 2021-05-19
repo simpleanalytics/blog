@@ -23,15 +23,15 @@ For a chat, it may be load every page but for a payment provider, it certainly w
 
 When using a chat that you use on every page you could get a bit creative. For example, you could have a little button that only loads the external script when you click it.
 
-There are a few ways to accomplish this. You can do it via services like metomic\_ which offers [a script blocking feature](https://docs.metomic.io/docs/manual-blocking) or do it manually.
+There are a few ways to accomplish this. You can do it via services like Confirmic which offers [a script blocking feature](https://docs.confirmic.com/docs/manual-blocking) or do it manually.
 
 See these examples on how to implement it:
 
 <details markdown="1">
-<summary>Show metomic_ code example</summary>
+<summary>Show Confirmic code example</summary>
 
 ```html
-<script type="text/x-metomic" data-micropolicy="MY-POLICY-SLUG">
+<script type="text/x-confirmic" data-micropolicy="MY-POLICY-SLUG">
   // This code only runs when consent for MY-POLICY-SLUG has been given
   console.log("ok")
 </script>
