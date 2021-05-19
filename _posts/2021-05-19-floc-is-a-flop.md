@@ -107,7 +107,7 @@ With the use of this technology, they could also uncover general information abo
 
 Google has proposed monitoring the system and looking for any associations with sensitive categories. If it finds a particular cohort that is too closely related to a specific group, the server could choose new parameters for the algorithm and regroup those users.
 
-This solution has a bigger hole than the bucket.
+This solution produces even more significant privacy issues.
 
 To monitor how FLoC groups correlate with sensitive categories in the first place, **Google would have to collect and observe an astronomical amount of data about users' race, gender, religion, age, health, and financial status**.
 
