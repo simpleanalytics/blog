@@ -1,5 +1,5 @@
 ---
-title: Why FLoC is a forceful privacy FLoP
+title: Why FLoC is a FLoP
 author_slug: tim
 author: Tim de Nood
 image: /images/2021-05/am-i-floced.png
