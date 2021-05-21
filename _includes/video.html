@@ -1,15 +1,24 @@
-{% if include.width and include.height %}
 <div
-  class="video-container"
-  style="padding-top: calc({{include.height}}% / ({{include.width}} / 100));"
+  class="
+    video-container{%
+    if
+    include.width
+    and
+    include.height
+    %}
+    scaled{%
+    endif
+    %}
+  "
+  style="{% if include.width and include.height %}padding-top: calc({{include.height}}% / ({{include.width}} / 100));{% endif %}"
 >
-  {% endif %}
   <video
     loop
-    muted
     autoplay
+    muted
     crossorigin="anonymous"
     class="post-video"
+    preload="auto"
     poster="https://assets.simpleanalytics.com/videos/{{ include.slug }}/video.png"
   >
     <source
@@ -38,6 +47,4 @@
       instead. {% endif %}
     </p>
   </video>
-  {% if include.width and include.height %}
 </div>
-{% endif %}
