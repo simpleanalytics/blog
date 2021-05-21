@@ -17,8 +17,14 @@
     autoplay
     muted
     crossorigin="anonymous"
-    class="post-video"
+    class="post-video {% if include.red %}red{% endif %}"
     preload="auto"
+    {%
+    if
+    include.controls
+    %}controls{%
+    endif
+    %}
     poster="https://assets.simpleanalytics.com/videos/{{ include.slug }}/video.png"
   >
     <source
