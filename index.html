@@ -23,7 +23,7 @@ layout: default
             >{{ post.date | date_to_string: "ordinal", "US" }} by {{ post.author
             }}</span
           >
-          - {{ post.excerpt | strip_html | replace: '
+          - {{ post.excerpt | strip_html | replace: '"', '&quot;' | replace: '
         </p>
         ', '' | replace: '
         <p>
