@@ -127,6 +127,10 @@ ul.related-posts {
     box-shadow: inset 0 0 20px #404040;
     margin: 75px 50px;
 
+    @media (max-width: $breakpoint-medium) {
+      margin: 55px 30px;
+    }
+
     &::before {
       content: " ";
       position: absolute;
@@ -137,6 +141,13 @@ ul.related-posts {
       border-radius: 3px;
       border: #d5d5d5 1px solid;
       box-shadow: 2px 2px 8px 7px #f4f4f4;
+
+      @media (max-width: $breakpoint-medium) {
+        top: -30px;
+        right: -30px;
+        bottom: -30px;
+        left: -30px;
+      }
     }
 
     img {
