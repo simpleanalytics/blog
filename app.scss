@@ -122,13 +122,40 @@ ul.related-posts {
     border-radius: 10px;
   }
 
-  .painting + .caption,
+  .canvas {
+    position: relative;
+    box-shadow: inset 0 0 20px #404040;
+    margin: 75px 50px;
+
+    &::before {
+      content: " ";
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      bottom: -50px;
+      left: -50px;
+      border-radius: 3px;
+      border: #d5d5d5 1px solid;
+      box-shadow: 2px 2px 8px 7px #f4f4f4;
+    }
+
+    img {
+      position: relative;
+      z-index: -2;
+    }
+  }
+
+  .canvas + .caption,
   .border + .caption {
     font-size: 14px;
     color: #6f6f6f;
     margin-top: 3px;
     text-align: center;
     margin-bottom: 1rem;
+  }
+
+  .canvas + .caption {
+    margin-top: -8px;
   }
 
   li p:first-of-type {
