@@ -113,10 +113,16 @@ ul.related-posts {
     border-radius: 10px;
   }
 
+  img.painting {
+    border-radius: 10px;
+    width: 100%;
+  }
+
   .border-radius {
     border-radius: 10px;
   }
 
+  .painting + .caption,
   .border + .caption {
     font-size: 14px;
     color: #6f6f6f;
