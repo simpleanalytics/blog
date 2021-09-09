@@ -19,7 +19,7 @@ In this article series, I want to uncover the psychological and cultural reasons
 - How did entire societies agree with global mass surveillance?
 - Why are so many people OK with surveillance technology that sells their data to the highest bidder?
 
-I'm curious how many times you will nod your head while reading this article: "yep, I thought that, and yep that was stupid." I know I've been guilty thinking of quite a few of them.
+I'm curious how many times you will nod your head while reading this article: "yep, I thought that, and yep that was dumb." I know I've been guilty thinking of quite a few of them.
 
 Together we'll explore some histories and scientific insights to shine a light on the privacy paradox and learn important insights about ourselves and society. Why? Because privacy is ultimately not a technology problem, _it’s a problem caused by <span style="text-decoration:underline;">human decisions</span>._ I want to know why these decisions were made (without blaming anyone), so we can learn from them and correct our errors to protect everyone's fundamental right to privacy.
 
