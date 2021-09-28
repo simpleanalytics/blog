@@ -10,11 +10,11 @@ image: https://blog.simpleanalytics.com/images/
 
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/datahunger.jpg" alt="Data hunger" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption"> </p>
 
-This article explains the why and the how about the way organizations watch you. The three tips are found at the bottom of this article (please scroll down if you want to skip the intro and research).
+This article explains the why and the how about the way organizations watch you. The 3 tips are found at the bottom of this article (please scroll down if you want to skip the intro and research).
 
 In this series on privacy, you and I are discovering how the internet ended up in this privacy mess. And how we can eventually get out of it (without blaming anyone). 
 
