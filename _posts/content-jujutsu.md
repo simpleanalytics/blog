@@ -197,7 +197,7 @@ But it becomes _unethical_ when it checks these four boxes (especially the fourt
 
 With more and more people becoming aware of this problem, there is a reasonable chance more regulations and oversight on data collection will take effect.
 
-So, how will we get out and how can_ YOU_ be ready for this future?
+So, how will we get out and how can _YOU_ be ready for this future?
 
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/privacyprotection.jpg" alt="Privacy Protection" />
