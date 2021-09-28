@@ -37,7 +37,7 @@ You might think: “isn’t this world dangerously boring and meant only for leg
 Big brother is a busy brother. And he’s good at Jujutsu, I’ll explain. He’s watching you on the streets and in many buildings, he analyzes your urine in the sewage system, and he collects your likes, emails, and purchases on the internet. And according to Big B, you wilfully agreed to most of these things… _right?_
 
 
-### Let’s look at some real-world examples of how we “agree”:
+### Let’s look at some real-world examples of how we “agree”
 
 _(Some of these examples are inspired by and can be found in Gary Marx’s book on surveillance “Windows into the soul.” A very good read if you want to learn more about the social aspects of privacy!)_
 
