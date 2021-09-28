@@ -29,10 +29,9 @@ You might think: “isn’t this world dangerously boring and meant only for leg
 ## Consent Jujutsu
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/jujutsu.jpg" alt="Jujutsu" />
 </div>
-<p class="caption">A caption of the image.</p>
-
+<p class="caption"> </p>
 
 
 Big brother is a busy brother. And he’s good at Jujutsu, I’ll explain. He’s watching you on the streets and in many buildings, he analyzes your urine in the sewage system, and he collects your likes, emails, and purchases on the internet. And according to Big B, you wilfully agreed to most of these things… _right?_
@@ -60,9 +59,9 @@ In similar ways like this old Japanese martial art, organizations focus _your_ e
 The action of “agreeing” is therefore a rather unconscious act for most people, a natural byproduct of your normal and social behavior; the Jujutsu mastery of Big Brother. 
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/signhere.jpg" alt="Your consent please" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">If you had to sign for every online policy, would you do it?</p>
 
 _According to the Merriam-Webster dictionary, the definition of Consent is “to give assent or approval: agree.”_
 
@@ -82,14 +81,12 @@ When I gather data about others in my personal life, I usually do this for simpl
 You can probably think of many more common examples in which we gather data in our personal lives. Why? Well, gathering data with our senses help us live and improve our lives. It is a “two-way surveillance” practice: I can look at my friend and my friend can look back at me. Simple. 
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/surveillancecamera.jpg" alt="How many organizations are watching you?" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">How many organizations are watching you?</p>
 
 
-_How many organizations are watching you?_
-
-It becomes_ a lot more complex _when organizations observe us. Here are 4 differences (there are probably many more, feel free to <span style="text-decoration:underline;">email me</span> about differences you spotted):
+It becomes_ a lot more complex _when organizations observe us. Here are 4 differences (there are probably many more, feel free to <a href="mailto:tim@simpleanalytics.com">email me</a> about differences you spotted):
 
 1. Organizations often observe many-to-one or many-to-many, and they do this covertly without giving you the chance to look back. 
 2. Their means of gathering data today are mostly technology-driven (this makes the game unequal for the individual that doesn’t have such technologies) 
@@ -109,20 +106,18 @@ This is an important point to remember and to be honest about in your organizati
 Answering these will give you more insight and clarity to create a truly privacy-friendly organization. 
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/athens-art-school-1143741_1920.jpg" alt="Athens Art School" />
 </div>
-<p class="caption">A caption of the image.</p>
-
-_Raphael painted the rebirth of Greek philosophy in the 16th century, is it time for a rebirth of ethics in the 21st century?_
+<p class="caption">Raphael painted the rebirth of Greek philosophy in the 16th century, is it time for a rebirth of ethics in the 21st century?</p>
 
 Unfortunately, not every organization cares to think like this. Sometimes it seems they just want more data just for the sake of it. So…
 
 ## **...Why oh why do all those organizations want to feast on my personal data?**
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/squirl.jpg" alt="Feasting on your data" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">  </p>
 
 Every organization is different and it’s beyond the scope of this article to look at all their reasons. So, although there are many more, let’s start by looking at one organization. This one serves as an example for us to show how to look at other organizations. Three key questions to keep in mind are always:
 
@@ -147,12 +142,12 @@ Another quote: “This license allows Google to:
     * other users to allow the services to work as designed, such as enabling you to share photos with people you choose
     * our contractors who’ve signed agreements with us that are consistent with these terms, only for the limited purposes described in the [Purpose](https://policies.google.com/terms?hl=en#toc-purpose) section below”
 
-Put more bluntly, they can do whatever the heck they want with your personal information and outings anywhere on Google. **They are totally in control and you are NOT.** Unless you’re some high-level director or executive working at the company, you have zero influence over what Google does. 
+More bluntly, they can do whatever the heck they want with your personal information and outings anywhere on Google. **They are totally in control and you are NOT.** Unless you’re some high-level director or executive working at the company, you have zero influence over what Google does. 
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/googlepolicy.jpg" alt="Google Policy" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">  </p>
 
 ### Why this matters
 
@@ -181,9 +176,9 @@ A common thing many people say at this point is: “Let them look, I don’t hav
 Because this point is not about you. It is also <span style="text-decoration:underline;">not</span> about friends who buy gifts for each other. This point is about how organizations can spy on humans to exploit them. It’s about giving and having a real choice for privacy. About protecting our human rights from organizations who want to violate these rights for profit. 
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/hidedesk.jpg" alt="Hiding behing your desk" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">You shouldn't do this.</p>
 
 The argument “let them look, I don’t have anything to hide” implies that if people cannot look at you, you _do_ have something to hide… But isn’t this completely the _opposite_ way of looking at the problem?!?!?
 
@@ -205,9 +200,9 @@ With more and more people becoming aware of this problem, there is a reasonable 
 So, how will we get out and how can_ YOU_ be ready for this future?
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/privacyprotection.jpg" alt="Privacy Protection" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">  </p>
 
 ## Data dignity
 
@@ -227,9 +222,9 @@ In today’s world, it’s therefore important organizations show they have good
 Some of my readers here might think at this point: “but I can never do that, that doesn’t work in my organization.” Trust me, it does. It portrays honesty towards your relations. It shows you’re willing to share and your organization is morally _good_.
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/Simple-Analytics-screenshot.png" alt="Simple and privacy-friendly analytics" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">  </p>
 
 At **Simple Analytics** our mission is to give you the fastest, easiest, and most ethical insights about your website performance while upholding the highest privacy standards. 
 
@@ -239,19 +234,19 @@ _If you enjoyed reading this article and you’re interested in learning more ab
 
 _Every month we give you short, sweet, and insightful privacy summaries and help you stay in the know. Needless to say, our emails never track anything, ever. We just want to spread the word and help more people become aware of the dangers of data exploitation. Also, we’ll suggest ethical solutions or other privacy-focused apps. You can simply subscribe for free at: [https://theprivacynewsletter.com](https://theprivacynewsletter.com)_
 
-**_About the artworks in this article._**
+### **_About the artworks in this article._**
 
 The pictures in this article are stylized by an AI from [https://creator.nightcafe.studio](https://creator.nightcafe.studio). The style input for these was the renaissance painting _The School of Athens_ by Raphael (1509 - 1511). 
 
 The topic of Raphael’s original painting portrays ancient Greek philosophers. After the Middle Ages, Brunelleschi introduced a vanishing point and with it painting with “realistic” perspective became the dominant way of painting during the Renaissance. This was at the time a new way of looking at our world. The AI of nightcafe.studio missed the whole point of perspective which was valued so much. The AI put a brown layer on all the images as the “style.” I found his painting therefore a good metaphor for thinking through your findings and the way you represent data. Data isn’t “the truth,” only a way of representing our reality. 
 
 <div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-09/big-brother.jpg" alt="AI painting of Big Brother" />
+  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/athens-art-school-1143741_1920.jpg" alt="Athens Art School" />
 </div>
-<p class="caption">A caption of the image.</p>
+<p class="caption">  </p>
 
 ## Continue reading:
 
-* [How we give away our privacy with 5 dumb thoughts ](https://blog.simpleanalytics.com/how-the-internet-ended-up-in-this-privacy-mess)
+* [How we give away our privacy with 5 dumb ideas ](https://blog.simpleanalytics.com/how-the-internet-ended-up-in-this-privacy-mess)
 * [Why Floc is a Flop](https://blog.simpleanalytics.com/floc-is-a-flop)
 * [The easy answer to hard questions about analytics and privacy](https://simpleanalytics.com/the-easy-answer)
