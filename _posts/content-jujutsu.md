@@ -12,7 +12,6 @@ image: https://blog.simpleanalytics.com/images/
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/datahunger.jpg" alt="Data hunger" />
 </div>
-<p class="caption"> </p>
 
 This article explains the why and the how about the way organizations watch you. The 3 tips are found at the bottom of this article (please scroll down if you want to skip the intro and research).
 
@@ -31,8 +30,6 @@ You might think: “isn’t this world dangerously boring and meant only for leg
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/jujutsu.jpg" alt="Jujutsu" />
 </div>
-<p class="caption"> </p>
-
 
 Big brother is a busy brother. And he’s good at Jujutsu, I’ll explain. He’s watching you on the streets and in many buildings, he analyzes your urine in the sewage system, and he collects your likes, emails, and purchases on the internet. And according to Big B, you wilfully agreed to most of these things… _right?_
 
@@ -117,7 +114,6 @@ Unfortunately, not every organization cares to think like this. Sometimes it see
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/squirl.jpg" alt="Feasting on your data" />
 </div>
-<p class="caption">  </p>
 
 Every organization is different and it’s beyond the scope of this article to look at all their reasons. So, although there are many more, let’s start by looking at one organization. This one serves as an example for us to show how to look at other organizations. Three key questions to keep in mind are always:
 
@@ -147,7 +143,6 @@ More bluntly, they can do whatever the heck they want with your personal informa
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/googlepolicy.jpg" alt="Google Policy" />
 </div>
-<p class="caption">  </p>
 
 ### Why this matters
 
@@ -202,7 +197,6 @@ So, how will we get out and how can _YOU_ be ready for this future?
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/privacyprotection.jpg" alt="Privacy Protection" />
 </div>
-<p class="caption">  </p>
 
 ## Data dignity
 
@@ -224,7 +218,6 @@ Some of my readers here might think at this point: “but I can never do that, t
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/Simple-Analytics-screenshot.png" alt="Simple and privacy-friendly analytics" />
 </div>
-<p class="caption">  </p>
 
 At **Simple Analytics** our mission is to give you the fastest, easiest, and most ethical insights about your website performance while upholding the highest privacy standards. 
 
@@ -243,7 +236,6 @@ The topic of Raphael’s original painting portrays ancient Greek philosophers. 
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/athens-art-school-1143741_1920.jpg" alt="Athens Art School" />
 </div>
-<p class="caption">  </p>
 
 ## Continue reading:
 
