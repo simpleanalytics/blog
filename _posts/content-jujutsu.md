@@ -2,12 +2,11 @@
 title: Consent Jujutsu & Data Hunger. Is Your Website Guilty?
 author_slug: tim
 author: Tim de Nood
-excerpt: "Short description of the post"
-image: https://blog.simpleanalytics.com/images/
+excerpt: "In this series on privacy, you and I are discovering how the internet ended up in this privacy mess. This article explains the why and the how about the way organizations watch you."
+image: https://blog.simpleanalytics.com/images/2021-9article2/datahunger.jpg
 ---
 
 ## 3 privacy tips for organizations that use online data 
-
 
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/datahunger.jpg" alt="Data hunger" />
@@ -21,7 +20,7 @@ Inspired by sociologist, author, and researcher Gary Marx, I’m looking beyond 
 
 This gives us the knowledge we need to further develop privacy-friendly and future-ready organizations people trust and gladly relate with. 
 
-This article will delve into the world of the privacy invaders: **Why do they watch us (or more strongly _invade our privacy_) and how do they do it?** Whereas in the [previous article](https://blog.simpleanalytics.com/how-the-internet-ended-up-in-this-privacy-mess), we’ve uncovered some (dumb) thoughts users have when they give away personal information to tech companies.
+This article will delve into the world of the privacy invaders: **Why do they watch us (or more strongly _invade our privacy_) and how do they do it?** Whereas in the [previous article](https://blog.simpleanalytics.com/how-the-internet-ended-up-in-this-privacy-mess), we’ve uncovered some thoughts users have when they give away personal information to tech companies.
 
 You might think: “isn’t this world dangerously boring and meant only for legal privacy panthers with strong teeth?” 🐯 Short answer: it only appears to be. It reveals a lot about how privacy, humans, and power relate. So, long answer: for this article, _I’ve read some boring terms of use for you_, and this is what I found…
 
@@ -36,7 +35,7 @@ Big brother is a busy brother. And he’s good at Jujutsu, I’ll explain. He’
 
 ### Let’s look at some real-world examples of how we “agree”
 
-_(Some of these examples are inspired by and can be found in Gary Marx’s book on surveillance “Windows into the soul.” A very good read if you want to learn more about the social aspects of privacy!)_
+_Some of these examples are inspired by and can be found in Gary Marx’s book on surveillance [“Windows into the soul.”](https://press.uchicago.edu/ucp/books/book/chicago/W/bo22228665.html) very good read if you want to learn more about the social aspects of privacy!_
 
 * The **supermarket building** displays a message in the corner: _“In entering here, you have agreed to be filmed.”_
 * The **insurance company** that offers rewards or discounts for wearers of health-tracking devices: _“You do not have to send us any health data you aren’t comfortable with. The trade-off is you won’t get points for that.”_
@@ -83,7 +82,7 @@ You can probably think of many more common examples in which we gather data in o
 <p class="caption">How many organizations are watching you?</p>
 
 
-It becomes_ a lot more complex _when organizations observe us. Here are 4 differences (there are probably many more, feel free to <a href="mailto:tim@simpleanalytics.com">email me</a> about differences you spotted):
+It becomes _a lot more complex_ when organizations observe us. Here are 4 differences (there are probably many more, feel free to <a href="mailto:tim@simpleanalytics.com">email me</a> about differences you spotted):
 
 1. Organizations often observe many-to-one or many-to-many, and they do this covertly without giving you the chance to look back. 
 2. Their means of gathering data today are mostly technology-driven (this makes the game unequal for the individual that doesn’t have such technologies) 
@@ -166,16 +165,16 @@ Now what?
 
 ## Ethics.
 
-A common thing many people say at this point is: “Let them look, I don’t have anything to hide.” If you say this, you’re probably right and you probably missed the whole point. 
+A common thing many people say at this point is: “Let them look, I don’t have anything to hide.” It's understandable but then you probably missed the point. 
 
-Because this point is not about you. It is also <span style="text-decoration:underline;">not</span> about friends who buy gifts for each other. This point is about how organizations can spy on humans to exploit them. It’s about giving and having a real choice for privacy. About protecting our human rights from organizations who want to violate these rights for profit. 
+Because this point is not about you as a person. It is also <span style="text-decoration:underline;">not</span> about friends who buy gifts for each other. They have fair and equal means to get infromation from each other. This point is about how organizations can spy on humans to exploit them. It’s about giving and having a real choice for privacy protecting our human rights from organizations who want to violate these rights for profit. 
 
 <div class="canvas">
   <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/hidedesk.jpg" alt="Hiding behing your desk" />
 </div>
 <p class="caption">You shouldn't do this.</p>
 
-The argument “let them look, I don’t have anything to hide” implies that if people cannot look at you, you _do_ have something to hide… But isn’t this completely the _opposite_ way of looking at the problem?!?!?
+The argument “let them look, I don’t have anything to hide” implies that if people cannot look at you, you _do_ have something to hide… But isn’t this completely the _opposite_ way of looking at the problem?
 
 It puts the blame on the watched, instead of the watcher. 
 
@@ -185,10 +184,10 @@ Gathering data about others is fine in a personal setting, like understanding yo
 
 But it becomes _unethical_ when it checks these four boxes (especially the fourth):
 
-1. personal data is collected by groups of people 
-2. without asking, 
-3. with unequally better surveillance equipment 
-4. and with the means to manipulate your data in their interest to become more powerful and possibly use it against you.
+1. Personal data is collected by groups of people,
+2. without asking,
+3. with unequally better surveillance equipment,
+4. and with the means to manipulate your data in their interest to become more powerful and possibly use it against you;
 
 With more and more people becoming aware of this problem, there is a reasonable chance more regulations and oversight on data collection will take effect.
 
@@ -227,7 +226,7 @@ _If you enjoyed reading this article and you’re interested in learning more ab
 
 _Every month we give you short, sweet, and insightful privacy summaries and help you stay in the know. Needless to say, our emails never track anything, ever. We just want to spread the word and help more people become aware of the dangers of data exploitation. Also, we’ll suggest ethical solutions or other privacy-focused apps. You can simply subscribe for free at: [https://theprivacynewsletter.com](https://theprivacynewsletter.com)_
 
-### **_About the artworks in this article._**
+### _About the artworks in this article._
 
 The pictures in this article are stylized by an AI from [https://creator.nightcafe.studio](https://creator.nightcafe.studio). The style input for these was the renaissance painting _The School of Athens_ by Raphael (1509 - 1511). 
 
