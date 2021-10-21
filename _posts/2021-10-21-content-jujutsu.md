@@ -213,9 +213,8 @@ Organizations must show they have good _data manners_ and are ready to deal with
 
 Some of my readers here might think at this point: “but I can never do that" or "that doesn’t work in my organization.” Trust me, it does. It portrays honesty towards your relations. It shows you’re willing to share, and your organization is morally _good_.
 
-<div class="canvas">
-  <img loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/Simple-Analytics-screenshot.png" alt="Simple and privacy-friendly analytics" />
-</div>
+<img class="border" loading="lazy" src="https://blog.simpleanalytics.com/images/2021-9article2/Simple-Analytics-screenshot.png" alt="Simple and privacy-friendly analytics" />
+<p class="caption">Public dashboard of <a href="https://simpleanalytics.com/simpleanalytics.com">simpleanalytics.com</a>.</p>
 
 At **Simple Analytics**, our mission is to give you the fastest, easiest, and most ethical insights about your website performance while upholding the highest privacy standards. 
 
