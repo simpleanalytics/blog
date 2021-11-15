@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign posts = site.posts | where_exp:"post","post.draft == null" %}
+{% assign posts = site.posts | where_exp:"post","post.draft == false" %}
 
 <h1>How we run Simple Analytics</h1>
 
