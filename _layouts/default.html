@@ -14,7 +14,15 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {% if page.no_index == true %}
+    <!-- RSS -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Blog of Simple Analytics"
+      href="/feed.xml"
+    />
+
+    {% if page.no_index == true or post.hidden == true %}
     <!-- Make sure this page does not show up in search results -->
     <meta name="robots" content="noindex,nofollow" />
     {% endif %}
@@ -96,14 +104,6 @@
       referrerpolicy="no-referrer"
     ></script>
     {% endif %}
-
-    <!-- RSS -->
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Blog of Simple Analytics"
-      href="/feed.xml"
-    />
   </head>
   <body class="">
     <nav>

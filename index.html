@@ -8,7 +8,8 @@ layout: default
 
 <div class="related">
   <ul class="related-posts">
-    {% for post in site.posts limit:100 %}
+    {% for post in site.posts limit:100 %} {% if post.hidden == null or
+    post.hidden == false %}
     <li>
       <h2>
         <a href="{{ post.url }}">
@@ -32,7 +33,7 @@ layout: default
         </p>
       </h2>
     </li>
-    {% endfor %}
+    {% endif %} {% endfor %}
   </ul>
 </div>
 

@@ -100,8 +100,8 @@ layout: default
     >LinkedIn</a
   >)
 </p>
-{% endif %}
-
+{% endif %} {% if page.call_to_actions == true or page.call_to_actions == null
+%}
 <p class="mt-2">
   Want to give Simple Analytics a try?
   <a
@@ -137,6 +137,7 @@ layout: default
       crossorigin="anonymous"
   /></a>
 </p>
+{% endif %}
 
 <script>
   (function addLinksToHeadings() {
