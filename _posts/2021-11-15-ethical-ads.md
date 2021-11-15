@@ -1,9 +1,9 @@
 ---
-title: "Draft: Simple Analytics for free when publishing on EthicalAds"
+title: Simple Analytics for free when publishing on EthicalAds
 author_slug: adriaan
 author: Adriaan van Rossum
 call_to_actions: false
-hidden: true
+draft: true
 excerpt: "Get Simple Analytics for free when you sign up for EthicalAds. We share the same values, and both don't require a cookie banner."
 image: https://assets.simpleanalytics.com/blog/ethicalads/social-media.png
 ---

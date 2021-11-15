@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h1 class="post-title">{{ page.title }}</h1>
+<h1 class="post-title">
+  {% if page.draft == true %}<span style="color: #e51800">Draft:</span> {% endif
+  %}{{ page.title }}
+</h1>
 <p class="post-date">
   {{ page.date | date_to_string: "ordinal", "US" }} - {{ page.author }} -
   <a href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
@@ -10,7 +13,12 @@ layout: default
   >
 </p>
 
-{{ content | replace: '
+{% if page.draft == true %}
+<blockquote role="alert" markdown="1">
+  This blog post is a draft. Please don't share it, yet. It's invisible to
+  search engines.
+</blockquote>
+{% endif %} {{ content | replace: '
 <p><img ', '<img ' | replace: '" /></p>
 ', '" />' | replace: '<img ', '<img loading="lazy" ' }}
 

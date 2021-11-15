@@ -22,7 +22,7 @@
       href="/feed.xml"
     />
 
-    {% if page.no_index == true or post.hidden == true %}
+    {% if page.no_index == true or page.draft == true %}
     <!-- Make sure this page does not show up in search results -->
     <meta name="robots" content="noindex,nofollow" />
     {% endif %}
