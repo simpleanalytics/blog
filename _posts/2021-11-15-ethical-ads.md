@@ -1,5 +1,5 @@
 ---
-title: Draft: Simple Analytics for free when publishing on EthicalAds
+title: "Draft: Simple Analytics for free when publishing on EthicalAds"
 author_slug: adriaan
 author: Adriaan van Rossum
 call_to_actions: false

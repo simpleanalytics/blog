@@ -2,14 +2,15 @@
 layout: default
 ---
 
+{% assign posts = site.posts | where_exp:"post","post.hidden == null" %}
+
 <h1>How we run Simple Analytics</h1>
 
 {% include subscribe.html %}
 
 <div class="related">
   <ul class="related-posts">
-    {% for post in site.posts limit:100 %} {% if post.hidden == null or
-    post.hidden == false %}
+    {% for post in posts limit:100 %}
     <li>
       <h2>
         <a href="{{ post.url }}">
@@ -33,7 +34,7 @@ layout: default
         </p>
       </h2>
     </li>
-    {% endif %} {% endfor %}
+    {% endfor %}
   </ul>
 </div>
 
