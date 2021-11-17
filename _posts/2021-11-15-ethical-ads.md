@@ -1,5 +1,5 @@
 ---
-title: Simple Analytics for free when publishing on EthicalAds
+title: Display EthicalAds and get Simple Analytics for free
 author_slug: adriaan
 author: Adriaan van Rossum
 call_to_actions: false
@@ -8,7 +8,16 @@ excerpt: "Get Simple Analytics for free when you sign up for EthicalAds. We shar
 image: https://assets.simpleanalytics.com/blog/ethicalads/social-media.png
 ---
 
-EthicalAds and Simple Analytics are joining forces to offer a fantastic deal for both userbases. Get Simple Analytics for free when you start publishing on EthicalAds. [Jump to deal](#what-we-offer-together).
+Do you own a developer-focused site? And would you like to add an ethical revenue stream? Then you can get Simple Analytics free. Join us to create a privacy-friendly web together and earn roughly $20 per 10,000 impressions.
+
+You qualify if you:
+
+- Have a developer-focused site.
+- Use no other ad publishers.
+- Have a minimum of 1,000 page views.
+- Agree with EthicalAds' [ad display policy](https://www.ethicalads.io/publisher-policy/#ad-display).
+
+EthicalAds and Simple Analytics are joining forces to offer a fantastic deal for both userbases. They need more websites that display their ethical ads. Do you want to help? Get Simple Analytics for free when you become a publisher for EthicalAds. [Jump to deal](#what-we-offer-together).
 
 <img loading="lazy" class="border-radius" src="https://assets.simpleanalytics.com/blog/ethicalads/social-media.png" alt="EthicalAds loves EthicalAds" />
 
@@ -32,7 +41,7 @@ The promise of Simple Analytics is listed on [our promise](https://simpleanalyti
 - **We will never sell your data.** _You can always delete and download yours._
 - **No tracking pixels on our platform.** _[...], we will never send any information of our customers to those networks._ We will never send customer data to EthicalAds, unless our customer asks for it.
 
-Their advertising platform goes very well ([see the September blog post](https://www.ethicalads.io/blog/2021/10/ethicalads-newsletter-september-2021/)). That's why they need more publishers to add to their network.
+EthicalAds has two groups of customers: advertisers and publishers. Their advertising side goes very well ([see the September blog post](https://www.ethicalads.io/blog/2021/10/ethicalads-newsletter-september-2021/)). That's why they need more publishers to add to their network.
 
 We support our common goals and want to help each other to grow our businesses in a sustainable way. We are both serving an overlapping target market: **developers**.
 
@@ -46,17 +55,17 @@ As the founder of Simple Analytics, I worked for years in web development. Front
 
 ## What we offer together
 
-A Simple Account normally costs $19 a month for 100k page views and $59 for 1 million page views. In this joined offer, we would like to give away a free Simple Analytics account for everybody that starts publishing on EthicalAds. You can also apply if you already have a Simple Analytics subscription.
+A Simple Analytics account normally costs $19 a month for 100k page views and $59 for 1 million page views. In this joined offer, we would like to give away a free Simple Analytics account for everybody that starts publishing on EthicalAds. You can also apply if you already have a Simple Analytics subscription.
 
-Generally, publishers see around $2.00 per 1,000 page views (CPM), assuming a majority of US and European traffic. These numbers will vary based on your audience and the topics that you write about.
+Generally, publishers see around $2.00 per 1,000 page views (CPM), assuming a majority of US and European traffic. These numbers will vary based on your audience and the topics that you write about. If you earned more than $50, EthicalAds pays out monthly via bank transfer, PayPal, or OpenCollective.
 
-We have a few rules to be able to apply for this offer:
+You qualify if you:
 
-- You have a developer-focused site.
-- You should only place EthicalAds on that site.
-- You agree with their [ad display policy](https://www.ethicalads.io/publisher-policy/#ad-display)
-- EthicalAds pays out with a minimum payment of $50<br>_(via bank transfer, PayPal, or OpenCollective)_
+- Have a developer-focused site.
+- Use no other ad publishers.
+- Have a minimum of 1,000 page views.
+- Agree with EthicalAds' [ad display policy](https://www.ethicalads.io/publisher-policy/#ad-display).
 
-<a href="" class="button">Apply and start publishing</a>
+<a href="https://www.ethicalads.io/publishers/#inbound-form" class="button">Apply and start publishing</a>
 
 This deal is valid until December 31st, 2021.
