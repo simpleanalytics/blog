@@ -68,4 +68,4 @@ You qualify if you:
 
 <a href="https://www.ethicalads.io/publishers/#inbound-form" class="button">Apply and start publishing</a>
 
-This deal is valid until December 31st, 2021.
+This deal is valid until December 31st, 2021 (but will continue for those who did sign up).
