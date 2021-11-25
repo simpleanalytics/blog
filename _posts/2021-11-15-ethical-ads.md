@@ -6,6 +6,7 @@ call_to_actions: false
 draft: true
 excerpt: "Get Simple Analytics for free when you sign up for EthicalAds. We share the same values, and both don't require a cookie banner."
 image: https://assets.simpleanalytics.com/blog/ethicalads/social-media.png
+minimal_impressions: 20,000
 ---
 
 Do you own a developer-focused site? And would you like to add an ethical revenue stream? Then you can get Simple Analytics free. Join us to create a privacy-friendly web together and earn roughly $20 per 10,000 impressions.
@@ -14,7 +15,7 @@ You qualify if you:
 
 - Have a developer-focused site.
 - Use no other ad publishers.
-- Have a minimum of 1,000 page views.
+- Have a minimum of {{page.minimal_impressions}} page views.
 - Agree with EthicalAds' [ad display policy](https://www.ethicalads.io/publisher-policy/#ad-display).
 
 EthicalAds and Simple Analytics are joining forces to offer a fantastic deal for both userbases. They need more websites that display their ethical ads. Do you want to help? Get Simple Analytics for free when you become a publisher for EthicalAds. [Jump to deal](#what-we-offer-together).
@@ -63,7 +64,7 @@ You qualify if you:
 
 - Have a developer-focused site.
 - Use no other ad publishers.
-- Have a minimum of 1,000 page views.
+- Have a minimum of {{page.minimal_impressions}} page views.
 - Agree with EthicalAds' [ad display policy](https://www.ethicalads.io/publisher-policy/#ad-display).
 
 <a href="https://www.ethicalads.io/publishers/#inbound-form" class="button">Apply and start publishing</a>
