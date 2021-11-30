@@ -96,13 +96,15 @@
       href="/app.css?v={{site.github.build_revision}}"
     />
 
-    {% if page.disable_script != true %}
+    {% if page.disable_script != true and page.no_index != true and page.draft != true %}
     <!-- Privacy friendly website statistics -->
     <script
       async
       src="https://scripts.simpleanalyticscdn.com/latest.js"
       referrerpolicy="no-referrer"
     ></script>
+    {% else %}
+    <!-- Simple Analytics is disabled for this page -->
     {% endif %}
   </head>
   <body class="">
@@ -143,7 +145,7 @@
       </ul>
     </nav>
 
-    {% if page.disable_script != true %}
+    {% if page.disable_script != true or page.no_index != true or page.draft != true %}
     <!-- Privacy friendly website statistics -->
     <noscript
       ><img
@@ -151,6 +153,8 @@
         referrerpolicy="unsafe-url"
         alt=""
     /></noscript>
+    {% else %}
+    <!-- Simple Analytics is disabled for this page -->
     {% endif %}
 
     <script>
