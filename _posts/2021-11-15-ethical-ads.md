@@ -3,7 +3,6 @@ title: Display EthicalAds and get Simple Analytics for free
 author_slug: adriaan
 author: Adriaan van Rossum
 call_to_actions: false
-draft: true
 excerpt: "Get Simple Analytics for free when you sign up for EthicalAds. We share the same values, and both don't require a cookie banner."
 image: https://assets.simpleanalytics.com/blog/ethicalads/social-media.png
 minimal_impressions: 20,000
