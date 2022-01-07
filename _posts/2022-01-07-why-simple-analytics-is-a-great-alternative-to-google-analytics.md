@@ -3,13 +3,9 @@ title: Why Simple Analytics is a great alternative to Google Analytics
 author_slug: iron
 author: Iron Brands
 draft: true
-# excerpt: ""
-image: https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics/google-analytics-dashboard-vs-simple-analytics-dashboard.png
+excerpt: "The market for website analytics is dominated by Google Analytics. At least 85% of websites with a web analytics tool have installed Google Analytics to track web traffic. It’s free but it comes at a cost."
+image: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics/ga-vs-sa.png
 ---
-
-Website analytics are key. It gives you insights into the performance of your website and provides you with the necessary information to improve.
-
-Why Simple Analytics is a great alternative to Google Analytics
 
 Website analytics are key. It gives you insights into the performance of your website and provides you with the necessary information to improve.
 
