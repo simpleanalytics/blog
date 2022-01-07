@@ -96,15 +96,15 @@ Check our promises [here](https://simpleanalytics.com/our-promise).
 2.5. [Time-on-page](#25-time-on-page)\
 2.6. [Event tracking](#26-event-tracking)
 
-|                                                                | GA                                 | SA                              |
-| -------------------------------------------------------------- | ---------------------------------- | ------------------------------- |
-| Do you want to avoid a cookie banner?                          | ![](/images/svgs/cross-ga.svg)     | ![](/images/svgs/checkmark.svg) |
-| Do you want be GDPR compliant out of the box?                  | ![](/images/svgs/cross-ga.svg)     | ![](/images/svgs/checkmark.svg) |
-| Do you want to own your data yourself?                         | ![](/images/svgs/cross-ga.svg)     | ![](/images/svgs/checkmark.svg) |
-| Are you okay to miss ~27% of your visitors due to ad-blockers? | ![](/images/svgs/cross-ga.svg)     | ![](/images/svgs/checkmark.svg) |
-| Are you okay if your analytics are shared with other products? | ![](/images/svgs/cross-ga.svg)     | ![](/images/svgs/checkmark.svg) |
-| Do you want to have your data within in the EU?                | ![](/images/svgs/cross-ga.svg)     | ![](/images/svgs/checkmark.svg) |
-| Do you want analytics to be free?                              | ![](/images/svgs/checkmark-ga.svg) | ![](/images/svgs/cross.svg)     |
+|                                                                |        Google<br>Analytics         |       Simple<br>Analytics       |
+| -------------------------------------------------------------- | :--------------------------------: | :-----------------------------: |
+| Do you want to avoid a cookie banner?                          |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
+| Do you want be GDPR compliant out of the box?                  |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
+| Do you want to own your data yourself?                         |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
+| Are you okay to miss ~27% of your visitors due to ad-blockers? |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
+| Are you okay if your analytics are shared with other products? |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
+| Do you want to have your data within in the EU?                |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
+| Do you want analytics to be free?                              | ![](/images/svgs/checkmark-ga.svg) |   ![](/images/svgs/cross.svg)   |
 
 #### 2.1 UX: Simple one-page dashboard vs complex dashboard
 
