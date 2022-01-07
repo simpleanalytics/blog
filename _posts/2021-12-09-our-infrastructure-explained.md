@@ -16,3 +16,9 @@ En wat betreft settings, dit zou goed moeten zijn voor 3 nodes, toch?
 ```
 
 Dan kunnen er in theorie 2 uitvallen zonder data verlies.
+
+### Shards
+
+When you're using Elasticsearch you don't need to know about shards that much. Until you do. We started using Elasticsearch with a single node setup. It worked great for our use-case. We came from PostgreSQL which worked fine, but at some point the caching tables got out of hand.
+
+Shards are basically like tables you have in an Excel sheet. If you have many small tables, you create overhead

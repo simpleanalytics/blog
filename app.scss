@@ -78,6 +78,15 @@ ul.related-posts {
   width: 400px;
 }
 
+.page img.avatar {
+  width: 200px;
+  height: 200px;
+  vertical-align: bottom;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+  display: inline-block;
+}
+
 .mini-avatar {
   width: 30px;
   height: 30px;
@@ -157,6 +166,7 @@ ul.related-posts {
   }
 
   .canvas + .caption,
+  .border-radius + .caption,
   .border + .caption {
     font-size: 14px;
     color: #6f6f6f;
@@ -272,4 +282,12 @@ th {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.gif {
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 500px;
+  box-shadow: 2px 2px 5px 2px #ececec, 0px 0px 10px 5px #f8f8f8;
 }
