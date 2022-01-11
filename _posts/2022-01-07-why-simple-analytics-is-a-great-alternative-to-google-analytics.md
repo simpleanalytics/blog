@@ -37,6 +37,7 @@ Let's dive in!
     1.  [Mini websites as referral links](#32-mini-websites-as-referral-links)
     1.  [Embed chart on your website](#33-embed-chart-on-your-website)
     1.  [Hide referral spam](#34-hide-referral-spam)
+    1.  [Import your data directly from Google](#35-import-your-data-directly-from-google)
 1.  [Why do we care](#4-why-do-we-care)
 
 This analysis aims to provide you with a detailed overview of the key differences between Google Analytics and Simple Analytics. In summary, what's best depends on your needs. If you care about your visitors' privacy and want a clean and simple overview of your most important website tracking metrics, you might want to [give Simple Analytics a try](https://simpleanalytics.com/welcome).
@@ -167,7 +168,8 @@ This is not the time to talk about features, but there are a few worth mentionin
 3.1. [Export your data](#31-export-your-data)\
 3.2. [Mini websites as referral links](#32-mini-websites-as-referral-links)\
 3.3. [Embed chart on your website](#33-embed-chart-on-your-website)\
-3.4. [Hide referral spam](#34-hide-referral-spam)
+3.4. [Hide referral spam](#34-hide-referral-spam)\
+3.5. [Import your data directly from Google](#35-import-your-data-directly-from-google)
 
 #### 3.1 Export your data
 
@@ -184,6 +186,10 @@ We provide the possibility to embed a chart of your analytics on your website. Y
 #### 3.4 Hide referral spam
 
 Referral spam can cause your analytics to be inaccurate. With a click on a button, you can hide referral spam in your analytics. No need to build complex filters.
+
+#### 3.5 Import your data directly from Google
+
+Switching to a different product brings hassle. It takes time and there are always switching costs involved. We try to minimize the switching costs by making it possible to import your Google Analytics data directly into Simple Analytics. Your past data will be updated in the Simple Analytics dashboard, so you don’t have to start from scratch whenever you switch.
 
 ### 4\. Why do we care
 
