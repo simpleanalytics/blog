@@ -3,4 +3,5 @@
   src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.webp"
   onerror="this.onerror = null; this.src='https://assets.simpleanalytics.com/gifs/{{ include.slug }}.gif';"
   alt="{{ include.alt }}"
+  style="{% if include.width %}width: {{ include.width }}{% endif %}"
 />
