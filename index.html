@@ -10,7 +10,8 @@ layout: default
 
 <div class="related">
   <ul class="related-posts">
-    {% for post in posts limit:100 %}
+    {% for post in posts limit:100 %} {% if post.lang == null or post.lang ==
+    'en' %}
     <li>
       <h2>
         <a href="{{ post.url }}">
@@ -32,9 +33,24 @@ layout: default
           ', '' }}
           <a href="{{ post.url }}">Read more</a>
         </p>
+        {% if post.nl %}
+        <p class="mt-0">
+          <img
+            src="https://assets.simpleanalytics.com/images/flags/NL.svg"
+            alt="Dutch flag"
+            style="
+              all: unset;
+              height: 20px;
+              vertical-align: sub;
+              margin-right: 5px;
+            "
+          />
+          This post is also available <a href="{{ post.nl }}">in Dutch</a>
+        </p>
+        {% endif %}
       </h2>
     </li>
-    {% endfor %}
+    {% endif %} {% endfor %}
   </ul>
 </div>
 
