@@ -7,7 +7,7 @@ image: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-
 lang: nl
 ---
 
-Op 13 januari heeft de Autoriteit Persoonsgegevens (AP) [openlijk vraagtekens gezet bij het legale gebruik van Google Analytics](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/internet-telefoon-tv-en-post/cookies#hoe-kan-ik-bij-google-analytics-de-privacy-van-mijn-websitebezoekers-beschermen-4898) in Nederland. In haar verklaring impliceerde het AP dat het gebruik van Google Analytics in de toekomst verboden kan worden.
+Op 13 januari heeft de Autoriteit Persoonsgegevens (AP) [openlijk vraagtekens gezet bij het legale gebruik van Google Analytics](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/internet-telefoon-tv-en-post/cookies#hoe-kan-ik-bij-google-analytics-de-privacy-van-mijn-websitebezoekers-beschermen-4898) in Nederland. In haar verklaring impliceert het AP dat het gebruik van Google Analytics in de toekomst verboden kan worden.
 
 Dit komt nadat de DSB (de Oostenrijkse equivalent van het AP) na uitvoerig onderzoek inderdaad [bevestigde dat het gebruik van Google Analytics in strijd is met de GDPR regelgeving. ](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal)
 
@@ -48,11 +48,11 @@ Russell Ketchum, head of productmanagement van Google Analytics, [reageerde name
 
 Ik denk dat hij hier de plank volledig misslaat. In zijn reactie spreekt hij vooral vanuit het standpunt van de website-eigenaar. Hij stelt dat organisaties controle hebben over de gegevens die zij verzamelen.
 
-Het gaat echter niet om website-eigenaren, het gaat om websitebezoekers. Hun gegevens moeten worden beschermd en daar is de GDPR voor bedoeld.
+Het gaat echter niet om website-eigenaren, het gaat om website bezoekers. Hun gegevens moeten worden beschermd en daar is de GDPR voor bedoeld.
 
 Het punt is de overdracht van gegevens aan Amerikaanse providers, die onder toezicht staan van de Amerikaanse overheid, zoals Google. Hij gaat hier slechts in één zin op in en stelt dat voordat gegevens worden doorgegeven aan servers in de VS, IP-adressen worden geanonimiseerd.
 
-Dit is nog steeds in strijd met de [GDPR-regelgeving](https://lawspeed.com/gdpr-transfers-of-data-to-the-united-states/). Het DSB oordeelde dat zelfs geanonimiseerde IP-adressen persoonsgegevens zijn, omdat ze gecombineerd kunnen worden met andere digitale gegevens, om een bezoeker te identificeren. Dit is ook waar de meeste privacy-vriendelijke alternatieven voor Google Analytics, de mist in gaan. Bij Simple Analytics hebben we de belofte gemaakt om nooit, maar dan ook [nooit IP addressen op te slaan](https://docs.simpleanalytics.com/what-we-collect). Zelfs niet op een ge-anonimiseerde manier, zoals veel van onze concurrenten wel doen.
+Dit is nog steeds in strijd met de [GDPR-regelgeving](https://lawspeed.com/gdpr-transfers-of-data-to-the-united-states/). Het DSB oordeelde dat zelfs geanonimiseerde IP-adressen persoonsgegevens zijn, omdat ze gecombineerd kunnen worden met andere digitale gegevens, om een bezoeker te identificeren. Dit is ook waar de meeste privacy-vriendelijke alternatieven voor Google Analytics, de mist in gaan. Bij Simple Analytics hebben we de belofte gemaakt om nooit, maar dan ook [nooit IP adressen op te slaan](https://docs.simpleanalytics.com/what-we-collect). Zelfs niet op een geanonimiseerde manier, zoals veel van onze concurrenten wel doen.
 
 ## 4. Implicaties
 
