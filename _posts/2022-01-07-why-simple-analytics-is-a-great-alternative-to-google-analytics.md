@@ -98,7 +98,7 @@ Check our promises [here](https://simpleanalytics.com/our-promise).
 | Do you want to avoid a cookie banner?                          |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
 | Do you want be GDPR compliant out of the box?                  |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
 | Do you want to own your data yourself?                         |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
-| Are you okay to miss ~27% of your visitors due to ad-blockers? |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
+| Are you okay to miss ~27% of your visitors due to ad-blockers? | ![](/images/svgs/checkmark-ga.svg) |   ![](/images/svgs/cross.svg)   |
 | Are you okay if your analytics are shared with other products? |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
 | Do you want to have your data within in the EU?                |   ![](/images/svgs/cross-ga.svg)   | ![](/images/svgs/checkmark.svg) |
 | Do you want analytics to be free?                              | ![](/images/svgs/checkmark-ga.svg) |   ![](/images/svgs/cross.svg)   |
