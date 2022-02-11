@@ -86,7 +86,9 @@ The data showing up in your Google Analytics dashboard measures the average _tim
 
 Consider the following example:
 
-{% include video.html slug="time-on-page" formats="mp4,ogg,webm,wmv" poster="video.png" %}
+| Page view #                 | 1   | 2   | 3   | 4   | 5    |
+| --------------------------- | --- | --- | --- | --- | ---- |
+| _Time on page_ (in seconds) | 10  | 20  | 15  | 10  | 1000 |
 
 When you calculate the average _time on page_ by using the mean, you sum up all the numbers and divide by the total number of pages. The average _time on page_ is 211 seconds.
 
