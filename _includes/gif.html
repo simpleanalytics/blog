@@ -1,5 +1,5 @@
 <img
-  class="gif"
+  class="gif{% if include.align %} align-{{ include.align }}{% endif %}"
   src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.webp"
   onerror="this.onerror = null; this.src='https://assets.simpleanalytics.com/gifs/{{ include.slug }}.gif';"
   alt="{{ include.alt }}"
