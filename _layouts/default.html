@@ -66,6 +66,16 @@
     <meta name="description" content="{{ description }}" />
     <meta name="og:description" content="{{ description }}" />
 
+    <!-- Location in Amsterdam -->
+    <meta name="og:latitude" content="52.37304233578102" />
+    <meta name="og:longitude" content="4.8925307523630535" />
+    <meta name="og:locality" content="Amsterdam" />
+    <meta name="og:region" content="Noord-Holland" />
+    <meta name="og:country-name" content="NL" />
+
+    <!-- Languages can differ per page -->
+    <meta name="language" content="{% if page.lang %}{{ page.lang | upcase }}{% else %}EN{% endif %}">
+
     <!-- Add social image -->
     {% if page.image %}
     <meta name="twitter:card" content="summary_large_image" />
