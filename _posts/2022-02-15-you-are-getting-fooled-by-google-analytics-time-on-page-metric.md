@@ -2,9 +2,8 @@
 title: You are getting fooled by Google Analytics' time on page metric
 author_slug: iron
 author: Iron Brands
-draft: true
 excerpt: "Time on page is an important metric to track. It gives you insights into how engaging your content is and if people are finding what they are looking for. But have you ever wondered how google comes up with the data you see in your dashboard?"
-image: https://assets.simpleanalytics.com/blog/will-google-analytics-be-banned-in-the-eu/social.png
+image: https://assets.simpleanalytics.com/blog/blog/you-are-getting-fooled-by-google-analytics-time-on-page-metric/social.png
 lang: en
 ---
 
