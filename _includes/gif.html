@@ -1,7 +1,23 @@
-<img
+<div
   class="gif{% if include.align %} align-{{ include.align }}{% endif %}"
-  src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.webp"
-  onerror="this.onerror = null; this.src='https://assets.simpleanalytics.com/gifs/{{ include.slug }}.gif';"
-  alt="{{ include.alt }}"
-  style="{% if include.width %}width: {{ include.width }}{% endif %}"
-/>
+  style="{% if include.width %}max-width: {{ include.width }}px;{% endif %}"
+>
+  <img
+    src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.jpg"
+    alt="{{ include.alt }} (static)"
+    loading="lazy"
+    style="{% if include.width and include.height %}aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
+  />
+  <details>
+    <summary role="button" aria-label="static image"></summary>
+    <div>
+      <img
+        src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.webp"
+        onerror="this.onerror = null; this.src='https://assets.simpleanalytics.com/gifs/{{ include.slug }}.gif';"
+        alt="{{ include.alt }} (animated)"
+        loading="lazy"
+        style="{% if include.width and include.height %}aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
+      />
+    </div>
+  </details>
+</div>

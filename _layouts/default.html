@@ -74,7 +74,10 @@
     <meta name="og:country-name" content="NL" />
 
     <!-- Languages can differ per page -->
-    <meta name="language" content="{% if page.lang %}{{ page.lang | upcase }}{% else %}EN{% endif %}">
+    <meta
+      name="language"
+      content="{% if page.lang %}{{ page.lang | upcase }}{% else %}EN{% endif %}"
+    />
 
     <!-- Add social image -->
     {% if page.image %}
@@ -106,7 +109,8 @@
       href="/app.css?v={{site.github.build_revision}}"
     />
 
-    {% if page.disable_script != true and page.no_index != true and page.draft != true %}
+    {% if page.disable_script != true and page.no_index != true and page.draft
+    != true %}
     <!-- Privacy friendly website statistics -->
     <script
       async
@@ -155,7 +159,8 @@
       </ul>
     </nav>
 
-    {% if page.disable_script != true or page.no_index != true or page.draft != true %}
+    {% if page.disable_script != true or page.no_index != true or page.draft !=
+    true %}
     <!-- Privacy friendly website statistics -->
     <noscript
       ><img
@@ -503,6 +508,30 @@
           });
         });
       })();
+    </script>
+
+    <script>
+      const reduceMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      ).matches;
+      const hasHover = window.matchMedia("(hover: hover)").matches;
+
+      if (reduceMotion) {
+        const details = document.querySelectorAll(".gif > details");
+        details.forEach((element) => element.removeAttribute("open"));
+      } else if (hasHover) {
+        const gifs = document.querySelectorAll(".gif");
+        gifs.forEach((gif) => {
+          const details = gif.querySelector("details");
+          if (!details) return;
+          gif.addEventListener("mouseenter", () =>
+            details.setAttribute("open", "")
+          );
+          gif.addEventListener("mouseleave", () =>
+            details.removeAttribute("open")
+          );
+        });
+      }
     </script>
   </body>
 </html>

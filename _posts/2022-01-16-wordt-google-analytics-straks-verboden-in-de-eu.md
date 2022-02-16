@@ -15,7 +15,7 @@ We zijn er wat dieper ingedoken om te zien wat er nu echt aan de hand is.
 
 Let's explore!
 
-{% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400px" %}
+{% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400" height="327" %}
 
 1.  [Aanklacht](#1-aanklacht)
 2.  [Uitspraak](#2-uitspraak)
