@@ -1,10 +1,9 @@
 ---
 title: "The second domino falls: France rules Google Analytics to be in conflict with GDPR ruling"
-draft: true
 author_slug: iron
 author: Iron Brands
 excerpt: "The French Data Protection Agency (CNIL) came out swinging last week: The use of Google Analytics is in conflict with GDPR regulation."
-image: https://assets.simpleanalytics.com/blog/will-google-analytics-be-banned-in-the-eu/social.png
+image: https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics.png
 lang: en
 ---
 
