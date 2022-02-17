@@ -9,7 +9,7 @@ fr: /la-france-juge-que-google-analytics-est-en-contradiction-avec-le-reglement-
 en: /france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling
 ---
 
-De [Franse autoriteit voor gegevensbescherming (CNIL)](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) heeft vorige week met de vuist op tafel geslagen: Het gebruik van Google Analytics is in strijd met de GDPR-regelgeving.
+De [Franse autoriteit voor gegevensbescherming (CNIL)](https://www.cnil.fr/en/) heeft vorige week met de vuist op tafel geslagen: Het gebruik van Google Analytics is in strijd met de GDPR-regelgeving.
 
 In [het persbericht ](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) concludeert de CNIL dat de doorgifte van data naar de Verenigde Staten niet voldoet aan de europese standaard op het gebied van AVG. De CNIL verwijst naar de gecoördineerde inspanning van de EU-landen om collectief consequenties te trekken uit het "[Schrems 2](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/)"-arrest van het Hof van Justitie van de Europese regering. Het bericht komt een paar weken na een soortgelijke verklaring van de DSB (de Oostenrijkse waakhond).
 
