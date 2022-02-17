@@ -9,9 +9,9 @@ fr: /la-france-juge-que-google-analytics-est-en-contradiction-avec-le-reglement-
 nl: /frankrijk-oordeelt-dat-google-analytics-in-strijd-is-met-gdpr-uitspraak
 ---
 
-The [French Data Protection Agency (CNIL) ](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply)came out swinging last week: The use of Google Analytics is in conflict with GDPR regulation.
+The [French Data Protection Agency (CNIL) ](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) came out swinging last week: The use of Google Analytics is in conflict with GDPR regulation.
 
-In their [press release](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal), the CNIL concluded that transfers to the United States are not sufficiently regulated. They refer to the coordinated effort among EU countries to collectively draw consequences of the "[Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/)" judgement of the court of Justice of the European Government. It comes a few weeks after a similar statement from the DSB (the Austrian watchdog).
+In their [press release](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply), the CNIL concluded that transfers to the United States are not sufficiently regulated. They refer to the coordinated effort among EU countries to collectively draw consequences of the "[Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/)" judgement of the court of Justice of the European Government. It comes a few weeks after a similar statement from the DSB (the Austrian watchdog).
 
 It's the second EU country to openly acknowledge the breach of [article 44 of the GDPR](https://gdpr-info.eu/art-44-gdpr/) agreement by Google. We believe others will be likely to follow suit.
 

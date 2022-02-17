@@ -11,7 +11,7 @@ en: /france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling
 
 La [Commission Nationale de l'Informatique et des Libertés (CNIL)](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure) a fait une annonce fracassante la semaine dernière : l'utilisation de Google Analytics est en contradiction avec la réglementation RGPD.
 
-Dans son [communiqué de presse](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal), la CNIL conclut que les transferts vers les États-Unis ne sont pas suffisamment réglementés. Ils se réfèrent à l'effort coordonné des pays de l'UE pour tirer collectivement les conséquences de l'arrêt « [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) _(en anglais)_ » rendu par la Cour de justice de la Communauté européenne.
+Dans son [communiqué de presse](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure), la CNIL conclut que les transferts vers les États-Unis ne sont pas suffisamment réglementés. Ils se réfèrent à l'effort coordonné des pays de l'UE pour tirer collectivement les conséquences de l'arrêt « [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) _(en anglais)_ » rendu par la Cour de justice de la Communauté européenne.
 
 Cela intervient quelques semaines après une déclaration similaire du DSB (l'organisme de surveillance autrichien).
 
