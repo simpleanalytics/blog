@@ -13,7 +13,7 @@ In their [press release](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-go
 
 It's the second EU country to openly acknowledge the breach of [article 44 of the GDPR](https://gdpr-info.eu/art-44-gdpr/) agreement by Google. We believe others will be likely to follow suit.
 
-{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics"  width="500" height="281"  %}
+<img class="border-radius" style="max-width: 500px; margin: 1rem auto;" src="https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics.png" alt="France rules Google Analytics to be in conflict with GDPR ruling" />
 
 ## CNIL: Google Analytics is in conflict with GDPR regulation
 
@@ -22,6 +22,8 @@ While it has taken some time for regulators to act (the investigation is dating 
 In our [earlier post](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu) (in English), in which we cover the DSB's decision to invalidate the use of Google Analytics, we analyze the root cause of these reactions.
 
 In short, the EU GPDR laws demand data protection for its citizens. The US however fails to adhere to these guidelines. They do not provide any non-US citizens with any way to know how their data is being processed or (mis)used. As a reaction to this, the CNIL responds that data transfers can only take place if appropriate guarantees are provided, which is not the case at the moment.
+
+{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics"  width="500" height="281"  %}
 
 ## What will the future hold
 
