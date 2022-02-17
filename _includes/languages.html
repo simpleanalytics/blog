@@ -1,6 +1,6 @@
 {% if post.nl or post.fr or post.es or post.de or page.nl or page.fr or page.es
 or page.de or page.en %} {% if include.location == "inline" %}-{% else %}
-<p class="flag-text location-{{ include.location | default: 'home' }}">
+<p class="flag-text location-{{ include.location | default: 'unkown' }}">
   {% endif %}{% if post.nl or page.nl %}<a href="{{ post.nl }}{{ page.nl }}"
     ><img
       src="https://assets.simpleanalytics.com/images/flags/NL.svg"

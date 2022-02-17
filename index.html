@@ -21,7 +21,7 @@ layout: default
             >{{ post.badge }}</span
           >{% endif %}
         </a>
-        {% include languages.html %}
+        {% include languages.html location="homepage" %}
         <p class="mt-0">
           <span class="text-muted"
             >{{ post.date | date_to_string: "ordinal", "US" }} by {{ post.author
