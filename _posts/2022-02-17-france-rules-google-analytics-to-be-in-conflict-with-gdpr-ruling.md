@@ -13,7 +13,7 @@ In their [press release](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-go
 
 It's the second EU country to openly acknowledge the breach of [article 44 of the GDPR](https://gdpr-info.eu/art-44-gdpr/) agreement by Google. We believe others will be likely to follow suit.
 
-<img class="border-radius" style="max-width: 500px; margin: 1rem auto;" src="https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics.png" alt="France rules Google Analytics to be in conflict with GDPR ruling" />
+<img class="border-radius" style="max-width: 500px; margin: 1rem auto;" src="https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics-no-simple-analytics.png" alt="France rules Google Analytics to be in conflict with GDPR ruling" />
 
 ## CNIL: Google Analytics is in conflict with GDPR regulation
 
