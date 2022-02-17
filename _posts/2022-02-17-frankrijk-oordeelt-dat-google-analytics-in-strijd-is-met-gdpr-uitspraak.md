@@ -25,7 +25,7 @@ In onze [eerdere blog](https://blog.simpleanalytics.com/will-google-analytics-be
 
 In het kort komt het erop neer dat de GPDR-wetten van de EU gegevensbescherming voor haar burgers eist. De VS houden zich echter niet aan dezelfde richtlijnen. Zij bieden niet-Amerikaanse burgers geen enkele mogelijkheid om te weten hoe hun gegevens worden verwerkt of gebruikt worden. Als reactie hierop zegt de CNIL nu dat gegevensoverdrachten naar de VS alleen kunnen plaatsvinden als passende garanties worden geboden. Momenteel is dit niet het geval.
 
-{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics"  width="500" height="281"  %}
+{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics" width="500" height="281" color="#0c0c0c" %}
 
 ## Hoe ziet de toekomst eruit?
 

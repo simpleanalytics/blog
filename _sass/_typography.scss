@@ -33,11 +33,19 @@ td,
 th,
 select,
 blockquote,
-summary {
+summary,
+img {
   font-family: "Space Grotesk", Arial, sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  text-align: center;
+}
+img:after {
+  content: " (image didn't load)";
 }
 
 p,

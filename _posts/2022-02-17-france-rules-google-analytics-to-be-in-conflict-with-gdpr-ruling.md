@@ -25,7 +25,7 @@ In our [earlier post](https://blog.simpleanalytics.com/will-google-analytics-be-
 
 In short, the EU GPDR laws demand data protection for its citizens. The US however fails to adhere to these guidelines. They do not provide any non-US citizens with any way to know how their data is being processed or (mis)used. As a reaction to this, the CNIL responds that data transfers can only take place if appropriate guarantees are provided, which is not the case at the moment.
 
-{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics"  width="500" height="281"  %}
+{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics" width="500" height="281" color="#0c0c0c" %}
 
 ## What will the future hold
 

@@ -5,6 +5,7 @@ author: Iron Brands
 excerpt: "Op 13 januari heeft de Autoriteit Persoonsgegevens (AP) openlijk vraagtekens gezet bij het legale gebruik van Google Analytics in Nederland. In haar verklaring impliceerde het AP dat het gebruik van Google Analytics in de toekomst verboden kan worden. In dit artikel gaan we hier dieper op in."
 image: https://assets.simpleanalytics.com/blog/will-google-analytics-be-banned-in-the-eu/social.png
 lang: nl
+en: /will-google-analytics-be-banned-in-the-eu.md
 ---
 
 Op 13 januari heeft de Autoriteit Persoonsgegevens (AP) [openlijk vraagtekens gezet bij het legale gebruik van Google Analytics](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/internet-telefoon-tv-en-post/cookies#hoe-kan-ik-bij-google-analytics-de-privacy-van-mijn-websitebezoekers-beschermen-4898) in Nederland. In haar verklaring impliceert het AP dat het gebruik van Google Analytics in de toekomst verboden kan worden.
@@ -15,7 +16,7 @@ We zijn er wat dieper ingedoken om te zien wat er nu echt aan de hand is.
 
 Let's explore!
 
-{% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400" height="327" %}
+{% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400" height="327" color="#6f7619" %}
 
 1.  [Aanklacht](#1-aanklacht)
 2.  [Uitspraak](#2-uitspraak)

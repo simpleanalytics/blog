@@ -1,6 +1,6 @@
 <div
   class="gif{% if include.align %} align-{{ include.align }}{% endif %}"
-  style="{% if include.width and include.height %} aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
+  style="{% if include.width and include.height %} aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}{% if include.color %} --background-color: {{ include.color }};{% endif %}"
 >
   <img
     src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.jpg"

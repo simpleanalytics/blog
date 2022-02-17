@@ -16,7 +16,7 @@ We've dug a bit deeper to see what's really going on right now.
 
 Let's explore!
 
-{% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400" height="327" %}
+{% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400" height="327" color="#6f7619" %}
 
 1.  [The Complaint](#1-the-complaint)
 2.  [The Ruling](#2-the-ruling)

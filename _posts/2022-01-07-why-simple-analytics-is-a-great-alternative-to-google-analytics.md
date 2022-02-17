@@ -16,7 +16,7 @@ Here's why you should ditch Google Analytics and give Simple Analytics a try.
 
 Let's dive in!
 
-{% include gif.html slug="jumping-in" alt="Jumping in..." width="480" height="322" %}
+{% include gif.html slug="jumping-in" alt="Jumping in..." width="480" height="322" color="#edddce" %}
 
 ## Simple Analytics vs Google Analytics: What are the key differences
 
@@ -69,7 +69,7 @@ By asking for consent, you are not only asking for permission on behalf of Googl
 
 Cookie banners are annoying. Using your website will be less convenient for visitors if they need to interact with cookie banners first. At Simple Analytics we don't collect any personal data, don't use IP addresses or other tracking mechanisms, so there is no need to ask for consent, in turn, there is no need for annoying cookie banners.
 
-{% include gif.html slug="think-about-it" alt="Think smart..." width="480" height="264" %}
+{% include gif.html slug="think-about-it" alt="Think smart..." width="480" height="264" color="#68697d" %}
 
 #### 1.3 You should own your data
 
@@ -150,7 +150,7 @@ There are a few key differences between Google Analytics and Simple Analytics wh
 
 The time on page metric used by Google Analytics is flawed, to say the least.
 
-{% include gif.html slug="nope-dont-like-that" alt="Nope, don't like that..." width="500" height="358" %}
+{% include gif.html slug="nope-dont-like-that" alt="Nope, don't like that..." width="500" height="358" color="#8c917b" %}
 
 At Simple we detect when a visitor navigates to a different website. In comparison to Google Analytics, we do record the time on page for a bounced visitor and the time on page for the last visited page. In addition, we've researched the best method to calculate the average time on page. To filter out outliers we are using the median instead of the mean to get to the most accurate number. As a result, the time on page using our method is expected to be lower than in Google Analytics.
 

@@ -27,7 +27,7 @@ Dans notre [précédent article](https://blog.simpleanalytics.com/will-google-an
 
 En bref, les lois européennes sur le RGPD exigent la protection des données pour ses citoyens. Les États-Unis n'adhèrent cependant pas à ces directives. Ils ne fournissent aux citoyens non américains aucun moyen de savoir comment leurs données sont traitées ou (mal) utilisées. En réaction à cela, la CNIL répond que les transferts de données ne peuvent avoir lieu que si des garanties appropriées sont fournies, ce qui n'est pas le cas actuellement.
 
-{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics"  width="500" height="281"  %}
+{% include gif.html slug="dominos" alt="France is the second dominos falling for Google Analytics" width="500" height="281" color="#0c0c0c" %}
 
 ## Quel sera l'avenir ?
 

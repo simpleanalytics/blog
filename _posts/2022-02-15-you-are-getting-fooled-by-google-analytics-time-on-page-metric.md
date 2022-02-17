@@ -13,7 +13,7 @@ _Time on page_ is a critical metric to track. It gives you insights into how eng
 
 We’ve deconstructed how Google calculates the time on page metric and what’s wrong with it in this post.
 
-{% include gif.html slug="something-fishy" alt="Something fishy..." width="500" height="281" %}
+{% include gif.html slug="something-fishy" alt="Something fishy..." width="500" height="281" color="#f1e4be" %}
 
 When building our privacy-first [Google Analytics alternative](https://simpleanalytics.com/websites?from=/), we had to figure out how to calculate different website tracking metrics ourselves. So the first thing we did was check out how the biggest website data devouring machine on the planet, called Google, was doing it.
 
@@ -39,7 +39,7 @@ Lastly (and this is by far the most impactful one)...
 
 Google Analytics does record the _time on page_, even if a visitor is not actively spending time on your page.
 
-{% include gif.html slug="michael-scott-what" alt="What?" width="480" height="400" %}
+{% include gif.html slug="michael-scott-what" alt="What?" width="480" height="400" color="#473d46" %}
 
 Let's unravel this:
 
@@ -61,7 +61,7 @@ The first screen in the illustration above shows a visit to a page on your websi
 
 The Google Analytics' timer starts when the visitor visits page1 of your website (+5 seconds). The timer does not stop when the visitor navigates away to the other website in a different tab (+20 seconds). When the visitor comes back to page1 on your website, the timer adds another +10 seconds before clocking at the moment the visitor visits page2. Lastly, the timer fails to record the time you spend on page2 because this is the last page the visitor visits before closing their browser.
 
-{% include gif.html slug="math" alt="Math..." width="350" height="148" %}
+{% include gif.html slug="math" alt="Math..." width="350" height="148" color="#ba7b4b" %}
 
 In this situation, Google only knows the _time on page_ for the first page, not for the second.
 
@@ -97,7 +97,7 @@ We feel that Google’s time on page metric is flawed, and we make a case for a 
 
 Have any questions? Ask away!
 
-{% include gif.html slug="t-hanks" alt="Thanks from Tom Thanks..."  width="480" height="270" align="left" %}
+{% include gif.html slug="t-hanks" alt="Thanks from Tom Thanks..."  width="480" height="270" align="left" color="#584237" %}
 
 Cheers,
 
