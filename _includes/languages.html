@@ -1,0 +1,45 @@
+{% if post.nl or post.fr or post.es or post.de or page.nl or page.fr or page.es
+or page.de or page.en %} {% if include.location == "inline" %}-{% else %}
+<p class="flag-text location-{{ include.location | default: 'home' }}">
+  {% endif %}{% if post.nl or page.nl %}<a href="{{ post.nl }}{{ page.nl }}"
+    ><img
+      src="https://assets.simpleanalytics.com/images/flags/NL.svg"
+      alt="Dutch flag"
+      class="inline-flag"
+    />Nederlands</a
+  >
+  {% endif %}{% if post.fr or page.fr %}
+  <a href="{{ post.fr }}{{ page.fr }}"
+    ><img
+      src="https://assets.simpleanalytics.com/images/flags/FR.svg"
+      alt="Drapeau français"
+      class="inline-flag"
+    />Français</a
+  >
+  {% endif %}{% if post.de or page.de %}
+  <a href="{{ post.de }}{{ page.de }}"
+    ><img
+      src="https://assets.simpleanalytics.com/images/flags/DE.svg"
+      alt="Deutsche flagge"
+      class="inline-flag"
+    />Deutsch</a
+  >
+  {% endif %}{% if post.es or page.es %}
+  <a href="{{ post.es }}{{ page.es }}"
+    ><img
+      src="https://assets.simpleanalytics.com/images/flags/ES.svg"
+      alt="Bandera de España"
+      class="inline-flag"
+    />Español</a
+  >
+  {% endif %}{% if page.en %}
+  <a href="{{ page.en }}"
+    ><img
+      src="https://assets.simpleanalytics.com/images/flags/GB.svg"
+      alt="Britisch flag"
+      class="inline-flag"
+    />English</a
+  >
+  {% endif %} {% if include.location == "inline" %}{% else %}
+</p>
+{% endif %} {% endif %}

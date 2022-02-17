@@ -398,3 +398,29 @@ table tbody td {
     overflow: visible;
   }
 }
+
+.inline-flag {
+  all: unset !important;
+  height: 20px !important;
+  vertical-align: text-top !important;
+  margin: 0 7px !important;
+}
+
+.flag-text {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.flag-text.location-home {
+  margin: 5px 0 !important;
+
+  color: #777;
+  a {
+    color: #777;
+  }
+}

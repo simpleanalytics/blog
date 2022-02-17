@@ -5,6 +5,8 @@ author: Iron Brands
 excerpt: "The French Data Protection Agency (CNIL) came out swinging last week: The use of Google Analytics is in conflict with GDPR regulation."
 image: https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics.png
 lang: en
+fr: /la-france-juge-que-google-analytics-est-en-contradiction-avec-le-reglement-rgpd
+nl: /frankrijk-oordeelt-dat-google-analytics-in-strijd-is-met-gdpr-uitspraak
 ---
 
 The [French Data Protection Agency (CNIL) ](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply)came out swinging last week: The use of Google Analytics is in conflict with GDPR regulation.

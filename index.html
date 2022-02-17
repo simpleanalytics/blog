@@ -21,7 +21,8 @@ layout: default
             >{{ post.badge }}</span
           >{% endif %}
         </a>
-        <p>
+        {% include languages.html %}
+        <p class="mt-0">
           <span class="text-muted"
             >{{ post.date | date_to_string: "ordinal", "US" }} by {{ post.author
             }}</span
@@ -33,21 +34,6 @@ layout: default
           ', '' }}
           <a href="{{ post.url }}">Read more</a>
         </p>
-        {% if post.nl %}
-        <p class="mt-0">
-          <img
-            src="https://assets.simpleanalytics.com/images/flags/NL.svg"
-            alt="Dutch flag"
-            style="
-              all: unset;
-              height: 20px;
-              vertical-align: sub;
-              margin-right: 5px;
-            "
-          />
-          This post is available <a href="{{ post.nl }}">in Dutch</a>
-        </p>
-        {% endif %}
       </h2>
     </li>
     {% endif %} {% endfor %}

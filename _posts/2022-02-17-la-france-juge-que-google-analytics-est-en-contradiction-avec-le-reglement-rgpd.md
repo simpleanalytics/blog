@@ -1,16 +1,18 @@
 ---
 title: "Le deuxième domino tombe : La France juge que Google Analytics est en contradiction avec le règlement RGPD"
-draft: true
 author_slug: iron
 author: Iron Brands
-excerpt: "The French Data Protection Agency (CNIL) came out swinging last week: The use of Google Analytics is in conflict with GDPR regulation."
+excerpt: "La Commission Nationale de l’Informatique et des Libertés (CNIL) a fait une annonce fracassante la semaine dernière : l’utilisation de Google Analytics est en contradiction avec la réglementation RGPD."
 image: https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics.png
 lang: fr
+nl: /frankrijk-oordeelt-dat-google-analytics-in-strijd-is-met-gdpr-uitspraak
+en: /france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling
 ---
 
 La [Commission Nationale de l'Informatique et des Libertés (CNIL)](https://www.cnil.fr/fr/utilisation-de-google-analytics-et-transferts-de-donnees-vers-les-etats-unis-la-cnil-met-en-demeure) a fait une annonce fracassante la semaine dernière : l'utilisation de Google Analytics est en contradiction avec la réglementation RGPD.
 
-Dans son [communiqué de presse](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal), la CNIL conclut que les transferts vers les États-Unis ne sont pas suffisamment réglementés. Ils se réfèrent à l'effort coordonné des pays de l'UE pour tirer collectivement les conséquences de l'arrêt « [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) _(en anglais)_ » rendu par la Cour de justice de la Communauté européenne.\
+Dans son [communiqué de presse](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal), la CNIL conclut que les transferts vers les États-Unis ne sont pas suffisamment réglementés. Ils se réfèrent à l'effort coordonné des pays de l'UE pour tirer collectivement les conséquences de l'arrêt « [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) _(en anglais)_ » rendu par la Cour de justice de la Communauté européenne.
+
 Cela intervient quelques semaines après une déclaration similaire du DSB (l'organisme de surveillance autrichien).
 
 C'est le deuxième pays de l'UE à reconnaître ouvertement la violation de l'[article 44 du RGPD](https://gdpr-info.eu/art-44-gdpr/) _(en anglais)_ par Google. Nous pensons que d'autres seront susceptibles de faire de même.

@@ -9,8 +9,9 @@ layout: default
 <p class="post-date">
   {{ page.date | date_to_string: "ordinal", "US" }} - {{ page.author }} -
   <a href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
-    >Help improve this post</a
+    >Fix typo</a
   >
+  {% include languages.html location="inline" %}
 </p>
 
 {% if page.draft == true %}
