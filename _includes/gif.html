@@ -1,6 +1,6 @@
 <div
   class="gif{% if include.align %} align-{{ include.align }}{% endif %}"
-  style="{% if include.width %}max-width: {{ include.width }}px;{% endif %}{% if include.width and include.height %} aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
+  style="{% if include.width and include.height %} aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
 >
   <img
     src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.jpg"
@@ -8,17 +8,17 @@
     loading="lazy"
     style="{% if include.width and include.height %}aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
   />
+
   <details>
     <summary role="button" aria-label="static image"></summary>
-    <div>
-      <img
-        src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.webp"
-        onerror="this.onerror = null; this.src='https://assets.simpleanalytics.com/gifs/{{ include.slug }}.gif';"
-        alt="{{ include.alt }} (animated)"
-        loading="lazy"
-        style="{% if include.width and include.height %}aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
-      />
-    </div>
+    <img
+      src="https://assets.simpleanalytics.com/gifs/{{ include.slug }}.webp"
+      onerror="this.onerror = null; this.src='https://assets.simpleanalytics.com/gifs/{{ include.slug }}.gif';"
+      alt="{{ include.alt }} (animated)"
+      loading="lazy"
+      style="{% if include.width and include.height %}aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
+    />
   </details>
+
   <p class="loading">Loading GIF...</p>
 </div>

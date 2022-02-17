@@ -294,11 +294,11 @@ table tbody td {
 
 .gif {
   --text-color: #eef9ff;
-  --background-color: #415659;
+  --background-color: var(--background-color, #415659);
 
   margin: 1rem auto;
   max-width: 500px;
-  max-height: 500px;
+  max-height: 300px;
   position: relative;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 2px #ececec, 0px 0px 10px 5px #f8f8f8;
@@ -319,7 +319,17 @@ table tbody td {
 
   & > img,
   details img {
-    min-width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  & > img,
+  details img {
     z-index: 1;
   }
 
@@ -361,23 +371,6 @@ table tbody td {
     list-style: none;
   }
 
-  summary + * {
-    border-radius: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 1rem;
-    padding-top: 3rem;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    overflow-y: auto;
-  }
-
-  summary + * a {
-    color: var(--text-color);
-  }
   summary:focus {
     box-shadow: 0 0 0 0.25rem #ff4f64;
     outline: transparent;
@@ -388,14 +381,6 @@ table tbody td {
     summary {
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='%23415659' fill-rule='evenodd' d='M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Zm-4.1-6.36c-.5 0-.95-.1-1.34-.32-.4-.22-.7-.54-.93-.96a3.2 3.2 0 0 1-.34-1.54v-1.64c0-.91.25-1.61.75-2.09.5-.49 1.18-.73 2.03-.73.84 0 1.49.23 1.94.69.45.45.68 1.06.68 1.83v.05H9.62v-.08c0-.29-.06-.54-.17-.77a1.27 1.27 0 0 0-.51-.55 1.7 1.7 0 0 0-.87-.2c-.53 0-.95.16-1.25.49-.3.32-.45.77-.45 1.34v1.68c0 .57.15 1.02.45 1.35.3.33.72.49 1.26.49.53 0 .92-.15 1.17-.44.25-.3.37-.67.37-1.14v-.13H7.74v-.93h2.95v3.46h-1v-.71h-.16c-.06.13-.15.26-.27.39-.11.13-.28.24-.5.33-.21.09-.5.13-.86.13Zm5.26-.14h-1.08v-7h1.08v7Zm5.78-7h-4.32v7h1.08v-3.02h2.98v-.98H15.7V9.48h3.24V8.5Z' clip-rule='evenodd'/%3E%3C/svg%3E");
     }
-  }
-
-  details img {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: visible;
   }
 }
 
