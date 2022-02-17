@@ -302,9 +302,25 @@ table tbody td {
   position: relative;
   border-radius: 10px;
   box-shadow: 2px 2px 5px 2px #ececec, 0px 0px 10px 5px #f8f8f8;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &.align-left {
     margin: 1rem 0;
+  }
+
+  .loading {
+    position: absolute;
+    color: var(--text-color);
+    z-index: 0;
+  }
+
+  & > img,
+  details img {
+    min-width: 400px;
+    z-index: 1;
   }
 
   img,
