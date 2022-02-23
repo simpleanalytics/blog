@@ -1,6 +1,5 @@
 ---
 title: Why Simple Analytics is a great alternative to Matomo
-draft: true
 author_slug: iron
 author: Iron Brands
 excerpt: "This article outlines the key differences between two Google Analytics alternatives: Matomo and Simple Analytics (we will cover PiwikPro later). Both Matomo and Simple Analytics share more similarities with each other than with Google Analytics. Still, there are essential differences worth noting."
