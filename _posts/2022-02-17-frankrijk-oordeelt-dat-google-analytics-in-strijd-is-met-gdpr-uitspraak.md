@@ -38,19 +38,3 @@ Tot dusver is niet bekend of de CNIL de websitebeheerder in kwestie een boete he
 ## Simple Analytics
 
 Toekomstbestendigheid is van essentieel belang voor ieder bedrijf. Overstappen naar een privacy-first alternatief van Google Analytics is hier onderdeel van (vooral als EU-bedrijf). [Give us a try](https://simpleanalytics.com/welcome).
-
-Adriaan & Iron
-
-<img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-  referrerpolicy="no-referrer"
-  alt="Adriaan van Rossum"
-/><img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-  referrerpolicy="no-referrer"
-  alt="Iron Brands"
-/>

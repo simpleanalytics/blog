@@ -39,20 +39,4 @@ Bien que Google ait adopté des mesures pour mieux réglementer les transferts d
 
 ## Simple Analytics
 
-La préparation de votre entreprise à l'avenir est essentielle pour toutes les entreprises de la planète. L'adoption d'une solution de protection de la vie privée pour vos analyses web est l'une des mesures que vous devez prendre pour assurer l'avenir de votre entreprise (surtout si vous êtes une entreprise européenne). [Donnez-nous une chance de préparer votre entreprise pour l'avenir.](https://simpleanalytics.com/welcome)
-
-Adriaan & Iron
-
-<img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-  referrerpolicy="no-referrer"
-  alt="Adriaan van Rossum"
-/><img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-  referrerpolicy="no-referrer"
-  alt="Iron Brands"
-/>
+La préparation de votre entreprise à l'avenir est essentielle pour toutes les entreprises de la planète. L'adoption d'une solution de protection de la vie privée pour vos analyses web est l'une des mesures que vous devez prendre pour assurer l'avenir de votre entreprise (surtout si vous êtes une entreprise européenne). [Donnez-nous une chance de préparer votre entreprise pour l'avenir.](https://simpleanalytics.com/welcome).

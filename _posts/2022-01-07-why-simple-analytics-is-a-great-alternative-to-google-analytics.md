@@ -195,21 +195,3 @@ Switching to a different product brings hassle. It takes time and there are alwa
 Adriaan started Simple Analytics three years ago to provide an alternative to Google Analytics for organizations that are concerned about their visitor's privacy. Iron has joined the team since December 2021. As data privacy will become more pressing in the coming years, we aim to create a solution that is compliant and future-proof. By supporting us in our mission, you are not only preserving your visitor's privacy but also supporting an indie team of two instead of the data devouring machine called Google.
 
 Thanks for considering Simple Analytics. It's truly appreciated. Let us know if you have any questions. We are open to suggestions regarding new features. Check [our roadmap](https://github.com/orgs/simpleanalytics/projects/1) and join the discussion in our [slack community](http://simple-analytics.slack.com).
-
-Cheers,
-
-Adriaan & Iron
-
-<img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-  referrerpolicy="no-referrer"
-  alt="Adriaan van Rossum"
-/><img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-  referrerpolicy="no-referrer"
-  alt="Iron Brands"
-/>

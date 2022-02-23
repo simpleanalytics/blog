@@ -98,21 +98,3 @@ We feel that Google’s time on page metric is flawed, and we make a case for a 
 Have any questions? Ask away!
 
 {% include gif.html slug="t-hanks" alt="Thanks from Tom Thanks..."  width="480" height="270" align="left" color="#584237" %}
-
-Cheers,
-
-Adriaan & Iron
-
-<img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-  referrerpolicy="no-referrer"
-  alt="Adriaan van Rossum"
-/><img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-  referrerpolicy="no-referrer"
-  alt="Iron Brands"
-/>

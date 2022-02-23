@@ -2,12 +2,36 @@
 layout: default
 ---
 
+{% if page.lang == 'nl' %}
+  {% assign try = "Wil je Simple Analytics proberen?" %}
+  {% assign cta = "Start gratis proefperiode van 14 dagen" %}
+  {% assign subscribe = "Of abonneer je op" %}
+  {% assign thanks = "Dank," %}
+{% elsif page.lang == 'fr' %}
+  {% assign try = "Vous voulez essayer Simple Analytics ?" %}
+  {% assign cta = "Commencez un essai gratuit de 14 jours" %}
+  {% assign subscribe = "Ou s'abonner à" %}
+  {% assign thanks = "À la vôtre !" %}
+{% else %}
+  {% assign try = "Want to give Simple Analytics a try?" %}
+  {% assign cta = "Start a trial of 14 days for free" %}
+  {% assign subscribe = "Or subscribe to" %}
+  {% assign thanks = "Cheers," %}
+{% endif %}
+
 <h1 class="post-title">
   {% if page.draft == true %}<span style="color: #e51800">Draft:</span> {% endif
   %}{{ page.title }}
 </h1>
 <p class="post-date">
-  {{ page.date | date_to_string: "ordinal", "US" }} - {{ page.author }} -
+  {{ page.date | date_to_string: "ordinal", "US" }} &middot; {% if
+  page.author_slug == 'iron' %}<img
+    loading="lazy"
+    class="macro-avatar"
+    src="https://assets.simpleanalytics.com/images/people/iron.jpg"
+    referrerpolicy="no-referrer"
+    alt="Iron Brands"
+  />{% endif %} {{ page.author }} &middot;
   <a href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
     >Fix typo</a
   >
@@ -89,20 +113,22 @@ layout: default
   >)
 </p>
 {% elsif page.author_slug == "iron" %}
-<p class="mt-2">
-  Written by
-  <img
-    loading="lazy"
-    class="mini-avatar"
-    src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-    referrerpolicy="no-referrer"
-    alt="Iron Brands"
-  />
-  Iron Brands (<a
-    rel="noreferrer"
-    href="https://www.linkedin.com/in/ironbrands/"
-    >follow Iron on LinkedIn</a
-  >)
+  <p class="mt-2 ta-c">{{ thanks }}<br />Adriaan & Iron</p>
+  <div class="ta-c">
+    <img
+      loading="lazy"
+      class="avatar"
+      src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
+      referrerpolicy="no-referrer"
+      alt="Adriaan van Rossum"
+    /><img
+      loading="lazy"
+      class="avatar"
+      src="https://assets.simpleanalytics.com/images/people/iron.jpg"
+      referrerpolicy="no-referrer"
+      alt="Iron Brands"
+    />
+  </div>
 </p>
 {% else %}
 <p class="mt-2">
@@ -127,41 +153,16 @@ layout: default
 </p>
 {% endif %} {% if page.call_to_actions == true or page.call_to_actions == null
 %}
-<p class="mt-2">
-  Want to give Simple Analytics a try?
+<p class="mt-2 ta-c">{{ try }}</p>
+<p class="ta-c">
   <a
     href="https://simpleanalytics.com/"
     class="button"
     style="vertical-align: initial; margin-left: 1rem"
-    >Start a trial of 14 days for free</a
+    >{{ cta }}</a
   >
 </p>
-
-<div class="mt-3">{% include subscribe.html %}</div>
-
-<p class="text-small text-muted">
-  Found a mistake or a typo? Please
-  <a
-    rel="noreferrer"
-    href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
-    >submit a PR</a
-  >
-  to my GitHub-repo.
-</p>
-
-<p>
-  <a
-    href="https://simpleanalytics.com/blog.simpleanalytics.com?utm_source=blog.simpleanalytics.com&utm_content=badge"
-    referrerpolicy="origin"
-    target="_blank"
-    ><img
-      style="margin: 2rem 0"
-      src="https://simpleanalyticsbadge.com/blog.simpleanalytics.com?background=eef9ff&text=415659"
-      loading="lazy"
-      referrerpolicy="no-referrer"
-      crossorigin="anonymous"
-  /></a>
-</p>
+<p class="ta-c" style="font-size: 12px">{{ subscribe }} <a href="https://theprivacynewsletter.com/">The Privacy Newsletter</a></p>
 {% endif %}
 
 <script>

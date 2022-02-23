@@ -68,21 +68,3 @@ Als we er niet in slagen een van de bovengenoemde oplossingen te implementeren, 
 Hoe dan ook, dit biedt anderen de kans om te concurreren met Google en 'Big Tech' als geheel.
 
 Wij bij [Simple Analytics](https://simpleanalytics.com/) hebben een privacy-first alternatief voor Google Analytics gebouwd. Onze missie is om organisaties te laten zien dat web analytics anders kan door accurate inzichten te bieden en tegelijkertijd GDPR compliant te zijn, out-of-the-box. Je hoeft je ook geen zorgen te maken over het verstrekken van data aan Amerikaanse servers, [aangezien onze servers in Nederland staan](https://docs.simpleanalytics.com/locations). Probeer het zelf uit en [geef ons een kans](https://simpleanalytics.com/welcome).
-
-Cheers,
-
-Adriaan & Iron
-
-<img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-  referrerpolicy="no-referrer"
-  alt="Adriaan van Rossum"
-/><img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-  referrerpolicy="no-referrer"
-  alt="Iron Brands"
-/>

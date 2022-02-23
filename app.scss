@@ -71,6 +71,13 @@ ul.related-posts {
   li {
     margin: 0;
   }
+
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .tweet img {
@@ -408,4 +415,24 @@ table tbody td {
   a {
     color: #777;
   }
+}
+
+.macro-avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
+  display: inline !important;
+  vertical-align: text-bottom;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.post-date {
+  font-size: 14px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.post-title {
+  text-align: center;
 }

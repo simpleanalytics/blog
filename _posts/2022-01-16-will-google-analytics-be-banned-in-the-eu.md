@@ -64,21 +64,3 @@ As Max Schrems (Honourary member of NOYB) noted, there are two solutions. Either
 If we fail to implement one of the above-mentioned solutions, we will be using different products across the pond in the future. Either way, this provides the opportunity for others to compete with Google and ‘Big Tech’ as a whole.
 
 We at [Simple Analytics](https://simpleanalytics.com/) have built a privacy-first alternative to Google Analytics. Our mission is to show organizations web analytics can be done differently by providing accurate insights whilst being GDPR compliant out-of-the-box. In addition, you never have to worry if your visitor's data is transferred to US providers, as [our servers are located](https://docs.simpleanalytics.com/locations) in The Netherlands. [Give us a try](https://simpleanalytics.com/welcome).
-
-Cheers,
-
-Adriaan & Iron
-
-<img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-  referrerpolicy="no-referrer"
-  alt="Adriaan van Rossum"
-/><img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-  referrerpolicy="no-referrer"
-  alt="Iron Brands"
-/>

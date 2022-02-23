@@ -38,21 +38,3 @@ So far it is unknown if The CNIL has fined the website operator in question. Alt
 ## Simple Analytics
 
 Futureproofing your business is key to every business on the planet. Adopting a privacy-first solution for your web analytics is one of those actions you will need to take to future-proof your business (especially when you are an EU company). [Give us a try to future-proof your business](https://simpleanalytics.com/welcome).
-
-Cheers,
-
-Adriaan & Iron
-
-<img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/adriaan.jpg"
-  referrerpolicy="no-referrer"
-  alt="Adriaan van Rossum"
-/><img
-  loading="lazy"
-  class="avatar"
-  src="https://assets.simpleanalytics.com/images/people/iron.jpg"
-  referrerpolicy="no-referrer"
-  alt="Iron Brands"
-/>

@@ -4,14 +4,19 @@ layout: default
 
 {% assign posts = site.posts | where_exp:"post","post.draft == false" %}
 
-<h1>How we run Simple Analytics</h1>
+<h1 class="ta-c">
+  <span class="text-light">The</span> Simple Analytics
+  <span class="text-light">Blog</span>
+</h1>
 
-{% include subscribe.html %}
+<p class="ta-c">
+  Follow our journey to fight for privacy &amp; against Google Analytics.
+</p>
 
 <div class="related">
-  <ul class="related-posts">
-    {% for post in posts limit:100 %} {% if post.lang == null or post.lang ==
-    'en' %}
+  <ul class="related-posts mb-2">
+    {% assign index = 0 %} {% for post in posts limit:100 %} {% if post.lang ==
+    null or post.lang == 'en' %}
     <li>
       <h2>
         <a href="{{ post.url }}">
@@ -36,7 +41,11 @@ layout: default
         </p>
       </h2>
     </li>
-    {% endif %} {% endfor %}
+    {% if index == 1 %}
+  </ul>
+  {% include subscribe.html %}
+  <ul class="related-posts">
+    {% endif %} {% assign index = index | plus:1 %} {% endif %} {% endfor %}
   </ul>
 </div>
 
