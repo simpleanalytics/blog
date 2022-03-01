@@ -132,3 +132,14 @@ a {
     url("https://assets.simpleanalytics.com/fonts/SpaceGrotesk-Bold.woff")
       format("woff");
 }
+
+mark {
+  background: linear-gradient(
+    -100deg,
+    rgba(127, 226, 242, 0.18),
+    rgba(81, 207, 228, 0.38) 95%,
+    rgba(230, 249, 252, 0.18)
+  );
+  border-radius: 1em 0;
+  padding: 0.5rem;
+}

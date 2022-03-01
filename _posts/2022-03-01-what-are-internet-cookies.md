@@ -18,11 +18,16 @@ The information in this blog is to provide you with an introduction to cookies a
 
 1.  [What are cookies?](#1-what-are-cookies)
 2.  [What's the difference between first-party and third-party cookies?](#2-whats-the-difference-between-first-party-and-third-party-cookies)
+    1. [First-party cookies](#21-what-are-first-party-cookies)
+    2. [Third-party cookies](#22-what-are-third-party-cookies)
 3.  [What is fingerprinting?](#3-what-is-fingerprinting)
 4.  [Which browsers disable third-party cookies?](#4-which-browsers-disable-third-party-cookies)
+    1. [Safari](#safari-apple)
+    2. [Firefox](#firefox-mozilla)
+    3. [Chrome](#chrome-google)
+    4. [Edge](#edge-microsoft)
+    5. [Brave](#brave)
 5.  [Do I need a cookie banner?](#5-do-i-need-a-cookie-banner)
-
-If you know what types of cookies there are, but you want to know how we deal with them here, at [Simple Analytics](https://simpleanalytics.com/), in contrast to other website tracking tools, like Google Analytics, then click here.
 
 ## 1\. What are cookies?
 
@@ -34,13 +39,25 @@ This is how websites remember your login details or language preferences when yo
 
 ## 2\. What's the difference between first-party and third-party cookies?
 
-There are different types of cookies and not all cookies are essentially bad. Cookies can be functional as well. For example, if you are shopping online and you put multiple items from multiple pages in your shopping cart, the cookie makes sure that whenever you want to check out, the shopping cart is filled with the items you clicked during your session. This is called a first-party session cookie or a 'temporary cookie'. The cookie only retains information about the user, as long as the user is on the website. Once the browser is closed, cookies are deleted.
+Not all cookies are bad. Cookies can be functional as well. There are different types of cookies, but we can divide them into two categories: first-party cookies and third-party cookies.
 
-A website that remembers your login and password is using a first-party tracking cookie. The information in the cookie will be stored for a longer period and makes sure that you don't have to fill in your password every time you visit the website. However, they must be deleted after a certain time. Most likely after two years. However, privacy regulators and internet browsers are shortening the time a cookie can be stored legally.
+## 2.1 What are first-party cookies?
 
-First-party cookies are installed directly by the website you are visiting. They remember language settings, shopping carts, login/passwords, and serve other functional purposes to enhance the user experience.
+A first-party session cookie or a ‘temporary cookie’ only retains information about the user, as long as the user is on the website. Once the browser is closed, cookies are deleted.
 
-Third-party cookies are a different species. Those are installed by third parties like Google and Facebook on websites to serve another purpose, namely collecting as much information on website visitors with commercial intent. They are used by marketers to ensure that their products or services are targeted at the right audience. They can track visitors across multiple domains, making a richer picture of user behavior.
+Let's say, you are shopping online and you put multiple products from multiple pages in your shopping cart. The cookie makes sure that whenever you want to check out, the shopping cart is filled with the items you clicked during your session.
+
+A website that remembers your login and password is using a first-party cookie as well, this time it's a ‘tracking cookie’. The information in the cookie will be stored for a longer period and makes sure that you don’t have to fill in your password every time you visit the website. However, they must be deleted after a certain time. Most likely after two years. However, privacy regulators and internet browsers are shortening the time a cookie can be stored legally.
+
+<mark>First-party cookies are installed directly by the website you are visiting.</mark>
+
+They remember language settings, shopping carts, login/passwords, and serve other functional purposes to enhance the user experience.
+
+## 2.2 What are third-party cookies?
+
+Third-party cookies are a different species. They are used by marketers to ensure that their products or services are targeted at the right audience. They can track visitors across multiple domains, making a richer picture of user behavior.
+
+_Third-party cookies are installed by third parties like Google and Facebook on websites to serve another purpose, namely collecting as much information on website visitors with commercial intent._
 
 Most likely everyone has seen Facebook ads of products or websites they visited in the past. That's because of third-party cookies. Those third-party cookies can be activated if a website, for example, uses the Facebook 'like button' on their page or have Google Analytics installed. This allows those companies to store third-party cookies on your device. Big tech is watching you.
 
@@ -76,12 +93,18 @@ Microsoft Edge is viewed to be 'medium-to-strict' as well. It blocks third-party
 
 Most browsers are aware of the fact that third-party cookies are bad. Only Google Chrome is not (yet) blocked third-party cookies and this is important to note as Chrome is by far the biggest (desktop) web browser in terms of market share. [Check out their cookie policy](https://support.microsoft.com/en-us/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd).
 
+### Brave
+
+Brave has come out of beta in the fall of 2019 and introduced itself as the “anti-advertising” browser. It strips ads of websites and lets the user opt-in to its own set of anonymized advertising. Its offering is fully focused on being a privacy-first browser.
+
+By default, it blocks third-party cookies and other tracking mechanisms. You can block ads and first-party cookies manually. Protecting against fingerprinting is also included in its toolbox. [Check out their cookie policy](https://support.brave.com/hc/en-us/articles/360050634931).
+
 <img loading="lazy" class="border" style="padding: 1rem;" src="https://assets.simpleanalytics.com/blog/cookies/marketshare-browsers.png" alt="">
 <p class="caption" markdown="1">Market share of internet browsers desktop (source [Statista](https://www.statista.com/statistics/544400/market-share-of-internet-browsers-desktop/))</p>
 
 Google Chrome has declared that it will be phasing out third-party cookies by 2022. However, they have already [postponed the deadline](https://blog.google/products/chrome/updated-timeline-privacy-sandbox-milestones/) to the end of 2023....Personally, I have a hard time believing that they are actually going to do this, as this will have huge consequences for their business model.
 
-We'll have to see how this plays out, but for now, if you don't want to be tracked by third-party cookies. Stay away from Google Chrome.
+We'll have to see how this plays out, but for now, if you don't want to be tracked by third-party cookies. Stay away from Google Chrome. Go for Brave, or at least stay away from Google Chrome.
 
 ## 5\. Do I need a cookie banner?
 
@@ -91,9 +114,9 @@ First of all, you should ask yourself the question of why you actually want to t
 
 If you decide to move forward with tracking your users, you are obliged to:
 
-1.  Tell that they installed cookies and clarify which ones they use
-2.  Explain what the cookies are doing and why
-3.  Get the user's consent to store a cookie in their browser
+1.  <mark>Tell that they installed cookies and clarify which ones they use</mark>
+2.  <mark>Explain what the cookies are doing and why</mark>
+3.  <mark>Get the user's consent to store a cookie in their browser</mark>
 
 You can provide his information in a cookie banner, which will be shown when a first-time visitor visits your website. It informs the visitor about the cookies and trackers your website uses and asks for the visitors' consent to store cookies in their browser.
 
