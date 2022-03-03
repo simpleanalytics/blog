@@ -78,7 +78,7 @@ If you use a CDN you are giving them data about your visitors and the power to l
 
 ### Subresource Integrity
 
-To prevent your CDN provider tampering with the source of your scripts you can use [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI; the `integrity` attribute on your scripts). You need to create a hash of the source of the script and include this in the script tag via the `integrity` attribute. To generate the integrity hash you can use [srihash.org](https://www.srihash.org/).
+To prevent your CDN provider tampering with the source of your scripts you can use [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI; the `integrity` attribute on your scripts). You need to create a hash of the source of the script and include this in the script tag via the `integrity` attribute. To generate the integrity hash you can use [srihash.org](https://www.srihash.org/) or [report-uri.com](https://report-uri.com/home/sri_hash).
 
 ```html
 <script src="https://cdn.example.com/script.js" integrity="sha384-..."></script>
@@ -250,7 +250,7 @@ section#privacy-button-links-example span {
 }
 </style>
 
-> Make sure to add `rel="noopener"` or `rel="noreferrer"` [to prevent other pages](https://web.dev/external-anchors-use-rel-noopener/) accessing your window object with the [`window.opener`](https://developer.mozilla.org/en-US/docs/Web/API/Window/opener) property. This may allow the other page to redirect your page to a malicious URL. It's called [reverse tabnabbing](https://duckduckgo.com/?q=reverse+tabnabbing).
+> Make sure to add `rel="noopener"` or `rel="noreferrer"` [to prevent other pages](https://web.dev/external-anchors-use-rel-noopener/) accessing your window object with the [`window.opener`](https://developer.mozilla.org/en-US/docs/Web/API/Window/opener) property. This may allow the other page to redirect your page to a malicious URL. It's called [reverse tabnabbing](https://duckduckgo.com/?q=reverse+tabnabbing). _Edit: [Browsers implicitly](https://mathiasbynens.github.io/rel-noopener/) set `rel=noopener` for any `target=_blank` link since 2021._
 
 <details markdown="1">
 <summary>HTML for above buttons</summary>
