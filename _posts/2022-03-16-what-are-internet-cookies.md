@@ -3,9 +3,8 @@ title: What are internet cookies?
 author_slug: iron
 author: Iron Brands
 excerpt: "You are being watched and you probably know that. Internet tracking mechanisms exist and we call them cookies. There are different types of cookies, which have different functions and have a varying magnitude of impact on privacy invasiveness. Lets dive in."
-# image: https://assets.simpleanalytics.com/blog/matomo/matomo-versus-simple-analytics.png
+image: https://assets.simpleanalytics.com/blog/cookies/what-are-internet-cookies.png
 lang: en
-draft: true
 ---
 
 You are being watched and you probably know that. Your internet behavior is being tracked. When you visit a website to shop for a new pair of jeans, it might be very possible you see ads for those jeans on your Facebook feed later on.
