@@ -64,17 +64,20 @@
       name="twitter:creator"
       content="{% if page.author_slug == 'iron' %}@brands_iron{% else %}@AdriaanvRossum{% endif %}"
     />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:title" content="{{ title }}" />
-    <meta name="description" content="{{ description }}" />
-    <meta name="og:description" content="{{ description }}" />
+    <meta name="url" property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="title" property="og:title" content="{{ title }}" />
+    <meta
+      name="description"
+      property="og:description"
+      content="{{ description }}"
+    />
 
     <!-- Location in Amsterdam -->
-    <meta name="og:latitude" content="52.37304233578102" />
-    <meta name="og:longitude" content="4.8925307523630535" />
-    <meta name="og:locality" content="Amsterdam" />
-    <meta name="og:region" content="Noord-Holland" />
-    <meta name="og:country-name" content="NL" />
+    <meta property="og:latitude" content="52.37304233578102" />
+    <meta property="og:longitude" content="4.8925307523630535" />
+    <meta property="og:locality" content="Amsterdam" />
+    <meta property="og:region" content="Noord-Holland" />
+    <meta property="og:country-name" content="NL" />
 
     <!-- Languages can differ per page -->
     <meta
@@ -104,16 +107,18 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="og:image"
-      content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}"
+      property="og:image"
+      content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}?v={{site.github.build_revision}}"
     />
     <meta
       name="twitter:image"
-      content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}"
+      content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}?v={{site.github.build_revision}}"
     />
     {% else %}
     <meta name="twitter:card" content="summary" />
     <meta
       name="og:image"
+      property="og:image"
       content="https://simpleanalytics.com/images/screenshot.png"
     />
     <meta
