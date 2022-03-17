@@ -63,7 +63,9 @@ The limited timeframe pushes you to only store data for the period you are using
 
 In G4 Analytics, it's now possible to delete individual user data. From a privacy perspective, this is an improvement. In Universal Analytics, it was only possible to delete data within a set time range.
 
-|                               | Meaningful privacy Improvement?    |
+What are meaningful privacy improvements?
+
+| Feature                       |                                    |
 | :---------------------------- | :--------------------------------- |
 | IP Anonymization              | ![](/images/svgs/cross-ga.svg)     |
 | Server Location               | ![](/images/svgs/cross-ga.svg)     |
@@ -86,6 +88,14 @@ If you like it or not, the future of web analytics will be cookieless. Web Brows
 The world is heading in the right direction, and Google reluctantly moves with it, but it's doing everything to keep its business model alive.
 
 Do you really want to invest your time and energy learning the ins and out of G4 Analytics while it won't futureproof your business? This might be the right time to switch to the good side.
+
+## Losing your historical data
+
+As said before, Google doesn't offer tools to migrate data between the two types of properties. At some point, you will lose this data when they sunset those properties.
+
+[We built a Google Analytics importer](https://docs.simpleanalytics.com/import-google-analytics-data) to keep this historical data. At the same time, our customers don't start with an empty dashboard. Our importer can copy your data from Google Analytics 4 and Universal Analytics properties.
+
+At Simple Analytics, we don't collect personal information. Therefore it doesn't matter much how long we keep the data. The data itself is not privacy invasive to its visitors it contains.
 
 ## Looking for an alternative?
 
