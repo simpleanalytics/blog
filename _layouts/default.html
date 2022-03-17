@@ -13,6 +13,9 @@
     {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% if page.author %}
+    <meta name="author" content="{{ page.author }}" />
+    {% endif %}
 
     <!-- RSS -->
     <link
