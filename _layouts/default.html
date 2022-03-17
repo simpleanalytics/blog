@@ -30,6 +30,19 @@
     <meta name="robots" content="noindex,nofollow" />
     {% endif %}
 
+    <!-- Dates -->
+    {% if page.date %}
+    <meta
+      itemprop="datePublished"
+      content="{{ page.date  | date: '%Y-%m-%d' }}"
+    />
+    {% endif %} {% if page.modified_at %}
+    <meta
+      itemprop="dateModified"
+      content="{{ page.modified_at  | date: '%Y-%m-%d' }}"
+    />
+    {% endif %}
+
     <!-- Icons -->
     <link
       rel="apple-touch-icon"

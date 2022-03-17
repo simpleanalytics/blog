@@ -19,12 +19,47 @@ layout: default
   {% assign thanks = "Cheers," %}
 {% endif %}
 
+{% capture description %}{{ page.excerpt | strip_html | replace: '"', '&quot;' | replace: '
+</p>
+', '' | replace: '
+<p>
+  ', '' }}{% endcapture %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://blog.simpleanalytics.com{{ page.url }}"
+    },
+    "headline": "{{ page.title | replace: '"', '&quot;' }}",
+    "description": "{{ description | replace: '"', '&quot;' }}",
+    "image": "https://assets.simpleanalytics.com/blog/socials/google-kill-universal-analytics.png",  
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.author }}",
+      "url": "https://simpleanalytics.com/team?id={{ page.author_slug }}"
+    },  
+    "publisher": {
+      "@type": "Organization",
+      "name": "Simple Analytics",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://assets.simpleanalytics.com/press/logo-600x400/logo_white_on_red_padding@3x.png"
+      }
+    },
+    "datePublished": "{{ page.date | date: "%Y-%m-%d" }}"{% if page.modified_at %},
+    "dateModified": "{{ page.modified_at | date: "%Y-%m-%d" }}"{% endif %}
+  }
+</script>
+
 <h1 class="post-title">
   {% if page.draft == true %}<span style="color: #e51800">Draft:</span> {% endif
   %}{{ page.title }}
 </h1>
 <p class="post-date">
-  {{ page.date | date_to_string: "ordinal", "US" }} &middot; {% if
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_string: "ordinal", "US" }}</time> &middot; {% if
   page.author_slug == 'iron' %}<img
     loading="lazy"
     class="macro-avatar"
