@@ -22,14 +22,15 @@ In other words: Will there be life after Google Analytics?
 
 Let's find out 👇
 
-1.  How does Google Analytics work?
-    1.  Does Google Analytics use cookies?
-    2.  Do you need a cookie banner when using Google Analytics?
-    3.  Google Analytics without cookies?
-2.  Website analytics without cookies
-    1.  What data does Simple Analytics collect?
-    2.  How can Simple Analytics count unique visitors?
-    3.  Can you still track events and conversions?
+1.  [How does Google Analytics work?](#1-how-does-google-analytics-work)
+    1.  [Does Google Analytics use cookies?](#11-does-google-analytics-use-cookies)
+    2.  [Do you need a cookie banner when using Google Analytics?](#12-do-you-need-a-cookie-banner-when-using-google-analytics)
+    3.  [Can you use Google Analytics without cookies?](#13-can-you-use-google-analytics-without-cookies)
+2.  [Website analytics without cookies](#2-website-analytics-without-cookies)
+    1.  [What data does Simple Analytics collect?](#21-what-data-does-simple-analytics-collect)
+    2.  [How can Simple Analytics count unique visitors?](#22-how-do-we-identify-unique-visitors)
+    3.  [Can you still track events?](#23-can-you-still-track-events)
+    4.  [When should you consider a privacy-first alternative?](#24-when-should-you-consider-a-privacy-first-alternative)
 
 # 1. How does Google Analytics work?
 
