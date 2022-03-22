@@ -2,8 +2,8 @@
 title: Website analytics without cookies
 author_slug: iron
 author: Iron Brands
-excerpt: "The future of web analytics is cookieless, but how does analytics work without cookies? Let's find out"
-image: https://assets.simpleanalytics.com/blog/socials/google-kill-universal-analytics.png
+excerpt: "The future of web analytics is cookieless, but how does analytics work without cookies? Let's find out."
+image: https://assets.simpleanalytics.com/blog/socials/website-analytics-without-cookies.png
 lang: en
 ---
 
