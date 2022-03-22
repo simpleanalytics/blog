@@ -10,7 +10,7 @@ draft: true
 
 It has been the talk of the town lately. "Google Analytics might be banned in Europe".
 
-The DSB in Austria was the first to [openly question](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) the legal use of Google Analytics. Various popular news outlets such as Hacker News & [Techcrunch](https://techcrunch.com/2022/01/12/austrian-dpa-schrems-ii/) picked up on the news and spread the word.
+The DSB in Austria was the first to [openly question](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) the legal use of Google Analytics. Various popular news outlets such as Hacker News & [TechCrunch](https://techcrunch.com/2022/01/12/austrian-dpa-schrems-ii/) picked up on the news and spread the word.
 
 Not so long after the DSB, their french counterpart, [CNIL, also stated](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) that Google Analytics conflicts with GDPR.
 
