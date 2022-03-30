@@ -59,7 +59,13 @@ layout: default
   %}{{ page.title }}
 </h1>
 <p class="post-date">
-  <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_string: "ordinal", "US" }}</time> &middot; {% if
+  {% if page.modified_at %}
+  Published <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_string: "ordinal", "US" }}</time> &middot;
+  Edited <time datetime="{{ page.modified_at | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified_at | date_to_string: "ordinal", "US" }}</time> &middot;
+  {% else %}
+  <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_string: "ordinal", "US" }}</time> &middot;
+  {% endif %}
+  {% if
   page.author_slug == 'iron' %}<img
     loading="lazy"
     class="macro-avatar"
