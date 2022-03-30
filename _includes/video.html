@@ -14,8 +14,7 @@
 >
   <video
     loop
-    autoplay
-    muted
+    {% if include.paused == 'true' %}{% else %}autoplay muted{% endif %}
     crossorigin="anonymous"
     class="post-video {% if include.red %}red{% endif %}"
     preload="auto"

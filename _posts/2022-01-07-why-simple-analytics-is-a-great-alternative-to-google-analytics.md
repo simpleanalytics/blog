@@ -117,6 +117,10 @@ Simple Analytics provides an overview of all the important metrics in a single d
 
 The analytics script we run on your website is 15 times smaller than the Google Analytics script (3kb vs 45kb). Analytics scripts have an impact on the performance of your website. The heavier the script, the longer the loading time of your website.
 
+{% include video.html slug="2022-03-39-tropical-analytics" paused="true" %}
+
+<p class="caption">Our founder using Google Analytics.</p>
+
 We ran a performance test comparing the impact of both scripts on website performance. The outcome showed a difference of 10 basis points in favor of Simple Analytics. If you want to find out how we ran the performance test check [our blog](https://blog.simpleanalytics.com/google-penalizes-you-for-using-google-analytics).
 
 <img loading="lazy" class="border-radius" src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="">
