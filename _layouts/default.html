@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
+<html
+  prefix="og: http://ogp.me/ns#"
+  lang="{% if page.lang %}{{ page.lang }}{% else %}en-US{% endif %}"
+>
   <head>
     <meta charset="utf-8" />
 
@@ -100,17 +103,21 @@
       name="language"
       content="{% if page.lang %}{{ page.lang | upcase }}{% else %}EN{% endif %}"
     />
+    <meta
+      http-equiv="content-language"
+      content="{% if page.lang %}{{ page.lang }}{% else %}en-US{% endif %}"
+    />
 
     {% if page.nl %}
-    <link rel="alternate" hreflang="nl" href="{{ page.nl }}" />
+    <link rel="alternate" hreflang="nl-NL" href="{{ page.nl }}" />
     {% endif %} {% if page.en %}
-    <link rel="alternate" hreflang="en" href="{{ page.en }}" />
+    <link rel="alternate" hreflang="en-US" href="{{ page.en }}" />
     {% endif %}{% if page.fr %}
-    <link rel="alternate" hreflang="fr" href="{{ page.fr }}" />
+    <link rel="alternate" hreflang="fr-FR" href="{{ page.fr }}" />
     {% endif %}{% if page.de %}
     <link rel="alternate" hreflang="de" href="{{ page.de }}" />
     {% endif %}{% if page.es %}
-    <link rel="alternate" hreflang="es" href="{{ page.es }}" />
+    <link rel="alternate" hreflang="es-ES" href="{{ page.es }}" />
     {% endif %}
     <link
       rel="alternate"
