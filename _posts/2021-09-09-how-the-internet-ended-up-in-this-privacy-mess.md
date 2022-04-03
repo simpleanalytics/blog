@@ -3,7 +3,7 @@ title: How the internet ended up in this privacy mess (and how we can eventually
 author_slug: tim
 author: Tim de Nood
 image: https://assets.simpleanalytics.com/blog/how-the-internet-ended-up-in-this-privacy-mess/big-brother.jpg
-excerpt: It's 8 AM. Your free sleep cycle alarm wakes you, and you check today's weather on your phone. By the time you've posted a beautiful sunrise picture with your morning cup of coffee on Instagram, your actions have been tracked, recorded, stored, and sold. But it's not just your data that has been recorded. Your nephew, colleague, aunt, and best friend have been recorded too.
+excerpt: "Your behavior is being tracked around the internet. Why do we let this happen? And what can we do about it?"
 ---
 
 It's 8 AM. Your free sleep cycle alarm wakes you, and you check today's weather on your phone. By the time you've posted a beautiful sunrise picture with your morning cup of coffee on Instagram, your actions have been tracked, recorded, stored, and sold. But it's not just your data that has been recorded. Your nephew, colleague, aunt, and best friend have been recorded too. The entire society of smartphone holders has been recorded (which is the whole society except for the clever few resistant hippies). **Why have millions and millions of people let mass surveillance happen?** (HINT: it's some of the dangerous thoughts shown below)

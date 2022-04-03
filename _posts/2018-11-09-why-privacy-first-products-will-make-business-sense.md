@@ -3,8 +3,7 @@ title: Why Privacy First Products will make business sense
 author_slug: jules
 author: Jules van den Berg
 badge: "Guest post"
-excerpt: >
-  "In order to safe-guard your personal freedom, it is required that you have control over your personal information." I believe privacy is a right which is disappearing to leave room to convenience as they say it. Within the last years it became obvious that consumer data is increasingly collected, stored and processed for online as well as offline purposes.
+excerpt: "Privacy-preserving is not only right; it also makes business sense. Here is how."
 ---
 
 _Note: this guest post is a re-post of 2015, but it is still very relevant today._

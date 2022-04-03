@@ -3,6 +3,7 @@ title: Google penalizes you for using Google Analytics
 author_slug: adriaan
 author: Adriaan van Rossum
 image: https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png
+excerpt: "Google is adding a page experience update to their search result ranking. What does this entail, and what impact does it have?"
 redirect_from:
   - /stop-using-google-analytics-if-you-care-about-your-page-rank
   - /google-analytics-hurts-your-search-ranking

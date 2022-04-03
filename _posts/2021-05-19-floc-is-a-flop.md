@@ -3,7 +3,7 @@ title: Why FLoC is a FLoP
 author_slug: tim
 author: Tim de Nood
 image: /images/2021-05/am-i-floced.png
-excerpt: Google says FLoC is "a privacy-preserving mechanism for interest-based ad selection." We beg to differ. Here's how to stop Google from selling your data to advertisers (again).
+excerpt: "According to Google, FLoC is a privacy-preserving mechanism for ad selection. But how privacy-preserving is it really?"
 ---
 
 Here's how to stop Google from selling your data to advertisers (again).

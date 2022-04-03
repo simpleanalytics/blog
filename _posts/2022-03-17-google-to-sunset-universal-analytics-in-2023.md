@@ -2,7 +2,7 @@
 title: Google to sunset Universal Analytics in 2023
 author_slug: iron
 author: Iron Brands
-excerpt: "In the announcement, Google states that G4 Analytics is “the new standard” in today’s challenging business environment. But is “the new standard” really up to standard when it comes to privacy-friendliness?"
+excerpt: "Google Analytics is sunsetting Universal Analytics in favor of GA4, but how privacy-friendly is GA4?"
 image: https://assets.simpleanalytics.com/blog/socials/google-kill-universal-analytics.png
 lang: en
 ---
