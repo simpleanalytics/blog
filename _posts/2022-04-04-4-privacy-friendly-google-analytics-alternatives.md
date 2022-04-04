@@ -1,10 +1,12 @@
 ---
 title: 4 privacy-friendly Google Analytics alternatives
+title_html: "4 privacy-friendly<br/>Google Analytics alternatives"
 author_slug: iron
 author: Iron Brands
 excerpt: "How privacy-friendly are all the different Google Analytics alternatives really? Let's find out."
-image: https://assets.simpleanalytics.com/blog/socials/website-analytics-without-cookies.png
+image: https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png
 lang: en
+draft: true
 ---
 
 This write-up was long due. The call for Google Analytics alternatives hasn't been as loud as today. We believe it will become even louder in the future.
@@ -52,7 +54,7 @@ Google Analytics will change to a [new version](https://www.searchenginejournal.
 
 ## Simple Analytics
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/simple-analytics-dashboard.png" alt="Simple Analytics dashboard" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/simpleanalytics-dashboard-top.png" alt="Simple Analytics dashboard" class="border" />
 <p class="caption" markdown="1">
   The dashboard of Simple Analytics
 </p>
@@ -69,7 +71,7 @@ The [data is stored in The Netherlands](https://docs.simpleanalytics.com/locatio
 
 ## Plausible
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard.png" alt="Plausible dashboard" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard-top.png" alt="Plausible dashboard" class="border" />
 <p class="caption" markdown="1">
   The dashboard of Plausible
 </p>
@@ -107,7 +109,7 @@ But how about the rest?
 
 Matomo was the first Google Analytics challenger on the market. It is quite different from Simple Analytics and Plausible, and it looks more similar to Google Analytics. In terms of data collection, it also takes another stance. It is not cookieless by design.
 
-In their default mode, Matomo still uses cookies to track website visitors, and therefore, you still need to use a cookie banner to ask for your visitors' consent. Matomo also collects IP addresses (in an anonymized way: IP hashes).
+In their default mode, Matomo still uses cookies to track website visitors, and therefore, you still need to use a cookie banner to ask for your visitors' consent. Matomo also collects IP addresses (in an anonymized way).
 
 You do own the data yourself. The data is stored in the EU and not transferred overseas.
 
@@ -117,7 +119,7 @@ We explain this in our [comparison between Matomo and Simple Analytics](https://
 
 ## Fathom
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/fathom-dashboard.png" alt="Fathom dashboard" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/fathom-dashboard-top.png" alt="Fathom dashboard" class="border" />
 <p class="caption" markdown="1">
   The dashboard of Fathom
 </p>
@@ -181,7 +183,12 @@ The market for web analytics tools is a crowded place. Capterra shows [us 361 so
 
 Over the past few months, we've gotten a lot of questions about the differences between Simple Analytics and other privacy-friendly tools. I understand that you evaluate multiple alternatives (and you should) to determine what's best for your organization.
 
-So to articulate the differences in privacy-friendliness between the Google Alternatives, you can use the following one-liners to explain them to your colleagues.
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png" alt="Spectrum of privacy-friendly analytics alternatives to Google Analytics" class="border" />
+<p class="caption" markdown="1">
+  Spectrum of privacy-friendly analytics Google Analytics alternatives
+</p>
+
+To articulate the differences in privacy-friendliness between the Google Alternatives, you can use the following one-liners to explain them to your colleagues.
 
 Google Analytics: "They do use cookies, the data is not ours, and they do transfer the data overseas"
 

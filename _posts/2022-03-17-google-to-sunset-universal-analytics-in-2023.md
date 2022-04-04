@@ -1,5 +1,6 @@
 ---
 title: Google to sunset Universal Analytics in 2023
+title_html: Google to sunset<br />Universal Analytics in 2023
 author_slug: iron
 author: Iron Brands
 excerpt: "Google Analytics is sunsetting Universal Analytics in favor of GA4, but how privacy-friendly is GA4?"

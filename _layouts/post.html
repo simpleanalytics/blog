@@ -56,7 +56,7 @@ layout: default
 
 <h1 class="post-title">
   {% if page.draft == true %}<span style="color: #e51800">Draft:</span> {% endif
-  %}{{ page.title }}
+  %}{% if page.title_html %}{{ page.title_html }}{% else %}{{ page.title }}{% endif %}
 </h1>
 <p class="post-date">
   {% if page.modified_at %}
