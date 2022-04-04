@@ -167,7 +167,7 @@ The market for web analytics tools is a crowded place. Capterra shows [us 361 so
   <tr>
    <td>Matomo</td>
    <td>Yes</td>
-   <td>Yes (IP hash)</td>
+   <td>Yes (anonymized)</td>
    <td>Yes</td>
    <td>No</td>
   </tr>
