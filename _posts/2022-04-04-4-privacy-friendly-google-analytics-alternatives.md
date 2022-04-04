@@ -183,9 +183,9 @@ The market for web analytics tools is a crowded place. Capterra shows [us 361 so
 
 Over the past few months, we've gotten a lot of questions about the differences between Simple Analytics and other privacy-friendly tools. I understand that you evaluate multiple alternatives (and you should) to determine what's best for your organization.
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png" alt="Spectrum of privacy-friendly analytics alternatives to Google Analytics" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png" alt="Spectrum of privacy-friendly Google Analytics alternatives" class="border" />
 <p class="caption" markdown="1">
-  Spectrum of privacy-friendly analytics Google Analytics alternatives
+  Spectrum of privacy-friendly Google Analytics alternatives
 </p>
 
 To articulate the differences in privacy-friendliness between the Google Alternatives, you can use the following one-liners to explain them to your colleagues.
