@@ -1,11 +1,10 @@
 ---
-title: Privacy-friendly Google Analytics alternatives
+title: 4 privacy-friendly Google Analytics alternatives
 author_slug: iron
 author: Iron Brands
 excerpt: "How privacy-friendly are all the different Google Analytics alternatives really? Let's find out."
 image: https://assets.simpleanalytics.com/blog/socials/website-analytics-without-cookies.png
 lang: en
-draft: true
 ---
 
 This write-up was long due. The call for Google Analytics alternatives hasn't been as loud as today. We believe it will become even louder in the future.
