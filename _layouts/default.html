@@ -4,21 +4,24 @@
   lang="{% if page.lang %}{{ page.lang }}{% else %}en-US{% endif %}"
 >
   <head>
+    {%- include og-vars.html %}
     <meta charset="utf-8" />
-
-    {% include og-vars.html %}
-
     <title>{{ title }}</title>
 
-    {% if page.canonical %}
+    {% if page.canonical -%}
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.canonical }}" />
-    {% endif %}
+    {%- elsif page.url != '/404.html' -%}
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ page.url }}" />
+    {%- else -%}
+    <!-- No canonical URL -->
+    {%- endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% if page.author %}
+    {% if page.author -%}
     <meta name="author" content="{{ page.author }}" />
-    {% endif %}
+    {%- endif %}
 
     <!-- RSS -->
     <link
@@ -31,20 +34,20 @@
     {% if page.no_index == true or page.draft == true %}
     <!-- Make sure this page does not show up in search results -->
     <meta name="robots" content="noindex,nofollow" />
-    {% endif %}
+    {% endif -%}
 
     <!-- Dates -->
-    {% if page.date %}
+    {% if page.date -%}
     <meta
       itemprop="datePublished"
       content="{{ page.date  | date: '%Y-%m-%d' }}"
     />
-    {% endif %} {% if page.modified_at %}
+    {%- endif -%} {%- if page.modified_at %}
     <meta
       itemprop="dateModified"
       content="{{ page.modified_at  | date: '%Y-%m-%d' }}"
     />
-    {% endif %}
+    {%- endif %}
 
     <!-- Icons -->
     <link
@@ -107,16 +110,15 @@
       http-equiv="content-language"
       content="{% if page.lang %}{{ page.lang }}{% else %}en-US{% endif %}"
     />
-
-    {% if page.nl %}
+    {%- if page.nl %}
     <link rel="alternate" hreflang="nl-NL" href="{{ page.nl }}" />
-    {% endif %} {% if page.en %}
+    {% endif -%}{%- if page.en -%}
     <link rel="alternate" hreflang="en-US" href="{{ page.en }}" />
-    {% endif %}{% if page.fr %}
+    {% endif -%}{%- if page.fr -%}
     <link rel="alternate" hreflang="fr-FR" href="{{ page.fr }}" />
-    {% endif %}{% if page.de %}
+    {% endif -%}{%- if page.de -%}
     <link rel="alternate" hreflang="de" href="{{ page.de }}" />
-    {% endif %}{% if page.es %}
+    {% endif -%}{%- if page.es -%}
     <link rel="alternate" hreflang="es-ES" href="{{ page.es }}" />
     {% endif %}
     <link
@@ -126,7 +128,7 @@
     />
 
     <!-- Add social image -->
-    {% if page.image %}
+    {%- if page.image %}
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="og:image"
@@ -137,7 +139,8 @@
       name="twitter:image"
       content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}?v={{site.github.build_revision}}"
     />
-    {% else %}
+
+    {% else -%}
     <meta name="twitter:card" content="summary" />
     <meta
       name="og:image"
@@ -148,7 +151,8 @@
       name="twitter:image"
       content="https://simpleanalytics.com/images/screenshot.png"
     />
-    {% endif %}
+
+    {% endif -%}
 
     <!-- Style -->
     <link
@@ -158,14 +162,14 @@
     />
 
     {% if page.disable_script != true and page.no_index != true and page.draft
-    != true %}
+    != true -%}
     <!-- Privacy friendly website statistics -->
     <script
       async
       src="https://scripts.simpleanalyticscdn.com/latest.js"
       referrerpolicy="no-referrer"
     ></script>
-    {% else %}
+    {% else -%}
     <!-- Simple Analytics is disabled for this page -->
     {% endif %}
   </head>
