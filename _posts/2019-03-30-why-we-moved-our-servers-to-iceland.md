@@ -107,4 +107,4 @@ Well, we want to be the best privacy focused analytics company in the world. We 
 
 While we improved the privacy of our platform we noticed a slight increase in loading time for our embed scripts. This makes perfect sense, because they were hosted via the CDN of CloudFlare. A CDN is a set of servers around the world to decrease loading times for everybody. We are thinking of setting up a very simple CDN with encrypted servers, which only serve our JavaScript and store the page views temporarily before sending it to our main server in Iceland.
 
-Are you willing to move your business analytics to a privacy-friendly company? [Learn what we can do for you](https://simpleanalytics.com/?ref={{ site.hostname }}).
+Are you willing to move your business analytics to a privacy-friendly company? [Learn what we can do for you](https://simpleanalytics.com/).
