@@ -13,11 +13,11 @@ It has always been our goal to provide easy website analytics. A straightforward
 
 {% include gif.html slug="keep-it-simple-stupid" alt="Keep it simple stupid" width="450" height="295" color="#351b15" %}
 
-1.  Why do you need website analytics?
-2.  What insights should a website analytics tool provide?
-3.  Google Analytics is a complex tool
-4.  Simple Analytics is an easy analytics tool
-5.  What analytics tool works best for your business?
+1.  [Why do you need website analytics?](#1-why-do-you-need-website-analytics)
+2.  [What insights should a website analytics tool provide?](#2-what-insights-should-a-website-analytics-tool-provide)
+3.  [Google Analytics is a complex tool](#3-google-analytics-is-a-complex-tool)
+4.  [Simple Analytics is an easy analytics tool](#4-simple-analytics-is-an-easy-analytics-tool)
+5.  [What analytics tool works best for your business?](#5-which-analytics-tool-should-you-choose)
 
 Let's dive in!
 
@@ -86,7 +86,7 @@ We don't share your data with third parties or transfer it overseas. The data is
   Simple Analytics export your data dashboard
 </p>
 
-## 1. Which analytics tool should you choose?
+## 5. Which analytics tool should you choose?
 
 Google Analytics is the standard but might not be the optimal tool for everyone. There is no one-size-fits-all. If you need specific custom reports or rely heavily on tracking and don't care about privacy, Simple Analytics might not be the right tool for you.
 
@@ -94,7 +94,8 @@ Simple Analytics is the right tool for you if you:
 
 ...use analytics as a navigational tool and want to see the bigger picture
 
-...want a simple dashboard with all the essentials metrics\
+<mark>...want a simple dashboard with all the essentials metrics</mark>
+
 ...care about the privacy of your website visitors
 
 ...don't want to sell your data
