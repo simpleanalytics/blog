@@ -2,7 +2,7 @@
   <img src="https://assets.simpleanalytics.com/images/logos/logo-github-readme.png" alt="Simple Analytics logo" align="right" height="62" />
 </a>
 
-## Blog
+### Blog
 
 Stuff you should know, Iron.
 
