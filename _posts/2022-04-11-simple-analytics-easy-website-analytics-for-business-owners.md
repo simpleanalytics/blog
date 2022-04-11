@@ -4,6 +4,7 @@ author_slug: Iron
 author: Iron Brands
 excerpt: "Short description of the post"
 image: https://blog.simpleanalytics.com/images/
+draft: true
 ---
 
 First paragraph
