@@ -6,7 +6,9 @@
 
 Stuff you should know, Iron.
 
-![Instruction video](https://assets.simpleanalytics.com/videos/instructions/blog-post-explain-how-to.mp4)
+<a href="https://assets.simpleanalytics.com/videos/instructions/blog-post-explain-how-to.mp4">
+<img src="https://user-images.githubusercontent.com/1079135/162768366-0b647983-148f-4e07-8bc3-2a9762b0160d.png" alt="" />
+</a>
 
 ### Useful links
 
