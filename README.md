@@ -6,6 +6,8 @@
 
 Stuff you should know, Iron.
 
+![Instruction video](https://assets.simpleanalytics.com/videos/instructions/blog-post-explain-how-to.mp4)
+
 ### Useful links
 
 - [Blog post template on GitHub](https://github.com/simpleanalytics/blog/blob/master/_posts/empty-post.md)
