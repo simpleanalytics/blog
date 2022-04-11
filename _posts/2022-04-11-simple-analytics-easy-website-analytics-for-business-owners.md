@@ -1,9 +1,9 @@
 ---
-title: Simple Analytics: Easy website analytics for business owners
-author_slug: iron
-author: Iron Brands
+title: "Simple Analytics: Easy website analytics for business owners"
+author_slug: "iron"
+author: "Iron Brands"
 excerpt: "At Simple Analytics, we've created a simple and easy web analytics tool to give you the insights you need. Simple Analytics... What's in the name, right?"
-image: https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/social-image.png
+image: "https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/social-image.png"
 draft: true
 ---
 
