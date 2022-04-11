@@ -3,20 +3,9 @@ title: Simple Analytics: Easy website analytics for business owners
 author_slug: iron
 author: Iron Brands
 excerpt: "At Simple Analytics, we've created a simple and easy web analytics tool to give you the insights you need. Simple Analytics... What's in the name, right?"
-image: https://blog.simpleanalytics.com/images/
+image: https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/social-image.png
 draft: true
 ---
-
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-
---------
 
 While [privacy-friendliness is one of our most important pillars](https://blog.simpleanalytics.com/website-analytics-without-cookies), we shouldn't forget that we're also here for business owners that want to get the insights they need without the hassle.
 
