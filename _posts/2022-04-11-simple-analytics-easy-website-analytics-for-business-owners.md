@@ -4,7 +4,6 @@ author_slug: "iron"
 author: "Iron Brands"
 excerpt: "At Simple Analytics, we've created a simple and easy web analytics tool to give you the insights you need. Simple Analytics... What's in the name, right?"
 image: "https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/social-image.png"
-draft: true
 ---
 
 While [privacy-friendliness is one of our most important pillars](https://blog.simpleanalytics.com/website-analytics-without-cookies), we shouldn't forget that we're also here for business owners that want to get the insights they need without the hassle.
