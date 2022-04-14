@@ -3,6 +3,7 @@ post_dirs: true
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
 hostname: blog.simpleanalytics.com
 url: https://blog.simpleanalytics.com
 api: https://simpleanalytics.com

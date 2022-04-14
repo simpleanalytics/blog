@@ -33,6 +33,12 @@
       title="Blog of Simple Analytics"
       href="/feed.xml"
     />
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="/sitemap.xml"
+    />
 
     {% if page.no_index == true or page.draft == true %}
     <!-- Make sure this page does not show up in search results -->
@@ -45,10 +51,10 @@
       itemprop="datePublished"
       content="{{ page.date  | date: '%Y-%m-%d' }}"
     />
-    {%- endif -%} {%- if page.modified_at %}
+    {%- endif -%} {%- if page.last_modified_at %}
     <meta
       itemprop="dateModified"
-      content="{{ page.modified_at  | date: '%Y-%m-%d' }}"
+      content="{{ page.last_modified_at  | date: '%Y-%m-%d' }}"
     />
     {%- endif %}
 

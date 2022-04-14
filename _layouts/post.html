@@ -49,8 +49,8 @@ layout: default
         "url": "https://assets.simpleanalytics.com/press/logo-600x400/logo_white_on_red_padding@3x.png"
       }
     },
-    "datePublished": "{{ page.date | date: "%Y-%m-%d" }}"{% if page.modified_at %},
-    "dateModified": "{{ page.modified_at | date: "%Y-%m-%d" }}"{% endif %}
+    "datePublished": "{{ page.date | date: "%Y-%m-%d" }}"{% if page.last_modified_at %},
+    "dateModified": "{{ page.last_modified_at | date: "%Y-%m-%d" }}"{% endif %}
   }
 </script>
 
@@ -59,9 +59,9 @@ layout: default
   %}{% if page.title_html %}{{ page.title_html }}{% else %}{{ page.title }}{% endif %}
 </h1>
 <p class="post-date">
-  {% if page.modified_at %}
+  {% if page.last_modified_at %}
   Published <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_string: "ordinal", "US" }}</time> &middot;
-  Edited <time datetime="{{ page.modified_at | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified_at | date_to_string: "ordinal", "US" }}</time> &middot;
+  Edited <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.last_modified_at | date_to_string: "ordinal", "US" }}</time> &middot;
   {% else %}
   <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_string: "ordinal", "US" }}</time> &middot;
   {% endif %}

@@ -4,7 +4,7 @@ author_slug: iron
 author: Iron Brands
 excerpt: "What are the differences between Simple Analytics and Google Analytics, and why is Simple Analytics a great alternative."
 image: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics/ga-vs-sa.png
-modified_at: "2022-03-30T09:27:28.298Z"
+last_modified_at: "2022-03-30T09:27Z"
 ---
 
 Website analytics are essential. It gives you insights into the performance of your website and provides you with the necessary information to improve.
