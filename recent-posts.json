@@ -1,0 +1,12 @@
+---
+---
+[
+  {% for post in site.posts limit:3 %}
+    {
+      "url": "{{site.url}}{{post.url}}",
+      "title": {{post.title | jsonify}},
+      "excerpt": {{post.excerpt | jsonify}},
+      "created": "{{post.date | date_to_xmlschema }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
