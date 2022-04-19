@@ -9,6 +9,8 @@ draft: true
 
 The E.U. and U.S. announced an agreement on a new framework for transatlantic data flow. (You can find the EU statement [here](https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_21_1443) and the US statement [here](https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/03/25/remarks-by-president-biden-and-european-commission-president-ursula-von-der-leyen-in-joint-press-statement/)).
 
+<img src="https://assets.simpleanalytics.com/blog/2022-new-us-eu-privacy-shield/background-image.png" alt="Flags of Europe and the United States" class="border-radius" />
+
 The agreement is a response to the invalidation of the privacy shield by Schrems II back in 2020. This has been covered in depth in the past few months, primarily focused on the use of Google Analytics. (You can find our recap [here](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu) and the announcement of the CNIL & NOYB [here](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) and [here](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal)).
 
 The agreement on a new framework for processing data overseas does not come with a text that can be analyzed for legal purposes. The announcement is probably meant as an "agreement in principle" and acts as the basis for an "adequacy decision" in the E.U. and executive order in the U.S., which will be drafted in the coming months. However, a lot more needs to happen for it to come into effect.
