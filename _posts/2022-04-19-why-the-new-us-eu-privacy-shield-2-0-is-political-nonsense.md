@@ -3,7 +3,7 @@ title: "Why the new US-EU privacy shield 2.0 is political nonsense"
 author_slug: Iron
 author: Iron Brands
 excerpt: "The transatlantic data flow agreement has no legal basis (again). The privacy Shield 2.0 is just political nonsense."
-image: https://blog.simpleanalytics.com/images/
+image: https://assets.simpleanalytics.com/blog/2022-new-us-eu-privacy-shield/social-media.png
 draft: true
 ---
 
@@ -17,7 +17,7 @@ The agreement on a new framework for processing data overseas does not come with
 
 Conclusion: The announcement is (again) a political one with no legal basis. Lipstick on a pig...
 
-<img src="https://assets.simpleanalytics.com/blog/2022-new-us-eu-privacy-shield/lipstick-on-a-pig.png" alt="Lipstick on a pig" class="border" style="width: 410px; margin: 0 auto;" />
+<img src="https://assets.simpleanalytics.com/blog/2022-new-us-eu-privacy-shield/lipstick-on-a-pig.png" alt="Lipstick on a pig" class="border-radius" style="width: 400px; margin: 0 auto; background-color: #eef9ff;" />
 <p class="caption" markdown="1">
   It's beautiful, right?
 </p>
