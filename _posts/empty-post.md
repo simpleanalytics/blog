@@ -1,6 +1,6 @@
 ---
 title: "Title of the post"
-author_slug: Iron
+author_slug: iron
 author: Iron Brands
 excerpt: "Short description of the post"
 image: https://blog.simpleanalytics.com/images/
