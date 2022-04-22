@@ -153,7 +153,7 @@ layout: default
     >follow Tim on LinkedIn</a
   >)
 </p>
-{% elsif page.author_slug == "iron" %}
+{% elsif (page.author_slug | downcase) == "iron" %}
   <p class="mt-2 ta-c">{{ thanks }}<br />Adriaan & Iron</p>
   <div class="ta-c">
     <img
