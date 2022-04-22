@@ -1,6 +1,6 @@
 ---
 title: "EU-US privacy shield 2.0 is again a political show"
-author_slug: Iron
+author_slug: iron
 author: Iron Brands
 excerpt: "The transatlantic data flow agreement has no legal basis (again). The privacy Shield 2.0 is just political nonsense."
 image: https://assets.simpleanalytics.com/blog/2022-new-us-eu-privacy-shield/social-media.png
