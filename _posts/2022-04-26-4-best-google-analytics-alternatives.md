@@ -57,6 +57,8 @@ Whereas Google Analytics welcomes you with 75 reports and multiple dashboards, S
 
 Everything is clickable in the overview, so segmenting is easy. Simple Analytics also visualizes source links. For example, clicking on 'Twitter' in the referrer section gives you an overview of Twitter traffic and shows the exact tweets that caused the traffic spike.
 
+{% include video.html slug="2022-04-26-twitter-viewer" %}
+
 In addition, Simple Analytics is a lightweight analytics tool (3kb). Switching from Google Analytics (45kb) will increase your page load speed, increasing your website visitors' user experience
 
 ### Data interoperability
