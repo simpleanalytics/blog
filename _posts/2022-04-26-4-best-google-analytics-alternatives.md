@@ -7,18 +7,6 @@ image: https://blog.simpleanalytics.com/images/
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
--------------------
-
 4 Best Google Analytics Alternatives
 
 Excerpt: There are more and more privacy-friendly Google Analtyics alternatives, but which one is the best?
