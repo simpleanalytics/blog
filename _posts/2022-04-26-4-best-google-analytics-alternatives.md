@@ -15,7 +15,7 @@ We've already written an [in-depth comparison focusing on the privacy part](http
 
 Consider this part 2.
 
-{% include gif.html slug="bring-it-on" alt="Spy Kids: keep it simple stupid" width="480" height="400" color="#6c6362" %}
+{% include gif.html slug="bring-it-on" alt="bring it on" width="480" height="400" color="#6c6362" %}
 
 In this article we'll be benchmarking the privacy-friendly Google Analytics alternatives on the following properties:
 
