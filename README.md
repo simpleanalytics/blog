@@ -20,7 +20,10 @@ Stuff you should know, Iron.
 - [<img height="16px" src="https://user-images.githubusercontent.com/1079135/165280166-399b9730-5016-4907-84c9-cfae242df2a1.png" /> Bunny blog folder](https://panel.bunny.net/storagezones/edit/26541/#/sa-assets/blog/)
 - [<img height="16px" src="https://user-images.githubusercontent.com/1079135/165281455-10874956-a39a-4a4b-b8cb-5d39ffdc87d6.png" />  Add browser window with screely](https://www.screely.com/editor)
 
-## Nerd stuff
+### Nerd stuff
+
+<details markdown="1">
+  <summary>Toggle nerd stuff</summary>
 
 ### Install dependecies
 
@@ -43,3 +46,5 @@ github-pages health-check
 ```
 
 More info on https://github.com/github/pages-gem
+
+</details>
