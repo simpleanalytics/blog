@@ -7,7 +7,7 @@ image: https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-priv
 draft: true
 ---
 
-The call for privacy-friendly Google Analtyics alternatives has never been this high. More and more businesses are turning their back on Google Analytics after the French, and Austrian 'Data Watchdogs' considered it [violating privacy regulations.](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal)
+The call for privacy-friendly Google Analtyics alternatives has never been this high. More and more businesses are turning their back on Google Analytics after the French and Austrian 'Data Watchdogs' considered it is [violating privacy regulations.](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal)
 
 But what is the best alternative to Google Analytics? With more and more options entering the market, it might be hard to distinguish these alternatives from one another. That's why we decided to do some research.
 
@@ -30,9 +30,9 @@ Let's dive in!
 
 Google Analytics is the default web analytics tool for the majority of the internet. 80% of the websites using an analytics tool are using Google Analytics. It's a free and very powerful tool that tracks every move of every website visitor.
 
-In terms of data insights, Google Analytics is the number one in the web analytics market. However, with respect to privacy it faces a lot of issues. Therefore, the market for Google Analytics alternatives is growing.
+Google Analytics is the number one in the web analytics market in terms of data insights. However, concerning privacy, it faces a lot of issues. Therefore, the market for Google Analytics alternatives is growing.
 
-Like our last comparision article, we'll compare the same four alternatives we believe are worth looking into:
+Like our last comparison article, we'll compare the same four alternatives we believe are worth looking into:
 - [Simple Analytics](https://simpleanalytics.com/)
 - [Plausible](https://plausible.io/)
 - [Matomo](https://matomo.org/)
@@ -45,12 +45,12 @@ Like our last comparision article, we'll compare the same four alternatives we b
   Simple Analytics dashboard
 </p>
 
-Simple Analytics is the furthest away from Google Analytics in many ways. This is because Simple Analytics [never collects any personal data or uses cookies.](https://blog.simpleanalytics.com/website-analytics-without-cookies) As mentioned earlier, this does have an impact on the amount of data insights.
+Simple Analytics is the furthest away from Google Analytics in many ways. This is because Simple Analytics [never collects any personal data or uses cookies.](https://blog.simpleanalytics.com/website-analytics-without-cookies) As mentioned earlier, this does impact the depth of data insights.
   
 ### Data Insights
-Collecting sessions over multiple days is, for example, not possible with Simple Analytics. It is still possible to differentiatie between page views and unique visitors based on the referrer domain (but this is less accurate than session tracking). However, the page views reported by Simple Analytics are more accurate than in Google Analytics, because you don't need cookie consent using Simple Analytics, and unlike Google Analytics, Simple Analytics can bypass adblockers.
+Collecting sessions over multiple days is not possible with Simple Analytics. It is still possible to differentiate page views and unique visitors based on the referrer domain. This is less accurate than tracking sessions but more privacy-friendly. However, the page views reported by Simple Analytics are more accurate than Google Analytics because you don’t need cookie consent using Simple Analytics. Unlike Google Analytics, Simple Analytics can bypass adblockers.
 
-It is also possible to use UTM codes to see which specific sources generate traffic to your website and you can track events. We've set up an automated events script that collects downloads, outbound links, and clicks on email links and you can add your custom events.
+It is also possible to use UTM codes to see which specific sources generate traffic to your website, and you can track events. We've set up an automated events script that collects downloads, outbound links, clicks on email links, and you can add your custom events.
 
 ### User Experience
 Whereas Google Analytics welcomes you with 75 reports and multiple dashboards, Simple Analytics has a [one-page dashboard](https://simpleanalytics.com/simpleanalytics.com) that shows you the most important metrics in a straightforward overview.
@@ -59,11 +59,11 @@ Everything is clickable in the overview, so segmenting is easy. Simple Analytics
 
 {% include video.html slug="2022-04-26-twitter-viewer" %}
 
-In addition, Simple Analytics is a lightweight analytics tool (3kb). Switching from Google Analytics (45kb) will increase your page load speed, increasing your website visitors' user experience
+In addition, Simple Analytics is a lightweight analytics tool (3kb). Switching from Google Analytics (45kb) will increase your page load speed, increasing your website visitors' user experience.
 
 ### Data interoperability
 It's possible to import your Google Analytics data directly into Simple Analytics, so you won't lose any historical data by switching to Simple Analytics.
-It's also easy to export your data from Simple Analytics by using the API. In addition, there are multiple integrations with dashboarding tools like Power Bi and Google Data Studio.
+It's also easy to export your data from Simple Analytics using the API. In addition, there are multiple integrations with dashboarding tools like Power Bi and Google Data Studio.
 
 ### Costs
 Simple Analytics has two plans. The Starter plan and the Business plan.
@@ -78,25 +78,25 @@ Simple Analytics has two plans. The Starter plan and the Business plan.
  Plausible dashboard
 </p>
 
-Plausible is closer to Simple Analytics than to Google Analytics and also built by a small team focused on privacy and ease of use.
+Plausible is closer to Simple Analytics than Google Analytics and is also built by a small team focused on privacy and ease of use.
 
 ### Data Insights
-Plausible does not make use of cookies and only collects personal data anonymized for 24 hours. This approach aligns with their privacy vision and provides you more data insights. By collecting IP addresses for 24 hours, Plausible can track sessions on the same day, making  their unique visitor count a bit more accurate. Conversions on the same day can be attributed as well. It's, therefore, easier to set goals and track conversions. In addition, they can show visitors' locations on the city level, whereas Simple Analytics does this on the country level.
+Plausible does use of cookies and only collects personal data anonymized for 24 hours. This approach aligns with their privacy vision and provides more data insights. By collecting IP addresses for 24 hours, Plausible can track sessions on the same day, making their unique visitor count more accurate. Conversions on the same day can be attributed as well. It's, therefore, easier to set goals and track conversions. In addition, they can show visitors' locations on the city level, whereas Simple Analytics does this on the country level.
 
 In comparison to Simple Analytics, they provide more data but are also less privacy-friendly.
 
 ### User Experience
-Plausible looks similar to Simple Analytics in that they use a one-page dashboard to show key metrics. It also works the same in that everything is clickable and segmenting is easy. The UI looks very good and its built in a very intuitive way.
+Plausible looks similar to Simple Analytics in that they use a one-page dashboard to show key metrics. It also works the same in that everything is clickable, and segmenting is easy. The UI looks very good, and it's built in a very intuitive way. 
 
-Plausible is also a lightweight web analytics tool (1kb). The impact on your page load speed is therefore very low. Switching from Google Analytics to Plausible will have a positive impact on your page load speed.
+Plausible is also a lightweight web analytics tool (1kb). The impact on your page load speed is, therefore, very low. Switching from Google Analytics to Plausible will positively affect your page load speed. 
 
 ### Data Interoperability
 For a few weeks, it's now possible to import data from Google Analytics directly into Plausible. You won't have to deal with a loss of historical data moving to Plausible. It also has an API to export your data. From the docs on their website, we don't see any integrations with dashboarding tools like Powerbi or Google Data Studio.
 
 ### Costs
-Plausible has a free plan as it's open source. You can use Plausible and host the data on-premise. So if you are very technical you can host your own analytics. This means you only need to pay for your own hosting. They also offer paid options, where the data is hosted for you:
-- 9$ Per month for up to 10,000 pageviews.
-- 19$ Per month for up to 100,000 pageviews 
+Plausible is open source. If you are technical, you can host your analytics. This means you only need to pay for your hosting. Plausible also offers paid solutions:
+- 9$ Per month for up to 10,000 pageviews. 
+- 19$ Per month for up to 100,000 pageviews 
 - 69$ Per month for up to 1 million pageviews
 
 ## 3. Matomo
@@ -106,25 +106,25 @@ Plausible has a free plan as it's open source. You can use Plausible and host th
   Matomo Dashboard
 </p>
   
-Matomo is the oldest alternative to Google Analytics. In the early days, they teamed up with Piwik Pro, but went on their own again in 2018. There focus is more on data insights and 'owning' your data.
+Matomo is the oldest alternative to Google Analytics. They teamed up with Piwik Pro in the early days but went on their own again in 2018. Their focus is more on data insights and ‘owning’ your data.
 
 ### Data insights
-Where Plausible and Simple Analytics are similar in the sense that they are "simple", Matomo is more complex. In their default mode, Matomo uses cookies and also collects IP-addresses (in an anonymized way). Hence you can get more insights than in Simple Analytics or Plausible because visitors are tracked on an individual level.
+Where Plausible and Simple Analytics are similar in that they are “simple,” Matomo is more complex. In their default mode, Matomo uses cookies and collects IP addresses (in an anonymized way). Hence you can get more insights than in Simple Analytics or Plausible because visitors are tracked individually. 
 
 ### User Experience
-From the screenshot of their dashboard above, you can see that is has in lot in common with Google Analytics. Matomo welcomes you with multiple dashboards and reports. It is more complex than the easily segmentable one-page dashboard from Simple Analytics and Plausible. In addition, the page load speed is also impacted when installing Matomo on your website. Their script is 7 times larger than Simple Analytics' script (22kb).
+From the screenshot of their dashboard above, you can see that it has a lot in common with Google Analytics. Matomo welcomes you with multiple dashboards and reports. It is more complex than the easily segmentable one-page Simple Analytics and Plausible dashboard. In addition, the page load speed is also impacted when installing Matomo on your website. Their script is seven times larger than Simple Analytics’ script (22kb).  
 
-Overall, Matomo is an extensive tool but it comes with a lot of directions and tutorials to understand how it works. For example, its possible to use Matomo in a cookieless version but it takes you through a bunch of tutorials and custom steps to get started.
+Overall, Matomo is a comprehensive tool, but it has many directions and tutorials to understand how it works. For example, it's possible to use Matomo in a cookieless version, but it takes you through many tutorials and custom steps to get started. 
 
 ### Data Interoperability
-You can import your historical data from Google Analytics in Matomo. However, this is a long and complex tutorial, so if you are brave you are fine. It is offers an integration with Google Data studio, however not with other dashboarding tools.
+You can import your historical data from Google Analytics in Matomo. However, this is a long and complex tutorial, so if you are brave, you are fine. However, it offers an integration with Google Data studio, not with other dashboarding tools. 
 
 ### Costs
-Matomo is open source and can be used for free on premise. So if you are technical, you can host your own analytics. You only need to pay for your own hosting. They also offer a paid version in which the analytics will be hosted on Matomo's servers.
+Matomo is open source and can be used for free on-premise. If you are technical, you can host your analytics. They also offer a paid version:
 - 35$ for up to 100,000 pageviews
 - 159$ for up to 1 million pageviews
 
-For an in-dept comparison between Matomo and Simple Analytics, you can should check [this article](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-matomo). 
+For an in-depth comparison between Matomo and Simple Analytics, you should check [this article](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-matomo). 
 
 ## 4. Fathom
 
@@ -133,20 +133,20 @@ For an in-dept comparison between Matomo and Simple Analytics, you can should ch
   Fathom dashboard
 </p>
 
-Fathom has the philosophy of displaying a straightforward dashboard with all the key metrics and focuses on privacy. It is very similar to Plausible and in a lesser sense to Simple Analytics.
+Fathom has the philosophy of displaying a straightforward dashboard with all the key metrics and focuses on privacy. It is very similar to Plausible and to Simple Analytics in a lesser sense.
 
 ### Data insights
-Fathom does not install cookies and only collects IP addresses for 24 hours in an anoynimized way. They take exactly the same approach as Plausible. They are privacy focused but because of the fact that they do collect IP addresses, Fathom is able to provide more insights (but is also less privacy-friendly).
+Fathom does not install cookies and only collects IP addresses for 24 hours anonymized. They take the same approach as Plausible. They are privacy-focused, but because they collect IP addresses, Fathom can provide more insights (but is also less privacy-friendly).
 
 ### User Experience
-Also in terms of user experience its similar to Plausible and Simple Analytics. However, the dashboard seems a bit less intuitive than the other two. It feel less easy to navigate and the colours make it less clear compared to Simple Analytics or Plausible.
+Also, in terms of user experience, it's similar to Plausible and Simple Analytics. However, the dashboard seems a bit less intuitive than the other two. It feels less easy to navigate, and the colors make it less clear than Simple Analytics or Plausible. 
 
-The impact on page load speed however, is also very small. Switching from Google Analytics to Fathom would therefore positively affect your page load speed.
+The impact on page load speed, however, is also minimal. Switching from Google Analytics to Fathom would positively affect your page load speed. 
 
 ### Data Interoperability
-From their documentation we could not find if it was possible to import Google Analytics data into Fathom. However, in their latest blog post they suggest they are building something that would make this possible.
+From their documentation, we could not find if it was possible to import Google Analytics data into Fathom. However, in their latest blog post, they suggest they build something that would make this possible.
 
-Through their API it is already possible to export your data directly into your favorite dashboarding tools.
+Through their API, it is already possible to export your data directly into your favorite dashboarding tools.
 
 ### Costs
 Fathom is not open source. They only offer a paid solutions:
@@ -157,7 +157,7 @@ Fathom is not open source. They only offer a paid solutions:
 
 The conclusion of this piece: There is no single 'best' alternative.
 
-It ultimately depends on your needs in terms of data and your stance toward privacy. There is a privacy trade-off: The more data you want to collect on the individual level, the more privacy-invasive tools you will need to use.
+It ultimately depends on your needs in terms of data and your stance toward privacy. There is a privacy trade-off: The more data you want to collect on the individual level, the more privacy-invasive tools you will need. 
   
 <img src="https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png" alt="privacy vs. data insights" class="border" />
 <p class="caption" markdown="1">
