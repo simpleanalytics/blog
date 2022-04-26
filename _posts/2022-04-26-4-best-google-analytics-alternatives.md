@@ -11,7 +11,7 @@ The call for privacy-friendly Google Analtyics alternatives has never been this 
 
 But what is the best alternative to Google Analytics? With more and more options entering the market, it might be hard to distinguish these alternatives from one another. That's why we decided to do some research.
 
-We've already written an [in-depth comparison focusing on the privacy part](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives). However, privacy is only one part of the equation (albeit the most important one). This article focuses on the other parts: Data insights, ease of use, data interoperability, and costs.
+We've already written an [in-depth comparison focusing on the privacy part](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives). However, privacy is only one part of the equation (albeit the most important one). This article focuses on the other parts: **Data insights, ease of use, data interoperability, and costs.**
 
 Consider this part 2.
 
@@ -63,7 +63,7 @@ In addition, Simple Analytics is a lightweight analytics tool (3kb). Switching f
 
 ### Data interoperability
 It's possible to import your Google Analytics data directly into Simple Analytics, so you won't lose any historical data by switching to Simple Analytics.
-It's also easy to export your data from Simple Analytics by using the API. In addition, there are multiple integrations with dashboarding tools like powerbi and Google Data Studio
+It's also easy to export your data from Simple Analytics by using the API. In addition, there are multiple integrations with dashboarding tools like Power Bi and Google Data Studio.
 
 ### Costs
 Simple Analytics has two plans. The Starter plan and the Business plan.
@@ -101,7 +101,7 @@ Plausible has a free plan as it's open source. You can use Plausible and host th
 
 ## 3. Matomo
 
-<img src="assets.simpleanalytics.com/blog/google-alternatives/matomo-dashboard.png" alt="Matomo dashboard" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/matomo-dashboard.png" alt="Matomo dashboard" class="border" />
 <p class="caption" markdown="1">
   Matomo Dashboard
 </p>
