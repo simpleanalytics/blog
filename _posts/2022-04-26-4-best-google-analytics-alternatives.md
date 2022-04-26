@@ -160,8 +160,8 @@ The conclusion of this piece: There is no single 'best' alternative.
 It ultimately depends on your needs in terms of data and your stance toward privacy. There is a privacy trade-off: The more data you want to collect on the individual level, the more privacy-invasive tools you will need to use.
   
 <img src="https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png" alt="privacy vs. data insights" class="border" />
-<p class="The Privacy Trade-off" markdown="1">
-  Caption of the image
+<p class="caption" markdown="1">
+  The Privacy Trade-off
 </p>
 
 You need to decide how important the privacy of your visitors is to you and what data you really need to make decisions.\
