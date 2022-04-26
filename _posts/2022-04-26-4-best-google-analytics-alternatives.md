@@ -7,10 +7,6 @@ image: https://blog.simpleanalytics.com/images/
 draft: true
 ---
 
-4 Best Google Analytics Alternatives
-
-Excerpt: There are more and more privacy-friendly Google Analtyics alternatives, but which one is the best?
-
 The call for privacy-friendly Google Analtyics alternatives has never been this high. More and more businesses are turning their back on Google Analytics after the French, and [Austrian 'Data Watchdogs' considered it violating privacy regulations.](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal)
 
 But what is the best alternative to Google Analytics? With more and more options entering the market, it might be hard to distinguish these alternatives from one another. That's why we decided to do some research.
