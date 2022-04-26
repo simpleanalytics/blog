@@ -41,8 +41,8 @@ Like our last comparision article, we'll compare the same four alternatives we b
 ## 1. Simple Analytics
 
 <img src="https://assets.simpleanalytics.com/blog/google-alternatives/simpleanalytics-dashboard-top.png" alt="simpleanalytics dashboard" class="border" />
-<p class="simpleanalytics dashboard" markdown="1">
-  Caption of the image
+<p class="caption" markdown="1">
+  Simple Analytics dashboard
 </p>
 
 Simple Analytics is the furthest away from Google Analytics in many ways. This is because Simple Analytics [never collects any personal data or uses cookies.](https://blog.simpleanalytics.com/website-analytics-without-cookies) As mentioned earlier, this does have an impact on the amount of data insights.
@@ -56,8 +56,6 @@ It is also possible to use UTM codes to see which specific sources generate traf
 Whereas Google Analytics welcomes you with 75 reports and multiple dashboards, Simple Analytics has a [one-page dashboard](https://simpleanalytics.com/simpleanalytics.com) that shows you the most important metrics in a straightforward overview.
 
 Everything is clickable in the overview, so segmenting is easy. Simple Analytics also visualizes source links. For example, clicking on 'Twitter' in the referrer section gives you an overview of Twitter traffic and shows the exact tweets that caused the traffic spike.
-
-<<<Insert Twitter gif>>>>>
 
 In addition, Simple Analytics is a lightweight analytics tool (3kb). Switching from Google Analytics (45kb) will increase your page load speed, increasing your website visitors' user experience
 
@@ -74,8 +72,8 @@ Simple Analytics has two plans. The Starter plan and the Business plan.\
 ## 2. Plausible
 
 <img src="https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard-top.png" alt="Plausible dashboard" class="border" />
-<p class="Plausible dashboard" markdown="1">
-  Caption of the image
+<p class="caption" markdown="1">
+ Plausible dashboard
 </p>
 
 Plausible is closer to Simple Analytics than to Google Analytics and also built by a small team focused on privacy and ease of use.
@@ -102,8 +100,8 @@ Plausible has a free plan as it's open source. You can use Plausible and host th
 ## 3. Matomo
 
 <img src="assets.simpleanalytics.com/blog/google-alternatives/matomo-dashboard.png" alt="Matomo dashboard" class="border" />
-<p class="Matomo dashboard" markdown="1">
-  Caption of the image
+<p class="caption" markdown="1">
+  Matomo Dashboard
 </p>
   
 Matomo is the oldest alternative to Google Analytics. In the early days, they teamed up with Piwik Pro, but went on their own again in 2018. There focus is more on data insights and 'owning' your data.
@@ -121,16 +119,16 @@ You can import your historical data from Google Analytics in Matomo. However, th
 
 ### Costs
 Matomo is open source and can be used for free on premise. So if you are technical, you can host your own analytics. You only need to pay for your own hosting. They also offer a paid version in which the analytics will be hosted on Matomo's servers.
-
-<<Insert pricing table>>
+- 35$ for up to 100,000 pageviews
+- 159$ for up to 1 million pageviews
 
 For an in-dept comparison between Matomo and Simple Analytics, you can should check [this article](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-matomo). 
 
 ## 4. Fathom
 
 <img src="https://simpleanalyticsassets.b-cdn.net/blog/google-alternatives/fathom-dashboard-top.png" alt="Fathom dashboard" class="border" />
-<p class="Fathom dashboard" markdown="1">
-  Caption of the image
+<p class="caption" markdown="1">
+  Fathom dashboard
 </p>
 
 Fathom has the philosophy of displaying a straightforward dashboard with all the key metrics and focuses on privacy. It is very similar to Plausible and in a lesser sense to Simple Analytics.
