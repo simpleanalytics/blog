@@ -30,7 +30,7 @@ Let's dive in!
 
 Google Analytics is the default web analytics tool for the majority of the internet. 80% of the websites using an analytics tool are using Google Analytics. It's a free and very powerful tool that tracks every move of every website visitor.
 
-Google Analytics is the number one in the web analytics market in terms of data insights, but concerning privacy and ease of use, it faces many issues. Therefore, the market for Google Analytics alternatives is growing. 
+Google Analytics is the number one in the web analytics market regarding data insights, but it faces many issues concerning privacy and ease of use. Therefore, the market for Google Analytics alternatives is growing. 
 
 Like our last comparison article, we'll compare the same four alternatives we believe are worth looking into:
 - [Simple Analytics](https://simpleanalytics.com/)
@@ -111,12 +111,12 @@ Plausible is open source. If you are technical, you can host your analytics. Thi
 Matomo is the oldest alternative to Google Analytics. They teamed up with Piwik Pro in the early days but went on their own again in 2018. Their focus is more on data insights and less on the privacy of the people where this data is collected of.
 
 ### Data insights
-Where Plausible and Simple Analytics are similar in that they are “simple,” Matomo is more complex. In their default mode, Matomo uses cookies and collects IP addresses (in an anonymized way). Hence you can get more insights than in Simple Analytics or Plausible because visitors are tracked individually. 
+Where Plausible and Simple Analytics are similar in that they are “simple,” Matomo is more complex. In their default mode, Matomo uses cookies and collects IP addresses (in an anonymized way). Hence you can get more insights than Simple Analytics or Plausible because visitors are tracked individually. 
 
 ### User Experience
 From the screenshot of their dashboard above, you can see that it needs a lot in common with Google Analytics. Matomo welcomes you with multiple dashboards and reports. It is more complex than the easily segmentable one-page Simple Analytics and Plausible dashboard. In addition, the page load speed is also impacted when installing Matomo on your website. Their script is seven times larger than Simple Analytics’ script (22kb).  
 
-Overall, Matomo is a comprehensive tool, but it has many directions and tutorials to understand how it works. For example, it's possible to use Matomo in a cookieless version, but it takes you through many tutorials and custom steps to get started. 
+Matomo is a comprehensive tool, but it has many directions and tutorials to understand how it works. For example, it's possible to use Matomo in a cookieless version, but it takes you through many tutorials and custom steps to get started. 
 
 ### Data Interoperability
 You can import your historical data from Google Analytics in Matomo. However, this is a long and complex tutorial, so if you are brave, you are fine. However, it offers an integration with Google Data studio, not with other dashboarding tools. 
@@ -135,10 +135,10 @@ For an in-depth comparison between Matomo and Simple Analytics, you should check
   Fathom dashboard
 </p>
 
-Fathom has the philosophy of displaying a straightforward dashboard with all the key metrics and focuses on privacy. It is very similar to Plausible and to Simple Analytics in a lesser sense.
+Fathom has the philosophy of displaying a straightforward dashboard with all the key metrics and focuses on privacy. It is very similar to Plausible and Simple Analytics in a lesser sense.
 
 ### Data insights
-Fathom does not install cookies and only collects hashes of IP addresses for 24 hours anonymized. They take the same approach as Plausible. They are privacy-focused, but because they collect IP addresses, Fathom can provide more insights (but is also less privacy-friendly).
+Fathom doesn’t install cookies and only collects hashes of IP addresses for 24 hours. They take the same approach as Plausible. Collecting IP hashes provides more data while staying on the good side concerning privacy. However, IP hashes are still considered personal data and might lead to privacy issues in the future. 
 
 ### User Experience
 Also, in terms of user experience, it's similar to Plausible and Simple Analytics. However, the dashboard seems a bit less intuitive than the other two. It feels less easy to navigate, and the colors make it less clear than Simple Analytics or Plausible. 
