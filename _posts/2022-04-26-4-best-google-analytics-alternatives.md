@@ -4,7 +4,7 @@ author_slug: iron
 author: Iron Brands
 excerpt: "There are more and more privacy-friendly Google Analtyics alternatives, but which one is the best?"
 image: https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png
-draft: true
+
 ---
 
 The call for privacy-friendly Google Analtyics alternatives has never been this high. More and more businesses are turning their back on Google Analytics after the French and Austrian 'Data Watchdogs' considered it is [violating privacy regulations.](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal)
