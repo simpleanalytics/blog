@@ -5,6 +5,7 @@ author: Iron Brands
 excerpt: "The future of web analytics is cookieless, but how does analytics work without cookies? Let's find out."
 image: https://assets.simpleanalytics.com/blog/socials/website-analytics-without-cookies.png
 lang: en
+last_modified_at: 2022-05-03
 ---
 
 It has been the talk of the town lately. "Google Analytics might be banned in Europe."
