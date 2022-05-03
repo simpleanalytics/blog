@@ -181,7 +181,7 @@ In addition, you can still use URL Parameters to see where your traffic is comin
 
 # 3 Cookieless web analytics vs. Cookie-based web analytics
 
-The general take on cookieless web analytics tools is that you trade more privacy for fewer data. This is true because you collect fewer data points. However, it does not necessarily mean that cookieless web analytics is less accurate. [Cookie-based web analytics tools are not bulletproof.](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics)
+The general take on cookieless web analytics tools is that you trade more privacy for fewer data. This is true because you collect fewer data points. However, it does not necessarily mean that analytics without cookies is less accurate. [Cookie-based web analytics tools are not bulletproof.](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics)
 
 -   The use of adblockers affects your Google Analytics data
 Adblockers block Google Analytics scripts. They prohibit the issuance of cookies on your device. Adblocker users visiting your website will be missed by Google Analytics.
