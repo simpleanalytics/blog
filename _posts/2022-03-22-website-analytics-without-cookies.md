@@ -90,10 +90,10 @@ You can overwrite the default of two years directly in the script (if you have a
 You can also change it in Google Tag Manager, which is even easier:
 
 -   Navigate to the Google Analytics Page View Tag
--   Check this box: Enable overriding settings in this tag
--   Click on: open more settings
--   Open Fields to Set
--   Click on: Add Field and fill out the two fields below. Indicate 31536000 in the value box to change the duration to one year.
+-   Check this box: **Enable overriding settings in this tag**
+-   Click on: **open more settings**
+-   Open **Fields to Set**
+-   Click on: **Add Field** and fill out the two fields below. Indicate 31536000 in the value box to change the duration to one year.
 
 ## 1.4 Do you need a cookie banner when using Google Analytics?
 
