@@ -130,18 +130,19 @@
     {% endif -%}{%- if page.es -%}
     <link rel="alternate" hreflang="es-ES" href="{{ page.es }}" />
     {% endif %}
-    {% unless page.lang -%}
+    {% unless page.lang or page.lang = "en" -%}
     <link
       rel="alternate"
       hreflang="en"
       href="{{ site.url }}{{ page.url }}"
     />
-    {%- endunless %}
+    {% else %}
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://blog.simpleanalytics.com/"
+      href="{{ site.url }}{{ page.url }}"
     />
+    {%- endunless %}
 
     <!-- Add social image -->
     {%- if page.image %}
