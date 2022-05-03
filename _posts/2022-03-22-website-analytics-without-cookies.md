@@ -23,7 +23,7 @@ Let's find out 👇
 
 1.  [How does Google Analytics work?](#1-how-does-google-analytics-work)
     1.  [Does Google Analytics use cookies?](#11-does-google-analytics-use-cookies)
-    2.  [Is Google Analytics using first or third-party cookies?](#12-is-google-analytics-using-first-or-third-party cookies?)
+    2.  [Is Google Analytics using first or third-party cookies?](#12-is-google-analytics-using-first-or-third-party-cookies?)
     3.  [How long do Google Analytics cookies last?](#13-how-long-do-google-analytics-cookies-last?)
     4.  [Do you need a cookie banner when using Google Analytics?](#14-do-you-need-a-cookie-banner-when-using-google-analytics)
     5.  [Do you need to include Google Analytics cookies in your privacy policy](#15-do-you-need-to-include-google-analytics-cookies-in-your-privacy-policy)
