@@ -130,7 +130,7 @@
     {% endif -%}{%- if page.es -%}
     <link rel="alternate" hreflang="es-ES" href="{{ page.es }}" />
     {% endif %}
-    {% unless page.lang or page.lang = "en" -%}
+    {% unless page.lang or page.lang == "en" -%}
     <link
       rel="alternate"
       hreflang="en"
