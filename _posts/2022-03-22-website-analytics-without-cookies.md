@@ -91,10 +91,10 @@ You can overwrite the default of two years directly in the script (if you have a
 You can also change it in Google Tag Manager, which is even easier:
 
 -   Navigate to the Google Analytics Page View Tag
--   Check this box: **Enable overriding settings in this tag**
--   Click on: **open more settings**
--   Open **Fields to Set**
--   Click on: **Add Field** and fill out the two fields below. Indicate 31536000 in the value box to change the duration to one year.
+-   Check this box: *Enable overriding settings in this tag*
+-   Click on: *open more settings*
+-   Open *Fields to Set*
+-   Click on: *Add Field* and fill out the two fields below. Indicate 31536000 in the value box to change the duration to one year.
 
 ## 1.4 Do you need a cookie banner when using Google Analytics?
 
@@ -184,14 +184,16 @@ In addition, you can still use URL Parameters to see where your traffic is comin
 
 The general take on cookieless web analytics tools is that you trade more privacy for fewer data. This is true because you collect fewer data points. However, it does not necessarily mean that analytics without cookies is less accurate. [Cookie-based web analytics tools are not bulletproof.](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics)
 
--   The use of adblockers affects your Google Analytics data
+**The use of adblockers affects your Google Analytics data**.
+
 Adblockers block Google Analytics scripts. They prohibit the issuance of cookies on your device. Adblocker users visiting your website will be missed by Google Analytics.
 
 The use of adblockers is rising. Adblock, a popular adblocking tool, [counted 735 million (!) users in 2019](https://www.statista.com/statistics/435252/adblock-users-worldwide/) and grew significantly among young people. Internet users are getting more aware of their digital fingerprints and the importance of digital privacy. This will only be accelerated in the future.
 
 Adblockers can block the Simple Analytics script (however, to a lesser extent). We have created an adblocker bypass to ensure that we are not blocked and that you get the complete picture.
 
--   Cookie banners allow visitors to opt-out of your Google Analytics data
+**Cookie banners allow visitors to opt-out of your Google Analytics data**
+
 When using Google Analytics, you need to display a cookie banner on your website. Next to the fact that cookie banners hinder your user experience, they also affect your analytics.
 
 Visitors indicating they do not want to be tracked will not be visible to Google Analytics. You will miss this data. [Research](https://www2.deloitte.com/be/en/pages/technology-media-and-telecommunications/topics/digital-consumer-trends-2020/data-privacy-awareness.html) suggests that most visitors still consent without even reading the cookie statement. However, this is about to change. Privacy laws are hammering down on consent practices. [Google is introducing new options](https://blog.google/around-the-globe/google-europe/new-cookie-choices-in-europe/) to reject tracking cookies.
@@ -200,10 +202,12 @@ It has been straightforward to give consent and accept cookies by pressing a but
 
 Effectively, this means less accurate data in the Google Analytics dashboard. This is not an issue with Simple Analytics, as you don't need to ask for consent. We do not use cookies. Therefore, our page views are more accurate than page views in Google Analytics.
 
--   Internet users removing their cookies are miscounted as unique visitors
+**Internet users removing their cookies are miscounted as unique visitors**
+
 After removing their cookies, Google Analytics will mistakenly report returning visitors as unique visitors. As privacy awareness grows, more internet users will often remove their cookies. This will result in less accurate data concerning unique visitors in Google Analytics.
 
--   Internet browsers block third party cookies
+**Internet browsers block third party cookies**
+
 Multiple browsers such as Safari and Brave [don't allow the use of third-party cookies](https://blog.simpleanalytics.com/what-are-internet-cookies), and even Google Chrome will stop supporting third-party cookies in 2023. Brave is a new kid on the block and identifies itself as the "anti-advertising" browser." Brave users can block ads and first-party cookies as well. It currently has [50 million monthly active users](https://brave.com/2021-recap/) and is growing rapidly. Another indication that the future will be cookieless.
 
 # 4. When should you consider a privacy-first web analytics tool?
