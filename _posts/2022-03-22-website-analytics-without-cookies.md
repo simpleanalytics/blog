@@ -28,7 +28,7 @@ Let's find out 👇
     3.  [How long do Google Analytics cookies last?](#13-how-long-do-google-analytics-cookies-last?)
     4.  [Do you need a cookie banner when using Google Analytics?](#14-do-you-need-a-cookie-banner-when-using-google-analytics)
     5.  [Do you need to include Google Analytics cookies in your privacy policy](#15-do-you-need-to-include-google-analytics-cookies-in-your-privacy-policy)
-    6.  [Can you use Google Analytics without cookies?](#13-can-you-use-google-analytics-without-cookies)
+    6.  [Can you use Google Analytics without cookies?](#16-can-you-use-google-analytics-without-cookies)
 2.  [Website analytics without cookies](#2-website-analytics-without-cookies)
     1.  [What data does Simple Analytics collect?](#21-what-data-does-simple-analytics-collect)
     2.  [How can Simple Analytics count unique visitors?](#22-how-do-we-identify-unique-visitors)
