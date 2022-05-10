@@ -1,5 +1,5 @@
 ---
-title: Cookieless website analytics vs. Google Analytics
+title: Can you use Google Analytics without cookies? And cookieless web analytics
 author_slug: iron
 author: Iron Brands
 excerpt: "The future of web analytics is cookieless, but how does analytics work without cookies? Let's find out."
