@@ -24,10 +24,11 @@ A couple of weeks ago, we published our blog post on the four [best privacy-frie
 
 Cloudflare already has an analytics product called Cloudflare Analytics. However, this is a premium product only available for Cloudflare users. The new Cloudflare Web Analytics is free and available for everyone.
 
-<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/screely-1652732635374.pngg" alt="Cloudflare Web Analytics Dashboard" class="border" />
+<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-web-analytics-dashboard.png" alt="Cloudflare Web Analytics Dashboard" class="border" />
 <p class="caption" markdown="1">
   Cloudflare Web Analytics Dashboard
 </p>
+
 Cloudflare Analytics relies on server-side tracking. Cloudflare Web Analytics relies on client-side tracking (like Simple Analytics & Google Analytics).
 
 Server-side tracking involves sending data to a web server before transferring it to third parties. It makes sure that there is more control over the data transfer. In addition, you don't have to worry about ad-blockers or core web vitals because you don't need to add a script to your website. There are drawbacks to server-side tracking as well. Pageviews are highly inaccurate because it's difficult to filter out robots and other automated traffic to your website.
@@ -92,7 +93,10 @@ It's not possible to see live visitors on your dashboard. There is no live versi
 - **No mini-websites**
 Well, we don't want to blame Cloudflare for not adding mini-websites. Simple Analytics is probably the only tool that transforms boring traffic-referrer links into a mini-website.
 
-    <<insert mini websites>>
+<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/twitter-dashboard-simple-analytics.png" alt="Mini websites Simple Analytics" class="border" />
+<p class="caption" markdown="1">
+  Mini websites Simple Analytics
+</p>
 
 ## 2.  Privacy
   
