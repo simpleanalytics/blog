@@ -24,15 +24,15 @@ Server-side tracking involves sending data to a web server before transferring i
 
 This comparison article will focus on Cloudflare Web Analytics. We'll compare it to [Simple Analytics](https://simpleanalytics.com/) on the following criteria:
 
-1.  Data Insights
-    1.1   Sample size data
-    1.2   Data retention
-    1.3   Bot traffic is not excluded
-    1.4   Differences in features
-3.  Privacy friendliness
-4.  Data interoperability
-5.  Ease of use
-6.  Pricing
+1.  [Data insights](#1-Data-insights)
+    1.  [Sample size data](#11-sample-size-data)
+    1.  [Data retention](#12-data-retention)
+    1.  [Bot Traffic is not excluded](#13-bot-traffic-is-not-excluded)
+    1.  [Differences in features](#14-differences-in-features)
+1.  [Privacy](#2-Privacy)
+1.  [Data interoperability](#3-Data-interoperability)
+1.  [Ease of use](#4-Ease-of-use)
+1.  [Pricing](#5-Pricing)
 
 ## 1.  Data insights
 
