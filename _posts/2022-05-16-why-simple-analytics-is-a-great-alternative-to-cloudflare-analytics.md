@@ -7,17 +7,6 @@ image: https://blog.simpleanalytics.com/images/
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 A couple of weeks ago, we published our blog post on the four [best privacy-friendly alternatives to Google Analytics](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives). We did not include Cloudflare Web Analytics as one of those, as we believe it's short on a few criteria, and we'll show you why in this article.
 
 {% include gif.html slug="attention-please" alt="attention please" width="480" height="270" color="#38271e" %}
@@ -131,3 +120,5 @@ Another take is that Cloudflare wants more information concerning page-loading d
 One can only guess what the actual strategy is, but if you are looking for a privacy-first web analytics tool built by a small but dedicated team that fully focuses on analytics, you might want to [give us a try](https://simpleanalytics.com/welcome).
 
 ![](https://lh4.googleusercontent.com/FYGqUrry_v-EYBXIobHZoC1Vk4j9SKsqJxF2qh_pk9JlldJNjlm7fd13sO3g3WPZILlPUQUGVqacuZCEdVKTLvseoWydFuh3mkiq1vDx8Ocl3B7yYVqXcsp4GIsSJHhQZBJwgM07p431-jD9ug)
+
+{% include gif.html slug="thumbs-up-iron-adriaan" alt="thumbs up iron adriaan" width="580" height="326" color="#bf3f52" %}
