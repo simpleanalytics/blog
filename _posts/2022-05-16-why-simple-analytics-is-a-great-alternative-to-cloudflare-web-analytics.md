@@ -105,6 +105,9 @@ At Simple Analytics, your data is yours, and we want to make sure you can use it
 
 Cloudflare provides limited data to be exported to your dashboarding tools. There is an API to export limited data, but importing your Google Analytics data is impossible. In addition, there is zero documentation on connections with dashboarding tools such as Power BI or Google Data Studio.
 
+<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border" />
+<p class="caption" markdown="1">
+
 ## 4.  Ease of use
 
 For Cloudflare users, it's easy to use Cloudflare Web Analytics because you don't need to add another script to your website. In addition, Cloudflare Web Analytics does not impact your page load speech as much. The script is 4,3kb, whereas Simple Analytics is at 3kb. Google Analytics and Matomo, however, are way bigger and have way more impact on your core web vitals.
