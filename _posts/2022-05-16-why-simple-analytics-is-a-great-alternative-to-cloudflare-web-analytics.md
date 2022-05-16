@@ -90,6 +90,7 @@ Well, we don't want to blame Cloudflare for not adding [mini-websites](https://d
 
 <img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border" />
 <p class="caption" markdown="1">
+</p>
 
 ## 2. Privacy
   
