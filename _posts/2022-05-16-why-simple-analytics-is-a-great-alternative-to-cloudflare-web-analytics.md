@@ -125,6 +125,4 @@ Another take is that Cloudflare wants more information concerning page-loading d
 
 One can only guess what the actual strategy is, but if you are looking for a privacy-first web analytics tool built by a small but dedicated team that fully focuses on analytics, you might want to [give us a try](https://simpleanalytics.com/welcome).
 
-![](https://lh4.googleusercontent.com/FYGqUrry_v-EYBXIobHZoC1Vk4j9SKsqJxF2qh_pk9JlldJNjlm7fd13sO3g3WPZILlPUQUGVqacuZCEdVKTLvseoWydFuh3mkiq1vDx8Ocl3B7yYVqXcsp4GIsSJHhQZBJwgM07p431-jD9ug)
-
 {% include gif.html slug="thumbs-up-iron-adriaan" alt="thumbs up iron adriaan" width="580" height="326" color="#bf3f52" %}
