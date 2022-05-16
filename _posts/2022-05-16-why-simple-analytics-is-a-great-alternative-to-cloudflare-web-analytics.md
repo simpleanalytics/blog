@@ -88,10 +88,8 @@ It's not possible to see live visitors on your dashboard. There is no live versi
 
 Well, we don't want to blame Cloudflare for not adding mini-websites. Simple Analytics is probably the only tool that transforms boring traffic-referrer links into a mini-website.
 
-<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/twitter-dashboard-simple-analytics.png" alt="Mini websites Simple Analytics" class="border" />
+<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border" />
 <p class="caption" markdown="1">
-  Mini websites Simple Analytics
-</p>
 
 ## 2.  Privacy
   
@@ -104,9 +102,6 @@ Cloudflare Web Analytics seems to be doing a good job from a privacy standpoint.
 At Simple Analytics, your data is yours, and we want to make sure you can use it the way you want. Therefore [we offer many APIs](https://docs.simpleanalytics.com/api), including raw level data that can be connected to your dashboarding tools. If you have used Google Analytics before, we allow you to import that data.
 
 Cloudflare provides limited data to be exported to your dashboarding tools. There is an API to export limited data, but importing your Google Analytics data is impossible. In addition, there is zero documentation on connections with dashboarding tools such as Power BI or Google Data Studio.
-
-<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border" />
-<p class="caption" markdown="1">
 
 ## 4.  Ease of use
 
