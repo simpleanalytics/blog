@@ -24,17 +24,17 @@ Server-side tracking involves sending data to a web server before transferring i
 
 This comparison article will focus on Cloudflare Web Analytics. We'll compare it to [Simple Analytics](https://simpleanalytics.com/) on the following criteria:
 
-1.  [Data insights](#1-Data-insights)
+1.  [Data insights](#1-data-insights)
     1.  [Sample size data](#11-sample-size-data)
     1.  [Data retention](#12-data-retention)
     1.  [Bot Traffic is not excluded](#13-bot-traffic-is-not-excluded)
     1.  [Differences in features](#14-differences-in-features)
-1.  [Privacy](#2-Privacy)
-1.  [Data interoperability](#3-Data-interoperability)
-1.  [Ease of use](#4-Ease-of-use)
-1.  [Pricing](#5-Pricing)
+1.  [Privacy](#2-privacy)
+1.  [Data interoperability](#3-data-interoperability)
+1.  [Ease of use](#4-ease-of-use)
+1.  [Pricing](#5-pricing)
 
-## 1.  Data insights
+## 1. Data insights
 
 The first and foremost difference between Cloudflare Web Analytics and Simple Analytics is the insights both tools provide. There is a stark difference in how both tools collect data and display features. 
 
@@ -91,19 +91,19 @@ Well, we don't want to blame Cloudflare for not adding mini-websites. Simple Ana
 <img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border" />
 <p class="caption" markdown="1">
 
-## 2.  Privacy
+## 2. Privacy
   
 Cloudflare claims to be a privacy-friendly analytics tool that does not use cookies or collect personal information and complies with [GDPR](https://gdpr.eu/), [CCPA ](https://oag.ca.gov/privacy/ccpa)& [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/what-are-pecr/). In addition, they state that you don't have to sacrifice privacy to get essential and accurate metrics on the usage of your website. At Simple Analytics, we fully agree with this statement. Privacy is the main reason we started Simple Analytics in the first place. We [never collect any personal data](https://docs.simpleanalytics.com/what-we-collect), not even IP hashes.
 
 Cloudflare Web Analytics seems to be doing a good job from a privacy standpoint. They do not use cookies and also do not collect IP hashes. However, in their [privacy policy](https://www.cloudflare.com/en-gb/privacypolicy/), Cloudflare says that it may collect and process personal information of so-called 'end-users.' It's unclear what they exactly mean by this. Still, you should take note of this when considering Cloudflare Web Analytics. 
 
-## 3.  Data interoperability
+## 3. Data interoperability
 
 At Simple Analytics, your data is yours, and we want to make sure you can use it the way you want. Therefore [we offer many APIs](https://docs.simpleanalytics.com/api), including raw level data that can be connected to your dashboarding tools. If you have used Google Analytics before, we allow you to import that data.
 
 Cloudflare provides limited data to be exported to your dashboarding tools. There is an API to export limited data, but importing your Google Analytics data is impossible. In addition, there is zero documentation on connections with dashboarding tools such as Power BI or Google Data Studio.
 
-## 4.  Ease of use
+## 4. Ease of use
 
 For Cloudflare users, it's easy to use Cloudflare Web Analytics because you don't need to add another script to your website. In addition, Cloudflare Web Analytics does not impact your page load speech as much. The script is 4,3kb, whereas Simple Analytics is at 3kb. Google Analytics and Matomo, however, are way bigger and have way more impact on your core web vitals.
 
