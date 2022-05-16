@@ -65,21 +65,27 @@ The actual traffic in Cloudflare Web Analytics is inaccurate. This is because th
 ### 1.4 Differences in features
 
 - **The number of websites is capped**
+
 There is also a maximum of 10 websites you can add to one account. Again we assume this has something to do with the costs associated with storing data. At Simple Analytics, there is no hard limit to how many websites you can add, but we have a fair use policy. 
 
 - **No visit duration**
+
 Cloudflare does not show us the average time-on-page metric. The time-on-page is an essential metric to track how long website visitors stay on your website. We've created our [own time on page](https://blog.simpleanalytics.com/you-are-getting-fooled-by-google-analytics-time-on-page-metric), different from our competitors but more accurate.
 
 - **No UTM tags**
+
 Cloudflare does not support UTM tags. Their documentation states that they will likely add it in the future. With Simple Analytics, you can [add UTM tags](https://docs.simpleanalytics.com/how-to-use-url-parameters) to segment referrers.
 
 - **No Event Tracking**
+
 Event tracking is also not possible. We are all for straightforward web analytics and honestly believe that 95% of Google Analytics is unnecessary, but event tracking should be in every analytics tool.In an analytics tool that focuses on privacy, you can [still track events](https://docs.simpleanalytics.com/events) based on counts of clicks. Simple Analytics does not use cookies and can record events. For example, for clicks or outbound links. So website owners still get an idea of sign-ups or form downloads based on aggregate data. Not adding event tracking is a huge drawback (although they say they will support it in the future).
 
 - **No live visitors**
+
 It's not possible to see live visitors on your dashboard. There is no live version of the product. Check out our [live dashboard](https://simpleanalytics.com/simpleanalytics.com).
 
 - **No mini-websites**
+
 Well, we don't want to blame Cloudflare for not adding mini-websites. Simple Analytics is probably the only tool that transforms boring traffic-referrer links into a mini-website.
 
 <img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/twitter-dashboard-simple-analytics.png" alt="Mini websites Simple Analytics" class="border" />
