@@ -86,7 +86,7 @@ It's not possible to see live visitors on your dashboard. There is no live versi
 
 - **No mini-websites**
 
-Well, we don't want to blame Cloudflare for not adding mini-websites. Simple Analytics is probably the only tool that transforms boring traffic-referrer links into a mini-website.
+Well, we don't want to blame Cloudflare for not adding [mini-websites](https://docs.simpleanalytics.com/mini-websites). Simple Analytics is probably the only tool that transforms boring traffic-referrer links into a mini-website.
 
 <img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border" />
 <p class="caption" markdown="1">
