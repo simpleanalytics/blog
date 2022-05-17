@@ -3,7 +3,7 @@ title: Why Simple Analytics is a great alternative to Cloudflare Web Analytics
 author_slug: iron
 author: Iron Brands
 excerpt: What are the differences between Simple Analytics and Cloudflare Web Analytics, and why Simple Analytics is a great alternative.
-image: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/Twitter%20post%20-%20cloudflare%20white%20cirlce.png
+image: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/social-image.png
 draft: true
 ---
 
@@ -13,14 +13,14 @@ A couple of weeks ago, we published our blog post on the four [best privacy-frie
 
 Cloudflare already has an analytics product called Cloudflare Analytics. However, this is a premium product only available for Cloudflare users. The new Cloudflare Web Analytics is free and available for everyone.
 
-<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-web-analytics-dashboard.png" alt="Cloudflare Web Analytics Dashboard" class="border" />
-<p class="caption" markdown="1">
-  Cloudflare Web Analytics Dashboard
-</p>
-
 Cloudflare Analytics relies on server-side tracking. Cloudflare Web Analytics relies on client-side tracking (like Simple Analytics & Google Analytics).
 
 Server-side tracking involves sending data to a web server before transferring it to third parties. It makes sure that there is more control over the data transfer. In addition, you don't have to worry about ad-blockers or core web vitals because you don't need to add a script to your website. There are drawbacks to server-side tracking as well. Pageviews are highly inaccurate because it's difficult to filter out robots and other automated traffic to your website.
+
+<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-web-analytics-dashboard.png" alt="Cloudflare Web Analytics Dashboard" class="border-radius" />
+<p class="caption" markdown="1">
+  Cloudflare Web Analytics Dashboard
+</p>
 
 This comparison article will focus on Cloudflare Web Analytics. We'll compare it to [Simple Analytics](https://simpleanalytics.com/) on the following criteria:
 
@@ -58,39 +58,44 @@ However, this is a severe drawback. Most organizations want to measure their ana
 
 At Simple Analytics, we store your data indefinitely (or for as long as you want). It is possible to measure your page views over yearly periods. There is no cap.
 
+<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border-radius" />
+<p class="caption" markdown="1">
+  Cloudflare Web Analytics vs. Simple Analytics
+</p>
+
 ### 1.3 Bot traffic is not excluded
 
 The actual traffic in Cloudflare Web Analytics is inaccurate. This is because they don't exclude bot traffic in their website statistics. Bots are classified as 'Unknown' browser types and are a significant percentage in Cloudflare's website statistics. At Simple Analytics, we exclude bots in your statistics as they do not represent actual page views (we also don't account for bots pageviews in our pricing).
 
 ### 1.4 Differences in features
 
-- **The number of websites is capped**
+**The number of websites is capped**
 
 There is also a maximum of 10 websites you can add to one account. Again we assume this has something to do with the costs associated with storing data. At Simple Analytics, there is no hard limit to how many websites you can add, but we have a fair use policy. 
 
-- **No visit duration**
+**No visit duration**
 
 Cloudflare does not show us the average time-on-page metric. The time-on-page is an essential metric to track how long website visitors stay on your website. We've created our [own time on page](https://blog.simpleanalytics.com/you-are-getting-fooled-by-google-analytics-time-on-page-metric), different from our competitors but more accurate.
 
-- **No UTM tags**
+**No UTM tags**
 
 Cloudflare does not support UTM tags. Their documentation states that they will likely add it in the future. With Simple Analytics, you can [add UTM tags](https://docs.simpleanalytics.com/how-to-use-url-parameters) to segment referrers.
 
-- **No Event Tracking**
+**No Event Tracking**
 
 Event tracking is also not possible. We are all for straightforward web analytics and honestly believe that 95% of Google Analytics is unnecessary, but event tracking should be in every analytics tool.In an analytics tool that focuses on privacy, you can [still track events](https://docs.simpleanalytics.com/events) based on counts of clicks. Simple Analytics does not use cookies and can record events. For example, for clicks or outbound links. So website owners still get an idea of sign-ups or form downloads based on aggregate data. Not adding event tracking is a huge drawback (although they say they will support it in the future).
 
-- **No live visitors**
+**No live visitors**
 
 It's not possible to see live visitors on your dashboard. There is no live version of the product. Check out our [live dashboard](https://simpleanalytics.com/simpleanalytics.com).
 
-- **No mini-websites**
+**No mini-websites**
 
 Well, we don't want to blame Cloudflare for not adding [mini-websites](https://docs.simpleanalytics.com/mini-websites). Simple Analytics is probably the only tool that transforms boring traffic-referrer links into a mini-website.
 
-<img src="https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png" alt="Simple Analytics vs. Cloudflare Web Analytics" class="border" />
+<img src="https://docs.simpleanalytics.com/images/mini-websites-simple-analytics.gif" alt="Mini websites as referrers in Simple Analytics vs. Cloudflare Web Analytics" class="border" />
 <p class="caption" markdown="1">
-Cloudflare Web Analytics vs. Simple Analytics
+  Mini websites in Simple Analytics
 </p>
 
 ## 2. Privacy
@@ -113,7 +118,7 @@ One of the main pillars of Simple Analytics is to create a script that does not 
 
 ## 5. Pricing
 
-**"If you are not paying, you are the product" - Everyone**
+> "If you are not paying, you are the product" - Everyone
 
 Just like Google Analytics, Cloudflare Web Analytics is free. We always get suspicious when a service we use is free. Everyone knows the mantra: If you're not paying for the product, you are the product. Everyone knows this because it's true 100% of the time.
 
@@ -125,4 +130,4 @@ Another take is that Cloudflare wants more information concerning page-loading d
 
 One can only guess what the actual strategy is, but if you are looking for a privacy-first web analytics tool built by a small but dedicated team that fully focuses on analytics, you might want to [give us a try](https://simpleanalytics.com/welcome).
 
-{% include gif.html slug="thumbs-up-iron-adriaan" alt="thumbs up iron adriaan" width="580" height="326" color="#bf3f52" %}
+{% include gif.html slug="thumbs-up-iron-adriaan" alt="thumbs up iron adriaan" width="580" height="326" color="#ff4f64" %}
