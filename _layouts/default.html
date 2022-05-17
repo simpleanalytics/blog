@@ -95,13 +95,13 @@
       name="twitter:creator"
       content="{% if page.author_slug == 'iron' %}@brands_iron{% else %}@AdriaanvRossum{% endif %}"
     />
-    <meta name="url" property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta name="title" property="og:title" content="{{ title }}" />
-    <meta
-      name="description"
-      property="og:description"
-      content="{{ description }}"
-    />
+    <meta name="url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="title" content="{{ title }}" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description }}" />
 
     <!-- Location in Amsterdam -->
     <meta property="og:latitude" content="52.37304233578102" />
@@ -144,30 +144,23 @@
     />
     {%- endunless %}
 
-    <!-- Add social image -->
+    {%- capture og_image -%}
+      {% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}?v={{site.github.build_revision}}
+    {%- endcapture -%}
+    
     {%- if page.image %}
+    <!-- Add special page social image -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="og:image"
-      property="og:image"
-      content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}?v={{site.github.build_revision}}"
-    />
-    <meta
-      name="twitter:image"
-      content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}?v={{site.github.build_revision}}"
-    />
+    <meta name="twitter:image" content="{{ og_image }}" />
+    <meta name="og:image" content="{{ og_image }}" />
+    <meta property="og:image" content="{{ og_image }}" />
 
     {% else -%}
+    <!-- Add default social image -->
     <meta name="twitter:card" content="summary" />
-    <meta
-      name="og:image"
-      property="og:image"
-      content="https://simpleanalytics.com/images/screenshot.png"
-    />
-    <meta
-      name="twitter:image"
-      content="https://simpleanalytics.com/images/screenshot.png"
-    />
+    <meta name="twitter:image" content="https://simpleanalytics.com/images/screenshot.png" />
+    <meta name="og:image" content="https://simpleanalytics.com/images/screenshot.png" />
+    <meta property="og:image" content="https://simpleanalytics.com/images/screenshot.png" />
 
     {% endif -%}
 
