@@ -4,6 +4,7 @@ author_slug: iron
 author: Iron Brands
 excerpt: What are the differences between Simple Analytics and Cloudflare Web Analytics, and why Simple Analytics is a great alternative.
 image: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/social-image.png
+image_no_text: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-cloudflare-analytics/cloudflare-inline-image.png
 ---
 
 A couple of weeks ago, we published our blog post on the four [best privacy-friendly alternatives to Google Analytics](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives). We did not include Cloudflare Web Analytics as one of those, as we believe it's short on a few criteria, and we'll show you why in this article.
