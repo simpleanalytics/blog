@@ -5,6 +5,8 @@
     {
       "url": "{{site.url}}{{post.url}}",
       "title": {{post.title | jsonify}},
+      "image": {{post.image | jsonify}},
+      "image_no_text": {{post.image_no_text | jsonify}},
       "excerpt": {{post.excerpt | jsonify}},
       "created": "{{post.date | date_to_xmlschema }}"
     }{% unless forloop.last %},{% endunless %}
