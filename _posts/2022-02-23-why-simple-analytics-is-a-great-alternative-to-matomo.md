@@ -92,7 +92,7 @@ We didn't perform the test with Matomo, but we are confident that the page speed
 
 ## 4\. Data Interoperability
 
-Simple Analytics has maybe ways to get your data out. For example, you might want to move your data to a data lake (like [Snowflake](https://www.snowflake.com/)) or build your own reports. [We offer many APIs](https://docs.simpleanalytics.com/api), including raw level data, which means that every row in the export is one page view.
+Simple Analytics has many ways to get your data out. For example, you might want to move your data to a data lake (like [Snowflake](https://www.snowflake.com/)) or build your own reports. [We offer many APIs](https://docs.simpleanalytics.com/api), including raw level data, which means that every row in the export is one page view.
 
 If you have used Google Analytics before, we allow you to import that data. We believe the data is yours, and you should be able to use it your way. Matomo [does offer a way](https://matomo.org/docs/google-analytics-importer/) to import Universal Google Analytics properties (no sign of GA4 properties yet). It's a very long and complex tutorial, so if you're brave, it's fine. If you want to be done in a few clicks, check out the importer of Simple Analytics.
 
