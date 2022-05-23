@@ -83,9 +83,9 @@ Simple Analytics has two plans. The Starter plan and the Business plan.
 Plausible is closer to Simple Analytics than Google Analytics and is also built by a small team focused on privacy and ease of use.
 
 ### Data Insights
-Plausible does use of cookies and only collects personal data anonymized for 24 hours. This approach aligns with their privacy vision and provides more data insights. By collecting hashes of IP addresses for 24 hours, Plausible can track sessions on the same day, making their unique visitor count more accurate. Conversions on the same day can be attributed as well. It's, therefore, easier to set goals and track conversions. In addition, they can show visitors' locations on the city level, whereas Simple Analytics does this on the country level.
+Plausible does not use cookies and only collects personal data anonymized for 24 hours. This approach aligns with their privacy vision and provides more data insights. By collecting IP hashes for 24 hours, Plausible can track users for a day, making their unique visitor count more accurate. Conversions on the same day can be attributed as well. It's, therefore, easier to set goals and track conversions. In addition, they can show visitors' locations on the city level, whereas Simple Analytics does this on the country level.
 
-In comparison to Simple Analytics, they provide more data but are also less privacy-friendly.
+In comparison to Simple Analytics, they provide more data but are also less privacy-friendly as collecting IP-hashes is still considered personal data.
 
 ### User Experience
 Plausible looks similar to Simple Analytics in that they use a one-page dashboard to show key metrics. It also works the same in that everything is clickable, and segmenting is easy. The UI looks good, and it's built in an intuitive way. 
