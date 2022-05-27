@@ -32,7 +32,10 @@ Plausible & Simple Analytics are both:
 
 However, there are still differences. In this article, we'll find out what those differences look like.
 
-![](https://lh4.googleusercontent.com/MolaKqEiDXCs8OkT7Ml-cTMgcx2HNulaDzGv8elVcEG9Dss11SsyKqfB-VVubfKgIj0buSi4iP0YZLFyKJjcbBqU3pmyj20peQC8XkHzy5sogVgaaWWvWRJeg4QSiVAWhb9GaQfNQz-C8VFUzQ)
+<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/Plausible%20vs%20Simple%20Analytics.jpeg)" alt="Simple Analytics vs. Plausible" class="border" />
+<p class="caption" markdown="1">
+  No they are not
+</p>
 
 As we have done in previous comparisons, like the one with Google Analytics, we will look at different aspects.
 
