@@ -189,4 +189,4 @@ We value long-term customers. Hence we give a huge discount to customers on a ye
 
 Adriaan started Simple Analytics four years ago to make the internet a little bit safer and provide an alternative to data-devouring machines like Google. We genuinely believe it can get actionable insights without using personal data or tracking mechanisms.
 
-We built Simple Analytics not only for companies that want to comply with GDPR law but for organizations that care about their visitors. By supporting us in our mission, you are not only preserving your visitor's privacy but also supporting a small independent team of two. Feel free to give us a try.
+We built Simple Analytics not only for companies that want to comply with GDPR law but for organizations that care about their visitors. By supporting us in our mission, you are not only preserving your visitor's privacy but also supporting a small independent team of two. Feel free to [give us a try.](https://simpleanalytics.com/welcome)
