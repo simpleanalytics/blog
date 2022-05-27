@@ -97,10 +97,7 @@ At Simple, we detect when a visitor navigates to a different website. In compari
 
 Without a doubt, Simple Analytics and Plausible are both companies that value privacy and share a common belief in making the internet a safer place. However, the degree varies. This is perfectly illustrated on both homepages.
 
-<img src="" alt="Plausible dashboard" class="border" />
-<p class="caption" markdown="1">
-  Plausible dashboard
-</p>
+(insert image regarding both homepages)
 
 Simple Analytics: *Privacy-first*
 
@@ -177,7 +174,7 @@ Let's say you want to run a Facebook campaign and want to know how many visitors
 
 Let's say you create a specific landing page, which you direct your Facebook ad towards. You can use UTM codes to recognize traffic coming from the ad. In addition, you can also measure how many times the 'fill in form' button is clicked. It fires an event every time the button is clicked. Conversions will look like this:
 
-<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/event-tracking-sa.png" alt="Event tracking Simple Analytics"class="border" />
+<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/event-tracking-sa.png" alt="Event tracking Simple Analytics" class="border" />
 <p class="caption" markdown="1">
   Event tracking Simple Analytics
 </p>
