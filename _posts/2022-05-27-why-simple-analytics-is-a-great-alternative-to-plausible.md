@@ -32,7 +32,7 @@ Plausible & Simple Analytics are both:
 
 However, there are still differences. In this article, we'll find out what those differences look like.
 
-<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/Plausible%20vs%20Simple%20Analytics.jpeg)" alt="Simple Analytics vs. Plausible" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/plausible-vs-simple-analytics.jpeg" alt="Simple Analytics vs. Plausible" class="border" />
 <p class="caption" markdown="1">
   No they are not
 </p>
@@ -61,7 +61,10 @@ No personal data and being [cookieless by design](https://blog.simpleanalytics.c
 
 With Simple Analytics, [you can still use UTM codes](https://docs.simpleanalytics.com/how-to-use-url-parameters) to see which specific sources generate traffic to your website. In addition, event tracking is possible as well. We've set up an [automated events script](https://docs.simpleanalytics.com/automated-events) that collects downloads, outbound links, and clicks on email links, and you can add your custom events.
 
-(Insert Simple Analytics dashboard image)
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/simple-analytics-dashboard.png" alt="Simple Analytics dashboard" class="border" />
+<p class="caption" markdown="1">
+  Simple Analytics dashboard
+</p>
 
 As mentioned above, Plausible takes a similar approach as Simple Analytics. However, the most significant difference is that Plausible collects data differently. They can show all of the Simple Analytics metrics and just a little more.
 
@@ -73,7 +76,10 @@ Plausible can show more data insights than Simple Analytics because they do coll
 
 They can attribute conversions on the same to a specific IP hash, providing more insights into which referral sources are converting more than others. This is relevant data but also less privacy-friendly. 
 
-(Insert Plausible dashboard image)
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard.png" alt="Plausible dashboard" class="border" />
+<p class="caption" markdown="1">
+  Plausible dashboard
+</p>
 
 Both Plausible and Simple Analytics also use a different approach to Google Analytics. They use timestamp hits to indicate the time on page. We analyzed how Google Analytics calculates time on page and concluded that they are off.
 
@@ -91,7 +97,10 @@ At Simple, we detect when a visitor navigates to a different website. In compari
 
 Without a doubt, Simple Analytics and Plausible are both companies that value privacy and share a common belief in making the internet a safer place. However, the degree varies. This is perfectly illustrated on both homepages.
 
-(Insert picture of both homepages)
+<img src="" alt="Plausible dashboard" class="border" />
+<p class="caption" markdown="1">
+  Plausible dashboard
+</p>
 
 Simple Analytics: *Privacy-first*
 
@@ -147,11 +156,16 @@ Plausible is open-source, meaning their source code is publicly available.  The
 
 Simple Analytics is privacy-first but simple-second. It's probably the only analytics tool that transforms [referral links into mini websites](https://docs.simpleanalytics.com/mini-websites). They are referral links but visualized in a screenshot of the link page.
 
-(insert mini-websites)
+<img src="https://docs.simpleanalytics.com/images/mini-websites-simple-analytics.gif" alt="Mini websites as referrers in Simple Analytics vs. Plausible" class="border" />
+<p class="caption" markdown="1">
+  Mini websites in Simple Analytics
+</p>
 
 Do you see those "t.co" referrals domains in Plausible or Google Analytics? We created a Twitter overview that shows you the exact tweets you got traffic from. Not with useless t.co links, but with useful and beautiful designed tweets.
 
-(insert twitter referral video)
+{% include video.html slug="2022-03-39-tropical-analytics" paused="true" %}
+
+<p class="caption">Our founder using Google Analytics.</p>
 
 ### 4.4 Goal conversions and event tracking
 
@@ -163,7 +177,10 @@ Let's say you want to run a Facebook campaign and want to know how many visitors
 
 Let's say you create a specific landing page, which you direct your Facebook ad towards. You can use UTM codes to recognize traffic coming from the ad. In addition, you can also measure how many times the 'fill in form' button is clicked. It fires an event every time the button is clicked. Conversions will look like this:
 
-(Insert event tracking screenshot)
+<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/event-tracking-sa.png" alt="Event tracking Simple Analytics"class="border" />
+<p class="caption" markdown="1">
+  Event tracking Simple Analytics
+</p>
 
 ## 5. Costs
 
