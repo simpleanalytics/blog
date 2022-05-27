@@ -88,9 +88,9 @@ Without a doubt, Simple Analytics and Plausible are both companies that value pr
 
 (insert image regarding both homepages)
 
-Simple Analytics: *Privacy-**first**
+Simple Analytics: *Privacy-**first*
 
-Plausible: *Privacy-**friendly**
+Plausible: *Privacy-**friendly*
 
 Plausible also mentions this in their data policy: *"Plausible attempts to strike a reasonable balance between de-duplicating pageviews and staying respectful of visitor privacy."*
 
