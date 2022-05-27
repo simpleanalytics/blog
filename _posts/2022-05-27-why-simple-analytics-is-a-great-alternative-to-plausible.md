@@ -7,17 +7,6 @@ image: https://blog.simpleanalytics.com/images/
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 The market for analytics tools is scattered. 100+ web analytics companies want to dethrone Google Analytics. Some focus on more tracking and insights, whereas others, like Simple Analytics, focus on less tracking and more privacy. Of all the analytics tools, Plausible is closest to Simple Analytics.
 
 At Simple Analytics, we often get the question of how we are different from Google Analytics, but the real privacy enthusiast asks us how we are different from Plausible. This is way more nuanced as both solutions have a similar approach.
