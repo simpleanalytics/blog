@@ -28,11 +28,11 @@ However, there are still differences. In this article, we'll find out what those
 
 As we have done in previous comparisons, like the one with Google Analytics, we will look at different aspects.
 
-1.  Data Insights
-2.  Privacy friendliness
-3.  Data Operinterability
-4.  Ease of use & features
-5.  Costs
+1.  [Data Insights](#1-data-insights)
+2.  [Privacy friendliness](#2-privacy-friendliness)
+3.  [Data Operinterability](#3-data-operinterability)
+4.  [Ease of use & features](#4-ease-of-use-features)
+5.  [Costs](#5-costs)
 
 Let's dive in! 
 
