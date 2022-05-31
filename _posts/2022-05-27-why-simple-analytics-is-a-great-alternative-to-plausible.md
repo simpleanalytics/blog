@@ -31,9 +31,9 @@ margin: 0 auto;" />
 As we have done in previous comparisons, like the one with Google Analytics, we will look at different aspects.
 
 1.  [Data Insights](#1-data-insights)
-2.  [Privacy friendliness](#2-privacy-friendliness)
-3.  [Data Operinterability](#3-data-operinterability)
-4.  [Ease of use & features](#4-ease-of-use-features)
+2.  [Privacy: Privacy-friendly vs. Privacy-first](#2-privacy-privacy-friendly-vs-privacy-first)
+3.  [Data interoperability](#3-data-interoperability)
+4.  [User experience & features](#4-user-experience--features)
 5.  [Costs](#5-costs)
 
 Let's dive in!
@@ -132,7 +132,7 @@ A lot of the above is also possible in Plausible. They recently added the featur
   The battle between Simple Analytics vs. Plausible.
 </p>
 
-## 4. User Experience & features
+## 4. User experience & features
 
 At first hand, Simple Analytics and Plausible look similar. Both have built a one-page dashboard that provides the most valuable website metrics at a glance. Whereas Google Analytics shows you 75 reports when opening the dashboard, Plausible and Simple Analytics stay simple. Everything in the dashboards is clickable, and it's very easy to segment and see which pages are performing better than others.
 
