@@ -65,8 +65,7 @@ layout: default
   {% else %}
   <time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_string: "ordinal", "US" }}</time> &middot;
   {% endif %}
-  {% if
-  page.author_slug == 'iron' %}<img
+  {% if page.author_slug == 'iron' or page.author_slug == 'Iron' %}<img
     loading="lazy"
     class="macro-avatar"
     src="https://assets.simpleanalytics.com/images/people/iron.jpg"
@@ -153,7 +152,7 @@ layout: default
     >follow Tim on LinkedIn</a
   >)
 </p>
-{% elsif (page.author_slug | downcase) == "iron" %}
+{% elsif page.author_slug == "iron" or page.author_slug == "Iron" %}
   <p class="mt-2 ta-c">{{ thanks }}<br />Adriaan & Iron</p>
   <div class="ta-c">
     <img
