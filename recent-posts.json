@@ -1,23 +1,24 @@
 ---
 ---
 [
-  {%- assign counter = 0 -%}
-  {%- for post in site.posts limit:5  -%}
-    {%- if post.draft and counter < 4 -%}
+  {% assign counter = 0 -%}
+  {%- for post in site.posts limit:10  -%}
+    {%- if post.draft or counter >= 3 -%}
       {%- assign match = false -%}
     {%- else -%}
       {%- assign match = true -%}
       {%- assign counter = counter | plus:1 -%}
     {%- endif -%}
     {%- if match -%}
-    {
-      "url": "{{site.url}}{{post.url}}",
-      "title": {{post.title | jsonify}},
-      "image": {{post.image | jsonify}},
-      "image_no_text": {{post.image_no_text | jsonify}},
-      "excerpt": {{post.excerpt | jsonify}},
-      "created": "{{post.date | date_to_xmlschema }}"
-    }{%- if counter < 4 %},{% endif -%}
-    {%- endif -%}
-  {%- endfor -%}
+    {%- if counter > 1 %},
+  {% endif %}{
+    "url": "{{site.url}}{{post.url}}",
+    "title": {{post.title | jsonify}},
+    "image": {{post.image | jsonify}},
+    "image_no_text": {{post.image_no_text | jsonify}},
+    "excerpt": {{post.excerpt | jsonify}},
+    "created": "{{post.date | date_to_xmlschema }}"
+  }
+  {%- endif -%}
+  {%- endfor %}
 ]
