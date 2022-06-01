@@ -4,7 +4,6 @@ author_slug: iron
 author: Iron Brands
 excerpt: "Comparison blog between Simple Analytics and Plausible and why Simple Analytics is a great alternative to Plausible."
 image: https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/social-image.png
-draft: true
 ---
 
 The market for analytics tools is scattered. 100+ web analytics companies want to dethrone Google Analytics. Some focus on more tracking and insights, whereas others, like Simple Analytics, focus on less tracking and more privacy. Of all the analytics tools, Plausible is closest to Simple Analytics.
