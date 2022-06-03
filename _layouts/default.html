@@ -31,13 +31,13 @@
       rel="alternate"
       type="application/rss+xml"
       title="Blog of Simple Analytics"
-      href="/feed.xml"
+      href="{{ site.url }}/feed.xml"
     />
     <link
       rel="sitemap"
       type="application/xml"
       title="Sitemap"
-      href="/sitemap.xml"
+      href="{{ site.url }}/sitemap.xml"
     />
 
     {% if page.no_index == true or page.draft == true %}
@@ -120,35 +120,26 @@
       content="{% if page.lang %}{{ page.lang }}{% else %}en-US{% endif %}"
     />
     {%- if page.nl %}
-    <link rel="alternate" hreflang="nl-NL" href="{{ page.nl }}" />
+    <link rel="alternate" hreflang="nl-NL" href="{{ site.url }}{{ page.nl }}" />
     {% endif -%}{%- if page.en -%}
-    <link rel="alternate" hreflang="en-US" href="{{ page.en }}" />
+    <link rel="alternate" hreflang="en-US" href="{{ site.url }}{{ page.en }}" />
     {% endif -%}{%- if page.fr -%}
-    <link rel="alternate" hreflang="fr-FR" href="{{ page.fr }}" />
+    <link rel="alternate" hreflang="fr-FR" href="{{ site.url }}{{ page.fr }}" />
     {% endif -%}{%- if page.de -%}
-    <link rel="alternate" hreflang="de" href="{{ page.de }}" />
+    <link rel="alternate" hreflang="de" href="{{ site.url }}{{ page.de }}" />
     {% endif -%}{%- if page.es -%}
-    <link rel="alternate" hreflang="es-ES" href="{{ page.es }}" />
-    {% endif %}
-    {% unless page.lang or page.lang == "en" -%}
-    <link
-      rel="alternate"
-      hreflang="en"
-      href="{{ site.url }}{{ page.url }}"
-    />
+    <link rel="alternate" hreflang="es-ES" href="{{ site.url }}{{ page.es }}" />
+    {% endif %} {% unless page.lang or page.lang == "en" -%}
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}" />
     {% else %}
     <link
       rel="alternate"
       hreflang="x-default"
       href="{{ site.url }}{{ page.url }}"
     />
-    {%- endunless %}
-
-    {%- capture og_image -%}
-      {% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}?v={{site.github.build_revision}}
-    {%- endcapture -%}
-    
-    {%- if page.image %}
+    {%- endunless %} {%- capture og_image -%} {% if page.image contains '://'
+    %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif
+    %}?v={{site.github.build_revision}} {%- endcapture -%} {%- if page.image %}
     <!-- Add special page social image -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="{{ og_image }}" />
@@ -158,9 +149,18 @@
     {% else -%}
     <!-- Add default social image -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://simpleanalytics.com/images/screenshot.png" />
-    <meta name="og:image" content="https://simpleanalytics.com/images/screenshot.png" />
-    <meta property="og:image" content="https://simpleanalytics.com/images/screenshot.png" />
+    <meta
+      name="twitter:image"
+      content="https://simpleanalytics.com/images/screenshot.png"
+    />
+    <meta
+      name="og:image"
+      content="https://simpleanalytics.com/images/screenshot.png"
+    />
+    <meta
+      property="og:image"
+      content="https://simpleanalytics.com/images/screenshot.png"
+    />
 
     {% endif -%}
 
