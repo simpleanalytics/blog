@@ -7,25 +7,13 @@ image: https://blog.simpleanalytics.com/images/
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
- 
-
 In June 2020, Apple launched a new 'Privacy Report' during their first digital [WWDC event](https://insiderpaper.com/apple-wwdc-livestream-online-start-time-watch/). This included new privacy guidelines and a summary of the number of trackers that would be blocked in Safari (an Apple product) on iOS, Big Sur, and iPadOS.
 
 The new features caused some confusion among the attendants. From the presentation, it seemed that Safari blocked Google Analytics by default. However, the truth is a bit more nuanced.
 
 So what was the fuss all about again, and what privacy updates have been implemented since? And what If we are moving to a more privacy-friendly internet, new privacy updates seem inevitable as well. What will these future privacy updates have on the usability of tools like Google Analytics? 
 
-<img src="https://assets.simpleanalyticsassets.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/safari-stop-tracking-privacy-report.png" alt="safari block google analytics" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/safari-stop-tracking-privacy-report.png" alt="safari block google analytics" class="border" />
 <p class="caption" markdown="1">
   Safari Privacy Report
 </p>
@@ -41,7 +29,7 @@ Let's dive in!
 
 With the "Privacy Report," Apple added a lot of new privacy features to help protect users from being tracked across the internet. In the presentation, Apple showed that Google Analytics was the most frequent blocked tracker. This made everyone assume that Safari is blocking Google Analytics from tracking website visitors by default. However, this was a false assumption, and the truth is more complicated.
 
-<img src="https://simpleanalyticsassets.b-cdn.net/blog/does-safari-block-google-analytics-and-apple-privacy-updates/does-google-block-safari.png" alt="Apple privacy report" class="border" />
+<img src="https://assets.simpleanalyticsassets.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/does-google-block-safari.png" alt="Apple privacy report" class="border" />
 <p class="caption" markdown="1">
   Apple Privacy Report presentation
 </p>
@@ -81,7 +69,7 @@ Obviously, the video has some marketing purposes to it. Still, the fact that the
 
 As mentioned above, Safari does not block Google Analytics by default. You can still use it without worrying about gaps in your analytics. However, the privacy trend is not slowing down, and Google is just not moving with it.
 
-{% include gif.html slug="that-what-i-heard" alt="thats what I heard" width="480" height="343" color="#2b1f20" %}
+{% include gif.html slug="thats-what-i-heard" alt="thats what I heard" width="480" height="343" color="#2b1f20" %}
 
 ### 1. Phasing out of third party cookies
 
