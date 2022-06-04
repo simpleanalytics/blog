@@ -3,16 +3,18 @@ title: Google to sunset Universal Analytics in 2023
 title_html: Google to sunset<br />Universal Analytics in 2023
 author_slug: iron
 author: Iron Brands
-excerpt: "Google Analytics is sunsetting Universal Analytics in favor of GA4, but how privacy-friendly is GA4?"
+excerpt: "Google Analytics to sunset Universal Analytics in favor of GA4, but how privacy-friendly is GA4?"
 image: https://assets.simpleanalytics.com/blog/socials/google-kill-universal-analytics.png
 lang: en
 ---
 
-[Google just announced](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) that it will phase out Universal Analytics in favor of G4 Analytics on July 1, 2023. This means that from this date, Universal Analytics will stop processing new hits. Universal Analytics 360 properties will still be available until October 1, 2023.
+[Google just announced](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) that it will sunset Universal Analytics in favor of G4 Analytics. This is a huge blow for marketeers that have relied on the current version for a long time. Is this the right time to switch or is G4 Aanltyics worth it? 
+
+It will begin to sunset universal analytics on July 1, 2023. This means that from this date, Universal Analytics will stop processing new hits. Universal Analytics 360 properties will still be available until October 1, 2023.
 
 After that, you are only able to access your data in Universal Analytics for six months.
 
-## Why is Google switching to G4 Analytics?
+## Why is Google to sunset Universal Analytics?
 
 In the announcement, Google states that G4 Analytics is "the new standard" in today's challenging business environment.
 
@@ -34,9 +36,9 @@ But is "the new standard" really up to standard when it comes to privacy-friendl
 
 ### IP Anonymization
 
-The first privacy-focused change to Universal Analytics is the anonymization of IP addresses by default.
+The first privacy-focused change, after the Universal Analytics sunset, is that IP address is anonymized by default.
 
-In the previous version of Google Analytics, the user IP was collected as a whole. You can anonymize IP-address in Universal Analytics as well by adding a tag. In G4 Analytics, the user IP is anonymized by default and cannot be changed back.
+In the Universal Analytics version, the user IP was collected as a whole. However, it is possible to anonymize IP-address in Universal Analytics as well by adding a tag. In G4 Analytics, the user IP is anonymized by default and cannot be changed back.
 
 Well, this sounds like an improvement from a compliance perspective, but it is not really impactful. Anonymized IP addresses are still considered to be personal data according to GDPR regulation. [See our blog post on this topic](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu).
 
@@ -98,7 +100,7 @@ As said before, Google doesn't offer tools to migrate data between the two types
 
 At Simple Analytics, we don't collect personal information. Therefore it doesn't matter much how long we keep the data. The data itself is not privacy invasive to its visitors it contains.
 
-## Looking for an alternative?
+## Looking for an alternative after the Google Analytics sunset?
 
 At [Simple Analytics](https://simpleanalytics.com/), we do things a bit differently. We are a two-person team that has built a privacy-first alternative to Google Analytics that uses no cookies or collects any personal data.
 
