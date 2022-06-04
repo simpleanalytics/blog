@@ -1,9 +1,9 @@
 ---
-title: Google penalizes you for using Google Analytics
+title: Google Analytics performance impact using Google Lighthouse
 author_slug: adriaan
 author: Adriaan van Rossum
 image: https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png
-excerpt: "Google is adding a page experience update to their search result ranking. What does this entail, and what impact does it have?"
+excerpt: "Google Analytics performance impact on your website tested using Lighthouse"
 redirect_from:
   - /stop-using-google-analytics-if-you-care-about-your-page-rank
   - /google-analytics-hurts-your-search-ranking
@@ -14,7 +14,7 @@ Google is adding a page experience update to their search result ranking. [They 
 <img loading="lazy" class="border-radius" src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="">
 <p class="caption">Comparison between using no analytics, Simple Analytics, and Google Analytics.</p>
 
-## Core Web Vitals
+## Core Web Vitals using Google Lighthouse
 
 An important change to the Google search results will be the impact of so-called Core Web Vitals metrics. These metrics ensure a better experience for the visitor. These Core Web Vitals contain three metrics:
 
