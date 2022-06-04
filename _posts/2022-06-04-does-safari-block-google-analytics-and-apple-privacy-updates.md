@@ -2,7 +2,7 @@
 title: "Does Safari block Google Analytics? And Apple's privacy updates"
 author_slug: iron
 author: Iron Brands
-excerpt: "Does Safari still work with Google Analytics after Apple's privacy updates? And what does the future hold.
+excerpt: "Does Safari still work with Google Analytics after Apple's privacy updates? And what does the future hold."
 image: https://blog.simpleanalytics.com/images/
 draft: true
 ---
