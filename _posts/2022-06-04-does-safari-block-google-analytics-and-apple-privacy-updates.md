@@ -22,7 +22,7 @@ Let's dive in!
 
 1.  Safari does not block Google Analytics by default.
 2.  Blocking third-party cookies vs. first-party cookies
-3.  The future of privacy updates
+3.  The impact of future of privacy updates
 4.  Why you should stop using Google Analytics
 
 ## 1. Safari does not block Google Analytics by default 
@@ -53,7 +53,7 @@ The Intelligent Tracking Prevention in Safari 14 blocks cross-site tracking, lim
 
 Safari does not block Google Analytics. However, Apple's "Privacy Report" started a privacy trend that is getting more and more steam. 
 
-## 3. The future of privacy updates
+## 3. The impact of future of privacy updates
 
 In the past year, we've [seen a crackdown on government bodies on the use of Google Analytics.](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling) Privacy laws like GDPR, PECR & CCPA are getting stronger by the day, and organizations seem to care more and more about running their business ethically.
 
