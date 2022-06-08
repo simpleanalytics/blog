@@ -3,7 +3,8 @@ title: "Does Safari block Google Analytics? And Apple's privacy updates"
 author_slug: iron
 author: Iron Brands
 excerpt: "Does Safari still work with Google Analytics after Apple's privacy updates? And what does the future hold."
-image: https://blog.simpleanalytics.com/images/
+image: https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/social-image-text.png
+image_no_text: https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/social-image-no-text.png
 draft: true
 ---
 
@@ -13,23 +14,23 @@ The new features caused some confusion among the attendants. From the presentati
 
 So what was the fuss all about again, and what privacy updates have been implemented since? And what If we are moving to a more privacy-friendly internet, new privacy updates seem inevitable as well. What will these future privacy updates have on the usability of tools like Google Analytics? 
 
-<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/safari-stop-tracking-privacy-report.png" alt="safari block google analytics" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/safari-stop-tracking-privacy-report.png" alt="Safari blocks Google Analytics" class="border-radius" />
 <p class="caption" markdown="1">
   Safari Privacy Report
 </p>
 
 Let's dive in!
 
-1.  Safari does not block Google Analytics by default.
-2.  Blocking third-party cookies vs. first-party cookies
-3.  The impact of future of privacy updates
-4.  Why you should stop using Google Analytics
+1.  [Safari does not block Google Analytics by default](#1-safari-does-not-block-google-analytics-by-default)
+2.  [Blocking third-party cookies vs. first-party cookies](#2-blocking-third-party-tracking-cookies)
+3.  [The impact of future of privacy updates](#3-the-impact-of-future-of-privacy-updates)
+4.  [Why you should stop using Google Analytics](#4-why-you-should-stop-using-google-analytics)
 
 ## 1. Safari does not block Google Analytics by default 
 
 With the "Privacy Report," Apple added a lot of new privacy features to help protect users from being tracked across the internet. In the presentation, Apple showed that Google Analytics was the most frequent blocked tracker. This made everyone assume that Safari is blocking Google Analytics from tracking website visitors by default. However, this was a false assumption, and the truth is more complicated.
 
-<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/does-google-block-safari.png" alt="Apple privacy report" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/does-google-block-safari.png" alt="Apple privacy report" class="border-radius" />
 <p class="caption" markdown="1">
   Apple Privacy Report presentation
 </p>
@@ -52,6 +53,11 @@ If you want to freshen up your mind regarding first-party vs. third-party cookie
 The Intelligent Tracking Prevention in Safari 14 blocks cross-site tracking, limiting only portions in Google Analytics. Website owners have no trouble seeing their website analytics, as these are considered first-party cookies. Google Analytics still functions as an analytics platform, but you can't use it for retargeting and other features where you need cross-website tracking.
 
 Safari does not block Google Analytics. However, Apple's "Privacy Report" started a privacy trend that is getting more and more steam. 
+
+<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/social-image-no-text.png" alt="Safari blocks Google Analytics" class="border-radius" />
+<p class="caption" markdown="1">
+  The privacy battle, who will win?
+</p>
 
 ## 3. The impact of future of privacy updates
 
