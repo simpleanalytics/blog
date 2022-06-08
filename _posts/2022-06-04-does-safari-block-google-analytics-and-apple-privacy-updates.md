@@ -14,7 +14,7 @@ The new features caused some confusion among the attendants. From the presentati
 
 So what was the fuss all about again, and what privacy updates have been implemented since? And what If we are moving to a more privacy-friendly internet, new privacy updates seem inevitable as well. What will these future privacy updates have on the usability of tools like Google Analytics? 
 
-<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/safari-stop-tracking-privacy-report.png" alt="Safari blocks Google Analytics" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/privacy-report-marktplaats.png" alt="Safari blocks Google Analytics" class="border" style="border-color: #dbdbdb;" />
 <p class="caption" markdown="1">
   Safari Privacy Report
 </p>
@@ -30,7 +30,7 @@ Let's dive in!
 
 With the "Privacy Report," Apple added a lot of new privacy features to help protect users from being tracked across the internet. In the presentation, Apple showed that Google Analytics was the most frequent blocked tracker. This made everyone assume that Safari is blocking Google Analytics from tracking website visitors by default. However, this was a false assumption, and the truth is more complicated.
 
-<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/does-google-block-safari.png" alt="Apple privacy report" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/privacy-report-dropdown.png" alt="Apple privacy report" class="border-radius" />
 <p class="caption" markdown="1">
   Apple Privacy Report presentation
 </p>
