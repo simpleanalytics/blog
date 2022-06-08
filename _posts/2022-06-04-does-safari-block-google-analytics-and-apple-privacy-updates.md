@@ -5,7 +5,6 @@ author: Iron Brands
 excerpt: "Does Safari still work with Google Analytics after Apple's privacy updates? And what does the future hold."
 image: https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/social-image-text.png
 image_no_text: https://assets.simpleanalytics.com/blog/does-safari-block-google-analytics-and-apple-privacy-updates/social-image-no-text.png
-draft: true
 ---
 
 In June 2020, Apple launched a new 'Privacy Report' during their first digital [WWDC event](https://insiderpaper.com/apple-wwdc-livestream-online-start-time-watch/). This included new privacy guidelines and a summary of the number of trackers that would be blocked in Safari (an Apple product) on iOS, Big Sur, and iPadOS.
