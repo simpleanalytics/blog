@@ -1,5 +1,5 @@
 ---
-title: Why Simple Analytics is a great alternative to Google Analytics
+title: Simple Analytics as an alternative to Google Analytics
 author_slug: iron
 author: Iron Brands
 excerpt: "What are the differences between Simple Analytics and Google Analytics, and why is Simple Analytics a great alternative."
