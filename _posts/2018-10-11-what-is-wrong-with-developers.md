@@ -1,5 +1,5 @@
 ---
-title: What is wrong with developers and why Simple Analytics is my first successful project
+title: Why Simple Analytics is my first successful project
 author_slug: adriaan
 author: Adriaan van Rossum
 ---
