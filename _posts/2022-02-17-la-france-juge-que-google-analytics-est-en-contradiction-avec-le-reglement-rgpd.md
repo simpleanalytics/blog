@@ -1,5 +1,5 @@
 ---
-title: "Le deuxième domino tombe : La France juge que Google Analytics est en contradiction avec le règlement RGPD"
+title: "La France juge que Google Analytics est en contradiction avec RGPD"
 author_slug: iron
 author: Iron Brands
 excerpt: "La Commission Nationale de l’Informatique et des Libertés (CNIL) a fait une annonce fracassante la semaine dernière : l’utilisation de Google Analytics est en contradiction avec la réglementation RGPD."
