@@ -1,5 +1,5 @@
 ---
-title: "The second domino falls: France rules Google Analytics to be in conflict with GDPR ruling"
+title: "Google Analytics violates GDPR law in France"
 author_slug: iron
 author: Iron Brands
 excerpt: "CNIL rules the use of Google Analytics to be in conflict with GDPR. What does this mean for the future of web analytics?"
