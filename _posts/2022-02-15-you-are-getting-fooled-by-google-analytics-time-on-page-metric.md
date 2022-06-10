@@ -1,5 +1,5 @@
 ---
-title: You are getting fooled by Google Analytics' time on page metric
+title: Google Analytics' time on page metric is flawed
 author_slug: iron
 author: Iron Brands
 excerpt: "Time on page is an important metric to track. But have you ever wondered how google comes up with the data in your dashboard?"
