@@ -1,5 +1,5 @@
 ---
-title: Does Google Analytics Still Work With Apple’s iOS14 & Big Sur? Here’s Everything You Need To Know
+title: Does Google Analytics still work with Apple’s iOS14 & Big Sur?
 author_slug: tim
 badge: "Apple"
 author: Tim de Nood
