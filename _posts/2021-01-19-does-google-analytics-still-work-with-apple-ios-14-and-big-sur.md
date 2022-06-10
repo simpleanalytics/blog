@@ -3,6 +3,7 @@ title: Does Google Analytics still work with Apple’s iOS14 & Big Sur?
 author_slug: tim
 badge: "Apple"
 author: Tim de Nood
+excerpt: Apple announcement a privacy report that will block Google Analytics
 image: /images/apple/safari-throws-trackers-off-your-trail.png
 ---
 
