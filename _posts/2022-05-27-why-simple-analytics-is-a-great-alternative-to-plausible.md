@@ -1,5 +1,5 @@
 ---
-title: "Why Simple Analytics is a great alternative to Plausible"
+title: "Simple Analytics as an alternative to Plausible"
 author_slug: iron
 author: Iron Brands
 excerpt: "Comparison blog between Simple Analytics and Plausible and why Simple Analytics is a great alternative to Plausible."
