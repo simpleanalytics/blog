@@ -1,7 +1,8 @@
 ---
-title: How the internet ended up in this privacy mess (and how we can eventually get out of it)
+title: How the internet ended up in a privacy mess
 author_slug: tim
 author: Tim de Nood
+excerpt: The internet ended up in a privacy mess. How do we get out of it?
 image: https://assets.simpleanalytics.com/blog/how-the-internet-ended-up-in-this-privacy-mess/big-brother.jpg
 excerpt: "Your behavior is being tracked around the internet. Why do we let this happen? And what can we do about it?"
 ---
