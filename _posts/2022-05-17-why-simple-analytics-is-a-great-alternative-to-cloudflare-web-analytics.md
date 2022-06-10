@@ -1,5 +1,5 @@
 ---
-title: Why Simple Analytics is a great alternative to Cloudflare Web Analytics
+title: Simple Analytics as an alternative to Cloudflare Analytics
 author_slug: iron
 author: Iron Brands
 excerpt: What are the differences between Simple Analytics and Cloudflare Web Analytics, and why Simple Analytics is a great alternative.
