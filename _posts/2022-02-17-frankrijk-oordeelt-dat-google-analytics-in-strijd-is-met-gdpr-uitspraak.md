@@ -1,5 +1,5 @@
 ---
-title: "De tweede domino valt: Frankrijk oordeelt dat Google Analytics in strijd is met GDPR-uitspraak"
+title: "Google Analytics is in strijd met GDPR wetgeving in Frankrijk"
 author_slug: iron
 author: Iron Brands
 excerpt: "De Franse autoriteit voor gegevensbescherming (CNIL) heeft vorige week met de vuist op tafel geslagen: Het gebruik van Google Analytics is in strijd met de GDPR-regelgeving."
