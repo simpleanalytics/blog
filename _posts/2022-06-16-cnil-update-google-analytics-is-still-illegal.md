@@ -26,8 +26,7 @@ The Q&A CNIL explicitly mentioned that using Google Analytics still violates GDP
 
 In the article at hand, we break down the statements made by CNIL during the Q&A session.
 
-{% include gif.html slug="5-year-old" alt="5 year old" width="480" height="400" color="#574840" %}
-
+{% include gif.html slug="five-year-old" alt="five year old" width="480" height="400" color="#574840" %}
 
 1.  Schrems II and the violation of Privacy Shield 1.0
 2.  Privacy Shield 2.0 update
