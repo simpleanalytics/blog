@@ -52,19 +52,25 @@ When you want to delete a Google Analytics property, like a website, follow thes
 
 In the account overview, you can navigate to the Admin section by clicking on the icon at the left bottom of your screen. 
 
-![](https://lh4.googleusercontent.com/e8jZaEqDt81p-GVpGZGPJdcXnk0blII7eyz5FnguI4xOqcv7NK2Y466_WqPCc1CYgLUy4s3wMWupFIN5Ucao-Lw2CnnrEWvaoxcEkDcHcRDO9Y7PLDIYobZjAWrSbzcwt6JVKw-mi0Hpc6Nbeg)
+<img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/google-analytics-admin.png" alt="delete google analytics" class="border" />
+<p class="caption" markdown="1">
+</p>
 
 ### 1.2  Go to property settings
 
 When you open the admin section, you can choose between account, property, and view. We want to delete a website, so we navigate to property settings. 
 
-![](https://lh4.googleusercontent.com/sqDQ5_W92MJsDisrLngaP4Zf5GenBZXGw0RwwpfmgCgCD1z6yJY9aTCp7R3KQEZOsRspEmUBxmUdWfMhHMUqOeNc3QMCPcTHO6MpnYFRCEfCz_NgsWgcUUW4MVH0pX3V7zb7GGl2C-95WhLDTA)
+<img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/google-analytics-property-settings.png" alt="delete google analytics property" class="border" />
+<p class="caption" markdown="1">
+</p>
 
 ### 1.3  Select the property and move to trash
 
 Your website is now in trash. You (and others with the permission to manage users) will get notified by email that your website will be deleted.
 
-![](https://lh5.googleusercontent.com/RdKVJZ5mwwzpYgKfhwBk692SBPALPbp3E9_8_0_ATm7NxBHNKYGr1mbCXWRGP80SqAYn6TLybjMLyo4HvTQzUOgWNyDQNg4KOg86elTV7w5cheXAexdL0Xr4hdWmsBkype3kuRmcdj7wi4y9wg)
+<img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/google-analytics-move-to-bin.png" alt="delete google analytics website" class="border" />
+<p class="caption" markdown="1">
+</p>
 
 ### 1.4  Remove code from your website
 
@@ -79,7 +85,9 @@ If you want to restore your Google Analytics data, follow these two steps:
 -   Login into Google Analytics and navigate again to the Admin section left bottom
 -   In the admin section, under Account, you will see a trash can. Click on the trash can and restore the property you want to restore.
 
-![](https://lh6.googleusercontent.com/2t36eEcZFh60g-z-0p_MiKsA8NMV1L872OZgvYEpjVF0Bbs-oJY88nvH9IagfMa2foTWufsrEFXG4Fcb1LKEKbZxQ8vJ2Vgx0Jvve7cc--TkR-5rFEhyHrlgXDLtYKPJ-w_-S-uLAt1ue_2F0g)
+<img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/google-analytics-delete-account.png" alt="restore google analytics" class="border" />
+<p class="caption" markdown="1">
+</p>
 
 ## 3.  Delete Google Analytics altogether
 
