@@ -7,21 +7,6 @@ image: https://assets.simpleanalytics.com/blog/2022-french-data-protection-updat
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
-On the 7th of June, CNIL, the French data protection watchdog, [issued a Q&A](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/questions-reponses-sur-les-mises-en-demeure-de-la-cnil-concernant-lutilisation-de-google-analytics) on the use of Google Analytics. This follows up on the statements made earlier this year in which CNIL ruled the use of Google Analytics violated GDPR ([here](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply)).
-
-Since then, the EU and U.S. have announced a privacy shield 2.0. You can find these statements [here](https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_21_1443) (EU) and [here](https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/03/25/remarks-by-president-biden-and-european-commission-president-ursula-von-der-leyen-in-joint-press-statement/) (US). [We've written](https://blog.simpleanalytics.com/eu-us-privacy-shield-2-0-is-again-a-political-show) about the fact that this is not an agreement with legal merit, and CNIL seems to agree.
-
 The Q&A CNIL explicitly mentioned that using Google Analytics still violates GDPR. In addition, it stated that there are no circumstances under which this is not the case.
 
 In the article at hand, we break down the statements made by CNIL during the Q&A session.
