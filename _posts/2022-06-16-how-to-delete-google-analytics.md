@@ -22,7 +22,7 @@ There's never been a better time to remove Google Analytics; let's dig in and fi
 
 Lets jump in! 
 
-## 1.  How to remove Google Analytics from your website
+# 1.  How to remove Google Analytics from your website
 
 Before showing you how to delete Google Analytics, we should touch upon the fact that there are multiple hierarchies in Google Analytics:
 
@@ -38,7 +38,7 @@ If you delete your Google Analytics account, any properties associated with that
 
 When you want to delete a Google Analytics property, like a website, follow these steps:
 
-### 1.1  Login into your Google Analytics account 
+## 1.1  Login into your Google Analytics account 
 
 In the account overview, you can navigate to the Admin section by clicking on the icon at the left bottom of your screen. 
 
@@ -46,7 +46,7 @@ In the account overview, you can navigate to the Admin section by clicking on th
 <p class="caption" markdown="1">
 </p>
 
-### 1.2  Go to property settings
+## 1.2  Go to property settings
 
 When you open the admin section, you can choose between account, property, and view. We want to delete a website, so we navigate to property settings. 
 
@@ -54,7 +54,7 @@ When you open the admin section, you can choose between account, property, and v
 <p class="caption" markdown="1">
 </p>
 
-### 1.3  Select the property and move to trash
+## 1.3  Select the property and move to trash
 
 Your website is now in trash. You (and others with the permission to manage users) will get notified by email that your website will be deleted.
 
@@ -62,11 +62,11 @@ Your website is now in trash. You (and others with the permission to manage user
 <p class="caption" markdown="1">
 </p>
 
-### 1.4  Remove code from your website
+## 1.4  Remove code from your website
 
 After you've deleted the website, make sure to remove the code from your website as well. If you are using a plugin, you can just disable the plugin to remove analytics. 
 
-## 2.  How to restore your Google Analytics data
+# 2.  How to restore your Google Analytics data
 
 It is possible to restore your data within 35 days if you change your mind. If the data is deleted permanently, you must start from scratch and set up a new Google Analytics account.
 
@@ -79,13 +79,13 @@ If you want to restore your Google Analytics data, follow these two steps:
 <p class="caption" markdown="1">
 </p>
 
-## 3.  Delete Google Analytics altogether
+# 3.  Delete Google Analytics altogether
 
 If you want to take it a step further and delete your Google Analytics account altogether, you can follow roughly the same steps as when deleting a property. The only difference is that to delete your account; you navigate to account instead of property.
 
 It should be clear how to remove Google Analytics (or a Google Analytics property) by now. If you are discontinuing your blog or website, the following part of this blog won't be of any direct interest to you; however, if you are deleting Google Analytics because you don't want to support the biggest data-devouring machine in the world. In that case, you might want to check out some privacy-friendly alternatives.
 
-## 4.  Import your Google Analytics data into a privacy-friendly alternative
+# 4.  Import your Google Analytics data into a privacy-friendly alternative
 
 There are other (privacy-friendlier) options for website analytics out there, built by companies that have chosen a different path from Google Analytics and opt for privacy. Simple Analytics is one of them. We are a small team of two taking on Google. It's a David vs. Goliath, but we believe [we are on the right end](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics).
 
