@@ -27,10 +27,10 @@ There's never been a better time to remove Google Analytics; let's dig in and fi
 
 ![](https://lh5.googleusercontent.com/rcKL_8vacZt3B-WOI0TymuChuEQU6nIHaK1zEJIdLJ2IIixdl2D4Q2T6obHc8UbIqsP3o6XKCSILcjSNBhM-fN8yvo0eCRqBUdsjuuw-_oEdMRX0W12UqhYEavsKbReTX2mGWOSiI5-KlgnO2Q)
 
-1.  How to remove Google Analytics from your website
-2.  How to restore your Google Analytics data
-3.  How to delete Google Analytics altogether
-4.  How to Import your Google Analytics data into a privacy-friendly alternative
+1.  [How to remove Google Analytics from your website](#1-how-to-remove-google-analytics-from-your-website)
+2.  [How to restore your Google Analytics data](#2-how-to-restore-your-google-analytics-data)
+3.  [How to delete Google Analytics altogether](#3-how-to-delete-google-analytics-altogether)
+4.  [How to Import your Google Analytics data into a privacy-friendly alternative](#4-how-to-import-your-google-analytics-data-into-a-privacy-friendly-alternative)
 
 Lets jump in! 
 
@@ -48,25 +48,25 @@ If you delete your Google Analytics account, any properties associated with that
 
 When you want to delete a Google Analytics property, like a website, follow these steps:
 
-### 1.  Login into your Google Analytics account 
+### 1.1  Login into your Google Analytics account 
 
 In the account overview, you can navigate to the Admin section by clicking on the icon at the left bottom of your screen. 
 
 ![](https://lh4.googleusercontent.com/e8jZaEqDt81p-GVpGZGPJdcXnk0blII7eyz5FnguI4xOqcv7NK2Y466_WqPCc1CYgLUy4s3wMWupFIN5Ucao-Lw2CnnrEWvaoxcEkDcHcRDO9Y7PLDIYobZjAWrSbzcwt6JVKw-mi0Hpc6Nbeg)
 
-### 2.  Go to property settings
+### 1.2  Go to property settings
 
 When you open the admin section, you can choose between account, property, and view. We want to delete a website, so we navigate to property settings. 
 
 ![](https://lh4.googleusercontent.com/sqDQ5_W92MJsDisrLngaP4Zf5GenBZXGw0RwwpfmgCgCD1z6yJY9aTCp7R3KQEZOsRspEmUBxmUdWfMhHMUqOeNc3QMCPcTHO6MpnYFRCEfCz_NgsWgcUUW4MVH0pX3V7zb7GGl2C-95WhLDTA)
 
-### 3.  Select the property and move to trash
+### 1.3  Select the property and move to trash
 
 Your website is now in trash. You (and others with the permission to manage users) will get notified by email that your website will be deleted.
 
 ![](https://lh5.googleusercontent.com/RdKVJZ5mwwzpYgKfhwBk692SBPALPbp3E9_8_0_ATm7NxBHNKYGr1mbCXWRGP80SqAYn6TLybjMLyo4HvTQzUOgWNyDQNg4KOg86elTV7w5cheXAexdL0Xr4hdWmsBkype3kuRmcdj7wi4y9wg)
 
-### 4.  Remove code from your website
+### 1.4  Remove code from your website
 
 After you've deleted the website, make sure to remove the code from your website as well. If you are using a plugin, you can just disable the plugin to remove analytics. 
 
