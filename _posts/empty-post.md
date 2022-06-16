@@ -3,7 +3,8 @@ title: "Title of the post"
 author_slug: iron
 author: Iron Brands
 excerpt: "Short description of the post"
-image: https://blog.simpleanalytics.com/images/
+image: https://assets.simpleanalytics.com/blog/2022-
+image_no_text: https://assets.simpleanalytics.com/blog/2022-
 draft: true
 ---
 
