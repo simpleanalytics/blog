@@ -27,7 +27,9 @@ Lets jump in!
 Before showing you how to delete Google Analytics, we should touch upon the fact that there are multiple hierarchies in Google Analytics:
 
 **Account**: There is at least one account through which you can see your analytics
+
 **Property**: This can be a website. An account can have multiple properties
+
 **View**: This can be a subdomain for a specific website.
 
 You may have multiple accounts with multiple properties that have multiple views. 
