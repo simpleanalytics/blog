@@ -25,7 +25,7 @@ In March this year, Google Analytics announced they would [sunset universal anal
 
 There's never been a better time to remove Google Analytics; let's dig in and find out how!
 
-![](https://lh5.googleusercontent.com/rcKL_8vacZt3B-WOI0TymuChuEQU6nIHaK1zEJIdLJ2IIixdl2D4Q2T6obHc8UbIqsP3o6XKCSILcjSNBhM-fN8yvo0eCRqBUdsjuuw-_oEdMRX0W12UqhYEavsKbReTX2mGWOSiI5-KlgnO2Q)
+{% include gif.html slug="follow-instructions" alt="follow instructions" width="480" height="270" color="#878074" %}
 
 1.  [How to remove Google Analytics from your website](#1-how-to-remove-google-analytics-from-your-website)
 2.  [How to restore your Google Analytics data](#2-how-to-restore-your-google-analytics-data)
