@@ -1,8 +1,8 @@
 ---
-title: "How to delete Google Analytics"
+title: "How to delete Google Analytics in four steps"
 author_slug: iron
 author: Iron Brands
-excerpt: "Follow these steps if you want to delete Google Analytics from your website"
+excerpt: "Follow these four steps if you want to delete Google Analytics from your website"
 image: https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/social-image.png
 draft: true
 ---
