@@ -3,7 +3,7 @@ title: "CNIL Update: Google Analytics is (still) illegal"
 author_slug: iron
 author: Iron Brands
 excerpt: "CNIL provided a Q&A on the statement made that Google Analytics violates GDPR"
-image: https://blog.simpleanalytics.com/images/
+image: https://assets.simpleanalytics.com/blog/2022-french-data-protection-update-google-analytics-is-still-illegal/social-image.png
 draft: true
 ---
 
