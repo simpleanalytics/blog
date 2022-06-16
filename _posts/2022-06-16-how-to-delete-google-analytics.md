@@ -7,7 +7,8 @@ image: https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analyti
 draft: true
 ---
 
-There are multiple reasons why you might want to delete your Google Analytics. Your website is not active anymore, or you have quit your blog, or maybe you want to switch to [another (privacy-friendly) analytics tool](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives).\
+There are multiple reasons why you might want to delete your Google Analytics. Your website is not active anymore, or you have quit your blog, or maybe you want to switch to [another (privacy-friendly) analytics tool](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives).
+
 In March this year, Google Analytics announced they would [sunset universal analytics](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) in favor of GA 4. In addition, EU privacy watchdogs have been cracking down on Google Analytics since the beginning of 2022. The [French authority CNIL stated](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) that Google Analytics violates GDPR law, and businesses using Google Analytics are, therefore, liable for a fine.
 
 There's never been a better time to remove Google Analytics; let's dig in and find out how!
