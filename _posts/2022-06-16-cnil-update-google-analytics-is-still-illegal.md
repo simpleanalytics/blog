@@ -34,7 +34,7 @@ Since then, the U.S and the EU have announced a political agreement that would r
 
 This was also noted by CNIL during their Q&A session last week. They specifically mentioned that the joint statement is not a legal framework and cannot be relied upon. CNIL expects it may not happen until the end of the year until a deal is finalized. However, when it's finalized, it will almost certainly face fresh legal challenges to see whether it is indeed not just as flawed as Privacy Shield 1.0. To give some perspective, Privacy Shield 1.0 was declared invalid in July 2020. It took until February 2022 for the DSB & CNIL to take proactive enforcement.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-french-data-protection-update-google-analytics-is-still-illegal/handcuffs-no-text.png" alt="CNIL Google Analytics update" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/2022-french-data-protection-update-google-analytics-is-still-illegal/handcuffs-no-text.png" alt="CNIL Google Analytics update" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
