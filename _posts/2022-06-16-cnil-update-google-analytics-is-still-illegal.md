@@ -13,10 +13,10 @@ In the article at hand, we break down the statements made by CNIL during the Q&A
 
 {% include gif.html slug="five-year-old" alt="five year old" width="480" height="400" color="#574840" %}
 
-1.  [Schrems II and the violation of Privacy Shield 1.0](#1-schrems-II-and-the-violation-of-privacy-shield-1.0)
-2.  [Privacy Shield 2.0 update](#2-privacy-shield-2.0-update)
-3.  [Conclusions from Q&A session CNIL](#3-conclusion-form-cnil-Q&A-session)
-4.  [Solutions](#4-solutions)
+1.  [Schrems II and the violation of Privacy Shield 1.0](#1--schrems-II-and-the-violation-of-privacy-shield-1.0)
+2.  [Privacy Shield 2.0 update](#2--privacy-shield-2.0-update)
+3.  [Conclusions from Q&A session CNIL](#3--conclusion-form-cnil-Q&A-session)
+4.  [Solutions](#4--solutions)
 
 Let's dig in!
 
@@ -38,7 +38,7 @@ This was also noted by CNIL during their Q&A session last week. They specificall
 <p class="caption" markdown="1">
 </p>
 
-## 3.  Conclusion form CNIL Q&A session
+## 3.  Conclusion from CNIL Q&A session
 
 According to the French data protection agency, the main conclusion from the Q&A session is that Google Analytics is still illegal. CNIL also confirmed to have issued formal notices to organizations between the first announcement in February and now. Businesses have one month to comply; otherwise, they will receive a fine.
 
