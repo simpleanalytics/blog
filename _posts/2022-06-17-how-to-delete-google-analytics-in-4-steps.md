@@ -4,7 +4,6 @@ author_slug: iron
 author: Iron Brands
 excerpt: "Follow these four steps if you want to delete Google Analytics from your website"
 image: https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/social-image.png
-draft: true
 ---
 
 There are multiple reasons why you might want to delete your Google Analytics. Your website is not active anymore, or you have quit your blog, or maybe you want to switch to [another (privacy-friendly) analytics tool](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives).
