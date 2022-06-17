@@ -15,10 +15,10 @@ There's never been a better time to remove Google Analytics; let's dig in and fi
 
 {% include gif.html slug="follow-instructions" alt="follow instructions" width="480" height="270" color="#878074" %}
 
-1.  [How to remove Google Analytics from your website](#1-how-to-remove-google-analytics-from-your-website)
-2.  [How to restore your Google Analytics data](#2-how-to-restore-your-google-analytics-data)
-3.  [How to delete Google Analytics altogether](#3-how-to-delete-google-analytics-altogether)
-4.  [How to Import your Google Analytics data into a privacy-friendly alternative](#4-how-to-import-your-google-analytics-data-into-a-privacy-friendly-alternative)
+1.  [How to remove Google Analytics from your website](#1--how-to-remove-google-analytics-from-your-website)
+2.  [How to restore your Google Analytics data](#2--how-to-restore-your-google-analytics-data)
+3.  [How to delete Google Analytics altogether](#3--how-to-delete-google-analytics-altogether)
+4.  [How to Import your Google Analytics data into a privacy-friendly alternative](#4--how-to-import-your-google-analytics-data-into-a-privacy-friendly-alternative)
 
 Lets jump in! 
 
