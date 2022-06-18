@@ -36,13 +36,13 @@ Let's find out 👇
 3.  [Cookieless web analytics vs. Cookie based web analytics](#3-cookieless-web-analytics-vs.-cookie-based-web-analytics)
 4.  [When should you consider a privacy-first alternative?](#4-when-should-you-consider-a-privacy-first-alternative)
 
-# 1. How does Google Analytics work?
+## 1. How does Google Analytics work?
 
 Google Analytics is by far the most used analytics tool on the planet. At least 86% of the websites that use an analytics tool use Google Analytics. It's a free tool, but it comes at a cost.
 
 To understand why Google Analytics has come under pressure lately, it's key to know how it works and what implications it brings.
 
-## 1.1 Does Google Analytics use cookies?
+### 1.1 Does Google Analytics use cookies?
 
 If you install Google Analytics to track your website performance, you need to set first-party cookies to:
 
@@ -74,13 +74,13 @@ The unique identifier consists of two parts. The first part is a randomly genera
 
 Whenever someone visits a website, Google Analytics looks for the cookie, which is provided by the web browser. If there is a cookie stored, Google knows that the visitor is not unique. If Google can't find a cookie, it means it's a first-time visitor that visited the website. This is how Google Analytics distinguishes between unique visitors and pageviews.
 
-## 1.2 Is Google Analytics using first or third-party cookies?
+### 1.2 Is Google Analytics using first or third-party cookies?
 
 Google Analytics uses first-party cookies. The difference is that first-party cookies are only issued when the user is directly using the website. The website that issues the cookies is also to only one that can read them.
 
 In contrast, third-party cookies are issued by other websites than the one you are visiting. They are mainly used for remarketing purposes.  If you see ads from a website you visited in the past, it means that third-party cookies are tracking you.
 
-## 1.3 How long do Google Analytics cookies last?
+### 1.3 How long do Google Analytics cookies last?
 
 Both first and third-party cookies can be used with or without an expiration date. Cookies that are set with an expiration date are called persistent cookies. They stay on your device even after you close the web browser. Cookies without expiration date are called temporary cookies and are removed after you end your web session.
 
@@ -96,7 +96,7 @@ You can also change it in Google Tag Manager, which is even easier:
 -   Open *Fields to Set*
 -   Click on: *Add Field* and fill out the two fields below. Indicate 31536000 in the value box to change the duration to one year.
 
-## 1.4 Do you need a cookie banner when using Google Analytics?
+### 1.4 Do you need a cookie banner when using Google Analytics?
 
 According to GDPR, websites need to get consent from those visitors to store a cookie on their device. When you install Google Analytics, you need to show a cookie banner to ask for consent. To ensure Google Analytics works in compliance with privacy regulations, you need to take the following steps:
 
@@ -118,11 +118,11 @@ This is true for Google Analytics and for every web analytics tool that uses coo
 
 More and more people become aware that they are being tracked around the internet, meaning that it is very likely that fewer people will give consent. This results in less accurate data.
 
-## 1.5 Do you need to include Google Analytics cookies in your privacy policy
+### 1.5 Do you need to include Google Analytics cookies in your privacy policy
 
 If your website issues Google Analytics cookies, you need to include this in your privacy policy. By law, you must be transparent about the cookies your website issues. If third-party cookies are issued, you need to address this separately in your privacy policy. It is also against Google's terms & conditions not to disclose that you are using cookies. If this is not addressed in your privacy policy, you illegally use Google Analytics.
 
-## 1.6 Can you use Google Analytics without cookies?
+### 1.6 Can you use Google Analytics without cookies?
 
 The short answer: Yes, you can (while still not being compliant with GDPR-regulation)
 
@@ -134,13 +134,13 @@ If you are looking for website analytics without cookies, you should probably lo
 
 {% include gif.html slug="mr-bean-eyebrows" alt="Rowan Atkinson as Mr. Bean with his classic eyebrows" width="150" height="135" color="#6e625f" %}
 
-# 2. Website analytics without cookies
+## 2. Website analytics without cookies
 
 The biggest difference between website analytics with cookies and website analytics without cookies is the trade-off between privacy and data:
 
 The deeper you want to analyze on the individual level, the less-privacy-friendly you will need to be.
 
-## 2.1 What data does Simple analytics collect?
+### 2.1 What data does Simple analytics collect?
 
 At Simple Analytics, we lean heavily towards the privacy side of the trade-off.
 
@@ -154,7 +154,7 @@ I hear you think... "This sounds good, but what data will I be missing? Can you 
 
 Well... Yes, you can, but don't just take my word for it. [See for yourself](https://simpleanalytics.com/welcome).
 
-## 2.2 How do we identify unique visitors?
+### 2.2 How do we identify unique visitors?
 
 We have to be honest here. [Calculating unique visitors](https://docs.simpleanalytics.com/explained/unique-visits) is a lot more difficult without cookies. As explained earlier in this post, Google Analytics can spot a unique visitor based on the fact if it has already placed a cookie or not.
 
@@ -172,7 +172,7 @@ When a user lands on your website without visiting another website, we record it
 
 ![](https://docs.simpleanalytics.com/images/direct-visit.jpg)
 
-## 2.3 Can you still track events?
+### 2.3 Can you still track events?
 
 It is one of the most common questions we get. With Simple Analytics, it is still possible to track event counts. It is based on aggregate data, meaning that we can't collect data on individuals triggering the event.
 
@@ -180,7 +180,7 @@ You can add our automated events script or add your custom events to see your ev
 
 In addition, you can still use URL Parameters to see where your traffic is coming from. For example, if you want to see the traffic to a blog post or newsletter.
 
-# 3 Cookieless web analytics vs. Cookie-based web analytics
+## 3. Cookieless web analytics vs. Cookie-based web analytics
 
 The general take on cookieless web analytics tools is that you trade more privacy for fewer data. This is true because you collect fewer data points. However, it does not necessarily mean that analytics without cookies is less accurate. [Cookie-based web analytics tools are not bulletproof.](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics)
 
@@ -210,7 +210,7 @@ After removing their cookies, Google Analytics will mistakenly report returning 
 
 Multiple browsers such as Safari and Brave [don't allow the use of third-party cookies](https://blog.simpleanalytics.com/what-are-internet-cookies), and even Google Chrome will stop supporting third-party cookies in 2023. Brave is a new kid on the block and identifies itself as the "anti-advertising" browser." Brave users can block ads and first-party cookies as well. It currently has [50 million monthly active users](https://brave.com/2021-recap/) and is growing rapidly. Another indication that the future will be cookieless.
 
-# 4. When should you consider a privacy-first web analytics tool?
+## 4. When should you consider a privacy-first web analytics tool?
 
 Ask yourself the question, what data do you really need? Do you need to track every individual move of a website visitor? If that's the case, Simple Analytics might not be your tool.
 
