@@ -9,7 +9,7 @@ redirect_from:
   - /google-analytics-hurts-your-search-ranking
 ---
 
-Google is adding a page experience update to their search result ranking. [They recently announced](https://developers.google.com/search/blog/2021/04/more-details-page-experience) it would roll out in mid-June and finished at the end of August. In this blog post, we will explain what that entails and that Simple Analytics has your back.
+Google is adding a page experience update to their search result ranking. [They recently announced](https://developers.google.com/search/blog/2021/04/more-details-page-experience) it would roll out in mid-June and finished at the end of August. In this blog post, we the performance impact of using Google Analytics vs. using no analytics vs. using Simple Analytics.
 
 <img loading="lazy" class="border-radius" src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="">
 <p class="caption">Comparison between using no analytics, Simple Analytics, and Google Analytics.</p>
