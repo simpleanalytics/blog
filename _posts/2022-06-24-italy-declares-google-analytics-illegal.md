@@ -4,7 +4,7 @@ author_slug: iron
 author: Iron Brands
 excerpt: "The Italian data protection authority declared the use of Google Analytics in violation with GDPR law"
 image: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media.png
-image_no_text: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media-no-text.png
+image_no_text: https://simpleanalyticsassets.b-cdn.net/blog/2022-italy-bans-google-analytics/social-media-no-text.png
 draft: true
 ---
 
@@ -40,10 +40,10 @@ It seems that more and more E.U. states are coming to the same conclusion: Googl
 
 {% include gif.html slug="oh-my-god" alt="oh my god" width="480" height="400" color="695957" %}
 
-1.  [Italy bans Google Analytics](#1-italy-bans-google-analytics)
-2.  [CNIL Q&A guidelines on Google Analytics](#2-cnil-q&a-guidelines-on-google-analytics)
-3.  [Privacy Shield 2.0](#3-privacy-shield-2.0)
-4.  [What does the future hold?](#4-what-does-the-future-hold?)
+1.  [Italy bans Google Analytics](#1--italy-bans-google-analytics)
+2.  [CNIL Q&A guidelines on Google Analytics](#2--cnil-q&a-guidelines-on-google-analytics)
+3.  [Privacy Shield 2.0](#3--privacy-shield-2.0)
+4.  [What does the future hold?](#4--what-does-the-future-hold?)
 
 Let's dive in!
 
