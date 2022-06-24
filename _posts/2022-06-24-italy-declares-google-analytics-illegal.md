@@ -5,7 +5,6 @@ author: Iron Brands
 excerpt: "The Italian data protection authority declared the use of Google Analytics in violation with GDPR law"
 image: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media-no-text.png
-draft: true
 ---
 
 Italy has become the third country to ban Google Analytics officially. The news broke today after a careful examination concluded that Google Analytics violated GDPR law. You can find the statement [here](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english).
