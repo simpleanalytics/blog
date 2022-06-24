@@ -4,7 +4,7 @@ author_slug: iron
 author: Iron Brands
 excerpt: "The Italian data protection authority declared the use of Google Analytics in violation with GDPR law"
 image: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media.png
-image_no_text: https://simpleanalyticsassets.b-cdn.net/blog/2022-italy-bans-google-analytics/social-media-no-text.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media-no-text.png
 draft: true
 ---
 
@@ -59,6 +59,11 @@ The main reason for introducing the GDPR law in 2018 is to safeguard the privacy
 In declaring that the processing was unlawful, Garante stated that IP addresses were processed by Google and thus consisted of transferring personal data. Even if it were truncated, it would not become anonymous data, given Google's ability to enrich it with other data in its possession.
 
 This is a very important nuance. It means that even if you anonymize IP addresses (like GA4 or Matomo), it's still considered personal data.
+
+<img src="https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media-no-text.png" alt="Italy bans Google Analytics" class="border-radius" />
+<p class="caption" markdown="1">
+  The next domino is falling, Italy bans Google Analytics
+</p>
 
 ## 2.  CNIL Q&A Guidelines on Google Analytics
 
