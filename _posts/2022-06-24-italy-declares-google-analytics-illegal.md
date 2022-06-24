@@ -13,24 +13,23 @@ Italy has become the third country to ban Google Analytics officially. The news 
 <details markdown="1">
 <summary>See the full article here</summary>
 
-
-## Italian SA bans use of Google Analytics
-
-### No adequate safeguards for data transfers to the USA
-
-A website using Google Analytics (GA) without the safeguards set out in the EU GDPR violates data protection law because it transfers users’ data to the USA, which is a country without an adequate level of data protection.
-
-The Italian SA came to this conclusion after a complex fact-finding exercise it had started in close coordination with other EU data protection authorities following complaints it had received. The Italian SA found that the website operators using GA collected, via cookies, information on user interactions with the respective websites, visited pages and services on offer. The multifarious set of data collected in this connection included the user device IP address along with information on browser, operating system, screen resolution, selected language, date and time of page viewing. This information was found to be transferred to the USA. In determining that the processing was unlawful, the Italian SA reiterated that an IP address is a personal data and would not be anonymised even if it were truncated – given Google’s capabilities to enrich such data through additional information it holds.
-
-Based on the above findings, the Italian SA adopted a decision, to be followed by additional ones, reprimanding Caffeina Media S.r.l. – a website operator – and ordering it to bring the processing into compliance with the GDPR by ninety days. This deadline was considered to be appropriate in order to allow the operator to implement adequate measures in connection with the data transfer; if this is found not to be the case, suspension of the GA-related data flows to the USA will be ordered.
-
-The Italian SA highlighted, in particular, that US-based governmental and intelligence agencies may access the personal data being transferred without the required safeguards; it pointed out in this regard that the measures adopted by Google to supplement the data transfer instruments did not ensure an adequate level of protection for users’ personal data in the light of the guidance provided by the EDPB through its Recommendations No 1/2020 of 18 June 2021.
-
-The Italian SA wishes to draw the attention of all the Italian website operators, both public and private, to the unlawfulness of the data transfers to the USA as resulting from the use of GA – partly on account of the many alerts and queries received so far. The Italian SA calls upon all controllers to verify that the use of cookies and other tracking tools on their websites is compliant with data protection law; this applies in particular to Google Analytics and similar services.
-
-Upon expiry of the 90-day deadline set out in its decision, the Italian SA will check that the data transfers at issue are compliant with the EU GDPR, including by way of ad-hoc inspections.
-
-Rome, 23 June 2022
+> ## Italian SA bans use of Google Analytics
+> 
+> ### No adequate safeguards for data transfers to the USA
+> 
+> A website using Google Analytics (GA) without the safeguards set out in the EU GDPR violates data protection law because it transfers users' data to the USA, which is a country without an adequate level of data protection.
+> 
+> The Italian SA came to this conclusion after a complex fact-finding exercise it had started in close coordination with other EU data protection authorities following complaints it had received. The Italian SA found that the website operators using GA collected, via cookies, information on user interactions with the respective websites, visited pages and services on offer. The multifarious set of data collected in this connection included the user device IP address along with information on browser, operating system, screen resolution, selected language, date and time of page viewing. This information was found to be transferred to the USA. In determining that the processing was unlawful, the Italian SA reiterated that an IP address is a personal data and would not be anonymised even if it were truncated – given Google’s capabilities to enrich such data through additional information it holds.
+> 
+> Based on the above findings, the Italian SA adopted a decision, to be followed by additional ones, reprimanding Caffeina Media S.r.l. – a website operator – and ordering it to bring the processing into compliance with the GDPR by ninety days. This deadline was considered to be appropriate in order to allow the operator to implement adequate measures in connection with the data transfer; if this is found not to be the case, suspension of the GA-related data flows to the USA will be ordered.
+> 
+> The Italian SA highlighted, in particular, that US-based governmental and intelligence agencies may access the personal data being transferred without the required safeguards; it pointed out in this regard that the measures adopted by Google to supplement the data transfer instruments did not ensure an adequate level of protection for users’ personal data in the light of the guidance provided by the EDPB through its Recommendations No 1/2020 of 18 June 2021.
+> 
+> The Italian SA wishes to draw the attention of all the Italian website operators, both public and private, to the unlawfulness of the data transfers to the USA as resulting from the use of GA – partly on account of the many alerts and queries received so far. The Italian SA calls upon all controllers to verify that the use of cookies and other tracking tools on their websites is compliant with data protection law; this applies in particular to Google Analytics and similar services.
+> 
+> Upon expiry of the 90-day deadline set out in its decision, the Italian SA will check that the data transfers at issue are compliant with the EU GDPR, including by way of ad-hoc inspections.
+> 
+> Rome, 23 June 2022
 
 </details>
 
@@ -41,9 +40,9 @@ It seems that more and more E.U. states are coming to the same conclusion: Googl
 {% include gif.html slug="oh-my-god" alt="oh my god" width="480" height="400" color="695957" %}
 
 1.  [Italy bans Google Analytics](#1--italy-bans-google-analytics)
-2.  [CNIL Q&A guidelines on Google Analytics](#2--cnil-q&a-guidelines-on-google-analytics)
-3.  [Privacy Shield 2.0](#3--privacy-shield-2.0)
-4.  [What does the future hold?](#4--what-does-the-future-hold?)
+2.  [CNIL Q&A guidelines on Google Analytics](#2--cnil-qa-guidelines-on-google-analytics)
+3.  [Privacy Shield 2.0](#3--privacy-shield-20)
+4.  [What does the future hold?](#4--what-does-the-future-hold)
 
 Let's dive in!
 
