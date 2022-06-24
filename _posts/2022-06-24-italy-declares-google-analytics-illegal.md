@@ -4,7 +4,7 @@ author_slug: iron
 author: Iron Brands
 excerpt: "The Italian data protection authority declared the use of Google Analytics in violation with GDPR law"
 image: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media.png
-image_no_text: https://simpleanalyticsassets.b-cdn.net/blog/2022-italy-bans-google-analytics/social-media-no-text.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media-no-text.png
 draft: true
 ---
 
