@@ -3,21 +3,9 @@ title: "Italy declares Google Analytics illegal"
 author_slug: iron
 author: Iron Brands
 excerpt: "The Italian data protection authority declared the use of Google Analytics in violation with GDPR law"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media.png
 draft: true
 ---
-
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
 
 Italy has become the third country to ban Google Analytics officially. The news broke today after a careful examination concluded that Google Analytics violated GDPR law. You can find the statement [here](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english).
 
@@ -27,7 +15,7 @@ This news only comes a week after CNIL (French Data Protection Agency) [publishe
 
 It seems that more and more E.U. states are coming to the same conclusion: Google Analytics is illegal.
 
-![](https://lh3.googleusercontent.com/pCjqaWTP0_VptMr2fRDVjWlmdb5vWDV-LqNSPbQw2tIweudaRbl0h7-PfRTFV9A_C144mKtm69C40y6-nTl9YYegsR18HdvjXP_svDyrM7foojsiQBr0eqc7JQg4ttFxwra6ADC4KucZivzSaw)
+{% include gif.html slug="oh-my-god" alt="oh my god" width="480" height="400" color="695957" %}
 
 1.  Italy bans Google Analytics
 2.  CNIL Q&A guidelines on Google Analytics
