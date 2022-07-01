@@ -4,7 +4,7 @@ author_slug: adriaan
 author: Adriaan van Rossum
 image: /images/2020-privacy-tips/daria-nepriakhina-all-we-need-is-likes.jpg
 excerpt: "As the founder of a privacy-first analytics tool, I'm sharing my practical privacy tips for your business."
-last_modified_at: "2022-03-01T01:00Z"
+last_modified_at: "2022-07-01T10:04Z"
 ---
 
 As the founder of [Simple Analytics](https://simpleanalytics.com), I'm running into privacy issues while building our product. Based on those learnings I would like to show you some practical tips to improve the privacy of your visitors. Some of the tips seem very logical but can be hard to implement. That's why I have provided examples with every tip so you or your team can apply them without doing all the research.
@@ -530,6 +530,30 @@ Personally identifiable information (PII) is information that, when used alone o
 This part is rather technical so bear with me. If you are a manager please forward this to your developers. IP anonymization is the most logical thing to do on your servers when talking about privacy. Yet, there are not that many examples of how to do it. A lot of the processes (applications) on your servers log data. For example, _NGINX_ logs data about every request that comes in by default (it's customizable, however). This is great for debugging but it's less good for the privacy of your users. With _NGNIX_ you can't format the error logs so it will always error in the same format. This is very privacy-unfriendly because it contains the full IP address of the user and usually the User-Agent (which can contain unclear identifiers when using the Facebook app).
 
 > You can probably guess a few of the elements of this Facebook User-Agent suffix but it's not all clear to me: `[FBAN/FBIOS;FBAV/221.0.0.0.0;FBBV/154514034;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/12.3.0;FBSS/3;FBCR/Siminn;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/155138002]` It does not look like they are tracking their users via the User-Agent suffix, but they tamper with the User-Agent, at least.
+
+### Disable IP logging in HAProxy
+
+To create your own logging for both error and normal log messages, you can customize your log format. It's best explained on the [haproxy.com blog](https://www.haproxy.com/blog/haproxy-log-customization/). See our code example for how we log:
+
+<details markdown="1">
+<summary>Config to disable IP logging in HAProxy</summary>
+
+```bash
+defaults
+  # Docs about log-format see https://www.haproxy.com/blog/haproxy-log-customization/
+  # Terminate states: https://cbonte.github.io/haproxy-dconv/2.5/configuration.html#8.5
+  log-format "%si:%sp server: %s backend: %b code: %ST terminate: %ts"
+  log global
+```
+
+An example output:
+
+```
+"%si:%sp server: %s backend: %b code: %ST terminate: %ts"
+192.168.0.1:3000 server: sever_name backend: backend-name code: 0 terminate: CD
+```
+
+</details>
 
 ### Filters in syslog
 
