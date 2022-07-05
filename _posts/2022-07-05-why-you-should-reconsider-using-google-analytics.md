@@ -7,17 +7,6 @@ image: https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-an
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 There was a time when Google was a quirky startup-founded by two Stanford grads who operated out of a garage, working day and night to get their company off the ground. The company was initially called Backrub and had one product that blew all competition out of the water. Google is the perfect startup story that led to building on the most influential businesses of all time.
 
 Today Google is a multi-mega corporation. It's a data-devouring monster and the embodiment of the internet-era mantra: "Data is the new gold."
