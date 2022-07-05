@@ -33,7 +33,7 @@ Here is why I believe most of us can live without Google Analytics.
     1.  [Google is sunsetting Universal Analytics in favor of GA4](#11-google-is-sunsetting-universal-analytics-in-favor-of-ga4)
     1.  [Google Analytics privacy issues](#12-google-analytics-privacy-issues)
 2. [Why you should remove Google Analytics](#2--why-you-should-remove-google-analytics)
-    2.  [Google Analytics is an overly complex analytics tool](#21-google-analytics-is-a-complex-analytics-tool)
+    2.  [Google Analytics is an overly complex analytics tool](#21-google-analytics-is-an-overly-complex-analytics-tool)
     2.  [Cookie banners hinder your website UX](#22-cookie-banners-hinder-your-website-ux)
     2.  [Google Analytics affects your website performance](#23-google-analytics-affects-your-website-performance)
     2.  [Google Analytics data is inaccurate](#24-google-analytics-data-is-inaccurate)
