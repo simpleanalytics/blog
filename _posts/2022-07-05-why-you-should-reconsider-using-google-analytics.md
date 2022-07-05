@@ -27,7 +27,22 @@ And their demands are being heard. EU member states are showing their teeth by b
 
 Google Analytics is one of the best free tools Google has ever created. 55% Of the existing websites use an analytics tool, and [85%](https://w3techs.com/technologies/overview/traffic_analysis) of those use Google Analytics. It is the default analytics tool for the internet, but with the privacy issues going on and the change to GA4, I asked myself this question: Do I really need Google Analytics?
 
-Here is why I believe most of us can live without Google Analytics. Let's dive in!
+Here is why I believe most of us can live without Google Analytics. 
+
+1. Why now?
+  1.1 Google is sunsetting Universal Analytics in favor of GA4
+  1.2 Google Analytics privacy issues
+2. Why you should remove Google Analytics 
+  2.1 Google Analytics is an overly complex analytics tool
+  2.2 Cookie banners hinder your website UX
+  2.3 Google Analytics affects your website performance
+  2.4 Google Analytics data is inaccurate
+  2.5 Google Analytics requires a lengthy Privacy policy
+  2.6 Stop collecting everything for the sake of collecting data
+  2.7 Let users know you care about their privacy
+  2.8 Be part of the solution, not the problem
+
+We're covering a lot of ground so let's dive in!
 
 ## 1.  Why now?
 
@@ -66,7 +81,7 @@ Above, we explained the 'why now.' In the second part, we'll explain the 'why.'
 
 Google has been the default analytics tool since the existence of analytics tools. Everyone from the smallest blogger website to fortune 500 companies use Google Analytics. It seems odd that one product is the best fit for so many different use cases. Here is why I believe it might not be the right fit for all of us.
 
-### 2.1 Google Analytics is a complex analytics tool
+### 2.1 Google Analytics is an overly complex analytics tool
 
 Google Analytics is an overly complex tool that welcomes you with multiple dashboards that are difficult to navigate. To satisfy their biggest and most avid users, Google has created a monstrous product that collects as much data as possible by default. While only a handful of users actually need those deep analytics (and do they really?), 95% could do with a lot fewer insights.
 
