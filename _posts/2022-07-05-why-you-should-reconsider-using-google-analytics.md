@@ -3,8 +3,7 @@ title: "Why you should reconsider using Google Analytics"
 author_slug: iron
 author: Iron Brands
 excerpt: "Google Analytics is banned in some EU member states and more are likely to follow. Here is to why you should remove Google Analytics today."
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image.png
 draft: true
 ---
 
@@ -25,7 +24,7 @@ Today Google is a multi-mega corporation. It's a data-devouring monster and the 
 
 It literally turns data into gold. A lot of gold.
 
-![](https://lh5.googleusercontent.com/KDq1kFT2Z7tbYRNhNwI028aNIQJyOnynhccILq_J3VTLAuw_ONQ1V6vbQlvxKNYudE5dJxipQ2tRkvDRCE8LUrrhTwLuuubVg5Z31AFu6EVFyudeMIUb3uI9Ot28WZhyXIPXOcWw00ahprOre18)
+{% include gif.html slug="gold" alt="gold" width="480" height="360" color="#904f0b" %}
 
 Whoever thinks of Google as a search engine is painfully mistaken. Google is an advertising machine. The best advertising machine humanity has ever seen. Over the years, they have built some great products that have achieved monopoly status in their category and given them away for free. Not because they care about you, but because they could get to know you better.
 
@@ -70,7 +69,9 @@ GA4 does not fix this problem. Even if it anonymizes IP addresses, it would stil
 
 Above, we explained the 'why now.' In the second part, we'll explain the 'why.'
 
-{{insert a social image without text}}
+<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="remove google analytics" class="border" />
+<p class="caption" markdown="1">
+</p>
 
 ## 1.  Why you should remove Google Analytics 
 
