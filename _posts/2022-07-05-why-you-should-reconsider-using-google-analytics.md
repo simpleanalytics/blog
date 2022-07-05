@@ -155,7 +155,7 @@ By moving away from Google, you help create a more independent web that is more 
 
 Be part of the solution, not the problem.
 
-<img src="https://assets.simpleanalyticsassets.com/blog/2022-how-to-delete-google-analytics/bins-no-text-red.png" alt="delete google anaytics" class="border" />
+<img src="https://assets.simpleanalyticsassets.com/blog/2022-how-to-delete-google-analytics/bins-no-text-dark.png" alt="remove google analytics" class="border" />
 <p class="caption" markdown="1">
 </p>
 
