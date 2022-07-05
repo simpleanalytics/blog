@@ -30,17 +30,17 @@ Google Analytics is one of the best free tools Google has ever created. 55% Of t
 Here is why I believe most of us can live without Google Analytics. 
 
 1. [Why now?](#1--why-now)
-    1.1 [Google is sunsetting Universal Analytics in favor of GA4](#11-google-is-sunsetting-universal-analytics-in-favor-of-ga4)
-    1.2 [Google Analytics privacy issues](#12-google-analytics-privacy-issues)
+    1.1  [Google is sunsetting Universal Analytics in favor of GA4](#11-google-is-sunsetting-universal-analytics-in-favor-of-ga4)
+    1.2  [Google Analytics privacy issues](#12-google-analytics-privacy-issues)
 2. [Why you should remove Google Analytics](#2--why-you-should-remove-google-analytics)
-    2.1 [Google Analytics is an overly complex analytics tool](#21-google-analytics-is-a-complex-analytics-tool)
-    2.2 [Cookie banners hinder your website UX](#22-cookie-banners-hinder-your-website-ux)
-    2.3 [Google Analytics affects your website performance](#23-google-analytics-affects-your-website-performance)
-    2.4 [Google Analytics data is inaccurate](#24-google-analytics-data-is-inaccurate)
-    2.5 [Google Analytics requires a lengthy Privacy policy](#25-google-analytics-requires-a-lengthy-privacy-policy)
-    2.6 [Stop collecting everything for the sake of collecting data](#26-stop-collecting-everything-for-the-sake-of-collecting-data)
-    2.7 [Let users know you care about their privacy](#27-let-users-know-you-care-about-their-privacy)
-    2.8 [Be part of the solution, not the problem](#28-be-part-of-the-solution-not-the-problem)
+    2.1  [Google Analytics is an overly complex analytics tool](#21-google-analytics-is-a-complex-analytics-tool)
+    2.2  [Cookie banners hinder your website UX](#22-cookie-banners-hinder-your-website-ux)
+    2.3  [Google Analytics affects your website performance](#23-google-analytics-affects-your-website-performance)
+    2.4  [Google Analytics data is inaccurate](#24-google-analytics-data-is-inaccurate)
+    2.5  [Google Analytics requires a lengthy Privacy policy](#25-google-analytics-requires-a-lengthy-privacy-policy)
+    2.6  [Stop collecting everything for the sake of collecting data](#26-stop-collecting-everything-for-the-sake-of-collecting-data)
+    2.7  [Let users know you care about their privacy](#27-let-users-know-you-care-about-their-privacy)
+    2.8  [Be part of the solution, not the problem](#28-be-part-of-the-solution-not-the-problem)
 
 We're covering a lot of ground so let's dive in!
 
