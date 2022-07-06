@@ -5,6 +5,8 @@ author: Iron Brands
 excerpt: "Google Analytics is banned in some EU member states and more are likely to follow. Here is to why you should remove Google Analytics today."
 image: https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png
+redirect_from:
+  - /why-you-should-reconsider-using-google-analytics
 ---
 
 There was a time when Google was a quirky startup---founded by two Stanford grads who operated out of a garage, working day and night to get their company off the ground. The company was initially called Backrub and had one product that blew all competition out of the water. Google is the perfect startup story that led to building on the most influential businesses of all time.
