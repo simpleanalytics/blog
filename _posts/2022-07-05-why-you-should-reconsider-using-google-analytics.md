@@ -168,7 +168,7 @@ We believe it's not only a matter of staying within the law. For us, it goes bey
 
 By moving away from Google, you help create a more independent web that is more friendly to internet users. You help to redistribute the power away from the biggest advertising machine that has ever existed.
 
-Be part of the solution, not the problem.
+Be part of the solution, not the problem and bin Google Analytics.
 
 <img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/bins-no-text-dark.png" alt="remove google analytics" class="border" />
 <p class="caption" markdown="1">
