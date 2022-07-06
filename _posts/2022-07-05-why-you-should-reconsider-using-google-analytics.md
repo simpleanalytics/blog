@@ -72,7 +72,7 @@ GA4 does not fix this problem. Even if it anonymizes IP addresses, it would stil
 
 Above, we explained the 'why now.' In the second part, we'll explain the 'why.'
 
-<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="remove google analytics" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="remove google analytics" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
@@ -106,7 +106,7 @@ Scripts differ in size, and the bigger the script, the higher the impact on page
 
 We ran a website [performance test](https://blog.simpleanalytics.com/google-penalizes-you-for-using-google-analytics) using Google Lighthouse. We found that the difference in website performance of 10 basis points favors websites using Simple Analytics instead of Google Analytics.
 
-<img src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="Google Analytics performance impact" class="border" />
+<img src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="Google Analytics performance impact" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
@@ -169,7 +169,7 @@ By moving away from Google, you help create a more independent web that is more 
 
 Be part of the solution, not the problem and bin Google Analytics.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/bins-no-text-dark.png" alt="remove google analytics" class="border" />
+<img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/bins-no-text-dark.png" alt="remove google analytics" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
