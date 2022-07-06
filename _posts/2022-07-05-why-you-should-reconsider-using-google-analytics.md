@@ -1,5 +1,5 @@
 ---
-title: "Why you should reconsider using Google Analytics"
+title: "Why its time to move away from Google Analytics"
 author_slug: iron
 author: Iron Brands
 excerpt: "Google Analytics is banned in some EU member states and more are likely to follow. Here is to why you should remove Google Analytics today."
