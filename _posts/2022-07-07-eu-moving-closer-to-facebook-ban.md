@@ -12,6 +12,8 @@ There is a risk Europeans won't be able to use Facebook after the Irish data pro
 <details markdown="1">
 <summary>Read the full statement here by Politico.eu who were the first to report</summary>
 
+> At July 7, 2022 12:37 PM CET by Vincent Manancourt.
+> 
 > Europeans risk seeing social media services Facebook and Instagram shut down this summer, as Ireland's privacy regulator doubled down on its order to stop the firm's data flows to the United States.
 > 
 > The Irish Data Protection Commission on Thursday informed its counterparts in Europe that it will block Facebook-owner Meta from sending user data from Europe to the U.S. The Irish regulator's draft decision cracks down on Meta's last legal resort to transfer large chunks of data to the U.S., after years of fierce court battles between the U.S. tech giant and European privacy activists.
