@@ -3,8 +3,7 @@ title: "EU moving closer to Facebook ban"
 author_slug: iron
 author: Iron Brands
 excerpt: "The Irish DPC concluded that it will block Facebook from sending data form the EU to the US"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image.png
 draft: true
 ---
 
@@ -37,9 +36,8 @@ The Schrems II ruling did not lead to a response from EU data protection agencie
 
 The issue, however, does not only apply to Facebook and Google. Notably, they are the biggest advertising platforms that transfer personal data overseas, but every entity doing this should be very aware of this ruling.
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image-no-text.png" alt="Eu bans facebook" class="border-radius" />
 <p class="caption" markdown="1">
-  Caption of the image
 </p>
 
 ## 3. Privacy Shield 2.0
