@@ -4,12 +4,35 @@ author_slug: iron
 author: Iron Brands
 excerpt: "The Irish DPC concluded that it will block Facebook from sending data form the EU to the US"
 image: https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image.png
-draft: true
+image_no_text: https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image-no-text.png
 ---
 
 There is a risk Europeans won't be able to use Facebook after the Irish data protection agency (DPC) doubles down on stopping data transfer between the US and the E.U.
 
-[{Read the full statement here by Politico.eu who were the first to report}](https://www.politico.eu/article/europe-faces-facebook-blackout-instagram-meta-data-protection/amp/)
+<details markdown="1">
+<summary>Read the full statement here by Politico.eu who were the first to report</summary>
+
+> Europeans risk seeing social media services Facebook and Instagram shut down this summer, as Ireland's privacy regulator doubled down on its order to stop the firm's data flows to the United States.
+> 
+> The Irish Data Protection Commission on Thursday informed its counterparts in Europe that it will block Facebook-owner Meta from sending user data from Europe to the U.S. The Irish regulator's draft decision cracks down on Meta's last legal resort to transfer large chunks of data to the U.S., after years of fierce court battles between the U.S. tech giant and European privacy activists.
+> 
+> The European Court of Justice in 2020 [annulled](https://curia.europa.eu/juris/fiche.jsf?id=C%3B311%3B18%3BRP%3B1%3BP%3B1%3BC2018%2F0311%2FJ) an EU-U.S. data flows pact called Privacy Shield because of fears over U.S. surveillance practices. In its ruling, it also made it harder to use another legal tool that Meta and many other U.S. firms use to transfer personal data to the U.S., called standard contractual clauses (SCCs). This week's decision out of Ireland means Facebook is forced to stop relying on SCCs too.
+> 
+> Meta has repeatedly warned that such a decision would shutter many of its services in Europe, including Facebook and Instagram.
+> 
+> "If a new transatlantic data transfer framework is not adopted and we are unable to continue to rely on SCCs or rely upon other alternative means of data transfers from Europe to the United States, we will likely be unable to offer a number of our most significant products and services, including Facebook and Instagram, in Europe," Meta [said in a filing to the U.S. Securities and Exchange Commission in March](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/c07375c5-b2dc-4223-8166-3365a3a1dbfd.pdf) this year.
+> 
+> The Irish blocking order, if confirmed by the [group of European national data protection regulators](https://edpb.europa.eu/edpb_en), is likely to send a chill through the wider business community too, which has been scratching its head about how to continue sending data from Europe to the U.S. following the EU's top court ruling in 2020.
+> 
+> The EU and U.S. are in the midst of negotiating a new data-transfer text that would allow companies like Meta to continue to ship data across the Atlantic irrespective of the Irish order. Brussels and Washington [in March agreed to a preliminary deal at the political level](https://www.politico.eu/article/eu-us-strike-preliminary-deal-to-unlock-transatlantic-data-flows/), but negotiations on the legal fine print have stalled and a final deal is unlikely to be reached before the end of the year.
+> 
+> A spokesperson for the Irish DPC confirmed that the draft decision had been sent to other European privacy regulators, who now have a month to give their input, but wouldn't discuss details of the decision.
+> 
+> "This draft decision, which is subject to review by European Data Protection Authorities, relates to a conflict of EU and U.S. law which is in the process of being resolved," a Meta spokesperson said. "We welcome the EU-U.S. agreement for a new legal framework that will allow the continued transfer of data across borders, and we expect this framework will allow us to keep families, communities and economies connected."
+> 
+> View source at [politico.eu](https://www.politico.eu/article/europe-faces-facebook-blackout-instagram-meta-data-protection/amp/).
+
+</details>
 
 Thursday, the DPC informed counterparts in other EU member states that it will block Facebook from sending data from the EU to US servers. Data protection agencies of other EU members have a month to add their views and objections before it moves forward. The move could mean the biggest disruption of the social media giant in its history. The DPC did not comment on the specific contents or release a statement, but they confirmed the issue at hand.
 
@@ -36,9 +59,7 @@ The Schrems II ruling did not lead to a response from EU data protection agencie
 
 The issue, however, does not only apply to Facebook and Google. Notably, they are the biggest advertising platforms that transfer personal data overseas, but every entity doing this should be very aware of this ruling.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image-no-text.png" alt="Eu bans facebook" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+<img src="https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image-no-text.png" alt="EU bans facebook" class="border-radius" />
 
 ## 3. Privacy Shield 2.0
 
