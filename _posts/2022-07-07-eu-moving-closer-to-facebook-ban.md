@@ -18,10 +18,10 @@ Earlier this year, Facebook stated that if it's unable to transfer data overseas
 
 {% include gif.html slug="damn" alt="damn" width="480" height="270" color="#594542" %}
 
-1. [Impact of Schrems II]
-2. [Crackdown on Google Analytics]
-3. [Privacy Shield 2.0]
-4. [Implications of Facebook ban]
+1. [Impact of Schrems II](#1-impact-of-schrems-ii)
+2. [Crackdown on Google Analytics](#2-crackdown-on-google-analytics)
+3. [Privacy Shield 2.0](#3-privacy-shield-20)
+4. [Implications of Facebook ban](4-implications-of-facebook-ban)
 
 ## 1. Impact of Schrems II
 
@@ -56,7 +56,7 @@ In February, [DPC head Helen Dixon told Reuters](https://www.reuters.com/technol
 
 It sounds harsh, but finally, the GDPR is showing its teeth. Privacy is a human right and should be treated as such. Google and Facebook have become the biggest monopolies companies in the world by monetizing our data. This model is showing cracks as more and more consumers are demanding privacy.
 
-## Why do we care
+## Final thoughts
 
 We started Simple Analytics because we care about privacy. Our "fight" is mainly with Google as Simple Analytics is a privacy-first [Google Analytics alternative](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics), but it goes further than that. We believe in an independent web that is friendly to website visitors.
 
