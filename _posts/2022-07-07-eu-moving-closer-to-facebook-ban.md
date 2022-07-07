@@ -18,7 +18,12 @@ Earlier this year, Facebook stated that if it's unable to transfer data overseas
 
 {% include gif.html slug="damn" alt="damn" width="480" height="270" color="#594542" %}
 
-##1. Impact of Schrems II
+1. [Impact of Schrems II]
+2. [Crackdown on Google Analytics]
+3. [Privacy Shield 2.0]
+4. [Implications of Facebook ban]
+
+## 1. Impact of Schrems II
 
 The statement of the Irish regulator (DPC) is a result of the invalidation of the privacy shield in July 2020. This is referred to as the [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) ruling that concluded that data transfer to the US [violates the GDPR law](https://gdpr-info.eu/art-44-gdpr/).
 
@@ -26,7 +31,7 @@ The mandate of the GDPR is simple: Protect the privacy of EU citizens. This cann
 
 Facebook qualifies as an "[Electronic communication service provider](https://www.michalsons.com/blog/electronic-communications-service-provider-ecsp/17697)" and is therefore obliged to share data with the US intelligence service if requested. This means that the US intelligence service can access the personal data of EU citizens. 
 
-##2. Crackdown on Google Analytics 
+## 2. Crackdown on Google Analytics 
 
 The Schrems II ruling did not lead to a response from EU data protection agencies until the beginning of this year, when the [DSB (Austria)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) responded by banning the use of Google Analytics. [CNIL (France)](https://www.cnil.fr/en/) was quick to follow, and [Garante (Italy)](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english) banned Google Analytics last week as well. More EU member states are likely to follow suit in the coming months.
 
@@ -37,13 +42,13 @@ The issue, however, does not only apply to Facebook and Google. Notably, they ar
   Caption of the image
 </p>
 
-##3. Privacy Shield 2.0
+## 3. Privacy Shield 2.0
 
 A Facebook spokesperson noted that the issue is in the process of being resolved, referring to a new agreement between the U.S and the EU that will allow the continued transfer of data. The so-called Privacy Shield 2.0. However, the deal is far from finalized. Both the EU ([here](https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_21_1443)) and the US ([here](https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/03/25/remarks-by-president-biden-and-european-commission-president-ursula-von-der-leyen-in-joint-press-statement/)) announced a new agreement on a new framework for transatlantic data transfer, but no legal document has been provided. It's a political agreement [without any legal merit.](https://blog.simpleanalytics.com/eu-us-privacy-shield-2-0-is-again-a-political-show)
 
 "The final text will need more time; once this arrives, we will analyze it in-depth, together with our US legal experts. If it is not in line with EU law, we or another group will likely challenge it. In the end, the Court of Justice will decide a third time. We expect this to be back at the Court within months from a final decision." [Max Schrems of Noyb noted](https://noyb.eu/en/privacy-shield-20-first-reaction-max-schrems)
 
-##4. Implications of Facebook ban
+## 4. Implications of Facebook ban
 
 An unresolved conflict about transatlantic data transfer could have a significant impact on (almost) all Europeans. It sounds unrealistic that Facebook would not be available for EU citizens, but this might very well become a reality.
 
