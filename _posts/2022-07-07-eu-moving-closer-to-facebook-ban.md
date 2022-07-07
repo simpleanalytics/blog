@@ -45,7 +45,7 @@ Earlier this year, Facebook stated that if it's unable to transfer data overseas
 1. [Impact of Schrems II](#1-impact-of-schrems-ii)
 2. [Crackdown on Google Analytics](#2-crackdown-on-google-analytics)
 3. [Privacy Shield 2.0](#3-privacy-shield-20)
-4. [Implications of Facebook ban](4-implications-of-facebook-ban)
+4. [Implications of Facebook ban](#4-implications-of-facebook-ban)
 
 ## 1. Impact of Schrems II
 
