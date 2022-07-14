@@ -1,5 +1,5 @@
 ---
-title: "Denmark bans all Google products"
+title: "Denmark starting to ban Google products"
 author_slug: iron
 author: Iron Brands
 excerpt: "The Danish Data Protection Authority is banning the use of all Google Workspace, meaning all Google products"
