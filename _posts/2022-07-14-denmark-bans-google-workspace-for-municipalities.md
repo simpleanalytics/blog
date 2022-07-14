@@ -479,7 +479,7 @@ In [the statement by Datatilsynet DK](https://www.datatilsynet.dk/afgoerelser/af
 
 > "Both yes and no, this statement is regarding chrome books and workspace in Danish public schools. But these principles apply to all cloud-provided services, but in Denmark, we make decisions in specific cases. They can be applied to other (similar) situations only if the legal fact can be considered the same."
 
-We think the legal ground for businesses is the same. They are sending personal data to the US, mainly because it's not the first data protection agency in the EU to ban Google products.
+We think the legal ground for businesses is the same. They are sending personal data to the US, mainly because it's not the first data protection agency in the EU to ban Google products. However, no formal decision has been made for regular businesses yet.
 
 <img src="https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png" alt="Denmark bans Google Products" class="border-radius" />
 
