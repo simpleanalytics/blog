@@ -526,4 +526,4 @@ Data protection agencies are finally showing their teeth by banning Google Analy
 
 The fight for privacy is on, and as long no agreement is reached, we'll see more and more EU member states conclude that data transfers to the U.S. violate GDPR law.
 
-Looking for alternative solutions that actually care about the privacy of your users. Simple Analytics is one of them, but before I tell you that we are the best, we’ve created an in-depth comparison with other privacy-friendly alternatives to make your own decision.
+Looking for alternative solutions that actually care about the privacy of your users. Simple Analytics is one of them, but before I tell you that we are the best, we’ve created an in-depth [comparison with other privacy-friendly alternatives](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives) to make your own decision.
