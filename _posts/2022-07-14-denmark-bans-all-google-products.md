@@ -5,7 +5,6 @@ author: Iron Brands
 excerpt: "The Danish Data Protection Authority is banning the use of all Google Workspace, meaning all Google products"
 image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png
-draft: true
 ---
 
 Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal), [France (CNIL)](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, Denmark is banning the use of all Google Workspace, meaning all Google products.
