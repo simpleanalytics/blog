@@ -9,7 +9,7 @@ redirect_from:
   - /denmark-bans-all-google-products
 ---
 
-Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal), [France (CNIL)](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, Denmark is banning the use of all Google Workspace, meaning all Google products.
+Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal), [France (CNIL)](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, Denmark is banning the use of all Google Workspace, meaning all Google products. For now the ban is only focused on municipalities.
 
 <details markdown="1">
 <summary>Read the full statement here (auto-translated in English)</summary>
