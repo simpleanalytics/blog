@@ -3,7 +3,7 @@ title: "Denmark bans Google Workspace for municipalities"
 author_slug: iron
 author: Iron Brands
 excerpt: "The Danish Data Protection Authority is banning the use of Google Workspace, meaning all Google products for municipalities"
-image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products.png
+image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-for-municipalities.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png
 redirect_from:
   - /denmark-bans-all-google-products
@@ -456,7 +456,7 @@ Only two weeks after Italy, Denmark becomes the fourth country to sanction Googl
 
 {% include gif.html slug="dominos" alt="Denmark is the fourth domino falling for Google" width="500" height="281" color="#0c0c0c" %}
 
-1. [Denmark bans Google Workspace](#1-denmark-bans-google-workspace-for-municipalities)
+1. [Denmark bans Google Workspace for municipalities](#1-denmark-bans-google-workspace-for-municipalities)
 2. [Why are EU member states banning Google?](#2-why-are-eu-member-states-banning-google-analytics)
 3. [Why is there no data agreement with the US?](#3-why-is-there-no-new-privacy-shield-with-the-us)
 4. [What does the future hold?](#4-what-will-the-future-hold)
@@ -525,5 +525,3 @@ Before discussing the future, let's look into the past. So far, we've seen:
 Data protection agencies are finally showing their teeth by banning Google Analytics until adequate measures are in place.
 
 The fight for privacy is on, and as long no agreement is reached, we'll see more and more EU member states conclude that data transfers to the U.S. violate GDPR law.
-
-Is this a good thing? I believe so, but Yes, I am very biased. I built Simple Analytics, which is literally a privacy-first [Google Analytics alternative](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics), but the message above here is crystal clear. Privacy is a human right and should be treated as one. I believe in a more open and independent web that is friendly to website visitors. The way Google has handled our data does not fit with this view.
