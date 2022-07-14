@@ -456,14 +456,14 @@ Only two weeks after Italy, Denmark becomes the fourth country to sanction Googl
 
 {% include gif.html slug="dominos" alt="Denmark is the fourth domino falling for Google" width="500" height="281" color="#0c0c0c" %}
 
-1. [Denmark bans Google Workspace](#1-denmark-bans-google-workspace)
+1. [Denmark bans Google Workspace](#1-denmark-bans-google-workspace-for-municipalities)
 2. [Why are EU member states banning Google?](#2-why-are-eu-member-states-banning-google-analytics)
 3. [Why is there no data agreement with the US?](#3-why-is-there-no-new-privacy-shield-with-the-us)
 4. [What does the future hold?](#4-what-will-the-future-hold)
 
-## 1. Denmark bans Google Workspace
+## 1. Denmark bans Google Workspace for municipalities
 
-In their statement, the Danish data protection agency has looked at a specific case, namely the use of Chromebooks and Workspace, by the municipality of Helsingør.
+In [their statement](https://www.datatilsynet.dk/afgoerelser/afgoerelser/2022/jul/datatilsynet-nedlaegger-behandlingsforbud-i-chromebook-sag-), the Danish data protection agency has looked at a specific case, namely the use of Chromebooks and Workspace, by the municipality of Helsingør.
 
 In September 2021, the Danish Data Protection Authority issued a decision ordering the municipality of Helsingør to conduct a risk assessment of the municipality's processing of personal data in primary schools.
 
