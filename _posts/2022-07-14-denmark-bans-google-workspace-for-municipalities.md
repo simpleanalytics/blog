@@ -1,5 +1,5 @@
 ---
-title: "Denmark bans Google Workspace for municipalities"
+title: "Danish DPA bans Google Workspace for municipalities"
 author_slug: iron
 author: Iron Brands
 excerpt: "The Danish Data Protection Authority is banning the use of Google Workspace, meaning all Google products for municipalities"
@@ -9,7 +9,7 @@ redirect_from:
   - /denmark-bans-all-google-products
 ---
 
-Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal), [France (CNIL)](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, Denmark is banning the use of all Google Workspace, meaning all Google products. For now the ban is only focused on municipalities.
+Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal), [France (CNIL)](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, the Danish DPA is banning the use of Google Workspace, meaning all Google products. For now the ban is only focused on municipalities.
 
 <details markdown="1">
 <summary>Read the full statement here (auto-translated in English)</summary>
