@@ -494,7 +494,7 @@
                   var json = JSON.parse(request.responseText);
                   if (!json.ok) {
                     responseField.textContent =
-                      json.message || "Oops, something goes wrong (1).";
+                      json.message || "Oops, something is going wrong (1).";
                     responseField.style.color = "#ff4f64";
                   } else {
                     responseField.textContent = "One moment...";
@@ -504,7 +504,8 @@
                   }
                 } catch (error) {
                   console.error(error);
-                  responseField.textContent = "Oops, something goes wrong (2).";
+                  responseField.textContent =
+                    "Oops, something is going wrong (2).";
                   responseField.style.color = "#ff4f64";
                 } finally {
                   responseField.style.display = "block";
