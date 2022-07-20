@@ -3,8 +3,8 @@ title: "Vodafone & Deutsche Telekom to introduce persistent user tracking"
 author_slug: iron
 author: Iron Brands
 excerpt: "Vodafone & Deutsche Telekom are trialing with Trustpid to introduce persistent user tracking"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-Trustpid/vodafone-deutsche-telekom-trustpid.png
+image_no_text: https://assets.simpleanalyticsassets.com/blog/2022-Trustpid/vodafone-deutsche-telekom-trustpid-social-image.png
 draft: true
 ---
 
@@ -44,7 +44,9 @@ It's supposed to work like this: Your activity online makes your device send an 
 
 Verizon was the first provider to interfere with this data traffic by injecting an HTTP header (basically an identifier), and now Vodafone and Deutsche Telekom are testing something similar.
 
-{{Insert social image without text}}
+<img src="https://assets.simpleanalytics.com/blog/2022-Trustpid/vodafone-deutsche-telekom-trustpid.png" alt="trustpid super cookie" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 With TrustPid, Vodafone assigns a fixed ID to a user based on someone's phone number.
 
