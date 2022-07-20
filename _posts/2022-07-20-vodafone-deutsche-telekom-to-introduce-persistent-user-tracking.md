@@ -13,16 +13,14 @@ Network operators are a vital part of transmitting data traffic on the internet.
 
 They have recently started a trial to test new ways of marketing customer data in collaboration with Trustpid.
 
-Although Vodafone claims there is nothing to worry about, privacy officials are especially concerned about the recent involvement of network operators.
+Although Vodafone claims there is nothing to worry about, privacy officials are especially concerned about the recent involvement of network operators. Privacy advocates call it the return of the "Super Cookie." If they are correct, this would be a massive step backward in creating an independent web where the privacy of internet users is respected.
 
-Privacy advocates call it the return of the "Super Cookie." If they are correct, this would be a massive step backward in creating an independent web where the privacy of internet users is respected.
+{% include gif.html slug="spy" alt="spy" width="500" height="500" color="#7e7148" %}
 
 1.  [Persistent User tracking: How does it work?](#1--persistent-user-tracking-how-does-it-work)
 2.  [Why is Vodafone reinventing persistent user tracking?](#2--why-is-vodafone-reinventing-persistent-user-tracking)
 3.  [How privacy-friendly is this?](#3--how-privacy-friendly-is-this)
 4.  [How to avoid persistent user tracking?](#4--how-to-avoid-persistent-user-tracking)
-
-{% include gif.html slug="spy" alt="spy" width="500" height="500" color="#7e7148" %}
 
 Let's dig in! 
 
