@@ -7,19 +7,7 @@ image: https://assets.simpleanalytics.com/blog/2022-
 image_no_text: https://assets.simpleanalytics.com/blog/2022-
 draft: true
 ---
-
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
-This guest post was written by iubenda.
+                                                      *This guest post was written by iubenda*
 
 In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them. Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future. 
 
