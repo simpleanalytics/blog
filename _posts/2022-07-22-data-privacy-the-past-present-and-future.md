@@ -13,7 +13,7 @@ draft: true
 
 Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future.*
 
-In this article, we take a helicopter view and reflect on data privacy's past, present, and future. At Simple Analytics, we only target a tiny piece of the privacy pie, so our focus is narrow. iubenda takes a broader approach.
+In this article, we take a helicopter view and reflect on data privacy's past, present, and future. 
 
 The importance of data privacy is skyrocketing. More than 120 countries have data privacy legislation in place or are writing new regulations. The growing number of laws around the globe demonstrate that legislators, authorities, and governments recognize the importance of data privacy. Additional legislation brings new privacy rights and the pressing need for business owners to comply with the ever-changing privacy landscape.
 
