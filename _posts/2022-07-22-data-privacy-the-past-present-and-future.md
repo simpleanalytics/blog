@@ -9,9 +9,9 @@ draft: true
 ---
 **This guest post was written by [iubenda](http://iubenda.com/).**
 
-*In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them. 
+*In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them.* 
 
-Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future.*
+Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future.
 
 In this article, we take a helicopter view and reflect on data privacy's past, present, and future. 
 
