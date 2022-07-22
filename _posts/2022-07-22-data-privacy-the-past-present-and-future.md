@@ -7,11 +7,11 @@ image: https://assets.simpleanalytics.com/blog/2022-
 image_no_text: https://assets.simpleanalytics.com/blog/2022-
 draft: true
 ---
-**This guest post was written by [iubenda]**(http://iubenda.com/).
+**This guest post was written by [iubenda](http://iubenda.com/).**
 
 *In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them. Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future.*
 
-In this article, we take a helicopter view and reflect on data privacy's past, present, and future. At Simple Analytics, we only target a tiny piece of the privacy pie, so our focus is narrow. iubenda (and this article) take a broader approach.
+In this article, we take a helicopter view and reflect on data privacy's past, present, and future. At Simple Analytics, we only target a tiny piece of the privacy pie, so our focus is narrow. Iubenda takes a broader approach.
 
 The importance of data privacy is skyrocketing. More than 120 countries have data privacy legislation in place or are writing new regulations. The growing number of laws around the globe demonstrate that legislators, authorities, and governments recognize the importance of data privacy. Additional legislation brings new privacy rights and the pressing need for business owners to comply with the ever-changing privacy landscape.
 
@@ -19,9 +19,9 @@ The importance of data privacy is skyrocketing. More than 120 countries have dat
 
 Let's take a look at and break down some key historical moments that have shaped the way we understand data privacy today.
 
-1.  Data Privacy: The Past
-2.  Data Privacy: The Present
-3.  Data Privacy: The Future
+1.  [Data Privacy: The Past](#1--data-privacy-the-past)
+2.  [Data Privacy: The Present](#2--data-privacy-the-present)
+3.  [Data Privacy: The Future](#3-data-privacy-the-future)
 
 Let's dive in!
 
