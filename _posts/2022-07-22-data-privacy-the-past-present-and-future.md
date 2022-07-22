@@ -9,7 +9,9 @@ draft: true
 ---
 **This guest post was written by [iubenda](http://iubenda.com/).**
 
->Foreword: In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them. Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future. In this article, we take a helicopter view and reflect on data privacy's past, present, and future. 
+>Foreword: In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them. Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future. 
+
+In this article, we take a helicopter view and reflect on data privacy's past, present, and future. 
 
 The importance of data privacy is skyrocketing. More than 120 countries have data privacy legislation in place or are writing new regulations. The growing number of laws around the globe demonstrate that legislators, authorities, and governments recognize the importance of data privacy. Additional legislation brings new privacy rights and the pressing need for business owners to comply with the ever-changing privacy landscape.
 
