@@ -37,7 +37,7 @@ That very same year, Netscape Communications Corporation (an American independen
 
 According to reports in the New York Times from 2005, this decision authorizes the NSA to monitor,
 
-> "the international telephone calls and international e-mail messages of hundreds, perhaps thousands, of people inside the United States."
+> <center> "the international telephone calls and international e-mail messages of hundreds, perhaps thousands, of people inside the United States."</center>
 
 👉 2003 marks the year the first major social network (MySpace) was born, and it was shortly followed by the launch of Facebook in 2004\.
 
