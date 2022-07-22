@@ -1,5 +1,5 @@
 ---
-title: "Data privacy - the past, present, and future "
+title: "Data privacy - the past, present, and future"
 author_slug: iron
 author: Iron Brands
 excerpt: "The past, present and future of data privacy gives an accurate view of where the world is heading"
