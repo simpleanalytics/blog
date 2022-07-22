@@ -21,7 +21,6 @@ Rest of the article
 
 This guest post was written by iubenda.
 
-
 In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them. Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future. 
 
 In this article, we take a helicopter view and reflect on data privacy's past, present, and future. At Simple Analytics, we only target a tiny piece of the privacy pie, so our focus is narrow. iubenda (and this article) take a broader approach.
@@ -66,10 +65,9 @@ Later that same year, the PCI Security Standards Council released the first unif
 
 💡 This was the first security standard that required all merchants and website owners that processed more than 20,000 card transactions per year to comply with the rules to process payments online.
 
-
 With new launches on Facebook, Google street view, email marketing, and the birth of Instagram, the years from 2007 to 2018 were filled with advances in technologies and global connections; however, with that came hackers, fraud, and lawsuits. 
 
-Data Privacy: The Present 
+## 2. Data Privacy: The Present 
 The start of a new era! Just four years ago in 2018:
 
 👉  The EU's General Data Protection Regulation (GDPR) takes effect. This regulation lays forth the rules for collecting, analyzing, transferring, and storing customer data. Businesses that come into contact with EU individuals' data in any way must comply with the regulations or face harsh penalties.
@@ -96,7 +94,8 @@ the other is for personal data transfers to third countries.
 
 👉 Google announces it will put an end to 3rd party cookies in the near future
 
-Data Privacy: The Future 
+## 3. Data Privacy: The Future 
+
 Since its beginnings, regulators have struggled to keep up with the Internet's growing capabilities. Everyone from advertising to hackers has been collecting, storing, sharing, and selling personal data without much regulation. 
 
 However, as we can see from recent years, a change is already taking place.
@@ -114,11 +113,3 @@ Simple Analytics is one tool we found particularly interesting because it has a 
 The world is growing more conscious of privacy every day, with governments implementing new guidelines and regulations at lightning speed. To keep up, businesses must adopt a privacy-by-design approach - considering privacy from the onset. Organizations who fail to keep up with the current and ever-changing regulations risk negative consequences, not only in terms of legal issues and potential penalties but also in terms of business, as users increasingly drop companies they do not trust. 
 
 Sound complicated? It doesn’t have to be. Click here to see how we can help you to meet your legal requirements in just 5 minutes. 
-
-
-
-
-
-
-
-
