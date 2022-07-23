@@ -75,6 +75,12 @@ layout: default
   <a href="https://github.com/simpleanalytics/blog/blob/master/{{ page.path }}"
     >Fix typo</a
   >
+  <span id="visitors-count">
+    &middot;
+    <a href="https://simpleanalytics.com/blog.simpleanalytics.com{{ page.url }}">
+      live visitors
+    </a>
+  </span>
   {% include languages.html location="inline" %}
 </p>
 
@@ -231,6 +237,20 @@ layout: default
         anchors[i].setAttribute("target", "_blank");
         anchors[i].setAttribute("rel", "noopener");
       }
+    }
+  })();
+</script>
+
+<script>
+  (async () => {
+    const url = "https://simpleanalytics.com/blog.simpleanalytics.com.json?info=false&start=today-30d&end=today&version=5&fields=visitors&pages=" + encodeURIComponent("{{ page.url }}");
+    const response = await fetch(url);
+    const { ok, visitors } = await response.json();
+    if (ok === true) {
+      const visitorsElement = document.getElementById("visitors-count");
+      const linkElement = visitorsElement?.querySelector('a')
+      const number = new Intl.NumberFormat('en-US').format(visitors)
+      linkElement.innerHTML = `${number} visitors`;
     }
   })();
 </script>
