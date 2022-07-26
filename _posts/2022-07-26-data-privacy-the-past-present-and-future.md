@@ -3,8 +3,8 @@ title: "Data privacy - the past, present, and future"
 author_slug: iron
 author: Iron Brands
 excerpt: "The past, present and future of data privacy gives an accurate view of where the world is heading"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/Iubenda%20Guest%20blog/iubenda.png
+image_no_text: https://assets.simpleanalytics.com/blog/Iubenda%20Guest%20blog/iubenda.png
 draft: true
 ---
 **This guest post was written by [iubenda](http://iubenda.com/).**
@@ -75,6 +75,10 @@ And in 2021: 
 
 - Apple introduced iOS14.5 and 15, which included new privacy features.
 - Google announces it will put an end to 3rd party cookies in the near future
+
+<img src="https://assets.simpleanalytics.com/blog/Iubenda%20Guest%20blog/iubenda.png" alt="iubenda guest blog" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 3. Data Privacy: The Future 
 
