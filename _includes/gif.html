@@ -1,5 +1,5 @@
 <div
-  class="gif{% if include.align %} align-{{ include.align }}{% endif %}"
+  class="not-prose gif{% if include.align %} align-{{ include.align }}{% endif %}"
   style="{% if include.width and include.height %} aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}{% if include.color %} --background-color: {{ include.color }};{% endif %}"
 >
   <img

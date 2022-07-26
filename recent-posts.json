@@ -2,8 +2,8 @@
 ---
 [
   {% assign counter = 0 -%}
-  {%- for post in site.posts limit:10  -%}
-    {%- if post.draft or counter >= 3 -%}
+  {%- for post in site.posts limit:1000  -%}
+    {%- if post.draft or counter >= 1000 -%}
       {%- assign match = false -%}
     {%- else -%}
       {%- assign match = true -%}
@@ -13,10 +13,10 @@
     {%- if counter > 1 %},
   {% endif %}{
     "url": "{{site.url}}{{post.url}}",
-    "title": {{post.title | jsonify}},
+    "title": {{post.title | strip_html | jsonify}},
     "image": {{post.image | jsonify}},
     "image_no_text": {{post.image_no_text | jsonify}},
-    "excerpt": {{post.excerpt | jsonify}},
+    "excerpt": {{post.excerpt | strip_html | jsonify}},
     "created": "{{post.date | date_to_xmlschema }}"
   }
   {%- endif -%}

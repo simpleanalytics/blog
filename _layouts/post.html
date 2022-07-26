@@ -89,11 +89,15 @@ layout: default
   This blog post is a draft. Please don't share it, yet. It's invisible to
   search engines.
 </blockquote>
-{% endif %} {{ content | replace: '
+{% endif %}
+
+<article>
+
+{{ content | replace: '
 <p><img ', '<img ' | replace: '" /></p>
 ', '" />' | replace: '<img ', '<img loading="lazy" ' }}
 
-<span></span>
+</article>
 
 {% if page.author_slug == "mike" %}
 <p class="mt-2">
