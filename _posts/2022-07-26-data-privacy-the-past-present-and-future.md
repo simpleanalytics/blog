@@ -5,7 +5,6 @@ author: Iron Brands
 excerpt: "The past, present and future of data privacy gives an accurate view of where the world is heading"
 image: https://assets.simpleanalytics.com/blog/Iubenda%20Guest%20blog/iubenda.png
 image_no_text: https://assets.simpleanalytics.com/blog/Iubenda%20Guest%20blog/iubenda.png
-draft: true
 ---
 **This guest post was written by [iubenda](http://iubenda.com/).**
 
