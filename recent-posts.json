@@ -14,10 +14,16 @@
   {% endif %}{
     "url": "{{site.url}}{{post.url}}",
     "title": {{post.title | strip_html | jsonify}},
+    "author_slug": {{post.author_slug | strip_html | jsonify}},
+    "current_lang": {{post.lang | strip_html | jsonify}},
+    "lang_fr": {{post.fr | strip_html | jsonify}},
+    "lang_nl": {{post.nl | strip_html | jsonify}},
+    "lang_en": {{post.en | strip_html | jsonify}},
     "image": {{post.image | jsonify}},
     "image_no_text": {{post.image_no_text | jsonify}},
     "excerpt": {{post.excerpt | strip_html | jsonify}},
-    "created": "{{post.date | date_to_xmlschema }}"
+    "created": "{{post.date | date_to_xmlschema }}",
+    "last_modified_at": "{{post.last_modified_at | date_to_xmlschema }}"
   }
   {%- endif -%}
   {%- endfor %}
