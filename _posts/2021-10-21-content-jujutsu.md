@@ -3,7 +3,7 @@ title: Consent Jujutsu & Data Hunger. Is Your Website Guilty?
 author_slug: tim
 author: Tim de Nood
 excerpt: "In this series on privacy, you and I are discovering how the internet ended up in this privacy mess. This article explains the why and the how about the way organizations watch you."
-image: https://blog.simpleanalytics.com/images/2021-9article2/datahunger.jpg
+image: /images/2021-9article2/datahunger.jpg
 ---
 
 ## 3 privacy tips for organizations that use online data 
