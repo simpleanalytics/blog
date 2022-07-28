@@ -4,8 +4,8 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-sitemap
-hostname: blog.simpleanalytics.com
-url: https://blog.simpleanalytics.com
+hostname: blogold.simpleanalytics.com
+url: https://www.simpleanalytics.com/blog
 api: https://simpleanalytics.com
 favicons: https://simpleanalytics.com
 repository: simpleanalytics/blog
