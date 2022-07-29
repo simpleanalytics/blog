@@ -197,7 +197,7 @@ Retention has 3 metrics in Stripe: churn rate, churned revenue, and retention by
 <img class="border" src="/images/2020-05/15-subscriber-churn-rate@2x.png" alt="Subscriber churn rate of Simple Analytics from June 2019 to May 2020" loading="lazy" style="margin-top: 0; width: 400px;" />
 <p class="caption ta-c" markdown="1">Subscriber churn rate</p>
 
-Again, those spikes are not actual customers. Just ignore those. We have a churn rate of more or less 5%. This does not seem high but it's a monthly churn rate (or more accurate: 30 days). This converts to an annual churn rate of 46% (`1 - (1 - 0.05) ^ 12`). [Lincoln Murphy](https://sixteenventures.com/saas-churn-rate) wrote a great blog post on this subject.
+Again, those spikes are not actual customers. Just ignore those. We have a churn rate of more or less 5%. This does not seem high but it's a monthly churn rate (or more accurate: 30 days). This converts to an annual churn rate of 46% (<code>1 - (1 - 0.05) ^ 12</code>). [Lincoln Murphy](https://sixteenventures.com/saas-churn-rate) wrote a great blog post on this subject.
 
 He says having a 5% monthly churn means if you started January with 100 customers you'd have 54 customers left at the end of December. If you started with $100 in Monthly Recurring Revenue (MRR) you'd end up with $54/MRR at the end of December.
 
@@ -229,6 +229,6 @@ This is something we can learn from. We don't do enough with our current custome
 <img class="border" src="/images/2020-05/17-subscriber-retention-by-cohort@2x.png" alt="Subscriber retention by cohort of Simple Analytics from June 2019 to May 2020" loading="lazy" style="margin-top: 0;" />
 <p class="caption ta-c" markdown="1">Subscriber retention by cohort</p>
 
-It shows the percentages for the retention by cohort. I wonder why the total (the first row) has a retention of 72% in the 12th month but at the same time, the monthly churn rate is around 5%. Our annual churn rate should be 46%, not 28% (`100% - 72%`). Can anybody explain this?
+It shows the percentages for the retention by cohort. I wonder why the total (the first row) has a retention of 72% in the 12th month but at the same time, the monthly churn rate is around 5%. Our annual churn rate should be 46%, not 28% (<code>100% - 72%</code>). Can anybody explain this?
 
 You made it through all these numbers! Your math teacher would have been proud. If you have some experience with SaaS businesses and you can spot some easy fixes, please let me know. Happy to implement your feedback to get these numbers higher, except for churn ;)
