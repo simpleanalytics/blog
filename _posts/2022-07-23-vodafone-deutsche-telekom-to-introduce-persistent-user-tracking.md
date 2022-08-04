@@ -74,7 +74,7 @@ The fact that users are less in control raises concerns with privacy advocates. 
 
 There are a few ways to avoid being tracked by the "Super Cookie." First, you can stop using Vodafone or Deutsche Telekom as your network operator. These are the only networks that are currently involved in the trial.
 
-In addition, Apple is developing features to restrict network operators from intervening in the data traffic. This is called [iCloud Private Relay],(https://www.lifewire.com/what-is-icloud-private-relay-5200343) which ensures providers no longer have access by encrypting and redirecting the data via Apple's servers. Vodafone and Deutsche Telekom have already filed a complaint to the European Commission to stop Apple from doing this.
+In addition, Apple is developing features to restrict network operators from intervening in the data traffic. This is called [iCloud Private Relay](https://www.lifewire.com/what-is-icloud-private-relay-5200343), which ensures providers no longer have access by encrypting and redirecting the data via Apple's servers. Vodafone and Deutsche Telekom have already filed a complaint to the European Commission to stop Apple from doing this.
 
 Another solution would be to use a VPN provider. Like the iCloud Privacy Relay, it will route the traffic encrypted to that one provider. Your network operator only sees that provider, not the websites you visit via the provider. We can recommend [Proton VPN](https://protonvpn.com/) and [Mozilla VPN](https://www.mozilla.org/en-US/products/vpn/) based on their mission toward privacy. If you are a developer, you use [Algo VPN](https://github.com/trailofbits/algo), which you can install on your own server.
 
