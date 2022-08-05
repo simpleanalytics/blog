@@ -21,7 +21,7 @@ Rest of the article
 
 2022 has been one hot year in data protection so far, with supervisory authorities ruling against Google Analytics left and right. We've tried our best to update you on all the current events, but even for us, it's hard to keep track of it. Here is an overview of the lengthy data transfer affair starting from Schrems II in 2020 until today. This is meant to provide a better understanding of where we are now and maybe catch a little glimpse of where we're headed.
 
-![](https://lh4.googleusercontent.com/CFyDKDmfzMIeUzsRTj6Lh562huRX96P53lymofNxasziDNftGIPXs2D85VuS3JJgw75koOf_vpO5WOFd90B9WsLa1sRGQGCzs7Q9WSciLFdF6AyTkx1PYFT5txVbMV_tC76DfoV-Jds4N0hUzLCgomI)
+{% include gif.html slug="its-a-lot" alt="its a lot" width="360" height="360" color="#494045" %}
 
 1.  Data transfers in a nutshell
 2.  Schrems II and Privacy Shield
