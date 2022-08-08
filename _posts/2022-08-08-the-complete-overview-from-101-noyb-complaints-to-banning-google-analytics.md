@@ -72,7 +72,9 @@ In a nutshell, websites use European companies Google Ireland/Meta Platforms Ire
 
 In September 2020, the European Data Protection Board (EDPB) [announced the creation of a task force to handle noyb's 101 complaints](https://edpb.europa.eu/news/news/2020/european-data-protection-board-thirty-seventh-plenary-session-guidelines-controller_en). Few details about the works of the task force have been made public, but we do know that the DPAs worked towards finding a consistent approach to handling the complaints. The importance of this point cannot be stressed enough: the recent decisions that made the news reflect a coordinated approach, making it all the more likely that other supervisors will follow suit.
 
-![](https://lh4.googleusercontent.com/vGPTztbeBfNc-K1t06BfJTnRUFxBEeslwtazOeYcKer1mBl0WrfFZz0NPcL2phAO_NZNHA6YQCkRw5xi5t0GhoDrgOPFcrN_bxsy8wPZK_S0PPdbwrQDJXm0VGHvYMe3pGCYH9BKDvrvILGDepmVcWw)
+<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="Caption of the image" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 4. Austria, France & Italy ban Google Analytics
 
@@ -105,7 +107,9 @@ In July 2022, the Irish DPA (DPC) announced a draft decision ordering [Meta Irel
 
 Many US companies (including Meta and Google) have their European establishment or spin-off companies in Ireland, and the Irish DPA is somewhat lax in policing them. An order to suspend transfers from a notoriously soft supervisor might signify an upcoming era of stricter enforcement of the transfer rules in the GDPR, which may concern countless services and companies- including Google and Google Analytics.
 
-![](https://lh5.googleusercontent.com/swKAfPtktyi2xqt_y3ivIZj-XYQuHUJbBZdE15e37DGtyg63dTfEkiU8oq1Isjz3SZMKtD6XOC9n-GVWchmxfVu1Zd45sgcxq8CmWVYU5O6381MvcLbtSpBHiDnLF5O7ze-ERA-sfCOMCTIwuGLeOpo)
+<img src="https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png" alt="Caption of the image" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 7. The Danish DPA's decision
 
@@ -132,5 +136,3 @@ The recent decisions by EU members (France, Austria, and Italy) are part of a co
 Organizations must adapt and be ready to navigate their business in this changing business environment. They must figure out what datapoints they really need to make decisions and collect them ethically. It's possible, and you'll be surprised how much data is collected for the sake of data collection.
 
 We believe it's not only a matter of staying within the law. It goes beyond that. We believe in creating an independent web that is friendly to website visitors. That's why we built [Simple Analytics](https://simpleanalytics.com/simpleanalytics.com) without any tracking mechanisms or the ability to collect any personal data while still giving you the insights you need. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
-
-*The author wishes to thank X for her comments and suggestions*
