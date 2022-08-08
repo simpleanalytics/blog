@@ -3,8 +3,7 @@ title: The Complete Overview: From 101 noyb complaints to banning Google Analyti
 author_slug: iron
 author: Iron Brands
 excerpt: A detailed overview of the current privacy issues with regard to data transfer to the U.S.
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalyticsassets.com/blog/2022-complete-overview/complete-overview.png
 draft: true
 ---
 Rest of the article
