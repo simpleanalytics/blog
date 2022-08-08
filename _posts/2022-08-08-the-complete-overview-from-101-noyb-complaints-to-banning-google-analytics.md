@@ -3,7 +3,7 @@ title: "The Complete Overview: From 101 noyb complaints to banning Google Analyt
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "A detailed overview of the current privacy issues with regard to data transfer to the U.S."
-image: https://assets.simpleanalyticsassets.com/blog/2022-complete-overview/complete-overview.png
+image: https://assets.simpleanalytics.com/blog/2022-complete-overview/complete-overview-carlo.png
 draft: true
 ---
 
