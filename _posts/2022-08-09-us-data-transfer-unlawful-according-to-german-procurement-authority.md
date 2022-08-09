@@ -43,7 +43,7 @@ The reasoning behind this ruling is in line with the logic of multiple European 
 <p class="caption" markdown="1">
 </p>
 
-## 3. What are the consequences of the ruling
+## 3. The consequences of the ruling
 
 Some points need to be stressed. First, the Public Procurement Chamber is neither a data protection authority nor a court but rather an independent authority dealing with administrative law. Therefore, the decision will probably not carry as much weight as a decision from a DPA. Second, the Chamber is only competent with regard to the German State of Baden-Württemberg; other German authorities may endorse a different approach.
 
