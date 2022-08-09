@@ -8,16 +8,6 @@ image_no_text: https://assets.simpleanalytics.com/blog/2022-
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="500" height="326" color="#3f2e1f" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-
 On July 13, the Public Procurement Chamber of the German State of Baden-Württemberg decided a [case](https://gdprhub.eu/index.php?title=Datatilsynet_(Denmark)_-_2020-431-0061) about a public procurement procedure for a digital management software. In doing so, it held that personal data transfers to the US based on Standard contractual clauses violates the GDPR.
 
 It should be noted that the Chamber is not a data protection authority and that the case is not, strictly speaking, a data protection case.
