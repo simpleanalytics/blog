@@ -17,7 +17,7 @@ draft: true
 4.  [Austria, France & Italy ban Google Analytics](#4-austria-france-italy-ban-google-analytics)
 5.  [EDPS reprimands European Parliament](#5-edps-reprimands-european-parliament)
 6.  [Ireland (DPC) orders Meta to suspend data transfers](#6-ireland-dpc-orders-meta-to-suspend-data-transfers)
-7.  [The Danish supervisor's decision](#7-the-danish-dpa-s-decision)
+7.  [The Danish DPA's decision](#7-the-danish-dpa-s-decision)
 
 Let's dig in!
 
