@@ -11,13 +11,13 @@ draft: true
 
 {% include gif.html slug="its-a-lot" alt="its a lot" width="360" height="360" color="#494045" %}
 
-1.  [Data transfers in a nutshell](#1--data-transfers-in-a-nutshell)
-2.  [Schrems II and Privacy Shield](#2--schrems-ii-and-privacy-shield)
-3.  [Noyb's 101 complaints and the EDPB task force](#3--noyb-s-101-complaints-and-the-edpb-task-force)
-4.  [Austria, France & Italy ban Google Analytics](#4--austria-france-italy-ban-google-analytics)
-5.  [EDPS reprimands European Parliament](#5--edps-reprimands-european-parliament)
-6.  [Ireland (DPC) orders Meta to suspend data transfers](#6--ireland-dpc-orders-meta-to-suspend-data-transfers)
-7.  [The Danish supervisor's decision](#7--the-danish-dpa-s-decision)
+1.  [Data transfers in a nutshell](#1-data-transfers-in-a-nutshell)
+2.  [Schrems II and Privacy Shield](#2-schrems-ii-and-privacy-shield)
+3.  [Noyb's 101 complaints and the EDPB task force](#3-noyb-s-101-complaints-and-the-edpb-task-force)
+4.  [Austria, France & Italy ban Google Analytics](#4-austria-france-italy-ban-google-analytics)
+5.  [EDPS reprimands European Parliament](#5-edps-reprimands-european-parliament)
+6.  [Ireland (DPC) orders Meta to suspend data transfers](#6-ireland-dpc-orders-meta-to-suspend-data-transfers)
+7.  [The Danish supervisor's decision](#7-the-danish-dpa-s-decision)
 
 Let's dig in!
 
