@@ -50,7 +50,7 @@ Unfortunately, there is little a company can do to ensure adequate data protecti
 
 In this tricky scenario, some companies have adopted a risk-based approach: they essentially argue that their transfers are safe because the data they export is unlikely to be actually targeted by a FISA order- even though it may be theoretically possible. As we have seen, some Data Protection Authorities have started to reject this approach. 
 
-<img src="https://assets.simpleanalytics.com/blog/2022-complete-overview/noyb-no-text.png" alt="Caption of the image" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-complete-overview/noyb-no-text.png" alt="complete overview of banning google analytics" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
@@ -64,7 +64,7 @@ In a nutshell, websites use European companies Google Ireland/Meta Platforms Ire
 
 In September 2020, the European Data Protection Board (EDPB) [announced the creation of a task force to handle noyb's 101 complaints](https://edpb.europa.eu/news/news/2020/european-data-protection-board-thirty-seventh-plenary-session-guidelines-controller_en). Few details about the works of the task force have been made public, but we do know that the DPAs worked towards finding a consistent approach to handling the complaints. The importance of this point cannot be stressed enough: the recent decisions that made the news reflect a coordinated approach, making it all the more likely that other supervisors will follow suit.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="Caption of the image" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="do you really need google analytics" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
