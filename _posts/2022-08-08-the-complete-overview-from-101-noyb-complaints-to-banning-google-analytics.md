@@ -81,11 +81,7 @@ In January 2022, the European Data Protection Supervisor [reprimanded the Europe
 
 The site was an internal coronavirus testing website for Members of the European Parliament. The Parliament outsourced the development for the site, and the devs copy-pasted some of the code from another website they had developed, including unnecessary analytics functionalities.
 
-The EDPS' decision only touched upon data transfers briefly, noting the complete lack of safeguards in this regard. It didn't draw as much attention as the 101 complaints. Still, it did clarify that cookies are always personal data.
-
- "Even if the traditional identity parameters of the tracked users are unknown."
-
-This further undermines Google's argument that IP anonymization is a suitable safeguard for privacy.
+The EDPS' decision only touched upon data transfers briefly, noting the complete lack of safeguards in this regard. However, it didn't draw as much attention as the 101 complaints. 
 
 ## 6. Ireland (DPC) orders Meta to suspend data transfers
 
