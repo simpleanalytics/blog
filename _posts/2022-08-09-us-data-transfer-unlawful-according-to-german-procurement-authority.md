@@ -1,7 +1,7 @@
 ---
 title: "US data transfer unlawful according to German procurement authority"
-author_slug: iron
-author: Iron Brands
+author_slug: carlo
+author: Carlo Cilento
 excerpt: "German procurement authority rules US data transfer unlawful"
 image: https://assets.simpleanalytics.com/blog/2022-german-authority-rules-US-data-transfer-unlawful/german-data-transfer.png
 image_no_text:
@@ -41,7 +41,7 @@ The Chamber held that SCCs do not ensure adequate protection for personal data t
 
 The reasoning behind this ruling is in line with the logic of multiple European DPAs and finds its merits in the fact that U.S. companies that qualify as an "electronic communication service provider." are obliged to disclose data to U.S. intelligence services if requested.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-german-authority-rules-US-data-transfer-unlawful/Courts-logo.png" alt="german authority rules data transfer unlawful" class="border-radius" />
+<img src="https://assets.simpleanalyticsassets.com/blog/2022-german-authority-rules-US-data-transfer-unlawful/germany-gdpr.png" alt="german authority rules data transfer unlawful" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
