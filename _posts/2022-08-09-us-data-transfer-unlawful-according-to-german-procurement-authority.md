@@ -5,6 +5,7 @@ author: Carlo Cilento
 excerpt: "German procurement authority rules US data transfer unlawful"
 image: https://assets.simpleanalytics.com/blog/2022-german-authority-rules-US-data-transfer-unlawful/german-data-transfer.png
 image_no_text:
+---
 
 On July 13, the Public Procurement Chamber of the German State of Baden-Württemberg decided a [case](https://gdprhub.eu/index.php?title=Datatilsynet_(Denmark)_-_2020-431-0061) about a public procurement procedure for a digital management software. In doing so, it held that personal data transfers to the US based on Standard contractual clauses violates the GDPR.
 
