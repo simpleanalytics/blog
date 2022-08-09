@@ -3,7 +3,7 @@ title: "The Complete Overview: From 101 noyb complaints to banning Google Analyt
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "A detailed overview of the current privacy issues with regard to data transfer to the U.S."
-image: https://assets.simpleanalytics.com/blog/2022-complete-overview/complete-overview-carlo.png
+image: https://assets.simpleanalytics.com/blog/2022-complete-overview/noyb-text.png
 draft: true
 ---
 
@@ -49,6 +49,10 @@ This left companies with SCCs as the only valid transfer mechanism for data to t
 Unfortunately, there is little a company can do to ensure adequate data protection in this scenario. Additionally, tech giants such as Google, AWS, and the like typically rely on standard, take-it-or-leave-it contracts for their business, leaving their customers with no room to negotiate additional safeguard clauses.
 
 In this tricky scenario, some companies have adopted a risk-based approach: they essentially argue that their transfers are safe because the data they export is unlikely to be actually targeted by a FISA order- even though it may be theoretically possible. As we have seen, some Data Protection Authorities have started to reject this approach. 
+
+<img src="https://assets.simpleanalytics.com/blog/2022-complete-overview/noyb-no-text.png" alt="Caption of the image" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 3. Noyb's 101 complaints and the EDPB task force
 
