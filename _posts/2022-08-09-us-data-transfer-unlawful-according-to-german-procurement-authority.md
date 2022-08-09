@@ -3,8 +3,8 @@ title: "US data transfer unlawful according to German procurement authority"
 author_slug: iron
 author: Iron Brands
 excerpt: "German procurement authority rules US data transfer unlawful"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-german-authority-rules-US-data-transfer-unlawful/german-data-transfer.png
+image_no_text:
 draft: true
 ---
 
