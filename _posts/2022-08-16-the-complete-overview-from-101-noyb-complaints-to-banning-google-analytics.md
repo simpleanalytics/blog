@@ -16,7 +16,8 @@ image: https://assets.simpleanalytics.com/blog/2022-complete-overview/noyb-text.
 4.  [Austria, France & Italy ban Google Analytics](#4-austria-france-italy-ban-google-analytics)
 5.  [EDPS reprimands European Parliament](#5-edps-reprimands-european-parliament)
 6.  [Ireland (DPC) orders Meta to suspend data transfers](#6-ireland-dpc-orders-meta-to-suspend-data-transfers)
-7.  [The Danish DPA's decision](#7-the-danish-dpa-s-decision)
+7.  [The Procurement Chamber Baden-Württemberg](#7-the-procurement-chamber-Baden-Württemberg)
+8.  [The Danish DPA's decision](#8-the-danish-dpa-s-decision)
 
 Let's dig in!
 
@@ -30,7 +31,8 @@ Let's dig in!
 -   February 2022: decision from the French DPA
 -   June 2022: decision from the Italian DPA
 -   July 2022: Irish DPA announces draft decision suspending Meta Ireland's data transfers
--   July 2022: the Danish DPA
+-   July 2022: German procurement authority holds U.S. data transfer unlawful
+-   July 2022: decision from the Danish DPA
 
 ## 1. Data transfers in a nutshell
 
@@ -94,11 +96,19 @@ In July 2022, the Irish DPA (DPC) announced a draft decision ordering [Meta Irel
 
 Many US companies (including Meta and Google) have their European establishment or spin-off companies in Ireland, and the Irish DPA is somewhat lax in policing them. An order to suspend transfers from a notoriously soft supervisor might signify an upcoming era of stricter enforcement of the transfer rules in the GDPR, which may concern countless services and companies- including Google and Google Analytics.
 
+## 7. The Procurement Chamber Baden-Württemberg
+
+Another interesting case was decided in July 2022. The case was about a public procurement procedure for a digital management software. The winning company would rely on AWS Europe (Amazon Web Service EMEA SARL) as processors. While the data was entirely localized in the EU, U.S. parent company AWS Inc. could access personal data in order “to maintain and provide the service” and “to comply with the law or a valid and binding order of a governmental body”.
+
+The Procurement Chamber found that this disclosure constituted a data transfer under the GDPR. The Chamber also found the data transfer to be illegal, as the additional safeguards in place were found to be lacking and SCCs on their own did not ensure sufficient protection.
+
+The decision itself is far from clear. The deciding authority is not a data protection authority, nor is it typically involved in interpretation of the GDPR. Very important points of the decisions are barely touched upon, leaving it to the reader to infer the reasoning. That being said, this decision might be a sign that a hard stance on data transfers is starting to get traction outside the narrow boundaries of data protection law in a strict sense, and gaining momentum in the broader legal landscape.
+
 <img src="https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png" alt="Caption of the image" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
-## 7. The Danish DPA's decision
+## 8. The Danish DPA's decision
 
 The last chapter of the story so far is a [decision by the Danish DPAs](https://www.simpleanalytics.com/blog/denmark-bans-google-workspace-for-municipalities) (Datatilsynet). In July 2022, [the supervisor prohibited the municipality of Helsingør from using Google Workspace in schools](https://gdprhub.eu/index.php?title=Datatilsynet_(Denmark)_-_2020-431-0061). While the DPA highlighted several privacy concerns, data transfers were the main focus of the decision.
 
