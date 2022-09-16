@@ -16,10 +16,12 @@ In this article, we outline why this scenario is not far-fetched and why it woul
 
 {% include gif.html slug="explain-like-five" alt="explain like five" width="480" height="400" color="#574840" %}
 
-1.  What is the case about? 
-2.  What does the ruling mean?
-3.  The practical implications
-4.  What does it mean for cookies?
+1.  [What is the case about?](#1-what-is-the-case-about?)
+2.  [What does the ruling mean?](#2-what-does-the-ruling-mean?)
+3.  [The practical implications](#3-the-practical-implications)
+4.  [What does it mean for cookies?](#4-what-does-it-mean-for-cookies?)
+
+Let's dive in
 
 ## 1. What is the case about?
 
