@@ -25,7 +25,7 @@ In this article, we outline why this scenario is not far-fetched and why it woul
 
 The case at hand was brought by the director of a Lithuanian establishment that received public funding. Under Lithuanian law on conflict of interest, he was required to provide certain personal information- including the name of his spouse - to an Ethics Commission for publication.
 
-The director refused to provide the information. He claimed that disclosing his partner's name on a publicly accessible website would indirectly disclose his sexual orientation, which constitutes sensitive data under the GDPR.
+The director refused to provide the information. He claimed that disclosing his partner's name on a publicly accessible website would indirectly disclose his sexual orientation, which constitutes sensitive data under the GDPR. [^footnote]
 
 He brought his case to an administrative court and later landed in the EU Court of Justice for a preliminary ruling. The Court finally ruled that data from which sensitive data can be deducted should themselves be treated as sensitive data under the GDPR.
 
@@ -68,3 +68,5 @@ At the moment, no one can accurately assess the future impact of the ruling, as 
 If the ruling is adopted broadly or not, we believe it's not only a matter of staying within the law. It goes further than that. We feel that every website owner should respect the privacy of its visitors.
 
 We believe in creating an independent web that is friendly to website visitors. That's why we built [Simple Analytics](https://simpleanalytics.com/simpleanalytics.com), a [privacy-first Google Analytics alternative](https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics) that is cookieless by design and does not collect any personal data while providing the insights you need. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
+
+[^footnote]: The Court actually referred to both the GDPR and the older Data Protection Directive in this case, but stated that there is no significant difference between the relevant Articles of the GDPR and the Directive. It’s perfectly safe to treat this case as a GDPR case, as we do in our post.
