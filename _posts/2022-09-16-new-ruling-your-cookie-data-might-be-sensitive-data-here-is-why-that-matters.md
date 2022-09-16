@@ -27,11 +27,11 @@ The case at hand was brought by the director of a Lithuanian establishment that 
 
 The director refused to provide the information. He claimed that disclosing his partner's name on a publicly accessible website would indirectly disclose his sexual orientation, which constitutes sensitive data under the GDPR.
 
-He brought his case to an administrative court and later landed in the EU Court of Justice for a preliminary ruling. The Court finally ruled that data from which sensitive data can be deducted should themselves be treated as sensitive data under the GDPR. [^footnote]
+He brought his case to an administrative court and later landed in the EU Court of Justice for a preliminary ruling. The Court finally ruled that data from which sensitive data can be deducted should themselves be treated as sensitive data under the GDPR. [^1]
 
 ## 2. What does the ruling mean?
 
-The GDPR protects personal data in general but lays out stricter rules for particularly sensitive categories of data, such as health data, political opinions, religious beliefs, and sexual orientation. [^footnote] As the Court explicitly noted, a person's name is not, in and of itself, sensitive data. However, such data can reveal the person's sexual orientation, which is indeed sensitive data. For this reason, the Court held that the name of someone's partner could qualify as sensitive data.
+The GDPR protects personal data in general but lays out stricter rules for particularly sensitive categories of data, such as health data, political opinions, religious beliefs, and sexual orientation. [^2] As the Court explicitly noted, a person's name is not, in and of itself, sensitive data. However, such data can reveal the person's sexual orientation, which is indeed sensitive data. For this reason, the Court held that the name of someone's partner could qualify as sensitive data.
 
 This ruling opens a big can of worms. Lots and lots of personal data are not sensitive in and of themselves but may reveal sensitive information. 
 
@@ -55,9 +55,9 @@ This also goes for the disclosure of the data to third parties: if a website pro
 
 More data may be considered to be sensitive  and will be subject to stricter rules under the GDPR. In fact, some data processing operations may not be lawful anymore under the stricter regulation for sensitive data.
 
-If cookie data - or at least some - were considered sensitive data, they would require the user's explicit consent [^footnote] - that is, a "reinforced" form of "baseline" consent under the GDPR. There are other ways to comply, but from a practical perspective, obtaining explicit consent from the user will be the only option in most scenarios.
+If cookie data - or at least some - were considered sensitive data, they would require the user's explicit consent [^3] - that is, a "reinforced" form of "baseline" consent under the GDPR. There are other ways to comply, but from a practical perspective, obtaining explicit consent from the user will be the only option in most scenarios.
 
-This might not seem like a big deal since user consent is already mandatory for cookies under the ePrivacy Directive. [^footnote] However, cookie consent is collected in ways that are... not ideal, to say the least. "Cookie fatigue" is a well-known phenomenon that drives most users to accept cookie policies without even clicking them, let alone reading them. Additionally, many cookie banners use deceptive designs to make it as annoying as possible for the user to refuse consent. Given the GDPR's general requirement that consent be free and informed [^footnote], these practices are problematic, to put it mildly.
+This might not seem like a big deal since user consent is already mandatory for cookies under the ePrivacy Directive. [^4] However, cookie consent is collected in ways that are... not ideal, to say the least. "Cookie fatigue" is a well-known phenomenon that drives most users to accept cookie policies without even clicking them, let alone reading them. Additionally, many cookie banners use deceptive designs to make it as annoying as possible for the user to refuse consent. Given the GDPR's general requirement that consent be free and informed [^5], these practices are problematic, to put it mildly.
 
 If cookies- or at least cookies for certain websites- were to require explicit consent in the future, supervisory authorities may adopt a stricter stance on cookies overall and start taking the requirements for "baseline" consent more seriously. Even if authorities don't go as far as to require explicit consent, the recent judgment and the discussion it sparked might highlight the many shortcomings of cookie implementation.
 
@@ -69,8 +69,8 @@ If the ruling is adopted broadly or not, we believe it's not only a matter of st
 
 We believe in creating an independent web that is friendly to website visitors. That's why we built [Simple Analytics](https://simpleanalytics.com/simpleanalytics.com), a [privacy-first Google Analytics alternative](https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics) that is cookieless by design and does not collect any personal data while providing the insights you need. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
-> [^footnote]: The Court actually referred to both the GDPR and the older Data Protection Directive in this case, but stated that there is no significant difference between the relevant Articles of the GDPR and the Directive. It’s perfectly safe to treat this case as a GDPR case, as we do in our post.
-> [^footnote]: Art. 9 GDPR.
-> [^footnote]: Art. 9(2)(a) GDPR.
-> [^footnote]: Article 5(3) of Directive 2002/58, as amended by Directive 2009/136.
-> [^footnote]: Article 4(11) GDPR.
+[^1]: The Court actually referred to both the GDPR and the older Data Protection Directive in this case, but stated that there is no significant difference between the relevant Articles of the GDPR and the Directive. It’s perfectly safe to treat this case as a GDPR case, as we do in our post.
+[^2]: Art. 9 GDPR.
+[^3]: Art. 9(2)(a) GDPR.
+[^4]: Article 5(3) of Directive 2002/58, as amended by Directive 2009/136.
+[^5]: Article 4(11) GDPR.
