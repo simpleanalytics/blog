@@ -69,8 +69,8 @@ If the ruling is adopted broadly or not, we believe it's not only a matter of st
 
 We believe in creating an independent web that is friendly to website visitors. That's why we built [Simple Analytics](https://simpleanalytics.com/simpleanalytics.com), a [privacy-first Google Analytics alternative](https://www.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics) that is cookieless by design and does not collect any personal data while providing the insights you need. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
-[^1]: The Court actually referred to both the GDPR and the older Data Protection Directive in this case, but stated that there is no significant difference between the relevant Articles of the GDPR and the Directive. It’s perfectly safe to treat this case as a GDPR case, as we do in our post.
-[^2]: Art. 9 GDPR.
-[^3]: Art. 9(2)(a) GDPR.
-[^4]: Article 5(3) of Directive 2002/58, as amended by Directive 2009/136.
-[^5]: Article 4(11) GDPR.
+> [^1]: The Court actually referred to both the GDPR and the older Data Protection Directive in this case, but stated that there is no significant difference between the relevant Articles of the GDPR and the Directive. It’s perfectly safe to treat this case as a GDPR case, as we do in our post.
+> [^2]: Art. 9 GDPR.
+> [^3]: Art. 9(2)(a) GDPR.
+> [^4]: Article 5(3) of Directive 2002/58, as amended by Directive 2009/136.
+> [^5]: Article 4(11) GDPR.
