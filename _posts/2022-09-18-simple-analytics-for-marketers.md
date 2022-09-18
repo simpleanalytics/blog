@@ -3,8 +3,8 @@ title: "Simple Analytics for Marketers"
 author_slug: iron
 author: Iron Brands
 excerpt: "Marketers guide for Simple Analytics, the privacy-first Google Analytics alternative"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-simple-analytics-for-marketers/social-image.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-simple-analytics-for-marketers/social-image-no-text.png
 draft: true
 ---
 
