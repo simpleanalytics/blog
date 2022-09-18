@@ -1,5 +1,5 @@
 ---
-title: "New ruling: Your cookie data might be sensitive data. Here is why that matters"
+title: "New ruling: Your cookie data might be sensitive data"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Cookies have always been treated as personal data under the GDPR, but are now considered sensitive data under the new ruling"
