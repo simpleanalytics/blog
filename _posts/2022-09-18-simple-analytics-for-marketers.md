@@ -144,7 +144,7 @@ At Simple Analytics, we built a [feature that directly hides referral spam](http
 **Data sampling**
 Google Analytics uses data sampling to save server capacity and keep costs down. Data sampling means that only a subset of your actual traffic is processed. From this subset, Google Analytics predicts what your total traffic would look like. This is a cost-effective way to estimate website analytics. However, it is not nearly as accurate. 
 
-## 8. Benchmark Google Analytics data
+## 9. Benchmark Google Analytics data
 
 It's no secret that Google Analytics is a really powerful tool that is very helpful for marketers to do their job. However, it comes with some caveats. The inaccurate data caveat, as explained above, might be a reason to use Google Analytics and Simple Analytics simultaneously.
 
@@ -152,13 +152,13 @@ Simple Analytics might not be the right solution if you want to track individual
 
 The fact that Simple Analytics is very lightweight means that you could easily run it next to Google Analytics or any other web analytics provider to see the differences. 
 
-## 9. Improve your website's user experience
+## 10. Improve your website's user experience
 
 If you use Google Analytics on your website to track your website performance, you are obliged by law to provide a cookie banner and ask for consent. This means your website visitors must first interact with a cookie banner before entering your website.
 
 With Simple Analytics, this is not necessary anymore. Your visitors don't need to be shown a cookie banner when navigating to your website. 
 
-## 10. Improve your core web vitals
+## 11. Improve your core web vitals
 
 Simple Analytics improves your core web vitals. This is because Simple Analytics is a simple tool with a small script that needs to be installed on your website.
 
@@ -172,7 +172,7 @@ We ran a [performance test](https://blog.simpleanalytics.com/google-penalizes-yo
 <p class="caption" markdown="1">
 </p>
 
-## 11. Comply with privacy regulations
+## 12. Comply with privacy regulations
 
 Simple Analytics is fully compliant with privacy laws. Google Analytics is not. In some EU member states, using [Google Analytics is against the law](https://www.simpleanalytics.com/blog/italy-declares-google-analytics-illegal). Since it's a coordinated effort from multiple EU member states against Google Analytics, more countries are expected to reach the same conclusion as [France](https://www.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), [Italy](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english) & [Austria](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) did. The Netherlands is expected to conclude at the end of 2022.
 
