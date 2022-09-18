@@ -29,7 +29,7 @@ Google Analytics has come under fire lately (and for a good reason). Multiple EU
 
 So now might be a good time to explore what privacy-friendly alternatives offer.
 
-![](https://lh6.googleusercontent.com/E-kJRwRJfVX-hxybAcwI58O0qoQxjVuX_1JPuowfUqXZbu7an3NkmV9AIE42BGwimW0YBIkvInC6Nao0TTucCwGJR0Ye0wJtmjZrh8hq5iIE9rbIKf6CAOCswq90gyDXABtLso8rhu-kyRL8DYn7Upay71LDjaIY2CGLn0EVs5CueY0jOZxfpGz5Kg)
+{% include gif.html slug="one-way-to-find-out" alt="one way to find out" width="480" height="480" color="#605441" %}
 
 Let's dive in!
 
@@ -80,7 +80,9 @@ We support the following codes:
 
 The UTM tags will show up on the dashboard in the "Referrals" dropdown menu:
 
-![](https://lh3.googleusercontent.com/Ne3unNWjd3hgEdbOnbyMzAFY0JfTLsc7FEm319JcT2izO0JqRhFPJrO142g25Q-IuPDPb7QjYdYPd_bX5umtQ269diJMJ4Zm9S8AxUn8YACsg6bNmlVYttL_gdQJ_uLXSHox1erSvKMp0fTj2EGLoVMY8opCyfLmZ23SqI1hJsS5AB_s1iqRL6aFQw)
+<img src="https://assets.simpleanalytics.com/blog/For%20marketers/utm-referrals.png" alt="utm-referrals" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 3. Add events to measure conversions
 
@@ -88,7 +90,9 @@ Keeping track of conversions is important. In Simple Analytics, you can collect 
 
 We measure conversion by comparing two or more specific events. Like in the image below. For instance, If you want to know the relation between the number of pageviews (event 1) and the number of signups (event 2) in a specific period, we can measure this by comparing the two events.
 
-![](https://lh5.googleusercontent.com/5sr3qtNCIOaFml5tH5w1PbZGm-sFHAuppBqadb8D4qaVHR7xj4OaTqq9pCsYOkBMxnmc36GrWACphwUIud6pKR4ikpxPo34QLNnGgwV57ooOpjZrGkyKowK_g_ZJqd8BNgHmr42bXYEOZyvKxzA9y3qLTxphoasO-o8PnVh2cf3DCxs9z5UWLZt3jA)
+<img src="https://assets.simpleanalytics.com/blog/For%20marketers/events-dashboard.png" alt="events dashboard" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 To make it easier for non-developers, we created [an automated events script](https://docs.simpleanalytics.com/automated-events). This script collects events for downloads and outbound links and clicks on email links automatically. You can also create your own custom events if you want to get your hands dirty. [Here](https://docs.simpleanalytics.com/events) is how you can go about setting up your custom events.
 
@@ -126,10 +130,11 @@ Sharing insights in Google Analytics can be a painstaking process. Simple Analyt
 
 In addition, we send [weekly or monthly email reports](https://docs.simpleanalytics.com/email-reports), so you don't have to check the dashboard all the time. You can add as many team members (or other stakeholders to receive these reports and never miss that traffic spike. It includes the top 5 referrers, and we compare them with the previous period. This indicates where your website is getting its traffic from and how those numbers might have changed.
 
-![](https://lh6.googleusercontent.com/0PQwltCo-NxtMod5ibtfUNqVh6CxHCH4lXuoaPwU2rqLBJVc8V2QIac93gOmKFPS4QV-GWe5oxgg0lJwehsRx0Z_9zEdO7vbqfb-F_YpgP9y3DtqPZUGKi-IwW82dOqwt-f-uhtBi-2IV2FajT5uzfDqhLTSZY0_IoKgNn2TS1j-qQjBd02dljLYww)
+<img src="https://assets.simpleanalytics.com/blog/For%20marketers/email-reports.png" alt="email reports" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 8. Get accurate website traffic data
-    ---------------------------------
 
 This sounds contradictory: "Track less and get more accurate data." But this is essentially true, and there are a few reasons for it:
 
@@ -137,26 +142,24 @@ This sounds contradictory: "Track less and get more accurate data." But this is 
 
 Before visiting your website, every website visitor needs to interact with a cookiebanner. If the visitor does not consent to be tracked, you have no idea that this visitor has been on your website. More visitors will have visited your website than Google Analytics will show you. This discrepancy will only continue to grow as more and more visitors don't want to be tracked. If you use a privacy-friendly alternative that is cookieless by design, each actual website visit will be shown.
 
-Adblockers 
+**Adblockers**
 
 More and more internet users are using ad-blockers because website users demand more privacy. Most ad-blockers block the Google Analytics script. Visitors that have ad-blockers installed won't show up in your stats.
 
-Referral spam 
+**Referral spam** 
 
 Referral spam has been a big problem for Google Analytics. Referral spam looks like genuine traffic to your website, but it's actually fake. Spammy advertisers send fake visitors to your website in two ways:
 
 -   Bot referral spam: Bots visiting your website and making Google Analytics register it
-
 -   Ghost referral spam: Bots totally bypass your website and directly hit the Google Analytics server
 
 At Simple Analytics, we built a [feature that directly hides referral spam](https://docs.simpleanalytics.com/hide-referral-spam) from your dashboard.
 
-Data sampling 
+**Data sampling**
 
 Google Analytics uses data sampling to save server capacity and keep costs down. Data sampling means that only a subset of your actual traffic is processed. From this subset, Google Analytics predicts what your total traffic would look like. This is a cost-effective way to estimate website analytics. However, it is not nearly as accurate. 
 
-1.  Benchmark Google Analytics data
-    -------------------------------
+## 8. Benchmark Google Analytics data
 
 It's no secret that Google Analytics is a really powerful tool that is very helpful for marketers to do their job. However, it comes with some caveats. The inaccurate data caveat, as explained above, might be a reason to use Google Analytics and Simple Analytics simultaneously.
 
@@ -164,15 +167,13 @@ Simple Analytics might not be the right solution if you want to track individual
 
 The fact that Simple Analytics is very lightweight means that you could easily run it next to Google Analytics or any other web analytics provider to see the differences. 
 
-1.  Improve your website's user experience
-    --------------------------------------
+## 9. Improve your website's user experience
 
 If you use Google Analytics on your website to track your website performance, you are obliged by law to provide a cookie banner and ask for consent. This means your website visitors must first interact with a cookie banner before entering your website.
 
 With Simple Analytics, this is not necessary anymore. Your visitors don't need to be shown a cookie banner when navigating to your website. 
 
-1.  Improve your core web vitals
-    ----------------------------
+## 10. Improve your core web vitals
 
 Simple Analytics improves your core web vitals. This is because Simple Analytics is a simple tool with a small script that needs to be installed on your website.
 
@@ -182,17 +183,17 @@ A smaller script makes your website faster. This has two main advantages. First,
 
 We ran a [performance test](https://blog.simpleanalytics.com/google-penalizes-you-for-using-google-analytics) using Google Lighthouse to show the actual impact. There is a difference of 10 basis points in website performance between Simple Analytics and Google Analytics.
 
-![](https://lh3.googleusercontent.com/AXKOaEWW9bH4eDSpXFUvWfIuf_UM0ngDbZBqaez4K86QOtYjZ509W82e1ejjmmC4_LmvV16J2X7Ch1Do_aW34gDZOSkALdmUOSbQvVHB8d27EVu3R3cFWm8tu16SK99FplAPvj8j8VhntbN3dnxy0l7MYvIzSz0JLcWXwsStZiKnggYLGE-yC00mNw)
+<img src="https://assets.simpleanalytics.com/blog/For%20marketers/core-web-vitals.png" alt="lighthouse analytics comparison" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
-1.  Comply with privacy regulations
-    -------------------------------
+## 11. Comply with privacy regulations
 
 Simple Analytics is fully compliant with privacy laws. Google Analytics is not. In some EU member states, using [Google Analytics is against the law](https://www.simpleanalytics.com/blog/italy-declares-google-analytics-illegal). Since it's a coordinated effort from multiple EU member states against Google Analytics, more countries are expected to reach the same conclusion as [France](https://www.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), [Italy](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english) & [Austria](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) did. The Netherlands is expected to conclude at the end of 2022.
 
 An actionable [agreement between the EU & US](https://www.simpleanalytics.com/blog/eu-us-privacy-shield-2-0-is-again-a-political-show) is still far away, and even if we reach this point, you can argue how sustainable it really is with the privacy movement getting more and more steam. Using Simple Analytics that is 100% compliant with GDPR gets the headache out of the way once and for all.
 
-Try Simple Analytics
---------------------
+## Try Simple Analytics
 
 If you've read this far, it's maybe time for an introduction...
 
