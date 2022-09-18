@@ -33,7 +33,7 @@ Let's dive in!
 9.  [Benchmark Google Analytics data](#9-benchmark-Google-Analytics-data)
 10. [Improve your website's user experience](#10-improve-your-websites-user-experience)
 11. [Improve your core web vitals](#11-improve-your-core-web-vitals)
-12. [Comply with regulations](#12-comply-with-regulations)
+12. [Comply with privacy regulations](#12-comply-with-privacy-regulations)
 
 ## 1. Get actionable insights from your analytics
 
