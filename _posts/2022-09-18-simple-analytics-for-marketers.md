@@ -8,17 +8,6 @@ image_no_text: https://assets.simpleanalytics.com/blog/2022-simple-analytics-for
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 Simple Analytics is a privacy-friendly analytics tool that is cookieless by design and fully complies with GDPR. It provides actionable insights in a simple one-page dashboard without compromising the privacy of your website visitors.
 
 Below we aim to answer the number one question concerning privacy-friendly analytics: "What's still possible for marketers?"
@@ -33,18 +22,18 @@ So now might be a good time to explore what privacy-friendly alternatives offer.
 
 Let's dive in!
 
-1.  Get actionable insights from your analytics
-2.  Keep track of your ad campaigns with UTM tags
-3.  Add Events to measure conversions
-4.  Use APIs to build your own dashboards
-5.  Integrate Simple Analytics with your favorite dashboarding tools
-6.  Import Google Analytics data directly into your dashboard
-7.  Share reports with your team
-8.  Get accurate website traffic data
-9.  Benchmark Google Analytics data
-10. Improve your website's user experience
-11. Improve your core web vitals
-12. Comply with regulations
+1.  [Get actionable insights from your analytics](#1-get-actionable-insights-from-your-analytics)
+2.  [Keep track of your ad campaigns with UTM tags](#2-keep-track-of-your-ad-campaigns-with-UTM-tags)
+3.  [Add Events to measure conversions](#3-add-events-to-measure-conversions)
+4.  [Use APIs to build your own dashboards](#4-use-APIs-to-build-your-own-dashboards)
+5.  [Integrate Simple Analytics with your favorite dashboarding tools](#5-integrate-Simple-Analytics-with-your-favorite-dashboarding-tools)
+6.  [Import Google Analytics data directly into your dashboard](#6-import-Google-Analytics-data-directly-into-your-dashboard)
+7.  [Share reports with your team](#7-share-reports-with-your-team)
+8.  [Get accurate website traffic data](#8-get-accurate-website-traffic-data)
+9.  [Benchmark Google Analytics data](#9-benchmark-Google-Analytics-data)
+10. [Improve your website's user experience](#10-improve-your-websites-user-experience)
+11. [Improve your core web vitals](#11-improve-your-core-web-vitals)
+12. [Comply with regulations](#12-comply-with-regulations)
 
 ## 1. Get actionable insights from your analytics
 
@@ -139,15 +128,12 @@ In addition, we send [weekly or monthly email reports](https://docs.simpleanalyt
 This sounds contradictory: "Track less and get more accurate data." But this is essentially true, and there are a few reasons for it:
 
 **Cookie banners** 
-
 Before visiting your website, every website visitor needs to interact with a cookiebanner. If the visitor does not consent to be tracked, you have no idea that this visitor has been on your website. More visitors will have visited your website than Google Analytics will show you. This discrepancy will only continue to grow as more and more visitors don't want to be tracked. If you use a privacy-friendly alternative that is cookieless by design, each actual website visit will be shown.
 
 **Adblockers**
-
 More and more internet users are using ad-blockers because website users demand more privacy. Most ad-blockers block the Google Analytics script. Visitors that have ad-blockers installed won't show up in your stats.
 
 **Referral spam** 
-
 Referral spam has been a big problem for Google Analytics. Referral spam looks like genuine traffic to your website, but it's actually fake. Spammy advertisers send fake visitors to your website in two ways:
 
 -   Bot referral spam: Bots visiting your website and making Google Analytics register it
@@ -156,7 +142,6 @@ Referral spam has been a big problem for Google Analytics. Referral spam looks l
 At Simple Analytics, we built a [feature that directly hides referral spam](https://docs.simpleanalytics.com/hide-referral-spam) from your dashboard.
 
 **Data sampling**
-
 Google Analytics uses data sampling to save server capacity and keep costs down. Data sampling means that only a subset of your actual traffic is processed. From this subset, Google Analytics predicts what your total traffic would look like. This is a cost-effective way to estimate website analytics. However, it is not nearly as accurate. 
 
 ## 8. Benchmark Google Analytics data
