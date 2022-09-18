@@ -23,11 +23,11 @@ So now might be a good time to explore what privacy-friendly alternatives offer.
 Let's dive in!
 
 1.  [Get actionable insights from your analytics](#1-get-actionable-insights-from-your-analytics)
-2.  [Keep track of your ad campaigns with UTM tags](#2-keep-track-of-your-ad-campaigns-with-UTM-tags)
+2.  [Keep track of your ad campaigns with UTM tags](#2-keep-track-of-your-ad-campaigns-with-utm-tags)
 3.  [Add Events to measure conversions](#3-add-events-to-measure-conversions)
-4.  [Use APIs to build your own dashboards](#4-use-APIs-to-build-your-own-dashboards)
-5.  [Integrate Simple Analytics with your favorite dashboarding tools](#5-integrate-Simple-Analytics-with-your-favorite-dashboarding-tools)
-6.  [Import Google Analytics data directly into your dashboard](#6-import-Google-Analytics-data-directly-into-your-dashboard)
+4.  [Use APIs to build your own dashboards](#4-use-apis-to-build-your-own-dashboards)
+5.  [Integrate Simple Analytics with your favorite dashboarding tools](#5-integrate-simple-analytics-with-your-favorite-dashboarding-tools)
+6.  [Import Google Analytics data directly into your dashboard](#6-import-google-analytics-data-directly-into-your-dashboard)
 7.  [Share reports with your team](#7-share-reports-with-your-team)
 8.  [Get accurate website traffic data](#8-get-accurate-website-traffic-data)
 9.  [Benchmark Google Analytics data](#9-benchmark-Google-Analytics-data)
