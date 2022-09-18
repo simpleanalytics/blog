@@ -30,7 +30,7 @@ Let's dive in!
 6.  [Import Google Analytics data directly into your dashboard](#6-import-google-analytics-data-directly-into-your-dashboard)
 7.  [Share reports with your team](#7-share-reports-with-your-team)
 8.  [Get accurate website traffic data](#8-get-accurate-website-traffic-data)
-9.  [Benchmark Google Analytics data](#9-benchmark-Google-Analytics-data)
+9.  [Benchmark Google Analytics data](#9-benchmark-google-analytics-data)
 10. [Improve your website's user experience](#10-improve-your-websites-user-experience)
 11. [Improve your core web vitals](#11-improve-your-core-web-vitals)
 12. [Comply with privacy regulations](#12-comply-with-privacy-regulations)
