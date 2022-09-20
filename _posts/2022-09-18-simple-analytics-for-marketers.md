@@ -93,7 +93,7 @@ Simple Analytics does not own your data. You do! That's why we care a lot about 
 
 There are a few ways to interact with our API. We have the [Stats API](https://docs.simpleanalytics.com/api/stats) for aggregated data, the [Export API](https://docs.simpleanalytics.com/api/export-page-views) for raw level data, and the [Admin API](https://docs.simpleanalytics.com/api/admin) for changing users, websites, and other settings.
 
-{Insert export video} → https://docs.simpleanalytics.com/api/helpers#generate-export-url
+{% include video.html width="2880" height="1560" slug="get-event-api-url" %}
 
 ## 5. Integrate Simple Analytics with your dashboarding tools
 
