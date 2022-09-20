@@ -24,8 +24,8 @@ Let's find out 👇
 
 1.  [How does Google Analytics work?](#1-how-does-google-analytics-work)
     1.  [Does Google Analytics use cookies?](#11-does-google-analytics-use-cookies)
-    2.  [Is Google Analytics using first or third-party cookies?](#12-is-google-analytics-using-first-or-third-party-cookies?)
-    3.  [How long do Google Analytics cookies last?](#13-how-long-do-google-analytics-cookies-last?)
+    2.  [Is Google Analytics using first or third-party cookies?](#12-is-google-analytics-using-first-or-third-party-cookies)
+    3.  [How long do Google Analytics cookies last?](#13-how-long-do-google-analytics-cookies-last)
     4.  [How do I anonymize Google Analytics?](#14-how-do-i-anonymize-google-analytics)
     5.  [Can an IP address be anonymized?](#15-can-an-ip-address-be-anonymized)
     6.  [Can cookies be anonymized?](#16-can-cookies-be-anonymized)
@@ -115,18 +115,18 @@ Google Analytics stores two distinct types of personal information from a websit
 GA provides its customers with an IP anonymization option which anonymizes IP addresses by setting a portion of each address to zeros before storing it. GA's IP anonymization falls short of proper anonymization under the GDPR for two reasons.\
 First of all, as noted by the [Italian DPA in its recent decision banning GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), Google can make the data subject identifiable by combining the truncated IP address with other data they control, such as cookies or credentials from the user's Google account. GA's so-called IP anonymization is not proper anonymization under the GDPR, but rather pseudonymization. Unlike anonymized data, pseudonymized data is still personal data under the GDPR.
 
-### 1.5 Can cookies be anonymized?
+### 1.6 Can cookies be anonymized?
 
 As we explained [here](https://www.simpleanalytics.com/blog/website-analytics-without-cookies), every cookie contains two pieces of information: a version number and a unique identifier. Because they contain a unique identifier, cookies can single out a user and are always personal data. It doesn't matter whether or not you can actually identify a user- that is, trace back their identity through the identifier alone, or by combining it with other data about the user. Being able to single out users is enough to make cookies personal data, and unique identifiers make this possible by definition.
 
 Of course, you could theoretically anonymize a cookie by removing the identifier, but that will leave you with no information other than the cookie's version name, which would make it perfectly useless.\
 Bottom line: no, you cannot anonymize cookies. This goes for all cookies, not just GA cookies.
 
-### 1.4 Can I use Google Analytics without cookie consent?
+### 1.7 Can I use Google Analytics without cookie consent?
 
 No. Under the ePrivacy Directive, all cookies require the user's consent except for strictly necessary cookies. Cookies for web analytics always require the user's consent, whether they are from GA or from a different software. If you use cookie-based analytics without a cookie banner, you are violating the GDPR. And if your website features deceptive cookie banners or "cookie walls", you are also violating the GDPR by collecting invalid consent- but that's a story for another day.
 
-### 1.5 Do I need a cookie banner when using Google Analytics?
+### 1.8 Do I need a cookie banner when using Google Analytics?
 
 When you install Google Analytics, you need to show a cookie banner to ask for consent. To ensure Google Analytics works in compliance with privacy regulations, you need to take the following steps:
 
@@ -144,11 +144,11 @@ This is true for Google Analytics and for every web analytics tool that uses coo
 
 More and more people become aware that they are being tracked around the internet, meaning that it is very likely that fewer people will give consent. This results in less accurate data.
 
-### 1.6 Do you need to include Google Analytics cookies in your privacy policy
+### 1.9 Do you need to include Google Analytics cookies in your privacy policy
 
 If your website issues Google Analytics cookies, you need to include this in your privacy policy. By law, you must be transparent about the cookies your website issues. If third-party cookies are issued, you need to address this separately in your privacy policy. It is also against Google's terms & conditions not to disclose that you are using cookies. If this is not addressed in your privacy policy, you illegally use Google Analytics.
 
-### 1.7 Can I use Google Analytics without cookies?
+### 1.10 Can I use Google Analytics without cookies?
 
 Yes, but you probably don't want to. Here's why.
 
