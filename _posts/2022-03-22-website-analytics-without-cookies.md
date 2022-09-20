@@ -5,7 +5,7 @@ author: Iron Brands
 excerpt: "The future of web analytics is cookieless, but how does analytics work without cookies? Let's find out."
 image: https://assets.simpleanalytics.com/blog/socials/website-analytics-without-cookies.png
 lang: en
-last_modified_at: 2022-05-03
+last_modified_at: 2022-09-20
 ---
 
 It has been the talk of the town lately. "Google Analytics might be banned in Europe."
@@ -26,9 +26,13 @@ Let's find out 👇
     1.  [Does Google Analytics use cookies?](#11-does-google-analytics-use-cookies)
     2.  [Is Google Analytics using first or third-party cookies?](#12-is-google-analytics-using-first-or-third-party-cookies?)
     3.  [How long do Google Analytics cookies last?](#13-how-long-do-google-analytics-cookies-last?)
-    4.  [Do you need a cookie banner when using Google Analytics?](#14-do-you-need-a-cookie-banner-when-using-google-analytics)
-    5.  [Do you need to include Google Analytics cookies in your privacy policy](#15-do-you-need-to-include-google-analytics-cookies-in-your-privacy-policy)
-    6.  [Can you use Google Analytics without cookies?](#16-can-you-use-google-analytics-without-cookies)
+    4.  [How do I anonymize Google Analytics?](#14-how-do-i-anonymize-google-analytics)
+    5.  [Can an IP address be anonymized?](#15-can-an-ip-address-be-anonymized)
+    6.  [Can cookies be anonymized?](#16-can-cookies-be-anonymized)
+    7.  [Can I use Google Analytics without cookie consent?](#17-can-i-use-google-analytics-without-cookie-consent)
+    8.  [Do I need a cookie banner when using Google Analytics?](#18-do-i-need-a-cookie-banner-when-using-google-analytics)
+    9.  [Do I need to include Google Analytics cookies in your privacy policy](#19-do-i-need-to-include-google-analytics-cookies-in-your-privacy-policy)
+    10.  [Can you I Google Analytics without cookies?](#110-can-i-use-google-analytics-without-cookies)
 2.  [Website analytics without cookies](#2-website-analytics-without-cookies)
     1.  [What data does Simple Analytics collect?](#21-what-data-does-simple-analytics-collect)
     2.  [How can Simple Analytics count unique visitors?](#22-how-do-we-identify-unique-visitors)
@@ -96,18 +100,40 @@ You can also change it in Google Tag Manager, which is even easier:
 -   Open *Fields to Set*
 -   Click on: *Add Field* and fill out the two fields below. Indicate 31536000 in the value box to change the duration to one year.
 
-### 1.4 Do you need a cookie banner when using Google Analytics?
+### 1.4 How do I anonymize Google Analytics?
 
-According to GDPR, websites need to get consent from those visitors to store a cookie on their device. When you install Google Analytics, you need to show a cookie banner to ask for consent. To ensure Google Analytics works in compliance with privacy regulations, you need to take the following steps:
+Long story short: you don't. Here's why.
+
+The GDPR sets a high bar for anonymization, and for good reason: Since the GDPR itself only applies to personal data, any anonymized data falls outside the scope of the GDPR and is not protected.
+
+Data is considered anonymized when "the data subject is not or no longer identifiable". Crucially, data is considered to be identifiable as soon as the data subject can be singled out- that is, as soon as "he or she is distinguished from all other members" of a group of  persons. This means that data can be personal even if it tells us absolutely nothing about a data subject.
+
+Google Analytics stores two distinct types of personal information from a website's user: cookies and IP address. As we will see, neither of these can be anonymized.
+
+### 1.5 Can an IP address be anonymized?
+
+GA provides its customers with an IP anonymization option which anonymizes IP addresses by setting a portion of each address to zeros before storing it. GA's IP anonymization falls short of proper anonymization under the GDPR for two reasons.\
+First of all, as noted by the [Italian DPA in its recent decision banning GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), Google can make the data subject identifiable by combining the truncated IP address with other data they control, such as cookies or credentials from the user's Google account. GA's so-called IP anonymization is not proper anonymization under the GDPR, but rather pseudonymization. Unlike anonymized data, pseudonymized data is still personal data under the GDPR.
+
+### 1.5 Can cookies be anonymized?
+
+As we explained [here](https://www.simpleanalytics.com/blog/website-analytics-without-cookies), every cookie contains two pieces of information: a version number and a unique identifier. Because they contain a unique identifier, cookies can single out a user and are always personal data. It doesn't matter whether or not you can actually identify a user- that is, trace back their identity through the identifier alone, or by combining it with other data about the user. Being able to single out users is enough to make cookies personal data, and unique identifiers make this possible by definition.
+
+Of course, you could theoretically anonymize a cookie by removing the identifier, but that will leave you with no information other than the cookie's version name, which would make it perfectly useless.\
+Bottom line: no, you cannot anonymize cookies. This goes for all cookies, not just GA cookies.
+
+### 1.4 Can I use Google Analytics without cookie consent?
+
+No. Under the ePrivacy Directive, all cookies require the user's consent except for strictly necessary cookies. Cookies for web analytics always require the user's consent, whether they are from GA or from a different software. If you use cookie-based analytics without a cookie banner, you are violating the GDPR. And if your website features deceptive cookie banners or "cookie walls", you are also violating the GDPR by collecting invalid consent- but that's a story for another day.
+
+### 1.5 Do I need a cookie banner when using Google Analytics?
+
+When you install Google Analytics, you need to show a cookie banner to ask for consent. To ensure Google Analytics works in compliance with privacy regulations, you need to take the following steps:
 
 1. Don't store cookies if you don't have consent.
-
 2. Make sure Google Analytics cookies are only activated after users have given their consent
-
 3. Be transparent regarding the details of the Google Analytics cookies you are using. According to privacy regulations, consent is only valid if it constitutes an informed decision. You need to explain what type of cookies you are using.
-
 4. Compile detailed information in your privacy policy. You need to include all Google Analytics cookies and other personal data tracking mechanisms in the privacy policy
-
 5. Turn on IP anonymization in your Google Analytics account and make sure that it uses pseudonymous identifiers.
 
 Not only are cookies privacy-invasive (that's the reason for the cookie banner), but you will also lose data.
@@ -118,17 +144,26 @@ This is true for Google Analytics and for every web analytics tool that uses coo
 
 More and more people become aware that they are being tracked around the internet, meaning that it is very likely that fewer people will give consent. This results in less accurate data.
 
-### 1.5 Do you need to include Google Analytics cookies in your privacy policy
+### 1.6 Do you need to include Google Analytics cookies in your privacy policy
 
 If your website issues Google Analytics cookies, you need to include this in your privacy policy. By law, you must be transparent about the cookies your website issues. If third-party cookies are issued, you need to address this separately in your privacy policy. It is also against Google's terms & conditions not to disclose that you are using cookies. If this is not addressed in your privacy policy, you illegally use Google Analytics.
 
-### 1.6 Can you use Google Analytics without cookies?
+### 1.7 Can I use Google Analytics without cookies?
 
-The short answer: Yes, you can (while still not being compliant with GDPR-regulation)
-
-<mark>The longer answer: Yes, you can, but you probably don't want to</mark>
+Yes, but you probably don't want to. Here's why.
 
 Google Analytics is a tool to show you how your website is performing by tracking specific metrics. For those metrics to show accurate results, Google Analytics needs cookies to be installed on your website. If you want to try using Google Analytics without cookies, you are left with a broken analytics tool.
+
+Google introduced a Consent mode to try and lessen GA's dependence on cookies. The option was introduced two years ago and is still in beta. When the option is active, GA works in a different way- mainly, when a user refuses consent, it doesn't install new cookies or read existing ones. At the same time, GA will track certain events on a website and use them along with other data Google controls in order to estimate conversion rates through machine learning models.
+
+In order to do so, GA generates synthetic data based on actual data it collects from users. According to Google's own documentation, this data comes from users who do accept GA's cookies on each website, and from users monitored through Google's AAID tracker.
+
+If Consent mode is using data from cookies, then websites will still need to gather consent from users. In such a scenario, Consent mode can be useful when you want better data about users who do not consent to being tracked. But as long as cookies are in use for a portion of the user base, Compliance mode does not make GA any less invasive or help with compliance in any way. Websites still need a cookie banner and policy and are still processing personal data through GA.
+
+A website could also set GA to run in Consent mode by default for all users, which will leave them relying on AAID data alone. AAID is a tracker embedded on any Android system. While not technically a cookie, it essentially functions like one. Each AAID is unique for each device and is tracked by default by Google unless the user opts out through system settings. We are willing to bet that this opt-out system implemented by Google violates a laundry list of data protection rules, chiefly the consent requirements of the ePrivacy Directive, the principles of transparency and privacy by default, and the duty of information of the controller under the GDPR. Unsurprisingly, AAID is currently being investigated by the French supervisor.
+
+Long story short: AAID is unethical, shady and probably illegal. And just to be clear: if you rely on AAID, you are violating the law as well and may be held liable for Google's non-compliance.\
+Finally, it should be mentioned that GA still processes personal data in Consent mode by collecting IP addresses. This is an issue because personal data will be forwarded to the U.S. without adequate safeguards for the users' privacy. European supervisors are starting to ban Google Analytics for this reason- and if you're curious, [we have a blog about that](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics), too.
 
 If you are looking for website analytics without cookies, you should probably look at some alternative solutions.
 
