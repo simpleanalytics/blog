@@ -2,11 +2,12 @@
 title: "Danish DPA bans Google Workspace for municipalities"
 author_slug: iron
 author: Iron Brands
-excerpt: "The Danish Data Protection Authority is banning the use of Google Workspace, meaning all Google products for municipalities"
+excerpt: "The Danish Data Protection Authority is banning the use of Google Workspace, previously G-suite, for municipalities"
 image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-for-municipalities.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png
 redirect_from:
   - /denmark-bans-all-google-products
+last_modified_at: 2022-09-20
 ---
 
 Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal), [France (CNIL)](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, the Danish DPA is banning the use of Google Workspace, meaning all Google products. For now the ban is only focused on municipalities after the processing ban was dropped on the municipality of Helsingør.
@@ -463,15 +464,15 @@ Only two weeks after Italy, Denmark becomes the fourth country to sanction Googl
 
 ## 1. Denmark bans Google Workspace for municipalities
 
-In [their statement](https://www.datatilsynet.dk/afgoerelser/afgoerelser/2022/jul/datatilsynet-nedlaegger-behandlingsforbud-i-chromebook-sag-), the Danish data protection agency has looked at a specific case, namely the use of Chromebooks and Workspace, by the municipality of Helsingør.
+In [their statement](https://www.datatilsynet.dk/afgoerelser/afgoerelser/2022/jul/datatilsynet-nedlaegger-behandlingsforbud-i-chromebook-sag-), the Danish Data Protection Authority (DPA) has looked at a specific case, namely the use of Chromebooks and Workspace, by the municipality of Helsingør.
 
-In September 2021, the Danish Data Protection Authority issued a decision ordering the municipality of Helsingør to conduct a risk assessment of the municipality's processing of personal data in primary schools.
+In September 2021, the DPA in Denmark issued a decision ordering the municipality of Helsingør to conduct a risk assessment of the municipality's processing of personal data in primary schools.
 
-Based on the assessment results, the Data Protection Authority has now found that the processing does not comply with the requirements of the GDPR. They concluded that data might be transferred to third countries (read the US) without the required level of security.
+Based on the assessment results, the DPA has now found that the processing does not comply with the requirements of the GDPR. They concluded that data might be transferred to third countries (read the US) without the required level of security.
 
-In light of this conclusion, the municipality of Helsingør is suspended from processing operations involving personal data transfer to the US. In addition, it received a general ban on processing with Google Workspace.
+In light of this conclusion, the municipality of Helsingør is suspended from processing operations involving personal data transfer to the US. In addition, it received a general ban on processing with Google Workspace from the Danish DPA.
 
-The Data Protection Agency added that the decisions would likely apply to other municipalities using the same processing design.
+The DPA added that the decisions would likely apply to other municipalities using the same processing design.
 
 The suspension shall take effect immediately, but the municipality of Helsingør has until the third of August 2022 to delete data already transferred.
 
