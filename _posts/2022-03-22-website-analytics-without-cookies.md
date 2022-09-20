@@ -171,7 +171,7 @@ If you are looking for website analytics without cookies, you should probably lo
 
 ## 2. Website analytics without cookies
 
-The biggest difference between website analytics with cookies and website analytics without cookies is the trade-off between privacy and data:
+The biggest difference between website analytics with cookies and web analytics without cookies is the trade-off between privacy and data:
 
 The deeper you want to analyze on the individual level, the less-privacy-friendly you will need to be.
 
