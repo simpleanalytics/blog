@@ -117,9 +117,11 @@ Google Analytics stores two distinct types of personal information from a websit
 
 ### 1.5 Can an IP address be anonymized?
 
-GA provides its customers with an IP anonymization option which anonymizes IP addresses by setting a portion of each address to zeros before storing it. However, GA's IP anonymization falls short of proper anonymization under the GDPR.
+GA provides its customers with an IP anonymization option which anonymizes IP addresses by setting a portion of each address to zeros before storing it.
 
-As noted by the [Italian DPA in its recent decision banning GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), Google can make the data subject identifiable by combining the truncated IP address with other data they control, such as cookies or credentials from the user's Google account. GA's so-called IP anonymization is not proper anonymization under the GDPR, but rather pseudonymization. Unlike anonymized data, pseudonymized data is still personal data under the GDPR.
+However, as noted by the [Italian DPA in its recent decision banning GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), Google can make the data subject identifiable by combining the truncated IP address with other data they control, such as cookies or credentials from the user's Google account. GA's so-called IP anonymization is not proper anonymization under the GDPR, but rather pseudonymization. Unlike anonymized data, pseudonymized data is still personal data under the GDPR.
+
+Bottom line: GA's IP anonymization falls short of proper anonymization under the GDPR. If Google really wanted to enhance user privacy with regards to IP address, they could just not store it to begin with, as doing so is not strictly necessary.
 
 ### 1.6 Can cookies be anonymized?
 
@@ -167,9 +169,10 @@ In order to do so, GA generates synthetic data based on actual data it collects 
 
 If Consent mode is using data from cookies, then websites will still need to gather consent from users. In such a scenario, Consent mode can be useful when you want better data about users who do not consent to being tracked. But as long as cookies are in use for a portion of the user base, Compliance mode does not make GA any less invasive or help with compliance in any way. Websites still need a cookie banner and policy and are still processing personal data through GA.
 
-A website could also set GA to run in Consent mode by default for all users, which will leave them relying on AAID data alone. AAID is a tracker embedded on any Android system. While not technically a cookie, it essentially functions like one. Each AAID is unique for each device and is tracked by default by Google unless the user opts out through system settings. We are willing to bet that this opt-out system implemented by Google violates a laundry list of data protection rules, chiefly the consent requirements of the ePrivacy Directive, the principles of transparency and privacy by default, and the duty of information of the controller under the GDPR. Unsurprisingly, AAID is currently being investigated by the French supervisor.
+A website could also set GA to run in Consent mode by default for all users, which will leave them relying on AAID data alone. AAID is a tracker embedded on any Android system. While not technically a cookie, it essentially functions like one. Each AAID is unique for each device and is tracked by default by Google unless the user opts out through system settings. We are willing to bet that this opt-out system implemented by Google violates a laundry list of data protection rules, chiefly the consent requirements of the ePrivacy Directive, the principles of transparency and privacy by default, and the duty of information of the controller under the GDPR. Unsurprisingly, AAID is currently being investigated by the French supervisor. Long story short: AAID is unethical, shady and probably illegal. And just to be clear: if you rely on AAID, you are violating the law as well and may be held liable for Google's non-compliance.
 
-Long story short: AAID is unethical, shady and probably illegal. And just to be clear: if you rely on AAID, you are violating the law as well and may be held liable for Google's non-compliance.\
+Additionally, Android is only available on mobile. User experience is radically different between mobile and computers, so GA may create inaccurate synthetic data when relying on tracking from AAID alone. We can’t be 100% sure about this since only Google knows how their machine learning algorithms work- but it looks like a reasonably safe bet.
+
 Finally, it should be mentioned that GA still processes personal data in Consent mode by collecting IP addresses. This is an issue because personal data will be forwarded to the U.S. without adequate safeguards for the users' privacy. European supervisors are starting to ban Google Analytics for this reason- and if you're curious, [we have a blog about that](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics), too.
 
 If you are looking for website analytics without cookies, you should probably look at some alternative solutions.
