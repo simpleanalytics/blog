@@ -95,7 +95,7 @@ There are a few ways to interact with our API. We have the [Stats API](https://d
 
 {% include video.html width="2880" height="1560" slug="get-event-api-url" %}
 
-## 5. Integrate Simple Analytics with your dashboarding tools
+## 5. Integrate Simple Analytics with your favorite dashboarding tools
 
 In addition to our APIs, it's also easy to integrate Simple Analytics with your favorite dashboarding tools. Some customers use [Google Data Studio](https://docs.simpleanalytics.com/google-data-studio) or [Microsoft Power BI](https://docs.simpleanalytics.com/microsoft-power-bi) for building reports.
 
