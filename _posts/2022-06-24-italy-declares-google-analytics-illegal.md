@@ -5,6 +5,12 @@ author: Iron Brands
 excerpt: "The Italian data protection authority declared the use of Google Analytics in violation with GDPR law"
 image: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media-no-text.png
+related_posts:
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
+ - /blog/simple-analytics-easy-website-analytics-for-business-owners
+ - /blog/why-its-time-to-move-away-from-google-analytics
+last_modified_at: 2022-09-20
 ---
 
 Italy has become the third country to ban Google Analytics officially. The news broke today after a careful examination concluded that Google Analytics violated GDPR law. You can find the statement [here](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english).
@@ -41,7 +47,7 @@ It seems that more and more E.U. states are coming to the same conclusion: Googl
 1.  [Italy bans Google Analytics](#1--italy-bans-google-analytics)
 2.  [CNIL Q&A guidelines on Google Analytics](#2--cnil-qa-guidelines-on-google-analytics)
 3.  [Privacy Shield 2.0](#3--privacy-shield-20)
-4.  [What does the future hold?](#4--what-does-the-future-hold)
+4.  [Is Google Analytics illegal?](#4--is-google-analytics-illegal)
 
 Let's dive in!
 
@@ -83,7 +89,15 @@ Schrems II invalidated this and made it painfully clear that these safeguards fo
 
 After the DSB & CNIL declared the use of Google Analytics illegal, The E.U. and U.S. announced an agreement on a new framework for transatlantic data flow, known as the [Privacy Shield 2.0.](https://blog.simpleanalytics.com/eu-us-privacy-shield-2-0-is-again-a-political-show) However, it became apparent quickly that this agreement had zero legal merits. The announcement was meant as an 'agreement in principle.' It might take very long before a legal document is signed.
 
-## 4.  What does the future hold?
+## 4.  Is Google Analytics illegal?
+
+This is a broad question because it ultimately depends on where you live. This article covers the fact that the Italian Data Protection Authority publicly stated that using Google Analytics is illegal as long as the privacy shield is invalidated. The focus of the statement is on the use of Google Analytics. Still, the same conclusion would also hold for companies like Mailchimp or any other company that processes personal data and is marked as an “electronic communication service provider” by the U.S. government. 
+
+To come back to the question of whether Google Analytics is illegal. We should narrow it down to whether Google Analytics is illegal in Europe. Italy, France, and Austria have already publicly stated this, but what about other EU member states? 
+
+The fact that a task force has been created in which data protection agencies from various EU member states are involved implies a decision at the EDPB level. The consistency requirement within GDPR ensures that such decisions will be consistent across all member states. This would mean that Google Analytics is illegal in the EU.
+
+## Final Thoughts
 
 Before concluding, it might be worthwhile to summarize what we've seen.
 
@@ -92,8 +106,9 @@ In short:
 -   After Austria & France, Italy is the third country to declare Google Analytics illegal
 -   It's technically not possible to use Google Analytics in a compliant way
 -   There won't be a legal framework very soon that says otherwise
+-   The consistency requirement within GDPR ensures consistency across all member states
 
-Not an exact point, but worth mentioning: **Consumers demand privacy**.
+Also worth mentioning: **Consumers demand privacy**.
 
 The business environment is changing, and you should ask yourself if you want to move with it or stick to old beliefs and practices.
 
@@ -103,4 +118,4 @@ There are alternatives to Google Analytics that actually care about the privacy 
 
 We believe it's not only a matter of staying within the law. Yes, that's important too. But it goes beyond that. We believe you can still make decisions based on website data without needing to collect personal data or track individuals.
 
-That's why we built Simple Analytics. To provide you with the insights you need while protecting the privacy of your users and being 100% GDPR compliant. If you believe the world is changing and you want to move with it, you might want to [give us a try](https://simpleanalytics.com/welcome).
+That's why we built Simple Analytics. To provide you with the insights you need while protecting the privacy of your users and being 100% GDPR compliant. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
