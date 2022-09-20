@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "The future of web analytics is cookieless, but how does analytics work without cookies? Let's find out."
 image: https://assets.simpleanalytics.com/blog/socials/website-analytics-without-cookies.png
 lang: en
+related_posts:
+ - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
+ - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
+ - /blog/italy-declares-google-analytics-illegal
+ - /blog/why-its-time-to-move-away-from-google-analytics
 last_modified_at: 2022-09-20
 ---
 
@@ -112,14 +117,16 @@ Google Analytics stores two distinct types of personal information from a websit
 
 ### 1.5 Can an IP address be anonymized?
 
-GA provides its customers with an IP anonymization option which anonymizes IP addresses by setting a portion of each address to zeros before storing it. GA's IP anonymization falls short of proper anonymization under the GDPR for two reasons.\
-First of all, as noted by the [Italian DPA in its recent decision banning GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), Google can make the data subject identifiable by combining the truncated IP address with other data they control, such as cookies or credentials from the user's Google account. GA's so-called IP anonymization is not proper anonymization under the GDPR, but rather pseudonymization. Unlike anonymized data, pseudonymized data is still personal data under the GDPR.
+GA provides its customers with an IP anonymization option which anonymizes IP addresses by setting a portion of each address to zeros before storing it. However, GA's IP anonymization falls short of proper anonymization under the GDPR.
+
+As noted by the [Italian DPA in its recent decision banning GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), Google can make the data subject identifiable by combining the truncated IP address with other data they control, such as cookies or credentials from the user's Google account. GA's so-called IP anonymization is not proper anonymization under the GDPR, but rather pseudonymization. Unlike anonymized data, pseudonymized data is still personal data under the GDPR.
 
 ### 1.6 Can cookies be anonymized?
 
 As we explained [here](https://www.simpleanalytics.com/blog/website-analytics-without-cookies), every cookie contains two pieces of information: a version number and a unique identifier. Because they contain a unique identifier, cookies can single out a user and are always personal data. It doesn't matter whether or not you can actually identify a user- that is, trace back their identity through the identifier alone, or by combining it with other data about the user. Being able to single out users is enough to make cookies personal data, and unique identifiers make this possible by definition.
 
 Of course, you could theoretically anonymize a cookie by removing the identifier, but that will leave you with no information other than the cookie's version name, which would make it perfectly useless.\
+
 Bottom line: no, you cannot anonymize cookies. This goes for all cookies, not just GA cookies.
 
 ### 1.7 Can I use Google Analytics without cookie consent?
