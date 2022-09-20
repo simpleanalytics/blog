@@ -112,7 +112,7 @@ Also worth mentioning: **Consumers demand privacy**.
 
 The business environment is changing, and you should ask yourself if you want to move with it or stick to old beliefs and practices.
 
-Google is even moving away from Google Analytics by [sunsetting Universal Analytics](https://blog.simpleanalytics.com/google-to-sunset-universal-analytics-in-2023) in favor of GA4. In a statement, they announced that privacy is one of the main drivers for the switch. Although GA4 is still not privacy-friendly, at least they acknowledge that the world is changing.
+Google is even moving away from its current version of Google Analytics by [sunsetting Universal Analytics](https://blog.simpleanalytics.com/google-to-sunset-universal-analytics-in-2023) in favor of GA4. In a statement, they announced that privacy is one of the main drivers for the switch. Although GA4 is still not privacy-friendly, at least they acknowledge that the world is changing.
 
 There are alternatives to Google Analytics that actually care about the privacy of your users. Simple Analytics is one of them, but before I tell you that we are the best, we've created an in-depth [comparison with other privacy-friendly alternatives](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives) to make your own decision.
 
