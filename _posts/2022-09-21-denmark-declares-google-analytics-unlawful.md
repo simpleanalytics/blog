@@ -5,7 +5,6 @@ author: Iron Brands
 excerpt: "After Austria, France, and Italy, Denmark has become the fourth country to declare the use of Google Analytics unlawful. This decision was stated in a press release from the DPA itself and is the result of a coordinated approach at a European level."
 image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image-no-text.png
-draft: true
 ---
 
 After Austria, France, and Italy, Denmark has become the fourth country to declare the use of Google Analytics unlawful. This decision was stated in a press release from the DPA itself (Datatilsynet) and is a result of a coordinated approach at the European level.
