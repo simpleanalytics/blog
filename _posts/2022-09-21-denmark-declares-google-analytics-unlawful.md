@@ -23,7 +23,7 @@ Let's dive in!
 3.  [Implications for Danish organizations](#3-implications-for-danish-organizations)
 4.  [Final Thoughts](#4-final-thoughts)
 
-## 1.  Statement by Danish DPA 
+## 1. Statement by Danish DPA 
 
 The Danish DPA concluded that the use of Google Analytics is unlawful. The decision is based on an individual case but represents a common European position toward processing personal data.
 
@@ -37,7 +37,7 @@ They stated that you must stop using the tool if it's impossible to implement ad
 
 Read the full statement [here](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics). 
 
-## 2.  Background on the press release
+## 2. Background on the press release
 
 Data transfers to the U.S. have become much more complicated since the Schrems II decision. It's a long story; you can learn about it [here](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics). In a nutshell, since Schrems II, additional safeguards need to be implemented to transfer data to the U.S. In many cases, this is practically impossible.
 
@@ -47,7 +47,7 @@ The Danish DPA is now following suit. They looked into GA and stated that it cou
 
 <img src="https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image-no-text.png" alt="Denmark (practically) bans Google Analytics" class="border-radius" />
 
-## 3.  Implications for Danish organizations
+## 3. Implications for Danish organizations
 
 The Danish DPA stated that GA is not compliant with the rules of data transfers, meaning that a data controller cannot legally use it unless they protect the data with supplementary measures.
 
@@ -55,7 +55,7 @@ The only example offered by the DPA is a reference to the position of the French
 
 No other measures are suggested, for the very good reason that none exist. This press statement is, for all practical purposes, a ban.
 
-## 4.  Final Thoughts 
+## 4. Final Thoughts 
 
 The recent decisions and the fact that a task force has been created on a European level make it highly likely that this is not the last decision we have seen.
 
