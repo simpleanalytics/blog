@@ -7,7 +7,7 @@ image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytic
 image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image-no-text.png
 ---
 
-After Austria, France, and Italy, Denmark has become the fourth country to [declare the use of Google Analytics unlawful]((https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics). This decision was stated in a press release from the DPA itself (Datatilsynet) and is a result of a coordinated approach at the European level.
+After Austria, France, and Italy, Denmark has become the fourth country to [declare the use of Google Analytics unlawful](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics). This decision was stated in a press release from the DPA itself (Datatilsynet) and is a result of a coordinated approach at the European level.
 
 It's not the first time the Danish DPA has [released a statement](https://www.simpleanalytics.com/blog/denmark-bans-google-workspace-for-municipalities) on the use of Google products. A few months ago, it issued a statement declaring the use of Google Workspace (formerly G-suite) for municipalities in violation of GDPR.
 
