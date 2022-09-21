@@ -10,7 +10,7 @@ draft: true
 
 First paragraph
 
-{% include gif.html slug="oh-my-god" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
+{% include gif.html slug="oh-my-god" alt="The Office: Oh my god, it's happening!" width="300" height="201" color="#594748" %}
 
 <img src="https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image-no-text.png" alt="Denmark (practically) bans Google Analytics" class="border-radius" />
 
