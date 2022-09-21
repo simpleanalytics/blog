@@ -24,7 +24,7 @@ An important change to the Google search results will be the impact of so-called
 
 We don't go too deep into these metrics, but the general message is that they are all calculated within the performance score of Google Lighthouse. Lighthouse is a tool that Google created to measure the performance of a website. It gives a score to 4 categories: performance, accessibility, best practices, and SEO. The Core Web Vitals are included in this first category: the performance score. You can try it out yourself at [web.dev/measure](https://web.dev/measure/) (Google's online interface for Lighthouse). It runs on the servers of Google.
 
-{% include video.html width="1064" height="702" slug="lighthouse-measure" %}
+{% include video.html width="1064" height="702" slug="lighthouse-measure" class="border" %}
 
 > To learn more about Core Web Vitals, you should check out [Ahrefs blog post](https://ahrefs.com/blog/core-web-vitals/). It goes in-depth about those three metrics.
 

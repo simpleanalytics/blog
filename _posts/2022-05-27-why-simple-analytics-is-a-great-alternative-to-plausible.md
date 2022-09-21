@@ -160,7 +160,7 @@ Simple Analytics is privacy-first but simple-second. It's probably the only anal
 
 Do you see those "t.co" referrals domains in Plausible or Google Analytics? We created a Twitter overview that shows you the exact tweets you got traffic from. Not with useless t.co links, but with useful and beautiful designed tweets.
 
-{% include video.html slug="2022-03-39-tropical-analytics" paused="true" %}
+{% include video.html width="1440" height="810" slug="2022-03-39-tropical-analytics" paused="true" class="border-radius" %}
 
 <p class="caption">Our founder using Google Analytics.</p>
 

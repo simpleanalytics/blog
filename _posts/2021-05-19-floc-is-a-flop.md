@@ -64,7 +64,7 @@ There is also a second-best option to opting out. Here's how:
 
 How to block third-party cookies and opt-out of FLoC:
 
-{% include video.html slug="opt-out-of-floc" %}
+{% include video.html width="2048" height="1280" slug="opt-out-of-floc" class="border-radius" %}
 
 As a web user, your only way out of this is to make a conscious decision to no longer take part in this exploitation. With the way the internet is organized, **it is up to you.** It will probably take a long time before governments start to penalize privacy-invasive behaviors. Therefore, **we should take matters into our own hands and make conscious decisions to protect our privacy.**
 

@@ -44,7 +44,7 @@ At the time we launched the first version of Simple Analytics back in 2018 we wa
 
 One of the most requested features was being able to filter on certain data points. If you would like to know which pages are popular in Germany you would expect to click on Germany and see all the other data update with Germany filtered. To make this possible within our previous database solution it would request much more work and way more error-prone.
 
-{% include video.html slug="filters" %}
+{% include video.html width="1180" height="688" slug="filters" class="border-radius" %}
 
 ### APIs
 
@@ -56,7 +56,7 @@ Because we use our new database system for our APIs as well, it has been largely
   <li>
     <p class="mt-0 mb-05"><a href="https://chartbrew.com/?utm_source=blog.simpleanalytics.com">Chartbrew</a> can make fancy charts based on Simple Analytics data.</p>
     <a href="https://app.chartbrew.com/b/Simple_Analytics_296">
-      {% include video.html noLink="true" slug="chartbrew" %}
+      {% include video.html noLink="true" width="744" height="534" class="border" slug="chartbrew" %}
     </a>
     <p class="caption mt-0"><a href="https://app.chartbrew.com/b/Simple_Analytics_296">A public demo</a> of our data on <a href="https://chartbrew.com/?utm_source=blog.simpleanalytics.com">Chartbrew</a></p>
   </li>
@@ -79,7 +79,7 @@ In the last month, we added time on the page to our dashboard. As we usually bui
 
 For example, Google Analytics does show time on site and time on page metrics on their dashboard. This metric is being used as the **actual** time on page by most people. We will clarify this in a later blog post. In short Google Analytics uses averages for data points that have quite some outliers. In mathematics, this is considered bad practice. We use the median to get the time on page. Google Analytics also calculates the time when a page is in the background. One of the reasons why their time on page is way too high (they do limit it to sessions length which is 30 minutes by default).
 
-{% include video.html slug="time-on-page" %}
+{% include video.html width="1092" height="732" class="border-radius" slug="time-on-page" %}
 
 It has its advantages to build new features without looking too much to the competition first. Instead of just copy-pasting, we try to really think about those numbers and methods and find the best ones for our customers.
 

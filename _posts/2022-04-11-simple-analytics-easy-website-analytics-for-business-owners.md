@@ -27,9 +27,9 @@ The purpose is to help you understand what you are doing right and what you need
 
 We don't believe in tracking every user and using tens or even hundreds of dashboards to find minuscule improvements while losing the bigger picture.
 
-## 2\. What insights should a website analytics tool provide? 
+## 2\. What insights should a website analytics tool provide?
 
-To use website analytics as a navigation tool, you need to think about which metrics and KPIs are important to you. What insights would you like to see, and what data do you need? 
+To use website analytics as a navigation tool, you need to think about which metrics and KPIs are important to you. What insights would you like to see, and what data do you need?
 
 The answer to this question will be very different for someone with an e-commerce website than for a web analyst in the healthcare industry. Therefore, it amazes me that still (almost) every organization uses the same analytics tool: [Google Analytics](https://analytics.google.com/).
 
@@ -37,7 +37,7 @@ Almost every organization just plugs in Google Analytics without really thinking
 
 For some companies, Google Analytics fits like a glove. E-commerce websites that rely heavily on ads and user tracking will benefit from the power of Google Analytics. However, organizations conscious of their users' privacy should not use Google Analytics. The same goes for business owners who want the insights they need in a straightforward overview.
 
-You can conclude that there is just no one-size-fits-all, but still, everyone uses Google Analytics. 
+You can conclude that there is just no one-size-fits-all, but still, everyone uses Google Analytics.
 
 ## 3\. Google Analytics is a complex tool
 
@@ -52,7 +52,7 @@ For most organizations, Google Analytics might not be the right tool. Especially
   Google Analytics dashboard vs. Simple Analytics dashboard
 </p>
 
-## 4\. Simple Analytics is an easy analytics tool 
+## 4\. Simple Analytics is an easy analytics tool
 
 Simple Analytics is built on two foundational beliefs. First of all, we didn't want to track users and [collect personal data](https://docs.simpleanalytics.com/what-we-collect). All our parameters are set up with that in mind, so you directly comply with [GDPR](https://gdpr-info.eu/), [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/what-are-pecr/) & [CCPA](https://oag.ca.gov/privacy/ccpa) regulations. Secondly, we wanted to provide an easy analytics tool that gives you the data you need in a clean one-page dashboard with [simple integration](https://docs.simpleanalytics.com/script).
 
@@ -62,13 +62,13 @@ Underneath the main visual, you can find your relevant parameters. On the left, 
 
 The pages section covers the pages on which visitors land on your website. You can look for certain keywords to find information about specific pages using the magnifying glass. Everything is clickable, and by clicking on a particular page, the other parameters are segmented accordingly to that particular page. Here is what that looks like:
 
-{% include video.html slug="2022-03-17-dashboard" %}
+{% include video.html width="1440" height="1044" slug="2022-03-17-dashboard" class="border" %}
 
 ### Mini websites as referral links
 
 We also show referral links as mini-websites in our quest to make the cleanest dashboard possible. For example, if you want to view the traffic coming from Twitter, we show you the exact tweets responsible for the traffic. In Google Analytics and other web analytics tools, they will be displayed as a t.co link without any additional information.
 
-{% include video.html slug="2022-03-39-tropical-analytics" paused="true" %}
+{% include video.html width="1440" height="810" slug="2022-03-39-tropical-analytics" paused="true" class="border-radius" %}
 
 ### Lightweight vs. Heavyweight
 
@@ -105,4 +105,4 @@ Simple Analytics is the right tool for you if you:
 
 Simple Analytics is a two-person team that values the privacy of internet users and believes you can get all the relevant insights without using personal data. We are bootstrapped (meaning we are not funded) and are transparent about everything we do. We have an [open roadmap](https://simpleanalytics.com/roadmap) that you also can contribute to.
 
-This is how we try to make the internet a little bit safer for everyone—interested in coming along on our journey? [Give us a try!  ](https://simpleanalytics.com/welcome)
+This is how we try to make the internet a little bit safer for everyone—interested in coming along on our journey? [Give us a try! ](https://simpleanalytics.com/welcome)

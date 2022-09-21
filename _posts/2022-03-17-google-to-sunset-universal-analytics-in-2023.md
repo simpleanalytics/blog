@@ -8,7 +8,7 @@ image: https://assets.simpleanalytics.com/blog/socials/google-kill-universal-ana
 lang: en
 ---
 
-[Google just announced](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) that it will sunset Universal Analytics in favor of G4 Analytics. This is a huge blow for marketeers that have relied on the current version for a long time. Is this the right time to switch or is G4 Analtyics worth it? 
+[Google just announced](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) that it will sunset Universal Analytics in favor of G4 Analytics. This is a huge blow for marketeers that have relied on the current version for a long time. Is this the right time to switch or is G4 Analtyics worth it?
 
 It will begin to sunset universal analytics on July 1, 2023. This means that from this date, Universal Analytics will stop processing new hits. Universal Analytics 360 properties will still be available until October 1, 2023.
 
@@ -106,7 +106,7 @@ At [Simple Analytics](https://simpleanalytics.com/), we do things a bit differen
 
 We have stripped the complexity from Google Analytics and designed [a one-page dashboard](https://simpleanalytics.com/simpleanalytics.com) that shows you everything you need to know.
 
-{% include video.html slug="2022-03-17-dashboard" %}
+{% include video.html width="1440" height="1044" slug="2022-03-17-dashboard" class="border" %}
 
 We are cookieless by design and part of the future.
 
