@@ -61,11 +61,11 @@ UTM tags are bits of text you can add to a link that tell Simple Analytics a lit
 
 We support the following codes:
 
--   UTM source (e.g.: utm_source=company-x)
--   UTM medium (e.g.: utm_medium=newsletter)
--   UTM campaign (e.g.: utm_campaign=march_01)
--   UTM content (e.g.: utm_content=button_red)
--   UTM term (e.g.: utm_term=shoes, this param is deprecated as it is intended to contain user-generated content)
+- UTM source (e.g.: utm_source=company-x)
+- UTM medium (e.g.: utm_medium=newsletter)
+- UTM campaign (e.g.: utm_campaign=march_01)
+- UTM content (e.g.: utm_content=button_red)
+- UTM term (e.g.: utm_term=shoes, this param is deprecated as it is intended to contain user-generated content)
 
 The UTM tags will show up on the dashboard in the "Referrals" dropdown menu:
 
@@ -93,13 +93,13 @@ Simple Analytics does not own your data. You do! That's why we care a lot about 
 
 There are a few ways to interact with our API. We have the [Stats API](https://docs.simpleanalytics.com/api/stats) for aggregated data, the [Export API](https://docs.simpleanalytics.com/api/export-page-views) for raw level data, and the [Admin API](https://docs.simpleanalytics.com/api/admin) for changing users, websites, and other settings.
 
-{% include video.html width="2880" height="1560" slug="get-event-api-url" %}
+{% include video.html width="2880" height="1560" slug="get-event-api-url" class="border" %}
 
 ## 5. Integrate Simple Analytics with your favorite dashboarding tools
 
 In addition to our APIs, it's also easy to integrate Simple Analytics with your favorite dashboarding tools. Some customers use [Google Data Studio](https://docs.simpleanalytics.com/google-data-studio) or [Microsoft Power BI](https://docs.simpleanalytics.com/microsoft-power-bi) for building reports.
 
-Because we care about privacy, we don't store any personal data. That's why we are comfortable enough to let customers choose to connect with Data Studio while Google or Microsoft can't abuse our customers' data or their visitors'. 
+Because we care about privacy, we don't store any personal data. That's why we are comfortable enough to let customers choose to connect with Data Studio while Google or Microsoft can't abuse our customers' data or their visitors'.
 
 ## 6. Import Google Analytics data directly into your dashboard
 
@@ -136,13 +136,13 @@ More and more internet users are using ad-blockers because website users demand 
 **Referral spam** 
 Referral spam has been a big problem for Google Analytics. Referral spam looks like genuine traffic to your website, but it's actually fake. Spammy advertisers send fake visitors to your website in two ways:
 
--   Bot referral spam: Bots visiting your website and making Google Analytics register it
--   Ghost referral spam: Bots totally bypass your website and directly hit the Google Analytics server
+- Bot referral spam: Bots visiting your website and making Google Analytics register it
+- Ghost referral spam: Bots totally bypass your website and directly hit the Google Analytics server
 
 At Simple Analytics, we built a [feature that directly hides referral spam](https://docs.simpleanalytics.com/hide-referral-spam) from your dashboard.
 
 **Data sampling**
-Google Analytics uses data sampling to save server capacity and keep costs down. Data sampling means that only a subset of your actual traffic is processed. From this subset, Google Analytics predicts what your total traffic would look like. This is a cost-effective way to estimate website analytics. However, it is not nearly as accurate. 
+Google Analytics uses data sampling to save server capacity and keep costs down. Data sampling means that only a subset of your actual traffic is processed. From this subset, Google Analytics predicts what your total traffic would look like. This is a cost-effective way to estimate website analytics. However, it is not nearly as accurate.
 
 ## 9. Benchmark Google Analytics data
 
@@ -150,13 +150,13 @@ It's no secret that Google Analytics is a really powerful tool that is very help
 
 Simple Analytics might not be the right solution if you want to track individual website visitors. We are a cookieless solution after all. Google Analytics does this, but it requires a cookiebanner, which makes your total website traffic numbers inaccurate. Therefore, we've seen multiple use cases that use Simple Analytics to get their topline analytics correct and use Google Analytics to dive deeper.
 
-The fact that Simple Analytics is very lightweight means that you could easily run it next to Google Analytics or any other web analytics provider to see the differences. 
+The fact that Simple Analytics is very lightweight means that you could easily run it next to Google Analytics or any other web analytics provider to see the differences.
 
 ## 10. Improve your website's user experience
 
 If you use Google Analytics on your website to track your website performance, you are obliged by law to provide a cookie banner and ask for consent. This means your website visitors must first interact with a cookie banner before entering your website.
 
-With Simple Analytics, this is not necessary anymore. Your visitors don't need to be shown a cookie banner when navigating to your website. 
+With Simple Analytics, this is not necessary anymore. Your visitors don't need to be shown a cookie banner when navigating to your website.
 
 ## 11. Improve your core web vitals
 
