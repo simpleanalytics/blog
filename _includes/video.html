@@ -1,16 +1,6 @@
 <div
-  class="
-    video-container{%
-    if
-    include.width
-    and
-    include.height
-    %}
-    scaled{%
-    endif
-    %}
-  "
-  style="{% if include.width and include.height %}padding-top: calc({{include.height}}% / ({{include.width}} / 100));{% endif %}"
+  class="video-container"
+  style="{% if include.width and include.height %}aspect-ratio: {{ include.width }} / {{ include.height }};{% endif %}"
 >
   <video
     loop
