@@ -123,7 +123,7 @@ Simple Analytics makes it easy to connect your dashboarding tools. For example, 
 
 It's also very easy to get your data in. Users who want to switch to Simple Analytics can [import Google Analytics data](https://docs.simpleanalytics.com/import-google-analytics-data). You won't have to deal with the loss of historical data.
 
-A lot of the above is also possible in Plausible. They recently added the feature to import Google Analytics data as well. In addition, Plausible also provides different APIs to connect your data with dashboarding tools. However, the APIs are only limited to aggregate data. Simple Analytics offers both aggregated data as well as raw data. We believe raw data is trivial to analyze the data the way you want. When combined with other data sources, you don't really want aggregated data. We see many enterprise customers combining data from different sources into one to get their KPIs.
+A lot of the above is also possible in Plausible. They recently added the feature to import Google Analytics data as well. In addition, Plausible also provides different APIs to connect your data with dashboarding tools. However, the APIs are only limited to aggregate data. Simple Analytics offers both aggregated data as well as raw data. We believe raw data is critical to analyze the data the way you want. When combined with other data sources, you don't really want aggregated data. We see many enterprise customers combining data from different sources into one to get their KPIs.
 
 <img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/social-image.png" alt="Simple Analytics vs. Plausible" class="border-radius" />
 
