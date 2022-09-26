@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "Vodafone & Deutsche Telekom are trialing with Trustpid to introduce persistent user tracking"
 image: https://assets.simpleanalytics.com/blog/2022-Trustpid/vodafone-deutsche-telekom-trustpid.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-Trustpid/vodafone-deutsche-telekom-trustpid-social-image.png
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/google-analytics-performance-impact-using-google-lighthouse
+ - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
+ - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
 ---
 
 Vodafone & Deutsche Telekom recently started trials with Trustpid to reintroduce persistent user tracking.
