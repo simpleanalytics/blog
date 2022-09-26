@@ -4,6 +4,11 @@ author_slug: iron
 author: Iron Brands
 excerpt: "Time on page is an important metric to track. But have you ever wondered how google comes up with the data in your dashboard?"
 image: https://assets.simpleanalytics.com/blog/you-are-getting-fooled-by-google-analytics-time-on-page-metric/social.png
+related_posts:
+ - /blog/simple-analytics-for-marketers
+ - /blog/denmark-declares-google-analytics-unlawful
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/how-to-delete-google-analytics-in-4-steps
 lang: en
 ---
 
