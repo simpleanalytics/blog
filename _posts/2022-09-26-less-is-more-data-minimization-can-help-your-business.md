@@ -42,7 +42,7 @@ Compliance costs and risks do not depend purely on the volume of the data: its n
 
 Finally, the more data you process, the more likely it is that something will go wrong at some point, and the  worse your position will be if that happens. Suppose your company is investigated for whatever reason. In that case, the last thing you want is for a data protection authority to find out that you have been processing data you don't really need, as DPAs tend to take the data minimization principle quite seriously. And, of course, storing larger amounts of data means you risk a more significant data breach, which may have severe consequences and draw a lot of unwanted media attention to your company.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-data-minimization/social-image-no-text-data-minimization.png" alt="Caption of the image" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-data-minimization/social-image-no-text.png" alt="Caption of the image" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
