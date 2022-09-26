@@ -5,6 +5,11 @@ author: Carlo Cilento
 excerpt: "Cookies have always been treated as personal data under the GDPR, but are now considered sensitive data under the new ruling"
 image: https://assets.simpleanalytics.com/blog/2022-your-cookie-data-might-be-sensitive-data/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-your-cookie-data-might-be-sensitive-data/social-image-no-text.png
+related_posts:
+ - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
+ - /blog/vodafone-deutsche-telekom-to-introduce-persistent-user-tracking
+ - /blog/less-is-more-data-minimization-can-help-your-business
+ - /blog/google-analytics-performance-impact-using-google-lighthouse
 ---
 
 In a [recent case](https://gdprhub.eu/index.php?title=CJEU_-_C%E2%80%91184/20_-_Vyriausioji_Tarnybin%C4%97s_Etikos_Komisija), the EU Court of Justice ruled that 'data' which can reveal 'sensitive data' should be regarded as 'sensitive data.'
