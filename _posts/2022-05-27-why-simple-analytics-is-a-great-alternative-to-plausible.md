@@ -3,6 +3,11 @@ title: "Simple Analytics as an alternative to Plausible"
 author_slug: iron
 author: Iron Brands
 excerpt: "Comparison blog between Simple Analytics and Plausible and why Simple Analytics is a great alternative to Plausible."
+related_posts:
+ - /blog/4-privacy-friendly-google-analytics-alternatives
+ - /blog/why-simple-analytics-is-a-great-alternative-to-matomo
+ - /blog/simple-analytics-for-marketers
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 image: https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/social-image.png
 ---
 
