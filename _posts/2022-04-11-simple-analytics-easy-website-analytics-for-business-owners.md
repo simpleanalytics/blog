@@ -3,6 +3,11 @@ title: "Simple Analytics: Easy website analytics for business owners"
 author_slug: "iron"
 author: "Iron Brands"
 excerpt: "At Simple Analytics, we've created a simple and easy web analytics tool to give you the insights you need. Simple Analytics... What's in the name, right?"
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/simple-analytics-for-marketers
 image: "https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/social-image.png"
 ---
 
