@@ -5,6 +5,11 @@ author_slug: iron
 author: Iron Brands
 excerpt: "How privacy-friendly are all the different Google Analytics alternatives really? Let's find out."
 image: https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/simple-analytics-for-marketers
+ - /blog/italy-declares-google-analytics-illegal
+ - /blog/why-its-time-to-move-away-from-google-analytics
 lang: en
 ---
 
