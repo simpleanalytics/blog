@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "CNIL provided a Q&A on the statement made that Google Analytics violates GDPR"
 image: https://assets.simpleanalytics.com/blog/2022-french-data-protection-update-google-analytics-is-still-illegal/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-french-data-protection-update-google-analytics-is-still-illegal/handcuffs-no-text.png
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/denmark-declares-google-analytics-unlawful
+ - /blog/italy-declares-google-analytics-illegal
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 ---
 
 The Q&A CNIL explicitly mentioned that using Google Analytics still violates GDPR. In addition, it stated that there are no circumstances under which this is not the case.
