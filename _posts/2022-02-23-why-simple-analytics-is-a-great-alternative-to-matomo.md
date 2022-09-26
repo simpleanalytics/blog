@@ -4,6 +4,11 @@ author_slug: iron
 author: Iron Brands
 excerpt: "What are the differences between Simple Analytics and Matomo, and why is Simple Analytics a great alternative."
 image: https://assets.simpleanalytics.com/blog/matomo/matomo-versus-simple-analytics.png
+related_posts:
+ - /blog/4-privacy-friendly-google-analytics-alternatives
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/simple-analytics-for-marketers
 lang: en
 ---
 
