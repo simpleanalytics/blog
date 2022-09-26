@@ -5,6 +5,11 @@ author: Carlo Cilento
 excerpt: "Numerous organizations collect data for the sake of collecting data. However, a data minimization mindset can save you money, compliance headaches, simplify the technical side of your business, and help your company build a reputation for good data governance and privacy-friendliness"
 image: https://assets.simpleanalytics.com/blog/2022-data-minimization/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-data-minimization/social-image-no-text.png
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
+ - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
+ - /blog/simple-analytics-for-marketers
 ---
 
 It is tempting to see the GDPR as a long, annoying, and sometimes convoluted compliance checkbox. Yet the GDPR is meant to be a model of good data governance rather than a mere laundry list of legal do's and dont's. You can look at each Article, ensure you are compliant, and move on. Or you can look at the Regulation as inspiration for strategies that can be beneficial as well as compliant.
