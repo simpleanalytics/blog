@@ -7,6 +7,11 @@ image: https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-an
 image_no_text: https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png
 redirect_from:
   - /why-you-should-reconsider-using-google-analytics
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/less-is-more-data-minimization-can-help-your-business
+ - /blog/simple-analytics-for-marketers
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 ---
 
 There was a time when Google was a quirky startup---founded by two Stanford grads who operated out of a garage, working day and night to get their company off the ground. The company was initially called Backrub and had one product that blew all competition out of the water. Google is the perfect startup story that led to building on the most influential businesses of all time.
