@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "CNIL rules the use of Google Analytics to be in conflict with GDPR. What does this mean for the future of web analytics?"
 image: https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics.png
 lang: en
+related_posts:
+ - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/italy-declares-google-analytics-illegal
 fr: /la-france-juge-que-google-analytics-est-en-contradiction-avec-le-reglement-rgpd
 nl: /frankrijk-oordeelt-dat-google-analytics-in-strijd-is-met-gdpr-uitspraak
 ---
