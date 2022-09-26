@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "Marketers guide for Simple Analytics, the privacy-first Google Analytics alternative"
 image: https://assets.simpleanalytics.com/blog/2022-simple-analytics-for-marketers/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-simple-analytics-for-marketers/social-image-no-text.png
+related_posts:
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/how-to-delete-google-analytics-in-4-steps
+ - /blog/google-analytics-performance-impact-using-google-lighthouse
 ---
 
 Simple Analytics is a privacy-friendly analytics tool that is cookieless by design and fully complies with GDPR. It provides actionable insights in a simple one-page dashboard without compromising the privacy of your website visitors.
