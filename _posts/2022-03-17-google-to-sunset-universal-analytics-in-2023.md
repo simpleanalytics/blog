@@ -5,6 +5,11 @@ author_slug: iron
 author: Iron Brands
 excerpt: "Google Analytics to sunset Universal Analytics in favor of GA4, but how privacy-friendly is GA4?"
 image: https://assets.simpleanalytics.com/blog/socials/google-kill-universal-analytics.png
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/simple-analytics-for-marketers
 lang: en
 ---
 
