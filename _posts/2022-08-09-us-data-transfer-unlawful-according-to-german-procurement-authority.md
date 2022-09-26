@@ -5,6 +5,11 @@ author: Carlo Cilento
 excerpt: "German procurement authority rules US data transfer unlawful"
 image: https://assets.simpleanalytics.com/blog/2022-us-data-transfer-unlawfull-germany/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-us-data-transfer-unlawfull-germany/social-image-no-text.png
+related_posts:
+ - /blog/denmark-declares-google-analytics-unlawful
+ - /blog/how-to-delete-google-analytics-in-4-steps
+ - /blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 ---
 
 On July 13, the Public Procurement Chamber of the German State of Baden-Württemberg decided a [case](https://gdprhub.eu/index.php?title=Datatilsynet_(Denmark)_-_2020-431-0061) about a public procurement procedure for a digital management software. In doing so, it held that personal data transfers to the US based on Standard contractual clauses violates the GDPR.
