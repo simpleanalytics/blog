@@ -4,6 +4,11 @@ author_slug: iron
 author: Iron Brands
 excerpt: "What are the differences between Simple Analytics and Google Analytics, and why is Simple Analytics a great alternative."
 image: https://assets.simpleanalytics.com/images/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics/ga-vs-sa.png
+related_posts:
+ - /blog/4-privacy-friendly-google-analytics-alternatives
+ - /blog/why-simple-analytics-is-a-great-alternative-to-matomo
+ - /blog/why-simple-analytics-is-a-great-alternative-to-plausible
+ - /blog/italy-declares-google-analytics-illegal
 last_modified_at: "2022-03-30T09:27Z"
 ---
 
