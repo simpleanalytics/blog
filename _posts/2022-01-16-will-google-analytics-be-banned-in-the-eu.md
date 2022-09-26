@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "The Dutch Data Protection Authority (AP) questioned the legal use of Google Analytics in The Netherlands. Will it be banned?"
 image: https://assets.simpleanalytics.com/blog/will-google-analytics-be-banned-in-the-eu/social.png
 lang: en
+related_posts:
+ - /blog/4-privacy-friendly-google-analytics-alternatives
+ - /blog/how-to-delete-google-analytics-in-4-steps
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/italy-declares-google-analytics-illegal
 nl: /wordt-google-analytics-straks-verboden-in-de-eu
 ---
 
