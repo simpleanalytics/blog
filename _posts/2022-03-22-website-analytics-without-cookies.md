@@ -10,14 +10,14 @@ related_posts:
  - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
  - /blog/italy-declares-google-analytics-illegal
  - /blog/why-its-time-to-move-away-from-google-analytics
-last_modified_at: 2022-09-20
+last_modified_at: 2022-09-26
 ---
 
 It has been the talk of the town lately. "Google Analytics might be banned in Europe."
 
 The DSB in Austria was the first to [openly question](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) the legal use of Google Analytics. Various popular news outlets such as Hacker News & [TechCrunch](https://techcrunch.com/2022/01/12/austrian-dpa-schrems-ii/) picked up on the news and spread the word.
 
-Not so long after the DSB, their french counterpart, [CNIL, also stated](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) that Google Analytics conflicts with GDPR.
+Not so long after the DSB, their french counterpart, [CNIL, also stated](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) that Google Analytics conflicts with GDPR. A few months later, Italy [(Garante)](https://www.simpleanalytics.com/blog/italy-declares-google-analytics-illegal) and Denmark [(Datatilsynet)](https://www.simpleanalytics.com/blog/denmark-declares-google-analytics-unlawful) joined the club.
 
 Organizations, especially within the EU, are questioning themselves now if they could still use Google Analytics legally. And what happens if they can't? Will they lose all the valuable insights as well?
 
@@ -125,9 +125,9 @@ Bottom line: GA's IP anonymization falls short of proper anonymization under the
 
 ### 1.6 Can cookies be anonymized?
 
-As we explained [here](https://www.simpleanalytics.com/blog/website-analytics-without-cookies), every cookie contains two pieces of information: a version number and a unique identifier. Because they contain a unique identifier, cookies can single out a user and are always personal data. It doesn't matter whether or not you can actually identify a user- that is, trace back their identity through the identifier alone, or by combining it with other data about the user. Being able to single out users is enough to make cookies personal data, and unique identifiers make this possible by definition.
+Every cookie contains two pieces of information: a version number and a unique identifier. Because they contain a unique identifier, cookies can single out a user and are always personal data. It doesn't matter whether or not you can actually identify a user- that is, trace back their identity through the identifier alone, or by combining it with other data about the user. Being able to single out users is enough to make cookies personal data, and unique identifiers make this possible by definition.
 
-Of course, you could theoretically anonymize a cookie by removing the identifier, but that will leave you with no information other than the cookie's version name, which would make it perfectly useless.\
+Of course, you could theoretically anonymize a cookie by removing the identifier, but that will leave you with no information other than the cookie's version name, which would make it perfectly useless.
 
 Bottom line: no, you cannot anonymize cookies. This goes for all cookies, not just GA cookies.
 
