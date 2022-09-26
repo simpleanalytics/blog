@@ -3,6 +3,11 @@ title: 4 Best Google Analytics Alternatives
 author_slug: iron
 author: Iron Brands
 excerpt: "There are more and more privacy-friendly Google Analtyics alternatives, but which one is the best?"
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/simple-analytics-for-marketers
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 image: https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png
 ---
 
