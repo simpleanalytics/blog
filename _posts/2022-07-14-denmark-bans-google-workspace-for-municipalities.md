@@ -7,6 +7,11 @@ image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products
 image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png
 redirect_from:
   - /denmark-bans-all-google-products
+related_posts:
+ - /blog/denmark-declares-google-analytics-unlawful
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/italy-declares-google-analytics-illegal
+ - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
 last_modified_at: 2022-09-20
 ---
 
