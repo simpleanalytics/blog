@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "The Irish DPC concluded that it will block Facebook from sending data form the EU to the US"
 image: https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image-no-text.png
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/less-is-more-data-minimization-can-help-your-business
+ - /blog/vodafone-deutsche-telekom-to-introduce-persistent-user-tracking
+ - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
 ---
 
 There is a risk Europeans won't be able to use Facebook after the Irish data protection agency (DPC) doubles down on stopping data transfer between the US and the E.U.
