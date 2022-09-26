@@ -4,6 +4,11 @@ author_slug: iron
 author: Iron Brands
 excerpt: "Your internet behavior is tracked by cookies. What are they? And what type of cookies are there?"
 image: https://assets.simpleanalytics.com/blog/cookies/what-are-internet-cookies.png
+related_posts:
+ - /blog/website-analytics-without-cookies
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
 lang: en
 ---
 
