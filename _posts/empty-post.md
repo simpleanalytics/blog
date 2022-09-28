@@ -5,6 +5,11 @@ author: Iron Brands
 excerpt: "Short description of the post"
 image: https://assets.simpleanalytics.com/blog/2022-
 image_no_text: https://assets.simpleanalytics.com/blog/2022-
+related_posts:
+ - /blog/why-its-time-to-move-away-from-google-analytics
+ - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/how-to-delete-google-analytics-in-4-steps
+ - /blog/google-analytics-performance-impact-using-google-lighthouse
 draft: true
 ---
 
