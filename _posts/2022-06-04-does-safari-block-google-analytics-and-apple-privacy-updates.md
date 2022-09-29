@@ -10,7 +10,7 @@ related_posts:
  - /blog/less-is-more-data-minimization-can-help-your-business
  - /blog/vodafone-deutsche-telekom-to-introduce-persistent-user-tracking
  - /blog/google-analytics-performance-impact-using-google-lighthouse
-last_modified_at: 2022-09-20
+last_modified_at: 2022-09-28
 ---
 
 In June 2020, Apple launched a new 'Privacy Report' during their first digital [WWDC event](https://insiderpaper.com/apple-wwdc-livestream-online-start-time-watch/). This included new privacy guidelines and a summary of trackers blocked by Safari (an Apple product) on iOS, Big Sur, and iPadOS.
