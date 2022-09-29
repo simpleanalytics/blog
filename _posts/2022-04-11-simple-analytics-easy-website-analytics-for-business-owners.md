@@ -9,6 +9,7 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/simple-analytics-for-marketers
 image: "https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/social-image.png"
+last_modified_at: 2022-09-28
 ---
 
 While [privacy-friendliness is one of our most important pillars](https://blog.simpleanalytics.com/website-analytics-without-cookies), we shouldn't forget that we're also here for business owners that want to get insights website traffict.
