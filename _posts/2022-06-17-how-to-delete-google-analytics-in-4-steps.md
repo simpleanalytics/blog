@@ -92,7 +92,9 @@ It should be clear how to remove Google Analytics (or a Google Analytics propert
 
 ## 4.  Import your Google Analytics data into a privacy-friendly alternative
 
-There are other (privacy-friendlier) options for website analytics out there, built by companies that have chosen a different path from Google Analytics and opt for privacy. Simple Analytics is one of them. We are a small team of two taking on Google. It's a David vs. Goliath, but we believe [we are on the right end](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics).
+There are other (privacy-friendlier) options for website analytics out there, built by companies that have chosen a different path from Google Analytics and opted for privacy. Simple Analytics is one of them. 
+
+We are a small and independent team that believes in creating a web that is friendly to website visitors. It's a David vs. Goliath, but we believe [we are on the right end](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics).
 
 Google Analytics is a liability for your business (in the EU). If you use Google Analytics, you do not comply with GDPR law and are liable for a fine.
 
@@ -105,6 +107,6 @@ In addition:
 
 At [Simple Analytics](https://simpleanalytics.com/), we provide website owners with the insights they need while protecting the privacy of your users and complying with privacy laws. It's cookieless by design, and you don't need to use a cookie banner on your website.
 
-One of the biggest issues with switching to another web analytics tool is the hassle of setting things up. Yes, switching costs are a real thing. However, at Simple Analytics, we've made this as smooth as possible as we allow you to [import your Google Analytics](https://docs.simpleanalytics.com/import-google-analytics-data) data directly into our dashboard.
+One of the biggest issues with switching to another web analytics tool is the hassle of setting things up. However, at Simple Analytics, we've made this as smooth as possible as we allow you to [import your Google Analytics](https://docs.simpleanalytics.com/import-google-analytics-data) data directly into our dashboard.
 
 If you are thinking of exploring privacy-friendly Google Analytics alternatives. You might want to [give us a try](https://simpleanalytics.com/welcome).
