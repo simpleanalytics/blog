@@ -14,9 +14,9 @@ related_posts:
 
 You might want to delete your Google Analytics account for multiple reasons. Your website is not active anymore, or you have quit your blog, or maybe you want to switch to [another (privacy-friendly) analytics tool](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives).
 
-The last reason is getting more steam lately. In the first place, this is due to the fact that website visitors care about their privacy. In addition, Google Analytics announced in march this year they would [sunset universal analytics](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) in favor of GA 4. This change has been driven by a growing need for online privacy. Although, the question remains if GA4 is actually more privacy-friendly than its predecessor. 
+The last reason is getting more steam lately. In the first place, this is because website visitors care about their privacy. In addition, Google Analytics announced in march this year they would [sunset universal analytics](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) in favor of GA 4. A growing need for online privacy has driven this change. Although, the question remains if GA4 is actually more privacy-friendly than its predecessor. 
 
-At the same time, EU privacy watchdogs have been cracking down on Google Analytics since the beginning of 2022. The [French authority CNIL stated](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) that Google Analytics violates GDPR law, and businesses using Google Analytics are, therefore, liable for a fine.  Following the French, Google has been found unlawful in Italy & Denmark as well. This is the result of a coordinated approach on a European level. Therefore, more EU member states are likely to follow in the coming months.
+At the same time, EU privacy watchdogs have been cracking down on Google Analytics since the beginning of 2022. The [French authority CNIL stated](https://www.cnil.fr/en/use-google-analytics-and-data-transfers-united-states-cnil-orders-website-manageroperator-comply) that Google Analytics violates GDPR law and businesses are liable for a fine if they continue using Google Analytics.  Following the French, Google has been found unlawful in Italy & Denmark as well. This is the result of a coordinated approach on a European level and more EU Member States are likely to follow in the coming months.
 
 There’s never been a better time to delete your Google Analytics account; let’s dig in and find out how!
 
@@ -27,11 +27,11 @@ There’s never been a better time to delete your Google Analytics account; let�
 3.  [Delete Google Analytics altogether](#3--delete-google-analytics-altogether)
 4.  [Import your Google Analytics data into a privacy-friendly alternative](#4--import-your-google-analytics-data-into-a-privacy-friendly-alternative)
 
-Lets jump in! 
+Let's jump in! 
 
 ## 1.  How to remove Google Analytics from your website
 
-Before showing you how to delete your Google Analytics account, we should touch upon the fact that there are multiple hierarchies in Google Analytics. This is to prevent confusion and to make sure you are deleting the right stuff.
+Before showing you how to delete your Google Analytics account, we should touch upon the fact that there are multiple hierarchies in Google Analytics. This is to prevent confusion and to ensure you are deleting the right stuff.
 
 **Account**: There is at least one account through which you can see your analytics
 
@@ -63,7 +63,7 @@ When you open the admin section, you can choose between account, property, and v
 
 ### 1.3  Select the property and move to trash
 
-Your website is now in trash. You (and others with the permission to manage users) will get notified by email that your website will be deleted.
+Your website is now in trash. You (and others with permission to manage users) will get notified by email that your website will be deleted.
 
 <img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/google-analytics-move-to-bin.png" alt="delete google analytics website" class="border" />
 <p class="caption" markdown="1">
@@ -90,7 +90,7 @@ If you want to restore your Google Analytics data, follow these two steps:
 
 If you want to take it a step further and delete your Google Analytics account altogether, you can follow roughly the same steps as when deleting a property. The only difference is that to delete your account; you navigate to account instead of property.
 
-It should be clear how to remove your Google Analytics account (or a Google Analytics property) by now. If you are discontinuing your blog or website, the following part of this blog won't be of any direct interest to you; however, if you are deleting Google Analytics because you don't want to support the biggest data-devouring machine in the world. In that case, you might want to check out some privacy-friendly alternatives.
+By now, it should be clear how to remove your Google Analytics account (or a Google Analytics property). If you are discontinuing your blog or website, the following part of this blog won't be of any direct interest to you; however, if you are deleting Google Analytics because you don't want to support the biggest data-devouring machine in the world. In that case, you might want to check out some privacy-friendly alternatives.
 
 ## 4.  Import your Google Analytics data into a privacy-friendly alternative
 
