@@ -10,6 +10,7 @@ related_posts:
  - /blog/4-privacy-friendly-google-analytics-alternatives
  - /blog/simple-analytics-for-marketers
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+last_modified_at: 2022-09-29
 ---
 
 You might want to delete your Google Analytics account for multiple reasons. Your website is not active anymore, or you have quit your blog, or maybe you want to switch to [another (privacy-friendly) analytics tool](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives).
