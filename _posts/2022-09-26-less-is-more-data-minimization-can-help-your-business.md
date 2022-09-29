@@ -2,7 +2,7 @@
 title: "Less is more. Data minimization can help your business"
 author_slug: carlo
 author: Carlo Cilento
-excerpt: "Numerous organizations collect data for the sake of collecting data. However, a data minimization mindset can save you money, compliance headaches, simplify the technical side of your business, and help your company build a reputation for good data governance and privacy-friendliness"
+excerpt: "A data minimization mindset can save you money, compliance headaches and help your company build a reputation for good data governance and privacy-friendliness. How? Let's find out."
 image: https://assets.simpleanalytics.com/blog/2022-data-minimization/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-data-minimization/social-image-no-text.png
 related_posts:
