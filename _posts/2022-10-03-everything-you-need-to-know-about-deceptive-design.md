@@ -1,7 +1,7 @@
 ---
 title: "Everything you need to know about Deceptive Design"
-author_slug: iron
-author: Iron Brands
+author_slug: carlo
+author: Carlo Cilento
 excerpt: "The concept of deceptive design plays an important role in our digital lives, but what is it exactly and how can you spot it"
 image: https://assets.simpleanalytics.com/blog/2022-
 image_no_text: https://assets.simpleanalytics.com/blog/2022-
