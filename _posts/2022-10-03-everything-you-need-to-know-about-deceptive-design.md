@@ -21,11 +21,11 @@ Carlo Cilento is a member of the Simple Analytics team and a privacy enthusiast 
 
 Let's hear what they have to say about the concept of deceptive design.
 
-1.  What is deceptive design?
-2.  What are common deceptive design patterns?
-3.  How can you spot them?
-4.  Do you think it will be more commonplace in the future?
-5.  How can you ensure you don't use deceptive design yourself?
+1.  [What is deceptive design?](#1-what-is-deceptive-design)
+2.  [What are common deceptive design patterns?](#2-what-are-common-deceptive-design-patterns)
+3.  [How can you spot them?](#3-how-can-you-spot-deceptive-design-patterns)
+4.  [Do you think it will be more commonplace in the future?](#4-do-you-think-it-will-be-more-commonplace-in-the-future)
+5.  [How can you ensure you don't use deceptive design patterns yourself?](#5-how-can-you-ensure-you-dont-use-deceptive-design-patterns-yourself)
 
 ## 1. What is deceptive design?
 
@@ -82,7 +82,7 @@ In the US, the Federal Trade Commission is investigating potential deceptive pat
 **Carlo Cilento:**
 Users are increasingly aware of deceptive patterns, but it still makes companies a lot of money, and I don't think they will stop until someone makes them. Some people are trying to: for example, NGO noyb filed many[  complaints](https://noyb.eu/en/project/cookie-banners) about deceptive cookie banners, and the European Consumer Organization just started a legal battle against Google for incorporating deceptive design during Google Account signup (their[  report](https://www.beuc.eu/reports/fast-track-surveillance-how-google-makes-privacy-hard-choice-summary) contains some nice examples of deceptive design, by the way). If all goes well, these legal actions may set some important precedents.
 
-## 5. How can you ensure you don't use deceptive design yourself?
+## 5. How can you ensure you don't use deceptive design patterns yourself?
 
 **Clo S.:**
 [This 2021 analysis](https://arxiv.org/pdf/2101.04843.pdf) conducted by three researchers at Princeton University looks into what exactly qualifies deceptive design as "deceptive." Some of the effects mentioned there
