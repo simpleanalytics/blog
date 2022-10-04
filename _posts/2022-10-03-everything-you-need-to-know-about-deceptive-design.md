@@ -3,8 +3,8 @@ title: "Everything you need to know about Deceptive Design"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "The concept of deceptive design plays an important role in our digital lives, but what is it exactly and how can you spot it"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-everything-you-need-to-know-about-deceptive-design/social-image.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-everything-you-need-to-know-about-deceptive-design/social-image-no-text.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
@@ -50,6 +50,10 @@ Another deceptive design pattern is when checkboxes to sign up for a service, a 
 Yup, pre-ticked checkboxes, and opt-out systems cannot collect consent under the GDPR, but companies still use them. Even big ones- Google is currently under investigation in France for doing this[  with an Android tracker](https://noyb.eu/en/buy-phone-get-tracker-unauthorized-tracking-code-illegally-installed-android-phones).
 
 Another widespread trick is presenting users with an unclear alternative. I often see cookie banners offering "accept" and "customize" as their options instead of just presenting the user with the option to refuse. Then you click "customize" and need to manually un-tick advertising and analytics cookies. Imagine doing this for every website! Good thing we have adblockers and some privacy-focused browsers blocking cookies for us.
+
+<img src="https://assets.simpleanalytics.com/blog/2022-everything-you-need-to-know-about-deceptive-design/social-image-no-text.png" alt="deceptive design" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 3. How can you spot deceptive design patterns?
 
