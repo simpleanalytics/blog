@@ -9,7 +9,7 @@ related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/google-analytics-performance-impact-using-google-lighthouse
+ - /blog/website-analytics-without-cookies
 draft: true
 ---
 
@@ -71,7 +71,7 @@ I really like the third question. Sometimes I feel like I need to push against t
 **Clo S.:**
 This is hard to tell. There is some policy against deceptive design, but it's still very sparse. The European Parliament recently adopted the following text in article 23a.1 of the[  Digital Services Act](https://www.europarl.europa.eu/doceo/document/TA-9-2022-0269_EN.html):
 
--   "Providers of online platforms shall not design, organise or operate their online interfaces in a way that deceives, manipulates or otherwise materially distorts or impairs the ability of recipients of their service to make free and informed decisions."
+*"Providers of online platforms shall not design, organise or operate their online interfaces in a way that deceives, manipulates or otherwise materially distorts or impairs the ability of recipients of their service to make free and informed decisions."*
 
 In the US, the Federal Trade Commission is investigating potential deceptive patterns on the[  Amazon Prime](https://epic.org/ftc-investigation-into-amazon-prime-dark-patterns-intensifies/) platform. The design used on Prime is alleged to have[  misled users into signing up](https://www.businessinsider.com/ftc-requests-jeff-bezos-amazon-executives-disappearing-messages-prime-investigation-2022-8?r=US&IR=T) for a paying subscription. I hope this type of investigation towards big tech will deter other companies from resorting to deceptive patterns.
 
@@ -86,6 +86,9 @@ Users are increasingly aware of deceptive patterns, but it still makes companies
 rely on mechanisms that "subvert user intent," "confuse users," "manipulate users," and "undermine user autonomy." This paper also features a lengthy and exhaustive classification of deceptive patterns, such as obfuscation, nagging, and camouflage advertising. This list is good to keep in mind to avoid using deceptive design yourself.
 
 Additionally, user research can help you spot misunderstandings. You could uncover something unexpected by conducting user tests and interviews on your own product. It's an excellent way to discover what people really understand about your product. It's an opportunity to find out if anything is unclear, frustrating, or pressuring and if you are in any way benefiting from a lack of understanding on your users' part.
+
+**Carlo Cilento:**
+I believe being observant and not copying what others are doing is a good start. It's easy to be influenced by all the UIs you see around and use yourself daily. Still, when those UIs incorporate dark patterns, you might develop something deceptive in your work without even noticing. Searching for examples of deceptive designs can help you be critical of what you see and careful about design choices. And, of course, user feedback also helps with avoiding those pitfalls. Not being evil also helps, but that's a given.
 
 
 You can follow Clo's work via her newsletter[  Digital Wellness](https://thistooshallgrow.com/newsletter). She's also active[  on Twitter](https://twitter.com/Clo__S).
