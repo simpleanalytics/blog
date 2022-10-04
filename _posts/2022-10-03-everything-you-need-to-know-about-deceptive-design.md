@@ -15,7 +15,7 @@ draft: true
 
 We are trying a different format for our blog post this week. We decided to interview Clo S. and our very own Carlo Cilento on deceptive design, how to spot it in the wild, and what its future looks like.
 
-Clo S. is the founder of[  This Too Shall Grow](https://thistooshallgrow.com/) and a certified digital wellbeing coach; she helps people build better relationships with their devices. Her background in tech gives her an astute understanding of how digital platforms' mechanisms can be detrimental to our attention and mental health. Through her[  articles](https://thistooshallgrow.com/) and[  newsletter](https://thistooshallgrow.com/newsletter), readers learn how to foster digital habits that actually serve them, and designers know how to create mindful products that protect people's mental health and well-being.
+Clo S. is the founder of[  This Too Shall Grow](https://thistooshallgrow.com/) and a certified digital wellbeing coach; she helps people build better relationships with their devices. Her background in tech gives her an astute understanding of how digital platforms' mechanisms can be detrimental to our attention and mental health. Through her[  articles](https://thistooshallgrow.com/blog) and[  newsletter](https://thistooshallgrow.com/newsletter), readers learn how to foster digital habits that actually serve them, and designers know how to create mindful products that protect people's mental health and well-being.
 
 Carlo Cilento is a member of the Simple Analytics team and a privacy enthusiast with a legal background. He is active on the Simple Analytics blog, covering privacy news and data protection law topics. Along with the team, he tries to make the legal side of privacy accessible to a broad public by providing accurate, in-depth, and jargon-free content.
 
@@ -58,10 +58,10 @@ Another widespread trick is presenting users with an unclear alternative. I ofte
 ## 3. How can you spot deceptive design patterns?
 
 **Clo S.:**
-A lot of them are pretty standard. If you've seen them once, they're easy to spot. The site,[  deceptive.design](https://www.deceptive.design/), lists different types of deceptive patterns such as sneaking an item into your basket, "confirmshaming" (guilting you into subscribing or staying subscribed to something), and more. It even has a very well-documented[  hall of shame](https://www.deceptive.design/hall-of-shame/all) of deceptive design which goes pretty far back in time, until the[  1938 voting ballot](https://darkpatterns.uxp2.com/pattern/national-socialist-germany-anschluss-of-austria-ballot/) of Nazi Germany to annex Austria, where the circle to check "Yes" is bigger than the one for "No." Pre-Internet deceptive design, pretty wild, right? To spot deceptive design patterns, I would keep in mind the following:
+A lot of them are pretty standard. If you've seen them once, they're easy to spot. The site[  deceptive.design](https://www.deceptive.design/) lists different types of deceptive patterns such as sneaking an item into your basket, "confirmshaming" (guilting you into subscribing or staying subscribed to something), and more. It even has a very well-documented[  hall of shame](https://www.deceptive.design/hall-of-shame/all) of deceptive design which goes pretty far back in time, until the[  1938 voting ballot](https://darkpatterns.uxp2.com/pattern/national-socialist-germany-anschluss-of-austria-ballot/) of Nazi Germany to annex Austria, where the circle to check "Yes" is bigger than the one for "No." Pre-Internet deceptive design, pretty wild, right? To spot deceptive design patterns, I would keep in mind the following:
 
 -   Is the site trying to persuade or pressure you to do something? That could be making a financial transaction but also giving away some of your data, signing up for a free account, or sharing your contacts' information with them, via the now typical "Invite your friends!".
--   Is there a lack of clarity or transparency in how the website or its business model works?
+-   Is there a lack of clarity or transparency in how the website or its business model work?
 -   Is an action hidden or made difficult to complete, e.g., deleting your account, downgrading your paying plan, etc.?
 -   What motivates a specific design decision?
 
@@ -85,9 +85,7 @@ Users are increasingly aware of deceptive patterns, but it still makes companies
 ## 5. How can you ensure you don't use deceptive design patterns yourself?
 
 **Clo S.:**
-[This 2021 analysis](https://arxiv.org/pdf/2101.04843.pdf) conducted by three researchers at Princeton University looks into what exactly qualifies deceptive design as "deceptive." Some of the effects mentioned there
-
-rely on mechanisms that "subvert user intent," "confuse users," "manipulate users," and "undermine user autonomy." This paper also features a lengthy and exhaustive classification of deceptive patterns, such as obfuscation, nagging, and camouflage advertising. This list is good to keep in mind to avoid using deceptive design yourself.
+[This 2021 analysis](https://arxiv.org/pdf/2101.04843.pdf) conducted by three researchers at Princeton University looks into what exactly qualifies deceptive design as "deceptive." Some of the effects mentioned there rely on mechanisms that "subvert user intent," "confuse users," "manipulate users," and "undermine user autonomy." This paper also features a lengthy and exhaustive classification of deceptive patterns, such as obfuscation, nagging, and camouflage advertising. This list is good to keep in mind to avoid using deceptive design yourself.
 
 Additionally, user research can help you spot misunderstandings. You could uncover something unexpected by conducting user tests and interviews on your own product. It's an excellent way to discover what people really understand about your product. It's an opportunity to find out if anything is unclear, frustrating, or pressuring and if you are in any way benefiting from a lack of understanding on your users' part.
 
