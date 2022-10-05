@@ -10,7 +10,6 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/website-analytics-without-cookies
-draft: true
 ---
 
 We are trying a different format for our blog post this week. We decided to interview Clo S. and our very own Carlo Cilento on deceptive design, how to spot it in the wild, and what its future looks like.
