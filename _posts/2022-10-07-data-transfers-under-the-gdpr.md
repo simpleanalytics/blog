@@ -19,19 +19,19 @@ We have already touched upon data transfers [in this blog](https://www.simpleana
 
 {% include gif.html slug="closer-look" alt="closer look" width="480" height="259" color="#35281d" %}
 
-1.  How do data transfers work under the GDPR?
-  1.1 Adequacy decisions
-  1.2 Standard contractual clauses
-  1.3 What about the other mechanisms?
-2.  US data transfers. A long story short
-  2.1 Schrems I
-  2.2 Schrems II
-  2.3 The 101 Complaints
-3.  Supplementary measures for data transfers
-  3.1 Encryption
-  3.2 Proxy Servers
-  3.3 Pseudonymization
-4.  The risk-based approach
+1.  [How do data transfers work under the GDPR?](#1-how-do-data-transfers-work-under-the-gdpr)
+    1.  [Adequacy decisions](#11-adequacy-decisions)
+    2.  [Standard contractual clauses](#12-standard-contractual-clauses)
+    3.  [What about other mechanisms?](#13-what-about-other-mechanisms)
+2.  [US data transfers. A long story short](#2-us-data-transfers-a-long-story-short)
+    1.  [Schrems I](#21-schrems-i)
+    2.  [Schrems II](#22-schrems-ii)
+    3.  [The 101 complaints](#23-the-101-complaints)
+3.  [Supplementary measures for data transfers](#3-supplementary-measures-for-data-transfers)
+    1.  [Encryption](#31-encryption)
+    2.  [Proxy Servers](#32-proxy-servers)
+    3.  [Pseudonymization](#33-pseudonymization)
+4.  [The risk-based approach](#4-the-risk-based-approach)
 
 ## 1. How do data transfers work under the GDPR?
 
@@ -59,7 +59,7 @@ The main shortcoming of SCCs is that they do not bind the recipient State. For t
 
 In other words, the controller needs to ensure that SCCs grant sufficient protection in practice, and if they don't, they must take extra steps to keep the data confidential. As we will see, this is very difficult when dealing with State surveillance.
 
-### 1.3 What about the other mechanisms?
+### 1.3 What about other mechanisms?
 
 As we said, the GDPR provides transfer instruments other than SCCs and adequacy decisions, but they are not frequently used in practice. Binding Corporate Rules (BCRs) are used to transfer data within branches of a corporation. However, large corporations typically prefer establishing separate companies in the EEA and controlling them through capital ownership (think of Google Ireland and Meta Ireland). Certifications and codes of conduct may gain traction in the future but are not widely used at the moment.
 
@@ -135,7 +135,7 @@ Pseudonymization is not anonymization under the GDPR, but it can definitely be a
 
 The controller also needs to consider data linkage- that is, the possibility that someone may re-identify the data subject by combining the exported data with any other information they may possess. Evaluating the risk of re-identification is difficult when dealing with State surveillance because intelligence agencies gather a lot of information about a lot of people and are not transparent about the information they possess- that's their job after all.
 
-<img src="https://assts.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="Google Analytics banned" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="do you really need google analytics" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
