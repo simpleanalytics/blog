@@ -3,8 +3,8 @@ title: "Data transfers under the GDPR"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Everything you need to know about the do's and don't regarding data transfers under the GDPR"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-data-transfers-under-the-GDPR/social-image.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-data-transfers-under-the-GDPR/social-image-no-text.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
@@ -13,22 +13,11 @@ related_posts:
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 Data transfers between the EU and the US are one of the most widely discussed issues in data protection law right now. Countless business and governmental agencies across Europe are somehow reliant on a US-based processor for their operations. Yet, these data transfers pose privacy risks that are hard, if not impossible, to mitigate.
 
 We have already touched upon data transfers [in this blog](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics) that sums up the long story behind the DPA decisions against Google Analytics. This time we're going to look at data transfers from a more general viewpoint and try to explain the legal issues at stake in more detail.
 
-![](https://lh3.googleusercontent.com/oE5xrERBwZ4lGTJrV6uDg0mJhMho_YtfCmgs2gtJkTSumd5i0yopwJUon1T1of3EVdLyJCOUO1ix8qYkR-EBtBmoFtRwgqKSyb7U91Ce1To3I4YXFa_CdFN7oPrQIUJEAFJ8MqFfZkR5Tlq3vjO8ZvDNyb7X4AtkX5NVIllkp3GvgEAt766J9aDwKw)
+{% include gif.html slug="closer-look" alt="closer look" width="480" height="259" color="#35281d" %}
 
 1.  How do data transfers work under the GDPR?
   1.1 Adequacy decisions
@@ -76,6 +65,10 @@ As we said, the GDPR provides transfer instruments other than SCCs and adequacy 
 
 Crucially, all these instruments suffer from the same issues as SCCs when dealing with "unsafe" States because they do not bind the recipient State (legally binding instruments between public bodies are the exception, but private entities cannot rely on them).
 
+<img src="https://assets.simpleanalytics.com/blog/2022-data-transfers-under-the-GDPR/social-image-no-text.png" alt="Data transfers under the GDPR" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
+
 ## 2. US data transfers. A long story short
 
 To understand where we are now concerning US data transfers, we need to take a quick look at a decade-long story of legal battles.
@@ -107,8 +100,6 @@ But right after the Schrems II ruling, noyb (a privacy NGO founded by Schrems) f
 The EDPB (short for European Data Protection Board, a European institution gathering all European DPAs) later created a task force for coordinating the approach of European DPAs to noyb's complaints. By the looks of it, the task force did a good job: three DPAs upheld the complaints against Google Analytics so far, and the Dutch DPA stated that they might follow along. In a [recent press release](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics), the Danish DPA also embraced the same approach and declared the use of Google Analytics unlawful.
 
 But the issue is bigger than GA. The reasoning that led to Google Analytics being banned from some Member States may someday lead to the ban of many other services, including cloud services which are practically indispensable for the European economy at the moment.
-
-(Insert Social Image)
 
 ## 3. Supplementary measures for data transfers
 
@@ -144,6 +135,10 @@ Pseudonymization is not anonymization under the GDPR, but it can definitely be a
 
 The controller also needs to consider data linkage- that is, the possibility that someone may re-identify the data subject by combining the exported data with any other information they may possess. Evaluating the risk of re-identification is difficult when dealing with State surveillance because intelligence agencies gather a lot of information about a lot of people and are not transparent about the information they possess- that's their job after all.
 
+<img src="https://assts.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="Google Analytics banned" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
+
 ## 4. The risk-based approach
 
 Some companies adopt a risk-based approach to data transfers. They essentially claim that a transfer is safe and lawful when there is a low enough probability that the transferred data will be subject to surveillance.
@@ -153,8 +148,6 @@ However, Chapter V of the GDPR never refers to the notion of risk, and the Schre
 To be perfectly clear: when transferring data, an exporter should assess whether the specific data they are exporting are subject to any "problematic" surveillance legislation in the first place. This question is necessary for evaluating data transfers and should not be confused with the risk-based approach that DPAs are currently rejecting.
 
 The answer to this question will be "yes" for most (if not all) transfers because the scope of FISA appears to be quite broad in practice- as confirmed by the Snowden papers.
-
-(insert Google Analytics behind bar image)
 
 ## 5. Now what?
 
