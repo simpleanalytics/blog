@@ -14,7 +14,7 @@ related_posts:
 
 Data transfers between the EU and the US are one of the most widely discussed issues in data protection law right now. Countless business and governmental agencies across Europe are somehow reliant on a US-based processor for their operations. Yet, these data transfers pose privacy risks that are hard, if not impossible, to mitigate.
 
-We have already touched upon data transfers [in this blog](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics) that sums up the long story behind the DPA decisions against Google Analytics. This time we're going to look at data transfers from a more general viewpoint and try to explain the legal issues at stake in more detail.
+We've already touched upon data transfers in a [blog](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics) that sums up the long story behind the DPA decisions against Google Analytics. However, this time we're going to look at data transfers from a more general viewpoint and try to explain the legal issues at stake in more detail.
 
 {% include gif.html slug="closer-look" alt="closer look" width="480" height="259" color="#35281d" %}
 
