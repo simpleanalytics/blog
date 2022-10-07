@@ -10,6 +10,7 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
  - /blog/website-analytics-without-cookies
+ draft = true
 ---
 
 Data transfers between the EU and the US are one of the most widely discussed issues in data protection law right now. Countless business and governmental agencies across Europe are somehow reliant on a US-based processor for their operations. Yet, these data transfers pose privacy risks that are hard, if not impossible, to mitigate.
