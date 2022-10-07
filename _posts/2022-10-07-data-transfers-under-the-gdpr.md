@@ -80,7 +80,7 @@ In 2013 American whistleblower Edward Snowden leaked confidential documents abou
 
 Shortly after the Snowden revelations, Austrian citizen **Max Schrems filed a complaint against Facebook Ireland** before the Irish supervisory authority (DPC). He claimed that the transfer of his personal data to Facebook Inc. was unsafe and illegal because of the extent and pervasiveness of State surveillance in the US, as documented in the Snowden files.
 
-In 2015 the case landed in the EU Court of Justice, which ruled in Schrem's favor and **[invalidated the Safe Harbor regime**](https://curia.europa.eu/jcms/upload/docs/application/pdf/2015-10/cp150117en.pdf).
+In 2015 the case landed in the EU Court of Justice, which ruled in Schrem's favor and [**invalidated the Safe Harbor regime**](https://curia.europa.eu/jcms/upload/docs/application/pdf/2015-10/cp150117en.pdf).
 
 ### 2.2 Schrems II
 
