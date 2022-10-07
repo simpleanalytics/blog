@@ -14,7 +14,7 @@ related_posts:
 
 We are trying a different format for our blog post this week. We decided to interview Clo S. and our very own Carlo Cilento on deceptive design, how to spot it in the wild, and what its future looks like.
 
-Clo S. is the founder of[  This Too Shall Grow](https://thistooshallgrow.com/) and a certified digital wellbeing coach; she helps people build better relationships with their devices. Her background in tech gives her an astute understanding of how digital platforms' mechanisms can be detrimental to our attention and mental health. Through her[  articles](https://thistooshallgrow.com/blog) and[  newsletter](https://thistooshallgrow.com/newsletter), readers learn how to foster digital habits that actually serve them, and designers know how to create mindful products that protect people's mental health and well-being.
+Clo S. is the founder of [This Too Shall Grow](https://thistooshallgrow.com/) and a certified digital wellbeing coach; she helps people build better relationships with their devices. Her background in tech gives her an astute understanding of how digital platforms' mechanisms can be detrimental to our attention and mental health. Through her [articles](https://thistooshallgrow.com/blog) and [newsletter](https://thistooshallgrow.com/newsletter), readers learn how to foster digital habits that actually serve them, and designers know how to create mindful products that protect people's mental health and well-being.
 
 Carlo Cilento is a member of the Simple Analytics team and a privacy enthusiast with a legal background. He is active on the Simple Analytics blog, covering privacy news and data protection law topics. Along with the team, he tries to make the legal side of privacy accessible to a broad public by providing accurate, in-depth, and jargon-free content.
 
@@ -41,12 +41,12 @@ The example above is a good instance of deceptive design. I fully agree with you
 ## 2. What are common deceptive design patterns? 
 
 **Clo S.:**
-I think[  fabricated scarcity and fabricated urgency](https://thistooshallgrow.com/blog/design-internet-addiction) are quite frequent. These are the messages telling you that there are only 2 items left in stock - when there's more - or that a special offer expires soon - when it doesn't. The goal is to pressure you into purchasing or committing to something through artificial limits of quantity or time.
+I think [fabricated scarcity and fabricated urgency](https://thistooshallgrow.com/blog/design-internet-addiction) are quite frequent. These are the messages telling you that there are only 2 items left in stock - when there's more - or that a special offer expires soon - when it doesn't. The goal is to pressure you into purchasing or committing to something through artificial limits of quantity or time.
 
 Another deceptive design pattern is when checkboxes to sign up for a service, a newsletter, or anything else are ticked by default, and you have to uncheck them if you don't want to subscribe. This is actually unlawful according to GDPR, as consent must be explicitly given. Even more pernicious and annoying is when the site requires you to tick the checkbox if you don't want to receive their newsletter. This is peak deceptive design.
 
 **Carlo Cilento:**
-Yup, pre-ticked checkboxes, and opt-out systems cannot collect consent under the GDPR, but companies still use them. Even big ones- Google is currently under investigation in France for doing this[  with an Android tracker](https://noyb.eu/en/buy-phone-get-tracker-unauthorized-tracking-code-illegally-installed-android-phones).
+Yup, pre-ticked checkboxes, and opt-out systems cannot collect consent under the GDPR, but companies still use them. Even big ones- Google is currently under investigation in France for doing this [with an Android tracker](https://noyb.eu/en/buy-phone-get-tracker-unauthorized-tracking-code-illegally-installed-android-phones).
 
 Another widespread trick is presenting users with an unclear alternative. I often see cookie banners offering "accept" and "customize" as their options instead of just presenting the user with the option to refuse. Then you click "customize" and need to manually un-tick advertising and analytics cookies. Imagine doing this for every website! Good thing we have adblockers and some privacy-focused browsers blocking cookies for us.
 
@@ -57,7 +57,7 @@ Another widespread trick is presenting users with an unclear alternative. I ofte
 ## 3. How can you spot deceptive design patterns?
 
 **Clo S.:**
-A lot of them are pretty standard. If you've seen them once, they're easy to spot. The site[  deceptive.design](https://www.deceptive.design/) lists different types of deceptive patterns such as sneaking an item into your basket, "confirmshaming" (guilting you into subscribing or staying subscribed to something), and more. It even has a very well-documented[  hall of shame](https://www.deceptive.design/hall-of-shame/all) of deceptive design which goes pretty far back in time, until the[  1938 voting ballot](https://darkpatterns.uxp2.com/pattern/national-socialist-germany-anschluss-of-austria-ballot/) of Nazi Germany to annex Austria, where the circle to check "Yes" is bigger than the one for "No." Pre-Internet deceptive design, pretty wild, right? To spot deceptive design patterns, I would keep in mind the following:
+A lot of them are pretty standard. If you've seen them once, they're easy to spot. The site [deceptive.design](https://www.deceptive.design/) lists different types of deceptive patterns such as sneaking an item into your basket, "confirmshaming" (guilting you into subscribing or staying subscribed to something), and more. It even has a very well-documented [hall of shame](https://www.deceptive.design/hall-of-shame/all) of deceptive design which goes pretty far back in time, until the [1938 voting ballot](https://darkpatterns.uxp2.com/pattern/national-socialist-germany-anschluss-of-austria-ballot/) of Nazi Germany to annex Austria, where the circle to check "Yes" is bigger than the one for "No." Pre-Internet deceptive design, pretty wild, right? To spot deceptive design patterns, I would keep in mind the following:
 
 -   Is the site trying to persuade or pressure you to do something? That could be making a financial transaction but also giving away some of your data, signing up for a free account, or sharing your contacts' information with them, via the now typical "Invite your friends!".
 -   Is there a lack of clarity or transparency in how the website or its business model work?
@@ -72,14 +72,14 @@ I really like the third question. Sometimes I feel like I need to push against t
 ## 4. Do you think it will be more commonplace in the future?
 
 **Clo S.:**
-This is hard to tell. There is some policy against deceptive design, but it's still very sparse. The European Parliament recently adopted the following text in article 23a.1 of the[  Digital Services Act](https://www.europarl.europa.eu/doceo/document/TA-9-2022-0269_EN.html):
+This is hard to tell. There is some policy against deceptive design, but it's still very sparse. The European Parliament recently adopted the following text in article 23a.1 of the [Digital Services Act](https://www.europarl.europa.eu/doceo/document/TA-9-2022-0269_EN.html):
 
 > *"Providers of online platforms shall not design, organise or operate their online interfaces in a way that deceives, manipulates or otherwise materially distorts or impairs the ability of recipients of their service to make free and informed decisions."*
 
-In the US, the Federal Trade Commission is investigating potential deceptive patterns on the[  Amazon Prime](https://epic.org/ftc-investigation-into-amazon-prime-dark-patterns-intensifies/) platform. The design used on Prime is alleged to have[  misled users into signing up](https://www.businessinsider.com/ftc-requests-jeff-bezos-amazon-executives-disappearing-messages-prime-investigation-2022-8?r=US&IR=T) for a paying subscription. I hope this type of investigation towards big tech will deter other companies from resorting to deceptive patterns.
+In the US, the Federal Trade Commission is investigating potential deceptive patterns on the [Amazon Prime](https://epic.org/ftc-investigation-into-amazon-prime-dark-patterns-intensifies/) platform. The design used on Prime is alleged to have [misled users into signing up](https://www.businessinsider.com/ftc-requests-jeff-bezos-amazon-executives-disappearing-messages-prime-investigation-2022-8?r=US&IR=T) for a paying subscription. I hope this type of investigation towards big tech will deter other companies from resorting to deceptive patterns.
 
 **Carlo Cilento:**
-Users are increasingly aware of deceptive patterns, but it still makes companies a lot of money, and I don't think they will stop until someone makes them. Some people are trying to: for example, NGO noyb filed many[  complaints](https://noyb.eu/en/project/cookie-banners) about deceptive cookie banners, and the European Consumer Organization just started a legal battle against Google for incorporating deceptive design during Google Account signup (their[  report](https://www.beuc.eu/reports/fast-track-surveillance-how-google-makes-privacy-hard-choice-summary) contains some nice examples of deceptive design, by the way). If all goes well, these legal actions may set some important precedents.
+Users are increasingly aware of deceptive patterns, but it still makes companies a lot of money, and I don't think they will stop until someone makes them. Some people are trying to: for example, NGO noyb filed many [complaints](https://noyb.eu/en/project/cookie-banners) about deceptive cookie banners, and the European Consumer Organization just started a legal battle against Google for incorporating deceptive design during Google Account signup (their [report](https://www.beuc.eu/reports/fast-track-surveillance-how-google-makes-privacy-hard-choice-summary) contains some nice examples of deceptive design, by the way). If all goes well, these legal actions may set some important precedents.
 
 ## 5. How can you ensure you don't use deceptive design patterns yourself?
 
@@ -92,6 +92,6 @@ Additionally, user research can help you spot misunderstandings. You could uncov
 I believe being observant and not copying what others are doing is a good start. It's easy to be influenced by all the UIs you see around and use yourself daily. Still, when those UIs incorporate dark patterns, you might develop something deceptive in your work without even noticing. Searching for examples of deceptive designs can help you be critical of what you see and careful about design choices. And, of course, user feedback also helps with avoiding those pitfalls. Not being evil also helps, but that's a given.
 
 
-You can follow Clo's work via her newsletter[  Digital Wellness](https://thistooshallgrow.com/newsletter). She's also active[  on Twitter](https://twitter.com/Clo__S).
+You can follow Clo's work via her newsletter [Digital Wellness](https://thistooshallgrow.com/newsletter). She's also active [on Twitter](https://twitter.com/Clo__S).
 
-You can find Carlo's work on the[  Simple Analytics blog](https://www.simpleanalytics.com/blog).
+You can find Carlo's work on the [Simple Analytics blog](https://www.simpleanalytics.com/blog).
