@@ -1,5 +1,5 @@
 ---
-title: "Data transfers under the GDPR"
+title: "How to move forward with data transfers between the EU & US"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Everything you need to know about the do's and don't regarding data transfers under the GDPR"
