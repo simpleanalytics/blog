@@ -75,7 +75,7 @@ I really like the third question. Sometimes I feel like I need to push against t
 **Clo S.:**
 This is hard to tell. There is some policy against deceptive design, but it's still very sparse. The European Parliament recently adopted the following text in article 23a.1 of the [Digital Services Act](https://www.europarl.europa.eu/doceo/document/TA-9-2022-0269_EN.html):
 
-> *"Providers of online platforms shall not design, organise or operate their online interfaces in a way that deceives, manipulates or otherwise materially distorts or impairs the ability of recipients of their service to make free and informed decisions."*
+> Providers of online platforms shall not design, organise or operate their online interfaces in a way that deceives, manipulates or otherwise materially distorts or impairs the ability of recipients of their service to make free and informed decisions.
 
 In the US, the Federal Trade Commission is investigating potential deceptive patterns on the [Amazon Prime](https://epic.org/ftc-investigation-into-amazon-prime-dark-patterns-intensifies/) platform. The design used on Prime is alleged to have [misled users into signing up](https://www.businessinsider.com/ftc-requests-jeff-bezos-amazon-executives-disappearing-messages-prime-investigation-2022-8?r=US&IR=T) for a paying subscription. I hope this type of investigation towards big tech will deter other companies from resorting to deceptive patterns.
 
