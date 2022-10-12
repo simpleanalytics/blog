@@ -1,5 +1,5 @@
 ---
-title: "Everything you need to know about Deceptive Design"
+title: "What we found on Deceptive Design"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "The concept of deceptive design plays an important role in our digital lives, but what is it exactly and how can you spot it"
@@ -10,6 +10,7 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/website-analytics-without-cookies
+last_modified_at: 2022-10-12
 ---
 
 We are trying a different format for our blog post this week. We decided to interview Clo S. and our very own Carlo Cilento on deceptive design, how to spot it in the wild, and what its future looks like.
