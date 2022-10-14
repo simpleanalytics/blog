@@ -10,7 +10,6 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/website-analytics-without-cookies
-draft: true
 ---
 
 Google Analytics has been on the front page of the privacy news lately. [Austria](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), [France](https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)), [Italy](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), and recently [Denmark](https://www.simpleanalytics.com/blog/denmark-declares-google-analytics-unlawful) have ruled the use of Google Analytics unlawful in its current setup. The rulings are part of a coordinated effort on a European level and have been in the works for a long time.
