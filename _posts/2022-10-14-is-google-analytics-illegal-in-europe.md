@@ -26,7 +26,7 @@ Google Analytics has been on the front page of the privacy news lately. [Austria
 
 GA is the default analytics tool, and it's used by [55%](https://w3techs.com/technologies/overview/traffic_analysis) of all the websites on the web. It has long been a monopolist on the web analytics market, and its legal troubles are sending waves across the marketing landscape in Europe. In this climate of general panic, it can be challenging to understand what European authorities are ruling exactly. Is Google Analytics really illegal in Europe?
 
-![](https://lh5.googleusercontent.com/qVJRqySI1XKzVJJpBrfvjGreemm22qmel_0giwdEHi0_95z0HWeprlhJzjVtf5_YAWNXNFb-mDFAppw0cs9ZSnAPCXGDU769ek4HsuLqzoz4fzZ92CZso9QQ3uSMr0lXu6gU9ZgdUrd3utj5aNEvBtp9O-W31Ia0KkyR-0GCJqbu51a5DyqCsD3-Cw)
+{% include gif.html slug="interesting" alt="interesting" width="498" height="280" color="#483429" %}
 
 1.  The background on Google Analytics and GDPR
 2.  What did the authorities actually say?
