@@ -13,15 +13,6 @@ related_posts:
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
 Google Analytics has been on the front page of the privacy news lately. [Austria](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), [France](https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)), [Italy](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890), and recently [Denmark](https://www.simpleanalytics.com/blog/denmark-declares-google-analytics-unlawful) have ruled the use of Google Analytics unlawful in its current setup. The rulings are part of a coordinated effort on a European level and have been in the works for a long time.
 
 GA is the default analytics tool, and it's used by [55%](https://w3techs.com/technologies/overview/traffic_analysis) of all the websites on the web. It has long been a monopolist on the web analytics market, and its legal troubles are sending waves across the marketing landscape in Europe. In this climate of general panic, it can be challenging to understand what European authorities are ruling exactly. Is Google Analytics really illegal in Europe?
