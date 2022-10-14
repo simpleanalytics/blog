@@ -43,7 +43,7 @@ Google Analytics came under fire because it requires transferring personal data 
 -   The [Schrems II](https://www.google.com/search?q=gdprhub+schrems+II&oq=gdprhub+schr&aqs=chrome.0.69i59j69i57j69i59l2j69i60l2.3865j0j1&sourceid=chrome&ie=UTF-8) ruling of the Court of Justice requires companies to implement adequate safeguards (commonly referred to as supplementary measures) when transferring data to the U.S. to protect data from State surveillance
 -   NGO noyb filed [101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) against Google Analytics and Facebook Connect to nudge European authorities towards stricter enforcement of the Schrems II ruling.
 -   The board of European supervisory authorities (EDPB) [coordinated the response to the complaints](https://edpb.europa.eu/news/news/2020/european-data-protection-board-thirty-seventh-plenary-session-guidelines-controller_en) at a European level.
--   Several European Data Protection Authorities (DPAs) have "banned" GA from the respective countries[1].
+-   Several European Data Protection Authorities (DPAs) have "banned" GA from the respective countries[^1].
 
 ## 2. What did the authorities actually say?
 
@@ -96,4 +96,4 @@ This is the reason why we built [Simple Analytics](https://www.simpleanalytics.c
 
 Feel free to[ give us a try](https://simpleanalytics.com/welcome) if you want to support an independent business that is trying to create a web that is friendly to website visitors.
 
->[1]: The gpdrhub has summaries for the Austrian, French and Italian decisions.
+>[^1]: The gpdrhub has summaries for the Austrian, French and Italian decisions.
