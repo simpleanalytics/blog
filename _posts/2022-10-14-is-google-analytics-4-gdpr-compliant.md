@@ -13,22 +13,11 @@ related_posts:
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 Google Analytics has recently come under fire from European authorities for non-compliance with the GDPR rules on data transfers. Google promises that the latest version of its analytics tool will be more privacy-focused. They will [sunset Universal Analytics](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) in favor of GA4 next year, and privacy has been the main driver of this change. But how "privacy-friendlier" will this version be?
 
 Many companies look forward to Google Analytics 4 as a solution to the compliance puzzle. However, companies might be a little too optimistic. While there is no case law on GA4 yet, the existing case law suggests that **GA4 suffers from the same legal issues as UA**.
 
-![](https://lh4.googleusercontent.com/mSmkqylGSqnAvbXD24dBI-r1txcEb27Gg5MmpmDkd95sjOOR1G29lVYgYndCD3JzO7iGdJ3BkQdO3cKHtN8IwA7vPrxn3H0XziRKMnMqZiD1jYrzBc_ljC0Ki1YJyFMTDufGW3_slkoOsS_PPVPhYtEKLm9t95pJKwQUFDKvIf_Y_OJ_e3hSoMQurQ)
+{% include gif.html slug="are-you-sure" alt="are you sure" width="480" height="400" color="#584b4b" %}
 
 1.  The core issues: Personal data and supplementary measures
 2.  Google Analytics 4 transfers personal data
@@ -48,6 +37,11 @@ So far, this coordinated approach has led the [Austrian](https://gdprhub.eu/inde
 
 The core of the complaints is the supplementary measures required by the Schrems II ruling. No effective measures currently exist for GA and any other cloud-based services that need to process data in the clear[^1]. It follows that Google can only comply with the GDPR by not processing any personal data in the U.S. at all, and this is not the case. Also, not for Google Analytics 4.
 
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
+<p class="caption" markdown="1">
+  Caption of the image
+</p>
+
 ## 2. Google Analytics 4 transfers personal data
 
 Google advertised GA4 as a move toward a cookieless and privacy-friendly web analytics model, but their new analytics tool is not entirely cookieless. GA4 ditched third-party cookies but [employs a single first-party cookie called Client ID](https://support.google.com/analytics/answer/11593727?hl=en). All cookies, including first-party cookies, are **personal data** under the GDPR[^2].
@@ -66,7 +60,9 @@ Let's start with the good notes. GA4 is definitely more privacy-friendly in the 
 
 On the other hand, the User-ID system **encourages very invasive tracking practices**. It is essentially a two-step system where the website itself collects certain data to identify a user cross-platform. Based on this data, the website generates a unique ID and provides it to Google. Google then generates a User ID for each unique ID provider and tracks the parameter across devices.
 
-![](https://lh4.googleusercontent.com/URdPb9HaKqIBskP2bMSNiZjRu_O591cuh7XBCHSRQkWui_koiAkwaqFnl65lcYAocZEddaJPNBW8PnXQq08ahyGT1Hta9q8eta1SYXcBFqk7LP8-evAdRSKBlm5WU_L_LcDN38jzaAn04llVNIuaQHMSVymAH8mq6UgH5Y_isIt5GQgcFCIzfoEQuA)
+<img src="https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/visitor-tracking.png" alt="website visitor tracking" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 As soon as GA4 becomes the standard, websites will have an incentive to track users and will predictably look for any excuse to collect the data they need for identifying users across devices. They may start locking content behind a registration in order to collect credentials and generate a unique ID, in a similar fashion to how "cookie walls" essentially require data as payment for a "walled" article.
 
