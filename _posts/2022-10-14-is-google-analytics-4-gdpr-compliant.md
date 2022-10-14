@@ -46,13 +46,13 @@ Right after the Schrems II ruling, privacy NGO noyb filed **101 complaints** bef
 
 So far, this coordinated approach has led the [Austrian](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), [French](https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)), and [Italian](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) DPAs to **declare Google Analytics unlawful**. Additionally, in a recent press release, the Danish authority essentially said the same, and the Dutch DPA announced earlier this year that it might[ follow suit](https://www.techzine.eu/news/privacy-compliance/71153/google-analytics-may-be-banned-in-the-netherlands/).
 
-The core of the complaints is the supplementary measures required by the Schrems II ruling. No effective measures currently exist for GA and any other cloud-based services that need to process data in the clear. It follows that Google can only comply with the GDPR by not processing any personal data in the U.S. at all, and this is not the case. Also, not for Google Analytics 4.
+The core of the complaints is the supplementary measures required by the Schrems II ruling. No effective measures currently exist for GA and any other cloud-based services that need to process data in the clear[^1]. It follows that Google can only comply with the GDPR by not processing any personal data in the U.S. at all, and this is not the case. Also, not for Google Analytics 4.
 
 ## 2. Google Analytics 4 transfers personal data
 
-Google advertised GA4 as a move toward a cookieless and privacy-friendly web analytics model, but their new analytics tool is not entirely cookieless. GA4 ditched third-party cookies but [employs a single first-party cookie called Client ID](https://support.google.com/analytics/answer/11593727?hl=en). All cookies, including first-party cookies, are **personal data** under the GDPR.
+Google advertised GA4 as a move toward a cookieless and privacy-friendly web analytics model, but their new analytics tool is not entirely cookieless. GA4 ditched third-party cookies but [employs a single first-party cookie called Client ID](https://support.google.com/analytics/answer/11593727?hl=en). All cookies, including first-party cookies, are **personal data** under the GDPR[^2].
 
-GA4 also uses an identifier called **User-ID**. User IDs are not cookies, but a different tool GA uses to track users across devices. They are **personal data** because they allow individual users to be singled out among website traffic. The same goes for the **unique ID** , a different parameter processed by Google Analytics to generate a User ID.
+GA4 also uses an identifier called **User-ID**. User IDs are not cookies, but a different tool GA uses to track users across devices. They are **personal data** because they allow individual users to be singled out[^3] among website traffic. The same goes for the **unique ID**[^4], a different parameter processed by Google Analytics to generate a User ID.
 
 **Data linkage** is another crucial factor. GA4 processes many events and metrics that are not sensible data in and of itself but may be combined to single out a user. Crucially, Google also collects personal data from users who are logged into their **Google account**. This data can be linked with other data gathered by GA4 to easily make a user identifiable, as noted by European authorities in recent decisions.
 
@@ -70,7 +70,7 @@ On the other hand, the User-ID system **encourages very invasive tracking practi
 
 As soon as GA4 becomes the standard, websites will have an incentive to track users and will predictably look for any excuse to collect the data they need for identifying users across devices. They may start locking content behind a registration in order to collect credentials and generate a unique ID, in a similar fashion to how "cookie walls" essentially require data as payment for a "walled" article.
 
-Compliance-wise, this can easily go wrong. We expect to see websites collecting login credentials with the user's consent without informing a user that the credentials will be used in order to track their behavior for analytics purposes, which is a violation of the GDPR. Or they may inform the user but also force them to consent to being tracked in order to register - which is an instance of "bundled" consent. Crucially, generating a unique ID is entirely the customer's responsibility under GA's Terms of Service, and Google will not be responsible for any violation.
+Compliance-wise, this can easily go wrong. We expect to see websites collecting login credentials with the user's consent without informing a user that the credentials will be used in order to track their behavior for analytics purposes, which is a violation of the GDPR[^5]. Or they may inform the user but also force them to consent to being tracked in order to register - which is an instance of "bundled" consent[^6]. Crucially, generating a unique ID is entirely the customer's responsibility under GA's Terms of Service, and Google will not be responsible for any violation.
 
 Alternatively, websites might look for other "creative" ways to track their users. For example, they may employ probabilistic tracking - that is, gathering a bunch of data such as IP, device location, and browsing data and running it through algorithms to estimate the probability that two devices belong to the same user. It sounds invasive, and it is.
 
@@ -85,3 +85,11 @@ Not only does Google Analytics 4 operate within the law, but we also believe it'
 At Simple Analytics, we believe that you don't need to track website visitors or collect personal data. We provide the [insights you need](https://simpleanalytics.com/simpleanalytics.com) without invading the privacy of your visitors and being 100% GDPR compliant.
 
 We believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
+
+> [^1]: Recommendations 01/2020 on measures that supplement transfer tools to ensure compliance with
+the EU level of protection of personal data, par. 94.
+> [^2]: EDPB Opinion 5/2019 on the interplay between the ePrivacy Directive and the GDPR, in particular regarding the competence, tasks and powers of data protection authorities, par. 29.
+> [^3]: Recital 26 GDPR.
+> [^4]: Using personally identifiable information (PII) as a unique ID is against GA Terms of Service. But the notion of personal data under the GDPR is wider than that of PII as understood by Google. This is pointed out by [Google themselves](https://support.google.com/analytics/answer/7686480?hl=en#:~:text=Google%20interprets%20PII%20as%20information,mailing%20addresses.).
+> [^5]: Art. 13(1) GDPR. If consent is collected, the requirements that consent be informed and specific under Art. 4(11) is also violated.
+> [^6]: Art. 7(4) GDPR doesn’t forbid bundled consent outright but describes it as problematic.
