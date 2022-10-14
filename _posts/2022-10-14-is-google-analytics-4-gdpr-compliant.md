@@ -1,7 +1,7 @@
 ---
 title: "Is Google Analytics 4 GDPR compliant?"
-author_slug: iron
-author: Iron Brands
+author_slug: carlo
+author: Carlo Cilento
 excerpt: "Google Analytics is sunsetting universal analytics in favor of Google Analytics 4. But how compliant is GA4 really?"
 image: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe-no-text.png
