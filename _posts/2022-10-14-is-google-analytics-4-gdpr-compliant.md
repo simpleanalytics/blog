@@ -81,9 +81,9 @@ At Simple Analytics, we believe that you don't need to track website visitors or
 
 We believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
-> [^1]: Recommendations 01/2020 on measures that supplement transfer tools to ensure compliance with the EU level of protection of personal data, par. 94.
-> [^2]: EDPB Opinion 5/2019 on the interplay between the ePrivacy Directive and the GDPR, in particular regarding the competence, tasks and powers of data protection authorities, par. 29.
-> [^3]: Recital 26 GDPR.
-> [^4]: Using personally identifiable information (PII) as a unique ID is against GA Terms of Service. But the notion of personal data under the GDPR is wider than that of PII as understood by Google. This is pointed out by [Google themselves](https://support.google.com/analytics/answer/7686480?hl=en#:~:text=Google%20interprets%20PII%20as%20information,mailing%20addresses.).
-> [^5]: Art. 13(1) GDPR. If consent is collected, the requirements that consent be informed and specific under Art. 4(11) is also violated.
-> [^6]: Art. 7(4) GDPR doesn’t forbid bundled consent outright but describes it as problematic.
+> [^1]: Art. 44(2) GDPR.
+> [^2]: Art. 45 GDPR.
+> [^3]: Art. 45(2) GDPR
+> [^4]: Art. 46(2)(c) GDPR.
+> [^5]: Technically a DPA could draft its own SCCs and submit them to the Commission for approval (Art. 46(2)(d) GDPR). But in practice, when someone talks about SCCs, they always mean the ones from the Commission.
+> [^6]: Art. 46 GDPR.
