@@ -3,8 +3,8 @@ title: "Is Google Analytics 4 GDPR compliant?"
 author_slug: iron
 author: Iron Brands
 excerpt: "Google Analytics is sunsetting universal analytics in favor of Google Analytics 4. But how compliant is GA4 really?"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe-no-text.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
@@ -19,9 +19,9 @@ Many companies look forward to Google Analytics 4 as a solution to the complianc
 
 {% include gif.html slug="are-you-sure" alt="are you sure" width="480" height="400" color="#584b4b" %}
 
-1.  The core issues: Personal data and supplementary measures
-2.  Google Analytics 4 transfers personal data
-3.  Privacy is more than compliance
+1.  [The core issues: Personal data and supplementary measures](#1-the-core-issues-personal-data-and-supplementary-measures)
+2.  [Google Analytics 4 transfers personal data](#2-google-analytics-4-transfers-personal-data)
+3.  [Privacy is more than compliance](#3-privacy-is-more-than-compliance)
 
 Let's dive in!
 
@@ -37,9 +37,8 @@ So far, this coordinated approach has led the [Austrian](https://gdprhub.eu/inde
 
 The core of the complaints is the supplementary measures required by the Schrems II ruling. No effective measures currently exist for GA and any other cloud-based services that need to process data in the clear[^1]. It follows that Google can only comply with the GDPR by not processing any personal data in the U.S. at all, and this is not the case. Also, not for Google Analytics 4.
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe-no-text.png" alt="Is GA4 GDPR compliant" class="border-radius" />
 <p class="caption" markdown="1">
-  Caption of the image
 </p>
 
 ## 2. Google Analytics 4 transfers personal data
