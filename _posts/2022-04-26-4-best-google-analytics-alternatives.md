@@ -39,9 +39,9 @@ Google Analytics is the number one in the web analytics market regarding data in
 Like our last comparison article, we'll compare the same four alternatives we believe are worth looking into:
 
 - [Simple Analytics](https://simpleanalytics.com/)
-- <a href="https://plausible.io/" rel="nofollow noopener" target="_blank">Plausible</a>
-- <a href="https://matomo.org/" rel="nofollow noopener" target="_blank">Matomo</a>
-- <a href="https://usefathom.com/" rel="nofollow noopener" target="_blank">Fathom</a>
+- <a href="https://plausible.io/" rel="nofollow noopener noreferrer" target="_blank">Plausible</a>
+- <a href="https://matomo.org/" rel="nofollow noopener noreferrer" target="_blank">Matomo</a>
+- <a href="https://usefathom.com/" rel="nofollow noopener noreferrer" target="_blank">Fathom</a>
 
 Full disclosure: This article is written by Simple Analytics. Yes, we might be biased, but we try our best to benchmark Simple Analytics as independently as possible.
 
