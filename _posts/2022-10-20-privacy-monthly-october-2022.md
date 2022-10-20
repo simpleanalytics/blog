@@ -1,7 +1,7 @@
 ---
 title: "Privacy Monthly: October"
-author_slug: iron
-author: Iron Brands
+author_slug: carlo
+author: Carlo Cilento
 excerpt: "Our monthly newsletter covering the privacy news of the past month"
 image: https://assets.simpleanalytics.com/blog/2022-privacy-monthly-october-2022/social-image-privacy-monthly-october-2022.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-privacy-monthly-october-2022/social-imag-no-text-privacy-monthly-october-2022.png
@@ -10,7 +10,6 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/blog/is-google-analytics-4-gdpr-compliant
  - /blog/is-google-analytics-illegal-in-europe
-draft: true
 ---
 
 Welcome to our new monthly blog. We will briefly cover some of the most important privacy news once a month.
