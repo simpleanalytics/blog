@@ -17,6 +17,14 @@ Welcome to our new monthly blog. We will briefly cover some of the most importan
 
 So what happened last month? Let's find out!
 
+1. [Biden signs executive order on surveillance](#1-biden-signs-executive-order-on-surveillance)
+2. [EU Council approved Digital Services Act](#2-eu-council-approved-digital-services-act)
+3. [EDPS takes legal action against Europol](#3-edps-takes-legal-action-against-europol)
+4. [CJEU cracks down on German surveillance law](#4-cjeu-cracks-down-on-german-surveillance-law)
+5. [Irish DPC submits draft decision on Facebook data breach](#5-irish-dpc-submits-draft-decision-on-facebook-data-breach)
+6. [Record fine for Meta over Instagram children accounts](#6-record-fine-for-meta-over-instagram-children-accounts)
+7. [U.S. Congress debates ADPPA preemption](#7-us-congress-debates-adppa-preemption)
+
 ## [Biden signs executive order on surveillance](https://www.whitehouse.gov/briefing-room/statements-releases/2022/10/07/fact-sheet-president-biden-signs-executive-order-to-implement-the-european-union-u-s-data-privacy-framework/)
 
 On 7 October, US President Joe Biden signed a long-awaited executive order to curtail surveillance practices concerning European data.
