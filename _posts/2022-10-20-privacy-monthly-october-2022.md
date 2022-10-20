@@ -25,7 +25,7 @@ So what happened last month? Let's find out!
 6. [Record fine for Meta over Instagram children accounts](#6-record-fine-for-meta-over-instagram-children-accounts)
 7. [U.S. Congress debates ADPPA preemption](#7-us-congress-debates-adppa-preemption)
 
-## Biden signs executive order on surveillance
+## 1. Biden signs executive order on surveillance
 
 On 7 October, US President Joe Biden signed a [long-awaited executive order](https://www.whitehouse.gov/briefing-room/statements-releases/2022/10/07/fact-sheet-president-biden-signs-executive-order-to-implement-the-european-union-u-s-data-privacy-framework/) to curtail surveillance practices concerning European data.
 
@@ -33,31 +33,31 @@ The order results from lengthy negotiations between the White House and the Euro
 
 The decision will likely be challenged in the EU Court of Justice as in the landmark Schrems I and II rulings. The new framework may be problematic in some respects, and it is hard to predict how Schrems III will play out.
 
-##  EU Council approved Digital Services Act
+## 2. EU Council approved Digital Services Act
 
 On October 4, the European Commission approved the [final version of the Digital Services Act](https://www.consilium.europa.eu/en/press/press-releases/2022/10/04/dsa-council-gives-final-approval-to-the-protection-of-users-rights-online/). The Regulation applies to online platforms and  intermediary services. It lays out rules for transparency and accountability, especially concerning content moderation, targeted advertising, and the provision of illegal goods and services.  Special obligations apply to very large online platforms and search engines designated by the Commission.
 
 The DSA is a new piece of the EU's digital strategy. The strategy includes other regulations on data governance, such as the GDPR, the Digital Markets Act, and the proposed AI Act and ePrivacy Regulation. The DSA and the DMA sometimes overlap with the GDPR, so companies and privacy professionals will need to figure out the privacy implications of the new regulations.
 
-## EDPS takes legal action against Europol
+## 3. EDPS takes legal action against Europol
 
 On September 16, the European Data Protection Supervisor [requested the Court of Justice to invalidate two articles of the recently amended Europol regulation](https://edps.europa.eu/press-publications/press-news/press-releases/2022/edps-takes-legal-action-new-europol-regulation-puts-rule-law-and-edps-independence-under-threat_en).
 
 Earlier this year, the EDPS ordered Europol to erase personal data for citizens not connected with criminal activity. The European legislator later amended Europol's regulation to allow for broader processing of personal data. The EDPS claims the amendment amounts to retroactive legalization of Europol's activities which violates the Rule of Law and threatens the independence of the EDPS. This will be a controversial and politically loaded case.
 
-## CJEU cracks down on German surveillance law
+## 4. CJEU cracks down on German surveillance law
 
 In a recent ruling, the Court of Justice clarified that ["EU law precludes the general and indiscriminate retention of traffic and location data, except in the case of a serious threat to national security"](https://curia.europa.eu/jcms/upload/docs/application/pdf/2022-09/cp220156en.pdf).
 
 The case was referred to the CJEU after Internet providers Telekom Deutschland and SpaceNet challenged a German law prescribing bulk data retention for telecom providers. The ruling is coherent with the Court's own case law and consolidates the CJEU's harder stance on data retention than the European Court of Human Rights.
 
-## Irish DPC submits draft decision on Facebook data breach
+## 5. Irish DPC submits draft decision on Facebook data breach
 
 On October 3rd, the Irish DPC announced that it [drafted a decision on a large Facebook data breach](https://www.dataprotection.ie/en/news-media/Irish-DPC-submits-Article-60-draft-decision-on-inquiry-into-Meta) and submitted it to the EDPB. The draft decision follows an own volition investigation sparked by media reports of the breach.
 
 This is not the only "pending" draft decision about Meta. In July, the DPC announced it drafted and submitted a decision to shut down Meta Platforms Ireland's data transfers to the US.
 
-## Record fine for Meta over Instagram children accounts
+## 6. Record fine for Meta over Instagram children accounts
 
 The Irish DPC [fined Meta Platform Irelands Ltd. € 405 million](https://edpb.europa.eu/news/news/2022/record-fine-instagram-following-edpb-intervention_en).
 
@@ -65,7 +65,7 @@ The authority found that Instagram violated the GDPR concerning processing perso
 
 This is the second-highest fine ever issued under the GDPR. The highest so far is a € 746 million fine against Amazon issued by the Luxembourgish DPA last year.
 
-## U.S. Congress debates ADPPA preemption
+## 7. U.S. Congress debates ADPPA preemption
 
 [Negotiations over the American Data Protection and Privacy Act continue in US Congress](https://iapp.org/news/a/state-level-views-on-proposed-adppa-preemption-come-into-focus/), and preemption is a hotly debated topic.
 
