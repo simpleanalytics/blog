@@ -3,8 +3,8 @@ title: "Is Google Analytics 4 GDPR compliant?"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Google Analytics is sunsetting universal analytics in favor of Google Analytics 4. But how compliant is GA4 really?"
-image: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe.png
-image_no_text: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe-no-text.png
+image: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image-no-text.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
@@ -36,7 +36,7 @@ So far, this coordinated approach has led the [Austrian](https://gdprhub.eu/inde
 
 The core of the complaints is the supplementary measures required by the Schrems II ruling. No effective measures currently exist for GA and any other cloud-based services that need to process data in the clear[^1]. It follows that Google can only comply with the GDPR by not processing any personal data in the U.S. at all, and this is not the case. Also, not for Google Analytics 4.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/google-analytics-legal-in-europe-no-text.png" alt="Is GA4 GDPR compliant" class="border-radius" />
+<img src="https://https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image-no-text.png" alt="Is GA4 GDPR compliant" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
