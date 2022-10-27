@@ -1,5 +1,5 @@
 ---
-title: "Italian hacktivists launch campaign against using Google Analytics"
+title: "Italian hacktivists against using Google Analytics"
 author_slug: iron
 author: Iron Brands
 excerpt: "Italian hackivist organization MonitoraPA sent thousands of emails requiring administrations to drop both GA and Google Fonts"
