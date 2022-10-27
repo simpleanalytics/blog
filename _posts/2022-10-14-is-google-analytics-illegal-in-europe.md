@@ -3,8 +3,8 @@ title: "Is Google Analytics illegal in Europe?"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Google Analytics has been declared in violation with GDPR by multiple EU Member States. Is Google Analytics now illegal in Europe?"
-image: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image.png
-image_no_text: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image-no-text.png
+image: https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-monitora-pa.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-no-text-monitora-pa.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
@@ -52,7 +52,7 @@ But can't a website implement supplementary measures of its own on top of Google
 
 Bottom line: the decisions are about specific websites, but because all websites use the same safeguards, each decision sets a **general precedent that practically amounts to a Statewide ban**.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image-no-text.png" alt="Is google analytics illegal in Europe" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-no-text-monitora-pa.png" alt="Monitora PA" class="border-radius" />
 <p class="caption" markdown="1">
 </p>
 
