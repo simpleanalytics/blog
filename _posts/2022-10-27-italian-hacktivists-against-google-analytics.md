@@ -13,17 +13,6 @@ related_posts:
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 Google Analytics is a hot topic in the Italian privacy and marketing communities right now. The Italian data protection authority (GPDP) [ruled against GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) in June and announced investigations about the tool's use among both companies and public administrations.
 
 But there's more going on: Hacktivist group MonitoraPA sent thousands of emails requiring administrations to drop both GA and Google Fonts.
@@ -32,7 +21,7 @@ In addition, they sent similar warnings to the websites of Italian political par
 
 It's hard to figure out what is happening and what the implications are, that's why we are here to shed some light. *(Note: some of the links in the following texts are in Italian only, as there is no international coverage for some of our topics)*.
 
-![](https://lh5.googleusercontent.com/GvSW1845KvnPzZ5tgC_-pz7VFuZ1ekzVCwEaD8g_TmTkV0BCsVLZZr076ap6IIzGieG3pePIJUpmb2s5M_9PRUEWQ-l-sbn4dXnvkSbjmWptinefXSNZgdVrS9ni3mXpcTWqhd5PV_I_XuBWiMlLHJ_ZPmbgOgJi2jB5niOBPlzda76yZzGMEL-Qpg)
+{% include gif.html slug="understand-nothing" alt="understand nothing" width="480" height="400" color="#5f5b63" %}
 
 1.  What is wrong with Google Analytics?
 2.  Monitora PA and their campaign against Google Analytics
