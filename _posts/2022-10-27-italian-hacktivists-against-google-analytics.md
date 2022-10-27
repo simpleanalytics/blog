@@ -25,15 +25,15 @@ It's hard to figure out what is happening and what the implications are, that's 
 
 1.  [What is wrong with Google Analytics?](#1-what-is-wrong-with-google-analytics)
 2.  [Monitora PA and their campaign against Google Analytics](#2-monitora-pa-and-their-campaign-against-google-analytics)
-    1.  [Monitora PA's requests for removal](#21-monitora-pa-s-requests-for-removal)
-    2.  [Monitora PA's access requests](#22-monitora-PA-s-access-requests)
-    3.  [Monitora PA's "election special"](#23-monitora-PA-s-election-special)
-    4.  [Federico Leva's emails](#24-federico-leva-s-emails)
+    1.  [Monitora PA's requests for removal](#21-monitora-pas-requests-for-removal)
+    2.  [Monitora PA's access requests](#22-monitora-pas-access-requests)
+    3.  [Monitora PA's "election special"](#23-monitora-pas-election-special)
+    4.  [Federico Leva's emails](#24-federico-levas-emails)
     5.  [Criticism](#25-criticism)
 
 Let's dive in!
 
-## 1.  What is wrong with Google Analytics?
+## 1. What is wrong with Google Analytics?
 
 We already wrote extensively about [Google Analytics' compliance issues](https://www.simpleanalytics.com/blog/is-google-analytics-illegal-in-europe), so here is a very short recap:
 
