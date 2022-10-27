@@ -23,8 +23,8 @@ It's hard to figure out what is happening and what the implications are, that's 
 
 {% include gif.html slug="understand-nothing" alt="understand nothing" width="480" height="400" color="#5f5b63" %}
 
- 1.  [What is wrong with Google Analytics?](#1-what-is-wrong-with-google-analytics)
- 2.  [Monitora PA and their campaign against Google Analytics](#2-monitora-pa-and-their-campaign-against-google-analytics)
+1.  [What is wrong with Google Analytics?](#1-what-is-wrong-with-google-analytics)
+2.  [Monitora PA and their campaign against Google Analytics](#2-monitora-pa-and-their-campaign-against-google-analytics)
     1.  [Monitora PA's requests for removal](#21-monitora-pa-s-requests-for-removal)
     2.  [Monitora PA's access requests](#22-monitora-PA-s-access-requests)
     3.  [Monitora PA's "election special"](#23-monitora-PA-s-election-special)
@@ -89,7 +89,7 @@ Monitora PA and Federico Leva's emails spread quite a bit of panic. The threat o
 
 Regardless of their controversial nature, the debate sparked by these campaigns is a healthy one and will hopefully draw attention to the privacy implications of day-to-day data processing operations in private and public organizations. This is a good thing.
 
-Privacy is a human right, and European DPA's finally showing its teeth by banning Google Analytics in its current state.
+Privacy is a human right, and European DPA's are finally showing its teeth by banning Google Analytics in its current state.
 
 Not only does Google Analytics not operate within the law, but they're also not helping to create an independent web that is friendly to website visitors. And why should they? They are earning billions by tracking internet users.
 
