@@ -23,14 +23,13 @@ It's hard to figure out what is happening and what the implications are, that's 
 
 {% include gif.html slug="understand-nothing" alt="understand nothing" width="480" height="400" color="#5f5b63" %}
 
-1.  What is wrong with Google Analytics?
-2.  Monitora PA and their campaign against Google Analytics
-  2.1 The GPDP announced further investigations on Google Analytics
-  2.2 Monitora PA's requests for removal
-  2.3 Monitora PA's access requests
-  2.4 Monitora PA's "election special"
-  2.5 Federico Leva's emails
-  2.6 Criticism
+ 1.  [What is wrong with Google Analytics?](#1-what-is-wrong-with-google-analytics)
+ 2.  [Monitora PA and their campaign against Google Analytics](#2-monitora-pa-and-their-campaign-against-google-analytics)
+    1.  [Monitora PA's requests for removal](#21-monitora-pa-s-requests-for-removal)
+    2.  [Monitora PA's access requests](#22-monitora-PA-s-access-requests)
+    3.  [Monitora PA's "election special"](#23-monitora-PA-s-election-special)
+    4.  [Federico Leva's emails](#24-federico-leva-s-emails)
+    5.  [Criticism](#25-criticism)
 
 Let's dive in!
 
@@ -56,7 +55,7 @@ Shortly before the GPDP decided on the first GA complaint, the hacktivist group 
 
 The campaign was met with some criticism but had been working so far. [Monitora PA member Fabio Pietrosanti](https://www.key4biz.it/google-analytics-in-pa-3-400-siti-lhanno-rimosso-grazie-a-monitorapa-a-fine-mese-faremo-anche-esposto-al-garante-privacy/405043/) reported that almost 8.000 administrations were contacted, and more than 3.000 stopped using GA.
 
-### 2.3  Monitora PA's access requests
+### 2.2  Monitora PA's access requests
 
 [Monitora PA also requested thousands of schools for information related to their data processing](https://monitora-pa.it/2022/09/19/8254_domande_a_Scuola.html). More precisely, it required access to several documents that schools are under an obligation to keep under the GDPR and Italian administrative law.
 
@@ -66,17 +65,17 @@ Performing a TIA is one of the obligations of the data exporter[^1]. TIAs are al
 
 It is also worth mentioning that the Danish DPA recently ordered schools in the Municipality of Helsingor to dismiss Google Workplace because of the required data transfers to the US. Given this precedent, Monitora PA's access requests may **spark an inquiry** into using Google software and other tools in Italian schools.
 
-### 2.4  Monitora PA's "election special"
+### 2.3  Monitora PA's "election special"
 
 In September, Monitora PA started [yet another campaign](https://monitora-pa.it/2022/09/13/Speciale_Elezioni_2022_Segnalazione_al_Garante.html). The group found that numerous websites of Italian political parties were using Google Analytics and Google Fonts and requested them to stop using the tools. Monitora PA later filed a [complaint](https://monitora-pa.it/2022/09/13/Segnalazione-al-Garante.pdf) against 47 websites that kept using either GA or GF.
 
 User tracking on websites of political associations is very problematic. The Cambridge Analytica scandal should remind us of privacy practices' potential impact on democratic countries' politics. And from a strictly legal perspective, the data collected might reveal a user's political opinions, which qualifies as **sensitive data** under the GDPR[^2]- as Monitora PA pointed out in their complaint.
 
-### 2.5  Federico Leva's emails
+### 2.4  Federico Leva's emails
 
 Over the summer, activist Federico Leva forwarded thousands of emails to Italian websites using GA, requiring [the erasure of his personal data](https://www.giornalettismo.com/federico-leva-mail-google-analytics-cosa-fare/). He claimed that the use of GA involves unlawful data transfers and that processing his personal data for web analytics is illegal. Like Monitora Pa, Mr. Leva is threatening legal action should the controller not comply with his requests.
 
-### 2.6  Criticism
+### 2.5  Criticism
 
 As we said, Monitora PA and Mr. Leva's campaigns elicited polarizing reactions in the legal and privacy communities. The criticism against these campaigns is summed up in a recent document: a **[notification letter to the Italian GPDP](https://studiolegalelisi.it/wp-content/uploads/2022/09/Segnalazione-Garante.pdf)** against Monitora PA and Federico Leva, signed by numerous Italian lawyers under the coordination of lawyer Andrea Lisi.
 
