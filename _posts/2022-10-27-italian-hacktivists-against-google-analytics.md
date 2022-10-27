@@ -3,8 +3,8 @@ title: "Italian hacktivists against using Google Analytics"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Italian hackivist organization MonitoraPA sent thousands of emails requiring administrations to drop both GA and Google Fonts"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-monitora-pa.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-no-text-monitora-pa.png
 related_posts:
  - /blog/is-google-analytics-4-gdpr-compliant
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
@@ -64,6 +64,10 @@ Monitora PA's goal is to assess compliance with data protection rules and possib
 Performing a TIA is one of the obligations of the data exporter[^1]. TIAs are also where supplementary safeguard measures for data transfers are listed, and their effectiveness is examined. Many schools rely on Google tools and software from other big-tech companies, and it's hard to imagine that all of them have implemented effective safeguards. In fact, some schools don't have a clear picture of how student data is processed, to begin with.
 
 It is also worth mentioning that the Danish DPA recently ordered schools in the Municipality of Helsingor to dismiss Google Workplace because of the required data transfers to the US. Given this precedent, Monitora PA's access requests may **spark an inquiry** into using Google software and other tools in Italian schools.
+
+<img src="https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-no-text-monitora-pa.png" alt="Monitora PA" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ### 2.3 Monitora PA's "election special"
 
