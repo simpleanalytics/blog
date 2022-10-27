@@ -10,7 +10,6 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/is-google-analytics-illegal-in-europe
-draft: true
 ---
 
 Google Analytics is a hot topic in the Italian privacy and marketing communities right now. The Italian data protection authority (GPDP) [ruled against GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) in June and announced investigations about the tool's use among both companies and public administrations.
