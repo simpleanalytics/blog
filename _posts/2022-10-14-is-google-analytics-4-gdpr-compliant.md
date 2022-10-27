@@ -74,7 +74,7 @@ Bottom line: Google is **creating a potential privacy nightmare and avoiding res
 
 There is no case law on GA4's data transfers yet. We at [Simple Analytics](https://www.simpleanalytics.com/) don't have a crystal ball, but based on existing case law and Google's own documentation, **the use of Google Analytics 4 is not GDPR compliant**.
 
-Not only does Google Analytics 4 operate within the law, but we also believe it's a very privacy-invasive model of analytics that encourages websites to track their users.
+Not only does Google Analytics 4 not operate within the law, but we also believe it's a very privacy-invasive model of analytics that encourages websites to track their users.
 
 At Simple Analytics, we believe that you don't need to track website visitors or collect personal data. We provide the [insights you need](https://simpleanalytics.com/simpleanalytics.com) without invading the privacy of your visitors and being 100% GDPR compliant.
 
