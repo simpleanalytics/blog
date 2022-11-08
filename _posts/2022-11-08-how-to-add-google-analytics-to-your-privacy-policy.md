@@ -140,7 +140,7 @@ Bottom line: Omit the required information at your own peril (and feel bad about
 ...what if there is an analytics tool that provides web analytics without the need for an extensive privacy policy?\
 ...what if you can gather insights into your website traffic without needing a cookiebanner?
 
-Yep, that's possible... we created Simple Analytics with this in mind. We wanted to create a web analytics tool that provided insights into website traffic without needing cookies to collect personal data. We believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
+Yep, that's possible... we created [Simple Analytics](https://www.simpleanalytics.com/) with this in mind. We wanted to create a web analytics tool that provided insights into website traffic without needing cookies to collect personal data. We believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
 >[^1]: To be pedantic, this is actually a privacy notice. A.privacy policy is an internal document that lays out rules and guidelines on the processing of personal data within an organization. The two terms are often used interchangeably, even by privacy professionals.
 >[^2]: Art. 5(1) GDPR.
