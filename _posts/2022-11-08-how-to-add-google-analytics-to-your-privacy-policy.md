@@ -3,8 +3,8 @@ title: "How to add Google Analytics to your privacy policy?"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Adding a privacy policy is not the most exciting part of operating your website. However, its a very essential one. This article outlines what to include to make your life easier"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assts.simpleanalytics.com/blog/2022-how-to-add-google-analytics-to-your-privacy-policy/social-image-privacy-policy-for-web-analytics.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-how-to-add-google-analytics-to-your-privacy-policy/social-image-no-text-privacy-policy-for-web-analytics-no-text.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/is-google-analytics-illegal-in-europe
@@ -13,22 +13,11 @@ related_posts:
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
 A privacy policy[^1] is a statement that informs a data subject on how their data will be processed. In the case of the website, a privacy policy will notify the visitor of the processing of their data and the purposes of the processing (website optimization, market analytics, etc.).
 
 When building a business or operating a website, this is not the most exciting part to be working on, but it is important to check this box. To make your life easier, we compiled a list of things you should take into account.
 
-![](https://lh6.googleusercontent.com/p8LAIZODszNZyS_W22K3KJ9q0YABeaXNlHtVG8gl98gARNDKl7MyhpYs57KZrEC7CtACIpUWaaTdbeMxSfuUEqMruqw1KEFrUUSxgwWFLrTNYht-JR0p_JaLoFYlukWHAA5y1ERQoWwXkXyBwZ-7DSHXkwnA1LMUvuF5WvWCBbwLn1bxrmJBW2Ln0q2xmw)
+{% include gif.html slug="get-over-with" alt="Spy Kids: Get over with" width="480" height="270" color="#291d21" %}
 
 1.  What is the purpose of a privacy policy?
 2.  Do I need a privacy policy for Google Analytics?
@@ -75,6 +64,10 @@ That being said, here's an example template for a layered privacy policy:
 > 1.  I consent to the processing of non-essential cookies
 > 2.  I refuse the processing of non-essential cookies
 > We will not read or write cookies without your consent.
+
+<img src="https://assets.simpleanalytics.com/blog/2022-how-to-add-google-analytics-to-your-privacy-policy/social-image-no-text-privacy-policy-for-web-analytics-no-text.png" alt="how to add google analytics to your privacy policy" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 5. Google Analytics privacy policy template
 
