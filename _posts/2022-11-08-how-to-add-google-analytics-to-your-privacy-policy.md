@@ -19,33 +19,37 @@ When building a business or operating a website, this is not the most exciting p
 
 {% include gif.html slug="get-over-with" alt="Spy Kids: Get over with" width="480" height="270" color="#291d21" %}
 
-1.  What is the purpose of a privacy policy?
-2.  Do I need a privacy policy for Google Analytics?
-3.  How do you write a privacy policy?
-4.  An example of a layered privacy policy
-5.  Google Analytics privacy policy template
-6.  When should my privacy policy be displayed?
-7.  What information should my privacy policy contain?
+1.  [What is the purpose of a privacy policy?](#1-what-is-the-purpose-of-a-privacy-policy)
+2.  [Do I need a privacy policy for Google Analytics?](#2-do-i-need-a-privacy-policy-for-google-analytics)
+3.  [How do you write a privacy policy?](#3-how-do-you-write-a-privacy-policy)
+4.  [An example of a layered privacy policy](#4-an-example-of-a-layered-privacy-policy)
+5.  [Google Analytics privacy policy template](#5-google-analytics-privacy-policy-template)
+6.  [When should my privacy policy be displayed?](#6-when-should-my-privacy-policy-be-displayed)
+7.  [What information should my privacy policy contain?](#7-what-information-should-my-privacy-policy-contain)
 
 Let's dive in! 
 
 ## 1. What is the purpose of a privacy policy?
 
-The primary purpose of a privacy policy is to provide information to a data subject (in this case, the visitor of your website) about the processing of their data, according to the **transparency principle[^1]**.
+The primary purpose of a privacy policy is to provide information to a data subject (in this case, the visitor of your website) about the processing of their data, according to the **transparency principle[^2]**.
 
 You should inform the user about the **processing of their data**- what data you are processing, on what basis, for what purpose, and so on. You should also inform the user about **their rights** under the GDPR (such as requesting the erasure of the data and filing a complaint). Also, you should facilitate the exercise of these rights by **providing a point of contact** for any requests or questions they might have.
 
-Keep in mind that a privacy policy addresses the user directly. The information should be as clear and accessible as possible[^1]. **Use plain language and leave the jargon to the lawyers!**
+Keep in mind that a privacy policy addresses the user directly. The information should be as clear and accessible as possible[^3]. **Use plain language and leave the jargon to the lawyers!**
 
 ## 2. Do I need a privacy policy for Google Analytics?
 
-**Yes, you do**. Google Analytics collects cookies and IP addresses which are personal data under the GDPR. You also need consent to process cookies because they fall under the **ePrivacy Directive[^1]**. This is the case for both first-party and third-party cookies (the latter are associated with a domain different from the one the user is visiting and tend to be more privacy-invasive).
+**Yes, you do**. Google Analytics collects cookies and IP addresses which are personal data under the GDPR. You also need consent to process cookies because they fall under the **ePrivacy Directive[^4]**. This is the case for both first-party and third-party cookies (the latter are associated with a domain different from the one the user is visiting and tend to be more privacy-invasive).
 
 ## 3. How do you write a privacy policy?
 
 It's not rocket science, but it's not simple, either. Your privacy policy needs to include many specific pieces of information to comply with Art. 13 GDPR. At the same time, it must be **concise, accessible, and clear** to comply with Art. 12(1) GDPR.
 
 It can be hard to include all the information required while keeping your policy simple and accessible, but a **layered approach[^5]** can help you strike a balance. A layered privacy policy provides the most crucial information upfront. It refers the reader to other resources for more detailed information (for example, by linking to different pages or maybe to the relevant headers of a single, more extended notice).
+
+<img src="https://assets.simpleanalytics.com/blog/2022-how-to-add-google-analytics-to-your-privacy-policy/social-image-no-text-privacy-policy-for-web-analytics-no-text.png" alt="how to add google analytics to your privacy policy" class="border-radius" />
+<p class="caption" markdown="1">
+</p>
 
 ## 4. An example of a layered privacy policy
 
@@ -64,10 +68,6 @@ That being said, here's an example template for a layered privacy policy:
 > 1.  I consent to the processing of non-essential cookies
 > 2.  I refuse the processing of non-essential cookies
 > We will not read or write cookies without your consent.
-
-<img src="https://assets.simpleanalytics.com/blog/2022-how-to-add-google-analytics-to-your-privacy-policy/social-image-no-text-privacy-policy-for-web-analytics-no-text.png" alt="how to add google analytics to your privacy policy" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
 
 ## 5. Google Analytics privacy policy template
 
