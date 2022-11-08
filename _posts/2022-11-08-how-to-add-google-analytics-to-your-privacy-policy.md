@@ -26,7 +26,7 @@ Rest of the article
 
 A privacy policy is a statement that informs a data subject on how their data will be processed. In the case of the website, a privacy policy will notify the visitor of the processing of their data and the purposes of the processing (website optimization, market analytics, etc.).
 
-When building a business or operating a website, there are more exciting parts to work on than creating a privacy policy, but it's important to check this box. To make your life easier, we compiled a list of things you should consider.
+When building a business or operating a website, this is not the most exciting part to be working on, but it is important to check this box. To make your life easier, we compiled a list of things you should take into account.
 
 ![](https://lh6.googleusercontent.com/p8LAIZODszNZyS_W22K3KJ9q0YABeaXNlHtVG8gl98gARNDKl7MyhpYs57KZrEC7CtACIpUWaaTdbeMxSfuUEqMruqw1KEFrUUSxgwWFLrTNYht-JR0p_JaLoFYlukWHAA5y1ERQoWwXkXyBwZ-7DSHXkwnA1LMUvuF5WvWCBbwLn1bxrmJBW2Ln0q2xmw)
 
@@ -42,11 +42,11 @@ Let's dive in! 
 
 ## 1. What is the purpose of a privacy policy?
 
-The primary purpose of a privacy policy is to provide information to a data subject (in this case, the visitor of your website) about the processing of their data, according to the transparency principle.
+The primary purpose of a privacy policy is to provide information to a data subject (in this case, the visitor of your website) about the processing of their data, according to the **transparency principle**.
 
-You should inform the user about the processing of their data- what data you are processing, on what basis, for what purpose, and so on. You should also inform the user about their rights under the GDPR (such as requesting the erasure of the data and filing a complaint). Also, you should facilitate the exercise of these rights by providing a point of contact for any requests or questions they might have.
+You should inform the user about the **processing of their data**- what data you are processing, on what basis, for what purpose, and so on. You should also inform the user about **their rights** under the GDPR (such as requesting the erasure of the data and filing a complaint). Also, you should facilitate the exercise of these rights by **providing a point of contact** for any requests or questions they might have.
 
-Keep in mind that a privacy policy addresses the user directly. The information should be as clear and accessible as possible. Use plain language and leave the jargon to the lawyers!
+Keep in mind that a privacy policy addresses the user directly. The information should be as clear and accessible as possible. **Use plain language and leave the jargon to the lawyers!**
 
 ## 2. Do I need a privacy policy for Google Analytics?
 
@@ -54,25 +54,36 @@ Yes, you do. Google Analytics collects cookies and IP addresses which are person
 
 ## 3. How do you write a privacy policy?
 
-It's not rocket science, but it's not simple, either. Your privacy policy needs to include many specific pieces of information to comply with Art. 13 GDPR. At the same time, it must be concise, accessible, and clear to comply with Art. 12(1) GDPR.
+It's not rocket science, but it's not simple, either. Your privacy policy needs to include many specific pieces of information to comply with Art. 13 GDPR. At the same time, it must be **concise, accessible, and clear** to comply with Art. 12(1) GDPR.
 
-It can be hard to include all the information required while keeping your policy simple and accessible, but a layered approach can help you strike a balance. A layered privacy policy provides the most crucial information upfront. It refers the reader to other resources for more detailed information (for example, by linking to different pages or maybe to the relevant headers of a single, more extended notice).
+It can be hard to include all the information required while keeping your policy simple and accessible, but a **layered approach** can help you strike a balance. A layered privacy policy provides the most crucial information upfront. It refers the reader to other resources for more detailed information (for example, by linking to different pages or maybe to the relevant headers of a single, more extended notice).
 
 ## 4. An example of a layered privacy policy
 
-First, a necessary disclaimer:  this is not legal advice and should not be taken as such. Every notice needs to be tailored to a specific website. Please don't copy-paste your notice from us or from anywhere else on the Internet! If you have some knowledge of privacy law, write one yourself, or have an expert draft one for you.
+First, a necessary disclaimer:  *this is not legal advice and should not be taken as such. Every notice needs to be tailored to a specific website. Please don't copy-paste your notice from us or from anywhere else on the Internet! If you have some knowledge of privacy law, write one yourself, or have an expert draft one for you.*
 
-That being said, here's an example template for a layered privacy policy.
+That being said, here's an example template for a layered privacy policy:
 
-[I will paste the notice here right before publishing- in case I change anything in the meantime]
+> We at awesomewebsite.com use Google Analytics to collect data. We need this data to understand how you use our website so we can improve its design and > functionality. We also need the data to get the most out of our marketing campaigns.
+> 
+> With your consent, Google Analytics will process and collect your personal data (cookies and IP address) to give us valuable information. Google
+> Analytics will transfer your data to the United States and store it for x months. To learn more about Google's data transfer policies, click here.
+> 
+> You have certain rights over your data: for example, you can require us to delete them or to provide you with a copy. We take responsibility for the >processing of your data. We are available to answer any question and handle any request from you. Click here to read more about your rights and to find >how you can get in touch with us.
+> 
+> Please express your cookie preference:
+> 
+> 1.  I consent to the processing of non-essential cookies
+> 2.  I refuse the processing of non-essential cookies
+> We will not read or write cookies without your consent.
 
-## 5. Google Analytics privacy policy template
+## 4. Google Analytics privacy policy template
 
 > We at awesomewebsite.com use Google Analytics to collect data. We need this data to understand how you use our website so we can improve its design and functionality. We also need the data to get the most out of our marketing campaigns.
 
-You must include all the purposes for which you process the data and clearly distinguish between them. This is just an example: if you collect personal data for other purposes as well, you should mention that.
+You must include **all** the purposes for which you process the data and clearly distinguish between them. This is just an example: if you collect personal data for other purposes as well, you should mention that.
 
-> With your consent, Google Analytics will process and collect your personal data (cookies and IP address) to give us valuable information. Google Analytics will transfer your data to the United States and store it for x months. To learn more about Google's data transfer policies, click here.
+> With your consent, Google Analytics will process and collect your personal data (cookies and IP address) to give us valuable information. Google Analytics will transfer your data to the United States and store it for x months. To learn more about Google's data transfer policies, click **here**.
 
 The link is where you can explain that Google Ireland Ltd. transfers data to Google LLC and that they are using standard contractual clauses to safeguard the data. You should clarify what that means in plain language. For example: 
 
