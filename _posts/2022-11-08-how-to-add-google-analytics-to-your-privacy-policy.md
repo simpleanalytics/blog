@@ -64,12 +64,11 @@ First, a necessary disclaimer:  *this is not legal advice and should not be take
 
 That being said, here's an example template for a layered privacy policy:
 
-> We at awesomewebsite.com use Google Analytics to collect data. We need this data to understand how you use our website so we can improve its design and > functionality. We also need the data to get the most out of our marketing campaigns.
+> We at awesomewebsite.com use Google Analytics to collect data. We need this data to understand how you use our website so we can improve its design and functionality. We also need the data to get the most out of our marketing campaigns.
 > 
-> With your consent, Google Analytics will process and collect your personal data (cookies and IP address) to give us valuable information. Google
-> Analytics will transfer your data to the United States and store it for x months. To learn more about Google's data transfer policies, click here.
+> With your consent, Google Analytics will process and collect your personal data (cookies and IP address) to give us valuable information. Google Analytics will transfer your data to the United States and store it for x months. To learn more about Google's data transfer policies, click **here**.
 > 
-> You have certain rights over your data: for example, you can require us to delete them or to provide you with a copy. We take responsibility for the >processing of your data. We are available to answer any question and handle any request from you. Click here to read more about your rights and to find >how you can get in touch with us.
+> You have certain rights over your data: for example, you can require us to delete them or to provide you with a copy. We take responsibility for the processing of your data. We are available to answer any question and handle any request from you. Click **here** to read more about your rights and to find how you can get in touch with us.
 > 
 > Please express your cookie preference:
 > 
@@ -77,7 +76,7 @@ That being said, here's an example template for a layered privacy policy:
 > 2.  I refuse the processing of non-essential cookies
 > We will not read or write cookies without your consent.
 
-## 4. Google Analytics privacy policy template
+## 5. Google Analytics privacy policy template
 
 > We at awesomewebsite.com use Google Analytics to collect data. We need this data to understand how you use our website so we can improve its design and functionality. We also need the data to get the most out of our marketing campaigns.
 
@@ -87,15 +86,15 @@ You must include **all** the purposes for which you process the data and clearly
 
 The link is where you can explain that Google Ireland Ltd. transfers data to Google LLC and that they are using standard contractual clauses to safeguard the data. You should clarify what that means in plain language. For example: 
 
-> "Standard contractual clauses are legal clauses written by the European Commission. They are part of a contract between Google Ireland Ltd. and Google LLC, and Google LLC must follow them. Standard contractual clauses tell Google LLC what it can and cannot do with your data".
+> Standard contractual clauses are legal clauses written by the European Commission. They are part of a contract between Google Ireland Ltd. and Google LLC, and Google LLC must follow them. Standard contractual clauses tell Google LLC what it can and cannot do with your data.
 
 There is no need to reproduce the content of the clauses, but you could provide a link to Google's own documentation.
 
-> You have certain rights over your data: for example, you can require us to delete them or to provide you with a copy. We take responsibility for the processing of your data. We are available to answer any question and handle any request from you. Click here to read more about your rights and to find out how you can get in touch with us.
+> You have certain rights over your data: for example, you can require us to delete them or to provide you with a copy. We take responsibility for the processing of your data. We are available to answer any question and handle any request from you. Click **here** to read more about your rights and to find out how you can get in touch with us.
 
 This is where you can include information on the right of access, the right to withdraw consent, the right to erasure, the right to lodge a complaint in the Member State where the data subject lives or works, and possibly the right to object. If you are processing personal data without consent, be careful to specify which categories of data the user can request you to erase. And clarify that you are responsible for handling requests, not Google.
 
-You always need to provide contact information for your organization, and if you have a DPO and an EU representative, you must also provide a contact for them. Contact information is really important in practice. Don't just fill in an email and forget about it: make sure requests are forwarded to someone who will actually handle them! Companies are often fined for failing to respond to requests promptly.
+You always need to provide contact information for your organization, and if you have a DPO and an EU representative, you must also provide a contact for them. Contact information is really important in practice. Don't just fill in an email and forget about it: **make sure requests are forwarded to someone who will actually handle them!** Companies are often fined for failing to respond to requests promptly.
 
 If you have a DPO, direct the user to them for any requests- handling them is part of the DPO's job. If you don't have a DPO, then it is good practice to make someone in your organization responsible for responding to requests. Provide a direct contact for them in your privacy policy so that requests don't get overlooked among the organization's mail.
 
@@ -103,16 +102,15 @@ If you have a DPO, direct the user to them for any requests- handling them is pa
 > 
 > -   I consent to the processing of non-essential cookies
 > -   I refuse the processing of non-essential cookies
+> We will not read or write cookies without your consent.
 
-We will not read or write cookies without your consent.
+This choice must be presented in clear, non-deceiving terms: **yes or no**. If the user says "no," **respect their decision** and don't show them the cookie banner again.
 
-This choice must be presented in clear, non-deceiving terms: yes or no. If the user says "no," respect their decision and don't show them the cookie banner again.
-
-A user might want to agree to cookies for specific purposes; for example, they may accept first-party cookies for website optimization and refuse third-party marketing cookies. Including a "customize" option is acceptable if the option to refuse all cookies is visible, easily accessible, and clearly worded. Don't force users to run through five different cookie settings to say "no," and don't force confusing choices like "accept" versus "customize."
+A user might want to agree to cookies for specific purposes; for example, they may accept first-party cookies for website optimization and refuse third-party marketing cookies. Including a "customize" option is acceptable if the option to refuse all cookies is **visible, easily accessible, and clearly worded**. Don't force users to run through five different cookie settings to say "no," and don't force confusing choices like "accept" versus "customize."
 
 If you collect some personal data without consent, you should also include that information. For example, you could add a last bit such as: 
 
-> "we will still collect some data if you do not consent. Click here to learn more". 
+> We will still collect some data if you do not consent. Click **here** to learn more. 
 
 In the link, you can specify what data you collect and on what legal basis.
 
@@ -122,11 +120,11 @@ If you are using Google Analytics, your privacy policy should be displayed as so
 
 From a practical standpoint, it makes sense to merge your policy with your cookie banner, as we did in our template. You need a cookie banner anyway, and one annoying pop-up is better than two.
 
-On a side note, under the GDPR, withdrawing consent should be as easy as it is to give it. So your website should allow users to withdraw consent easily in some way. It doesn't really matter how, as long as the option is hassle-free and easily accessible. So it might be convenient to include an opt-out button or a similar option in the policy displayed on your website. But please remember that this opt-out mechanism cannot itself collect consent: you still need to do that in your cookie banner!
+On a side note, under the GDPR, withdrawing consent should be as easy as it is to give it. So your website should allow users to **withdraw consent easily** in some way. It doesn't really matter how, as long as the option is hassle-free and easily accessible. So it might be convenient to include an **opt-out button** or a similar option in the policy displayed on your website. But please remember that this opt-out mechanism **cannot itself collect consent**: you still need to do that in your cookie banner!
 
 ## 7.  What information should my privacy policy contain?
 
-Your privacy policy should contain all the information required by Art. 13 GDPR. In Google Analytics' case, that would be:
+**Your privacy policy should contain all the information required by Art. 13 GDPR**. In Google Analytics' case, that would be:
 
 -   the purpose and legal basis for the processing
 -   contact details for the controller, the DPO, and the EU representative (if applicable)
@@ -135,13 +133,13 @@ Your privacy policy should contain all the information required by Art. 13 GDPR.
 -   whether the data will be transferred outside the US, and with what safeguards
 -   how long the data will be stored
 
-You can think of Art. 13 as a checklist you can go through to ensure your policy is compliant. In fact, we wrote our template with this article in mind. But covering all of the information is not enough: as we said, this information needs to be provided in a clear and accessible form.
+You can think of Art. 13 as a **checklist** you can go through to ensure your policy is compliant. In fact, we wrote our template with this article in mind. But covering all of the information is not enough: as we said, this information needs to be provided in a clear and accessible form.
 
 ### Final Thoughts
 
-Our template provides the information as part of a cookie banner because it's convenient. But to be clear, a privacy policy is not just about cookies: if you are collecting any other personal data, you must also inform the user about that.
+Our template provides the information as part of a cookie banner because it's convenient. But to be clear, **a privacy policy is not just about cookies**: if you are collecting any other personal data, you must also inform the user about that.
 
-One last word: when it comes to privacy, there is a big gap between theory and practice. Many websites provide less comprehensive information than required, and very few websites allow consent to be withdrawn easily. So you might get away with it, but you would still not be GDPR compliant.
+One last word: when it comes to privacy, there is a **big gap between theory and practice**. Many websites provide less comprehensive information than required, and very few websites allow consent to be withdrawn easily. So you might get away with it, but you would still not be GDPR compliant.
 
 Bottom line: Omit the required information at your own peril (and feel bad about yourself).
 
