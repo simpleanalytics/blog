@@ -10,7 +10,6 @@ related_posts:
  - /blog/is-google-analytics-illegal-in-europe
  - /blog/is-google-analytics-4-gdpr-compliant
  - /blog/website-analytics-without-cookies
-draft: true
 ---
 
 A privacy policy[^1] is a statement that informs a data subject on how their data will be processed. In the case of the website, a privacy policy will notify the visitor of the processing of their data and the purposes of the processing (website optimization, market analytics, etc.).
