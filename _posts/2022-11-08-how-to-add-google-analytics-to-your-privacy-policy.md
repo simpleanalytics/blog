@@ -115,7 +115,7 @@ From a practical standpoint, it makes sense to merge your policy with your cooki
 
 On a side note, under the GDPR, withdrawing consent should be as easy as it is to give it[^15]. So your website should allow users to **withdraw consent easily** in some way. It doesn't really matter how, as long as the option is hassle-free and easily accessible. So it might be convenient to include an **opt-out button** or a similar option in the policy displayed on your website. But please remember that this opt-out mechanism **cannot itself collect consent**: you still need to do that in your cookie banner!
 
-## 7.  What information should my privacy policy contain?
+## 7. What information should my privacy policy contain?
 
 **Your privacy policy should contain all the information required by Art. 13 GDPR**. In Google Analytics' case, that would be:
 
