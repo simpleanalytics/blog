@@ -24,7 +24,7 @@ First paragraph
 
 Rest of the article
 
-A privacy policy is a statement that informs a data subject on how their data will be processed. In the case of the website, a privacy policy will notify the visitor of the processing of their data and the purposes of the processing (website optimization, market analytics, etc.).
+A privacy policy[^1] is a statement that informs a data subject on how their data will be processed. In the case of the website, a privacy policy will notify the visitor of the processing of their data and the purposes of the processing (website optimization, market analytics, etc.).
 
 When building a business or operating a website, this is not the most exciting part to be working on, but it is important to check this box. To make your life easier, we compiled a list of things you should take into account.
 
@@ -42,21 +42,21 @@ Let's dive in! 
 
 ## 1. What is the purpose of a privacy policy?
 
-The primary purpose of a privacy policy is to provide information to a data subject (in this case, the visitor of your website) about the processing of their data, according to the **transparency principle**.
+The primary purpose of a privacy policy is to provide information to a data subject (in this case, the visitor of your website) about the processing of their data, according to the **transparency principle[^1]**.
 
 You should inform the user about the **processing of their data**- what data you are processing, on what basis, for what purpose, and so on. You should also inform the user about **their rights** under the GDPR (such as requesting the erasure of the data and filing a complaint). Also, you should facilitate the exercise of these rights by **providing a point of contact** for any requests or questions they might have.
 
-Keep in mind that a privacy policy addresses the user directly. The information should be as clear and accessible as possible. **Use plain language and leave the jargon to the lawyers!**
+Keep in mind that a privacy policy addresses the user directly. The information should be as clear and accessible as possible[^1]. **Use plain language and leave the jargon to the lawyers!**
 
 ## 2. Do I need a privacy policy for Google Analytics?
 
-Yes, you do. Google Analytics collects cookies and IP addresses which are personal data under the GDPR. You also need consent to process cookies because they fall under the ePrivacy Directive. This is the case for both first-party and third-party cookies (the latter are associated with a domain different from the one the user is visiting and tend to be more privacy-invasive).
+**Yes, you do**. Google Analytics collects cookies and IP addresses which are personal data under the GDPR. You also need consent to process cookies because they fall under the **ePrivacy Directive[^1]**. This is the case for both first-party and third-party cookies (the latter are associated with a domain different from the one the user is visiting and tend to be more privacy-invasive).
 
 ## 3. How do you write a privacy policy?
 
 It's not rocket science, but it's not simple, either. Your privacy policy needs to include many specific pieces of information to comply with Art. 13 GDPR. At the same time, it must be **concise, accessible, and clear** to comply with Art. 12(1) GDPR.
 
-It can be hard to include all the information required while keeping your policy simple and accessible, but a **layered approach** can help you strike a balance. A layered privacy policy provides the most crucial information upfront. It refers the reader to other resources for more detailed information (for example, by linking to different pages or maybe to the relevant headers of a single, more extended notice).
+It can be hard to include all the information required while keeping your policy simple and accessible, but a **layered approach[^5]** can help you strike a balance. A layered privacy policy provides the most crucial information upfront. It refers the reader to other resources for more detailed information (for example, by linking to different pages or maybe to the relevant headers of a single, more extended notice).
 
 ## 4. An example of a layered privacy policy
 
@@ -92,11 +92,11 @@ There is no need to reproduce the content of the clauses, but you could provide 
 
 > You have certain rights over your data: for example, you can require us to delete them or to provide you with a copy. We take responsibility for the processing of your data. We are available to answer any question and handle any request from you. Click **here** to read more about your rights and to find out how you can get in touch with us.
 
-This is where you can include information on the right of access, the right to withdraw consent, the right to erasure, the right to lodge a complaint in the Member State where the data subject lives or works, and possibly the right to object. If you are processing personal data without consent, be careful to specify which categories of data the user can request you to erase. And clarify that you are responsible for handling requests, not Google.
+This is where you can include information on the right of access[^6], the right to withdraw consent[^7], the right to erasure[^8], the right to lodge a complaint in the Member State where the data subject lives or works[^9], and possibly the right to object[^10]. If you are processing personal data without consent[^11], be careful to specify which categories of data the user can request you to erase. And clarify that you are responsible for handling requests, not Google.
 
 You always need to provide contact information for your organization, and if you have a DPO and an EU representative, you must also provide a contact for them. Contact information is really important in practice. Don't just fill in an email and forget about it: **make sure requests are forwarded to someone who will actually handle them!** Companies are often fined for failing to respond to requests promptly.
 
-If you have a DPO, direct the user to them for any requests- handling them is part of the DPO's job. If you don't have a DPO, then it is good practice to make someone in your organization responsible for responding to requests. Provide a direct contact for them in your privacy policy so that requests don't get overlooked among the organization's mail.
+If you have a DPO, direct the user to them for any requests- handling them is part of the DPO's job. If you don't have a DPO, then it is good practice to make someone in your organization responsible for responding to requests. Provide a direct contact for them in your privacy policy[^12] so that requests don't get overlooked among the organization's mail.
 
 > Please express your cookie preference:
 > 
@@ -112,15 +112,15 @@ If you collect some personal data without consent, you should also include that 
 
 > We will still collect some data if you do not consent. Click **here** to learn more. 
 
-In the link, you can specify what data you collect and on what legal basis.
+In the link, you can specify what data you collect and on what legal basis[^13].
 
 ## 6. When should my privacy policy be displayed?
 
-If you are using Google Analytics, your privacy policy should be displayed as soon as the user lands on your website. You should also include it on your website so that returning users can access the information easily.
+If you are using Google Analytics, your privacy policy should be displayed as soon as the user lands on your website[^14]. You should also include it on your website so that returning users can access the information easily.
 
 From a practical standpoint, it makes sense to merge your policy with your cookie banner, as we did in our template. You need a cookie banner anyway, and one annoying pop-up is better than two.
 
-On a side note, under the GDPR, withdrawing consent should be as easy as it is to give it. So your website should allow users to **withdraw consent easily** in some way. It doesn't really matter how, as long as the option is hassle-free and easily accessible. So it might be convenient to include an **opt-out button** or a similar option in the policy displayed on your website. But please remember that this opt-out mechanism **cannot itself collect consent**: you still need to do that in your cookie banner!
+On a side note, under the GDPR, withdrawing consent should be as easy as it is to give it[^15]. So your website should allow users to **withdraw consent easily** in some way. It doesn't really matter how, as long as the option is hassle-free and easily accessible. So it might be convenient to include an **opt-out button** or a similar option in the policy displayed on your website. But please remember that this opt-out mechanism **cannot itself collect consent**: you still need to do that in your cookie banner!
 
 ## 7.  What information should my privacy policy contain?
 
@@ -150,18 +150,17 @@ Bottom line: Omit the required information at your own peril (and feel bad about
 Yep, that's possible... we created Simple Analytics with this in mind. We wanted to create a web analytics tool that provided insights into website traffic without needing cookies to collect personal data. We believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
 >[^1]: To be pedantic, this is actually a privacy notice. A.privacy policy is an internal document that lays out rules and guidelines on the processing of personal data within an organization. The two terms are often used interchangeably, even by privacy professionals.
->[^2]:
->[^3]:
->[^4]:
->[^5]:
->[^6]:
->[^7]:
->[^8]:
->[^9]:
->[^10]:
->[^11]:
->[^12]:
->[^13]:
->[^14]:
->[^15]:
->[^16]:
+>[^2]: Art. 5(1) GDPR.
+>[^3]: Art. 12(1) GDPR.
+>[^4]: Art. 5(3) ePrivacy Directive.
+>[^5]: WP29 Guidelines on transparency under Regulation 2016/679, par. 35 and 36.
+>[^6]: Art. 15 GDPR.
+>[^7]: Art. 7(3) GDPR.
+>[^8]: Art. 17 GDPR.
+>[^9]: Art. 77 GDPR. Also see WP29, Guidelines on transparency under Regulation 2016/679, Annex, p. 39.
+>[^10]: This only applies if you process data based on legitimate interest: see Art. 21 GDPR.
+>[^11]: Yup, this can be lawful- but not for cookies. See Art. 6(1) GDPR and [our blog on consent](https://www.simpleanalytics.com/blog/gdpr-consent-101).
+>[^12]: To be clear, you still need to include general contact information for your organization.
+>[^13]:  Legal bases are a complicated topic. [Our blog on consent](https://www.simpleanalytics.com/blog/gdpr-consent-101) briefly touches upon the principle of lawfulness and a couple legal bases other than consent. We might come back to the topic at some point.
+>[^14]: Art. 13 GDPR
+>[^15]: Art. 7(3) GDPR.
