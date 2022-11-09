@@ -10,7 +10,7 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/website-analytics-without-cookies
- last_modified_at: 2022-11-09
+last_modified_at: 2022-11-08
 ---
 
 Google Analytics has recently come under fire from European authorities for non-compliance with the GDPR rules on data transfers. Google promises that the latest version of its analytics tool will be more privacy-focused. They will [sunset Universal Analytics](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) in favor of GA4 next year, and privacy has been the main driver of this change. But how "privacy-friendlier" will this version be?
