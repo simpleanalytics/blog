@@ -102,7 +102,9 @@ This choice must be presented in clear, non-deceiving terms: **yes or no**. If t
 
 A user might want to agree to cookies for specific purposes; for example, they may accept first-party cookies for website optimization and refuse third-party marketing cookies. Including a "customize" option is acceptable if the option to refuse all cookies is **visible, easily accessible, and clearly worded**. Don't force users to run through five different cookie settings to say "no," and don't force confusing choices like "accept" versus "customize."
 
-If you collect some personal data without consent, you should also include that information. For example, you could add a last bit such as: 
+Many companies don't design the cookie banners themselves and rely on a **consent-management platform** instead. The same suggestions apply: in a nutshell, make sure your cookie banners are clear and allow users to refuse consent easily.
+
+Finally, if you collect some personal data without consent, you should also include that information. For example, you could add a last bit such as: 
 
 > We will still collect some data if you do not consent. Click **here** to learn more. 
 
