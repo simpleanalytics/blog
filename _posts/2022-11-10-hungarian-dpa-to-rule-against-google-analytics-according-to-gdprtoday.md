@@ -10,7 +10,6 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/website-analytics-without-cookies
-draft: true
 ---
 
 According to the latest edition of noyb's [GDPRtoday newsletter](https://noyb.eu/en/gdprtoday), the Hungarian data protection authority may soon join the [Austrian](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), [French](https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)), and [Italian](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) DPAs in **ruling against the use of Google Analytics**.
