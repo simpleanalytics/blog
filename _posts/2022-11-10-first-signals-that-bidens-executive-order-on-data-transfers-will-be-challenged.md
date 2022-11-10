@@ -13,15 +13,19 @@ related_posts:
 draft: true
 ---
 
-## 1. First signals that Biden's Executive Order on Data Transfers will be challenged
-
 In a recent [press release](https://www.baden-wuerttemberg.datenschutz.de/usa-eu-datentransfer-durchfuehrungsverordnung-us-praesident/) (German only), Baden-Württemberg State Commissioner for Data Protection and Freedom of Information Stefan Brink voiced his criticism over US President Joe Biden's executive order on data transfers.
 
 To be clear, the Commissioner is not the data protection authority of Baden-Württemberg, and his positions don't necessarily reflect the authority's. He is, however, the first privacy institution in Europe to comment on the executive order, so his criticism is worth considering. But first of all, we will need some context.
 
 {% include gif.html slug="hmmm" alt="hmmm" width="480" height="400" color="#91837f" %}
 
-## 2. The aftermath of Schrems II
+1. The aftermath of Schrems II
+2. The new executive order
+3. The DPO's press release
+
+Let's find out!
+
+## 1. The aftermath of Schrems II
 
 We already wrote about data transfers extensively [here](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us), so here's the story in a nutshell. In 2020 the EU Court of Justice issued its landmark [Schrems II ruling](https://gdprhub.eu/index.php?title=CJEU_-_C-311/18_-_Schrems_II). This ruling made data transfers to the US tricky for EEA companies for several reasons.
 
@@ -33,7 +37,7 @@ The Schrems II ruling also dealt with SCCs and examined their validity as a mech
 
 After Schrems II, European data protection authorities have started taking a harder approach to data transfers. Three[ DPAs have essentially banned Google Analytics](https://www.simpleanalytics.com/blog/is-google-analytics-illegal-in-europe) (we wrote about this extensively), and the DPC announced a draft decision to [shut down data transfers for Meta Platforms Ireland](https://iapp.org/news/a/irish-dpc-files-draft-order-to-halt-metas-data-transfers-to-us/). These DPAs are following a coordinated approach, so there is a real possibility that others will follow their example and that other US service providers will come under fire. This creates a climate of legal uncertainty around US data transfers.
 
-## 3. The new executive order
+## 2. The new executive order
 
 Joe Biden's recent executive order is a first step towards a new framework called the Trans-Atlantic Data Privacy Framework. The order implements some material rules to limit the scope of surveillance and lays out a convoluted system for providing people in the EU with judicial remedies.
 
@@ -41,7 +45,7 @@ An adequacy decision by the European Commission will almost certainly follow in 
 
 Companies on both sides of the Ocean hope the new framework will bring legal certainty and allow for hassle-free data transfers. However, the future adequacy decision will surely come under scrutiny from the Court of Justice. Privacy NGO noyb [criticized the new framework](https://noyb.eu/en/new-us-executive-order-unlikely-satisfy-eu-law) and will likely challenge it in the Court of Justice.
 
-## 4. the DPO's press release
+## 3. The DPO's press release
 
 In the upcoming months, the EDPB will issue an opinion on the matter as a part of the decision procedure for the adequacy decision. While the Board's opinion is not binding, it will give us better insight into the core issues of Schrems III.
 
