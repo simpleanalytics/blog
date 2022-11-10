@@ -11,7 +11,7 @@ related_posts:
  - /blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 ---
-**This guest post was written by [iubenda](http://iubenda.com/).**
+**This guest post was written by [iubenda]( https://www.iubenda.com/en/?utm_source=partnerships&utm_term=simpleanalytics).**
 
 >Foreword: In our quest to create a more independent web that is friendly to website visitors, we sometimes come across organizations that align with our values. iubenda is one of them. Navigating privacy is difficult for organizations that have their experience elsewhere. iubenda aims to support these businesses by providing attorney software solutions to make websites compliant. It takes away the burden and ensures organizations are ready for the future. 
 
@@ -102,4 +102,4 @@ Of course, using data isn't wrong in and of itself; it's just important to do so
 
 The world is growing more conscious of privacy every day, with governments implementing new guidelines and regulations at lightning speed. To keep up, businesses must adopt a privacy-by-design approach - considering privacy from the onset. Organizations who fail to keep up with the current and ever-changing regulations risk negative consequences, not only in terms of legal issues and potential penalties but also in terms of business, as users increasingly drop companies they do not trust.
 
-Sound complicated? It doesn't have to be. [Click here to see how we can help you to meet your legal requirements in just 5 minutes](https://www.iubenda.com/en/help/34840-privacy-and-cookie-policy-generator-overview-video).
+Sound complicated? It doesn't have to be. [Click here to see how we can help you to meet your legal requirements in just 5 minutes](https://www.iubenda.com/en/help/34840-privacy-and-cookie-policy-generator-overview-video?utm_source=partnerships&utm_term=simpleanalytics).
