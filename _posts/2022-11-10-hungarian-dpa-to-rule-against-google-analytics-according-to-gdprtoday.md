@@ -13,18 +13,18 @@ related_posts:
 draft: true
 ---
 
-Hungarian DPA to rule against Google Analytics, according to GDPRtoday
-
 According to the latest edition of noyb’s GDPRtoday newsletter, the Hungarian data protection authority may soon join the Austrian, French, and Italian DPAs in ruling against the use of Google Analytics.
 
 A disclaimer is due here: the decision has not been published yet, and Noyb is a privacy NGO directly involved in the case. We consider the information reliable because we believe noyb has no plausible interest in spreading inaccurate information about the outcome of one of its cases, but some discretion is advised.
-The case
+
+## The case
 The case is one of noyb’s 101 complaints. According to the summary available on the gpdrhub (also a noyb project), the decision will closely resemble the ones from the other three DPAs.
 
 A Hungarian weather forecast website used Google Analytics, which requires transfers of personal data between Google Ireland Ltd. and US-based Google LLC. A data subject, represented by noyb, complained that the transfers of his personal data lacked effective safeguards against US surveillance and were therefore unlawful. The Hungarian DPA (NAIH) allegedly upheld the claim and ordered the website to cease the use of Google Analytics.
 
 While the rulings of the Austrian, French and Italian DPAs addressed individual controllers, they set a precedent that practically amounts to a Statewide ban. This is because controllers using Google Analytics are not in a position to implement adequate safeguards (more about this here). There are good reasons to expect this to be the case for Hungary as well, as DPAs are following a coordinated approach in deciding the 101 complaints. So if the information is accurate, the use of Google Analytics may soon be unlawful in Hungary under the GDPR.
-The bigger picture
+
+## The bigger picture
 US data transfers have been a legal puzzle for companies for a while now. The issues stem from the implications of the 2020 Schrems II case. In a nutshell, the Court found that data transfers to the US expose European data to US surveillance and ruled that such transfers are unlawful unless controllers implement effective safeguards to protect the data. Unfortunately, this is difficult or impossible in many cases.
 
 Shortly after Schrems II, noyb filed 101 complaints against Google Analytics and Facebook Connect. All complaints revolve around data transfers and aim to nudge DPAs towards stricter enforcement of the Schrems II ruling.
