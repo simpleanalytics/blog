@@ -3,8 +3,8 @@ title: "First signs that Biden's EO on Data Transfers will be challenged"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Baden-Württemberg State Commissioner criticized Biden's Exectuve Order on Data Tranfers. Thereby implicating that a deal between the EU and US is still far away"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-bidens-eo-will-likely-be-challenged/social-image-bidens-eo-will-be-challenged.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-bidens-eo-will-likely-be-challenged/social-image-bidens-eo-will-be-challenged.png
 related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-4-gdpr-compliant
