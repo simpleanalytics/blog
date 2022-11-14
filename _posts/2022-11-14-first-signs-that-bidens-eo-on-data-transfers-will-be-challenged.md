@@ -10,7 +10,6 @@ related_posts:
  - /blog/is-google-analytics-4-gdpr-compliant
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/is-google-analytics-illegal-in-europe
-draft: true
 ---
 
 In a recent [press release](https://www.baden-wuerttemberg.datenschutz.de/usa-eu-datentransfer-durchfuehrungsverordnung-us-praesident/) (German only), Baden-Württemberg State Commissioner for Data Protection and Freedom of Information Stefan Brink voiced his criticism over US President Joe Biden's executive order on data transfers.
