@@ -1,15 +1,15 @@
 ---
-title: "First signals that Biden's Executive Order on Data Transfers will be challenged"
+title: "First signs that Biden's EO on Data Transfers will be challenged"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Baden-Württemberg State Commissioner criticized Biden's Exectuve Order on Data Tranfers. Thereby implicating that a deal between the EU and US is still far away"
 image: https://assets.simpleanalytics.com/blog/2022-
 image_no_text: https://assets.simpleanalytics.com/blog/2022-
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+ - /blog/website-analytics-without-cookies
+ - /blog/is-google-analytics-4-gdpr-compliant
  - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/google-analytics-performance-impact-using-google-lighthouse
+ - /blog/is-google-analytics-illegal-in-europe
 draft: true
 ---
 
@@ -19,9 +19,9 @@ To be clear, the Commissioner is not the data protection authority of Baden-Wür
 
 {% include gif.html slug="hmmm" alt="hmmm" width="480" height="400" color="#91837f" %}
 
-1. The aftermath of Schrems II
-2. The new executive order
-3. The DPO's press release
+1. [The aftermath of Schrems II](#1-the-aftermath-of-schrems-ii)
+2. [The new executive order](#2-the-new-executive-order)
+3. [The DPO's press release](#3-the-dpos-press-release)
 
 Let's find out!
 
