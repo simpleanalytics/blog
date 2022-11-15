@@ -3,7 +3,7 @@ title: "Hungarian DPA to rule against Google Analytics, according to GDPRtoday"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Hungarian DPA may join the Austrian, French, and Italian DPAs in ruling against the use of Google Analytics"
-image: https://assets.simpleanalytic.com/blog/2022-hungarian-dpa-to-rule-against-ga/social-image-hungarian-dpa-to-rule-against-google-analytics.png
+image: https://assets.simpleanalytics.com/blog/2022-hungarian-dpa-to-rule-against-ga/social-image-hungarian-dpa-to-rule-against-google-analytics.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-hungarian-dpa-to-rule-against-ga/social-image-hungarian-dpa-to-rule-against-google-analytics.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
