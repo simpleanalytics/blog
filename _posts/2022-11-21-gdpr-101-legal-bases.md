@@ -1,85 +1,56 @@
 ---
-title: "Title of the post"
-author_slug: iron
-author: Iron Brands
-excerpt: "Short description of the post"
+title: "GDPR 101: legal bases"
+author_slug: carlo
+author: Carlo Cilento
+excerpt: "This article takes a closer look at the different legal bases you can use for processing data under the GDPR"
 image: https://assets.simpleanalytics.com/blog/2022-
 image_no_text: https://assets.simpleanalytics.com/blog/2022-
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/google-analytics-performance-impact-using-google-lighthouse
+ - /blog/is-google-analytics-illegal-in-europe
+ - /blog/website-analytics-without-cookies
+ - /blog/is-google-analytics-4-gdpr-compliant
 draft: true
 ---
-
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
-
-GDPR 101: legal bases
 
 This article is a follow-up to our older blog about [consent under the GDPR](https://www.simpleanalytics.com/blog/gdpr-consent-101), where we briefly explained how consent works and what the limitations of consent are. We briefly mentioned that consent is not always necessary and that personal data can sometimes be lawfully processed without a data subject's consent.
 
 Today we will look closely at all the other legal bases for processing data under the GDPR. That's enough material to write a book about, so we will keep it as short and straightforward as possible.
 
-![](https://lh3.googleusercontent.com/o3Mhzf8LdMxGpfvi9_y6BjFp47Bx-ht0ZIPSXMPj1d0akFDI6Ig0FcLwFu-lYvWFBrQZYbeYZPs_hy77_Apq9O0a8tvd4W96AXOdYNNr3TAgjIf_1K38kkozN1EghkPVYdE6KeDa0ETxa97SjjQbmVlteRA5sIauY-k6MIXIUBaEz8wch_6P58jzYNU-tA)
+{% include gif.html slug="i-bet-you-do" alt="i-bet-you-do" width="480" height="270" color="#2f2c2f" %}
 
-1.  What is a legal basis?
-
-2.  What are the legal bases under the GDPR?
-
-3.  What legal basis should I choose?
-
-4.  The legal bases
-
-4.1 Contract
-
-4.2 Legitimate interest
-
-4.3 Legal obligation
-
-4.4 Vital interest
-
-4.5 Public interest or exercise of a public authority
+1.  [What is a legal basis?](#1-what-is-a-legal-basis)
+2.  [What are the legal bases under the GDPR?](#2-what-are-the-legal-bases-under-the-gdpr)
+3.  [What legal basis should I choose?](#3-what-legal-basis-should-i-choose)
+4.  [The legal bases](#4-the-legal-bases)
+  4.1 [Contract](#41-contract)
+  4.2 [Legitimate interest](#42-legitimate-interest)
+  4.3 [Legal obligation](#43-legal-obligation)
+  4.4 [Vital interest](#44-vital-interest)
+  4.5 [Public interest or exercise of a public authority](#45-public-interest-or-exercise-of-a-public-authority)
 
 Let's dive in!
 
-1.  What is a legal basis?
-    ----------------------
+## 1.  What is a legal basis?
 
 In a nutshell: to process data lawfully, you need to rely on one of six legal bases listed by Article 6 GDPR. From a practical standpoint, consider these conditions as alternative requirements that must be satisfied when data needs to be processed.
 
-1.  What are the legal bases under the GDPR?
-    ----------------------------------------
+## 2.  What are the legal bases under the GDPR?
 
 Art. 6(1) lists six legal bases:
 
 -   consent
-
 -   the performance of a contract
-
 -   compliance with a legal obligation
-
 -   the vital interest of the data subject or another natural person
-
 -   performance of a task in the public interest/exercise of a public authority
-
 -   the legitimate interest of the controller
 
 These legal bases come with specific requirements, which can be considered a set of "pros and cons." For example, consent needs to be freely given, specific, informed, and unambiguous". If these requirements cannot be met, another ground must be used. Sometimes two or more grounds are available, while at other times, no ground may be available at all, in which case the data cannot be processed.
 
 It should be noted that there is no order of priority between legal grounds. For instance, a data controller is free to choose between consent (listed first) and legitimate interest (listed last), provided that the requirements for each ground can be met in that specific scenario.
 
-1.  What legal basis should I choose?
-    ---------------------------------
+## 3. What legal basis should I choose?
 
 As we said, each ground comes with specific requirements. Sometimes only one will be available, so you have no choice. At other times you might have the luxury of choosing between two or more.
 
@@ -91,8 +62,12 @@ So it comes down to a case-by-case assessment. For example, if the processing is
 
 That being said, all grounds have specific requirements, and as a result, some are more readily available to certain controllers. Companies and other private entities typically rely on consent, contract, and legitimate interest. On the other hand, public entities usually rely on either legal obligation or public interest/authority.
 
-1.  The legal bases
-    ---------------
+<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
+<p class="caption" markdown="1">
+  Caption of the image
+</p>
+
+## 4.  The legal bases
 
 We already discussed consent, so we'll look at the other grounds. There is much to say about legal grounds, and we can only scratch the surface here.
 
@@ -146,8 +121,7 @@ This ground is typically used by public authorities and public entities, as it i
 
 Finally, the right to object we mentioned earlier also applies to the processing of data based on public interest/authority.
 
-Final Thoughts
---------------
+## Final Thoughts
 
 Handling personal data correctly is important. Still, guidelines and laws are not always easy to understand GDPR. We tried to create a comprehensive overview to give a bit more clarity on the different legal bases for data collection. The GDPR has set the boundaries for what's possible and what is not. As a business, you must adhere to these laws to protect your customer's privacy. Having a clear understanding of these legal bases reduces your company's risks of lawsuits and data breaches.
 
