@@ -33,7 +33,7 @@ Let's dive in!
 
 ## 1. What is a legal basis?
 
-In a nutshell: **to process data lawfully, you need to rely on one of six legal bases listed by Article 6 GDPR**. From a practical standpoint, consider these conditions as **alternative requirements** that must be satisfied when data needs to be processed.
+In a nutshell: **to process data lawfully[^1], you need to rely on one of six legal bases listed by Article 6 GDPR**. From a practical standpoint, consider these conditions as **alternative requirements** that must be satisfied when data needs to be processed.
 
 ## 2. What are the legal bases under the GDPR?
 
@@ -46,7 +46,7 @@ Art. 6(1) lists **six legal bases**:
 -   performance of a task in the public interest/exercise of a public authority
 -   the legitimate interest of the controller
 
-These legal bases come with **specific requirements**, which can be considered a set of "pros and cons." For example, consent needs to be freely given, specific, informed, and unambiguous". If these requirements cannot be met, another ground must be used. Sometimes two or more grounds are available, while at other times, no ground may be available at all, in which case the data cannot be processed.
+These legal bases come with **specific requirements**, which can be considered a set of "pros and cons." For example, consent needs to be *freely given, specific, informed, and unambiguous"[^2]*. If these requirements cannot be met, another ground must be used. Sometimes two or more grounds are available, while at other times, no ground may be available at all, in which case the data cannot be processed.
 
 It should be noted that there is **no order of priority** between legal grounds. For instance, a data controller is free to choose between consent (listed first) and legitimate interest (listed last), provided that the requirements for each ground can be met in that specific scenario.
 
@@ -60,7 +60,7 @@ If you rely on legitimate interest instead, you don't need to collect consent, a
 
 So it comes down to a **case-by-case assessment**. For example, if the processing is very invasive, then your legitimate interest may be hard to balance, and consent may be a better choice. On the other hand, if you are very concerned about the withdrawal of consent, you may want to consider legitimate interest instead. There really is no one-size-fits-all solution, which makes it fun.
 
-That being said, all grounds have specific requirements, and as a result, some are more readily available to certain controllers. Companies and other private entities typically rely on consent, contract, and legitimate interest. On the other hand, public entities usually rely on either legal obligation or public interest/authority.
+That being said, all grounds have specific requirements, and as a result, some are more readily available to certain controllers. Companies and other private entities typically rely on consent, contract, and legitimate interest. On the other hand, public entities usually rely on either legal obligation or public interest/authority[^3].
 
 <img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
 <p class="caption" markdown="1">
@@ -87,23 +87,23 @@ Under Art. 6(1)(f), data can be processed when necessary for pursuing a **legiti
 
 The notion of legitimate interest is very wide. It can cover a person's interest in protecting their property, a company's interest in running their business or advertising a product, an NGO's interest in pursuing humanitarian goals, and the interest of a website to generate ad revenue. Even a general interest can sometimes be invoked to rely on legitimate interest.
 
-As a result, legitimate interest is a very flexible ground and can be used for many purposes. But this flexibility comes with a specific limitation (and compliance burden): the controller must ensure that their interest is not overridden by the interests, rights, and freedoms of the data subjects.
+As a result, *legitimate interest* is a very flexible ground and can be used for many purposes. But this flexibility comes with a specific limitation (and compliance burden): the controller must ensure that their interest is not *overridden* by the interests, rights, and freedoms of the data subjects.
 
-This assessment is commonly referred to as **balancing**. In a nutshell, balancing consists of three questions: is the interest legitimate? Is the processing necessary? And does the processing disproportionately impact the position of the data subject?
+This assessment is commonly referred to as **balancing**. In a nutshell, balancing consists of three questions[^4]: is the interest legitimate? Is the processing necessary? And does the processing disproportionately impact the position of the data subject?
 
 This sounds simple enough, but it is quite tricky. Balancing is a **case-by-base assessment** and needs to take many variables into account. Returning to our example: are the cameras active all the time or only outside working hours? Are the cameras placed in the company parking lot, or are they inside the workplace where they can capture footage of employees as they work? Do the cameras record footage of pedestrians moving down the street? All of these questions are relevant to the balancing of legitimate interest.
 
-In practical terms, the controller will typically carry out the balancing test by drafting an assessment (legitimate interest assessment or LIA). While not mandatory under the GDPR, a written assessment is the easiest way for the controller to show that they did their homework regarding the balancing.
+In practical terms, the controller will typically carry out the balancing test by drafting an assessment *(legitimate interest assessment or LIA)*. While not mandatory under the GDPR, a written assessment is the easiest way for the controller to show that they did their homework regarding the balancing[^5].
 
-There is much more to say about balancing, and we can't go too deep here. But the bottom line is that balancing is tricky, and you should consider this when deciding to rely on legitimate interest. On the other hand, legitimate interest is a very flexible ground, so it may be your only choice in some scenarios.
+There is *much* more to say about balancing[^6], and we can't go too deep here. But the bottom line is that balancing is tricky, and you should consider this when deciding to rely on legitimate interest. On the other hand, legitimate interest is a very flexible ground, so it may be your only choice in some scenarios.
 
-Two last points. First, the GDPR provides that public authorities cannot invoke this ground in performing their tasks. Second, the data subject has a **right to object** to the processing of their data based on legitimate interest. Notably, this right functions as an **opt-out mechanism** from the processing of personal data for direct marketing. We won't go into more detail, but if you're curious, [the ICO's website is a good source of information on this topic](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-object/#:~:text=Individuals%20have%20the%20absolute%20right,authority%20vested%20in%20you%3B%20or) (there is no difference between the GDPR and the UK GDPR in this regard).
+Two last points. First, the GDPR provides that public authorities cannot invoke this ground in performing their tasks[^7]. Second, the data subject has a **right to object** to the processing of their data based on legitimate interest[^8]. Notably, this right functions as an **opt-out mechanism** from the processing of personal data for direct marketing[^9]. We won't go into more detail, but if you're curious, [the ICO's website is a good source of information on this topic](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-object/#:~:text=Individuals%20have%20the%20absolute%20right,authority%20vested%20in%20you%3B%20or) (there is no difference between the GDPR and the UK GDPR in this regard).
 
 ### 4.3 Legal obligation
 
 Under Art. 6(1)(c), personal data can be processed when the processing *"is necessary for compliance with a legal obligation."* For example, a bank can process its customers' personal data to fulfill its obligations under anti-money laundering regulations.
 
-Art. 6(3) further specifies that the source of a legal obligation must be EU or Member State law. The notion of law is broad and includes rules such as administrative acts or judicial decisions. Regardless, this "law" must fulfill specific requirements laid out by the GDPR. This means that Member States cannot make any processing of personal data lawful by simply creating a law for that purpose.
+Art. 6(3) further specifies that the source of a legal obligation must be EU or Member State law. The notion of law is broad and includes rules such as administrative acts or judicial decisions[^10]. Regardless, this "law" must fulfill specific requirements laid out by the GDPR. This means that Member States cannot make any processing of personal data lawful by simply creating a law for that purpose.
 
 Much like the performance of a contract, legal obligation is a relatively hassle-free ground but is also very restrictive regarding what data can be processed.
 
@@ -111,7 +111,7 @@ Much like the performance of a contract, legal obligation is a relatively hassle
 
 Under Article 6(1)(d), data can be processed to protect the vital interests of the data subject or of another person. For example, if an employee is in imminent danger, the employer can provide the public force with GPS data from the company's care so that they can find them and take action as soon as possible.
 
-In this context, vital interest means a life-threatening situation is taking place. This is a rather exceptional ground and not something you would use for day-to-day data processing.
+In this context, *vital interest* means a life-threatening situation is taking place. This is a rather exceptional ground and not something you would use for day-to-day data processing.
 
 ### 4.5 Public interest or exercise of a public authority
 
@@ -119,7 +119,7 @@ This is a long one: under Art. 6(1)(e), data can be processed when it is *"neces
 
 This ground is typically used by public authorities and public entities, as it is more flexible than legal obligation. It can also be used by private entities, but only in specific scenarios- for example when a private company provides a public service under a procurement contract.
 
-Finally, the right to object we mentioned earlier also applies to the processing of data based on public interest/authority.
+Finally, the right to object we mentioned earlier also applies to the processing of data based on public interest/authority[^11].
 
 ## Final Thoughts
 
@@ -131,4 +131,14 @@ This is why we created a privacy-first Google Analytics alternative that doesn't
 
 We believe in creating an independent web that is friendly to website visitors while providing the insights you need to run your business. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
-
+> [^1]:  This is the lawfulness principle laid out by Art. 5(1)(a) GDPR.
+> [^2]:  Art. 4(11) GDPR.
+> [^3]:  Public entities usually enjoy some degree of power imbalance with the data subject, meaning consent is not always freely given as required by Art. 4(11) GDPR. Art. 6 also provides that public authorities (which is more specific than public entities) cannot rely on legitimate interest when they could rely on public interest/authority instead.
+> [^4]:  This is the three-part test developed by the CJEU (CJEU - C‑13/16 - Rīgas satiksme).
+> [^5]:  See Art. 5(2) (accountability) as well as 24 GPDR (responsibility of the controller).
+> [^6]:  If you want to know more about legitimate interest, the UK ICO provides some very accessible information on its [website](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/what-is-the-legitimate-interests-basis/).
+> [^7]:  Art. 6(1) GDPR.
+> [^8]:  21 GDPR. The same goes for processing based on 6(1)(e).
+> [^9]:  21(3) GDPR.
+> [^10]: Kuner and others, Commentary On The EU General Data Protection Regulation (GDPR). A Commentary, 2020, p. 333.
+> [^11]: 21 GDPR.
