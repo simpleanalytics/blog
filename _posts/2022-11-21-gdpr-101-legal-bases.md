@@ -31,11 +31,11 @@ Today we will look closely at all the other legal bases for processing data unde
 
 Let's dive in!
 
-## 1.  What is a legal basis?
+## 1. What is a legal basis?
 
 In a nutshell: to process data lawfully, you need to rely on one of six legal bases listed by Article 6 GDPR. From a practical standpoint, consider these conditions as alternative requirements that must be satisfied when data needs to be processed.
 
-## 2.  What are the legal bases under the GDPR?
+## 2. What are the legal bases under the GDPR?
 
 Art. 6(1) lists six legal bases:
 
@@ -67,7 +67,7 @@ That being said, all grounds have specific requirements, and as a result, some a
   Caption of the image
 </p>
 
-## 4.  The legal bases
+## 4. The legal bases
 
 We already discussed consent, so we'll look at the other grounds. There is much to say about legal grounds, and we can only scratch the surface here.
 
