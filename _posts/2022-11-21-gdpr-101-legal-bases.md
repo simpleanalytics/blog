@@ -23,11 +23,11 @@ Today we will look closely at all the other legal bases for processing data unde
 2.  [What are the legal bases under the GDPR?](#2-what-are-the-legal-bases-under-the-gdpr)
 3.  [What legal basis should I choose?](#3-what-legal-basis-should-i-choose)
 4.  [The legal bases](#4-the-legal-bases)
-  4.1 [Contract](#41-contract)
-  4.2 [Legitimate interest](#42-legitimate-interest)
-  4.3 [Legal obligation](#43-legal-obligation)
-  4.4 [Vital interest](#44-vital-interest)
-  4.5 [Public interest or exercise of a public authority](#45-public-interest-or-exercise-of-a-public-authority)
+    1.  [Contract](#41-contract)
+    2.  [Legitimate interest](#42-legitimate-interest)
+    3.  [Legal obligation](#43-legal-obligation)
+    4.  [Vital interest](#44-vital-interest)
+    5.  [Public interest or exercise of a public authority](#45-public-interest-or-exercise-of-a-public-authority)
 
 Let's dive in!
 
