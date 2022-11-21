@@ -3,8 +3,8 @@ title: "GDPR 101: legal bases"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "This article takes a closer look at the different legal bases you can use for processing data under the GDPR"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-gdpr-101-legal-bases/social-image-gdpr-101-legal-bases.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-gdpr-101-legal-bases/social-image-gdpr-101-legal-bases.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/is-google-analytics-illegal-in-europe
@@ -62,9 +62,8 @@ So it comes down to a **case-by-case assessment**. For example, if the processin
 
 That being said, all grounds have specific requirements, and as a result, some are more readily available to certain controllers. Companies and other private entities typically rely on consent, contract, and legitimate interest. On the other hand, public entities usually rely on either legal obligation or public interest/authority[^3].
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
+<img src="https://assets.simpleanalytics.com/blog/2022-gdpr-101-legal-bases/social-image-gdpr-101-legal-bases.png" alt="GDPR legal bases" class="border-radius" />
 <p class="caption" markdown="1">
-  Caption of the image
 </p>
 
 ## 4. The legal bases
