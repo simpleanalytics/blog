@@ -10,7 +10,6 @@ related_posts:
  - /blog/is-google-analytics-illegal-in-europe
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 This article is a follow-up to our older blog about [consent under the GDPR](https://www.simpleanalytics.com/blog/gdpr-consent-101), where we briefly explained how consent works and what the limitations of consent are. We briefly mentioned that consent is not always necessary and that personal data can sometimes be lawfully processed without a data subject's consent.
