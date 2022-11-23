@@ -3,8 +3,8 @@ title: "France directs schools to stop using Microsoft Office & Google Workspace
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "the French Minister of Education clarified that French schools should not use Microsoft 365 and Google Workspace"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-france-directs-schools-to-stop-using-microsoft-office-and-google-workspace/social-image-france-directs-schools.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-france-directs-schools-to-stop-using-microsoft-office-and-google-workspace/social-image-france-directs-schools.png
 related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
