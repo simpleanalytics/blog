@@ -25,7 +25,7 @@ The reasons behind the Ministry's position are twofold. First, the Ministry is c
 
 *Note: Some of the links below are in French, as the news didn't get much international media coverage*
 
-## 1.  The privacy issues
+## 1. The privacy issues
 
 The privacy concerns raised by the use of Google Workspace are nothing new. As we explained [here](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us#2-us-data-transfers-a-long-story-short), personal data of foreign citizens can be subject to invasive State surveillance when transferred to the US. These privacy concerns led the EU Court of Justice to **invalidate two frameworks for EU-US data transfers** in the landmark Schrems I and II decisions. It is worth noting that the Minister explicitly mentioned Schrems II in his response.
 
@@ -35,7 +35,7 @@ In the aftermath of Schrems II, four European DPAs (the Austrian [DSB](https://g
 
 The CNIL is one of the DPAs that ruled against Google Analytics. By taking a strong stance on the use of Microsoft 365 and Google Workspace, the French government **embraced the CNIL's position** on data transfers. But this is not just about privacy.
 
-## 2.  Digital sovereignty
+## 2. Digital sovereignty
 
 Since last year, the French government has been pushing the **"cloud at the center" doctrine**: a long-term plan for developing digital infrastructure in the pursuit of **digital sovereignty**.
 
@@ -47,7 +47,7 @@ France is not alone in pushing toward digital sovereignty: [the EU digital strat
 
 The potential implications of a data sovereignty policy should not be overlooked. Providing companies with competitive EU-based alternatives to US providers can help keep more data within the Union, where data protection rights can be **enforced more easily**. And lessening the dependency on US-based services would allow the **EU better leverage** when negotiating international data transfer frameworks.
 
-## 3.  Final thoughts
+## 3. Final thoughts
 
 The EU Digital Strategy and Gaia-X are a step in the right direction, but the Union still has a long way to go. At the present moment, some US providers are practically irreplaceable.
 
