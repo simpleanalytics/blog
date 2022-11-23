@@ -2,7 +2,7 @@
 title: "GDPR 101: legal bases"
 author_slug: carlo
 author: Carlo Cilento
-excerpt: "This article takes a closer look at the different legal bases you can use for processing data under the GDPR"
+excerpt: "Take a closer look at the different legal bases you can use for processing data under the GDPR"
 image: https://assets.simpleanalytics.com/blog/2022-gdpr-101-legal-bases/social-image-gdpr-101-legal-bases.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-gdpr-101-legal-bases/social-image-gdpr-101-legal-bases.png
 related_posts:
