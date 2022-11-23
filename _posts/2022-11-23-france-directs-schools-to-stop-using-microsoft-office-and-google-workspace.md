@@ -10,7 +10,6 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/google-analytics-performance-impact-using-google-lighthouse
-draft: true
 ---
 
 In a recent [response](https://questions.assemblee-nationale.fr/q16/16-971QE.htm) to an interrogation by a Member of the Parliament, the French Minister of Education clarified that **French schools should not use Microsoft 365 and Google Workspace**.
