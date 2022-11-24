@@ -50,4 +50,4 @@ The potential implications of a data sovereignty policy should not be overlooked
 
 The EU Digital Strategy and Gaia-X are a step in the right direction, but the Union still has a long way to go. At the present moment, some US providers are practically irreplaceable.
 
-Fortunately, this is not the case for [Simple Analytics](https://www.simpleanalytics.com/). Unlike Google, we believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [check us out](https://simpleanalytics.com/simpleanalytics.com).
+Fortunately, Google Analytics is replacable. Unlike Google, [Simple Analytics](https://www.simpleanalytics.com/) believes in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [check us out](https://simpleanalytics.com/simpleanalytics.com).
