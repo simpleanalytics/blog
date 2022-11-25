@@ -97,6 +97,8 @@ To come back to the question of whether Google Analytics is illegal. We should n
 
 The fact that a task force has been created in which data protection agencies from various EU member states are involved implies a decision at the EDPB level. The consistency requirement within GDPR ensures that such decisions will be consistent across all member states. This would mean that Google Analytics is illegal in the EU.
 
+There is a debate going on whether the statements from various DPA's also hold for Google Analytics 4 (the new version of Google Analytics). The short answer is yes, so far the statements apply to every version of Google Analytics. We've written about this more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
+
 ## Final Thoughts
 
 Before concluding, it might be worthwhile to summarize what we've seen.
