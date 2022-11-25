@@ -58,6 +58,8 @@ In addition, CNIL notes that Google is offering more solutions that track IP add
 
 From the above, we can assume that fines will likely be stepping up. The fact that there are no circumstances under which Google Analytics can be used legally makes for straightforward guidelines. Therefore, enforcement of the ruling has never been easier. 
 
+There is a debate going on whether this only applies to the current version of Google Analytics (universal analytics). The short answer is that is applies to every version and setup of Google Analytics, so also to the newest version Google Analytics 4. We've written about this more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
+
 ## 4.  Solutions
 
 The first proposed solution was data encryption, where the key to decrypt the data should be in the hands of the data exporter (or a trusted third party based in the EU). This way, the data of EU citizens are protected from being handed to the U.S. intelligence service.
