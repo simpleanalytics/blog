@@ -64,6 +64,8 @@ The Italian situation is peculiar. In a [press release](https://www.garantepriva
 
 In practical terms, GA is also **banned in Denmark**. The Danish DPA was not involved in the 101 complaints and didn't settle any case on GA. It examined GA's on its own instead after other DPAs ruled against GA and declared in a recent [press release](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics) that it cannot be lawfully used unless effective supplementary measures are implemented. The only example they provided was a reference to the CNIL and EDPB's suggestion to set up a **proxy server** in order to anonymize all personal data. This is very complex and prohibitively expensive for most companies.
 
+There is a debate going on whether the statements apply to every version of Google Analytics or only to the current version (universal analytics). The short answer is that it applies to every Google Analytics setup or version. We've written about this more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
+
 ## 4. Where else will Google Analytics be illegal?
 
 Noyb's complaints were filed in front of every European DPA. No details are known about the complaints right now, but as we explained, some DPAs will likely follow the example set by Austria, France, and Italy.
