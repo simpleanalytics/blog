@@ -82,7 +82,9 @@ The link is where you can explain that Google Ireland Ltd. transfers data to Goo
 
 There is no need to reproduce the content of the clauses, but you could provide a link to Google's own documentation.
 
-Please note that **providing this information does not make the data transfer lawful**. Google Analytics is practically banned in four EU countries (Austria, France, Italy and Denmark) because the data transfers between Google Ireland and Google LLC were found to violate Chapter V of the GDPR, and more countries may follow. **There is nothing you can realistically do about this**: if you use Google Analytics, you are accepting a compliance risk. We wrote more about the topic [here](https://docs.google.com/document/u/0/d/1rQkixp7d936KmLWNnOMCr5mBV2VzJg-SfGA0eKhOF8c/edit)
+Please note that **providing this information does not make the data transfer lawful**. Google Analytics is practically banned in four EU countries (Austria, France, Italy and Denmark) because the data transfers between Google Ireland and Google LLC were found to violate Chapter V of the GDPR, and more countries may follow. **There is nothing you can realistically do about this**: if you use Google Analytics, you are accepting a compliance risk. We wrote more about the topic [here](https://docs.google.com/document/u/0/d/1rQkixp7d936KmLWNnOMCr5mBV2VzJg-SfGA0eKhOF8c/edit). 
+
+As a result of this, a debate has sparked on whether all version of Google Analytics are found to be unlawful or only the current version (universal analytics).The short answer is that the violations apply to both versions of Google Analytics. We've written about this more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
 
 > You have certain rights over your data: for example, you can require us to delete them or to provide you with a copy. We take responsibility for the processing of your data. We are available to answer any question and handle any request from you. Click **here** to read more about your rights and to find out how you can get in touch with us.
 
