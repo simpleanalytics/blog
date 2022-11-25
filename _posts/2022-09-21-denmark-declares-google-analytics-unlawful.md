@@ -59,6 +59,8 @@ The only example offered by the DPA is a reference to the position of the French
 
 No other measures are suggested, for the very good reason that none exist. This press statement is, for all practical purposes, a ban.
 
+There is a debate going on whether this statement also holds for Google Analytics 4. The short answer is yes, this applies to every version of Google Analytics. We've written about Google Analytics 4 more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
+
 ## 4. Final Thoughts 
 
 The recent decisions and the fact that a task force has been created on a European level make it highly likely that this is not the last decision we have seen.
