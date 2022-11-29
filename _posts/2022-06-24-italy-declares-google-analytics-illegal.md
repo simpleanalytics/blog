@@ -102,7 +102,7 @@ The only solution the CNIL might be open to is the total anonymization of all pe
 
 ## 5.  Updates 
 
-A lot has happened in the months following the GPDP decision, so here are some updates:*
+A lot has happened in the months following the GPDP decision, so here are some updates:
 
 - The GPDP decided on two more of the complaints, ruling against the use of Google Analytics again. This confirms what was obvious already: the first case set a crucial precedent, and any other cases will be decided accordingly. The second and third decisions were literally copy-pasted from the first.
 -   The Hungarian NAIH joined the DSB, CNIL, and GPDP in ruling against Google Analytics.
