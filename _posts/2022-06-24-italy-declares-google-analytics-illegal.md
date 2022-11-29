@@ -10,10 +10,10 @@ related_posts:
  - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
  - /blog/simple-analytics-easy-website-analytics-for-business-owners
  - /blog/why-its-time-to-move-away-from-google-analytics
-last_modified_at: 2022-09-20
+last_modified_at: 2022-11-29
 ---
 
-Italy has become the third country to ban Google Analytics officially. The news broke today after a careful examination concluded that Google Analytics violated GDPR law. You can find the statement [here](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english).
+Italy has become the third country to rule against the use of Google Analytics officially. The news broke today after a careful examination concluded that Google Analytics violated GDPR law. You can find the statement [here](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english).
 
 <details markdown="1">
 <summary>See the full article here</summary>
@@ -40,75 +40,83 @@ Italy has become the third country to ban Google Analytics officially. The news 
 
 This news only comes a week after CNIL (French Data Protection Agency) [published guidelines](https://blog.simpleanalytics.com/cnil-update-google-analytics-is-still-illegal) on the Google Analytics matter. These guidelines resulted from the statements made earlier this year in which [CNIL banned the use of Google Analytics](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling).
 
-It seems that more and more E.U. states are coming to the same conclusion: Google Analytics is illegal.
+More and more authorities are ruling against Google Analytics. This is not surprising: European data protection authorities **coordinated their approach** to cases involving Google Analytics’ data transfers. With coordination at a European level and the influential French and Italian DPAs leading the way, **we expect more authorities to follow the example**. *(Update: and the Hungarian DPA did).*
 
 {% include gif.html slug="oh-my-god" alt="oh my god" width="480" height="400" color="695957" %}
 
-1.  [Italy bans Google Analytics](#1--italy-bans-google-analytics)
-2.  [CNIL Q&A guidelines on Google Analytics](#2--cnil-qa-guidelines-on-google-analytics)
-3.  [Privacy Shield 2.0](#3--privacy-shield-20)
-4.  [Is Google Analytics illegal?](#4--is-google-analytics-illegal)
+1.  [Is Google Analytics really illegal in Italy?](#1-is-google-analytics-really-illegal-in-italy)
+2.  [What did the GPDP say exactly?](#2-what-did-the-GPDP-say-exactly)
+3.  [The issue with data transfers](#3-the-issue-with-data-transfers)
+4.  [The French CNIL Q&A Guidelines on Google Analytics](#4-the-french-cnil-qa-guidelines-on-google-analytics)
+5.  [Updates](#5-updates)
 
 Let's dive in!
 
-## 1.  Italy bans Google Analytics
+## 1.  Is Google Analytics really illegal in Italy?
 
-Italy is the third country to ban Google Analytics. This was concluded by Garante (the Italian Data Protection Authority) after a complex investigation in coordination with other European privacy authorities.
+In theory, no. In practice, yes.
 
-It reached the same conclusion as the DSB (Austrian Data Protection Authority), which was the first to rule the use of Google Analytics illegal. This has been the starting point for a chain reaction that led the French and now Italians to follow, and we'll see more in the coming months.
+The GPDP did not exactly say that you cannot use Google Analytics. It only forbids a specific website from doing so.
 
-The problem here is the transfer of personal data to the United States. Google is a U.S. company that qualifies as an "electronic communication service provider." This means that Google is by law obliged to disclose data to U.S. intelligence services if requested.
+So what is all the fuss about? Well, the GPDP's decision highlighted a **lack of safeguards** in the data transfers which are required to run Google Analytics. In theory, a different website could implement better safeguards and use Google Analytics in a GDPR-compliant way. **But in practice, no website is positioned to do so** (as we explained [here](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us#3-supplementary-measures-for-data-transfers)).
 
-The main reason for introducing the GDPR law in 2018 is to safeguard the privacy of E.U. citizens. The fact that Google transfers data to the U.S. and is obliged to hand it over upon request means the E.U. can no longer guarantee its citizens' privacy.
+So while the ruling does not technically ban Google Analytics, **it sets a precedent that practically amounts to a State-wide ban**. The same goes for every decision so far. In practical terms, Google Analytics is banned from Austria, France, and Italy  (edit: and now Hungary too).
 
-In declaring that the processing was unlawful, Garante stated that IP addresses were processed by Google and thus consisted of transferring personal data. Even if it were truncated, it would not become anonymous data, given Google's ability to enrich it with other data in its possession.
-
-This is a very important nuance. It means that even if you anonymize IP addresses (like GA4 or Matomo), it's still considered personal data.
+Privacy professionals and marketers are well aware that the recent decisions against Google Analytics practically amount to declaring it unlawful. This is why the rulings have drawn so much media attention.
 
 <img src="https://assets.simpleanalytics.com/blog/2022-italy-bans-google-analytics/social-media-no-text.png" alt="Italy bans Google Analytics" class="border-radius" />
 <p class="caption" markdown="1">
   The next domino is falling, Italy bans Google Analytics
 </p>
 
-## 2.  CNIL Q&A Guidelines on Google Analytics
+## 2.  What did the GPDP say exactly?
+
+An Italian news outlet *(caffeinamagazine)* used Google Analytics. When Google Analytics processes data, the information is sent from Google Ireland to its parent company Google in the US. This data transfer is only lawful under the GPDR when the data protection rights of the user can be adequately protected. According to the Schrems II ruling, the data controller must implement **effective safeguards** to keep the data confidential against US surveillance.
+
+The GPDP considered all the safeguards in place for the data transfers and found them **insufficient**. (Non-end-to-end) encryption is insufficient because Google holds the key and can be required to hand them over to State agencies. The contractual safeguards in place between Google Ireland and Google are insufficient without any technical measures. The GPDP also clarified that the user's IP address is personal data even when anonymized by Google because Google employs **very weak anonymization**.
+
+None of this is new. In fact, the GPDP is only repeating what the Austrian and French DPAs already clarified, and all authorities simply apply the criteria laid out by the **Schrems II judgment**.
+
+## 3.  The issue with data transfers
+
+But what makes data transfers to the US so problematic? Why do we need safeguards for them? Companies such as Google, Facebook, and AWS can be required to **hand over personal data of foreigners to US agencies** under US law (FISA Section 702).
+
+Google's privacy concerns are nothing new. In 2013, the **Snowden files** revealed that foreign citizens' personal data could be subject to invasive State surveillance when transferred to the US. [The Snowden revelations unlighted two broad intelligence collection programs (Upstream and PRISM) authorized under FISA](https://noyb.eu/en/project/eu-us-transfers). Concerns over the broad scope of FISA and the lack of effective remedies against US surveillance led the EU Court of Justice to **invalidate two data transfer frameworks** between the EU and the US in the landmark Schrems I and II decisions.
+
+The 2020 Schrems II ruling has far-reaching implications for European companies. In principle, data can still be transferred to the US without any data transfer framework. However, the CJEU clarified that European companies must ensure the confidentiality of data transfers by **implementing adequate safeguards against State surveillance**. In practical terms, **this is hard to do and entirely impossible for certain cloud-based services** (we wrote about this [here](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us#3-supplementary-measures-for-data-transfers)).
+
+In the aftermath of Schrems II, privacy NGO noyb filed [101 identical complaints against data transfers](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) centered on the use of Google Analytics and Facebook Connect. The complaints involve all EU DPAs and constitute a **strategic effort** to nudge Europe towards stricter enforcement of the rules clarified in Schrems II.
+
+As we said, DPAs [coordinated their approach to these complaints at a European level](https://edpb.europa.eu/news/news/2020/european-data-protection-board-thirty-seventh-plenary-session-guidelines-controller_en). As a result, three European DPAs (the Austrian [DSB](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), the French [CNIL](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), and now the Italian [GPDP](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890)) *(update: and the Hungarian NAIH)* **ruled against the use of Google Analytics**. In line with the Schrems II ruling, the DPAs found the data transfers from Google Ireland to Google LLC to be **unlawful** because they **lacked effective safeguards against US surveillance**.
+
+## 4.  The French CNIL Q&A Guidelines on Google Analytics
 
 In their Q&A last week, CNIL addressed all the questions raised after they announced Google Analytics to be illegal in February of this year. Since then, Google has suggested different approaches to making sure Google Analytics can be used safely within the E.U. law. However, CNIL concluded that it is technically impossible to use Google Analytics compliantly.
 
-Google has suggested different solutions that were shut down immediately by CNIL:
+Google has suggested different solutions that were shut down by CNIL:
 
--   Anonymizing data is not a valid solution because Google could not demonstrate that it does this before transferring the data to the U.S.
--   Data encryption is invalid because if Google still holds the keys, they still have access.
+-   IP anonymization is not a valid solution because Google could not demonstrate that anonymization takes place before transferring the data to the U.S.
+-   Data encryption is an ineffective safeguard because Google holds the keys and can be required to hand it over to State agencies.
 
-CNIL also stated that a legal agreement between the E.U. & the U.S. is far from established.
+The only solution the CNIL might be open to is the total anonymization of all personal data through a proxy server. This solution is expensive and burdensome for most companies. It also makes it **impossible to use cookies**, which severely limits the analytic capabilities of Google Analytics.
 
-## 3.  Privacy Shield 2.0
+## 5.  Updates 
 
-All of this has been kicked off by [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/), which invalidated the privacy shield. The privacy shield meant that data transfers outside the E.U. were only possible if adequate safeguards were in place.
+*A lot has happened in the months following the GPDP decision, so here are some updates:*
 
-Schrems II invalidated this and made it painfully clear that these safeguards for data transfer to the U.S. were not in place. It took a while (1,5 years) for the first E.U. member states to take action to protect the privacy of their citizens. First the Austrian DSB, then the French CNIL, and now the Italian Garante.
-
-After the DSB & CNIL declared the use of Google Analytics illegal, The E.U. and U.S. announced an agreement on a new framework for transatlantic data flow, known as the [Privacy Shield 2.0.](https://blog.simpleanalytics.com/eu-us-privacy-shield-2-0-is-again-a-political-show) However, it became apparent quickly that this agreement had zero legal merits. The announcement was meant as an 'agreement in principle.' It might take very long before a legal document is signed.
-
-## 4.  Is Google Analytics illegal?
-
-This is a broad question because it ultimately depends on where you live. This article covers the fact that the Italian Data Protection Authority publicly stated that using Google Analytics is illegal as long as the privacy shield is invalidated. The focus of the statement is on the use of Google Analytics. Still, the same conclusion would also hold for companies like Mailchimp or any other company that processes personal data and is marked as an “electronic communication service provider” by the U.S. government. 
-
-To come back to the question of whether Google Analytics is illegal. We should narrow it down to whether Google Analytics is illegal in Europe. Italy, France, and Austria have already publicly stated this, but what about other EU member states? 
-
-The fact that a task force has been created in which data protection agencies from various EU member states are involved implies a decision at the EDPB level. The consistency requirement within GDPR ensures that such decisions will be consistent across all member states. This would mean that Google Analytics is illegal in the EU.
-
-There is a debate going on whether the statements from various DPA's also hold for Google Analytics 4 (the new version of Google Analytics). The short answer is yes, so far the statements apply to every version of Google Analytics. We've written about this more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
+*- The GPDP decided on two more of the complaints, ruling against the use of Google Analytics again. This confirms what was obvious already: the first case set a crucial precedent, and any other cases will be decided accordingly. The second and third decisions were literally copy-pasted from the first.
+*-   The Hungarian NAIH joined the DSB, CNIL, and GPDP in ruling against Google Analytics.
+*-   the Danish DPA essentially embraced the same approach in a press release on the use of Google Analytics.
+*-   A new framework for EU-US data transfers is on the way. The new framework is still problematic in some respects and will undoubtedly face a challenge in Court. We're looking at yet another Schrems ruling, and it's hard to say how it will play out.
+*-   We wrote two blogs about [data transfers in general](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us) and [Google Analytics' troubles with data transfers](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics). These contain more in-depth information on the topics.
 
 ## Final Thoughts
 
-Before concluding, it might be worthwhile to summarize what we've seen.
+Before concluding, it might be worthwhile to summarize what we've seen:
 
-In short:
-
--   After Austria & France, Italy is the third country to declare Google Analytics illegal
--   It's technically not possible to use Google Analytics in a compliant way
--   There won't be a legal framework very soon that says otherwise
--   The consistency requirement within GDPR ensures consistency across all member states
+-   Multiple DPAs have ruled against Google Analytics so far
+-   DPAs follow a coordinated approach, and two influential DPAs lead the way. Other authorities are likely to follow (update: the Hungarian DPA did)
+-   Decisions are nearly identical and practically amount to a Statewide ban.
 
 Also worth mentioning: **Consumers demand privacy**.
 
