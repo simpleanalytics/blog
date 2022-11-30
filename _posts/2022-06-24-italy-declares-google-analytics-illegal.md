@@ -45,7 +45,7 @@ More and more authorities are ruling against Google Analytics. This is not surpr
 {% include gif.html slug="oh-my-god" alt="oh my god" width="480" height="400" color="695957" %}
 
 1.  [Is Google Analytics really illegal in Italy?](#1-is-google-analytics-really-illegal-in-italy)
-2.  [What did the GPDP say exactly?](#2-what-did-the-GPDP-say-exactly)
+2.  [What did the GPDP say exactly?](#2-what-did-the-gpdp-say-exactly)
 3.  [The issue with data transfers](#3-the-issue-with-data-transfers)
 4.  [The French CNIL Q&A Guidelines on Google Analytics](#4-the-french-cnil-qa-guidelines-on-google-analytics)
 5.  [Updates](#5-updates)
