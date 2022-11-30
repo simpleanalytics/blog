@@ -29,7 +29,7 @@ So what happened last month? Let’s find out!
 
 
 
-## 1. [EU Parliament investigates State spyware, EDPS chimes in](https://iapp.org/news/a/former-uber-cso-convicted-of-2016-data-breach-coverup/)
+## 1. [EU Parliament investigates State spyware, EDPS chimes in](https://www.europarl.europa.eu/committees/en/pega-findings/product-details/20221114CAN67684)
 
 On November 8, a Committee of inquiry of the European Parliament published a report on the use of spyware by European Governments.
 
