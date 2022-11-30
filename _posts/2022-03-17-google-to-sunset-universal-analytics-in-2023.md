@@ -11,6 +11,7 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/simple-analytics-for-marketers
 lang: en
+last_modified_at: 2022-11-30
 ---
 
 [Google just announced](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) that it will sunset Universal Analytics in favor of G4 Analytics. This is a huge blow for marketers that have relied on the current version for a long time. Is this the right time to switch, or is G4 Analtyics worth it?
