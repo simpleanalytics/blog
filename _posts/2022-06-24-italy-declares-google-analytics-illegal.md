@@ -102,13 +102,13 @@ The only solution the CNIL might be open to is the total anonymization of all pe
 
 ## 5.  Updates 
 
-A lot has happened in the months following the GPDP decision, so here are some updates:
-
-- The GPDP decided on two more of the complaints, ruling against the use of Google Analytics again. This confirms what was obvious already: the first case set a crucial precedent, and any other cases will be decided accordingly. The second and third decisions were literally copy-pasted from the first.
--   The Hungarian NAIH joined the DSB, CNIL, and GPDP in ruling against Google Analytics.
--   the Danish DPA essentially embraced the same approach in a press release on the use of Google Analytics.
--   A new framework for EU-US data transfers is on the way. The new framework is still problematic in some respects and will undoubtedly face a challenge in Court. We're looking at yet another Schrems ruling, and it's hard to say how it will play out.
--   We wrote two blogs about [data transfers in general](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us) and [Google Analytics' troubles with data transfers](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics). These contain more in-depth information on the topics.
+> A lot has happened in the months following the GPDP decision, so here are some updates:
+>
+> - The GPDP decided on two more of the complaints, ruling against the use of Google Analytics again. This confirms what was obvious already: the first case set a crucial precedent, and any other cases will be decided accordingly. The second and third decisions were literally copy-pasted from the first.
+> -   The Hungarian NAIH joined the DSB, CNIL, and GPDP in ruling against Google Analytics.
+> -   the Danish DPA essentially embraced the same approach in a press release on the use of Google Analytics.
+> -   A new framework for EU-US data transfers is on the way. The new framework is still problematic in some respects and will undoubtedly face a challenge in Court. We're looking at yet another Schrems ruling, and it's hard to say how it will play out.
+> -   We wrote two blogs about [data transfers in general](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us) and [Google Analytics' troubles with data transfers](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics). These contain more in-depth information on the topics.
 
 ## Final Thoughts
 
