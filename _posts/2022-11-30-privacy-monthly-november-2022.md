@@ -10,7 +10,6 @@ related_posts:
  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
  - /blog/how-to-delete-google-analytics-in-4-steps
  - /blog/google-analytics-performance-impact-using-google-lighthouse
-draft: true
 ---
 
 Welcome to our new monthly blog. We will briefly cover some of the most important privacy news once a month.
@@ -42,7 +41,7 @@ Shortly after the report was published, the European Data Protection Supervisor 
 
 Between the inhumane treatment of the migrant workforce and allegations of corruption against FIFA officials, there is no lack of controversy around the Qatar World Cup. State spyware is the cherry on the cake.
 
-The Kingdom of Qatar requires foreigners to install two apps on their phones to attend the World Cup. Several European data protection authorities recently found that these apps are highly invasive and cautioned against their use. According to the German DPA, the apps process much more data than their privacy notices suggest, to the point that the user's calls can be monitored. In other words, the apps are essentially State spyware. The Norwegian and French DPAs echoed these concerns and went as far as to recommend the use of burner phones to attend the World Cup.
+The Kingdom of Qatar requires foreigners to install two apps on their phones to attend the World Cup. Several European data protection authorities recently found that these apps are highly invasive and cautioned against their use. According to the German DPA, the app processes much more data than its privacy notices suggest, to the point that the user's calls can be monitored. In other words, the apps are essentially State spyware. The Norwegian and French DPAs echoed these concerns and went as far as to recommend the use of burner phones to attend the World Cup.
 
 ## 3. [Google pays record settlement over location data](https://www.doj.state.or.us/media-home/news-media-releases/largest-ag-consumer-privacy-settlement-in-u-s-history/)
 
@@ -68,7 +67,7 @@ Another bill was introduced to the Parliament earlier this year and later withdr
 
 On October 27, Google announced it would push back the sunsetting of Universal Analytics 360 properties to July 2024. Universal Analytics properties will still be deprecated in 2023 as planned.
 
-This is the second time Google delays the deprecation of UA, which was initially scheduled for 2022. Earlier this year, the company also [extended support for third-party cookies in Google Chrome](https://blog.google/products/chrome/update-testing-privacy-sandbox-web/). UA uses third-party cookies, so the delay for Universal Analytics has probably been on Google's mind for a while now.
+This is the second time Google has delayed the deprecation of UA, which was initially scheduled for 2022. Earlier this year, the company also [extended support for third-party cookies in Google Chrome](https://blog.google/products/chrome/update-testing-privacy-sandbox-web/). UA uses third-party cookies, so the delay for Universal Analytics has probably been on Google's mind for a while now.
 
 ## 7. [Class action against Github Copilot project](https://www.wired.com/story/this-copyright-lawsuit-could-shape-the-future-of-generative-ai/)
 
@@ -92,8 +91,8 @@ In 2016 the Federal Trade Commission was investigating a [massive breach](https:
 
 ## 10. [CJEU to rule on compensation for GDPR infringements](https://www.technologylawdispatch.com/2022/10/privacy-data-protection/mere-upset-insufficient-for-compensation-under-the-gdpr/)
 
-Three years ago the Austrian postal service was involved in a [scandal](https://edri.org/our-work/austrian-postal-service-involved-in-a-data-scandal/) for profiling citizens and selling the data to third parties for purposes of advertising and political propaganda. A citizen claimed compensation in an Austrian court after being labeled as a right-wing supporter by the postal service, and the Austrian Supreme Court referred three questions to the Court of Justice.
+Three years ago, the Austrian postal service was involved in a [scandal](https://edri.org/our-work/austrian-postal-service-involved-in-a-data-scandal/) for profiling citizens and selling the data to third parties for advertising and political propaganda. A citizen claimed compensation in an Austrian court after being labeled as a right-wing supporter by the postal service. The Austrian Supreme Court referred three questions to the Court of Justice.
 
-The Court will clarify whether harm is a requirement for compensation for GDPR violations, and whether mere upset over a violation amounts to harm. The Court will also deal with issues related to the harmonization of Member State private law. The ruling may have far reaching implications for GDPR enforcement in courts.
+The Court will clarify whether harm is a requirement for compensation for GDPR violations and whether mere upset over a violation amounts to harm. The Court will also deal with issues related to harmonizing of Member States' private law. The ruling may have far-reaching implications for GDPR enforcement in courts.
 
 Advocate-General Campos Sánchez-Bordona issued his [opinion](https://curia.europa.eu/juris/document/document.jsf?mode=lst&pageIndex=1&docid=266842&part=1&doclang=EN&text=&dir=&occ=first&cid=1939107) on the case last month.
