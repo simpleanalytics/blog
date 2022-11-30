@@ -7,9 +7,9 @@ image: https://assets.simpleanalytics.com/blog/2022-
 image_no_text: https://assets.simpleanalytics.com/blog/2022-
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/google-analytics-performance-impact-using-google-lighthouse
+ - /blog/website-analytics-without-cookies
+ - /blog/is-google-analytics-illegal-in-europe
+ - blog/is-google-analytics-4-gdpr-compliant
 draft: true
 ---
 
