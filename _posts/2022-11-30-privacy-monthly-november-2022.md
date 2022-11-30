@@ -1,8 +1,8 @@
 ---
 title: "Privacy Monthly: November"
-author_slug: iron
-author: Iron Brands
-excerpt: "Short description of the post"
+author_slug: carlo
+author: Carlo Cilento
+excerpt: "Every month Simple Analytics summarizes the most important privacy events. Here is our November recap"
 image: https://assets.simpleanalytics.com/blog/2022-privacy-monthly-november-2022/social-image-privacy-monthly-november-2022.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-privacy-monthly-november-2022/social-image-privacy-monthly-november-2022.png
 related_posts:
