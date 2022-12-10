@@ -3,8 +3,8 @@ title: "Meta targeted advertising not GDPR compliant, says the EDPB"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Short description of the post"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-meta-targeted-advertising/social-image-meta-targeted-advertising.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-meta-targeted-advertising/social-image-meta-targeted-advertising.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
