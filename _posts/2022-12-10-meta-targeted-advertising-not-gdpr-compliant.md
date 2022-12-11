@@ -10,7 +10,6 @@ related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
  - blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 As the [Wall Street Journal](https://www.wsj.com/articles/metas-targeted-ad-model-faces-restrictions-in-europe-11670335772) reported, the European Data Protection Board found that **Meta has been illegally profiling users for targeted advertising** on its platforms. The decision can be appealed but is unlikely to be overturned. No information about sanctions is available at the moment, but given the amount of personal data involved, we might see **a** **hefty fine**.
