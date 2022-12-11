@@ -1,8 +1,8 @@
 ---
-title: "Meta targeted advertising not GDPR compliant, says the EDPB"
+title: "Meta targeted advertising not GDPR compliant"
 author_slug: carlo
 author: Carlo Cilento
-excerpt: "Short description of the post"
+excerpt: "The European Data Protection Board found that Meta has been illegally profiling users for targeted advertising on its platforms"
 image: https://assets.simpleanalytics.com/blog/2022-meta-targeted-advertising/social-image-meta-targeted-advertising.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-meta-targeted-advertising/social-image-meta-targeted-advertising.png
 related_posts:
