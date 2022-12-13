@@ -10,7 +10,6 @@ related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
  - blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 
