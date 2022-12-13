@@ -32,7 +32,7 @@ Let’s dive in!
 
 ## 1. The requirements for consent
 
-### 1.1 Freely given
+### Freely given
 
 In a nutshell, consent is freely given when **the data subject has a real choice in the matter[^3]**. This typically doesn’t happen when there is a **power imbalance** between the data controller and the data subject.
 
@@ -40,22 +40,22 @@ An **employment relationship** is a textbook example of constrained consent beca
 
 Individual autonomy is an age-old problem in law: people may be free on paper while subject to economic, cultural and social pressure. Data protection law is no exception, so there is a grey area regarding freely given consent.
 
-### 1.2 Specific
+### Specific
 
 Consent is specific when it is **given for a specific purpose**. For example, you cannot ask for an email to provide your audience with a newsletter and then use the data to send promotions. In that case, you need to collect two distinct consents, one for each purpose.
 
 This requirement goes hand in hand with the requirement for **informed consent** and with the principle of purpose limitation:
 
--   purpose limitation means that data must always be collected and processed with a specific, explicit, and legitimate purpose in mind
--   informed consent means the subject must know exactly what he is consenting to, including the purpose of the processing.
+-   *purpose limitation* means that data must always be collected and processed with a specific, explicit, and legitimate purpose in mind
+-   *informed consent* means the subject must know exactly what he is consenting to, including the purpose of the processing.
 
-### 1.3 Informed
+### Informed
 
 Consent is informed when the data subject is provided with certain information, including the controller's identity, the purpose of the processing, the types of data processed, the right to withdraw consent, and whether the data will be disclosed to third parties[^5].
 
 Article 13 also plays a role here. The article is a laundry list of information that needs to be provided by the controller, whatever legal basis they might be relying on. Article 13 is the reason privacy policies are long and boring.
 
-### 1.4 Unambiguous
+### Unambiguous
 
 Consent is unambiguous when given through a clear affirmative action. In other words, **there is no such thing as implicit consent under the GDPR**. This is why opt-out systems or pre-ticked boxes[^6] can never be used to collect valid consent.
 
@@ -67,7 +67,7 @@ To put it mildly, the notion of explicit consent is not crystal clear. Implicit 
 
 ## 2. When is consent problematic? Some examples
 
-### 2.1 Bundled consent
+### Bundled consent
 
 “Bundled consent” is a sadly common situation where a customer is forced to consent to the processing of their data to conclude a contract, even though the contract doesn’t really require the processing. In other words, the data processing is “bundled” with the contract, typically as a form of payment.
 
@@ -75,7 +75,7 @@ To be clear, you can collect consent for processing data as part of a contract[^
 
 Article 7 says that bundled consent is problematic concerning consent. Unfortunately, the Article doesn’t entirely outlaw the practice of bundled consent but rather gives a warning or “yellow card” of sorts. The wiggle room left by the Article allows companies some grey areas to take advantage of. As a result, some Internet services still use bundled consent to extract data as payment, especially when they enjoy a monopoly position and have little or no alternatives. On the other hand, DPAs and Courts can enforce Article 7 strictly- and we hope they do.
 
-### 2.2 Cookie walls
+### Cookie walls
 
 “Cookie walls” are pop-ups implemented by websites (typically news outlets) to **prevent the user from accessing certain content unless they agree to the use of cookies.**
 
@@ -85,7 +85,7 @@ Cookie walls are similar to bundled consent in that they allow a controller to c
 
 Additionally, the publisher can also generate revenue from non-personalized advertisements based on the content of the news- which doesn’t require the processing of personal data at all.
 
-### 2.3 Deceptive design
+### Deceptive design
 
 “Deceptive design” or “dark patterns” is the practice of designing **unclear or deceiving UI to nudge a user towards a desired action,** such as purchasing a product, downloading software, subscribing to a service, or consenting to the processing of personal data.
 
