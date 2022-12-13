@@ -3,8 +3,8 @@ title: "GDPR 101: When is consent valid?"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Short description of the post"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-gdpr-101-when-is-consent-valid/social-image-gdpr-101-when-is-consent-valid.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-gdpr-101-when-is-consent-valid/social-image-gdpr-101-when-is-consent-valid.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
@@ -13,44 +13,22 @@ related_posts:
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
 
 Consent is important in data protection because it allows individuals to control how their personal information is collected, used, and shared- nobody likes the idea that soameone else can monitor them or process their personal data without their consent! Consent is essential in the GDPR, which is why we wrote about it in our [blog](https://www.simpleanalytics.com/blog/gdpr-consent-101) a while ago. We also explained in our blog on legal bases that consent is not, in principle, required to process personal data under the GDPR: other legal bases exist in the GDPR, each with its own use cases and limitations.
 
 Consent is also **easy to abuse**: it’s not hard to force or trick someone into agreeing to something they don’t want. This is why data protection law (and law in general) sets out specific requirements for consent to be valid.
 
+{% include gif.html slug="feel-violated" alt="feel-violated" width="480" height="270" color="#78605b" %}
+
 The GDPR is no exception. Consent under the GDPR must be **freely given, specific, informed, and unambiguous**. Additionally, it must be possible to withdraw consent. These requirements are very important in practice!
 
--   The requirements for consent
-    -   Freely given
-    -   Specific
-    -   Informed
-    -   Unambiguous
--   The requirements for consent
-    -   Freely given
-    -   Specific
-    -   Informed
-    -   Unambiguous
--   When is consent problematic? Some examples
-
-2.1 Bundled consent
-
-2.2 Cookie walls
-
-2.3 Deceptive design
-
--   Conclusion
+1. [The requirements for consent](#1-the-requirements-for-consent)
+2. [When is consent problematic? Some examples](#3-when-is-consent-problematic-some-examples)
+4. [Conclusion](#4-conclusion)
 
 Let’s dive in!
 
-## 1\. The requirements for consent
+## 1. The requirements for consent
 
 ### 1.1 Freely given
 
@@ -85,7 +63,7 @@ The notion of unambiguous consent overlaps with that of explicit consent. Explic
 
 To put it mildly, the notion of explicit consent is not crystal clear. Implicit consent is never valid, so it’s hard to say what explicit means exactly and how explicit consent differs from unambiguous consent. But as a rule of thumb, it’s probably safe to think of explicit consent as very unambiguous consent.
 
-## 2\. When is consent problematic? Some examples
+## 2. When is consent problematic? Some examples
 
 ### 2.1 Bundled consent
 
@@ -115,7 +93,7 @@ The average Internet visitor is presented with countless such banners while brow
 
 Last year the European Data Protection Board set up a [cookie banner task force](https://edpb.europa.eu/news/news/2021/edpb-establishes-cookie-banner-taskforce_en), as a response to numerous complaints against deceptive cookie banners by NGO noyb. The last time such a task force was set up, Google Analytics ended up being banned in several EU Member States (we wrote about it [here](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics)), so there is hope for a crackdown on deceptive banners in the future.
 
-## 3\. Conclusion
+## 3. Conclusion
 
 The requirements for consent are meant to ensure the user is in control of their data. Unfortunately, this is often not the case. Many companies want to collect as much data as possible, and often ignore data protection rules or find clever ways to circumvent them. Day by day, this hoarding, data-greedy mindset is turning the Internet into a surveillance machine.
 
