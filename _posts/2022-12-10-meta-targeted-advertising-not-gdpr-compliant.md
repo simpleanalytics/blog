@@ -20,9 +20,9 @@ In this blog, we will explain the deal with Meta and why it’s a **consequence 
 
 {% include gif.html slug="its-bigger-on-the-inside" alt="its-bigger-on-the-inside" width="500" height="500" color="#5a391b" %}
 
-1.  The decision
-2.  Data is not a commodity
-3.  Conclusions
+1.  [The decision](#1-the-decision)
+2.  [Data is not a commodity](#2-data-is-not-a-commodity)
+3.  [Conclusions](#3-conclusions)
 
 Let’s dive in!
 
