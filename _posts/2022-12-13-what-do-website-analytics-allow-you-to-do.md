@@ -41,7 +41,7 @@ Visitor insights (meaning where they click, which device they use and where they
 
 Once you have installed a website analytics tool, you can see information about your visitors in a dashboard. For illustration, the gif below is the dashboard provided by Simple Analytics. As you can see, it's easy to understand how your website performs, and it provides insights into where the visitors are coming from (referral) and where they are located.
 
-{% include gif.html slug="sa-dashboard" alt="sa-dashboard" width="800" height="790" color="#eef6f9" %}
+{% include video.html slug="filters" formats="mp4,ogg,webm,wmv" poster="video.png" %}
 
 ## 2. What metrics are collected by website analytics tools?
 
