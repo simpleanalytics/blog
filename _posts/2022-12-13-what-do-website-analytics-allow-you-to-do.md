@@ -15,8 +15,6 @@ draft: true
 
 First paragraph
 
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
 <img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
 <p class="caption" markdown="1">
   Caption of the image
@@ -24,31 +22,25 @@ First paragraph
 
 Rest of the article
 
-
-
 Everyone with some time on their hands can create and launch a website. Within a few clicks, you're in business (well, maybe a bit more, but you get the point).
 
 Once you’ve created your website, you want to see if people will come and visit, right? Being able to create your own website is the first step, but then what? Once your page attracts visitors, you want to know whether they like it and whether they can find the stuff they are looking for.
 
 Using website analytics, you can see the performance of your website and optimize it for a better visitor experience. Sounds fantastic, right?
 
-![](https://lh5.googleusercontent.com/CvEwviVydWv1lTaxg5ILvotvfTcFFnvlPno6YS5FP3JxKWwOJ0Vk-zCNAOueGLtYjfH14zfCVbVx-qOymUq3CjkVY097Kan6O8fRp2qgH3rt3bnaOPyG6hkQqHT6on6kl9WKrgGbh7fuiuk3d5i8z3HkicAFTix7Ajr9fOwqhZeH8zweqyKsm_0Edlc7gqVv)
+{% include gif.html slug="oh-wow" alt="oh-wow" width="480" height="400" color="#957a74" %}
 
 But what can you improve exactly, and how should you do this?
 
 Let’s dive in!
 
 1.  What are website analytics?
-
 2.  What types of data are used?
-
 3.  How can this be useful for your website?
-
 4.  Website optimization using website analytics
-
 5.  Different web analytics tools
 
-## 1\. What are website analytics?
+## 1. What are website analytics?
 
 Because of the rising number of technologies, the amount of corresponding data keeps growing. This data can be beneficial (if approached in the right way).
 
@@ -58,9 +50,9 @@ Visitor insights (meaning where they click, which device they use and where they
 
 Once you have installed a website analytics tool, you can see information about your visitors in a dashboard. For illustration, the gif below is the dashboard provided by Simple Analytics. As you can see, it's easy to understand how your website performs, and it provides insights into where the visitors are coming from (referral) and where they are located.
 
-![](https://lh3.googleusercontent.com/7NuYZXPOrJDEOFYtADULdB13KDN8yPQhqdmpuu2SuGo6oRaJBrj5E8byLgZjGWbyfuNECZRiERpt0lebH533WRMZzCa7BCGeCC27tiGrRGgp6eS9Acb0tlOvUnEc4lkoqaWk648PiP8RPCGSZE7G9mVI98xLtByffbic0LXZkTWMODsEyoRb8TXSFtOLzQ-D)
+{% include gif.html slug="sa-dashboard" alt="sa-dashboard" width="800" height="790" color="#eef6f9" %}
 
-## 2\. What metrics are collected by website analytics tools?
+## 2. What metrics are collected by website analytics tools?
 
 As mentioned, web analytics allows you to collect data from your users to optimize your website based on their behavior. But what specific metrics are collected? Short answer: This highly depends on what kind of analytics tool you are using.
 
@@ -72,7 +64,7 @@ There are also different analytics tools, like [Simple Analytics](https://www.si
 
 Coming back to the metrics. Most analytics will show you where your visitors are coming from (direct, Google, Facebook, etc.) and also which pages they visit. In addition, you can see the time visitors spend on a page, their location, the device they use to visit the website, and their browser information is also included.
 
-## 3\. How are website analytics useful for your business?
+## 3. How are website analytics useful for your business?
 
 Yes, I hear your questions: “Okay, cool, but how can this be useful for my business?”
 
@@ -82,7 +74,7 @@ Metrics like time on page, bounce rate, etc., can clearly indicate whether visit
 
 If you can measure it, you can improve it, right? This way, web analytics can be a massive advantage for your business, and we’ll show you how!
 
-## 4\. How to optimize your website using web analytics?
+## 4. How to optimize your website using web analytics?
 
 First and foremost, web analytics provides valuable insights into website visitors' behavior. This information can be used to understand customer preferences and tailor content to meet their needs. For example, web analytics can reveal the most popular pages on a website, the time visitors spend on each page, and the traffic sources. This information can be used to prioritize creating and optimizing content that is likely to attract and engage potential customers.
 
@@ -96,14 +88,14 @@ Lastly, you can also optimize your conversion rate (meaning the number of visito
 
 In short, website analytics gives you insights into your performance and lets you capture opportunities to improve.
 
-## 5\. Different web analytics tools
+## 5. Different web analytics tools
 
 Multiple analytics tools on the market approach website analytics in different fashions. Some are very complex and focused on enterprise organizations or companies with large marketing teams. Others, like Simple Analytics, focus on simplicity and privacy-friendliness. We’ve compiled a list of a few different web analytics tools below:
 
--   Google Analytics - this is the most well-known, free web analytics tool. It does not guarantee your users’ privacy and is rather complex. It requires training before you will be able to use it optimally.
--   Simple Analytics - this is us. We focus on being privacy-friendly and ease of use. We are cookieless by design (so you don’t need a cookie banner), and we don’t collect any personal data.
--   Adobe Analytics - this is another complex analytics tool that focuses on enterprise customers and replicates much of the insights that Google Analytics provides.
--   Matomo - this is a free and open-source web analytics tool. It measures traffic on web pages and corresponding user behavior.
+-   **Google Analytics** - this is the most well-known, free web analytics tool. It does not guarantee your users’ privacy and is rather complex. It requires training before you will be able to use it optimally.
+-   **Simple Analytics** - this is us. We focus on being privacy-friendly and ease of use. We are cookieless by design (so you don’t need a cookie banner), and we don’t collect any personal data.
+-   **Adobe Analytics** - this is another complex analytics tool that focuses on enterprise customers and replicates much of the insights that Google Analytics provides.
+-   **Matomo** - this is a free and open-source web analytics tool. It measures traffic on web pages and corresponding user behavior.
 
 Which tool is the most effective for your website is context-dependent. However, if you have chosen a web analytics tool that suits your needs and you apply it correctly, you will gain very useful insights and be able to optimize your website where needed.
 
