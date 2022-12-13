@@ -25,8 +25,8 @@ Consent is also **easy to abuse**: it’s not hard to force or trick someone int
 The GDPR is no exception. Consent under the GDPR must be **freely given, specific, informed, and unambiguous[^2]**. Additionally, it must be possible to withdraw consent. These requirements are very important in practice!
 
 1. [The requirements for consent](#1-the-requirements-for-consent)
-2. [When is consent problematic? Some examples](#3-when-is-consent-problematic-some-examples)
-4. [Conclusion](#4-conclusion)
+2. [When is consent problematic? Some examples](#2-when-is-consent-problematic-some-examples)
+4. [Conclusion](#3-conclusion)
 
 Let’s dive in!
 
