@@ -2,7 +2,7 @@
 title: "GDPR 101: When is consent valid?"
 author_slug: carlo
 author: Carlo Cilento
-excerpt: "Short description of the post"
+excerpt: "Consent abuse is not hard. So when is consent actually valid? Let's find out"
 image: https://assets.simpleanalytics.com/blog/2022-gdpr-101-when-is-consent-valid/social-image-gdpr-101-when-is-consent-valid.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-gdpr-101-when-is-consent-valid/social-image-gdpr-101-when-is-consent-valid.png
 related_posts:
