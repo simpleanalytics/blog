@@ -3,8 +3,8 @@ title: "What do website analytics allow you to do"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "How website analytics tool can help grow your business and how you can approach it"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-what-do-website-analytics-allow-you-to-do/social-image-what-do-website-analytics-allow-you-to-do.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-what-do-website-analytics-allow-you-to-do/social-image-what-do-website-analytics-allow-you-to-do.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
@@ -12,15 +12,6 @@ related_posts:
  - blog/is-google-analytics-4-gdpr-compliant
 draft: true
 ---
-
-First paragraph
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
-Rest of the article
 
 Everyone with some time on their hands can create and launch a website. Within a few clicks, you're in business (well, maybe a bit more, but you get the point).
 
@@ -34,11 +25,11 @@ But what can you improve exactly, and how should you do this?
 
 Let’s dive in!
 
-1.  What are website analytics?
-2.  What types of data are used?
-3.  How can this be useful for your website?
-4.  Website optimization using website analytics
-5.  Different web analytics tools
+1.  [What are website analytics?](#1-what-are-website-analytics)
+2.  [What metrics are collected by website analytics tools](#2-what-metrics-are-collected-by-website-analytics-tools)
+3.  [How are website analytics useful for your business?](#3-how-are-website-analytics-useful-for-your-business)
+4.  [Website optimization using website analytics](#4-website-optimization-using-website-analytics)
+5.  [Different web analytics tools](#5-different-web-analytics-tools)
 
 ## 1. What are website analytics?
 
@@ -74,7 +65,7 @@ Metrics like time on page, bounce rate, etc., can clearly indicate whether visit
 
 If you can measure it, you can improve it, right? This way, web analytics can be a massive advantage for your business, and we’ll show you how!
 
-## 4. How to optimize your website using web analytics?
+## 4. Website optimization using website analytics
 
 First and foremost, web analytics provides valuable insights into website visitors' behavior. This information can be used to understand customer preferences and tailor content to meet their needs. For example, web analytics can reveal the most popular pages on a website, the time visitors spend on each page, and the traffic sources. This information can be used to prioritize creating and optimizing content that is likely to attract and engage potential customers.
 
