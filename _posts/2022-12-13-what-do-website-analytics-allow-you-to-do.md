@@ -1,7 +1,7 @@
 ---
 title: "What do website analytics allow you to do"
-author_slug: carlo
-author: Carlo Cilento
+author_slug: iron
+author: Iron Brands
 excerpt: "How website analytics tool can help grow your business and how you can approach it"
 image: https://assets.simpleanalytics.com/blog/2022-what-do-website-analytics-allow-you-to-do/social-image-what-do-website-analytics-allow-you-to-do.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-what-do-website-analytics-allow-you-to-do/social-image-what-do-website-analytics-allow-you-to-do.png
