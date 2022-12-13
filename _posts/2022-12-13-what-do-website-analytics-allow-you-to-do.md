@@ -10,7 +10,6 @@ related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
  - blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 Everyone with some time on their hands can create and launch a website. Within a few clicks, you're in business (well, maybe a bit more, but you get the point).
