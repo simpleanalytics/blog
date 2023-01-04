@@ -3,8 +3,8 @@ title: "Google changed Google Maps URL: Your location data is no longer safe"
 author_slug: iron
 author: Iron Brands
 excerpt: "Short description of the post"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+image: https://assets.simpleanalytics.com/blog/2022-google-changed-google-maps-url-your-location-data-is-no-longer-safe/social-image-google-changed-google-maps-url.png
+image_no_text: https://assets.simpleanalytics.com/blog/2022-google-changed-google-maps-url-your-location-data-is-no-longer-safe/social-image-google-changed-google-maps-url.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
