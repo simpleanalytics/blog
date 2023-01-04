@@ -13,8 +13,6 @@ related_posts:
 draft: true
 ---
 
-> *This article is a guest blog by [Ankit](https://twitter.com/Growthfyi) from [Growthfyi.com](https://www.growthfyi.com/)*
-
 Google silently changed the Google Maps URL, and no one has noticed how easily they made you pass your location data to many other Google properties.
 
 So what’s the change?
@@ -74,3 +72,5 @@ This is undoubtedly a clever move by Google to breach your privacy with little e
 A new era where your privacy is always at risk. Practices like these to get to your data are nothing new and aren’t stopped easily as Google is one of the most influential companies on earth that many rely on.
 
 Four years ago, we took a stance against Google and built a privacy-friendly Google Analytics alternative called [Simple Analytics](https://www.simpleanalytics.com/). We believe in data privacy and an independent internet that is friendly to website visitors. If this resonates with you, feel free to have a look at[](https://simpleanalytics.com/simpleanalytics.com)
+
+> This article is a guest blog by [Ankit](https://twitter.com/Growthfyi) from [Growthfyi.com](https://www.growthfyi.com/)
