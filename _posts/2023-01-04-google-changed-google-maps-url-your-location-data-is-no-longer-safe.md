@@ -2,7 +2,7 @@
 title: "Google changed Google Maps URL: Your location data is no longer safe"
 author_slug: iron
 author: Iron Brands
-excerpt: "Short description of the post"
+excerpt: "Your location data is no longer safe as Google Maps URL changed from being a sub-domain to sub-directory"
 image: https://assets.simpleanalytics.com/blog/2022-google-changed-google-maps-url-your-location-data-is-no-longer-safe/social-image-google-changed-google-maps-url.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-google-changed-google-maps-url-your-location-data-is-no-longer-safe/social-image-google-changed-google-maps-url.png
 related_posts:
@@ -10,7 +10,6 @@ related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
  - blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 Google silently changed the Google Maps URL, and no one has noticed how easily they made you pass your location data to many other Google properties.
