@@ -3,14 +3,11 @@ title: "Privacy Monthly: January"
 author_slug: carlo
 author: Carlo Cilento
 excerpt: "Every month Simple Analytics summarizes the most important privacy events. Here is our January recap"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
  - blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 Welcome to the privacy newsletter January 2023 edition. We will briefly cover some of the most important privacy news once a month.
