@@ -4,7 +4,7 @@ author_slug: carlo
 author: Carlo Cilento
 excerpt: "Every month Simple Analytics summarizes the most important privacy events. Here is our January recap"
 image: https://assets.simpleanalytics.com/blog/2023-privacy-monthly-january-2023/social-image-privacy-monthly-january.png
-image_no_text:https://assets.simpleanalytics.com/blog/2023-privacy-monthly-january-2023/social-image-privacy-monthly-january.png
+image_no_text: https://assets.simpleanalytics.com/blog/2023-privacy-monthly-january-2023/social-image-privacy-monthly-january.png
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
