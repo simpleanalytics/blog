@@ -1,7 +1,7 @@
 ---
 title: "EU moving closer to Facebook ban"
-author_slug: iron
-author: Iron Brands
+author_slug: carlo
+author: Carlo Cilento
 excerpt: "The Irish DPC concluded that it will block Facebook from sending data form the EU to the US"
 image: https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image-no-text.png
