@@ -107,7 +107,7 @@ Needless to say, your company should also adhere to a **sensible data retention 
 
 ## Final Thoughts
 
-Good data governance and a privacy mindset can bring value to your company, and relying on privacy-friendly tools is a great start. This is also one of the pillars on which Simple Analytics is built. We believe that you can collect insights on your website visitors without needing any personal data at all. This allows you to get the insights you need, while being 100% GDPR-compliant. We believe in an independent internet that is friendly to website visitors. If this resonates with you, feel free to give us a try!
+Good data governance and a privacy mindset can bring value to your company, and relying on privacy-friendly tools is a great start. This is also one of the pillars on which Simple Analytics is built. We believe that you can collect insights on your website visitors without needing any personal data at all. This allows you to get the insights you need, while being 100% GDPR-compliant. We believe in an independent internet that is friendly to website visitors. If this resonates with you, feel free to give us a [try](https://simpleanalytics.com/welcome)!
 
 > [^1]: Art. 30 GDPR.
 > [^2]: Art. 82(2) GDPR. The controller is exempt from liability when it had no responsibility in causing the damage (Art. 82(3)), but it bears the burden of proof- which is very risky in practice.
