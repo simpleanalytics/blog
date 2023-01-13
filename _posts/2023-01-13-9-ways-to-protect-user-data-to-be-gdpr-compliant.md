@@ -10,7 +10,6 @@ related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
  - blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 Protecting user data is not just an element of good data governance: it’s a legal duty under the GDPR. Data breaches can cost companies a fine and hurt their reputation, so processing data in a secure and confidential way is critical for businesses.
