@@ -13,7 +13,7 @@ related_posts:
 last_modified_at: 2023-01-13
 ---
 
-On Thursday,the Irish data protection authority (DPC) announced that they might stop data transfers between Meta Platforms Ireland and its US parent company, **effectively shutting down Facebook in Europe**.
+On Thursday, the Irish data protection authority (DPC) announced that they might stop data transfers between Meta Platforms Ireland and its US parent company, **effectively shutting down Facebook in Europe**.
 
 <details markdown="1">
 <summary>Read the full statement here by Politico.eu who were the first to report</summary>
