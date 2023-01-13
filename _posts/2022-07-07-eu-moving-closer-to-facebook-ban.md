@@ -75,7 +75,7 @@ A Facebook spokesperson noted that the issue is in the process of being resolved
 
 Max Schrems (yup, the one from the rulings) [noted](https://noyb.eu/en/privacy-shield-20-first-reaction-max-schrems):
 
-> *Update: the new framework for EU-US data transfers is on the way after US President Joe Biden signed an [executive order](https://www.whitehouse.gov/briefing-room/statements-releases/2022/10/07/fact-sheet-president-biden-signs-executive-order-to-implement-the-european-union-u-s-data-privacy-framework/) in October. The new framework is still problematic in some respects and will surely face challenges in Court. We’re looking at yet another Schrems ruling, and it’s hard to say how it will play out. Implications of Facebook ban.*
+> Update: the new framework for EU-US data transfers is on the way after US President Joe Biden signed an [executive order](https://www.whitehouse.gov/briefing-room/statements-releases/2022/10/07/fact-sheet-president-biden-signs-executive-order-to-implement-the-european-union-u-s-data-privacy-framework/) in October. The new framework is still problematic in some respects and will surely face challenges in Court. We’re looking at yet another Schrems ruling, and it’s hard to say how it will play out. Implications of Facebook ban.
 
 ## 4. Implications of Facebook ban
 
