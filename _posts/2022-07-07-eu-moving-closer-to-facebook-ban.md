@@ -10,9 +10,10 @@ related_posts:
  - /blog/less-is-more-data-minimization-can-help-your-business
  - /blog/vodafone-deutsche-telekom-to-introduce-persistent-user-tracking
  - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
+last_modified_at: 2023-01-13
 ---
 
-There is a risk Europeans won't be able to use Facebook after the Irish data protection agency (DPC) doubles down on stopping data transfer between the US and the E.U.
+On Thursday,the Irish data protection authority (DPC) announced that they might stop data transfers between Meta Platforms Ireland and its US parent company, **effectively shutting down Facebook in Europe**.
 
 <details markdown="1">
 <summary>Read the full statement here by Politico.eu who were the first to report</summary>
@@ -41,38 +42,40 @@ There is a risk Europeans won't be able to use Facebook after the Irish data pro
 
 </details>
 
-Thursday, the DPC informed counterparts in other EU member states that it will block Facebook from sending data from the EU to US servers. Data protection agencies of other EU members have a month to add their views and objections before it moves forward. The move could mean the biggest disruption of the social media giant in its history. The DPC did not comment on the specific contents or release a statement, but they confirmed the issue at hand.
+The DPC drafted a decision to shut down Meta's data transfers for Facebook and submitted it to the European Data Protection Board  Data protection agencies from other EU Member States have a month to add their views and objections before it moves forward, but the process will likely take longer. The move could mean the biggest disruption of the social media giant in its history. The DPC did not disclose the contents of the draft.
 
-Earlier this year, Facebook stated that if it's unable to transfer data overseas, it could affect the availability of its products. It seems close to becoming a reality now.
+Earlier this year, Facebook stated that if it's unable to transfer data overseas, it could affect the availability of its products. This scenario now seems close to becoming a reality now.
 
 {% include gif.html slug="damn" alt="damn" width="480" height="270" color="#594542" %}
 
-1. [Impact of Schrems II](#1-impact-of-schrems-ii)
+1. [Facebook and Schrems. A long story](#1-facebook-and-schrems-a-long-story)
 2. [Crackdown on Google Analytics](#2-crackdown-on-google-analytics)
 3. [Privacy Shield 2.0](#3-privacy-shield-20)
 4. [Implications of Facebook ban](#4-implications-of-facebook-ban)
 
-## 1. Impact of Schrems II
+## 1. Facebook and Schrems. A long Story
 
-The statement of the Irish regulator (DPC) is a result of the invalidation of the privacy shield in July 2020. This is referred to as the [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) ruling that concluded that data transfer to the US [violates the GDPR law](https://gdpr-info.eu/art-44-gdpr/).
+The draft decision is the result of a long and complex legal battle between Max Schrems and Facebook. Nine years ago, privacy activist Max Schrems filed a complaint about Facebook’s data transfers before the DPC, citing privacy concerns in the wake of the Snowden revelations. The case ended up in the EU Court of Justice twice, and the Court invalidated two EU-US **data transfers frameworks** in the landmark Schrems I and II cases.
 
-The mandate of the GDPR is simple: Protect the privacy of EU citizens. This cannot be guaranteed when personal data is sent from the EU to Facebook servers in the US.
+Schrems II made US data transfers tricky, as the Court highlighted the need to **implement effective safeguards against US surveillance**\- which is hard and often impossible for European companies.
 
-Facebook qualifies as an "[Electronic communication service provider](https://www.michalsons.com/blog/electronic-communications-service-provider-ecsp/17697)" and is therefore obliged to share data with the US intelligence service if requested. This means that the US intelligence service can access the personal data of EU citizens. 
+Under US surveillance law, Facebook qualifies as an “Electronic communication service provider” and is therefore obliged to share data with the US intelligence service if requested. This means that US agencies can access the personal data of EU citizens. 
+
+The mandate of the GDPR is simple: protecting the privacy of European data. This cannot be guaranteed when personal data is sent from the EU to Facebook servers in the US. 
 
 ## 2. Crackdown on Google Analytics 
 
-The Schrems II ruling did not lead to a response from EU data protection agencies until the beginning of this year, when the [DSB (Austria)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) responded by banning the use of Google Analytics. [CNIL (France)](https://www.cnil.fr/en/) was quick to follow, and [Garante (Italy)](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english) banned Google Analytics last week as well. More EU member states are likely to follow suit in the coming months.
-
-The issue, however, does not only apply to Facebook and Google. Notably, they are the biggest advertising platforms that transfer personal data overseas, but every entity doing this should be very aware of this ruling.
+The Schrems II ruling did not lead to a response from data protection authorities until the beginning of this year, when the [DSB (Austria)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) responded by banning the use of Google Analytics. [CNIL (France)](https://www.cnil.fr/en/) was quick to follow, and [Garante (Italy)](https://www.gpdp.it/web/guest/home/docweb/-/docweb-display/docweb/9782874#english) banned Google Analytics last week as well (update: Hungary joined too). More EU member states are likely to follow suit in the coming months.
 
 <img src="https://assets.simpleanalytics.com/blog/2022-eu-moving-closer-to-facebook-ban/social-image-no-text.png" alt="EU bans facebook" class="border-radius" />
 
 ## 3. Privacy Shield 2.0
 
-A Facebook spokesperson noted that the issue is in the process of being resolved, referring to a new agreement between the U.S and the EU that will allow the continued transfer of data. The so-called Privacy Shield 2.0. However, the deal is far from finalized. Both the EU ([here](https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_21_1443)) and the US ([here](https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/03/25/remarks-by-president-biden-and-european-commission-president-ursula-von-der-leyen-in-joint-press-statement/)) announced a new agreement on a new framework for transatlantic data transfer, but no legal document has been provided. It's a political agreement [without any legal merit.](https://blog.simpleanalytics.com/eu-us-privacy-shield-2-0-is-again-a-political-show)
+A Facebook spokesperson noted that the issue is in the process of being resolved, referring to a new agreement between the U.S and the EU that will allow the continued transfer of data. The so-called Privacy Shield 2.0. However, the deal is far from finalized. Both the EU ([here](https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_21_1443)) and the US ([here](https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/03/25/remarks-by-president-biden-and-european-commission-president-ursula-von-der-leyen-in-joint-press-statement/)) announced a new agreement on a new framework for transatlantic data transfer, but no legal document has been provided.
 
-"The final text will need more time; once this arrives, we will analyze it in-depth, together with our US legal experts. If it is not in line with EU law, we or another group will likely challenge it. In the end, the Court of Justice will decide a third time. We expect this to be back at the Court within months from a final decision." [Max Schrems of Noyb noted](https://noyb.eu/en/privacy-shield-20-first-reaction-max-schrems)
+Max Schrems (yup, the one from the rulings) [noted](https://noyb.eu/en/privacy-shield-20-first-reaction-max-schrems):
+
+> *Update: the new framework for EU-US data transfers is on the way after US President Joe Biden signed an [executive order](https://www.whitehouse.gov/briefing-room/statements-releases/2022/10/07/fact-sheet-president-biden-signs-executive-order-to-implement-the-european-union-u-s-data-privacy-framework/) in October. The new framework is still problematic in some respects and will surely face challenges in Court. We’re looking at yet another Schrems ruling, and it’s hard to say how it will play out. Implications of Facebook ban.*
 
 ## 4. Implications of Facebook ban
 
