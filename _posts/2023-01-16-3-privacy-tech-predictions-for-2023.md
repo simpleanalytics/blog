@@ -2,9 +2,7 @@
 title: "3 Privacy Tech Predictions for 2023"
 author_slug: pieter
 author: Pieter Vegt
-excerpt: "Short description of the post"
-image: https://assets.simpleanalytics.com/blog/2022-
-image_no_text: https://assets.simpleanalytics.com/blog/2022-
+excerpt: "2022 was an exciting year for privacy-enthusiasts. Lets look at what ahead in 2023"
 related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
