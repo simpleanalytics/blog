@@ -10,14 +10,19 @@ related_posts:
  - blog/is-google-analytics-4-gdpr-compliant
 draft: true
 ---
+> This is a guest blog by Pieter Vegt, Privacy Advocate at Empathy.co & Ethical Commerce Alliance
 
 2022 was an exciting year for countries, businesses and consumers alike that focus on building privacy-first technology and digital trust. The Schrems II court rulings, as well as the growing awareness of data protection, have pushed the privacy conversation forward and brought changes to online experiences on many levels.
 
 We’re highlighting 3 privacy trends from the past year and how they might evolve in 2023 to answer the question: **Will this be the year that privacy takes over?**
 
+{% include gif.html slug="crystal-ball" alt="crystal ball" width="480" height="270" color="#6c6d6d" %}
+
 1. [Countries are taking measures against big tech](#1-countries-are-taking-measures-against-big-tech)
 2. [Consumers are gaining awareness of tracking and cookies](#2-consumers-are-gaining-awareness-of-tracking-and-cookies)
 3. [Privacy-first technologies on the rise](#3-privacy-first-technologies-on-the-rise)
+
+Let's dive in!
 
 ## 1. Countries are taking measures against big tech
 
