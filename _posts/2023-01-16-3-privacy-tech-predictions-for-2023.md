@@ -1,6 +1,6 @@
 ---
 title: "3 Privacy Tech Predictions for 2023"
-author_slug: pieter
+author_slug: pieter_vegt
 author: Pieter Vegt
 excerpt: "2022 was an exciting year for privacy-enthusiasts. Lets look at what ahead in 2023"
 related_posts:
