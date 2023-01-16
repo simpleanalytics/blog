@@ -13,20 +13,15 @@ related_posts:
 draft: true
 ---
 
-First paragraph
-
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Caption of the image" class="border-radius" />
-<p class="caption" markdown="1">
-  Caption of the image
-</p>
-
 2022 was an exciting year for countries, businesses and consumers alike that focus on building privacy-first technology and digital trust. The Schrems II court rulings, as well as the growing awareness of data protection, have pushed the privacy conversation forward and brought changes to online experiences on many levels.
 
 We’re highlighting 3 privacy trends from the past year and how they might evolve in 2023 to answer the question: **Will this be the year that privacy takes over?**
 
-1.  ## Countries are taking measures against big tech
+1. [Countries are taking measures against big tech](#1-countries-are-taking-measures-against-big-tech)
+2. [Consumers are gaining awareness of tracking and cookies](#2-consumers-are-gaining-awareness-of-tracking-and-cookies)
+3. [Privacy-first technologies on the rise](#3-privacy-first-technologies-on-the-rise)
+
+## 1. Countries are taking measures against big tech
 
 GDPR protects the data rights of individuals in the EU. But what happens when personal data is transferred to a country outside of the European Economic Area?
 
@@ -42,7 +37,7 @@ As a result, Austria, Denmark, [France](https://www.simpleanalytics.com/blog/fra
 
 While US president Biden signed [a new executive order for data transfers](https://www.simpleanalytics.com/blog/first-signs-that-bidens-eo-on-data-transfers-will-be-challenged?utm_source=theprivacynewsletter.com) last year, the road ahead is still long and uncertain. The new data transfer framework between the EU and the US will almost certainly undergo scrutiny in the European Court of Justice in the future. That’s why it seems that 2023 will not bring an end to the court procedures and fines. Only recently, [the Irish DPB fined Meta € 265 million](https://www.reuters.com/technology/irish-regulator-fines-facebook-265-mln-euros-over-privacy-breach-2022-11-28/) because of Facebook data breaches.
 
-2.  ## Consumers are gaining awareness of tracking and cookies
+## 2. Consumers are gaining awareness of tracking and cookies
 
 With the GDPR launching in 2018 as a legislative framework for online privacy, ecommerce businesses were faced with the challenge of implementing data protection measures.
 
@@ -62,7 +57,7 @@ The data culture can no longer support the idea that ‘as long as it’s not ob
 
 And this necessity for digital ethics will continue to shape business strategies in 2023.
 
-3.  ## Privacy-first technologies on the rise
+## 3. Privacy-first technologies on the rise
 
 While data privacy awareness is quickly growing, it offers opportunities for businesses to stand out and connect with shoppers. Research has shown that flexible businesses that change their strategy and focus on transparency and digital trust, can [boost their revenue by 10% and more.](https://empathy.co/blog/a-successful-business-starts-with-digital-trust-ethical-data-and-ai-policies/)
 
