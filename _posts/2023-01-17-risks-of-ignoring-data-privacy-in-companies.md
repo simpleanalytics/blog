@@ -11,13 +11,11 @@ related_posts:
 draft: true
 ---
 
-{% include gif.html slug="spy-kids-better-look-closer" alt="Spy Kids: Better look closer" width="300" height="201" color="#594748" %}
-
 Data privacy is widely viewed as a key business principle. As the use of data is becoming increasingly essential, the need for data privacy and protection is well. Stories of data breaches, hefty fines, and reputational damages have been widely covered. However, still, not every organization has the right measures in place. Reasons for this vary but come mostly down to ignorance or incapability.
 
 This article will outline the risks of ignoring data privacy.
 
-![](https://lh6.googleusercontent.com/iviYNDWorz98k3f41FX_u2uvLVKke5PdEeCAFdMP7zKXXK2wYqWjGGSLGsY3Zlgihth3kkxrVVHpo-zymPA_2eCB3zd1iashrDFwySZXlFRK2a824moBAC60kewQUR-L-zzDDqUBvb3pWHKjLejO27AGO9-VPa2u47uzkzGHWEL-JvjVF51cH7dK9b5Pyg)
+{% include gif.html slug="privacy-is-important" alt="privacy is important" width="500" height="270" color="#2b1b148" %}
 
 1.  [Fines](#1-fines)
 2.  [Liability](#2-liability)
