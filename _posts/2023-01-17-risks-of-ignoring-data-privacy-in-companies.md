@@ -8,7 +8,6 @@ related_posts:
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
  - blog/is-google-analytics-4-gdpr-compliant
-draft: true
 ---
 
 Data privacy is widely viewed as a key business principle. As the use of data is becoming increasingly essential, the need for data privacy and protection is well. Stories of data breaches, hefty fines, and reputational damages have been widely covered. However, still, not every organization has the right measures in place. Reasons for this vary but come mostly down to ignorance or incapability.
