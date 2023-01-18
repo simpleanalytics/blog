@@ -7,8 +7,7 @@ related_posts:
  - /blog/why-its-time-to-move-away-from-google-analytics
  - /blog/website-analytics-without-cookies
  - /blog/is-google-analytics-illegal-in-europe
- - blog/is-google-analytics-4-gdpr-compliant
-draft: true
+ - /blog/is-google-analytics-4-gdpr-compliant
 ---
 > This is a guest blog by Pieter Vegt, Privacy Advocate at Empathy.co & Ethical Commerce Alliance
 
