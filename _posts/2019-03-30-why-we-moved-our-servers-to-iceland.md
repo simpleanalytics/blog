@@ -87,7 +87,7 @@ After moving our data from our old server to our new server in Iceland we were f
 
 ## Only storing the data you need
 
-At Simple Analytics we live by the saying: "Only store data you need." We only [collect](http://simpleanalytics.com/what-we-collect) the minimal.
+At Simple Analytics we live by the saying: "Only store data you need." We only [collect](https://docs.simpleanalytics.com/what-we-collect) the minimal.
 
 It's common practice to [soft delete](http://abstraction.blog/2015/06/28/soft-vs-hard-delete) data in applications. This means that the data is not really deleted but it's made inaccessible by the end user. We don't do this - if you delete your data, it's gone from our database. We use hard delete. _Note: it will be in our encrypted backups for a maximum of 90 days. In case of a bug we can retrieve this data._
 
