@@ -11,7 +11,7 @@ _We asked Onur Genes, who developed our iOS app, to write down the process. He i
 
 _Take the stage Onur!_
 
-<img class="border-radius" src="/images/2021/onur-genes.jpg" alt="Onur Genes" />
+![Onur Genes](https://assets.simpleanalytics.com/blog/github/2021-onur-genes.jpg)
 
 Let me just make a quick introduction to me and my company [epist.io](https://epist.io/) first.
 
@@ -21,11 +21,11 @@ When I started this blog I started thinking about analytics as well. It is an ob
 
 At some point I realized I was just invading my visitors' privacy. I am a privacy activist at heart. That made me write [Being a Privacy Activist as a Developer](https://devgenes.com/posts/Being-a-Privacy-Activist-as-a-Developer/).
 
-<img class="border-radius" src="/images/2021/ios-app-dashboard.jpg" alt="Simple Analytics iOS dashboard" />
+![Simple Analytics iOS dashboard](https://assets.simpleanalytics.com/blog/github/2021-ios-app-dashboard.jpg)
 
 ## How did I learn about Simple Analytics?
 
-A few years ago when I was wandering on the internet I came across [Adriaan van Rossum](https://twitter.com/AdriaanvRossum). He was talking about a product that is a competitor to Google Analytics. That seemed interesting! Being a competitor with a well-known and accepted product is a good challenge to have.
+A few years ago when I was wandering on the internet I came across [Adriaan van Rossum](https://twitter.com/adriaandotcom). He was talking about a product that is a competitor to Google Analytics. That seemed interesting! Being a competitor with a well-known and accepted product is a good challenge to have.
 
 I started following him. I wasn’t a heavy user at that time but checked upon his project from time to time.
 
@@ -44,7 +44,7 @@ If you are using Simple Analytics;
 
 Time has past and I thought, it might be good to just wave a hand and say, _"Hey Adriaan, I am enjoying your product. Thanks for making this!"_ but I thought just creating an iOS app might be cooler.
 
-<img class="border-radius" src="/images/2021/ios-app-settings.jpg" alt="Simple Analytics iOS settings" />
+![Simple Analytics iOS settings](https://assets.simpleanalytics.com/blog/github/2021-ios-app-settings.jpg)
 
 I contacted Adriaan and said, _“Hey Adriaan, I want to create an iOS app for Simple Analytics. What do you think?”._ In a minute he replied, _“Yes, let’s talk about that.”_
 
@@ -56,7 +56,7 @@ But companies and products like Simple Analytics need an app. Simple Analytics i
 
 As a user, I didn’t want to go to the website and click on the graph every time. A simple app might be more useful (and it is). With iOS 14 Apple introduced so-called _Widgets_. If I could use these technologies, I might provide value.
 
-<img class="border-radius" src="/images/2021/ios-app-widgets.png" alt="Simple Analytics iOS showing widgets" />
+![Simple Analytics iOS showing widgets](https://assets.simpleanalytics.com/blog/github/2021-ios-app-widgets.png)
 
 ## Which technologies and why?
 
@@ -66,7 +66,7 @@ In a week, we had a working prototype. It wasn't that beautiful or useful but it
 
 ## What is next?
 
-After seeing the positive comments about the iOS App I decided to make an Android version as well. I will try to do my best. I am sure both apps will grow together nicely. Just [keep an eye on my tweets](https://twitter.com/onurgenes) and [Adriaan](https://twitter.com/AdriaanvRossum) for any updates.
+After seeing the positive comments about the iOS App I decided to make an Android version as well. I will try to do my best. I am sure both apps will grow together nicely. Just [keep an eye on my tweets](https://twitter.com/onurgenes) and [Adriaan](https://twitter.com/adriaandotcom) for any updates.
 
 ## How can I help you and your company?
 
