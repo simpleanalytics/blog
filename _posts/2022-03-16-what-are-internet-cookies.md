@@ -5,10 +5,10 @@ author: Iron Brands
 excerpt: "Your internet behavior is tracked by cookies. What are they? And what type of cookies are there?"
 image: https://assets.simpleanalytics.com/blog/cookies/what-are-internet-cookies.png
 related_posts:
- - /blog/website-analytics-without-cookies
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
+  - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
 lang: en
 ---
 
@@ -20,20 +20,9 @@ The information in this blog is to provide you with an introduction to cookies a
 
 {% include gif.html slug="spongebob-eating-cookies" alt="Spongebob eating cookies from the internet" width="480" height="324" color="#73775d" %}
 
-1.  [What are cookies?](#1-what-are-cookies)
-2.  [What's the difference between first-party and third-party cookies?](#2-whats-the-difference-between-first-party-and-third-party-cookies)
-    1. [First-party cookies](#21-what-are-first-party-cookies)
-    2. [Third-party cookies](#22-what-are-third-party-cookies)
-3.  [What is fingerprinting?](#3-what-is-fingerprinting)
-4.  [Which browsers disable third-party cookies?](#4-which-browsers-disable-third-party-cookies)
-    1. [Safari](#safari-apple)
-    2. [Firefox](#firefox-mozilla)
-    3. [Chrome](#chrome-google)
-    4. [Edge](#edge-microsoft)
-    5. [Brave](#brave)
-5.  [Do I need a cookie banner?](#5-do-i-need-a-cookie-banner)
+{{tableofcontents}}
 
-## 1\. What are cookies?
+## What are cookies?
 
 Cookies are bits of data in the form of text that can identify your computer as you use your computer network. When you visit a website, the cookie is sent to your computer and stored in your web browser.
 
@@ -41,11 +30,11 @@ The information inside the cookie is created by a server upon your connection. T
 
 This is how websites remember your login details or language preferences when you return to the site.
 
-## 2\. What's the difference between first-party and third-party cookies?
+## What's the difference between first-party and third-party cookies?
 
 Not all cookies are bad. Cookies can be functional as well. There are different types of cookies, but we can divide them into two categories: first-party cookies and third-party cookies.
 
-## 2.1 What are first-party cookies?
+## What are first-party cookies?
 
 A first-party session cookie or a ‘temporary cookie’ only retains information about the user, as long as the user is on the website. Once the browser is closed, cookies are deleted.
 
@@ -57,7 +46,7 @@ A website that remembers your login and password is using a first-party cookie a
 
 They remember language settings, shopping carts, login/passwords, and serve other functional purposes to enhance the user experience.
 
-## 2.2 What are third-party cookies?
+## What are third-party cookies?
 
 Third-party cookies are a different species. They are used by marketers to ensure that their products or services are targeted at the right audience. They can track visitors across multiple domains, making a richer picture of user behavior.
 
@@ -67,7 +56,7 @@ Most likely everyone has seen Facebook ads of products or websites they visited 
 
 {% include gif.html slug="eyes-on-you" alt="I have my eyes on you" width="220" height="122" color="#7c635a" %}
 
-## 3\. What is fingerprinting?
+## What is fingerprinting?
 
 Another technology used to track visitors is called fingerprinting. It is a way of profiling internet users based on their hardware and software preferences. It is used by companies to identify who you are based on the specific setup you use to surf the internet. It is considered to be as invasive as cookie-based tracking methods.
 
@@ -75,7 +64,7 @@ Websites making use of fingerprinting technologies can track a visitor for month
 
 Even though everyone agrees that fingerprinting is harmful, its usage has gone up in recent years. To see what data we collect at Simple Analytics, visit [this page](https://docs.simpleanalytics.com/what-we-collect).
 
-## 4\. Which browsers disable third-party cookies?
+## Which browsers disable third-party cookies?
 
 The rollout of privacy regulations such as the [GDPR](https://gdpr-info.eu/) & [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/what-are-pecr/) has increased public awareness of the privacy invasiveness of cookies and other tracking technologies. In response to this, web browsers have started to add privacy protections for their users. The protections are put in place to block certain types of cookies or other tracking technologies. However, the degree of strictness between web browsers goes from very strict, to no protection at all.
 
@@ -103,14 +92,14 @@ Brave has come out of beta in the fall of 2019 and introduced itself as the “a
 
 By default, it blocks third-party cookies and other tracking mechanisms. You can block ads and first-party cookies manually. Protecting against fingerprinting is also included in its toolbox. [Check out their cookie policy](https://support.brave.com/hc/en-us/articles/360050634931).
 
-<img loading="lazy" class="border" style="padding: 1rem;" src="https://assets.simpleanalytics.com/blog/cookies/marketshare-browsers.png" alt="">
-<p class="caption" markdown="1">Market share of internet browsers desktop (source [Statista](https://www.statista.com/statistics/544400/market-share-of-internet-browsers-desktop/))</p>
+![Market share of internet browsers desktop via Statista](https://assets.simpleanalytics.com/blog/cookies/marketshare-browsers.png)
+_Market share of internet browsers desktop (source [Statista](https://www.statista.com/statistics/544400/market-share-of-internet-browsers-desktop/))_
 
 Google Chrome has declared that it will be phasing out third-party cookies by 2022. However, they have already [postponed the deadline](https://blog.google/products/chrome/updated-timeline-privacy-sandbox-milestones/) to the end of 2023....Personally, I have a hard time believing that they are actually going to do this, as this will have huge consequences for their business model.
 
 We'll have to see how this plays out, but for now, if you don't want to be tracked by third-party cookies. Stay away from Google Chrome. Go for Brave, or at least stay away from Google Chrome.
 
-## 5\. Do I need a cookie banner?
+## Do I need a cookie banner?
 
 As a website owner, if you want to track individual visitor behavior and you decide to install cookies on your user's device, you need to comply with certain privacy regulations.
 

@@ -1,5 +1,5 @@
 <a href="https://simpleanalytics.com/?ref=github.com/simpleanalytics/blog">
-  <img src="https://assets.simpleanalytics.com/images/logos/logo-github-readme.png" alt="Simple Analytics logo" align="right" height="62" />
+![Simple Analytics logo](https://assets.simpleanalytics.com/images/logos/logo-github-readme.png)
 </a>
 
 # Blog
@@ -19,7 +19,7 @@ Stuff you should know, Iron.
 - [<img height="16px" src="https://user-images.githubusercontent.com/1079135/165280166-399b9730-5016-4907-84c9-cfae242df2a1.png" /> Bunny blog folder](https://panel.bunny.net/storagezones/edit/26541/#/sa-assets/blog/)
 - [<img height="16px" src="https://user-images.githubusercontent.com/1079135/165280166-399b9730-5016-4907-84c9-cfae242df2a1.png" /> Bunny GIF folder](https://panel.bunny.net/storagezones/edit/26541/#/sa-assets/gifs/)
 - [<img height="16px" src="https://user-images.githubusercontent.com/1079135/165280166-399b9730-5016-4907-84c9-cfae242df2a1.png" /> Bunny videos folder](https://panel.bunny.net/storagezones/edit/26541/#/sa-assets/videos/)
-- [<img height="16px" src="https://user-images.githubusercontent.com/1079135/165281455-10874956-a39a-4a4b-b8cb-5d39ffdc87d6.png" />  Add browser window with screely](https://www.screely.com/editor)
+- [<img height="16px" src="https://user-images.githubusercontent.com/1079135/165281455-10874956-a39a-4a4b-b8cb-5d39ffdc87d6.png" /> Add browser window with screely](https://www.screely.com/editor)
 
 ### Nerd stuff
 

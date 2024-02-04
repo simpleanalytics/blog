@@ -17,13 +17,13 @@ Cela intervient quelques semaines après une déclaration similaire du DSB (l'or
 
 C'est le deuxième pays de l'UE à reconnaître ouvertement la violation de l'[article 44 du RGPD](https://gdpr-info.eu/art-44-gdpr/) _(en anglais)_ par Google. Nous pensons que d'autres seront susceptibles de faire de même.
 
-<img class="border-radius" style="max-width: 500px; margin: 1rem auto;" src="https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics-no-simple-analytics.png" alt="France rules Google Analytics to be in conflict with GDPR ruling" />
+![France rules Google Analytics to be in conflict with GDPR ruling](https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics-no-simple-analytics.png)
 
 ## CNIL : Google Analytics est en conflit avec le règlement RGPD
 
 S'il a fallu un certain temps pour que les régulateurs agissent (l'enquête remonte à août 2020), la dynamique semble désormais lancée. Après que le DSB a publié sa déclaration le mois dernier, la CNIL a annoncé la nouvelle la semaine dernière.
 
-Dans notre [précédent article](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu) _(en anglais)_, dans lequel nous avons traité de la décision du DSB d'invalider l'utilisation de Google Analytics, nous analysons la raison fondamentale de ces réactions.
+Dans notre [précédent article](/blog/will-google-analytics-be-banned-in-the-eu) _(en anglais)_, dans lequel nous avons traité de la décision du DSB d'invalider l'utilisation de Google Analytics, nous analysons la raison fondamentale de ces réactions.
 
 En bref, les lois européennes sur le RGPD exigent la protection des données pour ses citoyens. Les États-Unis n'adhèrent cependant pas à ces directives. Ils ne fournissent aux citoyens non américains aucun moyen de savoir comment leurs données sont traitées ou (mal) utilisées. En réaction à cela, la CNIL répond que les transferts de données ne peuvent avoir lieu que si des garanties appropriées sont fournies, ce qui n'est pas le cas actuellement.
 

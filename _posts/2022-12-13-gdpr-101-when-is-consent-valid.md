@@ -6,14 +6,13 @@ excerpt: "Consent abuse is not hard. So when is consent actually valid? Let's fi
 image: https://assets.simpleanalytics.com/blog/2022-gdpr-101-when-is-consent-valid/social-image-gdpr-101-when-is-consent-valid.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-gdpr-101-when-is-consent-valid/social-image-gdpr-101-when-is-consent-valid.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/website-analytics-without-cookies
- - /blog/is-google-analytics-illegal-in-europe
- - blog/is-google-analytics-4-gdpr-compliant
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/is-google-analytics-illegal-in-europe
+  - blog/is-google-analytics-4-gdpr-compliant
 ---
 
-
-Consent is important in data protection because it allows individuals to control how their personal information is collected, used, and shared- nobody likes the idea that soameone else can monitor them or process their personal data without their consent! 
+Consent is important in data protection because it allows individuals to control how their personal information is collected, used, and shared- nobody likes the idea that soameone else can monitor them or process their personal data without their consent!
 
 Consent is essential in the GDPR, which is why we wrote about it in our [blog](https://www.simpleanalytics.com/blog/gdpr-consent-101) a while ago. We also explained in our blog on legal bases that consent is not, in principle, required to process personal data under the GDPR: other legal bases exist in the GDPR[^1], each with its own use cases and limitations.
 
@@ -23,13 +22,11 @@ Consent is also **easy to abuse**: it’s not hard to force or trick someone int
 
 The GDPR is no exception. Consent under the GDPR must be **freely given, specific, informed, and unambiguous[^2]**. Additionally, it must be possible to withdraw consent. These requirements are very important in practice!
 
-1. [The requirements for consent](#1-the-requirements-for-consent)
-2. [When is consent problematic? Some examples](#2-when-is-consent-problematic-some-examples)
-4. [Conclusion](#3-conclusion)
+{{tableofcontents}}
 
 Let’s dive in!
 
-## 1. The requirements for consent
+## The requirements for consent
 
 ### Freely given
 
@@ -45,8 +42,8 @@ Consent is specific when it is **given for a specific purpose**. For example, yo
 
 This requirement goes hand in hand with the requirement for **informed consent** and with the principle of purpose limitation:
 
--   *purpose limitation* means that data must always be collected and processed with a specific, explicit, and legitimate purpose in mind
--   *informed consent* means the subject must know exactly what he is consenting to, including the purpose of the processing.
+- _purpose limitation_ means that data must always be collected and processed with a specific, explicit, and legitimate purpose in mind
+- _informed consent_ means the subject must know exactly what he is consenting to, including the purpose of the processing.
 
 ### Informed
 
@@ -64,7 +61,7 @@ The notion of unambiguous consent overlaps with that of explicit consent. Explic
 
 To put it mildly, the notion of explicit consent is not crystal clear. Implicit consent is never valid, so it’s hard to say what explicit means exactly and how explicit consent differs from unambiguous consent. But as a rule of thumb, it’s probably safe to think of explicit consent as very unambiguous consent.
 
-## 2. When is consent problematic? Some examples
+## When is consent problematic? Some examples
 
 ### Bundled consent
 
@@ -94,18 +91,18 @@ The average Internet visitor is presented with countless such banners while brow
 
 Last year the European Data Protection Board set up a [cookie banner task force](https://edpb.europa.eu/news/news/2021/edpb-establishes-cookie-banner-taskforce_en), as a response to numerous complaints against deceptive cookie banners by NGO noyb. The last time such a task force was set up, Google Analytics ended up being banned in several EU Member States (we wrote about it [here](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics)), so there is hope for a crackdown on deceptive banners in the future.
 
-## 3. Conclusion
+## Conclusion
 
 The requirements for consent are meant to ensure the user is in control of their data. Unfortunately, this is often not the case. Many companies want to collect as much data as possible, and often ignore data protection rules or find clever ways to circumvent them. Day by day, this hoarding, data-greedy mindset is turning the Internet into a surveillance machine.
 
 But it doesn’t have to be like that. We at [Simple Analytics](https://www.simpleanalytics.com/) believe in a World Wide Web that is user-friendly and respectful of privacy. This is why we work to provide our customers with valuable analytics insights without collecting any personal data from the end user. This eases the customer’s compliance burden, streamlines data governance, and helps make the Internet a better place. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
->[^1]: Art. 6 GDPR.
->[^2]: Art. 4 (11) GDPR.
->[^3]: EDPB Guidelines 05/2020 on consent under Regulation 2016/679, par. 13.
->[^4]: Exceptions are very narrow. See EDPB Guidelines 05/2020 on consent under Regulation 2016/679, par. 22.
->[^5]: WP29 Guidelines on consent under Regulation 2016/679, par. 3.3.1.
->[^6]: See [CJEU - C-673/17 - Planet49](https://gdprhub.eu/CJEU_-_C-673/17_-_Planet49).
->[^7]: Art. 5(2) and 24 GDPR.
->[^8]: To be clear: in this scenario consent is the legal basis for the processing, not contract. Consenting to the contract is not the same as consenting to the processing of the data. Also note that specific formal rules apply in this scenario: see Art. 7(2) GDPR.
->[^9]: Art. 5(1)(a) GDPR.
+> [^1]: Art. 6 GDPR.
+> [^2]: Art. 4 (11) GDPR.
+> [^3]: EDPB Guidelines 05/2020 on consent under Regulation 2016/679, par. 13.
+> [^4]: Exceptions are very narrow. See EDPB Guidelines 05/2020 on consent under Regulation 2016/679, par. 22.
+> [^5]: WP29 Guidelines on consent under Regulation 2016/679, par. 3.3.1.
+> [^6]: See [CJEU - C-673/17 - Planet49](https://gdprhub.eu/CJEU_-_C-673/17_-_Planet49).
+> [^7]: Art. 5(2) and 24 GDPR.
+> [^8]: To be clear: in this scenario consent is the legal basis for the processing, not contract. Consenting to the contract is not the same as consenting to the processing of the data. Also note that specific formal rules apply in this scenario: see Art. 7(2) GDPR.
+> [^9]: Art. 5(1)(a) GDPR.

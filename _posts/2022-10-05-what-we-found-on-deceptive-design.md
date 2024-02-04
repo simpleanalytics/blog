@@ -6,10 +6,10 @@ excerpt: "The concept of deceptive design plays an important role in our digital
 image: https://assets.simpleanalytics.com/blog/2022-everything-you-need-to-know-about-deceptive-design/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-everything-you-need-to-know-about-deceptive-design/social-image-no-text.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/how-to-delete-google-analytics-in-4-steps
+  - /blog/website-analytics-without-cookies
 last_modified_at: 2022-10-12
 ---
 
@@ -21,13 +21,9 @@ Carlo Cilento is a member of the Simple Analytics team and a privacy enthusiast 
 
 Let's hear what they have to say about the concept of deceptive design.
 
-1.  [What is deceptive design?](#1-what-is-deceptive-design)
-2.  [What are common deceptive design patterns?](#2-what-are-common-deceptive-design-patterns)
-3.  [How can you spot them?](#3-how-can-you-spot-deceptive-design-patterns)
-4.  [Do you think it will be more commonplace in the future?](#4-do-you-think-it-will-be-more-commonplace-in-the-future)
-5.  [How can you ensure you don't use deceptive design patterns yourself?](#5-how-can-you-ensure-you-dont-use-deceptive-design-patterns-yourself)
+{{tableofcontents}}
 
-## 1. What is deceptive design?
+## What is deceptive design?
 
 **Clo S.:**
 I would call "deceptive" any design where, if the user better understood how it worked, they'd behave differently. So if it relies on a misunderstanding for the user to go ahead, then it's deceptive. Deceptive design can take many forms, though. It can be a confusing design pattern, misleading copywriting, or even copying a well-known mechanism and changing it for something different, but counting on the fact that the user will expect what they are used to.
@@ -39,7 +35,7 @@ I think of deceptive design as manipulating the user's consent through interface
 
 The example above is a good instance of deceptive design. I fully agree with your point about online subscriptions. Unsubscribing could and should be as easy as subscribing, but of course, websites have all the interest in making unsubscribing as burdensome and annoying as possible. And it often works: you have a busy day, put the burdensome task aside, and then forget about it. We have a limited amount of attention, and deceptive design takes advantage of it.
 
-## 2. What are common deceptive design patterns? 
+## What are common deceptive design patterns? 
 
 **Clo S.:**
 I think [fabricated scarcity and fabricated urgency](https://thistooshallgrow.com/blog/design-internet-addiction) are quite frequent. These are the messages telling you that there are only 2 items left in stock - when there's more - or that a special offer expires soon - when it doesn't. The goal is to pressure you into purchasing or committing to something through artificial limits of quantity or time.
@@ -51,26 +47,24 @@ Yup, pre-ticked checkboxes, and opt-out systems cannot collect consent under the
 
 Another widespread trick is presenting users with an unclear alternative. I often see cookie banners offering "accept" and "customize" as their options instead of just presenting the user with the option to refuse. Then you click "customize" and need to manually un-tick advertising and analytics cookies. Imagine doing this for every website! Good thing we have adblockers and some privacy-focused browsers blocking cookies for us.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-everything-you-need-to-know-about-deceptive-design/social-image-no-text.png" alt="deceptive design" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![deceptive design](https://assets.simpleanalytics.com/blog/2022-everything-you-need-to-know-about-deceptive-design/social-image-no-text.png)
 
-## 3. How can you spot deceptive design patterns?
+## How can you spot deceptive design patterns?
 
 **Clo S.:**
 A lot of them are pretty standard. If you've seen them once, they're easy to spot. The site [deceptive.design](https://www.deceptive.design/) lists different types of deceptive patterns such as sneaking an item into your basket, "confirmshaming" (guilting you into subscribing or staying subscribed to something), and more. It even has a very well-documented [hall of shame](https://www.deceptive.design/hall-of-shame/all) of deceptive design which goes pretty far back in time, until the [1938 voting ballot](https://darkpatterns.uxp2.com/pattern/national-socialist-germany-anschluss-of-austria-ballot/) of Nazi Germany to annex Austria, where the circle to check "Yes" is bigger than the one for "No." Pre-Internet deceptive design, pretty wild, right? To spot deceptive design patterns, I would keep in mind the following:
 
--   Is the site trying to persuade or pressure you to do something? That could be making a financial transaction but also giving away some of your data, signing up for a free account, or sharing your contacts' information with them, via the now typical "Invite your friends!".
--   Is there a lack of clarity or transparency in how the website or its business model work?
--   Is an action hidden or made difficult to complete, e.g., deleting your account, downgrading your paying plan, etc.?
--   What motivates a specific design decision?
+- Is the site trying to persuade or pressure you to do something? That could be making a financial transaction but also giving away some of your data, signing up for a free account, or sharing your contacts' information with them, via the now typical "Invite your friends!".
+- Is there a lack of clarity or transparency in how the website or its business model work?
+- Is an action hidden or made difficult to complete, e.g., deleting your account, downgrading your paying plan, etc.?
+- What motivates a specific design decision?
 
 These questions are not a cookie-cutter bulletproof way to spot deceptive design, but they're pretty useful.
 
 **Carlo Cilento:**
 I really like the third question. Sometimes I feel like I need to push against the interface to accomplish what I want to do. Of course, that can also happen with a poorly designed interface. But I always get a distinct, uneasy feeling when the interface gets in the way on purpose. Probably because it always happens when I'm trying to do something the website doesn't want me to. If I'm subscribing or handing over data, the experience just flows smoothly, which is suspicious.
 
-## 4. Do you think it will be more commonplace in the future?
+## Do you think it will be more commonplace in the future?
 
 **Clo S.:**
 This is hard to tell. There is some policy against deceptive design, but it's still very sparse. The European Parliament recently adopted the following text in article 23a.1 of the [Digital Services Act](https://www.europarl.europa.eu/doceo/document/TA-9-2022-0269_EN.html):
@@ -82,7 +76,7 @@ In the US, the Federal Trade Commission is investigating potential deceptive pat
 **Carlo Cilento:**
 Users are increasingly aware of deceptive patterns, but it still makes companies a lot of money, and I don't think they will stop until someone makes them. Some people are trying to: for example, NGO noyb filed many [complaints](https://noyb.eu/en/project/cookie-banners) about deceptive cookie banners, and the European Consumer Organization just started a legal battle against Google for incorporating deceptive design during Google Account signup (their [report](https://www.beuc.eu/reports/fast-track-surveillance-how-google-makes-privacy-hard-choice-summary) contains some nice examples of deceptive design, by the way). If all goes well, these legal actions may set some important precedents.
 
-## 5. How can you ensure you don't use deceptive design patterns yourself?
+## How can you ensure you don't use deceptive design patterns yourself?
 
 **Clo S.:**
 [This 2021 analysis](https://arxiv.org/pdf/2101.04843.pdf) conducted by three researchers at Princeton University looks into what exactly qualifies deceptive design as "deceptive." Some of the effects mentioned there rely on mechanisms that "subvert user intent," "confuse users," "manipulate users," and "undermine user autonomy." This paper also features a lengthy and exhaustive classification of deceptive patterns, such as obfuscation, nagging, and camouflage advertising. This list is good to keep in mind to avoid using deceptive design yourself.
@@ -91,7 +85,6 @@ Additionally, user research can help you spot misunderstandings. You could uncov
 
 **Carlo Cilento:**
 I believe being observant and not copying what others are doing is a good start. It's easy to be influenced by all the UIs you see around and use yourself daily. Still, when those UIs incorporate dark patterns, you might develop something deceptive in your work without even noticing. Searching for examples of deceptive designs can help you be critical of what you see and careful about design choices. And, of course, user feedback also helps with avoiding those pitfalls. Not being evil also helps, but that's a given.
-
 
 You can follow Clo's work via her newsletter [Digital Wellness](https://thistooshallgrow.com/newsletter). She's also active [on Twitter](https://twitter.com/Clo__S).
 

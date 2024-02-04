@@ -6,10 +6,10 @@ excerpt: "How website analytics tool can help grow your business and how you can
 image: https://assets.simpleanalytics.com/blog/2022-what-do-website-analytics-allow-you-to-do/social-image-what-do-website-analytics-allow-you-to-do.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-what-do-website-analytics-allow-you-to-do/social-image-what-do-website-analytics-allow-you-to-do.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/website-analytics-without-cookies
- - /blog/is-google-analytics-illegal-in-europe
- - blog/is-google-analytics-4-gdpr-compliant
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/is-google-analytics-illegal-in-europe
+  - blog/is-google-analytics-4-gdpr-compliant
 ---
 
 Everyone with some time on their hands can create and launch a website. Within a few clicks, you're in business (well, maybe a bit more, but you get the point).
@@ -24,13 +24,9 @@ But what can you improve exactly, and how should you do this?
 
 Let’s dive in!
 
-1.  [What are website analytics?](#1-what-are-website-analytics)
-2.  [What metrics are collected by website analytics tools](#2-what-metrics-are-collected-by-website-analytics-tools)
-3.  [How are website analytics useful for your business?](#3-how-are-website-analytics-useful-for-your-business)
-4.  [Website optimization using website analytics](#4-website-optimization-using-website-analytics)
-5.  [Different web analytics tools](#5-different-web-analytics-tools)
+{{tableofcontents}}
 
-## 1. What are website analytics?
+## What are website analytics?
 
 Because of the rising number of technologies, the amount of corresponding data keeps growing. This data can be beneficial (if approached in the right way).
 
@@ -42,7 +38,7 @@ Once you have installed a website analytics tool, you can see information about 
 
 {% include video.html slug="filters" formats="mp4,ogg,webm,wmv" poster="video.png" %}
 
-## 2. What metrics are collected by website analytics tools?
+## What metrics are collected by website analytics tools?
 
 As mentioned, web analytics allows you to collect data from your users to optimize your website based on their behavior. But what specific metrics are collected? Short answer: This highly depends on what kind of analytics tool you are using.
 
@@ -54,7 +50,7 @@ There are also different analytics tools, like [Simple Analytics](https://www.si
 
 Coming back to the metrics. Most analytics will show you where your visitors are coming from (direct, Google, Facebook, etc.) and also which pages they visit. In addition, you can see the time visitors spend on a page, their location, the device they use to visit the website, and their browser information is also included.
 
-## 3. How are website analytics useful for your business?
+## How are website analytics useful for your business?
 
 Yes, I hear your questions: “Okay, cool, but how can this be useful for my business?”
 
@@ -64,7 +60,7 @@ Metrics like time on page, bounce rate, etc., can clearly indicate whether visit
 
 If you can measure it, you can improve it, right? This way, web analytics can be a massive advantage for your business, and we’ll show you how!
 
-## 4. Website optimization using website analytics
+## Website optimization using website analytics
 
 First and foremost, web analytics provides valuable insights into website visitors' behavior. This information can be used to understand customer preferences and tailor content to meet their needs. For example, web analytics can reveal the most popular pages on a website, the time visitors spend on each page, and the traffic sources. This information can be used to prioritize creating and optimizing content that is likely to attract and engage potential customers.
 
@@ -78,14 +74,14 @@ Lastly, you can also optimize your conversion rate (meaning the number of visito
 
 In short, website analytics gives you insights into your performance and lets you capture opportunities to improve.
 
-## 5. Different web analytics tools
+## Different web analytics tools
 
 Multiple analytics tools on the market approach website analytics in different fashions. Some are very complex and focused on enterprise organizations or companies with large marketing teams. Others, like Simple Analytics, focus on simplicity and privacy-friendliness. We’ve compiled a list of a few different web analytics tools below:
 
--   **Google Analytics** - this is the most well-known, free web analytics tool. It does not guarantee your users’ privacy and is rather complex. It requires training before you will be able to use it optimally.
--   **Simple Analytics** - this is us. We focus on being privacy-friendly and ease of use. We are cookieless by design (so you don’t need a cookie banner), and we don’t collect any personal data.
--   **Adobe Analytics** - this is another complex analytics tool that focuses on enterprise customers and replicates much of the insights that Google Analytics provides.
--   **Matomo** - this is a free and open-source web analytics tool. It measures traffic on web pages and corresponding user behavior.
+- **Google Analytics** - this is the most well-known, free web analytics tool. It does not guarantee your users’ privacy and is rather complex. It requires training before you will be able to use it optimally.
+- **Simple Analytics** - this is us. We focus on being privacy-friendly and ease of use. We are cookieless by design (so you don’t need a cookie banner), and we don’t collect any personal data.
+- **Adobe Analytics** - this is another complex analytics tool that focuses on enterprise customers and replicates much of the insights that Google Analytics provides.
+- **Matomo** - this is a free and open-source web analytics tool. It measures traffic on web pages and corresponding user behavior.
 
 Which tool is the most effective for your website is context-dependent. However, if you have chosen a web analytics tool that suits your needs and you apply it correctly, you will gain very useful insights and be able to optimize your website where needed.
 

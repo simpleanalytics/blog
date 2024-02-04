@@ -4,11 +4,12 @@ author_slug: pieter_vegt
 author: Pieter Vegt
 excerpt: "2022 was an exciting year for privacy-enthusiasts. Lets look at what ahead in 2023"
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/website-analytics-without-cookies
- - /blog/is-google-analytics-illegal-in-europe
- - /blog/is-google-analytics-4-gdpr-compliant
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/is-google-analytics-illegal-in-europe
+  - /blog/is-google-analytics-4-gdpr-compliant
 ---
+
 > This is a guest blog by Pieter Vegt, Privacy Advocate at Empathy.co & Ethical Commerce Alliance
 
 2022 was an exciting year for countries, businesses and consumers alike that focus on building privacy-first technology and digital trust. The Schrems II court rulings, as well as the growing awareness of data protection, have pushed the privacy conversation forward and brought changes to online experiences on many levels.
@@ -17,13 +18,11 @@ We’re highlighting 3 privacy trends from the past year and how they might evol
 
 {% include gif.html slug="crystal-ball" alt="crystal ball" width="480" height="270" color="#6c6d6d" %}
 
-1. [Countries are taking measures against big tech](#1-countries-are-taking-measures-against-big-tech)
-2. [Consumers are gaining awareness of tracking and cookies](#2-consumers-are-gaining-awareness-of-tracking-and-cookies)
-3. [Privacy-first technologies on the rise](#3-privacy-first-technologies-on-the-rise)
+{{tableofcontents}}
 
 Let's dive in!
 
-## 1. Countries are taking measures against big tech
+## Countries are taking measures against big tech
 
 GDPR protects the data rights of individuals in the EU. But what happens when personal data is transferred to a country outside of the European Economic Area?
 
@@ -39,7 +38,7 @@ As a result, Austria, Denmark, [France](https://www.simpleanalytics.com/blog/fra
 
 While US president Biden signed [a new executive order for data transfers](https://www.simpleanalytics.com/blog/first-signs-that-bidens-eo-on-data-transfers-will-be-challenged?utm_source=theprivacynewsletter.com) last year, the road ahead is still long and uncertain. The new data transfer framework between the EU and the US will almost certainly undergo scrutiny in the European Court of Justice in the future. That’s why it seems that 2023 will not bring an end to the court procedures and fines. Only recently, [the Irish DPB fined Meta € 265 million](https://www.reuters.com/technology/irish-regulator-fines-facebook-265-mln-euros-over-privacy-breach-2022-11-28/) because of Facebook data breaches.
 
-## 2. Consumers are gaining awareness of tracking and cookies
+## Consumers are gaining awareness of tracking and cookies
 
 With the GDPR launching in 2018 as a legislative framework for online privacy, ecommerce businesses were faced with the challenge of implementing data protection measures.
 
@@ -59,13 +58,12 @@ The data culture can no longer support the idea that ‘as long as it’s not ob
 
 And this necessity for digital ethics will continue to shape business strategies in 2023.
 
-## 3. Privacy-first technologies on the rise
+## Privacy-first technologies on the rise
 
 While data privacy awareness is quickly growing, it offers opportunities for businesses to stand out and connect with shoppers. Research has shown that flexible businesses that change their strategy and focus on transparency and digital trust, can [boost their revenue by 10% and more.](https://empathy.co/blog/a-successful-business-starts-with-digital-trust-ethical-data-and-ai-policies/)
 
 With the right tools, they can optimise their performance and create unforgettable customer journeys to inspire shoppers, without compromising on the ethical handling of data. The sustainable use of data creates a win-win situation for both the shopper and the retailer.
 
 This strategy of choosing technology with digital trust at its core is also supported by McKinsey & Company. The global consulting firm advises retailers to [only collect the data they need to conduct business](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/digital-resilience-consumer-survey-finds-ample-scope-for-growth?stcr=6790E1C800C64155A4BEC20153CC7E4A&cid=other-eml-alt-mip-mck&hlkid=943ea2ac9209464a8df39eca2e008ebf&hctky=14072670&hdpid=053d54cd-323f-4252-8cde-00f19c82f18c). By doing so, businesses show that they listen to their customers and their growing concerns about hacking and data handling.
-
 
 > [Empathy.co](http://empathy.co/) is the leading innovator in privacy-first commerce Search & Discovery. Over 200 developers and search engineers support headquarters in London and Asturias. Trusted by global industry leaders like Carrefour, Kroger, Music Magpie and Inditex, [Empathy.co](http://empathy.co/) gives brands everything needed to create trustworthy, understanding, joyful shopping experiences.

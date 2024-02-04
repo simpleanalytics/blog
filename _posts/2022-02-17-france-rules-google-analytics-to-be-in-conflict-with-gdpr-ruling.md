@@ -6,10 +6,10 @@ excerpt: "CNIL rules the use of Google Analytics to be in conflict with GDPR. Wh
 image: https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics.png
 lang: en
 related_posts:
- - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/italy-declares-google-analytics-illegal
+  - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/italy-declares-google-analytics-illegal
 fr: /la-france-juge-que-google-analytics-est-en-contradiction-avec-le-reglement-rgpd
 nl: /frankrijk-oordeelt-dat-google-analytics-in-strijd-is-met-gdpr-uitspraak
 ---
@@ -20,13 +20,13 @@ In their [press release](https://www.cnil.fr/en/use-google-analytics-and-data-tr
 
 It's the second EU country to openly acknowledge the breach of [article 44 of the GDPR](https://gdpr-info.eu/art-44-gdpr/) agreement by Google. We believe others will be likely to follow suit.
 
-<img class="border-radius" style="max-width: 500px; margin: 1rem auto;" src="https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics-no-simple-analytics.png" alt="France rules Google Analytics to be in conflict with GDPR ruling" />
+![France rules Google Analytics to be in conflict with GDPR ruling](https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics-no-simple-analytics.png)
 
 ## CNIL: Google Analytics is in conflict with GDPR regulation
 
 While it has taken some time for regulators to act (the investigation is dating back to August 2020), the momentum seems to be in full force now. After the DSB published its statement last month, the CNIL broke the news last week.
 
-In our [earlier post](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu) (in English), in which we cover the DSB's decision to invalidate the use of Google Analytics, we analyze the root cause of these reactions.
+In our [earlier post](/blog/will-google-analytics-be-banned-in-the-eu) (in English), in which we cover the DSB's decision to invalidate the use of Google Analytics, we analyze the root cause of these reactions.
 
 In short, the EU GPDR laws demand data protection for its citizens. The US however fails to adhere to these guidelines. They do not provide any non-US citizens with any way to know how their data is being processed or (mis)used. As a reaction to this, the CNIL responds that data transfers can only take place if appropriate guarantees are provided, which is not the case at the moment.
 

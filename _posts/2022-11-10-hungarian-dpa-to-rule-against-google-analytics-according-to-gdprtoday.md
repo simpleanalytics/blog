@@ -6,26 +6,26 @@ excerpt: "Hungarian DPA may join the Austrian, French, and Italian DPAs in rulin
 image: https://assets.simpleanalytics.com/blog/2022-hungarian-dpa-to-rule-against-ga/social-image-hungarian-dpa-to-rule-against-google-analytics.png
 image_no_text: https://simpleanalyticsassets.b-cdn.net/blog/2022-hungarian-dpa-to-rule-against-ga/social-image-no-text-hungarian-dpa-to-rule-against-google-analytics.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/how-to-delete-google-analytics-in-4-steps
+  - /blog/website-analytics-without-cookies
 last_modified_at: 2022-11-23
 ---
 
-According to the latest edition of noyb's [GDPRtoday newsletter]([https://noyb.eu/en/gdprtoday](https://web.archive.org/web/20221102155256/https://noyb.eu/en/gdprtoday)), the Hungarian data protection authority may soon join the [Austrian](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), [French](https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)), and [Italian](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) DPAs in **ruling against the use of Google Analytics**.
+According to the latest edition of noyb's [GDPRtoday newsletter](<[https://noyb.eu/en/gdprtoday](https://web.archive.org/web/20221102155256/https://noyb.eu/en/gdprtoday)>), the Hungarian data protection authority may soon join the [Austrian](<https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)>), [French](<https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)>), and [Italian](<https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890>) DPAs in **ruling against the use of Google Analytics**.
 
 A **disclaimer** is due here: the decision has not been published yet, and Noyb is a privacy NGO directly involved in the case. We consider the information reliable because we believe noyb has no plausible interest in spreading inaccurate information about the outcome of one of its cases, but some discretion is advised.
 
 ## The case
 
-The case is one of [noyb's 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfers-filed). According to the summary available on the [gpdrhub](https://gdprhub.eu/index.php?title=NAIH_(Hungary)_-_NAIH-3561-4/2022) (also a noyb project), the decision will closely resemble the ones from the other three DPAs.
+The case is one of [noyb's 101 complaints](https://noyb.eu/en/101-complaints-eu-us-transfers-filed). According to the summary available on the [gpdrhub](<https://gdprhub.eu/index.php?title=NAIH_(Hungary)_-_NAIH-3561-4/2022>) (also a noyb project), the decision will closely resemble the ones from the other three DPAs.
 
 A Hungarian weather forecast website used Google Analytics, which requires transfers of personal data between Google Ireland Ltd. and US-based Google LLC. A data subject, represented by noyb, complained that the transfers of his personal data **lacked effective safeguards** against US surveillance and were therefore **unlawful**. The Hungarian DPA (NAIH) allegedly upheld the claim and ordered the website to cease the use of Google Analytics.
 
 While the rulings of the Austrian, French and Italian DPAs addressed individual controllers, they set a precedent that practically amounts to a **Statewide ban**. This is because controllers using Google Analytics are not in a position to implement adequate safeguards (more about this [here](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us#3-supplementary-measures-for-data-transfers)). There are good reasons to expect this to be the case for Hungary as well, as DPAs are following a [coordinated approach](https://edpb.europa.eu/news/news/2020/european-data-protection-board-thirty-seventh-plenary-session-guidelines-controller_en) in deciding the 101 complaints. So if the information is accurate, the **use of Google Analytics may soon be unlawful in Hungary under the GDPR**.
 
-As with previous DPA's banning the use of Google Analytis, we've seen some confusion on whether this applies to the current Google Analytics version (universal analytics) or also on the new version (Google Analytics 4). The short answer is that the statements apply to both verions. We've written about this more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
+As with previous DPA's banning the use of Google Analytis, we've seen some confusion on whether this applies to the current Google Analytics version (universal analytics) or also on the new version (Google Analytics 4). The short answer is that the statements apply to both verions. We've written about this more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant).
 
 ## The bigger picture
 
@@ -33,6 +33,6 @@ US data transfers have been a legal puzzle for companies for a while now. The is
 
 Shortly after Schrems II, noyb filed 101 complaints against Google Analytics and Facebook Connect. All complaints revolve around data transfers and aim to nudge DPAs towards **stricter enforcement of the Schrems II ruling**.
 
-DPAs coordinated their approach to the complaints at a European level. As a result, three DPAs (the Austrian DSB, the French CNIL, and the Italian [GPDP](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) ruled against the use of Google Analytics so far. The Danish Datatilsynet also followed the example by practically declaring use of GA unlawful in a [press release](https://www.simpleanalytics.com/blog/denmark-declares-google-analytics-unlawful). If the latest news is accurate, the Hungarian NAIH will be the fourth DPA to practically ban Google Analytics from its Members State (or the fifth, counting the Datatilsynet).
+DPAs coordinated their approach to the complaints at a European level. As a result, three DPAs (the Austrian DSB, the French CNIL, and the Italian [GPDP](<https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890>) ruled against the use of Google Analytics so far. The Danish Datatilsynet also followed the example by practically declaring use of GA unlawful in a [press release](https://www.simpleanalytics.com/blog/denmark-declares-google-analytics-unlawful). If the latest news is accurate, the Hungarian NAIH will be the fourth DPA to practically ban Google Analytics from its Members State (or the fifth, counting the Datatilsynet).
 
 **Want to stay up to date?**: Subscribe to [theprivacynewsletter.com](https://theprivacynewsletter.com/) to receive the latest news. **Looking for a Google Analytcs alternative that does comply with EU law?** Unlike Google, we believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [check us out](https://simpleanalytics.com/simpleanalytics.com).

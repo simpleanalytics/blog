@@ -18,12 +18,9 @@ Let's explore!
 
 {% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400" height="327" color="#6f7619" %}
 
-1.  [Aanklacht](#1-aanklacht)
-2.  [Uitspraak](#2-uitspraak)
-3.  [Reactie van Google](#3-reactie-van-google)
-4.  [Implicaties](#4-implicaties)
+{{tableofcontents}}
 
-## 1. Aanklacht
+## Aanklacht
 
 Op 14 augustus 2020 heeft een persoon (de 'data subject') een website bezocht over gezondheidsonderwerpen, terwijl de 'data subject' was ingelogd met zijn/haar persoonlijke inloggegevens. De website in kwestie maakte gebruik van [Google Analytics](https://analytics.google.com/analytics/web/) om de bezoekers van hun website te volgen en te controleren.
 
@@ -33,7 +30,7 @@ In de klacht werd aangevoerd dat het versturen van gegevens aan Google in strijd
 
 Dit is het kritieke punt in de aanklacht. Om het ronduit te zeggen: Het gaat niet hierin niet zozeer om het gebruik van Google Analytics door de website in kwestie, het gaat om de overdracht van uw persoonsgegevens aan Amerikaanse providers.
 
-## 2. Uitspraak
+## Uitspraak
 
 Het is de eerste klacht die resulteert in een beslissing met betrekking tot de zogenaamde ["Schrems II"](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/), die verwijst naar de uitspraak dat het overdragen van gegevens aan Amerikaanse providers in strijd is met de GDPR regelgeving. Deze uitspraak is sinds juli 2020 van kracht, maar werd tot nu toe door gegevensverwerkers genegeerd.
 
@@ -43,7 +40,7 @@ Het [DSB](https://www.data-protection-authority.gv.at/) oordeelde anders en zag 
 
 Google kan worden aangemerkt als een "aanbieder van elektronische communicatiediensten" en kan worden gelast persoonsgegevens bekend te maken. Het niveau van bescherming van persoonsgegevens wordt daarom ontoereikend geacht. Aanvullende maatregelen die Google heeft genomen, werden ook ontoereikend geacht. Zij konden geenszins voorkomen dat persoonsgegevens aan de Amerikaanse inlichtingendiensten werden verstrekt.
 
-## 3. Reactie van Google
+## Reactie van Google
 
 Russell Ketchum, head of productmanagement van Google Analytics, [reageerde namens Google](https://blog.google/around-the-globe/google-europe/google-analytics-facts/). Hij verklaarde dat "Google Analytics consumenten helpt met de naleving van de wetgeving door hen een reeks controles en hulpmiddelen te bieden". Hij gaf aan dat IP-adressen kunnen worden geanonimiseerd en dat het verzamelen van gegevens kan worden uitgeschakeld en verwijderd (op verzoek).
 
@@ -55,7 +52,7 @@ Het punt is de overdracht van gegevens aan Amerikaanse providers, die onder toez
 
 Dit is nog steeds in strijd met de [GDPR-regelgeving](https://lawspeed.com/gdpr-transfers-of-data-to-the-united-states/). Het DSB oordeelde dat zelfs geanonimiseerde IP-adressen persoonsgegevens zijn, omdat ze gecombineerd kunnen worden met andere digitale gegevens, om een bezoeker te identificeren. Dit is ook waar de meeste privacy-vriendelijke alternatieven voor Google Analytics, de mist in gaan. Bij Simple Analytics hebben we de belofte gemaakt om nooit, maar dan ook [nooit IP adressen op te slaan](https://docs.simpleanalytics.com/what-we-collect). Zelfs niet op een geanonimiseerde manier, zoals veel van onze concurrenten wel doen.
 
-## 4. Implicaties
+## Implicaties
 
 Bottom line: Dit is een goede beslissing, maar geen nieuwe. Het is een bevestiging van wat in juli 2020 is beslist, maar nu lijkt het meer impact te hebben. Persoonlijk heb ik het gevoel dat de wet nu wel zal worden gehandhaafd.
 

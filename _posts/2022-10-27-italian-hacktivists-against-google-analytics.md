@@ -6,55 +6,49 @@ excerpt: "Italian hackivist organization MonitoraPA sent thousands of emails req
 image: https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-monitora-pa.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-no-text-monitora-pa.png
 related_posts:
- - /blog/is-google-analytics-4-gdpr-compliant
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/is-google-analytics-illegal-in-europe
+  - /blog/is-google-analytics-4-gdpr-compliant
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/how-to-delete-google-analytics-in-4-steps
+  - /blog/is-google-analytics-illegal-in-europe
 ---
 
-Google Analytics is a hot topic in the Italian privacy and marketing communities right now. The Italian data protection authority (GPDP) [ruled against GA](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) in June and announced investigations about the tool's use among both companies and public administrations.
+Google Analytics is a hot topic in the Italian privacy and marketing communities right now. The Italian data protection authority (GPDP) [ruled against GA](<https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890>) in June and announced investigations about the tool's use among both companies and public administrations.
 
 But there's more going on: Hacktivist group MonitoraPA sent thousands of emails requiring administrations to drop both GA and Google Fonts.
 
 In addition, they sent similar warnings to the websites of Italian political parties. Also, they forwarded thousands of access requests to Italian schools, requiring information on the processing of student data. At the same time, Italian activist Federico Leva sent countless emails to Italian websites using GA to have his personal data erased. All these requests are backed by legal action.
 
-It's hard to figure out what is happening and what the implications are, that's why we are here to shed some light. *(Note: some of the links in the following texts are in Italian only, as there is no international coverage for some of our topics)*.
+It's hard to figure out what is happening and what the implications are, that's why we are here to shed some light. _(Note: some of the links in the following texts are in Italian only, as there is no international coverage for some of our topics)_.
 
 {% include gif.html slug="understand-nothing" alt="understand nothing" width="480" height="400" color="#5f5b63" %}
 
-1.  [What is wrong with Google Analytics?](#1-what-is-wrong-with-google-analytics)
-2.  [Monitora PA and their campaign against Google Analytics](#2-monitora-pa-and-their-campaign-against-google-analytics)
-    1.  [Monitora PA's requests for removal](#21-monitora-pas-requests-for-removal)
-    2.  [Monitora PA's access requests](#22-monitora-pas-access-requests)
-    3.  [Monitora PA's "election special"](#23-monitora-pas-election-special)
-    4.  [Federico Leva's emails](#24-federico-levas-emails)
-    5.  [Criticism](#25-criticism)
+{{tableofcontents}}
 
 Let's dive in!
 
-## 1. What is wrong with Google Analytics?
+## What is wrong with Google Analytics?
 
 We already wrote extensively about [Google Analytics' compliance issues](https://www.simpleanalytics.com/blog/is-google-analytics-illegal-in-europe), so here is a very short recap:
 
 In 2020, the **Schrems II ruling** found that the US legal framework could not provide sufficient protection for European data because of how invasive US surveillance practices were.
 
-Shortly after the Schrems II ruling, Austrian privacy NGO noyb filed 101 complaints about data transfers in a strategic effort to nudge DPAs towards strict enforcement of the Schrems II ruling. DPAs coordinated their approach to the complaints at a European level, and as a result, **three DPAs have ruled against the use of Google Analytics so far** (the Austrian [DSB](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), the French [CNIL](https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)), and the Italian [GPDP](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890)).
+Shortly after the Schrems II ruling, Austrian privacy NGO noyb filed 101 complaints about data transfers in a strategic effort to nudge DPAs towards strict enforcement of the Schrems II ruling. DPAs coordinated their approach to the complaints at a European level, and as a result, **three DPAs have ruled against the use of Google Analytics so far** (the Austrian [DSB](<https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)>), the French [CNIL](<https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)>), and the Italian [GPDP](<https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890>)).
 
 Other DPAs are likely to adopt similar positions in the future. The CNIL and the GPDP are very respected and influential DPAs, and others are likely to follow their lead.
 
 In more recent news, the EU Commission and the White House recently agreed on a **new framework for data transfers**. However, the new framework still appears problematic in some regards and will surely be challenged in the CJEU. For this reason, the future of transatlantic data transfers is still uncertain.
 
-## 2. Monitora PA and their campaign against Google Analytics
+## Monitora PA and their campaign against Google Analytics
 
 As we said, the Austrian, French, Italian and Danish DPA are all on the same page regarding data transfers. However, the Italian situation is somewhat peculiar. Italian citizen Federico Leva and the Monitora PA group forwarded thousands of requests related to GA, threatening legal action.
 
-### 2.1 Monitora PA's requests for removal
+### Monitora PA's requests for removal
 
-Shortly before the GPDP decided on the first GA complaint, the hacktivist group Monitora PA (monitoring the public administration) forwarded thousands of emails requesting  public administrations to **stop using Google Analytics and Google Fonts** and threatening legal action before the GPDP.
+Shortly before the GPDP decided on the first GA complaint, the hacktivist group Monitora PA (monitoring the public administration) forwarded thousands of emails requesting public administrations to **stop using Google Analytics and Google Fonts** and threatening legal action before the GPDP.
 
 The campaign was met with some criticism but had been working so far. [Monitora PA member Fabio Pietrosanti](https://www.key4biz.it/google-analytics-in-pa-3-400-siti-lhanno-rimosso-grazie-a-monitorapa-a-fine-mese-faremo-anche-esposto-al-garante-privacy/405043/) reported that almost 8.000 administrations were contacted, and more than 3.000 stopped using GA.
 
-### 2.2 Monitora PA's access requests
+### Monitora PA's access requests
 
 [Monitora PA also requested thousands of schools for information related to their data processing](https://monitora-pa.it/2022/09/19/8254_domande_a_Scuola.html). More precisely, it required access to several documents that schools are under an obligation to keep under the GDPR and Italian administrative law.
 
@@ -64,21 +58,19 @@ Performing a TIA is one of the obligations of the data exporter[^1]. TIAs are al
 
 It is also worth mentioning that the Danish DPA recently ordered schools in the Municipality of Helsingor to dismiss Google Workplace because of the required data transfers to the US. Given this precedent, Monitora PA's access requests may **spark an inquiry** into using Google software and other tools in Italian schools.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-no-text-monitora-pa.png" alt="Monitora PA" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![Monitora PA](https://assets.simpleanalytics.com/blog/2022-italian-hacktivists-against-google/social-image-no-text-monitora-pa.png)
 
-### 2.3 Monitora PA's "election special"
+### Monitora PA's "election special"
 
 In September, Monitora PA started [yet another campaign](https://monitora-pa.it/2022/09/13/Speciale_Elezioni_2022_Segnalazione_al_Garante.html). The group found that numerous websites of Italian political parties were using Google Analytics and Google Fonts and requested them to stop using the tools. Monitora PA later filed a [complaint](https://monitora-pa.it/2022/09/13/Segnalazione-al-Garante.pdf) against 47 websites that kept using either GA or GF.
 
 User tracking on websites of political associations is very problematic. The Cambridge Analytica scandal should remind us of privacy practices' potential impact on democratic countries' politics. And from a strictly legal perspective, the data collected might reveal a user's political opinions, which qualifies as **sensitive data** under the GDPR[^2]- as Monitora PA pointed out in their complaint.
 
-### 2.4 Federico Leva's emails
+### Federico Leva's emails
 
 Over the summer, activist Federico Leva forwarded thousands of emails to Italian websites using GA, requiring [the erasure of his personal data](https://www.giornalettismo.com/federico-leva-mail-google-analytics-cosa-fare/). He claimed that the use of GA involves unlawful data transfers and that processing his personal data for web analytics is illegal. Like Monitora Pa, Mr. Leva is threatening legal action should the controller not comply with his requests.
 
-### 2.5 Criticism
+### Criticism
 
 As we said, Monitora PA and Mr. Leva's campaigns elicited polarizing reactions in the legal and privacy communities. The criticism against these campaigns is summed up in a recent document: a **[notification letter to the Italian GPDP](https://studiolegalelisi.it/wp-content/uploads/2022/09/Segnalazione-Garante.pdf)** against Monitora PA and Federico Leva, signed by numerous Italian lawyers under the coordination of lawyer Andrea Lisi.
 
@@ -98,7 +90,7 @@ Not only does Google Analytics not operate within the law, but they're also not 
 
 At Simple Analytics, we believe that you don't need to track internet users or collect personal data to get [the insights you need](https://simpleanalytics.com/simpleanalytics.com). We believe in creating an independent web that is friendly to website visitors. If this resonates with you, feel free to [give us a try](https://simpleanalytics.com/welcome).
 
->[^1]: TIAs are not mentioned in the GDPR, but the CJEU stated in the Schrems II case that the data controller must verify ”whether the law of the third country of destination ensures adequate protection (...) of personal data” (par. 134).
->[^2]: Art. 9(1) GDPR. The processing of sensitive data is subject to stricter rules than the general rules for processing personal data under the GDPR.
->[^3]: The emails forwarded to public administrations can be found [here](https://www.easyteam.org/2022/05/12/google-e-la-conformita-al-gdpr/) and on other Italian websites, and data subject rights are never mentioned. As for Monitora PA’s requests to schools, they are a form of civic access under Italian administrative law (Art. 5(2) d. lgs. 33/2013, later amended by Art 6(1) d. lgs. 97/2016), as confirmed by the group’s [own website](https://monitora-pa.it/2022/09/19/8254_domande_a_Scuola.html).
->[^4]: Monitora PA is not a natural person and therefore doesn’t qualify as a data subject. See the definitions of “personal data” and “data subject” under Art.4(1) GDPR.
+> [^1]: TIAs are not mentioned in the GDPR, but the CJEU stated in the Schrems II case that the data controller must verify ”whether the law of the third country of destination ensures adequate protection (...) of personal data” (par. 134).
+> [^2]: Art. 9(1) GDPR. The processing of sensitive data is subject to stricter rules than the general rules for processing personal data under the GDPR.
+> [^3]: The emails forwarded to public administrations can be found [here](https://www.easyteam.org/2022/05/12/google-e-la-conformita-al-gdpr/) and on other Italian websites, and data subject rights are never mentioned. As for Monitora PA’s requests to schools, they are a form of civic access under Italian administrative law (Art. 5(2) d. lgs. 33/2013, later amended by Art 6(1) d. lgs. 97/2016), as confirmed by the group’s [own website](https://monitora-pa.it/2022/09/19/8254_domande_a_Scuola.html).
+> [^4]: Monitora PA is not a natural person and therefore doesn’t qualify as a data subject. See the definitions of “personal data” and “data subject” under Art.4(1) GDPR.

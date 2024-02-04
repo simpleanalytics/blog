@@ -4,29 +4,25 @@ author_slug: "iron"
 author: "Iron Brands"
 excerpt: "Simple Ansimple is an easy web analytics tool that gives you the insights you need, while taking take of the privacy of your website visitors"
 related_posts:
- - /blog/website-analytics-without-cookies
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/simple-analytics-for-marketers
+  - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/simple-analytics-for-marketers
 image: "https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/social-image.png"
 last_modified_at: 2022-09-28
 ---
 
-While [privacy-friendliness is one of our most important pillars](https://blog.simpleanalytics.com/website-analytics-without-cookies), we shouldn't forget that we're also here for business owners that want to get insights website traffict.
+While [privacy-friendliness is one of our most important pillars](/blog/website-analytics-without-cookies), we shouldn't forget that we're also here for business owners that want to get insights website traffict.
 
 Our goal has always been to provide easy website analytics. Hence we built a [one-page dashboard](https://simpleanalytics.com/simpleanalytics.com) that gives you all the insights you need.
 
 {% include gif.html slug="keep-it-simple-stupid" alt="Keep it simple stupid" width="450" height="295" color="#351b15" %}
 
-1.  [Why do you need website analytics?](#1-why-do-you-need-website-analytics)
-2.  [What insights should a website analytics tool provide?](#2-what-insights-should-a-website-analytics-tool-provide)
-3.  [Google Analytics is a complex tool](#3-google-analytics-is-a-complex-tool)
-4.  [Simple Analytics is an easy analytics tool](#4-simple-analytics-is-an-easy-analytics-tool)
-5.  [What analytics tool works best for your business?](#5-which-analytics-tool-should-you-choose)
+{{tableofcontents}}
 
 Let's dive in!
 
-## 1\. Why do you need website analytics?
+## Why do you need website analytics?
 
 Analytics is essential for every business. The Insights it provides can help you navigate your business.
 
@@ -34,7 +30,7 @@ The purpose is to help you understand what you are doing right and what you need
 
 However, at Simple Analytics, we violating the privacy of website visitors by tracking every individual user and collecting personal data.
 
-## 2\. What insights should a website analytics tool provide?
+## What insights should a website analytics tool provide?
 
 To use website analytics as a navigation tool, you must consider which metrics and KPIs are important to you. What insights would you like to see, and what data do you need?
 
@@ -46,20 +42,18 @@ For some companies, Google Analytics fits like a glove. E-commerce websites that
 
 There is no one-size-fits-all, but still, everyone uses Google Analytics.
 
-## 3\. Google Analytics is a complex tool
+## Google Analytics is a complex tool
 
 Google Analytics is the most powerful website analytics tool but also the most complex. It can be overwhelming for beginners, requiring training to grasp all its functionalities. If you have never used it before, you will find it hard to understand how it works.
 
 When you login into your Google Analytics dashboard, you are welcomed by an overload of options and reports that you will most likely never even touch. Quite often, there is no need for multiple layers of menus and custom reports to give you the insights you need.
 
-We believe you can get the insights you need without going through the horror of Google Analytics. That's why we built Simple Analytics as [an alternative to Google Analytics](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics).
+We believe you can get the insights you need without going through the horror of Google Analytics. That's why we built Simple Analytics as [an alternative to Google Analytics](/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics).
 
-<img src="https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/google-analytics-dashboard-vs-simple-analytics-dashboard.png" alt="Google Analytics dashboard vs. Simple Analytics dashboard" class="border" />
-<p class="caption" markdown="1">
-  Google Analytics dashboard vs. Simple Analytics dashboard
-</p>
+![Google Analytics dashboard vs. Simple Analytics dashboard](https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/google-analytics-dashboard-vs-simple-analytics-dashboard.png)
+_Google Analytics dashboard vs. Simple Analytics dashboard_
 
-## 4\. Simple Analytics is an easy analytics tool
+## Simple Analytics is an easy analytics tool
 
 Simple Analytics is built on two foundational beliefs. First, we believe in an open and independent web that is friendly to website visitors. Hence Simple Analytics is cookieless by design and does not track users or [collect personal data](https://docs.simpleanalytics.com/what-we-collect). All our parameters are set up with that in mind, so you directly comply with [GDPR](https://gdpr-info.eu/), [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/what-are-pecr/) & [CCPA](https://oag.ca.gov/privacy/ccpa) regulations. Secondly, we wanted to provide an easy analytics tool that gives you the data you need in a clean one-page dashboard.
 
@@ -81,18 +75,16 @@ We also show referral links as mini-websites in our quest to make the cleanest d
 
 We focus on the essentials. We believe there is no need for multiple data layers and custom reports for you to make impactful decisions. As a result, the analytics script we run on your website is 15 times smaller than the Google Analytics script (3kb vs. 45kb).
 
-Using our script has a positive effect on your page load speed. Or, if you put it differently, [Google penalizes you for using Google Analytics](https://blog.simpleanalytics.com/google-penalizes-you-for-using-google-analytics). Adding scripts to your website impacts the performance of your website. The heavier the script, the longer the loading time of your website. Adding Google's script to your website negatively impacts your overall user experience due to increased load time and affects your ability to rank in search engines. Google Analytics is bad for SEO.
+Using our script has a positive effect on your page load speed. Or, if you put it differently, [Google penalizes you for using Google Analytics](/blog/google-penalizes-you-for-using-google-analytics). Adding scripts to your website impacts the performance of your website. The heavier the script, the longer the loading time of your website. Adding Google's script to your website negatively impacts your overall user experience due to increased load time and affects your ability to rank in search engines. Google Analytics is bad for SEO.
 
 ### Export your data using our API
 
 We don't share your data with third parties or transfer it overseas. The data is stored in the EU and stays there. The data is yours, and we believe you should use the data most effectively. With the [Simple Analytics API](https://docs.simpleanalytics.com/api), you can export your data via streaming. The data is directly transferred to your server or computer from our database. You can also export the data by selecting the fields you want and exporting the data into your dashboarding tools.
 
-<img src="https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/simple-analytics-export-dashboard.png" alt="Simple Analytics export your data dashboard" class="border" />
-<p class="caption" markdown="1">
-  Simple Analytics export your data dashboard
-</p>
+![Simple Analytics export your data dashboard](https://assets.simpleanalytics.com/blog/simple-analytics-easy-website-analytics-for-business-owners/simple-analytics-export-dashboard.png)
+_Simple Analytics export your data dashboard_
 
-## 5. Which analytics tool should you choose?
+## Which analytics tool should you choose?
 
 Google Analytics is the default analytics tool, but it might not be the optimal tool for everyone. There is no one-size-fits-all. If you need specific custom reports or rely heavily on tracking and don't care about privacythat much, Simple Analytics might not be the right tool for you.
 
@@ -112,6 +104,6 @@ Simple Analytics is the right tool for you if you:
 
 We are a small and independent team that cares about privacy. We believe that the web should be for everyone, and we are helping create a web that is friendly to website visitors. We are bootstrapped (meaning we are not funded) and are transparent about everything we do. We have an [open roadmap](https://simpleanalytics.com/roadmap) that you also can contribute to.
 
-This is how we try to make the internet a little bit safer for everyone. 
+This is how we try to make the internet a little bit safer for everyone.
 
 Interested in coming along on our journey? [Give us a try! ](https://simpleanalytics.com/welcome)

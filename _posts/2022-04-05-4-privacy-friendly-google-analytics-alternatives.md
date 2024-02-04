@@ -6,10 +6,10 @@ author: Iron Brands
 excerpt: "How privacy-friendly are all the different Google Analytics alternatives really? Let's find out."
 image: https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png
 related_posts:
- - /blog/website-analytics-without-cookies
- - /blog/simple-analytics-for-marketers
- - /blog/italy-declares-google-analytics-illegal
- - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/simple-analytics-for-marketers
+  - /blog/italy-declares-google-analytics-illegal
+  - /blog/why-its-time-to-move-away-from-google-analytics
 lang: en
 ---
 
@@ -41,10 +41,8 @@ Let's dive in
 
 ## Google Analytics
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png" alt="Google Analytics dashboard of Fiks.nl" class="border" />
-<p class="caption" markdown="1">
-  The dashboard we all know
-</p>
+![Google Analytics dashboard of Fiks.nl](https://assets.simpleanalytics.com/blog/google-alternatives/google-analytics-dashboard.png)
+_The dashboard we all know_
 
 We are talking about alternatives, but it is good to use Google Analytics as a base case. They have received a lot of scrutiny over the past few months concerning privacy.
 
@@ -58,16 +56,14 @@ Google Analytics will change to a [new version](https://www.searchenginejournal.
 
 ## Simple Analytics
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/simpleanalytics-dashboard-top.png" alt="Simple Analytics dashboard" class="border" />
-<p class="caption" markdown="1">
-  The dashboard of Simple Analytics
-</p>
+![Simple Analytics dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/simpleanalytics-dashboard-top.png)
+_The dashboard of Simple Analytics_
 
 Yeeey... we made our own Google Analytics alternatives list. We might be biased, but we try to benchmark ourselves on the above criteria as well as any other alternative.
 
 Simple Analytics focuses on privacy. We did not just build Simple Analytics to comply with regulations. We genuinely think we can make the internet a little bit better while still providing in-depth insights to track your website performance.
 
-We believe that the future of web analytics is cookieless; hence Simple Analytics is [cookieless by design](https://blog.simpleanalytics.com/website-analytics-without-cookies).
+We believe that the future of web analytics is cookieless; hence Simple Analytics is [cookieless by design](/blog/website-analytics-without-cookies).
 
 In addition, [we don't collect any personally identifiable information](https://docs.simpleanalytics.com/what-we-collect), not even in an anonymized way. Unique visitors are based on the referrer domain sent to us by the browser.
 
@@ -75,10 +71,8 @@ The [data is stored in The Netherlands](https://docs.simpleanalytics.com/locatio
 
 ## Plausible
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard-top.png" alt="Plausible dashboard" class="border" />
-<p class="caption" markdown="1">
-  The dashboard of Plausible
-</p>
+![Plausible dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard-top.png)
+_The dashboard of Plausible_
 
 At Simple Analytics, we respect Plausible. The owners, Marko & Uku, are dedicated builders. They are transparent about their revenue and processes and are highly motivated to make the internet a little bit safer, as do we.
 
@@ -106,10 +100,8 @@ But how about the rest?
 
 ## Matomo
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/matomo-dashboard.png" alt="Matomo dashboard" class="border" />
-<p class="caption" markdown="1">
-  The dashboard of Matomo
-</p>
+![Matomo dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/matomo-dashboard.png)
+_The dashboard of Matomo_
 
 Matomo was the first Google Analytics challenger on the market. It is quite different from Simple Analytics and Plausible, and it looks more similar to Google Analytics. In terms of data collection, it also takes another stance. It is not cookieless by design.
 
@@ -119,14 +111,12 @@ You do own the data yourself. The data is stored in the EU and not transferred o
 
 It is possible to use Matomo in a cookieless way as well.
 
-We explain this in our [comparison between Matomo and Simple Analytics](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-matomo).
+We explain this in our [comparison between Matomo and Simple Analytics](/blog/why-simple-analytics-is-a-great-alternative-to-matomo).
 
 ## Fathom
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/fathom-dashboard-top.png" alt="Fathom dashboard" class="border" />
-<p class="caption" markdown="1">
-  The dashboard of Fathom
-</p>
+![Fathom dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/fathom-dashboard-top.png)
+_The dashboard of Fathom_
 
 Fathom looks very similar to Plausible in their data collecting approach. Fathom also stores a hashed version of the IP address for 24 hours.
 
@@ -187,10 +177,8 @@ The market for web analytics tools is a crowded place. Capterra shows [us 361 so
 
 Over the past few months, we've gotten a lot of questions about the differences between Simple Analytics and other privacy-friendly tools. I understand that you evaluate multiple alternatives (and you should) to determine what's best for your organization.
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png" alt="Spectrum of privacy-friendly Google Analytics alternatives" class="border" />
-<p class="caption" markdown="1">
-  Spectrum of privacy-friendly Google Analytics alternatives
-</p>
+![Spectrum of privacy-friendly Google Analytics alternatives](https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png)
+_Spectrum of privacy-friendly Google Analytics alternatives_
 
 To articulate the differences in privacy-friendliness between the Google Alternatives, you can use the following one-liners to explain them to your colleagues.
 

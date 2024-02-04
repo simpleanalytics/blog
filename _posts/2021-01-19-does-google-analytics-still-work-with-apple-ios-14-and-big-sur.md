@@ -9,7 +9,7 @@ image: /images/apple/safari-throws-trackers-off-your-trail.png
 
 The marketing world’s freaking out over the latest privacy updates during the past couple of weeks. So… what’s the fuss all about? And can you still analyze your site?
 
-<img class="border-radius" src="/images/apple/safari-throws-trackers-off-your-trail.png" alt="Apple Big Sur" />
+![Apple Big Sur](https://assets.simpleanalytics.com/blog/github/apple-safari-throws-trackers-off-your-trail.png)
 
 ## Can you continue using Google Analytics?
 
@@ -21,19 +21,16 @@ When Apple launched the latest versions of iOS, iPadOS, and macOS Big Sur, they 
 
 Built into Safari across all three platforms, they launched a new ‘Privacy Report’ which provides a summary of the number of trackers blocked. You guessed it, the most frequently blocked tracker is currently Google Analytics. **This makes it easy to assume that Apple is blocking Google Analytics from tracking your visitors and messing with your statistics.** However, the truth is a bit more complicated than this. Let me explain…
 
-<p style="text-align: right">
-<em>Analytics without cookies? It’s possible, check it <a href="https://simpleanalytics.com/">here</a>.</em>
-</p>
+_Analytics without cookies? It’s possible, check it [here](/)._
 
 ## Blocking Third-Party Tracking Cookies
 
 As more information has surfaced, it appears that **Intelligent Tracking Prevention (ITP) in Safari 14 is not completely blocking Google Analytics**. Instead, it's blocking third-party tracking cookies and cross-site scripting requests, which limits portions of Google Analytics. The Privacy Report feature just reflects that. It seems that first-party Google Analytics cookies aren't blocked, so it still functions as an analytics platform. However, you can’t use the platform any longer to retarget people across different sites. Oh, and in case you’re wondering: **“What’s the difference between these cookies?**” It’s this:
 
 - **First-party cookies** are stored by the domain (website) you are visiting directly. They allow website owners to collect analytics data, remember language settings, and perform other useful actions that provide a better user experience.
-- **Third-party cookies** are created by domains other than the one you are visiting directly, hence the name third-party. They are used for cross-site tracking, retargeting and ad-serving. ([https://clearcode.cc/blog/difference-between-first-party-third-party-cookies/](https://clearcode.cc/blog/difference-between-first-party-third-party-cookies/))
+- **Third-party cookies** are created by domains other than the one you are visiting directly, hence the name third-party. They are used for cross-site tracking, retargeting and ad-serving. ([clearcode.cc/blog/difference-between-first-party-third-party-cookies/](https://clearcode.cc/blog/difference-between-first-party-third-party-cookies/))
 
-<p style="text-align: right">
-<em>“People value privacy, so focusing on privacy with your site and business will make visitors happy.”</em></p>
+> People value privacy, so focusing on privacy with your site and business will make visitors happy.
 
 ## _When or When Not To Use_ Google Analytics? That is the question...
 

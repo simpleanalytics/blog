@@ -60,13 +60,13 @@ button.addEventlistner("click", function() {
 
 To check if your site uses third-party scripts you can use the [Request Map Generator](https://requestmap.webperf.tools/) built by [Simon Hearne](https://twitter.com/simonhearne) _(thanks to [Jan Klimo](https://twitter.com/janklimo/status/1203708198907047937))._ For [Simple Analytics](https://simpleanalytics.com) it looks like this:
 
-<img loading="lazy" class="border" style="padding: 1rem; margin: 1rem 0;" src="/images/2020-privacy-tips/requestmap-simpleanalytics.jpg" alt="Third-party scripts of Simple Analytics" />
+![Third-party scripts of Simple Analytics](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-requestmap-simpleanalytics.jpg)
 
 In the diagram above you only see requests going to servers of [Simple Analytics](https://simpleanalytics.com): `simpleanalytics.com`, `simpleanalyticscdn.com`, and `simpleanalytics.io`. The fat pink circle is [our home page video](https://simpleanalytics.com/) which consumes the most bytes. We also use an external payment provider, but we only load the script when the client clicks on the signup, hence in this image you don't see any external scripts.
 
 Compare that to another SaaS like Intercom:
 
-<img loading="lazy" class="border" style="padding: 1rem; margin: 1rem 0;" src="/images/2020-privacy-tips/requestmap-intercom.jpg" alt="Third-party scripts of Intercom" />
+![Third-party scripts of Intercom](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-requestmap-intercom.jpg)
 
 There are many external scripts loaded from all kinds of different domains. I'm not saying this is good or bad, but it's a good practice to double-check if all those external parties are needed. Run the [Request Map Generator](https://requestmap.webperf.tools/) and see what services you don't need.
 
@@ -169,10 +169,7 @@ Social media companies have a bad reputation for collecting data from your visit
 
 Your visitors can do something about it themselves, but there will always be people that don't know about this tracking or don't know how to prevent it from happening. That's why the EU came with the [GDPR](https://gdpr.eu/), California with the [CCPA](https://www.oag.ca.gov/privacy/ccpa), Brazil with [LGDP](http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm), and the UK with [PECR](https://ico.org.uk/for-organisations/guide-to-pecr/).
 
-<img loading="lazy" class="border" style="margin-top: 0;" src="/images/2020-privacy-tips/daria-nepriakhina-all-we-need-is-likes.jpg" alt="">
-<p class="caption" markdown="1">
-  Photo by [Daria Nepriakhina](https://unsplash.com/@epicantus) on [Unsplash](https://unsplash.com/s/photos/social-media)
-</p>
+![Photo by Daria Nepriakhina on Unsplash](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-daria-nepriakhina-all-we-need-is-likes.jpg)
 
 > On 29 July 2019, the Court of Justice of the European Union (the "CJEU") ruled that a company embedding on its website a social plugin, such as a Facebook “Like” button, can be considered a data controller [...] – [fieldfisher.com](https://privacylawblog.fieldfisher.com/2019/cjeu-rules-that-companies-using-social-plugins-are-liable-for-the-collection-and-transmission-of-data)
 
@@ -411,9 +408,7 @@ https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fexample.com%2F%3Futm_
 
 You see a lot of weird characters in that URL (link). That's because the link is URL encoded. Use [urlencoder.io](https://www.urlencoder.io/) to easily URL encode your website:
 
-<a href="https://www.urlencoder.io/">
-  <img loading="lazy" class="border" style="margin: 1rem auto; width: 500px;" src="/images/2020-privacy-tips/url-encode-online.gif" alt="URL encode online" />
-</a>
+[![URL encode online](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-url-encode-online.gif)](https://www.urlencoder.io/)
 
 Prefix the output of [urlencoder.io](https://www.urlencoder.io/) with `https://www.facebook.com/sharer/sharer.php?u=` and append `&src=sdkpreparse` behind it and you have your Facebook share link. Without the tracking and privacy-invasive data collection. You can now share this link with your developers of use it in the CMS of your marketing website.
 
@@ -423,9 +418,7 @@ Prefix the output of [urlencoder.io](https://www.urlencoder.io/) with `https://w
 
 On the internet you see the Twitter widget being used a lot. But is it nessessary to send the data from your visitors to Twitter when they just want to see a tweet? A screenshot works just fine:
 
-<a href="https://twitter.com/SimpleAnalytic/status/1262318675283128322">
-  <img loading="lazy" class="border" style="margin: 1rem auto; width: 450px;" src="/images/2020-privacy-tips/twitter-embed.jpg" alt="Embedded tweet" />
-</a>
+[![Embedded tweet](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-twitter-embed.jpg)](https://twitter.com/SimpleAnalytic/status/1262318675283128322)
 
 ## Don't trick your visitors
 
@@ -437,7 +430,7 @@ When browsing the internet you will find many examples of websites trying to tri
 
 For example the home page of the New York Times. When you see a cross (X) you normally would close a dialog box without agreeing to what's being asked. The New York Times just sees it the same as "I agree":
 
-<img loading="lazy" style="margin: 0 auto;" class="border" src="/images/2020-privacy-tips/new-york-times-cookie-banner.jpg" alt="New York Times cookie banner" />
+![New York Times cookie banner](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-new-york-times-cookie-banner.jpg)
 
 Please don't do this.
 
@@ -459,23 +452,13 @@ It's harder to disable email tracking than enabling it. That's why most marketin
 
 When an image-heavy email doesn't fully download and is viewed by the user, it could end up rendering like this for the subscriber:
 
-<a href="https://twitter.com/flcarneiro/status/568116082835361792">
-  <img loading="lazy" class="border" style="margin-top: 1rem; width: 500px;" src="/images/2020-privacy-tips/tweet-embedded-images.jpg" alt="Embedded tweet" />
-</a>
-<p class="caption" style="text-align: center;" markdown="1">
-  [Tweet](https://twitter.com/flcarneiro/status/568116082835361792) found on a blog by [Litmus](https://www.litmus.com/blog/the-ultimate-guide-to-email-image-blocking/)
-</p>
+![https://twitter.com/flcarneiro/status/568116082835361792](![Tweet found on a blog by Litmus](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-tweet-embedded-images.jpg))
 
 When adding images to your emails and not embedding those images in the emails they can look very ugly. More and more email services will stop displaying email trackers and thus images as well. The new [HEY.com](https://hey.com) service [blocks](https://www.businessinsider.com/basecamp-new-email-service-hey-gmail-2020-2?international=true&r=US&IR=T) the so-called tracking pixels. I guess that more will follow.
 
 With [Simple Analytics](https://simpleanalytics.com) we love to share weekly and monthly [email reports](https://docs.simpleanalytics.com/email-reports). When customers have enabled it we send them an email with all images embedded. No trackers or any remote images. No need to connect with anything outside their email client. Give back their privacy: they deserve it!
 
-<a href="https://docs.simpleanalytics.com/email-reports">
-  <img loading="lazy" class="border" style="margin-top: 1rem; width: 500px;" src="/images/2020-privacy-tips/email-report.png" alt="Embedded tweet" />
-</a>
-<p class="caption" style="text-align: center;" markdown="1">
-  [Email reports feature](https://docs.simpleanalytics.com/email-reports) of [Simple Analytics](https://simpleanalytics.com)
-</p>
+![https://docs.simpleanalytics.com/email-reports](![Email reports feature of Simple Analytics](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-email-report.png))
 
 ### How to keep a good reputation
 
@@ -491,8 +474,7 @@ In a lot of email clients, the unsubscribe link is placed close to the spam butt
 
 It's important to store your data in a country that protects the privacy of its people and the people outside of the country. With [Simple Analytics](https://simpleanalytics.com) we moved our servers to Iceland when we figured that was the best country privacy-wise. According to Freedom House Internet Freedom Scores [Iceland](https://freedomhouse.org/country/iceland/freedom-net/2019) is still the best option:
 
-<a href="https://freedomhouse.org/countries/freedom-net/scores?sort=desc&order=Total%20Score%20and%20Status">
-<img loading="lazy" class="border" style="margin: 0; padding: 1rem 1rem 0;" src="/images/2020-privacy-tips/freedomhouse-score.jpg" alt="Freedom House Internet Freedom Scores" /></a>
+[![Freedom House Internet Freedom Scores](https://assets.simpleanalytics.com/blog/github/2020-privacy-tips-freedomhouse-score.jpg)](https://freedomhouse.org/countries/freedom-net/scores?sort=desc&order=Total%20Score%20and%20Status)
 
 We later realized Iceland was not the best option provider-wise.
 
@@ -598,7 +580,7 @@ then {
 
 </details>
 
-You can do way more, [in our config](https://gist.github.com/adriaanvanrossum/e692b0399f0ca8ab15005315ab0dd694) we hide IPs, credit cards, and user agents.
+You can do way more, [in our config](https://gist.github.com/adriaandotcom/e692b0399f0ca8ab15005315ab0dd694) we hide IPs, credit cards, and user agents.
 
 ### Use two-factor authentication
 
@@ -610,8 +592,6 @@ If you want to secure the data of your users and prevent others from accessing t
 
 While working on [Simple Analytics](https://simpleanalytics.com), I'm constantly fighting the status quo by finding privacy-friendly ways of handling visitor data. There are way too few guidelines on how to prevent tracking in your own business.
 
-<blockquote role="alert" class="hn" markdown="1">
-[Read the discussion](https://news.ycombinator.com/item?id=23337822) on Hacker News
-</blockquote>
+> [Read the discussion](https://news.ycombinator.com/item?id=23337822) on Hacker News
 
 I hope this post makes the web a bit more privacy-friendly. [Please let me know](https://github.com/simpleanalytics/blog/issues/new) which tips I should add.

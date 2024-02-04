@@ -6,10 +6,10 @@ excerpt: "Your location data is no longer safe as Google Maps URL changed from b
 image: https://assets.simpleanalytics.com/blog/2022-google-changed-google-maps-url-your-location-data-is-no-longer-safe/social-image-google-changed-google-maps-url.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-google-changed-google-maps-url-your-location-data-is-no-longer-safe/social-image-google-changed-google-maps-url.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/website-analytics-without-cookies
- - /blog/is-google-analytics-illegal-in-europe
- - blog/is-google-analytics-4-gdpr-compliant
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/is-google-analytics-illegal-in-europe
+  - blog/is-google-analytics-4-gdpr-compliant
 ---
 
 Google silently changed the Google Maps URL, and no one has noticed how easily they made you pass your location data to many other Google properties.
@@ -20,13 +20,11 @@ The Google Maps URL changed from `https://maps.google.com` to `https://www.googl
 
 {% include gif.html slug="big" alt="big" width="480" height="358" color="#4d4033" %}
 
-1.  [How do browser permissions work?](#1-how-do-browser-permissions-work)
-2.  [How does this change affect your privacy?](#2-how-does-this-change-affect-your-privacy)
-3.  [What can you do to stop this?](#3-what-can-you-do-to-stop-this)
+{{tableofcontents}}
 
 Let’s dive in!
 
-## 1. How do browser permissions work?
+## How do browser permissions work?
 
 To understand what’s happening here and its impact on your privacy, let’s first outline how these browser permissions work.
 
@@ -40,7 +38,7 @@ Makes sense, right?
 
 But the thing to remember is that webpages on `https://tool.example.com/*` or `https://widget.example.com/*` won’t have your location permission. This is because the browser treats every sub-domain like “www,” “maps,” “app,” etc., as a separate web property.
 
-## 2. How does this change affect your privacy?
+## How does this change affect your privacy?
 
 With the above understanding, we move to Google’s latest change: The Google Maps URL changed from `https://maps.google.com` to `https://www.google.com/maps`. Google moved Google Maps from a sub-domain to a sub-directory.
 
@@ -52,7 +50,7 @@ This also hints that Google may move other services like Google Drive, Calendar,
 
 Think of it this way - you had to use Google Meet for a meeting, but if you give camera and microphone access to Meet, now, [Google.com](http://google.com) would have access to your camera and microphone.
 
-## 3. What can you do to stop this?
+## What can you do to stop this?
 
 To be honest, you can’t do much.
 

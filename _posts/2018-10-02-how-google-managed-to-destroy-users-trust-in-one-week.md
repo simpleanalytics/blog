@@ -7,7 +7,7 @@ badge: "Guest post"
 
 This past September marks the 10-year anniversary of Google Chrome. Ever since it was released, it has changed the internet forever – its clean design, fast rendering engine and fantastic developer tools helped it acquire 62% of desktop users within 2 years. It's even more remarkable to note that the engine Chrome uses under the hood (known as V8), is used in a multitude of other ways as well, powering backend web servers through Node.js, "headless" browsing (such as by a web scraper or an automated website screenshot tool), and much more.
 
-<img loading="lazy" src="/images/chrome-69.jpg" alt="">
+![](https://assets.simpleanalytics.com/blog/github/chrome-69.jpg)
 
 There's no question it's a fantastic product. However lately, Google has seemingly broken the fourth wall in the illusion of Chrome as a benign entity. One thing Donald Trump's campaign has contributed to the world (however unintentionally) is bring up the topic of online privacy, and the climate within which the FAANG (Facebook, Amazon, Apple, Netflix, Google) giants have operated for years is beginning to change.
 
@@ -21,9 +21,7 @@ You might be thinking, "who cares, this just seems like no big deal to me." Well
 2. It could not be turned off (this actually is going to be changed). But the original intent was that outside of a flaky developer setting in the browser (known as a flag), you would not be able to turn it off.
 3. A website is a sandbox, a browser is less so. Websites cannot spy on your usage of other websites (unless through an exploit). So if you're watching porn and your Facebook is open in another tab, Facebook cannot access your porn tab. But a browser could. And for all you know, the intention is to send that usage data back to Google.
 
-<p class="ta-c">
-<a href="https://twitter.com/ctavan/status/1044282084020441088" target="_blank" class="tweet"><img loading="lazy" src="/images/chrome-cookies-tweet.png" alt=""></a>
-</p>
+[![alt:Google Chrome cookies tweet](https://assets.simpleanalytics.com/blog/github/chrome-cookies-tweet.png)](https://twitter.com/ctavan/status/1044282084020441088)
 
 The worst part, however, is that scores of users will continue to use Chrome, completely unaware of the implications of this feature. Other companies, jealously eyeing Google's breach of the browser/webpage wall, will consider building similar anti-features into their browsers. That's the most insidious element of it: it pushes users' expectations and companies' freedom to breach into your privacy just one step further. The war against constant active data harvesting is not lost in one big Waterloo battle, but by many small compromises and "improvements".
 

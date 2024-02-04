@@ -5,14 +5,14 @@ author: Iron Brands
 excerpt: "What are the differences between Simple Analytics and Matomo, and why is Simple Analytics a great alternative."
 image: https://assets.simpleanalytics.com/blog/matomo/matomo-versus-simple-analytics.png
 related_posts:
- - /blog/4-privacy-friendly-google-analytics-alternatives
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/simple-analytics-for-marketers
+  - /blog/4-privacy-friendly-google-analytics-alternatives
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/simple-analytics-for-marketers
 lang: en
 ---
 
-A few weeks back, we published an extensive piece on [the differences between Google Analytics and Simple Analytics](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics). In contrast to Simple Analytics, [Google Analytics](https://analytics.google.com/) is on the complete other end of the spectrum regarding privacy, usability, and extensiveness. However, these tools are taking the middle ground between those far ends.
+A few weeks back, we published an extensive piece on [the differences between Google Analytics and Simple Analytics](/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics). In contrast to Simple Analytics, [Google Analytics](https://analytics.google.com/) is on the complete other end of the spectrum regarding privacy, usability, and extensiveness. However, these tools are taking the middle ground between those far ends.
 
 [Matomo](https://matomo.org/) (formerly known as Piwik) was founded in 2007 as an alternative to Google Analytics. It started as an open-source alternative, and in 2012 the core team joined a team of developers to work on a paid version (now known as Piwik Pro). In 2018, the two teams separated again, and the free version was rebranded to Matomo. So Piwik Pro and Matomo are now two separate companies, with different teams working on both.
 
@@ -30,18 +30,13 @@ However, we started Simple Analytics back in 2018 because we felt there was stil
 
 ## Simple Analytics vs. Matomo: What are the key differences
 
-1.  [Privacy Friendliness & Compliance](#1-privacy-friendliness--compliance)
-2.  [User Interface & Ease of Use](#2-user-interface--ease-of-use)
-3.  [Lightweight vs Heavyweight](#3-lightweight-script-optimized-for-page-speed)
-4.  [Data interoperability](#4-data-interoperability)
-5.  [Pricing](#5-pricing)
-6.  [Team: Two-man army vs Large organization](#6-team-two-man-army-vs-larger-organization)
+{{tableofcontents}}
 
 We've said this before, but we'll do it again: What's the best tool for you, depends on your needs.
 
 In this article, we hope to provide a better understanding of the differences between the two. We make a case for Simple Analytics, but don't just take us up on our words, [give it a try as well and see for yourself](https://simpleanalytics.com/welcome).
 
-## 1\. Privacy Friendliness & Compliance
+## Privacy Friendliness & Compliance
 
 For us, the most crucial pillar of our product is being compliant with privacy regulations. This is the main reason why we started building Simple Analytics. With regards to Google Analytics and other alternatives, we consider ourselves the only tool to be privacy-first. [We never collect personally identifiable information (PII)](https://docs.simpleanalytics.com/what-we-collect) in any way, not even in a hashed way. Storing anything remotely related to (PII) is a big no-no.
 
@@ -56,7 +51,7 @@ Matomo is considered to be a privacy-friendly alternative to Google Analytics as
 
 I'm purposely using the word 'semi' in the text above. Anonymizing data is better than collecting non anonymized data. However, it is still not compliant.
 
-On the 13th of January 2022, the Austrian ([DPA](https://www.data-protection-authority.gv.at/)) watchdog found the use of Google Analytics to be illegal. ([See our article](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu) on that one as well for more in-depth information.)
+On the 13th of January 2022, the Austrian ([DPA](https://www.data-protection-authority.gv.at/)) watchdog found the use of Google Analytics to be illegal. ([See our article](/blog/will-google-analytics-be-banned-in-the-eu) on that one as well for more in-depth information.)
 
 In [their statement](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal), the DPA addressed the anonymization or collection of 'hashed IP addresses. They called the anonymization of personal data a "technical wrinkle." Basically saying, instead of providing the personal data directly, you turn it into a puzzle, which is still not compliant with European privacy regulations.
 
@@ -67,12 +62,11 @@ If you break it down, it just comes down to this:
 Matomo: _"We collect all sorts of data, and the data is yours"_\
 Simple Analytics: _"We only collect privacy-insensitive data, and the data is yours"_
 
-## 2\. User Interface & Ease of Use
+## User Interface & Ease of Use
 
 In terms of the user interface, Matomo is more similar to Google Analytics than to Simple Analytics. In the comparison below, you can see that Simple Analytics is a one-page dashboard with all the relevant website tracking statistics. In contrast, Matomo is more like a full-blown version of Google Analytics.
 
-<img loading="lazy" class="border-radius" src="https://assets.simpleanalytics.com/blog/matomo/matomo-versus-simple-analytics.png" alt="Matomo versus Simple Analytics, the alternative to Google Analytics">
-<p class="caption">The interface of Matomo versus Simple Analytics.</p>
+![The interface of Matomo versus Simple Analytics.](https://assets.simpleanalytics.com/blog/matomo/matomo-versus-simple-analytics.png)
 
 At Simple Analytics, we try to stay simple. We provide a one-page dashboard with important metrics like page views, unique visitors & time-on-page. In addition, you get an overview of the geographical spread of your website visitors and what device they use to visit your website. It is also possible to collect events and goal conversion.
 
@@ -84,18 +78,17 @@ In terms of usability, Matomo might be a bit confusing. One of our customers who
 
 After installation, by default, you are not compliant to privacy laws and need to display a cookie banner on your website or go through the steps, as noted earlier in this article, to make your website more privacy-friendly.
 
-## 3\. Lightweight script optimized for page speed
+## Lightweight script optimized for page speed
 
 It's an understatement that page speed is important. Adding heavy scripts to your website increases the page load time. In that sense, every KB matters. The script on which we run Simple Analytics is 3kb, seven times smaller than Matomo's (22kb) script.
 
-To see the impact of scripts on page load times, we [conducted a test comparing page load times](https://blog.simpleanalytics.com/google-penalizes-you-for-using-google-analytics) after installing Simple Analytics and Google Analytics (45kb). The outcome showed a difference of 10 basis points in favor of Simple Analytics.
+To see the impact of scripts on page load times, we [conducted a test comparing page load times](/blog/google-penalizes-you-for-using-google-analytics) after installing Simple Analytics and Google Analytics (45kb). The outcome showed a difference of 10 basis points in favor of Simple Analytics.
 
-<img loading="lazy" class="border-radius" src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="Google Analytics compared to Simple Analytics">
-<p class="caption">Comparison between using no analytics, Simple Analytics, and Google Analytics.</p>
+![Comparison between using no analytics, Simple Analytics, and Google Analytics.](https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png)
 
 We didn't perform the test with Matomo, but we are confident that the page speed will be impacted as the script Matomo is using is seven times bigger.
 
-## 4\. Data Interoperability
+## Data Interoperability
 
 Simple Analytics has many ways to get your data out. For example, you might want to move your data to a data lake (like [Snowflake](https://www.snowflake.com/)) or build your own reports. [We offer many APIs](https://docs.simpleanalytics.com/api), including raw level data, which means that every row in the export is one page view.
 
@@ -103,7 +96,7 @@ If you have used Google Analytics before, we allow you to import that data. We b
 
 Matomo and Simple Analytics both have no [data sampling](https://matomo.org/no-data-sampling/). This is better for more accurate numbers, unlike Google Analytics.
 
-## 5\. Pricing
+## Pricing
 
 Matomo provides two options: Self-hosted and cloud-hosted.
 
@@ -121,7 +114,7 @@ We have to note that Matomo provides more reports, charts, and metrics to track 
 
 First of all, this makes the product more expensive and less privacy-friendly. Using heatmaps is a feature provided by Matomo, which is not compliant at all. In addition, having more features decreases your website speed and can make it less intuitive to use.
 
-## 6\. Team: Two-man army vs. larger organization
+## Team: Two-man army vs. larger organization
 
 At Simple Analytics, next to being privacy-first, providing the best experience for our users is our top priority. We know we are tiny fish in a pond that a few whales dominate. Therefore, we appreciate users who have faith in our small team and product. We've created an open roadmap for our users to view and interact with to show this. Our users have a say in which direction we are heading. In addition, you can reach us 24/7 through our telegram chatbox, mail, Twitter. The founder himself will handle your questions, and we will try to answer them as quickly as possible. The only way to get in touch with the Matomo team is through email.
 

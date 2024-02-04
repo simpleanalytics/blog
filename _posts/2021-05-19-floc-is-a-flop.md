@@ -36,8 +36,7 @@ As you've seen in the previous section, the main goal is to preserve people's pr
 
 Another excellent example of the movement towards privacy is DuckDuckGo, a privacy-focused search engine that never tracks people. And there are much more privacy-friendly alternatives being developed to combat the enormous online power of Google.
 
-<img loading="lazy" class="border" src="/images/2021-05/duckduckgo.png" alt="DuckDuckGo" />
-<p class="caption">The privacy-friendly search engine <a href="https://duckduckgo.com">DuckDuckGo</a>.</p>
+![The privacy-friendly search engine DuckDuckGo.](https://assets.simpleanalytics.com/blog/github/2021-05-duckduckgo.png)
 
 While we as innovators are fighting together for privacy, users make more conscious choices about the apps they use. Google also noticed this shift and immediately started to work on a "solution." Google also decided to battle privacy-invasive cookies. Good news? Not really.
 
@@ -98,8 +97,7 @@ This could even include private information about your browser history, which co
 
 That's not all.
 
-<img loading="lazy" class="border" src="/images/2021-05/am-i-floced.png" alt="Am I FLoCed?" />
-<p class="caption">Check if your Chrome browser is FLoCed on <a href="https://amifloced.org/">amifloced.org</a>.</p>
+![Check if your Chrome browser is FLoCed on amifloced.org.](https://assets.simpleanalytics.com/blog/github/2021-05-am-i-floced.png)
 
 With the use of this technology, they could also uncover general information about your demographics and interests. Savvy advertisers could determine what kind of person belongs to specific cohorts, including their age, gender, political view, and perhaps even their skin color.
 

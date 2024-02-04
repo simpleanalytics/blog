@@ -6,10 +6,10 @@ excerpt: "The Dutch Data Protection Authority (AP) questioned the legal use of G
 image: https://assets.simpleanalytics.com/blog/will-google-analytics-be-banned-in-the-eu/social.png
 lang: en
 related_posts:
- - /blog/4-privacy-friendly-google-analytics-alternatives
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/italy-declares-google-analytics-illegal
+  - /blog/4-privacy-friendly-google-analytics-alternatives
+  - /blog/how-to-delete-google-analytics-in-4-steps
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/italy-declares-google-analytics-illegal
 nl: /wordt-google-analytics-straks-verboden-in-de-eu
 ---
 
@@ -23,12 +23,9 @@ Let's explore!
 
 {% include gif.html slug="going-on-a-adventure" alt="Going on a adventure" width="400" height="327" color="#6f7619" %}
 
-1.  [The Complaint](#1-the-complaint)
-2.  [The Ruling](#2-the-ruling)
-3.  [Google's response](#3-googles-response)
-4.  [The implications](#4-the-implications)
+{{tableofcontents}}
 
-## 1. The Complaint
+## The Complaint
 
 On the 14th of August 2020, someone (let's call it the 'data subject') visited a website on health topics while logged in with their credentials. The website in question used [Google Analytics](https://analytics.google.com/analytics/web/) to track and monitor its website visitors.
 
@@ -38,7 +35,7 @@ The complaint argued that transferring data to Google violates GDPR regulation, 
 
 This is the critical point in the complaint. To put it bluntly: It's not about the use of Google Analytics. It’s about the transfer of your personal data to US providers.
 
-## 2. The Ruling
+## The Ruling
 
 The first complaint resulted in a decision concerning the so-called ["Schrems II"](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/), which refers to the ruling that transferring data to US providers violates GDPR regulation. This has been the ruling since July 2020 but has largely been ignored by data processors until now.
 
@@ -48,7 +45,7 @@ The [DSB](https://www.data-protection-authority.gv.at/) ruled differently and wa
 
 Google qualifies as an "electronic communication service provider" and can be ordered to disclose personal data. The level of protection of personal data is therefore considered to be inadequate. Additional measurements, put in place by Google, were considered to be insufficient. They could not prevent the disclosure of personal data to the US intelligence services.
 
-## 3. Google's Response
+## Google's Response
 
 Russell Ketchum, Head of Product Management of Google Analytics, [responded on behalf of Google](https://blog.google/around-the-globe/google-europe/google-analytics-facts/). He stated that "Google Analytics helps consumers with compliance by providing them with a range of controls and resources". He said that IP addresses could be anonymized and that data collection can be disabled and deleted (on request).
 
@@ -58,7 +55,7 @@ The point is the transfer of data to US providers, subject to surveillance by th
 
 This still violates [GDPR regulation](https://lawspeed.com/gdpr-transfers-of-data-to-the-united-states/). The DSB ruled that even anonymized IP addresses are personal data, given the potential to be combined with other digital data to identify a visitor. This is also where most privacy-friendly alternatives to Google Analytics go wrong. At Simple Analytics, we never [collect your IP address](https://docs.simpleanalytics.com/what-we-collect), not even in an anonymized way, in contrast to other privacy-friendly alternatives.
 
-## 4. The implications
+## The implications
 
 Bottom line: This is a sound decision, but not a new one. It's a confirmation of what has been ruled in July 2020, but now it seems to have more impact. Personally, I have the feeling that the law will now be enforced.
 

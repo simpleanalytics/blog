@@ -6,10 +6,10 @@ excerpt: "Data breaches are a risk for every company, so processing data in a se
 image: https://assets.simpleanalytics.com/blog/2023-9-ways-to-protect-user-data/social-image-9-ways-to-protect-user-data.png
 image_no_text: https://assets.simpleanalytics.com/blog/2023-9-ways-to-protect-user-data/social-image-no-text-9-ways-to-protect-user-data.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/website-analytics-without-cookies
- - /blog/is-google-analytics-illegal-in-europe
- - blog/is-google-analytics-4-gdpr-compliant
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/is-google-analytics-illegal-in-europe
+  - blog/is-google-analytics-4-gdpr-compliant
 ---
 
 Protecting user data is not just an element of good data governance: it’s a legal duty under the GDPR. Data breaches can cost companies a fine and hurt their reputation, so processing data in a secure and confidential way is critical for businesses.
@@ -18,44 +18,34 @@ Of course there is no catch-all solution to ensure data security, as processing 
 
 {% include gif.html slug="good-government-matters" alt="good government matters" width="500" height="357" color="#665247" %}
 
-1.  [Know your data flows](#1-know-your-data-flows)
-2.  [Know your processors](#2-know-your-processors)
-3.  [Adopt a responsible access policy](#3-adopt-a-responsible-access-policy)
-4.  [Be careful with data transfers](#4-be-careful-with-data-transfers)
-5.  [Train your staff](#5-train-your-staff)
-6.  [Account for human errors](#6-account-for-human-errors)
-7.  [Adopt a sensible DSAR verification policy](#7-adopt-a-sensible-dsar-verification-policy)
-8.  [Have a disaster recovery policy for your data](#8-have-a-disaster-recovery-policy-for-your-data)
-9.  [Process fewer data](#9-process-fewer-data)
+{{tableofcontents}}
 
 Let’s dive in
 
-## 1. Know your data flows
+## Know your data flows
 
 The starting point for protecting user data is **good data governance**, which requires **knowing what you are doing with the data**. This might seem like a trivial point, but it isn’t. Data flows are often more complex than it appears at a glance: it’s easy to focus solely on the data you care about and overlook other categories of data that are also processed along with the “main” data.
 
 For example, let’s say the legal department of a company stores copies of physical contracts with the customers in its filing system. This operation is more complex than it seems. Access credentials for the filing system are needed, and a system administrator will need to manage access privileges. Additionally, the company will definitely want to monitor access to the data, which means that the filing system should generate and store metadata for each user. Focusing too much on the CVs makes it easy to lose sight of the bigger picture.
 
-<img src="https://assets.simpleanalytics.com/blog/2023-9-ways-to-protect-user-data/social-image-9-ways-to-protect-user-data.png" alt="Data protection flows" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+[Data protection flows](https://assets.simpleanalytics.com/blog/2023-9-ways-to-protect-user-data/social-image-9-ways-to-protect-user-data.png)
 
 Things are likely to be more complicated in real life: other staff members might enjoy different access privileges, the IT staff might need access to the system to do their jobs, third-party processors might be involved, and so on. Accounting for all of these variables is not simple, especially when dealing with complex data architectures.
 
 Mapping out data flows has many benefits. An accurate and comprehensive map:
 
--   highlights issues with access and security that you can address
--   highlights opportunities to make your data architecture more efficient
--   helps implement new data flows in a coherent way within the existing architecture
--   helps ensure your access policy reflects the way data are actually processed
--   makes it easier to keep a record of your processing activities (a requirement for some companies under the GDPR[^1])
--   helps you comply with access and erasure requests because you know what data you control and where to find it within your systems.
+- highlights issues with access and security that you can address
+- highlights opportunities to make your data architecture more efficient
+- helps implement new data flows in a coherent way within the existing architecture
+- helps ensure your access policy reflects the way data are actually processed
+- makes it easier to keep a record of your processing activities (a requirement for some companies under the GDPR[^1])
+- helps you comply with access and erasure requests because you know what data you control and where to find it within your systems.
 
 Mapping data flows can be complicated for large businesses where different teams process. Other categories of personal data include customer data, web analytics data, employee data, payment information, etc. A company's data architecture also becomes increasingly complex over time, so the later you map it out, the harder it will be. Ideally, maps should be drafted from the start and periodically updated.
 
 Meta’s case is quite instructive. Litigation against the company revealed that [no one at Meta knows exactly how data are processed](https://www.iccl.ie/news/unsealed-court-documents-reveal-data-anarchy-at-meta/). Facebook has been around for nearly two decades, but Meta only attempted (and failed) to map its data flows last year following a court order. Meta’s data architecture is so insanely complex that mapping it from scratch is practically impossible.
 
-## 2. Know your processors
+## Know your processors
 
 Many companies rely on a third party to process data in one way or another, whether it’s cloud storage, a Platform-as-a-Service, an email service provider, or a contractor entrusted with IT maintenance.
 
@@ -63,11 +53,11 @@ Under the GDPR, these parties are data processors and must sign a data processin
 
 Ensure you only rely on trusted processors with good data governance and strict disclosure policies. The same goes for any sub-processor involved (that is, any processor working for your processor). If feasible, in-house processing for certain categories of data should be preferred (for example, trade secrets and sensitive personal data such as medical information).
 
-## 3. Adopt a responsible access policy
+## Adopt a responsible access policy
 
 As a rule of thumb, the more people can access the data, the more things can possibly go wrong. **Role-based access control** ensures that the data can only be accessed by the staff who actually need them. This is especially important for large companies with a complex structure: HR needs sick leave data about employees, and management and marketing don’t.
 
-## 4. Be careful with data transfers
+## Be careful with data transfers
 
 You can transfer your data outside the EU/EEA under the GDPR. Still, some transfers are more complicated than others. Transfers to countries covered by an adequacy decision are straightforward and come with no compliance burden- although you will still need to ensure that any reliable processor receives the data.
 
@@ -75,17 +65,17 @@ Things get trickier when you can’t rely on an adequacy decision. We are not go
 
 If you’re curious, you can read our [blog](https://www.simpleanalytics.com/en/blog/how-to-move-forward-with-data-transfers-between-the-eu-us) to learn more about the Google Analytics saga and data transfers in general.
 
-## 5. Train your staff
+## Train your staff
 
 While some data leaks are the consequence of sophisticated hacking attacks, many are perpetrated through phishing, and others yet are the result of human errors. Investing in technical security is a no-brainer to keep data safe, but staff training is equally important. You don’t need to turn every employee into a privacy lawyer, but the staff handling personal data should know when they should or shouldn’t disclose it. And crucially, they should be able to ask a qualified staff member when unsure what to do.
 
-## 6. Account for human errors
+## Account for human errors
 
 People make mistakes. You should account for this and set up data processing to minimize the risk of human error. Ask yourself: what mistakes are the most likely to happen in my company? Is there any way I can prevent those mistakes?
 
-For instance: an Italian hospital was recently fined for [leaking the email addresses of hundreds of neurology patients](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9779057). How did that happen? An employee accidentally included the patients’ emails in the CC field instead of BCC while forwarding a newsletter (oops!). This kind of mistake is not unlikely when employees send dozens of emails daily. The data breach could have been avoided by setting the email client to use BCC as the default setting, requiring an extra step (such as user confirmation) to use CC.
+For instance: an Italian hospital was recently fined for [leaking the email addresses of hundreds of neurology patients](<https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9779057>). How did that happen? An employee accidentally included the patients’ emails in the CC field instead of BCC while forwarding a newsletter (oops!). This kind of mistake is not unlikely when employees send dozens of emails daily. The data breach could have been avoided by setting the email client to use BCC as the default setting, requiring an extra step (such as user confirmation) to use CC.
 
-## 7. Adopt a sensible DSAR verification policy
+## Adopt a sensible DSAR verification policy
 
 Under the GDPR; a data subject can request the data controller to provide certain information about the processing of their data and to provide a copy of the data themselves[^3]. These requests are typically referred to as data subject access requests or DSARs. Dissatisfied requesters sometimes file a complaint with a data protection authority, so handling DSARs promptly and adequately is important.
 
@@ -93,11 +83,11 @@ However, companies need to know that DSARs can be abused to access other people�
 
 At the same time, companies must handle requests within a time limit[^4] while also facilitating the exercise of the requester’s rights[^5]. Reconciling all these obligations is not simple, and there is no one-size-fits-all solution. Each company should find a suitable middle ground based on its specific situation and the nature of the data they handle. But as a rule of thumb, you should opt for the least burdensome and invasive verification that is reliable enough in your case[^6]. For instance, if you get a DSAR from someone claiming to be a registered user of your website or company, you can require them to forward the request from the email they registered with. You could also include a button to forward a DSAR in the user’s personal area on your website (Instagram does this, for instance). Ideally, you should only require an ID or other personal information as a last resort.
 
-## 8. Have a disaster recovery policy for your data
+## Have a disaster recovery policy for your data
 
 When people think of data breaches, they usually think of data leaks: situations where personal data are viewed or copied by an unauthorized party. However, data loss also qualifies as a data breach under the GDPR[^7]. This means that any data security policy should include a disaster recovery plan for your data. Ideally, an organization will have a backup, whether a physical backup or a cloud-based disaster recovery service.
 
-## 9. Process fewer data
+## Process fewer data
 
 It goes without saying that the more data you process, the more things can potentially go wrong. In addition to the cost of operating and maintaining your data processing systems, processing data has inherent costs in terms of compliance burdens and compliance risks, and the more complicated your processing operations, the higher those costs are. You should always ask yourself: **do I** **really** **need these data**, or am I collecting them just because everyone in my industry is doing so?
 

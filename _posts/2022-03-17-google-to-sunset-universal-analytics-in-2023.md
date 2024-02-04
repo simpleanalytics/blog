@@ -6,10 +6,10 @@ author: Iron Brands
 excerpt: "Google Analytics to sunset Universal Analytics in favor of GA4, but how privacy-friendly is GA4?"
 image: https://assets.simpleanalytics.com/blog/socials/google-kill-universal-analytics.png
 related_posts:
- - /blog/website-analytics-without-cookies
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/simple-analytics-for-marketers
+  - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/simple-analytics-for-marketers
 lang: en
 last_modified_at: 2022-11-30
 ---
@@ -19,7 +19,7 @@ last_modified_at: 2022-11-30
 In short: Google will begin to sunset universal analytics on July 1, 2023. This means that from this date, Universal Analytics will stop processing new hits. Universal Analytics 360 properties will still be available until October 1, 2023. After that, you can only access your data in Universal Analytics for six months.
 
 > Update: on October 27, Google announced it would push back the sunsetting of Universal Analytics 360 properties once again to July 2024. According to Russell Ketchum (Product Management Director for Google Analytics), the decision is meant to give larger organizations more time to switch to Google Analytics. As the press release notes, Google Analytics properties will still sunset in October 2023, so only paying users of Google 360 will benefit from the extension. Google also announced that they will be focusing most of their work on GA4 starting in 2023, which will result in a degradation of the UA experience.
- 
+
 > Earlier this year, the company also announced its Chrome browser will support third-party cookies until 2024- phasing them out one year later than originally planned. UA uses third-party cookies, so delaying its sunsetting has probably been on Google's mind for a while now.
 
 ## Why is Google to sunset Universal Analytics?
@@ -48,11 +48,11 @@ The first privacy-focused change after the Universal Analytics sunset is that IP
 
 In the Universal Analytics version, the user IP was collected as a whole. However, it is possible to anonymize IP-address in Universal Analytics as well by adding a tag. In G4 Analytics, user IP is anonymized by default and cannot be changed back.
 
-Well, this sounds like an improvement from a compliance perspective, but it is not really impactful. Anonymized IP addresses are still considered personal data according to the GDPR. [See our blog post on this topic](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu).
+Well, this sounds like an improvement from a compliance perspective, but it is not really impactful. Anonymized IP addresses are still considered personal data according to the GDPR. [See our blog post on this topic](/blog/will-google-analytics-be-banned-in-the-eu).
 
 ### Server Location
 
-[The scrutiny Google Analytics has undergone](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu) in the wake of the ['Schrems ii'](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) ruling is still valid for G4 Analytics. Transferring data to US servers is still in conflict with [the GPDR](https://gdpr-info.eu/).
+[The scrutiny Google Analytics has undergone](/blog/will-google-analytics-be-banned-in-the-eu) in the wake of the ['Schrems ii'](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) ruling is still valid for G4 Analytics. Transferring data to US servers is still in conflict with [the GPDR](https://gdpr-info.eu/).
 
 Also, with G4 Analytics, Google does not allow you to control where your data is stored.
 
@@ -76,13 +76,13 @@ In G4 Analytics, it's now possible to delete individual user data. In Universal 
 
 What are meaningful privacy improvements?
 
-| Feature                       |                                    |
-| :---------------------------- | :--------------------------------- |
-| IP Anonymization              | ![](/images/svgs/cross-ga.svg)     |
-| Server Location               | ![](/images/svgs/cross-ga.svg)     |
-| Use of Cookie Banner          | ![](/images/svgs/cross-ga.svg)     |
-| Deleting Individual User Data | ![](/images/svgs/checkmark-ga.svg) |
-| Limited Data Storage          | ![](/images/svgs/checkmark-ga.svg) |
+| Feature                       |                                                                           |
+| :---------------------------- | :------------------------------------------------------------------------ |
+| IP Anonymization              | ![](https://assets.simpleanalytics.com/blog/github/svgs-cross-ga.svg)     |
+| Server Location               | ![](https://assets.simpleanalytics.com/blog/github/svgs-cross-ga.svg)     |
+| Use of Cookie Banner          | ![](https://assets.simpleanalytics.com/blog/github/svgs-cross-ga.svg)     |
+| Deleting Individual User Data | ![](https://assets.simpleanalytics.com/blog/github/svgs-checkmark-ga.svg) |
+| Limited Data Storage          | ![](https://assets.simpleanalytics.com/blog/github/svgs-checkmark-ga.svg) |
 
 In conclusion, you could say that G4 Analytics is a bit more privacy-friendly than Universal Analytics. Still, in the end, it does not have any meaningful impact on GDPR compliance.
 

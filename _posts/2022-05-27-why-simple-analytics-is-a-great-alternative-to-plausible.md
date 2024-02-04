@@ -4,10 +4,10 @@ author_slug: iron
 author: Iron Brands
 excerpt: "Comparison blog between Simple Analytics and Plausible and why Simple Analytics is a great alternative to Plausible."
 related_posts:
- - /blog/4-privacy-friendly-google-analytics-alternatives
- - /blog/why-simple-analytics-is-a-great-alternative-to-matomo
- - /blog/simple-analytics-for-marketers
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/4-privacy-friendly-google-analytics-alternatives
+  - /blog/why-simple-analytics-is-a-great-alternative-to-matomo
+  - /blog/simple-analytics-for-marketers
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 image: https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/social-image.png
 ---
 
@@ -27,22 +27,15 @@ However, there are still differences. In this article, we'll find out what those
 
 <img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/plausible-vs-simple-analytics.jpeg" alt="Simple Analytics vs. Plausible" class="border-radius" style="width: 350px;
 margin: 0 auto;" />
-
-<p class="caption" markdown="1">
-  No they are not
-</p>
+_No they are not_
 
 As we have done in previous comparisons, like the one with Google Analytics, we will look at different aspects.
 
-1.  [Data Insights](#1-data-insights)
-2.  [Privacy: Privacy-friendly vs. Privacy-first](#2-privacy-privacy-friendly-vs-privacy-first)
-3.  [Data interoperability](#3-data-interoperability)
-4.  [User experience & features](#4-user-experience--features)
-5.  [Costs](#5-costs)
+{{tableofcontents}}
 
 Let's dive in!
 
-## 1. Data Insights
+## Data Insights
 
 The extensiveness of data insights is always interlinked with privacy-friendliness. This means that the more data insights are provided, the less privacy-friendly it usually is.
 
@@ -52,14 +45,12 @@ Simple Analytics and Plausible differ from Google in their approach. Both value 
 
 Simple Analytics does not collect any personal data or use cookies at all. Therefore, it is impossible to collect session data on an individual user for multiple days. Simple Analytics is built with a privacy-first approach from the ground up. All the metrics in the dashboard are based on non-personal data.
 
-No personal data and being [cookieless by design](https://blog.simpleanalytics.com/website-analytics-without-cookies) does not necessarily mean that all the data is flawed or inaccurate. It is still possible to differentiate page views from unique visitors based on the referrer domain. This method is admittedly less accurate than tracking sessions but more privacy-friendly. However, page views reported by Simple Analytics, for example, are more accurate than page views in Google Analytics with our [adblocker bypass](https://docs.simpleanalytics.com/bypass-ad-blockers).
+No personal data and being [cookieless by design](/blog/website-analytics-without-cookies) does not necessarily mean that all the data is flawed or inaccurate. It is still possible to differentiate page views from unique visitors based on the referrer domain. This method is admittedly less accurate than tracking sessions but more privacy-friendly. However, page views reported by Simple Analytics, for example, are more accurate than page views in Google Analytics with our [adblocker bypass](https://docs.simpleanalytics.com/bypass-ad-blockers).
 
 With Simple Analytics, [you can still use UTM codes](https://docs.simpleanalytics.com/how-to-use-url-parameters) to see which specific sources generate traffic to your website. In addition, event tracking is possible as well. We've set up an [automated events script](https://docs.simpleanalytics.com/automated-events) that collects downloads, outbound links, and clicks on email links, and you can add your custom events.
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/simple-analytics-dashboard.png" alt="Simple Analytics dashboard" class="border" />
-<p class="caption" markdown="1">
-  Simple Analytics dashboard
-</p>
+![Simple Analytics dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/simple-analytics-dashboard.png)
+_Simple Analytics dashboard_
 
 As mentioned above, Plausible takes a similar approach as Simple Analytics. However, the most significant difference is that Plausible collects data differently. They can show all of the Simple Analytics metrics and just a little more.
 
@@ -71,10 +62,8 @@ Plausible can show more data insights than Simple Analytics because they do coll
 
 They can attribute conversions on the same to a specific IP hash, providing more insights into which referral sources are converting more than others. This is relevant data but also less privacy-friendly.
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard.png" alt="Plausible dashboard" class="border-radius" />
-<p class="caption" markdown="1">
-  Plausible dashboard
-</p>
+![Plausible dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard.png)
+_Plausible dashboard_
 
 Both Plausible and Simple Analytics also use a different approach to Google Analytics. They use timestamp hits to indicate the time on page. We analyzed how Google Analytics calculates time on page and concluded that they are off.
 
@@ -88,15 +77,12 @@ Plausible excludes bounced visitors entirely from the calculation, but it uses t
 
 At Simple, we detect when a visitor navigates to a different website. In comparison to Google Analytics, we record the time on page for a bounced visitor and the time on page for the last visited page. In addition, we've researched the best method to calculate the average time on page. To filter out outliers, we use the median instead of the mean to get to the most accurate number. As a result, the [time on page using our method](https://docs.simpleanalytics.com/explained/time-on-page) is expected to be lower than in Google Analytics.
 
-## 2. Privacy: Privacy-friendly vs. Privacy-first
+## Privacy: Privacy-friendly vs. Privacy-first
 
 Without a doubt, Simple Analytics and Plausible are both companies that value privacy and share a common belief in making the internet a safer place. However, the degree varies. This is perfectly illustrated on both homepages.
 
-<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/plausible-vs-simpleanalytics-windows.png" alt="The dashboards of Simple Analytics versus Plausible" class="border-radius" />
-
-<p class="caption" markdown="1">
-  The dashboards of Simple Analytics and Plausible.
-</p>
+![The dashboards of Simple Analytics versus Plausible](https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/plausible-vs-simpleanalytics-windows.png)
+_The dashboards of Simple Analytics and Plausible._
 
 Simple Analytics: _Privacy-**first**_
 
@@ -106,7 +92,7 @@ Plausible also mentions this in their data policy: _"Plausible attempts to strik
 
 Whereas Simple Analytics states that _["We never collect IP addresses or any form of personal data."](https://docs.simpleanalytics.com/what-we-collect)_
 
-### 2.1 Are IP hashes considered personal data?
+### Are IP hashes considered personal data?
 
 IP hashing means transforming an IP address into an unrecognizable string of numbers. It's a technique used to track an individual's behavior without directly collecting and storing the IP address.
 
@@ -120,7 +106,7 @@ This conflicts with GDPR law.
 
 This is a grey area, to say the least, and we want to stay away from those. We believe that you can provide actionable data insights without collecting any personal data (even if it's only for 24 hours). It's not our goal to just comply with GDPR law but to protect the privacy of internet users regardless.
 
-## 3. Data interoperability
+## Data interoperability
 
 There are many ways to get your data out of Simple Analytics. We believe this is our duty as the data we collect is yours, and so you should do with it whatever you want. The information Google Analytics collects, for example, is theirs. That's why Google Analytics is free. You pay with your data.
 
@@ -130,46 +116,40 @@ It's also very easy to get your data in. Users who want to switch to Simple Anal
 
 A lot of the above is also possible in Plausible. They recently added the feature to import Google Analytics data as well. In addition, Plausible also provides different APIs to connect your data with dashboarding tools. However, the APIs are only limited to aggregate data. Simple Analytics offers both aggregated data as well as raw data. We believe raw data is critical to analyze the data the way you want. When combined with other data sources, you don't really want aggregated data. We see many enterprise customers combining data from different sources into one to get their KPIs.
 
-<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/social-image.png" alt="Simple Analytics vs. Plausible" class="border-radius" />
+![Simple Analytics vs. Plausible](https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/social-image.png)
+_The battle between Simple Analytics vs. Plausible._
 
-<p class="caption" markdown="1">
-  The battle between Simple Analytics vs. Plausible.
-</p>
-
-## 4. User experience & features
+## User experience & features
 
 At first hand, Simple Analytics and Plausible look similar. Both have built a one-page dashboard that provides the most valuable website metrics at a glance. Whereas Google Analytics shows you 75 reports when opening the dashboard, Plausible and Simple Analytics stay simple. Everything in the dashboards is clickable, and it's very easy to segment and see which pages are performing better than others.
 
-### 4.1 Lightweight script
+### Lightweight script
 
 Both Simple Analytics (3kb) and Plausible (>1kb) are lightweight web analytics tools. Google Analytics, for example, uses a script that is 45kb. This significantly impacts the page load speed and, therefore, your user experience.
 
-In addition, it might also have a positive impact on your search ranking. Last year, [Google added a page experience](https://developers.google.com/search/blog/2021/04/more-details-page-experience) update to their search result ranking. We tested the impact of adding a Google Analytics script to a website vs. adding the Simple Analytics script. Our results show that [Google penalizes you for using Google Analytics](https://blog.simpleanalytics.com/google-penalizes-you-for-using-google-analytics). The difference in page load speed was ten basis points.
+In addition, it might also have a positive impact on your search ranking. Last year, [Google added a page experience](https://developers.google.com/search/blog/2021/04/more-details-page-experience) update to their search result ranking. We tested the impact of adding a Google Analytics script to a website vs. adding the Simple Analytics script. Our results show that [Google penalizes you for using Google Analytics](/blog/google-penalizes-you-for-using-google-analytics). The difference in page load speed was ten basis points.
 
 There is, however, still a difference between the scripts of Simple Analytics (3kb) and Plausible(>1kb). The impact is not as significant as with Google Analytics, but it is interesting to see the difference. We don't track our users, so we need to get more from the browser to provide the same website stats. For example, Plausible gets its unique page views from tracking IP hashes for 24 hours. We get our unique page views from the referrer domain. This happens in the frontend, whereas tracking IP hashes happens in the backend. Also, our time on page metric is calculated in the frontend. Therefore, our script needs to be bigger.
 
 For lightweight enthusiasts, we do have a [compressed version of the script (1.6kb)](https://docs.simpleanalytics.com/light).
 
-### 4.2 Open source
+### Open source
 
 Plausible is open-source, meaning their source code is publicly available.  The data collection scripts of Simple Analytics are also open-source. They are [available on GitHub](https://github.com/simpleanalytics/scripts) for everybody to check and verify. For us, it's important that customers can review what we collect. The rest of our dashboard is not open-source. This might change in the future, but we are a small team and want to focus on more features for our current customers first.
 
-### 4.3 Mini websites & Twitter referral traffic
+### Mini websites & Twitter referral traffic
 
 Simple Analytics is privacy-first but simple-second. It's probably the only analytics tool that transforms [referral links into mini websites](https://docs.simpleanalytics.com/mini-websites). They are referral links but visualized in a screenshot of the link page.
 
-<img src="https://docs.simpleanalytics.com/images/mini-websites-simple-analytics.gif" alt="Mini websites as referrers in Simple Analytics vs. Plausible" class="border" />
-<p class="caption" markdown="1">
-  Mini websites in Simple Analytics
-</p>
+![Mini websites as referrers in Simple Analytics vs. Plausible](https://docs.simpleanalytics.com/images/mini-websites-simple-analytics.gif)
+_Mini websites in Simple Analytics_
 
 Do you see those "t.co" referrals domains in Plausible or Google Analytics? We created a Twitter overview that shows you the exact tweets you got traffic from. Not with useless t.co links, but with useful and beautiful designed tweets.
 
 {% include video.html width="1440" height="810" slug="2022-03-39-tropical-analytics" paused="true" class="border-radius" %}
+_Our founder using Google Analytics._
 
-<p class="caption">Our founder using Google Analytics.</p>
-
-### 4.4 Goal conversions and event tracking
+### Goal conversions and event tracking
 
 Event tracking is one of the most important features of Google Analytics. Website owners want to see where visitors are going and which action they take. Because Plausible takes a different approach than Simple Analytics, it can be more accurate with respect to conversions.
 
@@ -179,12 +159,10 @@ Let's say you want to run a Facebook campaign and want to know how many visitors
 
 Let's say you create a specific landing page, which you direct your Facebook ad towards. You can use UTM codes to recognize traffic coming from the ad. In addition, you can also measure how many times the 'fill in form' button is clicked. It fires an event every time the button is clicked. Conversions will look like this:
 
-<img src="https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/event-tracking-sa.png" alt="Event tracking Simple Analytics" class="border-radius" />
-<p class="caption" markdown="1">
-  Event tracking Simple Analytics
-</p>
+![Event tracking Simple Analytics](https://assets.simpleanalytics.com/blog/why-simple-analytics-is-a-great-alternative-to-plausible/event-tracking-sa.png)
+_Event tracking Simple Analytics_
 
-## 5. Costs
+## Costs
 
 Plausible is open source. This means that the source code is out there for anyone to host their own analytics. However, you need to be technical, and you still need to pay for your own hosting and make sure to keep the software up to date.
 

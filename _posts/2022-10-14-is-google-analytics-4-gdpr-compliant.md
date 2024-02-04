@@ -6,10 +6,10 @@ excerpt: "Google Analytics is sunsetting universal analytics in favor of Google 
 image: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image-no-text.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/how-to-delete-google-analytics-in-4-steps
+  - /blog/website-analytics-without-cookies
 last_modified_at: 2022-11-08
 ---
 
@@ -19,13 +19,11 @@ Many companies look forward to Google Analytics 4 as a solution to the complianc
 
 {% include gif.html slug="are-you-sure" alt="are you sure" width="480" height="400" color="#584b4b" %}
 
-1.  [The core issues: Personal data and supplementary measures](#1-the-core-issues-personal-data-and-supplementary-measures)
-2.  [Google Analytics 4 transfers personal data](#2-google-analytics-4-transfers-personal-data)
-3.  [Privacy is more than compliance](#3-privacy-is-more-than-compliance)
+{{tableofcontents}}
 
 Let's dive in!
 
-## 1. The core issues: personal data and supplementary measures
+## The core issues: personal data and supplementary measures
 
 The legal issues with data transfers are complex and lengthy to explain. If you have time to kill, we have written about it extensively [here](https://www.simpleanalytics.com/blog/how-to-move-forward-with-data-transfers-between-the-eu-us).
 
@@ -33,15 +31,13 @@ In a nutshell, the [Schrems II ruling](https://iapp.org/news/a/the-schrems-ii-de
 
 Right after the Schrems II ruling, privacy NGO noyb filed **101 complaints** before several European DPAs against websites using Google Analytics and Facebook Connect. The European Data Protection Board (the organization gathering all European DPAs) later formed a **task force** to coordinate the approach at a European level.
 
-So far, this coordinated approach has led the [Austrian](https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)), [French](https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)), and [Italian](https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890) DPAs to **declare Google Analytics unlawful**. Additionally, in a recent press release, the Danish authority essentially said the same, and the Dutch DPA announced earlier this year that it might[ follow suit](https://www.techzine.eu/news/privacy-compliance/71153/google-analytics-may-be-banned-in-the-netherlands/).
+So far, this coordinated approach has led the [Austrian](<https://gdprhub.eu/index.php?title=DSB_(Austria)_-_2021-0.586.257_(D155.027)>), [French](<https://gdprhub.eu/index.php?title=CNIL_(France)_-_Google_Analytics_(no_case_number)>), and [Italian](<https://gdprhub.eu/index.php?title=Garante_per_la_protezione_dei_dati_personali_(Italy)_-_9782890>) DPAs to **declare Google Analytics unlawful**. Additionally, in a recent press release, the Danish authority essentially said the same, and the Dutch DPA announced earlier this year that it might[ follow suit](https://www.techzine.eu/news/privacy-compliance/71153/google-analytics-may-be-banned-in-the-netherlands/).
 
 The core of the complaints is the supplementary measures required by the Schrems II ruling. No effective measures currently exist for GA and any other cloud-based services that need to process data in the clear[^1]. It follows that Google can only comply with the GDPR by not processing any personal data in the U.S. at all, and this is not the case. Also, not for Google Analytics 4.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image-no-text.png" alt="Is GA4 GDPR compliant" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![Is GA4 GDPR compliant](https://assets.simpleanalytics.com/blog/2022-is-google-analytics-illegal-in-europe/compliant-social-image-no-text.png)
 
-## 2. Google Analytics 4 transfers personal data
+## Google Analytics 4 transfers personal data
 
 Google advertised GA4 as a move toward a cookieless and privacy-friendly web analytics model, but their new analytics tool is not entirely cookieless. GA4 ditched third-party cookies but [employs a single first-party cookie called Client ID](https://support.google.com/analytics/answer/11593727?hl=en). All cookies, including first-party cookies, are **personal data** under the GDPR[^2].
 
@@ -51,7 +47,7 @@ GA4 also uses an identifier called **User-ID**. User IDs are not cookies, but a 
 
 Transferring personal data to the US is the problem at hand. Google Analytics 4 does not fix this. A Google Analytics 4 setup still transfers personal data to the US.
 
-## 3. Privacy is more than compliance
+## Privacy is more than compliance
 
 So far, we have taken a look at GA4's compliance with the GDPR. But what about its general privacy implications?
 
@@ -59,9 +55,7 @@ Let's start with the good notes. GA4 is definitely more privacy-friendly in the 
 
 On the other hand, the User-ID system **encourages very invasive tracking practices**. It is essentially a two-step system where the website itself collects certain data to identify a user cross-platform. Based on this data, the website generates a unique ID and provides it to Google. Google then generates a User ID for each unique ID provider and tracks the parameter across devices.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/visitor-tracking.png" alt="website visitor tracking" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![website visitor tracking](https://assets.simpleanalytics.com/blog/2022-is-google-analytics-4-gdpr-compliant/visitor-tracking.png)
 
 As soon as GA4 becomes the standard, websites will have an incentive to track users and will predictably look for any excuse to collect the data they need for identifying users across devices. They may start locking content behind a registration in order to collect credentials and generate a unique ID, in a similar fashion to how "cookie walls" essentially require data as payment for a "walled" article.
 

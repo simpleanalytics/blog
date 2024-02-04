@@ -8,16 +8,15 @@ redirect_from:
   - /stop-using-google-analytics-if-you-care-about-your-page-rank
   - /google-analytics-hurts-your-search-ranking
 related_posts:
- - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
- - /blog/less-is-more-data-minimization-can-help-your-business
- - /blog/simple-analytics-for-marketers
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
+  - /blog/less-is-more-data-minimization-can-help-your-business
+  - /blog/simple-analytics-for-marketers
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 ---
 
 Google is adding a page experience update to their search result ranking. [They recently announced](https://developers.google.com/search/blog/2021/04/more-details-page-experience) it would roll out in mid-June and finished at the end of August. In this blog post, we the performance impact of using Google Analytics vs. using no analytics vs. using Simple Analytics.
 
-<img loading="lazy" class="border-radius" src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="">
-<p class="caption">Comparison between using no analytics, Simple Analytics, and Google Analytics.</p>
+![Comparison between using no analytics, Simple Analytics, and Google Analytics.](https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png)
 
 ## Core Web Vitals using Google Lighthouse
 
@@ -93,8 +92,7 @@ If you care about a fast website and are still using Google Analytics, this coul
 
 > ..., while this update is designed to highlight pages that offer great user experiences, page experience remains one of many factors our systems take into account. Given this, sites generally should not expect drastic changes. In addition, because we're doing this as a gradual rollout, we will be able to monitor for any unexpected or unintended issues.
 
-<img loading="lazy" class="border" src="/images/2021-04/simpleops.jpg" alt="">
-<p class="caption">Dashboard of <a href="https://simpleops.io">SimpleOps</a> to monitor website performance.</p>
+![Dashboard of SimpleOps to monitor website performance.](https://assets.simpleanalytics.com/blog/github/2021-04-simpleops.jpg)
 
 If you want to check your website performance regularly, you can check out [Moz Performance Metrics](https://moz.com/blog/performance-metrics-beta) or [SimpleOps](https://simpleops.io/) (not related to Simple Analytics). They both seem to be the right tool for the job. Moz also [has a view](https://moz.com/blog/core-web-vitals) on the impact of search results by the Core Web Vitals performance:
 

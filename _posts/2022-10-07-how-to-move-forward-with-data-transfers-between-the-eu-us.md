@@ -6,10 +6,10 @@ excerpt: "Everything you need to know about the do's and don't regarding data tr
 image: https://assets.simpleanalytics.com/blog/2022-data-transfers-under-the-GDPR/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-data-transfers-under-the-GDPR/social-image-no-text.png
 related_posts:
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
- - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics
+  - /blog/website-analytics-without-cookies
 ---
 
 Data transfers between the EU and the US are one of the most widely discussed issues in data protection law right now. Countless business and governmental agencies across Europe are somehow reliant on a US-based processor for their operations. Yet, these data transfers pose privacy risks that are hard, if not impossible, to mitigate.
@@ -18,21 +18,9 @@ We've already touched upon data transfers in a [blog](https://www.simpleanalytic
 
 {% include gif.html slug="closer-look" alt="closer look" width="480" height="259" color="#35281d" %}
 
-1.  [How do data transfers work under the GDPR?](#1-how-do-data-transfers-work-under-the-gdpr)
-    1.  [Adequacy decisions](#11-adequacy-decisions)
-    2.  [Standard contractual clauses](#12-standard-contractual-clauses)
-    3.  [What about other mechanisms?](#13-what-about-other-mechanisms)
-2.  [US data transfers. A long story short](#2-us-data-transfers-a-long-story-short)
-    1.  [Schrems I](#21-schrems-i)
-    2.  [Schrems II](#22-schrems-ii)
-    3.  [The 101 complaints](#23-the-101-complaints)
-3.  [Supplementary measures for data transfers](#3-supplementary-measures-for-data-transfers)
-    1.  [Encryption](#31-encryption)
-    2.  [Proxy Servers](#32-proxy-servers)
-    3.  [Pseudonymization](#33-pseudonymization)
-4.  [The risk-based approach](#4-the-risk-based-approach)
+{{tableofcontents}}
 
-## 1. How do data transfers work under the GDPR?
+## How do data transfers work under the GDPR?
 
 The GDPR contains all sorts of rules to protect the data rights of individuals. But what happens when your data is transferred to a third country outside the EEA?
 
@@ -40,7 +28,7 @@ The GDPR contains a Chapter about data transfers specifically, consisting of sev
 
 In practical terms, a data transfer to a third country is only lawful when it relies on one of several mechanisms listed by the GDPR. To keep this short, we will focus on the ones that really matter in practice: **adequacy decisions and standard contractual clauses**.
 
-### 1.1 Adequacy decisions
+### Adequacy decisions
 
 Adequacy decisions are decisions by the **European Commission** that essentially **greenlight data transfers** to a specific country[^2]. Before taking an adequacy decision, the legal system of that country is examined in depth and ensures that it grants a sufficient level of protection[^3].
 
@@ -48,7 +36,7 @@ If you have an adequacy decision for the transfer you need, you are lucky. Adequ
 
 Keep in mind that adequacy decisions are **not political decisions**. That is to say; the Commission is not free to declare a country adequate just because they like it or because they are a political ally; it must make sure that data transfers to that country are actually safe and must take some specific criteria into account. The Court of Justice can invalidate an adequacy decision for a country that doesn't satisfy these criteria, which happened twice for the U.S.
 
-### 1.2 Standard contractual clauses
+### Standard contractual clauses
 
 When you can't rely on an adequacy decision, you will need another mechanism for data transfers. Article 46 lists six of them, but in practice, you will probably use **standard contractual clauses (SCCs)[^4]**.
 
@@ -58,21 +46,19 @@ The main shortcoming of SCCs is that they **do not bind the recipient State**. F
 
 In other words, the controller needs to ensure that SCCs grant sufficient protection in practice, and if they don't, they must take extra steps to keep the data confidential. As we will see, this is very difficult when dealing with State surveillance.
 
-### 1.3 What about other mechanisms?
+### What about other mechanisms?
 
 As we said, the GDPR provides transfer instruments other than SCCs and adequacy decisions[^6], but they are not frequently used in practice. Binding Corporate Rules (BCRs) are used to transfer data within branches of a corporation. However, large corporations typically prefer establishing separate companies in the EEA and controlling them through capital ownership (think of Google Ireland and Meta Ireland). Certifications and codes of conduct may gain traction in the future but are not widely used at the moment.
 
 Crucially, **all these instruments suffer from the same issues as SCCs** when dealing with "unsafe" States because they do not bind the recipient State (legally binding instruments between public bodies are the exception, but private entities cannot rely on them).
 
-<img src="https://assets.simpleanalytics.com/blog/2022-data-transfers-under-the-GDPR/social-image-no-text.png" alt="Data transfers under the GDPR" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![Data transfers under the GDPR](https://assets.simpleanalytics.com/blog/2022-data-transfers-under-the-GDPR/social-image-no-text.png)
 
-## 2. US data transfers. A long story short
+## US data transfers. A long story short
 
 To understand where we are now concerning US data transfers, we need to take a quick look at a decade-long story of legal battles.
 
-### 2.1 Schrems I
+### Schrems I
 
 From 2000 to 2015, data transfers between the EU and the U.S. were covered by a data transfer agreement called **Safe Harbor**.
 
@@ -82,7 +68,7 @@ Shortly after the Snowden revelations, Austrian citizen **Max Schrems filed a co
 
 In 2015 the case landed in the EU Court of Justice, which ruled in Schrem's favor and [**invalidated the Safe Harbor regime**](https://curia.europa.eu/jcms/upload/docs/application/pdf/2015-10/cp150117en.pdf).
 
-### 2.2 Schrems II
+### Schrems II
 
 Schrems' case continued, and was referred to the CJEU a second time. In 2020 the Court ruled in favor of Schrems again. It invalidated the **Privacy Shield**, another framework for data transfers that replaced the Safe Harbor regime in between the two Schrems rulings.
 
@@ -90,7 +76,7 @@ The validity of SCCs as a transfer mechanism was also questioned in the case. Th
 
 Overall, the Schrems II ruling made data transfers to the U.S. much more complicated. **Companies can no longer rely on an adequacy decision** after the Privacy Shield was invalidated and need to use other instruments (typically SCCs) instead. They also need to implement **adequate supplementary measures** to counter the risk of State surveillance.
 
-### 2.3 The 101 complaints
+### The 101 complaints
 
 Despite widespread panic about data transfers, most companies kept doing business as usual and transferring data to the US as if Schrems II didn't happen.
 
@@ -100,13 +86,13 @@ The EDPB (short for European Data Protection Board, a European institution gathe
 
 But the issue is bigger than GA. The reasoning that led to Google Analytics being banned from some Member States may someday lead to the ban of many other services, including cloud services which are practically indispensable for the European economy at the moment.
 
-## 3. Supplementary measures for data transfers
+## Supplementary measures for data transfers
 
 And now the one billion dollar question: what supplementary measures are effective against U.S. surveillance?
 
-The EDPD suggested some solutions in their guidelines on supplementary measures, but they are few, and all have significant limitations. It should be noted that these are only general suggestions: there is no clear-cut answer to the question, as **safeguards need to be chosen and evaluated case by case**. 
+The EDPD suggested some solutions in their guidelines on supplementary measures, but they are few, and all have significant limitations. It should be noted that these are only general suggestions: there is no clear-cut answer to the question, as **safeguards need to be chosen and evaluated case by case**.
 
-### 3.1 Encryption
+### Encryption
 
 A fundamental distinction needs to be made between end-to-end encryption and other forms of encryption.
 
@@ -116,7 +102,7 @@ On the other hand, **non-end-to-end encryption is never an effective safeguard**
 
 To be perfectly clear, non-end-to-end encryption is still a useful **cyber security measure**, as it effectively protects against attacks. It just doesn't help with U.S. data transfers at all.
 
-### 3.2 Proxy servers
+### Proxy servers
 
 The French DPA has proposed proxy servers as an **effective safeguard** for using Google Analytics. They are, but they cannot be used for all data transfers. They are also **burdensome and expensive** to implement, as the [French DPA itself acknowledges](https://www.cnil.fr/en/google-analytics-and-data-transfers-how-make-your-analytics-tool-compliant-gdpr).
 
@@ -126,7 +112,7 @@ Here's the catch: you must host and run Google Analytics **on your own server**.
 
 Additionally, this solution requires **complete control of the infrastructure**. This is not an attractive option for using cloud services since the main advantage of clouds is that you don't need any physical infrastructure, to begin with.
 
-### 3.3 Pseudonymization
+### Pseudonymization
 
 The EDPB also suggests **pseudonymization[^9]**. In a nutshell, pseudonymization means that you can only transfer data that cannot be used to re-identify the data subject, even in combination with other data.
 
@@ -134,11 +120,9 @@ Pseudonymization is not anonymization under the GDPR, but it can definitely be a
 
 The controller also needs to consider data linkage- that is, the possibility that someone may re-identify the data subject by combining the exported data with any other information they may possess. Evaluating the risk of re-identification is difficult when dealing with State surveillance because intelligence agencies gather a lot of information about a lot of people and are not transparent about the information they possess- that's their job after all.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="do you really need google analytics" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![do you really need google analytics](https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png)
 
-## 4. The risk-based approach
+## The risk-based approach
 
 Some companies adopt a **risk-based approach** to data transfers. They essentially claim that a transfer is safe and lawful when there is a low enough probability that the transferred data will be subject to surveillance.
 
@@ -148,7 +132,7 @@ To be perfectly clear: when transferring data, an exporter should assess whether
 
 The answer to this question will be "yes" for most (if not all) transfers because the scope of FISA appears to be quite broad in practice- as confirmed by the Snowden papers.
 
-## 5. Now what?
+## Now what?
 
 As we have seen, data transfers are quite the legal puzzle right now. Effective safeguards are very few and are not available at all for some transfers. At the same time, authorities are moving towards a stricter approach to data transfers.
 

@@ -8,14 +8,14 @@ image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-
 redirect_from:
   - /denmark-bans-all-google-products
 related_posts:
- - /blog/denmark-declares-google-analytics-unlawful
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/italy-declares-google-analytics-illegal
- - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
+  - /blog/denmark-declares-google-analytics-unlawful
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/italy-declares-google-analytics-illegal
+  - /blog/new-ruling-your-cookie-data-might-be-sensitive-data-here-is-why-that-matters
 last_modified_at: 2022-09-20
 ---
 
-Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal), [France (CNIL)](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, the Danish DPA is banning the use of Google Workspace, meaning all Google products. For now the ban is only focused on municipalities after the processing ban was dropped on the municipality of Helsingør.
+Where [Italy (Garante)](/blog/italy-declares-google-analytics-illegal), [France (CNIL)](/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and [Austria (DSB)](https://noyb.eu/en/austrian-dsb-eu-us-data-transfers-google-analytics-illegal) focused on Google Analytics, the Danish DPA is banning the use of Google Workspace, meaning all Google products. For now the ban is only focused on municipalities after the processing ban was dropped on the municipality of Helsingør.
 
 <details markdown="1">
 <summary>Read the full statement here (auto-translated in English)</summary>
@@ -67,7 +67,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > <details markdown="1">
 > <summary>Toggle the rest of the statement (long)</summary>
 >
-> > ## 1. Decision
+> > ## Decision
 > >
 > > After reviewing the risk assessment of the Municipality of Helsingør and the documentation of the Municipality in general, the Data Protection Agency considers that there are grounds to issue a prohibition order to the Municipality of Helsingør for the processing of personal data using Google Chromebooks and Workspace for Education. The prohibition applies until the Municipality of Helsingør has brought the processing activity into compliance with the GDPR, as set out in this Decision, and has produced adequate documentation to this effect.
 > >
@@ -81,7 +81,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > Finally, the Data Protection Supervisor finds grounds for serious criticism of the fact that the processing of personal data by the Municipality of Helsingør has not been carried out in accordance with Article 5(2) of the Data Protection Regulation, cf. Article 5(1)(a), Article 24, cf. Article 28(1), Article 35(1) and Article 44, cf. Article 46(1).
 > >
-> > ## 2. Executive summary
+> > ## Executive summary
 > >
 > > On 11 December 2019, a citizen complained to the Data Protection Authority about the processing of personal data by the Municipality of Helsingør.
 > >
@@ -95,15 +95,15 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > In response to the decision of 10 September 2021, the Municipality of Helsingør submitted its risk assessment regarding the use of Google Chromebooks and G-Suite for Education by letter dated 10 November 2021, as well as additional documentation to demonstrate the lawfulness of the processing activity. In addition, on 9 December 2021, the municipality submitted further information on the case in response to the EDPS's request of 2 December 2021.
 > >
-> > ## 3. Opinion of the municipality of Helsingør
+> > ## Opinion of the municipality of Helsingør
 > >
-> > ### 3.1. Conduct of risk assessment, including data protection impact assessment where appropriate
+> > ### Conduct of risk assessment, including data protection impact assessment where appropriate
 > >
 > > On 10 November 2021, the Municipality of Helsingør submitted the Municipality's risk assessment for the use of Google Chromebooks and G-Suite for Education (Google Workspace for Education).
 > >
 > > At the same time, the Municipality of Helsingør has informed the Data Protection Authority that the Municipality does not use Google Workspace's additional services and has therefore assessed that the Municipality is not obliged to prepare a data protection impact assessment.
 > >
-> > ### 3.2. Processing of personal data for other purposes
+> > ### Processing of personal data for other purposes
 > >
 > > Among the risks identified by the Municipality of Helsingør in using Google Chromebooks, the risk of "use of data for unintended purposes" appears in the risk assessment. The risk is described as follows:
 > >
@@ -123,7 +123,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > > >
 > > > Based on the measures implemented above, the Municipality of Elsinore assesses that the likelihood of the risk becoming a reality is low. However, it cannot be completely excluded that Google breaches the contractual obligations and nevertheless uses personal data for marketing or other unintended purposes for which the Municipality of Helsingør has not given instructions in accordance with the data processing agreement."
 > >
-> > ### 3.3. Transfer of personal data to third countries
+> > ### Transfer of personal data to third countries
 > >
 > > An additional risk identified by the Municipality of Helsingør in the use of Google Chromebooks and Workspace for Education in the risk assessment is the risk of transfers to third countries.
 > >
@@ -266,7 +266,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > Finally, the Municipality of Elsinore has submitted a large amount of documentation regarding the data processor arrangement with Google Cloud EMEA Limited, including the data processor agreement "Data Processing Amendment to Google Workspace and/or Complementary Product Agreement" dated 24 September 2021.
 > >
-> > ## 4. Justification of the decision of the Data Protection Supervisor
+> > ## Justification of the decision of the Data Protection Supervisor
 > >
 > > In general, the EDPS is of the opinion that a controller using a data processor - for all processing operations - must comply with and be able to demonstrate compliance with the GDPR and the Data Protection Act, regardless of where in the data processing chain processing takes place.
 > >
@@ -276,7 +276,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > With this decision, the Data Protection Authority has only taken a position on whether - and to what extent - the Municipality of Helsingør, as the controller, processes personal data in accordance with the data protection rules. The competence of the Data Protection Authority follows from Section 27 of the Data Protection Act and Chapters VI and VII of the Data Protection Regulation, including Article 55(2) thereof.
 > >
-> > ### 4.1. Use of Google Chromebooks and Google Workspace for Education
+> > ### Use of Google Chromebooks and Google Workspace for Education
 > >
 > > It follows from Section 2(1) of the Education Act that the local authority is responsible for the education of children.
 > >
@@ -294,7 +294,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > However, it remains an essential condition that the Regulation and the Data Protection Act are otherwise complied with in the processing of personal data that takes place.
 > >
-> > ### 4.2. Risk and consequences
+> > ### Risk and consequences
 > >
 > > In general, the EDPS finds that the risk assessment of the Municipality of Helsingør regarding the use of Google Chromebooks and Workspace for Education addresses the main scenarios and threats.
 > >
@@ -308,7 +308,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > Against the above background, the EDPS finds that the Municipality of Helsingør - (i) by not including the risk scenarios that may arise from the data processor design and the system choices made in its risk assessment, (ii) by not having sufficiently tested the scope and functioning of the hardware and software used, and (iii) by not being able to document, how the municipality controls Google's access to the personal data, including in particular by ordinary use of Google Chromebooks operating system and Google Workspace's interaction with Google's backend in relation to the possibilities for separation of personal data that may occur under the Data Processors Directive, - has not demonstrated that personal data is processed lawfully, fairly and in a transparent manner in relation to the data subject pursuant to the Data Processors Directive. Article 5(2) of the Data Protection Act, see Article 5(1)(a).
 > >
-> > ### 4.3. Use of data for other purposes
+> > ### Use of data for other purposes
 > >
 > > It is the opinion of the Data Protection Authority that the processing of personal data by the Municipality of Helsingør under the Elementary School Act, cf. Article 6(1)(e) of the Regulation, does not include situations where personal data are processed for purposes other than those provided for in the Elementary School Act. The data cannot therefore be lawfully disclosed to other controllers for their purposes either, where the purposes are not provided for in the Education Act. This also includes the processing of personal data that may occur through the use of the equipment and software by pupils, including metadata data used for marketing and profiling purposes, whether the data are used for direct marketing to the individual pupil or indirectly as part of a group (class, year, school, etc.).
 > >
@@ -336,9 +336,9 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > Against this background - and given that the Municipality of Helsingør has stated that it has not carried out a data protection impact assessment - the EDPS considers that the processing of personal data by the Municipality of Helsingør has not been carried out in accordance with Article 35(1) of the Regulation.
 > >
-> > ### 4.4. Transfers of personal data to third countries
+> > ### Transfers of personal data to third countries
 > >
-> > ### 4.5. Transfer of personal data by the cloud infrastructure
+> > ### Transfer of personal data by the cloud infrastructure
 > >
 > > The EDPS has firstly noted that it is the opinion of the Municipality of Elsinore that the Municipality has configured its use of Google Workspace for Education in such a way that "data are, as a clear starting point, only located within the EU in the data centres concerned. It is thus only the risk of support access from an insecure third country that may lead to access from an insecure third country."
 > >
@@ -364,7 +364,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > It is the view of the Data Protection Authority that the controller must provide a valid basis for transfer to all third countries to which personal data may be transferred as part of the provision of a service under the contractual basis, including service and support.
 > >
-> > ### 4.6. Transfer of personal data to the United States
+> > ### Transfer of personal data to the United States
 > >
 > > Initially, the EDPS notes that - in the EDPS' view - there is an intentional and instructed transfer to the United States for the Municipality of Helsingør as a result of the agreed possibility to provide support - in or from the United States - with access to personal data.
 > >
@@ -430,7 +430,7 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > The EDPS therefore considers that the transfer of personal data which the Municipality of Helsingør has instructed Google Cloud EMEA Limited to carry out is not in accordance with Article 44 of the Data Protection Regulation, cf. Article 46(1)(c).
 > >
-> > ### 4.7. Summary
+> > ### Summary
 > >
 > > In view of the injunction issued on 10 September 2021, and the processing restriction issued on the same date, and following a review of the risk assessment carried out by the Municipality of Helsingør and the Municipality's documentation in general, the Data Protection Supervisor considers that there are grounds for issuing a prohibition to the Municipality of Helsingør to process personal data using Google Chromebooks and Workspace for Education. The prohibition applies until the Municipality of Helsingør has brought the processing activity into compliance with the GDPR, as set out in this Decision, and has produced adequate documentation to this effect.
 > >
@@ -444,11 +444,11 @@ Where [Italy (Garante)](https://blog.simpleanalytics.com/italy-declares-google-a
 > >
 > > Finally, the Data Protection Supervisor finds grounds for serious criticism of the fact that the processing of personal data by the Municipality of Helsingør has not been carried out in accordance with Article 5(2) of the Data Protection Regulation, cf. Article 5(1)(a), Article 24, cf. Article 28(1), Article 35(1) and Article 44, cf. Article 46(1).
 > >
-> > ### 4.8. Choice of corrective measures
+> > ### Choice of corrective measures
 > >
 > > In choosing the remedy, the EDPS has put emphasis on bringing the unlawful situation to an end quickly. In addition, the EDPS has given mitigating weight to the fact that the Municipality of Helsingør has - at all stages of the processing of the case - contributed positively and responsibly to providing the necessary documentation and clarity about the processing operations, and has given particular weight to the fact that the transfers of personal data in question to the United States were previously subject to an adequacy finding pursuant to Article 45 of the Regulation, which expired.
 > >
-> > ## 5. Concluding remarks
+> > ## Concluding remarks
 > >
 > > The EDPS notes that it is the responsibility of the Municipality of Helsingør to rectify and erase data in accordance with the Decision. The municipality must therefore contact the parents of the children concerned in order to carry out the rectifications, anonymisations or erasures of the personal data recorded which the parents themselves cannot carry out in the systems in which the pupils' personal data have been inadvertently published or transmitted.
 >
@@ -462,12 +462,9 @@ Only two weeks after Italy, Denmark becomes the fourth country to sanction Googl
 
 {% include gif.html slug="dominos" alt="Denmark is the fourth domino falling for Google" width="500" height="281" color="#0c0c0c" %}
 
-1. [Denmark bans Google Workspace for municipalities](#1-denmark-bans-google-workspace-for-municipalities)
-2. [Why are EU member states banning Google?](#2-why-are-eu-member-states-banning-google-analytics)
-3. [Why is there no data agreement with the US?](#3-why-is-there-no-new-privacy-shield-with-the-us)
-4. [What does the future hold?](#4-what-will-the-future-hold)
+{{tableofcontents}}
 
-## 1. Denmark bans Google Workspace for municipalities
+## Denmark bans Google Workspace for municipalities
 
 In [their statement](https://www.datatilsynet.dk/afgoerelser/afgoerelser/2022/jul/datatilsynet-nedlaegger-behandlingsforbud-i-chromebook-sag-), the Danish Data Protection Authority (DPA) has looked at a specific case, namely the use of Chromebooks and Workspace, by the municipality of Helsingør.
 
@@ -487,15 +484,15 @@ In [the statement by Datatilsynet DK](https://www.datatilsynet.dk/afgoerelser/af
 
 We think the legal ground for businesses is the same. They are sending personal data to the US, mainly because it's not the first data protection agency in the EU to ban Google products. However, no formal decision has been made for regular businesses yet.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png" alt="Denmark bans Google Products" class="border-radius" />
+![Denmark bans Google Products](https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-products/denmark-bans-google-products-no-text.png)
 
-## 2. Why are EU member states banning Google Analytics?
+## Why are EU member states banning Google Analytics?
 
 We have to go back to July 2020, when NOYB (an NGO for digital rights) filed a complaint that argued data transfer to the US violates GDPR. This became known as [Schrems II](https://www.gdprsummary.com/schrems-ii/).
 
 The only mandate of the GDPR is to protect the privacy of EU citizens. When personal data is transferred to the US, this is not guaranteed anymore. Google (and many others) qualify as an "electronic communication service provider," meaning that Google is obliged to disclose data to US intelligence services (if asked for). As a result, the personal data of EU citizens are insufficiently protected when transferred overseas.
 
-NOYB successfully invalidated the [privacy shield](https://blog.simpleanalytics.com/eu-us-privacy-shield-2-0-is-again-a-political-show) (put in place to safeguard data transfer), and additional measurements from Google have been declared insufficient.
+NOYB successfully invalidated the [privacy shield](/blog/eu-us-privacy-shield-2-0-is-again-a-political-show) (put in place to safeguard data transfer), and additional measurements from Google have been declared insufficient.
 
 France (CNIL) banned Google Analytics in February this year and provided new guidelines in June. In the timespan between those events, Google has proposed different solutions that have all been thrown out the window:
 
@@ -506,7 +503,7 @@ First, Google could not demonstrate that data anonymization happened before the 
 
 As long as the personal data of EU citizens are not fully protected, Google products will violate EU law.
 
-## 3. Why is there no new privacy shield with the US?
+## Why is there no new privacy shield with the US?
 
 Shortly after France (CNIL) banned Google Analytics in February, the EU & US reached an agreement. You can read both statements [here](https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_21_1443) and [here](https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/03/25/remarks-by-president-biden-and-european-commission-president-ursula-von-der-leyen-in-joint-press-statement/). The agreement, however, was a political one with no legal document. In other words, the agreement has zero legal merits.
 
@@ -516,7 +513,7 @@ Across the pond, President Biden needs to sign an executive order. This process 
 
 The recent announcement made an agreement seem very close, but we're still far away from one that is valid. In the meantime, continuing to use Google products is against EU law.
 
-## 4. What will the future hold?
+## What will the future hold?
 
 Before discussing the future, let's look into the past. So far, we've seen:
 
@@ -532,4 +529,4 @@ Data protection agencies are finally showing their teeth by banning Google Analy
 
 The fight for privacy is on, and as long no agreement is reached, we'll see more and more EU member states conclude that data transfers to the U.S. violate GDPR law.
 
-Of course we are a bit biased to this news, because we run a Google Analytics competitor. But we do it because we care. We truly believe you can still provide value without tracking individuals. That's why we build Simple Analytics, a privacy-first analytics tool. Want to learn how we compare? Read our [blog post](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-google-analytics) or [give us a try](https://simpleanalytics.com/welcome). Thanks for reading and let's fight for a more private future!
+Of course we are a bit biased to this news, because we run a Google Analytics competitor. But we do it because we care. We truly believe you can still provide value without tracking individuals. That's why we build Simple Analytics, a privacy-first analytics tool. Want to learn how we compare? Read our [blog post](/blog/why-simple-analytics-is-a-great-alternative-to-google-analytics) or [give us a try](https://simpleanalytics.com/welcome). Thanks for reading and let's fight for a more private future!

@@ -15,13 +15,13 @@ In [het persbericht ](https://www.cnil.fr/en/use-google-analytics-and-data-trans
 
 Het is het tweede EU-land dat openlijk de schending van [artikel 44 van de GDPR-overeenkomst](https://gdpr-info.eu/art-44-gdpr/) door Google erkent en onderstreept. Wij voorzien dat andere landen dit voorbeeld zullen volgen in de komende maanden.
 
-<img class="border-radius" style="max-width: 500px; margin: 1rem auto;" src="https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics-no-simple-analytics.png" alt="France rules Google Analytics to be in conflict with GDPR ruling" />
+![France rules Google Analytics to be in conflict with GDPR ruling](https://assets.simpleanalytics.com/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling/cnil-forbids-google-analytics-no-simple-analytics.png)
 
 ## CNIL: Google Analytics is in strijd met GDPR-regelgeving
 
 Hoewel het enige tijd heeft geduurd voordat de toezichthouders in actie kwamen (het onderzoek dateert alweer van augustus 2020), lijkt het momentum nu daar te zijn. Nadat de DSB vorige maand zijn verklaring publiceerde, bracht de CNIL het nieuws vorige week naar buiten.
 
-In onze [eerdere blog](https://blog.simpleanalytics.com/will-google-analytics-be-banned-in-the-eu), waarin we ingaan op de beslissing van het DSB om het gebruik van Google Analytics ongeldig te verklaren, analyseren we de onderliggende oorzaak van deze reacties.
+In onze [eerdere blog](/blog/will-google-analytics-be-banned-in-the-eu), waarin we ingaan op de beslissing van het DSB om het gebruik van Google Analytics ongeldig te verklaren, analyseren we de onderliggende oorzaak van deze reacties.
 
 In het kort komt het erop neer dat de GPDR-wetten van de EU gegevensbescherming voor haar burgers eist. De VS houden zich echter niet aan dezelfde richtlijnen. Zij bieden niet-Amerikaanse burgers geen enkele mogelijkheid om te weten hoe hun gegevens worden verwerkt of gebruikt worden. Als reactie hierop zegt de CNIL nu dat gegevensoverdrachten naar de VS alleen kunnen plaatsvinden als passende garanties worden geboden. Momenteel is dit niet het geval.
 

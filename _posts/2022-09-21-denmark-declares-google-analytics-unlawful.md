@@ -6,10 +6,10 @@ excerpt: "After Austria, France, and Italy, Denmark has become the fourth countr
 image: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/denmark-bans-google-analytics.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image-no-text.png
 related_posts:
- - /blog/website-analytics-without-cookies
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
- - /blog/how-to-delete-google-analytics-in-4-steps
- - /blog/simple-analytics-for-marketers
+  - /blog/website-analytics-without-cookies
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/how-to-delete-google-analytics-in-4-steps
+  - /blog/simple-analytics-for-marketers
 ---
 
 After Austria, France, and Italy, Denmark has become the fourth country to [declare the use of Google Analytics unlawful](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics). This decision was stated in a press release from the DPA itself (Datatilsynet) and is a result of a coordinated approach at the European level.
@@ -22,12 +22,9 @@ In the present statement, the Danish DPA addresses the use of Google Analytics s
 
 Let's dive in!
 
-1.  [Statement by Danish DPA](#1-statement-by-danish-dpa)
-2.  [Background on the press release](#2-background-on-the-press-release)
-3.  [Implications for Danish organizations](#3-implications-for-danish-organizations)
-4.  [Final Thoughts](#4-final-thoughts)
+{{tableofcontents}}
 
-## 1. Statement by Danish DPA 
+## Statement by Danish DPA 
 
 The Danish DPA concluded that the use of Google Analytics is unlawful. The decision is based on an individual case but represents a common European position toward processing personal data.
 
@@ -39,9 +36,9 @@ After careful consideration, the Danish DPA reached the same conclusion as the o
 
 They stated that you must stop using the tool if it's impossible to implement additional measures that safeguard website visitors' privacy. If that's not possible, you should find another analytics tool that does comply with GDPR and does not transfer data to "unsafe" third countries like the U.S.
 
-Read the full statement [here](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics). 
+Read the full statement [here](https://www.datatilsynet.dk/english/google-analytics/use-of-google-analytics-for-web-analytics).
 
-## 2. Background on the press release
+## Background on the press release
 
 Data transfers to the U.S. have become much more complicated since the Schrems II decision. It's a long story; you can learn about it [here](https://www.simpleanalytics.com/blog/the-complete-overview-from-101-noyb-complaints-to-banning-google-analytics). In a nutshell, since Schrems II, additional safeguards need to be implemented to transfer data to the U.S. In many cases, this is practically impossible.
 
@@ -49,9 +46,9 @@ After Schrems II, Google Analytics came under fire from several DPAs for not com
 
 The Danish DPA is now following suit. They looked into GA and stated that it could not be used without implementing some complex and costly supplementary measures (a reverse proxy server). In practical terms, Denmark is the fourth country to ban Google Analytics.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image-no-text.png" alt="Denmark (practically) bans Google Analytics" class="border-radius" />
+![Denmark (practically) bans Google Analytics](https://assets.simpleanalytics.com/blog/2022-denmark-bans-google-analytics/social-image-no-text.png)
 
-## 3. Implications for Danish organizations
+## Implications for Danish organizations
 
 The Danish DPA stated that GA is not compliant with the rules of data transfers, meaning that a data controller cannot legally use it unless they protect the data with supplementary measures.
 
@@ -59,9 +56,9 @@ The only example offered by the DPA is a reference to the position of the French
 
 No other measures are suggested, for the very good reason that none exist. This press statement is, for all practical purposes, a ban.
 
-There is a debate going on whether this statement also holds for Google Analytics 4. The short answer is yes, this applies to every version of Google Analytics. We've written about Google Analytics 4 more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant). 
+There is a debate going on whether this statement also holds for Google Analytics 4. The short answer is yes, this applies to every version of Google Analytics. We've written about Google Analytics 4 more extensively in [this blog](https://www.simpleanalytics.com/blog/is-google-analytics-4-gdpr-compliant).
 
-## 4. Final Thoughts 
+## Final Thoughts 
 
 The recent decisions and the fact that a task force has been created on a European level make it highly likely that this is not the last decision we have seen.
 

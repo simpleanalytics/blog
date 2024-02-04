@@ -4,10 +4,10 @@ author_slug: iron
 author: Iron Brands
 excerpt: "There are more and more privacy-friendly Google Analtyics alternatives, but which one is the best?"
 related_posts:
- - /blog/website-analytics-without-cookies
- - /blog/why-its-time-to-move-away-from-google-analytics
- - /blog/simple-analytics-for-marketers
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/why-its-time-to-move-away-from-google-analytics
+  - /blog/simple-analytics-for-marketers
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 image: https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png
 ---
 
@@ -15,7 +15,7 @@ The call for privacy-friendly Google Analtyics alternatives has never been this 
 
 But what is the best alternative to Google Analytics? With more and more options entering the market, it might be hard to distinguish these alternatives from one another. That's why we decided to do some research.
 
-We've already written an [in-depth comparison focusing on the privacy part](https://blog.simpleanalytics.com/4-privacy-friendly-google-analytics-alternatives). However, privacy is only one part of the equation (albeit the most important one). This article focuses on the other parts: **Data insights, ease of use, data interoperability, and costs.**
+We've already written an [in-depth comparison focusing on the privacy part](/blog/4-privacy-friendly-google-analytics-alternatives). However, privacy is only one part of the equation (albeit the most important one). This article focuses on the other parts: **Data insights, ease of use, data interoperability, and costs.**
 
 Consider this part 2.
 
@@ -45,14 +45,12 @@ Like our last comparison article, we'll compare the same four alternatives we be
 
 Full disclosure: This article is written by Simple Analytics. Yes, we might be biased, but we try our best to benchmark Simple Analytics as independently as possible.
 
-## 1. Simple Analytics
+## Simple Analytics
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/simpleanalytics-dashboard-top.png" alt="simpleanalytics dashboard" class="border" />
-<p class="caption" markdown="1">
-  Simple Analytics dashboard
-</p>
+![simpleanalytics dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/simpleanalytics-dashboard-top.png)
+_Simple Analytics dashboard_
 
-Simple Analytics is the furthest away from Google Analytics in many ways. This is because Simple Analytics [never collects any personal data or uses cookies.](https://blog.simpleanalytics.com/website-analytics-without-cookies) As mentioned earlier, this does impact the depth of data insights.
+Simple Analytics is the furthest away from Google Analytics in many ways. This is because Simple Analytics [never collects any personal data or uses cookies.](/blog/website-analytics-without-cookies) As mentioned earlier, this does impact the depth of data insights.
 
 ### Data Insights
 
@@ -83,12 +81,10 @@ Simple Analytics has two plans. The Starter plan and the Business plan.
 - Business plan 59$ (or 49$ on a yearly plan) for up to 1 million page views per month.
 - After 1 million pageviews, Simple Analytics offers custom deals.
 
-## 2. Plausible
+## Plausible
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard-top.png" alt="Plausible dashboard" class="border" />
-<p class="caption" markdown="1">
- Plausible dashboard
-</p>
+![Plausible dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/plausible-dashboard-top.png)
+_Plausible dashboard_
 
 Plausible is closer to Simple Analytics than Google Analytics and is also built by a small team focused on privacy and ease of use.
 
@@ -116,13 +112,11 @@ Plausible is open source. If you are technical, you can host your analytics. Thi
 - 19$ Per month for up to 100,000 pageviews
 - 69$ Per month for up to 1 million pageviews
 
-## 3. Matomo
+## Matomo
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/matomo-dashboard.png" alt="Matomo dashboard" class="border" />
-<p class="caption" markdown="1">
-  Matomo Dashboard
-</p>
-  
+![Matomo dashboard](https://assets.simpleanalytics.com/blog/google-alternatives/matomo-dashboard.png)
+_Matomo Dashboard_
+
 Matomo is the oldest alternative to Google Analytics. They teamed up with Piwik Pro in the early days but went on their own again in 2018. Their focus is more on data insights and less on the privacy of the people where this data is collected of.
 
 ### Data insights
@@ -146,14 +140,12 @@ Matomo is open source and can be used for free on-premise. If you are technical,
 - 35$ for up to 100,000 pageviews
 - 159$ for up to 1 million pageviews
 
-For an in-depth comparison between Matomo and Simple Analytics, you should check [this article](https://blog.simpleanalytics.com/why-simple-analytics-is-a-great-alternative-to-matomo).
+For an in-depth comparison between Matomo and Simple Analytics, you should check [this article](/blog/why-simple-analytics-is-a-great-alternative-to-matomo).
 
-## 4. Fathom
+## Fathom
 
-<img src="https://simpleanalyticsassets.b-cdn.net/blog/google-alternatives/fathom-dashboard-top.png" alt="Fathom dashboard" class="border" />
-<p class="caption" markdown="1">
-  Fathom dashboard
-</p>
+![Fathom dashboard](https://simpleanalyticsassets.b-cdn.net/blog/google-alternatives/fathom-dashboard-top.png)
+_Fathom dashboard_
 
 Fathom has the philosophy of displaying a straightforward dashboard with all the key metrics and focuses on privacy. It is very similar to Plausible and Simple Analytics in a lesser sense.
 
@@ -186,10 +178,8 @@ The conclusion of this piece: There is no single 'best' alternative.
 
 It ultimately depends on your needs in terms of data and your stance toward privacy. There is a privacy trade-off: The more data you want to collect on the individual level, the more privacy-invasive tools you will need.
 
-<img src="https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png" alt="privacy vs. data insights" class="border" />
-<p class="caption" markdown="1">
-  The Privacy Trade-off
-</p>
+![privacy vs. data insights](https://assets.simpleanalytics.com/blog/google-alternatives/spectrum-privacy-friendly-analytics.png)
+_The Privacy Trade-off_
 
 You need to decide how important the privacy of your visitors is to you and what data you really need to make decisions.
 

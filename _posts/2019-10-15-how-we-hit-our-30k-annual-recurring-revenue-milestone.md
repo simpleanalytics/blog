@@ -6,8 +6,7 @@ author: Adriaan van Rossum
 
 Simple Analytics recently passed the \$30k in ARR (annual recurring revenue). It has been only a little over a year and I would like to walk you through the important points of our journey together, and where I would like to take it next.
 
-<img loading="lazy" class="border" src="/images/30k/stripe-mrr.jpg" alt="">
-<p class="caption">See our <a href="https://simpleanalytics.com/open">/open page</a> for an up to date MRR.</p>
+![See our open page for an up to date MRR.](https://assets.simpleanalytics.com/blog/github/30k-stripe-mrr.jpg)
 
 ## From park bench to Hacker News
 
@@ -31,11 +30,11 @@ Another good thing to realize is that you can build tools to help you with your 
 
 The strategy was to respond to the tweets, manually, that appears on Twitter which would also help me in getting my name out there.
 
-<img loading="lazy" class="border" src="/images/30k/admin-tweets.jpg" alt="">
+![](https://assets.simpleanalytics.com/blog/github/30k-admin-tweets.jpg)
 
 An example to gain more customers was through our docs. I put a lot of time and effort in writing our documentation (thanks [Minal C](https://twitter.com/thoughtbar_) for being my grammar nazi) and I see a lot of referrers from our docs when people sign up.
 
-<img loading="lazy" class="border" src="/images/30k/docs.jpg" alt="">
+![](https://assets.simpleanalytics.com/blog/github/30k-docs.jpg)
 
 Public dashboards also turned out to be a great marketing feature. Customers can decide to put their stats public and share them publicly. That's a first in the analytics realm and great exposure of my brand. There are plenty tweets out there sharing their dashboard and at the same time they are sharing Simple Analytics.
 
@@ -58,7 +57,7 @@ Simple Analytics doesn't have that problem because it's only collecting the need
 
 Some people have inquired about the churn rate. Here are some numbers with more info compared to [simpleanalytics.com/open](https://simpleanalytics.com/open) page.
 
-<img loading="lazy" class="border" src="/images/30k/stripe-churn.jpg" alt="">
+![](https://assets.simpleanalytics.com/blog/github/30k-stripe-churn.jpg)
 
 ## Forever feedbacking
 
@@ -66,7 +65,7 @@ To put this success story in perspective: it wasn't all butterflies and rainbows
 
 Added a link in top navigation, manually tweet a welcome tweet, redirect to feedback page on many pages, a live chat – all thanks to [Şamil Karahisar](https://twitter.com/samilkarahisar), being active on Twitter, a Telegram group with power users, a slack for big features, ...
 
-<img loading="lazy" class="border" src="/images/30k/admin-subscriptions.jpg" alt="">
+![](https://assets.simpleanalytics.com/blog/github/30k-admin-subscriptions.jpg)
 
 But with all this feedback and feature requests it feels like I'm never done with my startup. There are lots of people building a SaaS startup to find their passive income, but it's hard work (and probably never ends). For me there is this pressure from my customers to build all those nice things they want, which keeps me focused but also overwhelmed. I didn't expect this and I'm not sure if I found a way. For now it seems to work to have focused weeks, just focus on one feature/theme and get that done in a week.
 

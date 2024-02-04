@@ -6,10 +6,10 @@ excerpt: "Cookies have always been treated as personal data under the GDPR, but 
 image: https://assets.simpleanalytics.com/blog/2022-your-cookie-data-might-be-sensitive-data/social-image.png
 image_no_text: https://assets.simpleanalytics.com/blog/2022-your-cookie-data-might-be-sensitive-data/social-image-no-text.png
 related_posts:
- - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
- - /blog/vodafone-deutsche-telekom-to-introduce-persistent-user-tracking
- - /blog/less-is-more-data-minimization-can-help-your-business
- - /blog/google-analytics-performance-impact-using-google-lighthouse
+  - /blog/does-safari-block-google-analytics-and-apple-privacy-updates
+  - /blog/vodafone-deutsche-telekom-to-introduce-persistent-user-tracking
+  - /blog/less-is-more-data-minimization-can-help-your-business
+  - /blog/google-analytics-performance-impact-using-google-lighthouse
 ---
 
 In a [recent case](https://gdprhub.eu/index.php?title=CJEU_-_C%E2%80%91184/20_-_Vyriausioji_Tarnybin%C4%97s_Etikos_Komisija), the EU Court of Justice ruled that 'data' which can reveal 'sensitive data' should be regarded as 'sensitive data.'
@@ -20,14 +20,11 @@ In this article, we outline why this scenario is not far-fetched and why it woul
 
 {% include gif.html slug="explain-like-five" alt="explain like five" width="480" height="400" color="#574840" %}
 
-1.  [What is the case about?](#1-what-is-the-case-about)
-2.  [What does the ruling mean?](#2-what-does-the-ruling-mean)
-3.  [The practical implications](#3-the-practical-implications)
-4.  [What does it mean for cookies?](#4-what-does-it-mean-for-cookies)
+{{tableofcontents}}
 
 Let's dive in
 
-## 1. What is the case about?
+## What is the case about?
 
 The case at hand was brought by the director of a Lithuanian establishment that received public funding. Under Lithuanian law on conflict of interest, he was required to provide certain personal information- including the name of his spouse - to an Ethics Commission for publication.
 
@@ -35,13 +32,13 @@ The director refused to provide the information. He claimed that disclosing his 
 
 He brought his case to an administrative court and later landed in the EU Court of Justice for a preliminary ruling. The Court finally ruled that data from which sensitive data can be deducted should themselves be treated as sensitive data under the GDPR. [^1]
 
-## 2. What does the ruling mean?
+## What does the ruling mean?
 
 The GDPR protects personal data in general but lays out stricter rules for particularly sensitive categories of data, such as health data, political opinions, religious beliefs, and sexual orientation. [^2] As the Court explicitly noted, a person's name is not, in and of itself, sensitive data. However, such data can reveal the person's sexual orientation, which is indeed sensitive data. For this reason, the Court held that the name of someone's partner could qualify as sensitive data.
 
-This ruling opens a big can of worms. Lots and lots of personal data are not sensitive in and of themselves but may reveal sensitive information. 
+This ruling opens a big can of worms. Lots and lots of personal data are not sensitive in and of themselves but may reveal sensitive information.
 
-## 3. The practical implications
+## The practical implications
 
 The online advertising industry currently gathers enormous amounts of data to profile Internet users for personalized ads, some of which target users based on sexual orientation, health conditions, and political beliefs (or by reliable proxies of such sensitive properties).
 
@@ -53,13 +50,11 @@ Right now, it's difficult to guess how broadly the ruling will be applied in fut
 
 This also goes for the disclosure of the data to third parties: if a website processed sensitive cookie data through Google Analytics, the website and Google would be, respectively, the controller and the processor of sensitive data.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-your-cookie-data-might-be-sensitive-data/social-image-no-text.png" alt="cookie data" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![cookie data](https://assets.simpleanalytics.com/blog/2022-your-cookie-data-might-be-sensitive-data/social-image-no-text.png)
 
-## 4. What does it mean for cookies?
+## What does it mean for cookies?
 
-More data may be considered to be sensitive  and will be subject to stricter rules under the GDPR. In fact, some data processing operations may not be lawful anymore under the stricter regulation for sensitive data.
+More data may be considered to be sensitive and will be subject to stricter rules under the GDPR. In fact, some data processing operations may not be lawful anymore under the stricter regulation for sensitive data.
 
 If cookie data - or at least some - were considered sensitive data, they would require the user's explicit consent [^3] - that is, a "reinforced" form of "baseline" consent under the GDPR. There are other ways to comply, but from a practical perspective, obtaining explicit consent from the user will be the only option in most scenarios.
 

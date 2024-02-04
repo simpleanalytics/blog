@@ -8,10 +8,10 @@ image_no_text: https://assets.simpleanalytics.com/blog/2022-do-you-really-need-g
 redirect_from:
   - /why-you-should-reconsider-using-google-analytics
 related_posts:
- - /blog/website-analytics-without-cookies
- - /blog/less-is-more-data-minimization-can-help-your-business
- - /blog/simple-analytics-for-marketers
- - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
+  - /blog/website-analytics-without-cookies
+  - /blog/less-is-more-data-minimization-can-help-your-business
+  - /blog/simple-analytics-for-marketers
+  - /blog/why-simple-analytics-is-a-great-alternative-to-google-analytics
 ---
 
 There was a time when Google was a quirky startup---founded by two Stanford grads who operated out of a garage, working day and night to get their company off the ground. The company was initially called Backrub and had one product that blew all competition out of the water. Google is the perfect startup story that led to building on the most influential businesses of all time.
@@ -34,31 +34,20 @@ And their demands are being heard. EU member states are showing their teeth by b
 
 Google Analytics is one of the best free tools Google has ever created. 55% Of the existing websites use an analytics tool, and [85%](https://w3techs.com/technologies/overview/traffic_analysis) of those use Google Analytics. It is the default analytics tool for the internet, but with the privacy issues going on and the change to GA4, I asked myself this question: Do I really need Google Analytics?
 
-Here is why I believe most of us can live without Google Analytics. 
+Here is why I believe most of us can live without Google Analytics.
 
-1. [Why now?](#1--why-now)
-    1.  [Google is sunsetting Universal Analytics in favor of GA4](#11-google-is-sunsetting-universal-analytics-in-favor-of-ga4)
-    1.  [Google Analytics privacy issues](#12-google-analytics-privacy-issues)
-2. [Why you should remove Google Analytics](#2--why-you-should-remove-google-analytics)
-    2.  [Google Analytics is an overly complex analytics tool](#21-google-analytics-is-an-overly-complex-analytics-tool)
-    2.  [Cookie banners hinder your website UX](#22-cookie-banners-hinder-your-website-ux)
-    2.  [Google Analytics affects your website performance](#23-google-analytics-affects-your-website-performance)
-    2.  [Google Analytics data is inaccurate](#24-google-analytics-data-is-inaccurate)
-    2.  [Google Analytics requires a lengthy Privacy policy](#25-google-analytics-requires-a-lengthy-privacy-policy)
-    2.  [Stop collecting everything for the sake of collecting data](#26-stop-collecting-everything-for-the-sake-of-collecting-data)
-    2.  [Let users know you care about their privacy](#27-let-users-know-you-care-about-their-privacy)
-    2.  [Be part of the solution, not the problem](#28-be-part-of-the-solution-not-the-problem)
+{{tableofcontents}}
 
 We're covering a lot of ground so let's dive in!
 
-## 1.  Why now?
+## Why now?
 
 Before diving into the why, we should ask ourselves why now? Why is this the moment to reevaluate the use of Google Analytics for your business? Two reasons:
 
--   Google is changing to a [different version of Google Analytics](https://blog.simpleanalytics.com/google-to-sunset-universal-analytics-in-2023). The current version you are used to will stop collecting data in July 2023. 
--   Some EU member states already [block Google Analytics](https://blog.simpleanalytics.com/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and more will likely follow.
+- Google is changing to a [different version of Google Analytics](/blog/google-to-sunset-universal-analytics-in-2023). The current version you are used to will stop collecting data in July 2023.
+- Some EU member states already [block Google Analytics](/blog/france-rules-google-analytics-to-be-in-conflict-with-gdpr-ruling), and more will likely follow.
 
-### 1.1 Google is sunsetting Universal Analytics in favor of GA4
+### Google is sunsetting Universal Analytics in favor of GA4
 
 At the beginning of March this year, Google announced that it would sunset Universal Analytics in favor of GA4. This was a huge blow for marketeers that have been relying on Universal Analytics for quite some years now. New product developments are usually cheered upon. However, GA4 has so far only received backlash.
 
@@ -68,27 +57,25 @@ The abrupt change has been driven by "a changing business environment," [accordi
 
 In addition, when Universal Analytics is removed in July 2023, they'll have just one year of look-back data. This signals even more that Google understands its privacy concern and deliberately rejects universal analytics as a privacy risk. It wants to get rid of the old system and start with a clean slate.
 
-However, it's debatable how clean that new slate actually is. In a recent blog post, we investigated if GA4 is actually privacy friendlier than its predecessor. [We concluded that it is not the case](https://blog.simpleanalytics.com/google-to-sunset-universal-analytics-in-2023).
+However, it's debatable how clean that new slate actually is. In a recent blog post, we investigated if GA4 is actually privacy friendlier than its predecessor. [We concluded that it is not the case](/blog/google-to-sunset-universal-analytics-in-2023).
 
-### 1.2 Google Analytics privacy issues
+### Google Analytics privacy issues
 
-The second reason is that Google Analytics is facing charges from EU member states due to violating privacy laws. Last Friday, Garante (Italy) became the third data protection agency after DSB (Austria) and CNIL (France) to [ban Google Analytics](https://blog.simpleanalytics.com/italy-declares-google-analytics-illegal). More EU member states will likely follow. GDPR finally shows its teeth after [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) invalidated the privacy shield in July 2020.
+The second reason is that Google Analytics is facing charges from EU member states due to violating privacy laws. Last Friday, Garante (Italy) became the third data protection agency after DSB (Austria) and CNIL (France) to [ban Google Analytics](/blog/italy-declares-google-analytics-illegal). More EU member states will likely follow. GDPR finally shows its teeth after [Schrems II](https://iapp.org/news/a/the-schrems-ii-decision-eu-us-data-transfers-in-question/) invalidated the privacy shield in July 2020.
 
 In short: Data transfer from the EU to the U.S. violates GDPR law. This is because U.S. companies like Google qualify as an  "Electronic communication service provider" that is obliged to hand over their data to the U.S. intelligence service when requested. This means that the U.S. government has access to personal data of EU citizens.
 
-GA4 does not fix this problem. Even if it anonymizes IP addresses, it would still be considered personal data, given Google's ability to [enrich this data with other data points](https://blog.simpleanalytics.com/cnil-update-google-analytics-is-still-illegal) to single out an individual website visitor.
+GA4 does not fix this problem. Even if it anonymizes IP addresses, it would still be considered personal data, given Google's ability to [enrich this data with other data points](/blog/cnil-update-google-analytics-is-still-illegal) to single out an individual website visitor.
 
 Above, we explained the 'why now.' In the second part, we'll explain the 'why.'
 
-<img src="https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png" alt="remove google analytics" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![remove google analytics](https://assets.simpleanalytics.com/blog/2022-do-you-really-need-google-analytics/social-image-no-text.png)
 
-## 2.  Why you should remove Google Analytics 
+## Why you should remove Google Analytics 
 
 Google has been the default analytics tool since the existence of analytics tools. Everyone from the smallest blogger website to fortune 500 companies use Google Analytics. It seems odd that one product is the best fit for so many different use cases. Here is why I believe it might not be the right fit for all of us.
 
-### 2.1 Google Analytics is an overly complex analytics tool
+### Google Analytics is an overly complex analytics tool
 
 Google Analytics is an overly complex tool that welcomes you with multiple dashboards that are difficult to navigate. To satisfy their biggest and most avid users, Google has created a monstrous product that collects as much data as possible by default. While only a handful of users actually need those deep analytics (and do they really?), 95% could do with a lot fewer insights.
 
@@ -96,7 +83,7 @@ For a lot of organizations knowing where your traffic is coming from, which blog
 
 You don't need custom reports to see what's happening on your website and adapt accordingly.
 
-### 2.2 Cookie banners hinder your website UX
+### Cookie banners hinder your website UX
 
 Google Analytics provides very deep insights into user behavior. It does this by collecting enormous amounts of data points and installing tracking mechanisms in your browser.
 
@@ -104,25 +91,23 @@ Website visitors nowadays need to give consent before such a tracking mechanism 
 
 Without looking at this from an ethical standpoint, a cookie banner creates a worse user experience.
 
-Cookie banners are annoying and hinder visitors from exploring your website. It has the same effect as a slow website. People are annoyed or impatient and navigate away. 
+Cookie banners are annoying and hinder visitors from exploring your website. It has the same effect as a slow website. People are annoyed or impatient and navigate away.
 
-### 2.3 Google Analytics affects your website performance
+### Google Analytics affects your website performance
 
 To get an overview of your website analytics, you need to install a script on the pages of your website that register page views.
 
 Scripts differ in size, and the bigger the script, the higher the impact on page load time. Bigger scripts slow down websites. The Google Analytics script (45kb) is a 'heavyweight' among web analytics scripts. In comparison, Simple Analytics' script is only (3kb).
 
-We ran a website [performance test](https://blog.simpleanalytics.com/google-penalizes-you-for-using-google-analytics) using Google Lighthouse. We found that the difference in website performance of 10 basis points favors websites using Simple Analytics instead of Google Analytics.
+We ran a website [performance test](/blog/google-penalizes-you-for-using-google-analytics) using Google Lighthouse. We found that the difference in website performance of 10 basis points favors websites using Simple Analytics instead of Google Analytics.
 
-<img src="https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png" alt="Google Analytics performance impact" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![Google Analytics performance impact](https://assets.simpleanalytics.com/images/blog/lighthouse-compare-share-image.png)
 
 A fast-loading website has a few benefits that are worth noting. Besides an increased user experience and a lower bounce rate, it is also good for SEO. Core web vitals is one of the key metrics that Google looks at to rank pages in their search engine. This means that using Google Analytics might actually lower your search rankings and result in fewer website visitors because it slows down your website.
 
 Add to the mix that you need to interact with a cookie banner before users can navigate to your website, and your perfect user experience is down the drain.
 
-### 2.4 Google Analytics data is inaccurate
+### Google Analytics data is inaccurate
 
 The fact that Google Analytics data is inaccurate sounds counterintuitive. It's the most powerful analytics tool that collects as much data as possible. However, there are a few reasons that make Google Analytics inaccurate.
 
@@ -135,19 +120,19 @@ More and more internet users are using ad-blockers because (yes, there we go aga
 **Referral spam**
 Referral spam has been a big problem for Google Analytics. Referral spam looks like genuine traffic to your website, but it's actually fake. Spammy advertisers send fake visitors to your website in two ways:
 
--   Bot referral spam: Bots visiting your website and making Google Analytics register it
--   Ghost referral spam: Bots totally bypass your website and directly hit the Google Analytics server
+- Bot referral spam: Bots visiting your website and making Google Analytics register it
+- Ghost referral spam: Bots totally bypass your website and directly hit the Google Analytics server
 
 It's a way to draw attention to their own website. The spam URL will be shown in your Google Analytics dashboard to make you curious about what it is or what they are selling. Besides the fact that it's really annoying, it also really skews your data.
 
 **Data sampling**
-Google Analytics uses a technique called data sampling to save server capacity and keep costs down. Data sampling means that only a subset of your actual traffic is processed. From this subset, Google Analytics predicts what your total traffic would look like. This is a cost-effective way to estimate website analytics. However, it is not nearly as accurate. 
+Google Analytics uses a technique called data sampling to save server capacity and keep costs down. Data sampling means that only a subset of your actual traffic is processed. From this subset, Google Analytics predicts what your total traffic would look like. This is a cost-effective way to estimate website analytics. However, it is not nearly as accurate.
 
-### 2.5 Google Analytics requires a lengthy Privacy policy
+### Google Analytics requires a lengthy Privacy policy
 
-Google specifies the need for a privacy policy in its terms of service. In addition, privacy policies are also a legal requirement. Google Analytics collects personal information of your website visitors, and you need to disclose this data processing activity. The privacy policy needs to be published to provide notice of the use of trackers and identifiers. 
+Google specifies the need for a privacy policy in its terms of service. In addition, privacy policies are also a legal requirement. Google Analytics collects personal information of your website visitors, and you need to disclose this data processing activity. The privacy policy needs to be published to provide notice of the use of trackers and identifiers.
 
-### 2.6 Stop collecting everything for the sake of collecting data
+### Stop collecting everything for the sake of collecting data
 
 Google Analytics has always been the default for almost every website. We've grown accustomed to the amounts of data collected, and we value this as a necessity.
 
@@ -161,7 +146,7 @@ However, the problem is that we have gotten accustomed to the capabilities of Go
 
 There will always be a trade-off between data and privacy, and organizations must adopt this new mindset to stay ahead.
 
-### 2.7 Let users know you care about their privacy
+### Let users know you care about their privacy
 
 Selling is about trust. The fact that people buy something from you means that they trust you. That's why it's always good to show the person or people behind a business. This builds trust. People still value buying from people, not from faceless organizations.
 
@@ -169,7 +154,7 @@ Caring about your customers' privacy builds trust. The fact that you are not sel
 
 You want to show that you care about your customers because only then will your customers start caring about you and stay loyal customers who might even tell their friends about your product. Taking care of your users' privacy will do the same.
 
-### 2.8 Be part of the solution, not the problem
+### Be part of the solution, not the problem
 
 We believe it's not only a matter of staying within the law. For us, it goes beyond that. We believe you can still make decisions based on website data without needing to collect personal data or track individuals. Privacy is a human right that should be taken seriously.
 
@@ -177,9 +162,7 @@ By moving away from Google, you help create a more independent web that is more 
 
 Be part of the solution, not the problem and bin Google Analytics.
 
-<img src="https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/bins-no-text-dark.png" alt="remove google analytics" class="border-radius" />
-<p class="caption" markdown="1">
-</p>
+![remove google analytics](https://assets.simpleanalytics.com/blog/2022-how-to-delete-google-analytics/bins-no-text-dark.png)
 
 ## Why do we care?
 
